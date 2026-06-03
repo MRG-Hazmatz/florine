@@ -1,0 +1,7 @@
+# Generated audio (mp3) lives here, organised by unit id:
+#   public/audio/<level>/<unit-slug>/vocab-<id>.mp3
+#   public/audio/<level>/<unit-slug>/example-<id>.mp3
+#
+# These files are produced at BUILD TIME by scripts/generate_audio.py (edge-tts)
+# and committed to the repo. None exist yet in Phase 1 — content JSON references
+# placeholder paths. This .gitkeep just keeps the folder in version control.

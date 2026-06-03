@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "a1.1/unit-01-greetings",
+  "level": "a1.1",
+  "unitNumber": 1,
+  "slug": "unit-01-greetings",
+  "title": "Greetings & Introducing Yourself",
+  "titleFr": "Salutations et présentations",
+  "cefrDescriptors": [
+    "Can establish basic social contact by using the simplest everyday polite forms of greeting and farewell.",
+    "Can introduce themselves and use basic greeting and leave-taking expressions."
+  ],
+  "skills": ["reading", "listening", "speaking"],
+  "estimatedMinutes": 30,
+  "concept": "In French, greetings carry more social weight than in English. Walking into a shop, a classroom, or a lift without saying bonjour can come across as rude - the greeting is the price of entry to almost any interaction. This unit covers the everyday words you will use dozens of times a day.\n\nThe biggest idea to grasp early is formality. French has two ways of saying \"you\": tu (informal - friends, family, people your own age) and vous (formal or plural - strangers, teachers, elders, groups). It shapes which greeting you choose. With someone you do not know, you greet with bonjour madame / bonjour monsieur and use vous. With a friend, a quick salut is natural.\n\nBonjour works all day; switch to bonsoir in the evening. Salut means both \"hi\" and \"bye\", but only informally. To leave politely, say au revoir. The magic words merci (thank you) and s'il vous plaît (please, formal) will carry you a long way.\n\nWhen you meet someone for the first time you introduce yourself with je m'appelle... (\"my name is...\", literally \"I call myself...\") and can reply enchanté (men) / enchantée (women) - \"delighted to meet you\". To ask how someone is, informally: comment ça va ? - and the easy answer, ça va bien, merci.\n\nDo not worry about the grammar of je m'appelle yet; treat these as fixed phrases. We will unpack reflexive verbs in a later unit. For now, just get them onto your tongue.",
+  "vocabulary": [
+    { "id": "bonjour", "fr": "bonjour", "en": "hello / good morning", "pos": "interjection", "exampleFr": "Bonjour, comment allez-vous ?", "exampleEn": "Hello, how are you?", "audio": "audio/a1.1/unit-01-greetings/vocab-bonjour.mp3", "voice": "denise" },
+    { "id": "bonsoir", "fr": "bonsoir", "en": "good evening", "pos": "interjection", "exampleFr": "Bonsoir, madame.", "exampleEn": "Good evening, ma'am.", "audio": "audio/a1.1/unit-01-greetings/vocab-bonsoir.mp3", "voice": "henri" },
+    { "id": "salut", "fr": "salut", "en": "hi / bye (informal)", "pos": "interjection", "exampleFr": "Salut ! Ça va ?", "exampleEn": "Hi! How's it going?", "audio": "audio/a1.1/unit-01-greetings/vocab-salut.mp3", "voice": "denise" },
+    { "id": "au-revoir", "fr": "au revoir", "en": "goodbye", "pos": "interjection", "exampleFr": "Au revoir et à bientôt !", "exampleEn": "Goodbye and see you soon!", "audio": "audio/a1.1/unit-01-greetings/vocab-au-revoir.mp3", "voice": "henri" },
+    { "id": "merci", "fr": "merci", "en": "thank you", "pos": "interjection", "exampleFr": "Merci beaucoup !", "exampleEn": "Thank you very much!", "audio": "audio/a1.1/unit-01-greetings/vocab-merci.mp3", "voice": "denise" },
+    { "id": "svp", "fr": "s'il vous plaît", "en": "please (formal)", "pos": "phrase", "exampleFr": "Un café, s'il vous plaît.", "exampleEn": "A coffee, please.", "audio": "audio/a1.1/unit-01-greetings/vocab-svp.mp3", "voice": "henri" },
+    { "id": "oui", "fr": "oui", "en": "yes", "pos": "adverb", "exampleFr": "Oui, merci.", "exampleEn": "Yes, thank you.", "audio": "audio/a1.1/unit-01-greetings/vocab-oui.mp3", "voice": "denise" },
+    { "id": "non", "fr": "non", "en": "no", "pos": "adverb", "exampleFr": "Non, merci.", "exampleEn": "No, thank you.", "audio": "audio/a1.1/unit-01-greetings/vocab-non.mp3", "voice": "henri" },
+    { "id": "je-mappelle", "fr": "je m'appelle", "en": "my name is", "pos": "phrase", "exampleFr": "Je m'appelle Claire.", "exampleEn": "My name is Claire.", "audio": "audio/a1.1/unit-01-greetings/vocab-je-mappelle.mp3", "voice": "denise" },
+    { "id": "enchante", "fr": "enchanté", "en": "pleased to meet you", "pos": "adjective", "exampleFr": "Enchanté !", "exampleEn": "Pleased to meet you!", "audio": "audio/a1.1/unit-01-greetings/vocab-enchante.mp3", "voice": "henri" },
+    { "id": "comment-ca-va", "fr": "comment ça va ?", "en": "how are you? (informal)", "pos": "phrase", "exampleFr": "Comment ça va aujourd'hui ?", "exampleEn": "How are you today?", "audio": "audio/a1.1/unit-01-greetings/vocab-comment-ca-va.mp3", "voice": "denise" },
+    { "id": "madame", "fr": "madame", "en": "madam / Mrs / Ms", "pos": "noun", "exampleFr": "Bonjour, madame.", "exampleEn": "Hello, ma'am.", "audio": "audio/a1.1/unit-01-greetings/vocab-madame.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "Bonjour, je m'appelle Claire.", "en": "Hello, my name is Claire.", "audio": "audio/a1.1/unit-01-greetings/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "Salut ! Ça va ?", "en": "Hi! How's it going?", "audio": "audio/a1.1/unit-01-greetings/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "Comment ça va ? — Ça va bien, merci.", "en": "How are you? — I'm well, thank you.", "audio": "audio/a1.1/unit-01-greetings/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "Enchanté, monsieur.", "en": "Pleased to meet you, sir.", "audio": "audio/a1.1/unit-01-greetings/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "Au revoir et bonne journée !", "en": "Goodbye and have a good day!", "audio": "audio/a1.1/unit-01-greetings/example-ex-5.mp3", "voice": "denise" },
+    { "id": "ex-6", "fr": "Un café, s'il vous plaît.", "en": "A coffee, please.", "audio": "audio/a1.1/unit-01-greetings/example-ex-6.mp3", "voice": "henri" }
+  ]
+}

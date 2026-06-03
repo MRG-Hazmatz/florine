@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+/* ---------------------------------------------------------------------------
+   Florine design tokens (Tailwind v4 @theme).
+   These generate utilities automatically, e.g. --color-marine -> bg-marine,
+   text-marine, border-marine, and the /<alpha> opacity modifier (bg-marine/10).
+   Palette: warm parchment paper, ink text, French navy + drapeau red accents.
+--------------------------------------------------------------------------- */
+@theme {
+  --color-parchment: #faf6ee;
+  --color-ink: #1f2430;
+  --color-marine: #1b3a5b;
+  --color-bleu: #2b5fa6;
+  --color-rouge: #b3122f;
+
+  --font-display: Georgia, "Times New Roman", serif;
+}
+
+:root {
+  color-scheme: light;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--color-parchment);
+  color: var(--color-ink);
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}

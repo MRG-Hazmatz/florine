@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "unitId": "a1.1/unit-01-greetings",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Which French word means \"thank you\"?",
+      "options": [
+        { "id": "a", "text": "merci" },
+        { "id": "b", "text": "bonjour" },
+        { "id": "c", "text": "oui" },
+        { "id": "d", "text": "non" }
+      ],
+      "correct": ["a"],
+      "explanation": "merci = thank you. bonjour = hello, oui = yes, non = no."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Complete the introduction: \"Hello, my name is Claire.\"",
+      "promptFr": "Complétez la présentation.",
+      "inputMode": "typed",
+      "template": "Bonjour, je {{b1}} Claire.",
+      "blanks": [
+        { "id": "b1", "accept": ["m'appelle", "mappelle"] }
+      ],
+      "explanation": "je m'appelle = my name is (literally: I call myself)."
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order to say \"My name is Marie.\"",
+      "tokens": [
+        { "id": "t1", "text": "Je" },
+        { "id": "t2", "text": "m'appelle" },
+        { "id": "t3", "text": "Marie" }
+      ],
+      "correctOrder": ["t1", "t2", "t3"]
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each French expression to its English meaning.",
+      "pairs": [
+        { "id": "p1", "left": "bonjour", "right": "hello" },
+        { "id": "p2", "left": "merci", "right": "thank you" },
+        { "id": "p3", "left": "au revoir", "right": "goodbye" },
+        { "id": "p4", "left": "oui", "right": "yes" }
+      ]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen and choose the greeting you hear.",
+      "audio": "audio/a1.1/unit-01-greetings/listen-1.mp3",
+      "transcript": "Bonsoir !",
+      "options": [
+        { "id": "a", "text": "bonjour" },
+        { "id": "b", "text": "bonsoir" },
+        { "id": "c", "text": "salut" }
+      ],
+      "correct": ["b"],
+      "explanation": "bonsoir = good evening, used later in the day."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read the short exchange and answer the question.",
+      "passageFr": "— Bonjour ! Je m'appelle Luc. Et vous ?\n— Bonjour Luc, je m'appelle Sofia. Enchantée !",
+      "passageEn": "— Hello! My name is Luc. And you?\n— Hello Luc, my name is Sofia. Pleased to meet you!",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "What are the two people doing?",
+          "options": [
+            { "id": "a", "text": "Introducing themselves" },
+            { "id": "b", "text": "Ordering food" },
+            { "id": "c", "text": "Saying goodbye" }
+          ],
+          "correct": ["a"]
+        }
+      ]
+    }
+  ]
+}

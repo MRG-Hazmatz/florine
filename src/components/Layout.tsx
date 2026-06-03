@@ -1,0 +1,39 @@
+import { Link, NavLink, Outlet } from "react-router-dom";
+
+const navClass = ({ isActive }: { isActive: boolean }) =>
+  `px-3 py-1 rounded transition-colors ${
+    isActive ? "bg-marine text-white" : "text-marine hover:bg-marine/10"
+  }`;
+
+export default function Layout() {
+  return (
+    <div className="min-h-full flex flex-col">
+      <header className="sticky top-0 border-b border-ink/10 bg-parchment/80 backdrop-blur">
+        <div className="mx-auto flex max-w-4xl items-center gap-4 px-4 py-3">
+          <Link to="/" className="font-display text-2xl font-bold text-rouge">
+            Florine
+          </Link>
+          <span className="hidden text-sm text-ink/40 sm:inline">
+            apprendre le français
+          </span>
+          <nav className="ml-auto flex gap-2 text-sm">
+            <NavLink to="/" end className={navClass}>
+              Home
+            </NavLink>
+            <NavLink to="/levels" className={navClass}>
+              Levels
+            </NavLink>
+          </nav>
+        </div>
+      </header>
+
+      <main className="mx-auto w-full max-w-4xl flex-1 px-4 py-8">
+        <Outlet />
+      </main>
+
+      <footer className="border-t border-ink/10 py-4 text-center text-xs text-ink/40">
+        Florine — open-source DELF practice · Phase 1 skeleton
+      </footer>
+    </div>
+  );
+}
