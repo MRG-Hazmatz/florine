@@ -7,37 +7,41 @@
       "id": "ex-mc-1",
       "type": "multiple-choice",
       "skill": "reading",
-      "prompt": "Which French word means \"seven\"?",
+      "prompt": "Which number comes right after « huit »?",
       "options": [
-        { "id": "a", "text": "cinq" },
-        { "id": "b", "text": "six" },
-        { "id": "c", "text": "sept" },
-        { "id": "d", "text": "huit" }
+        { "id": "a", "text": "sept" },
+        { "id": "b", "text": "neuf" },
+        { "id": "c", "text": "dix" },
+        { "id": "d", "text": "six" }
       ],
-      "correct": ["c"],
-      "explanation": "sept = seven. cinq = 5, six = 6, huit = 8."
+      "correct": ["b"],
+      "explanation": "sept (7), huit (8), neuf (9), dix (10)."
     },
     {
       "id": "ex-fb-1",
       "type": "fill-blank",
       "skill": "writing",
-      "prompt": "Complete the sequence.",
+      "prompt": "Complete the sequence with the two missing numbers (in words).",
       "inputMode": "typed",
-      "template": "un, deux, {{b1}}, quatre",
-      "blanks": [{ "id": "b1", "accept": ["trois"] }],
-      "explanation": "un (1), deux (2), trois (3), quatre (4)."
+      "template": "six, sept, {{b1}}, {{b2}}, dix",
+      "blanks": [
+        { "id": "b1", "accept": ["huit"] },
+        { "id": "b2", "accept": ["neuf"] }
+      ],
+      "explanation": "six, sept, huit, neuf, dix."
     },
     {
       "id": "ex-ro-1",
       "type": "reorder",
       "skill": "writing",
-      "prompt": "Put these numbers in counting order (smallest first).",
+      "prompt": "Put these numbers in DESCENDING order (biggest first).",
       "tokens": [
-        { "id": "t1", "text": "deux" },
-        { "id": "t2", "text": "quatre" },
-        { "id": "t3", "text": "six" }
+        { "id": "t1", "text": "un" },
+        { "id": "t2", "text": "trois" },
+        { "id": "t3", "text": "cinq" }
       ],
-      "correctOrder": ["t1", "t2", "t3"]
+      "correctOrder": ["t3", "t2", "t1"],
+      "explanation": "Biggest first: cinq (5), trois (3), un (1)."
     },
     {
       "id": "ex-mp-1",
@@ -45,45 +49,79 @@
       "skill": "reading",
       "prompt": "Match each numeral to the French word.",
       "pairs": [
-        { "id": "p1", "left": "4", "right": "quatre" },
-        { "id": "p2", "left": "6", "right": "six" },
-        { "id": "p3", "left": "9", "right": "neuf" },
-        { "id": "p4", "left": "10", "right": "dix" }
+        { "id": "p1", "left": "0", "right": "zéro" },
+        { "id": "p2", "left": "7", "right": "sept" },
+        { "id": "p3", "left": "8", "right": "huit" },
+        { "id": "p4", "left": "9", "right": "neuf" }
       ]
     },
     {
       "id": "ex-li-1",
       "type": "listen",
       "skill": "listening",
-      "prompt": "Listen and choose the number you hear.",
+      "prompt": "Listen to the sentence. How old is the person?",
       "audio": "audio/a1.1/unit-02-numbers/listen-1.mp3",
-      "transcript": "cinq",
+      "transcript": "J'ai sept ans.",
       "options": [
-        { "id": "a", "text": "quatre (4)" },
-        { "id": "b", "text": "cinq (5)" },
-        { "id": "c", "text": "six (6)" }
+        { "id": "a", "text": "6" },
+        { "id": "b", "text": "7" },
+        { "id": "c", "text": "8" }
       ],
-      "correct": ["b"]
+      "correct": ["b"],
+      "explanation": "« J'ai sept ans » = I am seven years old."
     },
     {
       "id": "ex-rd-1",
       "type": "read",
       "skill": "reading",
-      "prompt": "Read the exchange and answer.",
-      "passageFr": "— Tu as quel âge ?\n— J'ai dix ans.",
-      "passageEn": "— How old are you?\n— I am ten years old.",
+      "prompt": "Read about Tom and answer both questions.",
+      "passageFr": "Bonjour ! Je m'appelle Tom. J'ai huit ans. J'ai deux frères.",
+      "passageEn": "Hello! My name is Tom. I am eight years old. I have two brothers.",
       "questions": [
         {
           "id": "q1",
-          "prompt": "How old is the person?",
+          "prompt": "How old is Tom?",
           "options": [
-            { "id": "a", "text": "Two" },
-            { "id": "b", "text": "Eight" },
-            { "id": "c", "text": "Ten" }
+            { "id": "a", "text": "6" },
+            { "id": "b", "text": "8" },
+            { "id": "c", "text": "10" }
           ],
-          "correct": ["c"]
+          "correct": ["b"]
+        },
+        {
+          "id": "q2",
+          "prompt": "How many brothers does he have?",
+          "options": [
+            { "id": "a", "text": "1" },
+            { "id": "b", "text": "2" },
+            { "id": "c", "text": "3" }
+          ],
+          "correct": ["b"]
         }
       ]
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Write the number in words.",
+      "inputMode": "typed",
+      "template": "4 = {{b1}}",
+      "blanks": [{ "id": "b1", "accept": ["quatre"] }],
+      "explanation": "4 = quatre."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "« Trois cafés, s'il vous plaît. » How many coffees are ordered?",
+      "options": [
+        { "id": "a", "text": "2" },
+        { "id": "b", "text": "3" },
+        { "id": "c", "text": "4" }
+      ],
+      "correct": ["b"],
+      "explanation": "trois = 3."
     }
   ]
 }

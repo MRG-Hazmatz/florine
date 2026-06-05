@@ -25,7 +25,10 @@
     { "id": "je-mappelle", "fr": "je m'appelle", "en": "my name is", "pos": "phrase", "exampleFr": "Je m'appelle Claire.", "exampleEn": "My name is Claire.", "audio": "audio/a1.1/unit-01-greetings/vocab-je-mappelle.mp3", "voice": "denise" },
     { "id": "enchante", "fr": "enchanté", "en": "pleased to meet you", "pos": "adjective", "exampleFr": "Enchanté !", "exampleEn": "Pleased to meet you!", "audio": "audio/a1.1/unit-01-greetings/vocab-enchante.mp3", "voice": "henri" },
     { "id": "comment-ca-va", "fr": "comment ça va ?", "en": "how are you? (informal)", "pos": "phrase", "exampleFr": "Comment ça va aujourd'hui ?", "exampleEn": "How are you today?", "audio": "audio/a1.1/unit-01-greetings/vocab-comment-ca-va.mp3", "voice": "denise" },
-    { "id": "madame", "fr": "madame", "en": "madam / Mrs / Ms", "pos": "noun", "exampleFr": "Bonjour, madame.", "exampleEn": "Hello, ma'am.", "audio": "audio/a1.1/unit-01-greetings/vocab-madame.mp3", "voice": "henri" }
+    { "id": "madame", "fr": "madame", "en": "madam / Mrs / Ms", "pos": "noun", "exampleFr": "Bonjour, madame.", "exampleEn": "Hello, ma'am.", "audio": "audio/a1.1/unit-01-greetings/vocab-madame.mp3", "voice": "henri" },
+    { "id": "monsieur", "fr": "monsieur", "en": "sir / Mr", "pos": "noun", "exampleFr": "Bonsoir, monsieur.", "exampleEn": "Good evening, sir.", "audio": "audio/a1.1/unit-01-greetings/vocab-monsieur.mp3", "voice": "denise" },
+    { "id": "comment-allez-vous", "fr": "comment allez-vous ?", "en": "how are you? (formal)", "pos": "phrase", "exampleFr": "Bonjour madame, comment allez-vous ?", "exampleEn": "Hello ma'am, how are you?", "audio": "audio/a1.1/unit-01-greetings/vocab-comment-allez-vous.mp3", "voice": "henri" },
+    { "id": "a-bientot", "fr": "à bientôt", "en": "see you soon", "pos": "phrase", "exampleFr": "Au revoir, à bientôt !", "exampleEn": "Goodbye, see you soon!", "audio": "audio/a1.1/unit-01-greetings/vocab-a-bientot.mp3", "voice": "denise" }
   ],
   "examples": [
     { "id": "ex-1", "fr": "Bonjour, je m'appelle Claire.", "en": "Hello, my name is Claire.", "audio": "audio/a1.1/unit-01-greetings/example-ex-1.mp3", "voice": "denise" },
