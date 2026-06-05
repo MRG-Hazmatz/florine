@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "a1.1/unit-03-introductions",
+  "level": "a1.1",
+  "unitNumber": 3,
+  "slug": "unit-03-introductions",
+  "title": "Introducing Yourself & Others",
+  "titleFr": "Se présenter",
+  "cefrDescriptors": [
+    "Can introduce themselves and others and give basic personal information (name, nationality, profession).",
+    "Can use the verb être and choose between tu and vous appropriately."
+  ],
+  "skills": ["reading", "listening", "writing"],
+  "estimatedMinutes": 40,
+  "concept": "This lesson covers the single most useful thing you will do in French: introducing yourself and asking who someone is. Three pieces of grammar make it work.\n\nFirst, the verb être (\"to be\") — the backbone of self-description. Learn it cold; you will use it constantly:\n  je suis (I am), tu es (you are, informal), il/elle est (he/she is),\n  nous sommes (we are), vous êtes (you are, formal/plural), ils/elles sont (they are).\nWith jobs and nationalities you use être and NO article: je suis professeur (not \"je suis un professeur\"), je suis indienne.\n\nSecond, nationalities agree with gender. The masculine is the base form; the feminine usually adds -e, which often makes a final consonant come alive in pronunciation: français → française (the masculine -s is silent, but you hear the -se as a \"z\"). Some double the consonant: indien → indienne, italien → italienne, canadien → canadienne. As adjectives (\"I am French\"), they stay lowercase: je suis français.\n\nThird, tu vs vous. Use tu with friends, family, and people your own age; use vous with strangers, elders, teachers, and any group of people. The choice changes the verb (tu es vs vous êtes) and the question \"what is your name?\": comment tu t'appelles ? (informal) or comment vous appelez-vous ? (formal).\n\nPut together, a simple introduction is: \"Bonjour, je m'appelle… Je suis [nationality]. Je suis [job].\" To ask back: \"Et vous ? Quelle est votre nationalité ?\"\n\nDon't aim for perfect — aim to say three correct sentences about yourself out loud.",
+  "vocabulary": [
+    { "id": "etre", "fr": "être", "en": "to be", "pos": "verb", "exampleFr": "Je suis étudiante.", "exampleEn": "I am a student.", "audio": "audio/a1.1/unit-03-introductions/vocab-etre.mp3", "voice": "denise" },
+    { "id": "sappeler", "fr": "s'appeler", "en": "to be called", "pos": "verb", "exampleFr": "Je m'appelle Luc.", "exampleEn": "My name is Luc.", "audio": "audio/a1.1/unit-03-introductions/vocab-sappeler.mp3", "voice": "henri" },
+    { "id": "comment", "fr": "comment", "en": "how", "pos": "adverb", "exampleFr": "Comment vous appelez-vous ?", "exampleEn": "What is your name?", "audio": "audio/a1.1/unit-03-introductions/vocab-comment.mp3", "voice": "denise" },
+    { "id": "nationalite", "fr": "la nationalité", "en": "nationality", "pos": "noun", "exampleFr": "Quelle est votre nationalité ?", "exampleEn": "What is your nationality?", "audio": "audio/a1.1/unit-03-introductions/vocab-nationalite.mp3", "voice": "henri" },
+    { "id": "francais", "fr": "français", "en": "French (f. française)", "pos": "adjective", "exampleFr": "Il est français.", "exampleEn": "He is French.", "audio": "audio/a1.1/unit-03-introductions/vocab-francais.mp3", "voice": "denise" },
+    { "id": "anglais", "fr": "anglais", "en": "English (f. anglaise)", "pos": "adjective", "exampleFr": "Elle est anglaise.", "exampleEn": "She is English.", "audio": "audio/a1.1/unit-03-introductions/vocab-anglais.mp3", "voice": "henri" },
+    { "id": "indien", "fr": "indien", "en": "Indian (f. indienne)", "pos": "adjective", "exampleFr": "Je suis indien.", "exampleEn": "I am Indian.", "audio": "audio/a1.1/unit-03-introductions/vocab-indien.mp3", "voice": "denise" },
+    { "id": "espagnol", "fr": "espagnol", "en": "Spanish (f. espagnole)", "pos": "adjective", "exampleFr": "Pablo est espagnol.", "exampleEn": "Pablo is Spanish.", "audio": "audio/a1.1/unit-03-introductions/vocab-espagnol.mp3", "voice": "henri" },
+    { "id": "italien", "fr": "italien", "en": "Italian (f. italienne)", "pos": "adjective", "exampleFr": "Elle est italienne.", "exampleEn": "She is Italian.", "audio": "audio/a1.1/unit-03-introductions/vocab-italien.mp3", "voice": "denise" },
+    { "id": "canadien", "fr": "canadien", "en": "Canadian (f. canadienne)", "pos": "adjective", "exampleFr": "Marie est canadienne.", "exampleEn": "Marie is Canadian.", "audio": "audio/a1.1/unit-03-introductions/vocab-canadien.mp3", "voice": "henri" },
+    { "id": "france", "fr": "la France", "en": "France", "pos": "noun", "exampleFr": "J'habite en France.", "exampleEn": "I live in France.", "audio": "audio/a1.1/unit-03-introductions/vocab-france.mp3", "voice": "denise" },
+    { "id": "inde", "fr": "l'Inde", "en": "India", "pos": "noun", "exampleFr": "Elle habite en Inde.", "exampleEn": "She lives in India.", "audio": "audio/a1.1/unit-03-introductions/vocab-inde.mp3", "voice": "henri" },
+    { "id": "etudiant", "fr": "un étudiant", "en": "a student (f. une étudiante)", "pos": "noun", "exampleFr": "Je suis étudiant.", "exampleEn": "I am a student.", "audio": "audio/a1.1/unit-03-introductions/vocab-etudiant.mp3", "voice": "denise" },
+    { "id": "professeur", "fr": "un professeur", "en": "a teacher", "pos": "noun", "exampleFr": "Il est professeur.", "exampleEn": "He is a teacher.", "audio": "audio/a1.1/unit-03-introductions/vocab-professeur.mp3", "voice": "henri" },
+    { "id": "medecin", "fr": "un médecin", "en": "a doctor", "pos": "noun", "exampleFr": "Elle est médecin.", "exampleEn": "She is a doctor.", "audio": "audio/a1.1/unit-03-introductions/vocab-medecin.mp3", "voice": "denise" },
+    { "id": "ingenieur", "fr": "un ingénieur", "en": "an engineer", "pos": "noun", "exampleFr": "Je suis ingénieur.", "exampleEn": "I am an engineer.", "audio": "audio/a1.1/unit-03-introductions/vocab-ingenieur.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "Bonjour, je m'appelle Sofia et je suis indienne.", "en": "Hello, my name is Sofia and I am Indian.", "audio": "audio/a1.1/unit-03-introductions/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "Vous êtes français, monsieur ?", "en": "Are you French, sir?", "audio": "audio/a1.1/unit-03-introductions/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "Elle est canadienne et elle est médecin.", "en": "She is Canadian and she is a doctor.", "audio": "audio/a1.1/unit-03-introductions/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "Comment vous appelez-vous ?", "en": "What is your name? (formal)", "audio": "audio/a1.1/unit-03-introductions/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "Nous sommes étudiants à Paris.", "en": "We are students in Paris.", "audio": "audio/a1.1/unit-03-introductions/example-ex-5.mp3", "voice": "denise" },
+    { "id": "ex-6", "fr": "Quelle est votre nationalité ?", "en": "What is your nationality?", "audio": "audio/a1.1/unit-03-introductions/example-ex-6.mp3", "voice": "henri" }
+  ]
+}

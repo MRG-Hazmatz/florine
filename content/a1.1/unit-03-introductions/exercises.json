@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "unitId": "a1.1/unit-03-introductions",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Choose the correct form of être: « Elle ___ française. »",
+      "options": [
+        { "id": "a", "text": "est" },
+        { "id": "b", "text": "es" },
+        { "id": "c", "text": "suis" },
+        { "id": "d", "text": "sont" }
+      ],
+      "correct": ["a"],
+      "explanation": "il/elle est. Full set: je suis, tu es, il/elle est, nous sommes, vous êtes, ils/elles sont."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Conjugate être correctly.",
+      "promptFr": "Conjuguez le verbe être.",
+      "inputMode": "typed",
+      "template": "Je {{b1}} étudiant et tu {{b2}} professeur.",
+      "blanks": [
+        { "id": "b1", "accept": ["suis"] },
+        { "id": "b2", "accept": ["es"] }
+      ],
+      "explanation": "je suis, tu es."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Marie is from Canada. Complete: « Marie est ___. »",
+      "options": [
+        { "id": "a", "text": "canadienne" },
+        { "id": "b", "text": "canadien" },
+        { "id": "c", "text": "Canada" },
+        { "id": "d", "text": "canadiens" }
+      ],
+      "correct": ["a"],
+      "explanation": "Marie is feminine, so the nationality takes the feminine form: canadien → canadienne."
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "You are speaking to your teacher. Choose the right pronoun.",
+      "inputMode": "dropdown",
+      "template": "{{b1}} êtes anglais ?",
+      "blanks": [
+        { "id": "b1", "accept": ["Vous"], "options": ["Tu", "Vous"] }
+      ],
+      "explanation": "With a teacher (a formal situation) use vous → « vous êtes ». Tu would be too familiar."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each country to its (masculine) nationality.",
+      "pairs": [
+        { "id": "p1", "left": "la France", "right": "français" },
+        { "id": "p2", "left": "l'Inde", "right": "indien" },
+        { "id": "p3", "left": "l'Espagne", "right": "espagnol" },
+        { "id": "p4", "left": "l'Italie", "right": "italien" }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order to ask a stranger, politely, if they are a teacher.",
+      "tokens": [
+        { "id": "t1", "text": "Vous" },
+        { "id": "t2", "text": "êtes" },
+        { "id": "t3", "text": "professeur" },
+        { "id": "t4", "text": "?" }
+      ],
+      "correctOrder": ["t1", "t2", "t3", "t4"],
+      "explanation": "« Vous êtes professeur ? » — a polite yes/no question using vous."
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen to Karim, then: what is his profession?",
+      "audio": "audio/a1.1/unit-03-introductions/listen-1.mp3",
+      "transcript": "Bonjour ! Je m'appelle Karim. Je suis français et je suis professeur.",
+      "options": [
+        { "id": "a", "text": "Teacher" },
+        { "id": "b", "text": "Student" },
+        { "id": "c", "text": "Doctor" }
+      ],
+      "correct": ["a"],
+      "explanation": "He says « je suis professeur » — a teacher."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read Elena's profile and answer the two questions.",
+      "passageFr": "Je m'appelle Elena Rossi. Je suis italienne. J'habite à Rome. Je suis médecin.",
+      "passageEn": "My name is Elena Rossi. I am Italian. I live in Rome. I am a doctor.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "What is Elena's nationality?",
+          "options": [
+            { "id": "a", "text": "Italian" },
+            { "id": "b", "text": "Spanish" },
+            { "id": "c", "text": "French" }
+          ],
+          "correct": ["a"]
+        },
+        {
+          "id": "q2",
+          "prompt": "What is her profession?",
+          "options": [
+            { "id": "a", "text": "Doctor" },
+            { "id": "b", "text": "Teacher" },
+            { "id": "c", "text": "Student" }
+          ],
+          "correct": ["a"]
+        }
+      ]
+    }
+  ]
+}
