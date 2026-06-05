@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "a1.1/unit-02-numbers",
+  "level": "a1.1",
+  "unitNumber": 2,
+  "slug": "unit-02-numbers",
+  "title": "Numbers 0–10",
+  "titleFr": "Les nombres de 0 à 10",
+  "cefrDescriptors": [
+    "Can understand and use cardinal numbers and basic counting in everyday contexts."
+  ],
+  "skills": ["reading", "listening"],
+  "estimatedMinutes": 25,
+  "concept": "Numbers come up constantly — prices, ages, phone numbers, times — so the first ten are worth memorising cold. The good news: 0 to 10 are short and very regular.\n\nA few pronunciation notes. French often hides final consonants, but several of these numbers are exceptions when said alone: cinq, six, sept, huit, neuf and dix all pronounce their final sound in isolation. Watch out for six and dix — alone they sound like \"seess\" and \"deess\", but the final sound shifts depending on the next word (this is called liaison, and we'll come back to it later; don't worry about mastering it now).\n\nOne number does double duty: un means both \"one\" and \"a/an\". It also has a feminine form, une, used before feminine nouns (un café but une table). For pure counting, you'll just say un.\n\nThe rest are invariable — deux, trois, quatre never change form. Practise saying them out loud in sequence (un, deux, trois…) and then out of order, because in real life numbers rarely arrive politely counting upward. Use the audio buttons to hear each one, and notice the rhythm: French numbers are crisp and short.",
+  "vocabulary": [
+    { "id": "zero", "fr": "zéro", "en": "zero", "pos": "numeral", "audio": "audio/a1.1/unit-02-numbers/vocab-zero.mp3", "voice": "denise" },
+    { "id": "un", "fr": "un", "en": "one (also: a/an)", "pos": "numeral", "exampleFr": "un café", "exampleEn": "a coffee", "audio": "audio/a1.1/unit-02-numbers/vocab-un.mp3", "voice": "henri" },
+    { "id": "deux", "fr": "deux", "en": "two", "pos": "numeral", "audio": "audio/a1.1/unit-02-numbers/vocab-deux.mp3", "voice": "denise" },
+    { "id": "trois", "fr": "trois", "en": "three", "pos": "numeral", "audio": "audio/a1.1/unit-02-numbers/vocab-trois.mp3", "voice": "henri" },
+    { "id": "quatre", "fr": "quatre", "en": "four", "pos": "numeral", "audio": "audio/a1.1/unit-02-numbers/vocab-quatre.mp3", "voice": "denise" },
+    { "id": "cinq", "fr": "cinq", "en": "five", "pos": "numeral", "audio": "audio/a1.1/unit-02-numbers/vocab-cinq.mp3", "voice": "henri" },
+    { "id": "six", "fr": "six", "en": "six", "pos": "numeral", "audio": "audio/a1.1/unit-02-numbers/vocab-six.mp3", "voice": "denise" },
+    { "id": "sept", "fr": "sept", "en": "seven", "pos": "numeral", "audio": "audio/a1.1/unit-02-numbers/vocab-sept.mp3", "voice": "henri" },
+    { "id": "huit", "fr": "huit", "en": "eight", "pos": "numeral", "audio": "audio/a1.1/unit-02-numbers/vocab-huit.mp3", "voice": "denise" },
+    { "id": "neuf", "fr": "neuf", "en": "nine", "pos": "numeral", "audio": "audio/a1.1/unit-02-numbers/vocab-neuf.mp3", "voice": "henri" },
+    { "id": "dix", "fr": "dix", "en": "ten", "pos": "numeral", "audio": "audio/a1.1/unit-02-numbers/vocab-dix.mp3", "voice": "denise" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "Un, deux, trois !", "en": "One, two, three!", "audio": "audio/a1.1/unit-02-numbers/example-ex-1.mp3", "voice": "henri" },
+    { "id": "ex-2", "fr": "J'ai deux frères.", "en": "I have two brothers.", "audio": "audio/a1.1/unit-02-numbers/example-ex-2.mp3", "voice": "denise" },
+    { "id": "ex-3", "fr": "Il est huit heures.", "en": "It is eight o'clock.", "audio": "audio/a1.1/unit-02-numbers/example-ex-3.mp3", "voice": "henri" },
+    { "id": "ex-4", "fr": "Elle a dix ans.", "en": "She is ten years old.", "audio": "audio/a1.1/unit-02-numbers/example-ex-4.mp3", "voice": "denise" },
+    { "id": "ex-5", "fr": "Trois cafés, s'il vous plaît.", "en": "Three coffees, please.", "audio": "audio/a1.1/unit-02-numbers/example-ex-5.mp3", "voice": "henri" }
+  ]
+}

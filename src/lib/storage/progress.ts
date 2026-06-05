@@ -11,6 +11,12 @@
 import { create } from "zustand";
 import { persist } from "zustand/middleware";
 import type { Skill } from "../content/schema";
+import { review, initialCard, type SrsCard, type Rating } from "../srs/sm2";
+
+/** Build the stable per-vocab key used in the SRS map. */
+export function vocabKey(unitId: string, vocabId: string): string {
+  return `${unitId}::${vocabId}`;
+}
 
 export type UnitStatus = "not-started" | "in-progress" | "completed";
 
@@ -41,6 +47,7 @@ interface ProgressData {
   totalStudyMinutes: number;
   streakDays: number;
   lastStudyDate: string | null; // ISO yyyy-mm-dd
+  vocab: Record<string, SrsCard>; // SRS cards, keyed by vocabKey()
 }
 
 interface ProgressActions {
@@ -49,6 +56,9 @@ interface ProgressActions {
   addStudyMinutes: (mins: number) => void;
   exportJSON: () => string;
   importJSON: (json: string) => boolean;
+  addSkillXp: (skill: Skill, n: number) => void;
+  touchStreak: () => void;
+  reviewVocab: (key: string, rating: Rating) => void;
   resetAll: () => void;
 }
 
@@ -61,6 +71,7 @@ const initialData: ProgressData = {
   totalStudyMinutes: 0,
   streakDays: 0,
   lastStudyDate: null,
+  vocab: {},
 };
 
 export const useProgress = create<ProgressState>()(
@@ -111,6 +122,7 @@ export const useProgress = create<ProgressState>()(
           totalStudyMinutes: s.totalStudyMinutes,
           streakDays: s.streakDays,
           lastStudyDate: s.lastStudyDate,
+          vocab: s.vocab,
         };
         return JSON.stringify(data, null, 2);
       },
@@ -125,12 +137,30 @@ export const useProgress = create<ProgressState>()(
             totalStudyMinutes: data.totalStudyMinutes ?? 0,
             streakDays: data.streakDays ?? 0,
             lastStudyDate: data.lastStudyDate ?? null,
+            vocab: data.vocab ?? {},
           });
           return true;
         } catch {
           return false;
         }
       },
+
+      addSkillXp: (skill, n) =>
+        set((s) => ({ skillXp: { ...s.skillXp, [skill]: s.skillXp[skill] + n } })),
+
+      touchStreak: () =>
+        set((s) => {
+          const today = new Date().toISOString().slice(0, 10);
+          if (s.lastStudyDate === today) return {};
+          const yesterday = new Date(Date.now() - 86400000).toISOString().slice(0, 10);
+          const streakDays = s.lastStudyDate === yesterday ? s.streakDays + 1 : 1;
+          return { streakDays, lastStudyDate: today };
+        }),
+
+      reviewVocab: (key, rating) =>
+        set((s) => ({
+          vocab: { ...s.vocab, [key]: review(s.vocab[key] ?? initialCard(), rating) },
+        })),
 
       resetAll: () => set({ ...initialData }),
     }),

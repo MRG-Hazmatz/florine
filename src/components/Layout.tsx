@@ -23,6 +23,9 @@ export default function Layout() {
             <NavLink to="/levels" className={navClass}>
               Levels
             </NavLink>
+            <NavLink to="/review" className={navClass}>
+              Review
+            </NavLink>
           </nav>
         </div>
       </header>

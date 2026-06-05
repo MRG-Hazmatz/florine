@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
 import { getUnit } from "../lib/content/load";
 import ReviewBadge from "../components/ReviewBadge";
+import AudioButton from "../components/AudioButton";
 import { useProgress } from "../lib/storage/progress";
 
 export default function UnitView() {
@@ -56,12 +57,12 @@ export default function UnitView() {
         </h2>
         <ul className="divide-y divide-ink/10 rounded border border-ink/10 bg-white">
           {lesson.vocabulary.map((v) => (
-            <li key={v.id} className="flex items-baseline gap-3 p-2">
+            <li key={v.id} className="flex items-center gap-3 p-2">
               <span className="font-medium text-marine">{v.fr}</span>
               <span className="text-sm text-ink/60">{v.en}</span>
-              {v.audio && (
-                <span className="ml-auto text-xs text-ink/30">🔊 audio in Phase 2</span>
-              )}
+              <span className="ml-auto">
+                <AudioButton src={v.audio} label={`Play ${v.fr}`} />
+              </span>
             </li>
           ))}
         </ul>
@@ -71,9 +72,12 @@ export default function UnitView() {
         <h2 className="text-xl font-semibold">Examples</h2>
         <ul className="space-y-2">
           {lesson.examples.map((e) => (
-            <li key={e.id} className="rounded border border-ink/10 bg-white p-2">
-              <p className="text-marine">{e.fr}</p>
-              <p className="text-sm text-ink/60">{e.en}</p>
+            <li key={e.id} className="flex items-start gap-2 rounded border border-ink/10 bg-white p-2">
+              <AudioButton src={e.audio} label={`Play: ${e.fr}`} />
+              <div>
+                <p className="text-marine">{e.fr}</p>
+                <p className="text-sm text-ink/60">{e.en}</p>
+              </div>
             </li>
           ))}
         </ul>
