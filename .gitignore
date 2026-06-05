@@ -36,3 +36,8 @@ __pycache__/
 *.pyc
 .venv/
 venv/
+
+# Incoming art/assets staging — keep raw packs OUT of the public repo until
+# their license is confirmed to allow redistribution.
+/assets-incoming/*
+!/assets-incoming/README.md
