@@ -3,6 +3,7 @@ import { Link, useParams } from "react-router-dom";
 import { getUnit } from "../lib/content/load";
 import ReviewBadge from "../components/ReviewBadge";
 import AudioButton from "../components/AudioButton";
+import GuideStranger from "../components/GuideStranger";
 import { useProgress } from "../lib/storage/progress";
 
 export default function UnitView() {
@@ -45,6 +46,11 @@ export default function UnitView() {
           contain errors.
         </div>
       )}
+
+      <GuideStranger seed={unit.id} caption="leçon">
+        Read the notes, play the audio for each word, then test yourself. Aim for{" "}
+        {Math.round(unit.exercises.passThreshold * 100)}% to pass and unlock what's next.
+      </GuideStranger>
 
       <section className="space-y-2">
         <h2 className="text-xl font-semibold">Concept</h2>

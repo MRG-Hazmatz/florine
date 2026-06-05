@@ -4,6 +4,7 @@ import { getAllUnits, getLevelSummaries } from "../lib/content/load";
 import { useProgress, vocabKey } from "../lib/storage/progress";
 import { isDue, initialCard } from "../lib/srs/sm2";
 import { SKILLS, type Skill } from "../lib/content/schema";
+import GuideStranger from "../components/GuideStranger";
 
 const SKILL_LABELS: Record<Skill, string> = {
   reading: "Reading",
@@ -54,6 +55,11 @@ export default function Home() {
           English, drills in French, every exercise shaped like a real exam question.
         </p>
       </div>
+
+      <GuideStranger seed="florine-home" caption="votre guide">
+        Welcome back. Pick a level to keep going, or clear your due reviews first —
+        a little every day beats cramming.
+      </GuideStranger>
 
       <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
         <Stat label="Streak" value={`${streakDays} 🔥`} />

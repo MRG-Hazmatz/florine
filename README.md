@@ -88,3 +88,4 @@ units render with a visible warning and are for development preview only.
 
 - **Code:** [MIT](LICENSE)
 - **Content** (everything in `/content` and generated audio): [CC BY-SA 4.0](LICENSE-CONTENT)
+- **Character art** ("Strangers Vol. 1"): © Francisco Lemos, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — see `public/characters/strangers/CREDITS.md`
