@@ -74,16 +74,25 @@ export default function ExercisePlayer({ unit }: { unit: Unit }) {
               : `Pass mark is ${Math.round(passThreshold * 100)}% — give it another go.`}
           </p>
         </div>
-        <ol className="mx-auto max-w-md space-y-1 text-left text-sm">
-          {exercises.map((e, i) => (
-            <li key={e.id} className="flex items-center gap-2">
-              <span>{results[i]?.correct ? "✅" : "❌"}</span>
-              <span className="text-ink/60">
-                {i + 1}. {e.prompt}
-              </span>
-            </li>
-          ))}
-        </ol>
+        <div className="mx-auto max-w-md rounded-lg border border-ink/15 bg-card p-4 text-left">
+          <p className="mb-2 text-center font-display text-sm uppercase tracking-[0.2em] text-ink/50">
+            Marksheet
+          </p>
+          <ol className="space-y-1.5 text-sm">
+            {exercises.map((e, i) => (
+              <li key={e.id} className="flex items-center gap-2">
+                <img
+                  src={results[i]?.correct ? "/icons/correct.png" : "/icons/wrong.png"}
+                  alt={results[i]?.correct ? "correct" : "wrong"}
+                  className="h-6 w-6 shrink-0 object-contain mix-blend-multiply"
+                />
+                <span className="text-ink/70">
+                  {i + 1}. {e.prompt}
+                </span>
+              </li>
+            ))}
+          </ol>
+        </div>
         <div className="flex justify-center gap-3">
           <button
             type="button"

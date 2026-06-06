@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "a1.1/unit-04-age-family",
+  "level": "a1.1",
+  "unitNumber": 4,
+  "slug": "unit-04-age-family",
+  "title": "Age & Family",
+  "titleFr": "L'âge et la famille",
+  "cefrDescriptors": [
+    "Can give their age and ask someone else's age.",
+    "Can name immediate family members and say how many they have using avoir."
+  ],
+  "skills": ["reading", "listening", "writing"],
+  "estimatedMinutes": 40,
+  "concept": "This unit introduces the second workhorse verb of French — avoir (\"to have\") — and uses it to talk about age and family.\n\nLearn avoir now, right after être:\n  j'ai (I have), tu as (you have), il/elle a (he/she has),\n  nous avons (we have), vous avez (you have), ils/elles ont (they have).\n\nThe single most important thing in this unit: French states age with avoir, not with être. You literally say \"I HAVE thirteen years\": j'ai treize ans. Saying \"je suis treize ans\" is a classic beginner mistake — never use être for age. And don't drop the word ans (\"years\"): \"j'ai treize\" is incomplete. To ask, use: tu as quel âge ? (informal) or quel âge avez-vous ? (formal).\n\nFor family, the core words are le père (father), la mère (mother), les parents, le frère (brother), la sœur (sister), and the grandparents le grand-père / la grand-mère. To say a family relationship you again use avoir: j'ai un frère et une sœur.\n\nA quick note on \"my\": French changes the word for \"my\" to match the noun — mon père (masculine), ma mère (feminine), mes parents (plural). You'll meet this fully later; for now just copy the patterns in the examples.\n\nPut it together: \"Je m'appelle… j'ai [number] ans. J'ai [number] frère(s) et [number] sœur(s).\" Try saying three true sentences about your own family out loud.",
+  "vocabulary": [
+    { "id": "avoir", "fr": "avoir", "en": "to have", "pos": "verb", "exampleFr": "J'ai dix ans.", "exampleEn": "I am ten years old.", "audio": "audio/a1.1/unit-04-age-family/vocab-avoir.mp3", "voice": "denise" },
+    { "id": "age", "fr": "l'âge", "en": "age", "pos": "noun", "exampleFr": "Tu as quel âge ?", "exampleEn": "How old are you?", "audio": "audio/a1.1/unit-04-age-family/vocab-age.mp3", "voice": "henri" },
+    { "id": "an", "fr": "un an / ans", "en": "year(s) (used for age)", "pos": "noun", "exampleFr": "Elle a huit ans.", "exampleEn": "She is eight years old.", "audio": "audio/a1.1/unit-04-age-family/vocab-an.mp3", "voice": "denise" },
+    { "id": "famille", "fr": "la famille", "en": "family", "pos": "noun", "exampleFr": "Voici ma famille.", "exampleEn": "This is my family.", "audio": "audio/a1.1/unit-04-age-family/vocab-famille.mp3", "voice": "henri" },
+    { "id": "pere", "fr": "le père", "en": "father", "pos": "noun", "exampleFr": "Mon père est médecin.", "exampleEn": "My father is a doctor.", "audio": "audio/a1.1/unit-04-age-family/vocab-pere.mp3", "voice": "denise" },
+    { "id": "mere", "fr": "la mère", "en": "mother", "pos": "noun", "exampleFr": "Ma mère est professeur.", "exampleEn": "My mother is a teacher.", "audio": "audio/a1.1/unit-04-age-family/vocab-mere.mp3", "voice": "henri" },
+    { "id": "parents", "fr": "les parents", "en": "parents", "pos": "noun", "exampleFr": "Mes parents habitent à Paris.", "exampleEn": "My parents live in Paris.", "audio": "audio/a1.1/unit-04-age-family/vocab-parents.mp3", "voice": "denise" },
+    { "id": "frere", "fr": "le frère", "en": "brother", "pos": "noun", "exampleFr": "J'ai un frère.", "exampleEn": "I have a brother.", "audio": "audio/a1.1/unit-04-age-family/vocab-frere.mp3", "voice": "henri" },
+    { "id": "soeur", "fr": "la sœur", "en": "sister", "pos": "noun", "exampleFr": "J'ai une sœur.", "exampleEn": "I have a sister.", "audio": "audio/a1.1/unit-04-age-family/vocab-soeur.mp3", "voice": "denise" },
+    { "id": "grand-pere", "fr": "le grand-père", "en": "grandfather", "pos": "noun", "exampleFr": "Mon grand-père a soixante ans.", "exampleEn": "My grandfather is sixty.", "audio": "audio/a1.1/unit-04-age-family/vocab-grand-pere.mp3", "voice": "henri" },
+    { "id": "grand-mere", "fr": "la grand-mère", "en": "grandmother", "pos": "noun", "exampleFr": "Ma grand-mère s'appelle Rita.", "exampleEn": "My grandmother's name is Rita.", "audio": "audio/a1.1/unit-04-age-family/vocab-grand-mere.mp3", "voice": "denise" },
+    { "id": "fils", "fr": "le fils", "en": "son", "pos": "noun", "exampleFr": "Il a un fils.", "exampleEn": "He has a son.", "audio": "audio/a1.1/unit-04-age-family/vocab-fils.mp3", "voice": "henri" },
+    { "id": "fille", "fr": "la fille", "en": "daughter / girl", "pos": "noun", "exampleFr": "Elle a une fille.", "exampleEn": "She has a daughter.", "audio": "audio/a1.1/unit-04-age-family/vocab-fille.mp3", "voice": "denise" },
+    { "id": "quel-age", "fr": "quel âge ?", "en": "what age? / how old?", "pos": "phrase", "exampleFr": "Quel âge as-tu ?", "exampleEn": "How old are you?", "audio": "audio/a1.1/unit-04-age-family/vocab-quel-age.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "J'ai dix ans.", "en": "I am ten years old.", "audio": "audio/a1.1/unit-04-age-family/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "Tu as quel âge ?", "en": "How old are you?", "audio": "audio/a1.1/unit-04-age-family/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "Voici ma famille.", "en": "This is my family.", "audio": "audio/a1.1/unit-04-age-family/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "J'ai un frère et une sœur.", "en": "I have a brother and a sister.", "audio": "audio/a1.1/unit-04-age-family/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "Mon père est médecin et ma mère est ingénieur.", "en": "My father is a doctor and my mother is an engineer.", "audio": "audio/a1.1/unit-04-age-family/example-ex-5.mp3", "voice": "denise" }
+  ]
+}

@@ -42,6 +42,7 @@ export default function Review() {
     const done = queue.length > 0;
     return (
       <section className="space-y-3 py-12 text-center">
+        <img src="/icons/review.png" alt="" className="mx-auto h-28 object-contain mix-blend-multiply" />
         <p className="font-display text-3xl">{done ? "Review complete! 🎉" : "All caught up! 🎉"}</p>
         <p className="text-ink/60">
           {done
@@ -65,6 +66,7 @@ export default function Review() {
 
   return (
     <section className="space-y-6">
+      <img src="/icons/review.png" alt="Révision" className="mx-auto h-24 object-contain mix-blend-multiply" />
       <div className="flex items-center justify-between">
         <h1 className="font-display text-2xl font-bold text-ink">Vocabulary review</h1>
         <span className="text-sm text-ink/50">

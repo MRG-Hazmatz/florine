@@ -13,7 +13,7 @@ function StatusIcon({ view }: { view: LevelUnitView }) {
         src="/icons/lock.png"
         alt="Locked"
         title="Locked"
-        className="inline h-4 w-4 object-contain mix-blend-multiply"
+        className="inline h-7 w-7 object-contain"
       />
     );
   if (view.status === "completed") return <span className="text-emerald-600" title="Completed">✓</span>;
