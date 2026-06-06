@@ -7,7 +7,15 @@ import { useProgress } from "../lib/storage/progress";
 import { computeLevelView, type LevelUnitView } from "../lib/progressView";
 
 function StatusIcon({ view }: { view: LevelUnitView }) {
-  if (!view.unlocked) return <span title="Locked">🔒</span>;
+  if (!view.unlocked)
+    return (
+      <img
+        src="/icons/lock.png"
+        alt="Locked"
+        title="Locked"
+        className="inline h-4 w-4 object-contain mix-blend-multiply"
+      />
+    );
   if (view.status === "completed") return <span className="text-emerald-600" title="Completed">✓</span>;
   if (view.status === "in-progress") return <span className="text-marine" title="In progress">◐</span>;
   return <span className="text-ink/30" title="Not started">○</span>;
@@ -45,7 +53,7 @@ export default function LevelUnits() {
               <div
                 className={`flex items-center justify-between rounded-lg border p-4 ${
                   interactive
-                    ? "border-marine/20 bg-white hover:border-marine"
+                    ? "border-marine/20 bg-card hover:border-marine"
                     : "border-ink/10 bg-ink/5 opacity-70"
                 }`}
               >

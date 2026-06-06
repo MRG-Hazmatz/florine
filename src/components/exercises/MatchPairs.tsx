@@ -48,7 +48,7 @@ export default function MatchPairs({
             const assigned = assign[p.id];
             const ok = graded && assigned === p.id;
             const bad = graded && assigned !== undefined && assigned !== p.id;
-            let cls = "border-ink/15 bg-white hover:border-marine";
+            let cls = "border-ink/15 bg-card hover:border-marine";
             if (sel === p.id) cls = "border-marine bg-marine/10";
             if (ok) cls = "border-emerald-400 bg-emerald-50";
             if (bad) cls = "border-rouge bg-rouge/5";
@@ -87,7 +87,7 @@ export default function MatchPairs({
                   className={`w-full rounded-lg border p-2 text-left transition-colors ${
                     used
                       ? "border-ink/10 bg-ink/5 text-ink/40"
-                      : "border-ink/15 bg-white hover:border-marine"
+                      : "border-ink/15 bg-card hover:border-marine"
                   }`}
                 >
                   {rightTextById[rid]}

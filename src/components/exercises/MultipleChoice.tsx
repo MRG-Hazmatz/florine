@@ -32,11 +32,11 @@ export default function MultipleChoice({
         {exercise.options.map((o) => {
           const isSel = selected.includes(o.id);
           const isCorrect = exercise.correct.includes(o.id);
-          let cls = "border-ink/15 bg-white hover:border-marine";
+          let cls = "border-ink/15 bg-card hover:border-marine";
           if (graded) {
             if (isCorrect) cls = "border-emerald-400 bg-emerald-50";
             else if (isSel) cls = "border-rouge bg-rouge/5";
-            else cls = "border-ink/10 bg-white opacity-60";
+            else cls = "border-ink/10 bg-card opacity-60";
           } else if (isSel) {
             cls = "border-marine bg-marine/5";
           }

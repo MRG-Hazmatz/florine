@@ -15,7 +15,7 @@ export default function LevelSelect() {
             <div
               className={`h-full rounded-lg border p-4 ${
                 enabled
-                  ? "border-marine/30 bg-white hover:border-marine"
+                  ? "border-marine/30 bg-card hover:border-marine"
                   : "border-ink/10 bg-ink/5 opacity-60"
               }`}
             >

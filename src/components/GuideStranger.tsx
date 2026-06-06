@@ -29,8 +29,8 @@ export default function GuideStranger({
           </figcaption>
         )}
       </figure>
-      <div className="relative flex-1 self-center rounded-md border border-ink/25 bg-white/60 p-3 text-sm text-ink/80">
-        <span className="absolute -left-1.5 top-5 h-3 w-3 rotate-45 border-b border-l border-ink/25 bg-white/60" />
+      <div className="relative flex-1 self-center rounded-md border border-ink/25 bg-card/60 p-3 text-sm text-ink/80">
+        <span className="absolute -left-1.5 top-5 h-3 w-3 rotate-45 border-b border-l border-ink/25 bg-card/60" />
         {children}
       </div>
     </div>

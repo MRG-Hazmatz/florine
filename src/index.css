@@ -13,6 +13,7 @@
   --color-marine: #2a3a44;
   --color-bleu: #3f5a63;
   --color-rouge: #7c1517;
+  --color-card: #f2ebd8;
 
   --font-display: Georgia, "Times New Roman", serif;
 }
@@ -31,7 +32,7 @@ body {
   margin: 0;
   background-color: var(--color-parchment);
   /* Aged-paper photo, tinted toward our parchment tone so long text stays readable */
-  background-image: linear-gradient(rgba(233, 224, 203, 0.42), rgba(233, 224, 203, 0.42)),
+  background-image: linear-gradient(rgba(233, 224, 203, 0.32), rgba(233, 224, 203, 0.32)),
     url("/textures/paper.webp");
   background-size: cover;
   background-position: center;

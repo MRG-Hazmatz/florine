@@ -32,9 +32,9 @@ export default function AudioButton({ src, label }: { src?: string; label?: stri
         onClick={play}
         title={label ?? "Play audio"}
         aria-label={label ?? "Play audio"}
-        className="inline-flex h-7 w-7 items-center justify-center rounded-full border border-marine/30 text-marine transition-colors hover:bg-marine/10"
+        className="inline-flex h-8 w-8 items-center justify-center rounded-full transition-transform hover:scale-110"
       >
-        ▶
+        <img src="/icons/audio.png" alt="" className="h-7 w-7 object-contain" />
       </button>
       <audio ref={ref} src={toUrl(src)} preload="none" onError={() => setError(true)} />
       {error && (

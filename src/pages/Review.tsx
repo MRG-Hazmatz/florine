@@ -72,7 +72,7 @@ export default function Review() {
         </span>
       </div>
 
-      <div className="mx-auto flex min-h-56 max-w-md flex-col items-center justify-center gap-3 rounded-xl border border-ink/15 bg-white p-8 text-center">
+      <div className="mx-auto flex min-h-56 max-w-md flex-col items-center justify-center gap-3 rounded-xl border border-ink/15 bg-card p-8 text-center">
         <div className="flex items-center gap-2">
           <span className="font-display text-3xl text-marine">{card.vocab.fr}</span>
           <AudioButton src={card.vocab.audio} label={`Play ${card.vocab.fr}`} />

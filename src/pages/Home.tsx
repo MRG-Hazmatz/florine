@@ -13,9 +13,16 @@ const SKILL_LABELS: Record<Skill, string> = {
   speaking: "Speaking",
 };
 
+const SKILL_ICON: Record<Skill, string> = {
+  reading: "/icons/skill-reading.png",
+  listening: "/icons/skill-listening.png",
+  writing: "/icons/skill-writing.png",
+  speaking: "/icons/skill-speaking.png",
+};
+
 function Stat({ label, value }: { label: string; value: string }) {
   return (
-    <div className="rounded-lg border border-ink/10 bg-white p-3 text-center">
+    <div className="rounded-lg border border-ink/10 bg-card p-3 text-center">
       <p className="font-display text-2xl font-bold text-marine">{value}</p>
       <p className="text-xs uppercase tracking-wide text-ink/50">{label}</p>
     </div>
@@ -90,7 +97,12 @@ export default function Home() {
         <ul className="space-y-2">
           {SKILLS.map((s) => (
             <li key={s} className="flex items-center gap-3">
-              <span className="w-20 text-sm text-ink/60">{SKILL_LABELS[s]}</span>
+              <img
+                src={SKILL_ICON[s]}
+                alt=""
+                className="h-8 w-8 shrink-0 object-contain mix-blend-multiply"
+              />
+              <span className="w-20 text-sm text-ink/70">{SKILL_LABELS[s]}</span>
               <div className="h-2 flex-1 overflow-hidden rounded bg-ink/10">
                 <div
                   className="h-full bg-bleu transition-all"

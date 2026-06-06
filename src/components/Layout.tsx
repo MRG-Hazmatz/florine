@@ -30,11 +30,11 @@ export default function Layout() {
         </div>
       </header>
 
-      <main className="mx-auto w-full max-w-4xl flex-1 px-4 py-8">
+      <main className="mx-auto w-full max-w-4xl flex-1 border-x border-ink/15 bg-parchment/90 px-4 py-8 shadow-[0_0_60px_rgba(23,18,12,0.22)]">
         <Outlet />
       </main>
 
-      <footer className="border-t border-ink/10 py-4 text-center text-xs text-ink/40">
+      <footer className="border-t border-ink/10 py-4 text-center text-xs text-ink/55">
         Florine — open-source DELF practice · Faces: Francisco Lemos (lemos.itch.io), CC BY 4.0
       </footer>
     </div>

@@ -61,7 +61,7 @@ export default function UnitView() {
         <h2 className="text-xl font-semibold">
           Vocabulary ({lesson.vocabulary.length})
         </h2>
-        <ul className="divide-y divide-ink/10 rounded border border-ink/10 bg-white">
+        <ul className="divide-y divide-ink/10 rounded border border-ink/10 bg-card">
           {lesson.vocabulary.map((v) => (
             <li key={v.id} className="flex items-center gap-3 p-2">
               <span className="font-medium text-marine">{v.fr}</span>
@@ -78,7 +78,7 @@ export default function UnitView() {
         <h2 className="text-xl font-semibold">Examples</h2>
         <ul className="space-y-2">
           {lesson.examples.map((e) => (
-            <li key={e.id} className="flex items-start gap-2 rounded border border-ink/10 bg-white p-2">
+            <li key={e.id} className="flex items-start gap-2 rounded border border-ink/10 bg-card p-2">
               <AudioButton src={e.audio} label={`Play: ${e.fr}`} />
               <div>
                 <p className="text-marine">{e.fr}</p>

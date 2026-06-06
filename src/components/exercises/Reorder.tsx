@@ -33,7 +33,7 @@ export default function Reorder({
     ? isCorrect
       ? "border-emerald-400 bg-emerald-50"
       : "border-rouge bg-rouge/5"
-    : "border-marine/30 bg-white";
+    : "border-marine/30 bg-card";
 
   return (
     <div className="space-y-4">
@@ -61,7 +61,7 @@ export default function Reorder({
               key={id}
               type="button"
               onClick={() => add(id)}
-              className="rounded border border-ink/15 bg-white px-3 py-1 hover:border-marine"
+              className="rounded border border-ink/15 bg-card px-3 py-1 hover:border-marine"
             >
               {textById[id]}
             </button>
