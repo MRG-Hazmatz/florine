@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "unitId": "a1.1/unit-05-er-verbs",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Choose the correct form: « Nous ___ français. » (parler)",
+      "options": [
+        { "id": "a", "text": "parlons" },
+        { "id": "b", "text": "parlez" },
+        { "id": "c", "text": "parle" },
+        { "id": "d", "text": "parlent" }
+      ],
+      "correct": ["a"],
+      "explanation": "nous + -er verb takes -ons: nous parlons."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Complete with the right -er verb forms (parler, habiter).",
+      "inputMode": "typed",
+      "template": "Tu {{b1}} français ? — Oui, et j'{{b2}} à Paris.",
+      "blanks": [
+        { "id": "b1", "accept": ["parles"] },
+        { "id": "b2", "accept": ["habite"] }
+      ],
+      "explanation": "tu parles; j' + habite (elision before a vowel/silent h)."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Choose the correct form: « Ils ___ la télé. » (regarder)",
+      "options": [
+        { "id": "a", "text": "regardent" },
+        { "id": "b", "text": "regarde" },
+        { "id": "c", "text": "regardez" },
+        { "id": "d", "text": "regardons" }
+      ],
+      "correct": ["a"],
+      "explanation": "ils/elles take -ent (written but silent): ils regardent."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each verb to its English meaning.",
+      "pairs": [
+        { "id": "p1", "left": "parler", "right": "to speak" },
+        { "id": "p2", "left": "habiter", "right": "to live" },
+        { "id": "p3", "left": "aimer", "right": "to like" },
+        { "id": "p4", "left": "écouter", "right": "to listen to" }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order to say \"I like the movies.\"",
+      "tokens": [
+        { "id": "t1", "text": "J'aime" },
+        { "id": "t2", "text": "le" },
+        { "id": "t3", "text": "cinéma" }
+      ],
+      "correctOrder": ["t1", "t2", "t3"],
+      "explanation": "Use the article: « j'aime LE cinéma » (French keeps the article where English drops it)."
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then: what does the speaker like?",
+      "audio": "audio/a1.1/unit-05-er-verbs/listen-1.mp3",
+      "transcript": "Bonjour ! J'aime la musique et j'aime le sport.",
+      "options": [
+        { "id": "a", "text": "Music and sport" },
+        { "id": "b", "text": "Cinema and TV" },
+        { "id": "c", "text": "Reading" }
+      ],
+      "correct": ["a"],
+      "explanation": "« j'aime la musique et j'aime le sport »."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read about Théo and answer both questions.",
+      "passageFr": "Salut ! Je m'appelle Théo. J'habite à Lyon. J'aime le sport et la musique. J'étudie l'anglais.",
+      "passageEn": "Hi! My name is Théo. I live in Lyon. I like sport and music. I study English.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "Where does Théo live?",
+          "options": [
+            { "id": "a", "text": "Paris" },
+            { "id": "b", "text": "Lyon" },
+            { "id": "c", "text": "Nice" }
+          ],
+          "correct": ["b"]
+        },
+        {
+          "id": "q2",
+          "prompt": "What does Théo study?",
+          "options": [
+            { "id": "a", "text": "English" },
+            { "id": "b", "text": "Music" },
+            { "id": "c", "text": "Sport" }
+          ],
+          "correct": ["a"]
+        }
+      ]
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Complete with the vous form of parler.",
+      "inputMode": "typed",
+      "template": "Vous {{b1}} anglais ?",
+      "blanks": [{ "id": "b1", "accept": ["parlez"] }],
+      "explanation": "vous + -er verb takes -ez: vous parlez."
+    }
+  ]
+}

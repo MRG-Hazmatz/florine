@@ -59,7 +59,10 @@ export default function Home() {
   return (
     <section className="space-y-8">
       <div className="space-y-2">
-        <h1 className="font-display text-4xl font-bold text-ink">Bonjour 👋</h1>
+        <h1 className="flex items-center gap-3 font-display text-4xl font-bold text-ink">
+          Bonjour
+          <img src="/icons/hand.png" alt="" className="h-12 w-auto object-contain" />
+        </h1>
         <p className="max-w-prose text-lg text-ink/70">
           Florine is structured, DELF-aligned French practice — explicit grammar in
           English, drills in French, every exercise shaped like a real exam question.

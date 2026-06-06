@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "a1.1/unit-05-er-verbs",
+  "level": "a1.1",
+  "unitNumber": 5,
+  "slug": "unit-05-er-verbs",
+  "title": "Regular -er Verbs: Tastes & Daily Life",
+  "titleFr": "Les verbes en -er",
+  "cefrDescriptors": [
+    "Can talk about everyday activities and preferences using common regular -er verbs.",
+    "Can conjugate regular -er verbs in the present tense."
+  ],
+  "skills": ["reading", "listening", "writing"],
+  "estimatedMinutes": 45,
+  "concept": "This is the unit that unlocks real sentences. About 90% of French verbs end in -er, and they (almost) all follow ONE pattern. Learn it once and you can say thousands of things.\n\nTake the verb parler (to speak). Drop the -er and add these endings:\n  je parle, tu parles, il/elle parle,\n  nous parlons, vous parlez, ils/elles parlent.\n\nTwo things surprise beginners. First, the -ent ending on ils/elles is SILENT — « ils parlent » sounds exactly like « il parle ». In fact je, tu, il and ils forms all sound identical; only the spelling changes. Second, before a vowel or a silent h, je becomes j': j'aime, j'habite, j'écoute.\n\nThe same endings work for habiter (to live), aimer (to like/love), écouter (to listen to), regarder (to watch), travailler (to work), jouer (to play), and hundreds more.\n\nTo say what you like, use aimer + the definite article (le / la / les): j'aime le sport, j'aime la musique, j'aime les langues. Note that French keeps the article where English drops it — not « j'aime sport » but « j'aime le sport ». Add beaucoup for emphasis: j'aime beaucoup le cinéma.\n\nWith these verbs you can finally build full sentences about your life: where you live, what you study, what you like. Write three true sentences about yourself using three different -er verbs.",
+  "vocabulary": [
+    { "id": "parler", "fr": "parler", "en": "to speak", "pos": "verb", "exampleFr": "Je parle anglais.", "exampleEn": "I speak English.", "audio": "audio/a1.1/unit-05-er-verbs/vocab-parler.mp3", "voice": "denise" },
+    { "id": "habiter", "fr": "habiter", "en": "to live", "pos": "verb", "exampleFr": "J'habite à Paris.", "exampleEn": "I live in Paris.", "audio": "audio/a1.1/unit-05-er-verbs/vocab-habiter.mp3", "voice": "henri" },
+    { "id": "aimer", "fr": "aimer", "en": "to like / to love", "pos": "verb", "exampleFr": "J'aime la musique.", "exampleEn": "I like music.", "audio": "audio/a1.1/unit-05-er-verbs/vocab-aimer.mp3", "voice": "denise" },
+    { "id": "ecouter", "fr": "écouter", "en": "to listen to", "pos": "verb", "exampleFr": "J'écoute la radio.", "exampleEn": "I listen to the radio.", "audio": "audio/a1.1/unit-05-er-verbs/vocab-ecouter.mp3", "voice": "henri" },
+    { "id": "regarder", "fr": "regarder", "en": "to watch / to look at", "pos": "verb", "exampleFr": "Il regarde la télé.", "exampleEn": "He watches TV.", "audio": "audio/a1.1/unit-05-er-verbs/vocab-regarder.mp3", "voice": "denise" },
+    { "id": "travailler", "fr": "travailler", "en": "to work", "pos": "verb", "exampleFr": "Elle travaille à Lyon.", "exampleEn": "She works in Lyon.", "audio": "audio/a1.1/unit-05-er-verbs/vocab-travailler.mp3", "voice": "henri" },
+    { "id": "etudier", "fr": "étudier", "en": "to study", "pos": "verb", "exampleFr": "J'étudie le français.", "exampleEn": "I study French.", "audio": "audio/a1.1/unit-05-er-verbs/vocab-etudier.mp3", "voice": "denise" },
+    { "id": "jouer", "fr": "jouer", "en": "to play", "pos": "verb", "exampleFr": "Ils jouent au football.", "exampleEn": "They play football.", "audio": "audio/a1.1/unit-05-er-verbs/vocab-jouer.mp3", "voice": "henri" },
+    { "id": "musique", "fr": "la musique", "en": "music", "pos": "noun", "exampleFr": "J'aime la musique.", "exampleEn": "I like music.", "audio": "audio/a1.1/unit-05-er-verbs/vocab-musique.mp3", "voice": "denise" },
+    { "id": "sport", "fr": "le sport", "en": "sport", "pos": "noun", "exampleFr": "Tu aimes le sport ?", "exampleEn": "Do you like sport?", "audio": "audio/a1.1/unit-05-er-verbs/vocab-sport.mp3", "voice": "henri" },
+    { "id": "cinema", "fr": "le cinéma", "en": "cinema / the movies", "pos": "noun", "exampleFr": "J'aime le cinéma.", "exampleEn": "I like the movies.", "audio": "audio/a1.1/unit-05-er-verbs/vocab-cinema.mp3", "voice": "denise" },
+    { "id": "tele", "fr": "la télé", "en": "TV", "pos": "noun", "exampleFr": "Je regarde la télé.", "exampleEn": "I watch TV.", "audio": "audio/a1.1/unit-05-er-verbs/vocab-tele.mp3", "voice": "henri" },
+    { "id": "beaucoup", "fr": "beaucoup", "en": "a lot / much", "pos": "adverb", "exampleFr": "J'aime beaucoup le sport.", "exampleEn": "I like sport a lot.", "audio": "audio/a1.1/unit-05-er-verbs/vocab-beaucoup.mp3", "voice": "denise" },
+    { "id": "aussi", "fr": "aussi", "en": "also / too", "pos": "adverb", "exampleFr": "J'aime aussi le cinéma.", "exampleEn": "I also like the movies.", "audio": "audio/a1.1/unit-05-er-verbs/vocab-aussi.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "J'aime la musique.", "en": "I like music.", "audio": "audio/a1.1/unit-05-er-verbs/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "Tu parles français ?", "en": "Do you speak French?", "audio": "audio/a1.1/unit-05-er-verbs/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "Nous habitons à Paris.", "en": "We live in Paris.", "audio": "audio/a1.1/unit-05-er-verbs/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "Il regarde la télé.", "en": "He watches TV.", "audio": "audio/a1.1/unit-05-er-verbs/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "J'aime beaucoup le sport.", "en": "I like sport a lot.", "audio": "audio/a1.1/unit-05-er-verbs/example-ex-5.mp3", "voice": "denise" }
+  ]
+}
