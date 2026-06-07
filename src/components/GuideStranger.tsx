@@ -33,8 +33,8 @@ export default function GuideStranger({
   return (
     <div className="flex items-start gap-3">
       <figure className="shrink-0 -rotate-2">
-        <div className="h-20 w-20 overflow-hidden border border-ink/70 bg-parchment shadow-[3px_3px_0_rgba(23,18,12,0.45)]">
-          <img src={src} alt="" className="h-full w-full object-contain mix-blend-multiply" />
+        <div className="portrait-frame bg-parchment">
+          <img src={src} alt="" className="block h-16 w-16 object-contain mix-blend-multiply" />
         </div>
         {caption && (
           <figcaption className="mt-1 text-center text-[10px] uppercase tracking-[0.2em] text-ink/40">
