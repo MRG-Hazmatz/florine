@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import type { Exercise, Unit } from "../../lib/content/schema";
 import type { GradeResult } from "../../lib/exercises/grade";
 import { useProgress } from "../../lib/storage/progress";
+import { getAdjacentUnits } from "../../lib/content/load";
 import MultipleChoice from "./MultipleChoice";
 import FillBlank from "./FillBlank";
 import Reorder from "./Reorder";
@@ -36,6 +37,7 @@ function renderExercise(ex: Exercise, graded: boolean, onGrade: (r: GradeResult)
 export default function ExercisePlayer({ unit }: { unit: Unit }) {
   const exercises = unit.exercises.exercises;
   const passThreshold = unit.exercises.passThreshold;
+  const nextUnit = getAdjacentUnits(unit).next;
 
   const recordScore = useProgress((s) => s.recordScore);
   const addSkillXp = useProgress((s) => s.addSkillXp);
@@ -124,6 +126,14 @@ export default function ExercisePlayer({ unit }: { unit: Unit }) {
           >
             Back to unit
           </Link>
+          {nextUnit && (
+            <Link
+              to={`/unit/${nextUnit.level}/${nextUnit.slug}`}
+              className="rounded bg-marine px-5 py-2.5 font-medium text-white hover:bg-marine/90"
+            >
+              Next unit →
+            </Link>
+          )}
         </div>
       </div>
     );

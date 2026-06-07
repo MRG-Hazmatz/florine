@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
-import { getUnit } from "../lib/content/load";
+import { getUnit, getAdjacentUnits } from "../lib/content/load";
 import ReviewBadge from "../components/ReviewBadge";
 import AudioButton from "../components/AudioButton";
 import GuideStranger from "../components/GuideStranger";
@@ -28,6 +28,7 @@ export default function UnitView() {
 
   const { lesson, review } = unit;
   const unreviewed = review.status !== "approved";
+  const { prev, next } = getAdjacentUnits(unit);
 
   return (
     <article className="space-y-8">
@@ -94,6 +95,26 @@ export default function UnitView() {
           Go to exercises ({unit.exercises.exercises.length}) →
         </Link>
       </div>
+
+      <nav className="flex justify-between gap-4 border-t border-ink/10 pt-4 text-sm">
+        {prev ? (
+          <Link to={`/unit/${prev.level}/${prev.slug}`} className="text-marine hover:underline">
+            ← {prev.lesson.title}
+          </Link>
+        ) : (
+          <span />
+        )}
+        {next ? (
+          <Link
+            to={`/unit/${next.level}/${next.slug}`}
+            className="ml-auto text-right text-marine hover:underline"
+          >
+            {next.lesson.title} →
+          </Link>
+        ) : (
+          <span />
+        )}
+      </nav>
     </article>
   );
 }

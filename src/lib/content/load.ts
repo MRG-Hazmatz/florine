@@ -143,3 +143,14 @@ export function getLevelSummaries(): LevelSummary[] {
 export function getUnit(level: string, slug: string): Unit | undefined {
   return content.units.find((u) => u.level === level && u.slug === slug);
 }
+
+/** Previous/next unit within the same level (by unit order). */
+export function getAdjacentUnits(unit: Unit): { prev?: Unit; next?: Unit } {
+  const sibs = getUnitsForLevel(unit.level);
+  const i = sibs.findIndex((u) => u.id === unit.id);
+  if (i < 0) return {};
+  return {
+    prev: i > 0 ? sibs[i - 1] : undefined,
+    next: i < sibs.length - 1 ? sibs[i + 1] : undefined,
+  };
+}
