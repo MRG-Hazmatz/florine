@@ -18,7 +18,7 @@ Status: ✅ built · 🔨 in progress · ⬜ planned
 | 5 | The city: location & articles | D2·L1 | articles (un/une/le/la/des), il y a, prépositions de lieu | 🔨 unit-07 |
 | 6 | Directions & the imperative | D2·L2–L3 | l'impératif, indiquer la route (addresses/code postal: later) | ✅ unit-08 |
 | 7 | Family & relationships | D3·L1 | avoir, la famille, possessifs | ✅ unit-04 |
-| 8 | Describing people | D3·L2 | -er verbs, character & appearance | ✅ unit-05 (partial) |
+| 8 | Describing people | D3·L2 | adjectives + gender agreement, c'est vs il est | ✅ unit-09 |
 | 9 | Tastes & hobbies | D3·L3 | aimer + article, loisirs | ✅ unit-05 |
 | 10 | Saying no: negation | D3 | ne…pas, détester | ✅ unit-06 |
 | 11 | Time & daily routine | D4·L1/L3 | l'heure, verbes pronominaux, fréquence | ⬜ |
@@ -47,6 +47,7 @@ Status: ✅ built · 🔨 in progress · ⬜ planned
   →negation) first. Module **numbers can be resequenced cheaply later** — edit
   `unitNumber` in each `lesson.json` (no id/folder/audio renames needed), since
   ordering + unlock derive from `unitNumber`.
-- **Retroactive TODOs** (safe — nothing is native-reviewed yet): ✅ numbers
-  extended to 0–69. Still open: a dedicated "describing people" module (D3·L2,
-  map #8) with character/appearance adjectives — currently only tastes are covered.
+- **Retroactive TODOs** (all cleared): ✅ numbers extended to 0–69; ✅ dedicated
+  "describing people" module added (unit-09, D3·L2 adjectives).
+- **Final resequence (deferred):** once a1.1's last 3 modules exist, renumber
+  `unitNumber` to match exact book order (D0→D4) — cheap, no id/folder renames.

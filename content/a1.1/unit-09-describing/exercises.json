@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "unitId": "a1.1/unit-09-describing",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Marie is tall. Complete: « Marie est ___. »",
+      "options": [
+        { "id": "a", "text": "grande" },
+        { "id": "b", "text": "grand" },
+        { "id": "c", "text": "grands" }
+      ],
+      "correct": ["a"],
+      "explanation": "Marie is feminine, so the adjective adds -e: grand -> grande."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "\"He is nice.\" Which is correct?",
+      "options": [
+        { "id": "a", "text": "Il est sympa." },
+        { "id": "b", "text": "C'est sympa." },
+        { "id": "c", "text": "C'est un sympa." }
+      ],
+      "correct": ["a"],
+      "explanation": "Use il/elle est + a bare adjective. (c'est is for c'est + article + noun.)"
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Make the adjective 'petit' agree with each person.",
+      "inputMode": "typed",
+      "template": "Il est {{b1}} et elle est {{b2}}.",
+      "blanks": [
+        { "id": "b1", "accept": ["petit"] },
+        { "id": "b2", "accept": ["petite"] }
+      ],
+      "explanation": "Masculine petit, feminine petite."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each adjective to its English meaning.",
+      "pairs": [
+        { "id": "p1", "left": "grand", "right": "tall" },
+        { "id": "p2", "left": "gentil", "right": "kind" },
+        { "id": "p3", "left": "timide", "right": "shy" },
+        { "id": "p4", "left": "drôle", "right": "funny" }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order to say \"She is very kind.\"",
+      "tokens": [
+        { "id": "t1", "text": "Elle" },
+        { "id": "t2", "text": "est" },
+        { "id": "t3", "text": "très" },
+        { "id": "t4", "text": "gentille" }
+      ],
+      "correctOrder": ["t1", "t2", "t3", "t4"]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then: what does the brother look like?",
+      "audio": "audio/a1.1/unit-09-describing/listen-1.mp3",
+      "transcript": "Mon frère est grand et il a les cheveux bruns.",
+      "options": [
+        { "id": "a", "text": "Tall, with brown hair" },
+        { "id": "b", "text": "Short, with blond hair" },
+        { "id": "c", "text": "Young, with brown hair" }
+      ],
+      "correct": ["a"],
+      "explanation": "« grand » (tall) + « les cheveux bruns » (brown hair)."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read about Léa and answer both questions.",
+      "passageFr": "Voici Léa. Elle est petite et très drôle. Elle a les cheveux blonds. C'est une amie sympa.",
+      "passageEn": "This is Léa. She is short and very funny. She has blond hair. She's a friendly friend.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "What is Léa like?",
+          "options": [
+            { "id": "a", "text": "Short and funny" },
+            { "id": "b", "text": "Tall and serious" },
+            { "id": "c", "text": "Shy and quiet" }
+          ],
+          "correct": ["a"]
+        },
+        {
+          "id": "q2",
+          "prompt": "What colour is her hair?",
+          "options": [
+            { "id": "a", "text": "Blond" },
+            { "id": "b", "text": "Brown" },
+            { "id": "c", "text": "Black" }
+          ],
+          "correct": ["a"]
+        }
+      ]
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Introduce someone: \"It's a friend.\" Choose c'est or il est.",
+      "inputMode": "dropdown",
+      "template": "{{b1}} un ami.",
+      "blanks": [{ "id": "b1", "accept": ["C'est"], "options": ["C'est", "Il est"] }],
+      "explanation": "Before an article + noun (un ami), French uses « C'est », not « Il est »."
+    }
+  ]
+}

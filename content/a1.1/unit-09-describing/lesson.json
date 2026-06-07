@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "a1.1/unit-09-describing",
+  "level": "a1.1",
+  "unitNumber": 9,
+  "slug": "unit-09-describing",
+  "title": "Describing People",
+  "titleFr": "Décrire une personne",
+  "cefrDescriptors": [
+    "Can describe people's appearance and character with simple adjectives.",
+    "Can make adjectives agree in gender and number."
+  ],
+  "skills": ["reading", "listening", "writing"],
+  "estimatedMinutes": 45,
+  "concept": "You can name people (Unit 4) and say what they like (Unit 5). Now describe them. The key skill is the French adjective — and its one big rule: it AGREES with the noun it describes.\n\nFeminine usually adds -e, and that often wakes up a final consonant: grand -> grande, petit -> petite, intelligent -> intelligente. Plural adds -s: grands, petites. Some adjectives already end in -e and don't change for gender (jeune, timide, drôle, sympa); a few are irregular (beau -> belle, gentil -> gentille).\n\nUse them most simply after être, where word order isn't an issue: « Elle est grande. », « Il est timide. » Add très (very) to turn it up: « Marie est très intelligente. »\n\nPlacement (for later): most French adjectives come AFTER the noun (un livre intéressant), but a handful of very common ones come before — grand, petit, beau, jeune, bon, joli (une petite fille). For now, lean on être and you can sidestep this.\n\nTwo more tools. To introduce someone, French prefers c'est + article + noun, not « il est »: « C'est un ami. », « C'est une fille sympa. » But for a bare adjective, use il/elle est: « Il est sympa. » And for looks, French says someone HAS hair, with avoir: « Il a les cheveux bruns. », « Elle a les cheveux blonds. »\n\nDescribe two people you know out loud, using être, one adjective each, and the correct agreement.",
+  "vocabulary": [
+    { "id": "grand", "fr": "grand", "en": "tall / big (f. grande)", "pos": "adjective", "exampleFr": "Il est grand.", "exampleEn": "He is tall.", "audio": "audio/a1.1/unit-09-describing/vocab-grand.mp3", "voice": "denise" },
+    { "id": "petit", "fr": "petit", "en": "small / short (f. petite)", "pos": "adjective", "exampleFr": "Elle est petite.", "exampleEn": "She is short.", "audio": "audio/a1.1/unit-09-describing/vocab-petit.mp3", "voice": "henri" },
+    { "id": "jeune", "fr": "jeune", "en": "young", "pos": "adjective", "exampleFr": "Il est jeune.", "exampleEn": "He is young.", "audio": "audio/a1.1/unit-09-describing/vocab-jeune.mp3", "voice": "denise" },
+    { "id": "beau", "fr": "beau", "en": "handsome / good-looking (f. belle)", "pos": "adjective", "exampleFr": "C'est un beau jardin.", "exampleEn": "It's a beautiful garden.", "audio": "audio/a1.1/unit-09-describing/vocab-beau.mp3", "voice": "henri" },
+    { "id": "sympa", "fr": "sympa", "en": "nice / friendly (informal)", "pos": "adjective", "exampleFr": "Elle est sympa.", "exampleEn": "She is friendly.", "audio": "audio/a1.1/unit-09-describing/vocab-sympa.mp3", "voice": "denise" },
+    { "id": "gentil", "fr": "gentil", "en": "kind (f. gentille)", "pos": "adjective", "exampleFr": "Il est gentil.", "exampleEn": "He is kind.", "audio": "audio/a1.1/unit-09-describing/vocab-gentil.mp3", "voice": "henri" },
+    { "id": "intelligent", "fr": "intelligent", "en": "intelligent (f. intelligente)", "pos": "adjective", "exampleFr": "Elle est intelligente.", "exampleEn": "She is intelligent.", "audio": "audio/a1.1/unit-09-describing/vocab-intelligent.mp3", "voice": "denise" },
+    { "id": "timide", "fr": "timide", "en": "shy", "pos": "adjective", "exampleFr": "Je suis timide.", "exampleEn": "I am shy.", "audio": "audio/a1.1/unit-09-describing/vocab-timide.mp3", "voice": "henri" },
+    { "id": "drole", "fr": "drôle", "en": "funny", "pos": "adjective", "exampleFr": "Il est drôle.", "exampleEn": "He is funny.", "audio": "audio/a1.1/unit-09-describing/vocab-drole.mp3", "voice": "denise" },
+    { "id": "tres", "fr": "très", "en": "very", "pos": "adverb", "exampleFr": "Elle est très gentille.", "exampleEn": "She is very kind.", "audio": "audio/a1.1/unit-09-describing/vocab-tres.mp3", "voice": "henri" },
+    { "id": "cheveux", "fr": "les cheveux", "en": "hair", "pos": "noun", "exampleFr": "Il a les cheveux bruns.", "exampleEn": "He has brown hair.", "audio": "audio/a1.1/unit-09-describing/vocab-cheveux.mp3", "voice": "denise" },
+    { "id": "brun", "fr": "brun", "en": "brown / dark-haired (f. brune)", "pos": "adjective", "exampleFr": "Elle a les cheveux bruns.", "exampleEn": "She has brown hair.", "audio": "audio/a1.1/unit-09-describing/vocab-brun.mp3", "voice": "henri" },
+    { "id": "blond", "fr": "blond", "en": "blond (f. blonde)", "pos": "adjective", "exampleFr": "Il a les cheveux blonds.", "exampleEn": "He has blond hair.", "audio": "audio/a1.1/unit-09-describing/vocab-blond.mp3", "voice": "denise" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "Elle est grande et sympa.", "en": "She is tall and friendly.", "audio": "audio/a1.1/unit-09-describing/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "Il est petit et timide.", "en": "He is short and shy.", "audio": "audio/a1.1/unit-09-describing/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "Marie est très intelligente.", "en": "Marie is very intelligent.", "audio": "audio/a1.1/unit-09-describing/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "C'est un garçon gentil.", "en": "He's a kind boy.", "audio": "audio/a1.1/unit-09-describing/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "Il a les cheveux bruns.", "en": "He has brown hair.", "audio": "audio/a1.1/unit-09-describing/example-ex-5.mp3", "voice": "denise" }
+  ]
+}
