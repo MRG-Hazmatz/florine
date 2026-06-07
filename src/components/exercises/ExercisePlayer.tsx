@@ -67,12 +67,23 @@ export default function ExercisePlayer({ unit }: { unit: Unit }) {
           }`}
         >
           <p className="text-sm uppercase tracking-wide text-ink/50">Your score</p>
-          <p className="font-display text-5xl font-bold">{pct}%</p>
-          <p className="mt-2 text-lg">
-            {passed
-              ? "Passed! 🎉"
-              : `Pass mark is ${Math.round(passThreshold * 100)}% — give it another go.`}
-          </p>
+          <p className="font-fancy text-6xl font-bold tracking-wide">{pct}%</p>
+          {passed ? (
+            <div className="mt-2 space-y-1">
+              <img
+                src="/icons/popper.png"
+                alt=""
+                className="mx-auto h-14 object-contain mix-blend-multiply"
+              />
+              <p className="font-fancy text-xl font-bold uppercase tracking-widest text-emerald-800">
+                Passed!
+              </p>
+            </div>
+          ) : (
+            <p className="mt-2 text-lg">
+              Pass mark is {Math.round(passThreshold * 100)}% — give it another go.
+            </p>
+          )}
         </div>
         <div className="mx-auto max-w-md rounded-lg border border-ink/15 bg-card p-4 text-left">
           <p className="mb-2 text-center font-display text-sm uppercase tracking-[0.2em] text-ink/50">

@@ -12,7 +12,7 @@ Status: ✅ built · 🔨 in progress · ⬜ planned
 | # | Module | Alter Ego | Grammar focus | Status |
 |---|---|---|---|---|
 | 1 | Greetings & politeness | D0 / D1 | salutations, tu vs vous, register | ✅ unit-01 |
-| 2 | Numbers | D0 | cardinal numbers (0–10 now; extend to 0–69) | ✅ unit-02 |
+| 2 | Numbers (0–69) | D0 | cardinal numbers 0–69 | ✅ unit-02 |
 | 3 | Introducing yourself | D0 / D1·L1 | être, nationalities, c'est/il est | ✅ unit-03 |
 | 4 | Personal info & spelling | D1·L2 | l'alphabet, quel, coordonnées, numbers 70+ | ⬜ |
 | 5 | The city: location & articles | D2·L1 | articles (un/une/le/la/des), il y a, prépositions de lieu | 🔨 unit-07 |
@@ -47,6 +47,6 @@ Status: ✅ built · 🔨 in progress · ⬜ planned
   →negation) first. Module **numbers can be resequenced cheaply later** — edit
   `unitNumber` in each `lesson.json` (no id/folder/audio renames needed), since
   ordering + unlock derive from `unitNumber`.
-- **Retroactive TODOs** (safe — nothing is native-reviewed yet): extend unit-02
-  numbers to 0–69; split unit-05's "describing people" from "tastes" if it gets
-  crowded.
+- **Retroactive TODOs** (safe — nothing is native-reviewed yet): ✅ numbers
+  extended to 0–69. Still open: a dedicated "describing people" module (D3·L2,
+  map #8) with character/appearance adjectives — currently only tastes are covered.

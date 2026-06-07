@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { getAllUnits } from "../lib/content/load";
 import { useProgress, vocabKey } from "../lib/storage/progress";
 import { isDue, initialCard, type Rating } from "../lib/srs/sm2";
+import { shuffle } from "../lib/util";
 import AudioButton from "../components/AudioButton";
 import type { VocabItem } from "../lib/content/schema";
 
@@ -27,7 +28,8 @@ export default function Review() {
   );
   const cardByKey = Object.fromEntries(allCards.map((c) => [c.key, c]));
 
-  const [queue] = useState<string[]>(() =>
+  // Active queue: starts with the cards due today, but can be refilled on demand.
+  const [queue, setQueue] = useState<string[]>(() =>
     allCards.filter((c) => isDue(vocabState[c.key] ?? initialCard())).map((c) => c.key),
   );
   const [index, setIndex] = useState(0);
@@ -37,20 +39,41 @@ export default function Review() {
     return <p className="text-ink/60">No vocabulary to review yet.</p>;
   }
 
+  const startPractice = () => {
+    setQueue(shuffle(allCards.map((c) => c.key)));
+    setIndex(0);
+    setRevealed(false);
+  };
+
+  // Between rounds (due queue cleared, or finished a practice round).
   if (queue.length === 0 || index >= queue.length) {
-    const done = queue.length > 0;
+    const reviewed = queue.length;
     return (
-      <section className="space-y-3 py-12 text-center">
-        <img src="/icons/review.png" alt="" className="mx-auto h-28 object-contain mix-blend-multiply" />
-        <p className="font-display text-3xl">{done ? "Review complete! 🎉" : "All caught up! 🎉"}</p>
-        <p className="text-ink/60">
-          {done
-            ? `You reviewed ${queue.length} card${queue.length === 1 ? "" : "s"}.`
-            : "Nothing is due right now. Come back tomorrow."}
+      <section className="space-y-4 py-10 text-center">
+        <img src="/icons/popper.png" alt="" className="mx-auto h-20 object-contain mix-blend-multiply" />
+        <p className="font-fancy text-3xl font-bold uppercase tracking-wide">
+          {reviewed > 0 ? "Review complete" : "All caught up"}
         </p>
-        <Link to="/" className="text-marine underline">
-          Home
-        </Link>
+        <p className="mx-auto max-w-sm text-ink/60">
+          {reviewed > 0
+            ? `You got through ${reviewed} card${reviewed === 1 ? "" : "s"}. Keep the momentum — practise as much as you like.`
+            : "Nothing is scheduled right now, but you never have to wait. Practise any time."}
+        </p>
+        <div className="flex justify-center gap-3">
+          <button
+            type="button"
+            onClick={startPractice}
+            className="rounded bg-marine px-5 py-2.5 font-medium text-white hover:bg-marine/90"
+          >
+            Practice all words
+          </button>
+          <Link
+            to="/"
+            className="rounded border border-marine/30 px-5 py-2.5 font-medium text-marine hover:bg-marine/10"
+          >
+            Home
+          </Link>
+        </div>
       </section>
     );
   }

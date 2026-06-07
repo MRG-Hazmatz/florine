@@ -122,6 +122,42 @@
       ],
       "correct": ["b"],
       "explanation": "trois = 3."
+    },
+    {
+      "id": "ex-mc-3",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Which number is « seize »?",
+      "options": [
+        { "id": "a", "text": "6" },
+        { "id": "b", "text": "16" },
+        { "id": "c", "text": "60" }
+      ],
+      "correct": ["b"],
+      "explanation": "seize = 16. (six = 6, soixante = 60)"
+    },
+    {
+      "id": "ex-fb-3",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Write the number in words.",
+      "inputMode": "typed",
+      "template": "40 = {{b1}}",
+      "blanks": [{ "id": "b1", "accept": ["quarante"] }],
+      "explanation": "40 = quarante."
+    },
+    {
+      "id": "ex-mc-4",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What number is « vingt-trois »?",
+      "options": [
+        { "id": "a", "text": "13" },
+        { "id": "b", "text": "23" },
+        { "id": "c", "text": "32" }
+      ],
+      "correct": ["b"],
+      "explanation": "vingt (20) + trois (3) = vingt-trois (23)."
     }
   ]
 }
