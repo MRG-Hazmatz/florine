@@ -8,7 +8,8 @@ export const CEFR_LABELS: Record<CefrLevel, string> = {
   "a2.2": "A2.2 — Elementary (consolidation)",
   "b1.1": "B1.1 — Intermediate",
   "b1.2": "B1.2 — Intermediate (consolidation)",
-  "b2": "B2 — Upper intermediate",
+  "b2.1": "B2.1 — Upper intermediate",
+  "b2.2": "B2.2 — Upper intermediate (consolidation)",
 };
 
 /** Which DELF exam a level prepares for (where applicable). */
@@ -16,5 +17,5 @@ export const DELF_FOR_LEVEL: Partial<Record<CefrLevel, string>> = {
   "a1.2": "DELF A1",
   "a2.2": "DELF A2",
   "b1.2": "DELF B1 Junior",
-  "b2": "DELF B2",
+  "b2.2": "DELF B2",
 };
