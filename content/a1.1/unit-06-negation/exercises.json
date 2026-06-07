@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "unitId": "a1.1/unit-06-negation",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "How do you say \"I don't speak French\" correctly?",
+      "options": [
+        { "id": "a", "text": "Je ne parle pas français." },
+        { "id": "b", "text": "Je parle pas français." },
+        { "id": "c", "text": "Je ne parle français." }
+      ],
+      "correct": ["a"],
+      "explanation": "Negation needs BOTH pieces around the verb: ne parle pas."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Make the sentence negative (he does NOT speak English).",
+      "inputMode": "typed",
+      "template": "Il {{b1}} parle {{b2}} anglais.",
+      "blanks": [
+        { "id": "b1", "accept": ["ne"] },
+        { "id": "b2", "accept": ["pas"] }
+      ],
+      "explanation": "ne … pas wraps the verb: il ne parle pas."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Complete: « Je ___ aime pas le café. »",
+      "options": [
+        { "id": "a", "text": "n'" },
+        { "id": "b", "text": "ne" },
+        { "id": "c", "text": "pas" }
+      ],
+      "correct": ["a"],
+      "explanation": "ne becomes n' before a vowel: je n'aime pas."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each French word to its English meaning.",
+      "pairs": [
+        { "id": "p1", "left": "détester", "right": "to hate" },
+        { "id": "p2", "left": "manger", "right": "to eat" },
+        { "id": "p3", "left": "les légumes", "right": "vegetables" },
+        { "id": "p4", "left": "le café", "right": "coffee" }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order to say \"I don't speak English.\"",
+      "tokens": [
+        { "id": "t1", "text": "Je" },
+        { "id": "t2", "text": "ne" },
+        { "id": "t3", "text": "parle" },
+        { "id": "t4", "text": "pas" },
+        { "id": "t5", "text": "anglais" }
+      ],
+      "correctOrder": ["t1", "t2", "t3", "t4", "t5"],
+      "explanation": "ne goes before the verb, pas after it: Je ne parle pas anglais."
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then: what does the speaker like?",
+      "audio": "audio/a1.1/unit-06-negation/listen-1.mp3",
+      "transcript": "Je n'aime pas le thé, mais j'aime le café.",
+      "options": [
+        { "id": "a", "text": "Coffee" },
+        { "id": "b", "text": "Tea" },
+        { "id": "c", "text": "Both" }
+      ],
+      "correct": ["a"],
+      "explanation": "« je n'aime pas le thé, mais j'aime le café » — likes coffee, not tea. (mais = but)"
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read about Anna and answer both questions.",
+      "passageFr": "Je m'appelle Anna. J'aime la lecture et la musique. Je n'aime pas le sport. Je déteste les légumes !",
+      "passageEn": "My name is Anna. I like reading and music. I don't like sport. I hate vegetables!",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "What does Anna NOT like?",
+          "options": [
+            { "id": "a", "text": "Sport" },
+            { "id": "b", "text": "Music" },
+            { "id": "c", "text": "Reading" }
+          ],
+          "correct": ["a"]
+        },
+        {
+          "id": "q2",
+          "prompt": "What does Anna hate?",
+          "options": [
+            { "id": "a", "text": "Vegetables" },
+            { "id": "b", "text": "Coffee" },
+            { "id": "c", "text": "Music" }
+          ],
+          "correct": ["a"]
+        }
+      ]
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Make the sentence negative (we do NOT watch TV).",
+      "inputMode": "typed",
+      "template": "Nous {{b1}} regardons {{b2}} la télé.",
+      "blanks": [
+        { "id": "b1", "accept": ["ne"] },
+        { "id": "b2", "accept": ["pas"] }
+      ],
+      "explanation": "nous ne regardons pas la télé."
+    }
+  ]
+}

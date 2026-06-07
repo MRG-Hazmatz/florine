@@ -86,6 +86,16 @@ export default function FillBlank({
               value={val}
               disabled={graded}
               onChange={(e) => setValues((v) => ({ ...v, [bid]: e.target.value }))}
+              onKeyDown={(e) => {
+                if (graded || !allFilled) return;
+                if (e.key === "Enter") {
+                  e.preventDefault();
+                  check();
+                } else if (e.key === " " && (values[bid] ?? "").endsWith(" ")) {
+                  e.preventDefault();
+                  check();
+                }
+              }}
               placeholder="…"
               className={`mx-1 w-32 rounded border px-2 py-1 outline-none ${fieldCls(ok)}`}
             />
@@ -99,14 +109,19 @@ export default function FillBlank({
         </p>
       )}
       {!graded && (
-        <button
-          type="button"
-          onClick={check}
-          disabled={!allFilled}
-          className="rounded bg-marine px-4 py-2 font-medium text-white disabled:opacity-40"
-        >
-          Check
-        </button>
+        <div className="space-y-2">
+          <p className="text-xs text-ink/45">
+            Tip: double-tap the spacebar (or press Enter) to submit.
+          </p>
+          <button
+            type="button"
+            onClick={check}
+            disabled={!allFilled}
+            className="rounded bg-marine px-4 py-2 font-medium text-white disabled:opacity-40"
+          >
+            Check
+          </button>
+        </div>
       )}
     </div>
   );

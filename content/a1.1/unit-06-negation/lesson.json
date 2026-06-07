@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "a1.1/unit-06-negation",
+  "level": "a1.1",
+  "unitNumber": 6,
+  "slug": "unit-06-negation",
+  "title": "Saying No: Negation & Dislikes",
+  "titleFr": "La négation (ne… pas)",
+  "cefrDescriptors": [
+    "Can make simple negative statements about activities and preferences.",
+    "Can express dislikes using ne… pas and détester."
+  ],
+  "skills": ["reading", "listening", "writing"],
+  "estimatedMinutes": 40,
+  "concept": "So far you've said what you do and like. Now learn to say what you DON'T — which, honestly, is half of any real conversation.\n\nFrench negation is a sandwich: it wraps the conjugated verb in two words, ne … pas.\n  je parle  ->  je ne parle pas\n  tu aimes  ->  tu n'aimes pas\n  il regarde -> il ne regarde pas\n\nThe rule: put ne BEFORE the verb and pas AFTER it. Both pieces are required — using only one (\"je parle pas\" / \"je ne parle\") is incomplete in careful French, and the DELF expects the full ne … pas.\n\nOne spelling change: ne becomes n' before a vowel or a silent h, exactly like je -> j'. So « je ne aime pas » is wrong; it's je n'aime pas. Same with n'habite pas, n'écoute pas.\n\nFor strong feelings, use détester (to hate / really dislike), a normal -er verb: je déteste les légumes. That gives you a three-point scale:\n  j'aime  (I like)  <  je n'aime pas  (I don't like)  <  je déteste (I hate).\n\nA heads-up for listening: in casual speech, French speakers often drop the ne and just say « j'aime pas ». You'll hear it constantly — but keep writing the full ne … pas yourself, especially in the exam.\n\nWrite three true negative sentences about yourself: something you don't speak, don't watch, and don't like.",
+  "vocabulary": [
+    { "id": "ne-pas", "fr": "ne … pas", "en": "not (negation)", "pos": "phrase", "exampleFr": "Je ne parle pas espagnol.", "exampleEn": "I don't speak Spanish.", "audio": "audio/a1.1/unit-06-negation/vocab-ne-pas.mp3", "voice": "denise" },
+    { "id": "detester", "fr": "détester", "en": "to hate / to really dislike", "pos": "verb", "exampleFr": "Je déteste les légumes.", "exampleEn": "I hate vegetables.", "audio": "audio/a1.1/unit-06-negation/vocab-detester.mp3", "voice": "henri" },
+    { "id": "manger", "fr": "manger", "en": "to eat", "pos": "verb", "exampleFr": "Je ne mange pas de viande.", "exampleEn": "I don't eat meat.", "audio": "audio/a1.1/unit-06-negation/vocab-manger.mp3", "voice": "denise" },
+    { "id": "aimer", "fr": "aimer", "en": "to like / to love", "pos": "verb", "exampleFr": "Je n'aime pas le café.", "exampleEn": "I don't like coffee.", "audio": "audio/a1.1/unit-06-negation/vocab-aimer.mp3", "voice": "henri" },
+    { "id": "cafe", "fr": "le café", "en": "coffee", "pos": "noun", "exampleFr": "Je n'aime pas le café.", "exampleEn": "I don't like coffee.", "audio": "audio/a1.1/unit-06-negation/vocab-cafe.mp3", "voice": "denise" },
+    { "id": "the", "fr": "le thé", "en": "tea", "pos": "noun", "exampleFr": "J'aime le thé.", "exampleEn": "I like tea.", "audio": "audio/a1.1/unit-06-negation/vocab-the.mp3", "voice": "henri" },
+    { "id": "legumes", "fr": "les légumes", "en": "vegetables", "pos": "noun", "exampleFr": "Je déteste les légumes.", "exampleEn": "I hate vegetables.", "audio": "audio/a1.1/unit-06-negation/vocab-legumes.mp3", "voice": "denise" },
+    { "id": "poisson", "fr": "le poisson", "en": "fish", "pos": "noun", "exampleFr": "Tu aimes le poisson ?", "exampleEn": "Do you like fish?", "audio": "audio/a1.1/unit-06-negation/vocab-poisson.mp3", "voice": "henri" },
+    { "id": "viande", "fr": "la viande", "en": "meat", "pos": "noun", "exampleFr": "Je ne mange pas de viande.", "exampleEn": "I don't eat meat.", "audio": "audio/a1.1/unit-06-negation/vocab-viande.mp3", "voice": "denise" },
+    { "id": "danse", "fr": "la danse", "en": "dance / dancing", "pos": "noun", "exampleFr": "J'aime la danse.", "exampleEn": "I like dancing.", "audio": "audio/a1.1/unit-06-negation/vocab-danse.mp3", "voice": "henri" },
+    { "id": "lecture", "fr": "la lecture", "en": "reading", "pos": "noun", "exampleFr": "J'aime la lecture.", "exampleEn": "I like reading.", "audio": "audio/a1.1/unit-06-negation/vocab-lecture.mp3", "voice": "denise" },
+    { "id": "livre", "fr": "le livre", "en": "book", "pos": "noun", "exampleFr": "Je regarde le livre.", "exampleEn": "I look at the book.", "audio": "audio/a1.1/unit-06-negation/vocab-livre.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "Je n'aime pas le café.", "en": "I don't like coffee.", "audio": "audio/a1.1/unit-06-negation/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "Il ne parle pas anglais.", "en": "He doesn't speak English.", "audio": "audio/a1.1/unit-06-negation/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "Je déteste les légumes.", "en": "I hate vegetables.", "audio": "audio/a1.1/unit-06-negation/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "Nous ne regardons pas la télé.", "en": "We don't watch TV.", "audio": "audio/a1.1/unit-06-negation/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "J'aime le thé, mais je n'aime pas le café.", "en": "I like tea, but I don't like coffee.", "audio": "audio/a1.1/unit-06-negation/example-ex-5.mp3", "voice": "denise" }
+  ]
+}

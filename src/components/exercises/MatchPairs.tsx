@@ -22,10 +22,33 @@ export default function MatchPairs({
   const usedRights = new Set(Object.values(assign));
 
   const clickLeft = (id: string) => {
-    if (!graded) setSel((cur) => (cur === id ? null : id));
+    if (graded) return;
+    if (assign[id]) {
+      // already matched -> clicking again unmatches it (frees this pair)
+      setAssign((a) => {
+        const next = { ...a };
+        delete next[id];
+        return next;
+      });
+      setSel(null);
+      return;
+    }
+    setSel((cur) => (cur === id ? null : id));
   };
   const clickRight = (rid: string) => {
-    if (graded || !sel) return;
+    if (graded) return;
+    if (!sel) {
+      // nothing selected -> clicking an already-matched right unmatches it
+      const owner = Object.keys(assign).find((k) => assign[k] === rid);
+      if (owner) {
+        setAssign((a) => {
+          const next = { ...a };
+          delete next[owner];
+          return next;
+        });
+      }
+      return;
+    }
     const left = sel;
     setAssign((a) => {
       const next: Record<string, string> = {};
@@ -98,7 +121,9 @@ export default function MatchPairs({
         </ul>
       </div>
       {!graded && (
-        <p className="text-xs text-ink/50">Tap a French word, then its English match.</p>
+        <p className="text-xs text-ink/50">
+          Tap a French word, then its English match. Tap a matched item again to undo it.
+        </p>
       )}
       {!graded && (
         <button
