@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "unitId": "a1.1/unit-12-alphabet",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « Comment ça s'écrit ? » mean?",
+      "options": [
+        { "id": "a", "text": "How is it spelled?" },
+        { "id": "b", "text": "What's your name?" },
+        { "id": "c", "text": "How are you?" }
+      ],
+      "correct": ["a"],
+      "explanation": "« Comment ça s'écrit ? » = How is it spelled / written?"
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Complete: « ___ est votre nom ? » (nom is masculine)",
+      "options": [
+        { "id": "a", "text": "Quel" },
+        { "id": "b", "text": "Quelle" },
+        { "id": "c", "text": "Qui" }
+      ],
+      "correct": ["a"],
+      "explanation": "quel agrees with the noun; nom is masculine → quel."
+    },
+    {
+      "id": "ex-mc-3",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "The accent on « é » is called:",
+      "options": [
+        { "id": "a", "text": "un accent aigu" },
+        { "id": "b", "text": "un accent grave" },
+        { "id": "c", "text": "une cédille" }
+      ],
+      "correct": ["a"],
+      "explanation": "é = e accent aigu. (è = grave, ç = cédille)"
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        { "id": "p1", "left": "le nom", "right": "surname" },
+        { "id": "p2", "left": "le prénom", "right": "first name" },
+        { "id": "p3", "left": "épeler", "right": "to spell" },
+        { "id": "p4", "left": "le numéro", "right": "number" }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order to ask \"How is it spelled?\"",
+      "tokens": [
+        { "id": "t1", "text": "Comment" },
+        { "id": "t2", "text": "ça" },
+        { "id": "t3", "text": "s'écrit" },
+        { "id": "t4", "text": "?" }
+      ],
+      "correctOrder": ["t1", "t2", "t3", "t4"]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then: what is the speaker's first name (prénom)?",
+      "audio": "audio/a1.1/unit-12-alphabet/listen-1.mp3",
+      "transcript": "Bonjour, mon prénom est Léa et mon nom est Martin.",
+      "options": [
+        { "id": "a", "text": "Léa" },
+        { "id": "b", "text": "Martin" },
+        { "id": "c", "text": "Marie" }
+      ],
+      "correct": ["a"],
+      "explanation": "prénom = first name (Léa); Martin is the nom (surname)."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read the exchange and answer both questions.",
+      "passageFr": "— Quel est votre prénom ? — Marc. — Et votre nom ? — Dubois.",
+      "passageEn": "— What is your first name? — Marc. — And your surname? — Dubois.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "What is the first name?",
+          "options": [
+            { "id": "a", "text": "Marc" },
+            { "id": "b", "text": "Dubois" },
+            { "id": "c", "text": "Léa" }
+          ],
+          "correct": ["a"]
+        },
+        {
+          "id": "q2",
+          "prompt": "What is the surname?",
+          "options": [
+            { "id": "a", "text": "Dubois" },
+            { "id": "b", "text": "Marc" },
+            { "id": "c", "text": "Martin" }
+          ],
+          "correct": ["a"]
+        }
+      ]
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Choose quel or quelle (adresse is feminine).",
+      "inputMode": "dropdown",
+      "template": "{{b1}} est votre adresse ?",
+      "blanks": [{ "id": "b1", "accept": ["Quelle"], "options": ["Quel", "Quelle"] }],
+      "explanation": "adresse is feminine → Quelle."
+    }
+  ]
+}

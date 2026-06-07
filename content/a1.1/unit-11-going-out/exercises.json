@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "unitId": "a1.1/unit-11-going-out",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Choose the correct form of aller: « Nous ___ au cinéma. »",
+      "options": [
+        { "id": "a", "text": "allons" },
+        { "id": "b", "text": "allez" },
+        { "id": "c", "text": "va" },
+        { "id": "d", "text": "vont" }
+      ],
+      "correct": ["a"],
+      "explanation": "nous allons. (je vais, tu vas, il/elle va, nous allons, vous allez, ils/elles vont)"
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Which correctly says \"I'm going to eat\" (futur proche)?",
+      "options": [
+        { "id": "a", "text": "Je vais manger." },
+        { "id": "b", "text": "Je mange." },
+        { "id": "c", "text": "Je vais mangé." }
+      ],
+      "correct": ["a"],
+      "explanation": "Futur proche = aller + the infinitive: je vais + manger."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Complete the near-future plan (aller, je form).",
+      "inputMode": "typed",
+      "template": "Ce soir, je {{b1}} regarder un film.",
+      "blanks": [{ "id": "b1", "accept": ["vais"] }],
+      "explanation": "je vais + regarder (infinitive)."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each expression to its English meaning.",
+      "pairs": [
+        { "id": "p1", "left": "demain", "right": "tomorrow" },
+        { "id": "p2", "left": "ce soir", "right": "tonight" },
+        { "id": "p3", "left": "sortir", "right": "to go out" },
+        { "id": "p4", "left": "la fête", "right": "the party" }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order to say \"We're going to go to the cinema.\"",
+      "tokens": [
+        { "id": "t1", "text": "On" },
+        { "id": "t2", "text": "va" },
+        { "id": "t3", "text": "aller" },
+        { "id": "t4", "text": "au" },
+        { "id": "t5", "text": "cinéma" }
+      ],
+      "correctOrder": ["t1", "t2", "t3", "t4", "t5"],
+      "explanation": "« On va aller au cinéma » — aller as the helper + aller as the main verb is normal."
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then: when is the plan?",
+      "audio": "audio/a1.1/unit-11-going-out/listen-1.mp3",
+      "transcript": "Demain, je vais aller au restaurant avec un ami.",
+      "options": [
+        { "id": "a", "text": "Tomorrow" },
+        { "id": "b", "text": "Tonight" },
+        { "id": "c", "text": "This weekend" }
+      ],
+      "correct": ["a"],
+      "explanation": "« Demain » = tomorrow."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read the message and answer both questions.",
+      "passageFr": "Salut ! Ce week-end, je vais sortir avec des amis. Nous allons aller au cinéma.",
+      "passageEn": "Hi! This weekend, I'm going to go out with friends. We're going to go to the cinema.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "When are they going out?",
+          "options": [
+            { "id": "a", "text": "This weekend" },
+            { "id": "b", "text": "Tomorrow morning" },
+            { "id": "c", "text": "Tonight" }
+          ],
+          "correct": ["a"]
+        },
+        {
+          "id": "q2",
+          "prompt": "Where are they going?",
+          "options": [
+            { "id": "a", "text": "To the cinema" },
+            { "id": "b", "text": "To a restaurant" },
+            { "id": "c", "text": "To a party" }
+          ],
+          "correct": ["a"]
+        }
+      ]
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Ask a friend about tonight (aller, tu form).",
+      "inputMode": "dropdown",
+      "template": "Tu {{b1}} sortir ce soir ?",
+      "blanks": [{ "id": "b1", "accept": ["vas"], "options": ["vas", "vais"] }],
+      "explanation": "tu vas (je vais is the 'I' form)."
+    }
+  ]
+}

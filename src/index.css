@@ -72,5 +72,5 @@ body::after {
   border-width: 30px;
   border-image-source: url("/icons/frame.png");
   border-image-slice: 70 69 65 68;
-  border-image-repeat: stretch;
+  border-image-repeat: round;
 }

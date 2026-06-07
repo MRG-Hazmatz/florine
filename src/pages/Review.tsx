@@ -99,7 +99,7 @@ export default function Review() {
       </div>
 
       {/* Tarot-style flashcard: thick outer frame + thin inner rule + hard offset shadow */}
-      <div className="mx-auto max-w-xs">
+      <div className="mx-auto max-w-sm">
         <div className="ornate-frame bg-card">
           <div className="flex min-h-72 flex-col items-center justify-between px-5 py-6 text-center">
             <span className="text-[10px] uppercase tracking-[0.35em] text-ink/40">
@@ -137,7 +137,7 @@ export default function Review() {
       </div>
 
       {revealed && (
-        <div className="mx-auto grid max-w-xs grid-cols-4 gap-2">
+        <div className="mx-auto grid max-w-sm grid-cols-4 gap-2">
           {RATINGS.map((r) => (
             <button
               key={r.rating}

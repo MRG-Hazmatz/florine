@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "unitId": "a1.1/unit-10-time-routine",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « Quelle heure est-il ? » ask?",
+      "options": [
+        { "id": "a", "text": "What time is it?" },
+        { "id": "b", "text": "What's your name?" },
+        { "id": "c", "text": "How are you?" }
+      ],
+      "correct": ["a"],
+      "explanation": "« Quelle heure est-il ? » = What time is it?"
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Which correctly says \"I get up at seven\"?",
+      "options": [
+        { "id": "a", "text": "Je me lève à sept heures." },
+        { "id": "b", "text": "Je lève à sept heures." },
+        { "id": "c", "text": "Je me lever à sept heures." }
+      ],
+      "correct": ["a"],
+      "explanation": "se lever is reflexive: je ME lève (and the verb is conjugated, not the infinitive)."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Add the reflexive pronoun.",
+      "inputMode": "typed",
+      "template": "Le matin, je {{b1}} lève tôt.",
+      "blanks": [{ "id": "b1", "accept": ["me"] }],
+      "explanation": "je me lève — the reflexive pronoun for je is me."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        { "id": "p1", "left": "le matin", "right": "morning" },
+        { "id": "p2", "left": "le soir", "right": "evening" },
+        { "id": "p3", "left": "midi", "right": "noon" },
+        { "id": "p4", "left": "la nuit", "right": "night" }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order to say \"It is eight o'clock.\"",
+      "tokens": [
+        { "id": "t1", "text": "Il" },
+        { "id": "t2", "text": "est" },
+        { "id": "t3", "text": "huit" },
+        { "id": "t4", "text": "heures" }
+      ],
+      "correctOrder": ["t1", "t2", "t3", "t4"]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then: at what time does the speaker get up?",
+      "audio": "audio/a1.1/unit-10-time-routine/listen-1.mp3",
+      "transcript": "Je me lève à sept heures et je me couche à dix heures.",
+      "options": [
+        { "id": "a", "text": "7:00" },
+        { "id": "b", "text": "8:00" },
+        { "id": "c", "text": "10:00" }
+      ],
+      "correct": ["a"],
+      "explanation": "« je me lève à sept heures » = I get up at 7."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read about Marie's day and answer both questions.",
+      "passageFr": "Le matin, Marie se lève à six heures. À midi, elle mange. Le soir, elle se couche à dix heures.",
+      "passageEn": "In the morning, Marie gets up at six. At noon, she eats. In the evening, she goes to bed at ten.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "When does Marie get up?",
+          "options": [
+            { "id": "a", "text": "At six in the morning" },
+            { "id": "b", "text": "At noon" },
+            { "id": "c", "text": "At ten in the evening" }
+          ],
+          "correct": ["a"]
+        },
+        {
+          "id": "q2",
+          "prompt": "When does she go to bed?",
+          "options": [
+            { "id": "a", "text": "At ten in the evening" },
+            { "id": "b", "text": "At six in the morning" },
+            { "id": "c", "text": "At noon" }
+          ],
+          "correct": ["a"]
+        }
+      ]
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "It's 12:00 midday. Choose the right word.",
+      "inputMode": "dropdown",
+      "template": "Il est {{b1}}.",
+      "blanks": [{ "id": "b1", "accept": ["midi"], "options": ["midi", "minuit"] }],
+      "explanation": "midi = noon (12:00 midday); minuit = midnight."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "a1.1/unit-10-time-routine",
+  "level": "a1.1",
+  "unitNumber": 10,
+  "slug": "unit-10-time-routine",
+  "title": "Time & Daily Routine",
+  "titleFr": "L'heure et la routine",
+  "cefrDescriptors": [
+    "Can ask and tell the time.",
+    "Can describe a simple daily routine using reflexive verbs."
+  ],
+  "skills": ["reading", "listening", "writing"],
+  "estimatedMinutes": 45,
+  "concept": "Two everyday skills here: telling the time, and talking about your daily routine.\n\nTelling the time starts with a fixed question and answer: « Quelle heure est-il ? » — « Il est… ». Use heures for the hour: il est huit heures (8:00). Special cases: il est une heure (1:00, with une), il est midi (noon), il est minuit (midnight). For minutes, the easy ones are: et quart (quarter past), et demie (half past), and moins le quart (quarter to). So 8:15 = huit heures et quart, 8:30 = huit heures et demie, 7:45 = huit heures moins le quart. To say WHEN something happens, add à: « Je me lève à sept heures. »\n\nDaily routine brings a new verb type: reflexive (pronominal) verbs, where the action loops back on the subject. They carry an extra little pronoun:\n  je me lève (I get up), tu te lèves, il/elle se lève,\n  nous nous levons, vous vous levez, ils/elles se lèvent.\nThe pattern is the same for se coucher (to go to bed) and se laver (to wash up): je me couche, je me lave. You met one already in Unit 3 — s'appeler (« je m'appelle »). The me/te/se simply means \"-self\".\n\nPair these with parts of the day — le matin (morning), l'après-midi (afternoon), le soir (evening), la nuit (night) — and words like tôt (early) and tard (late). Now you can narrate a whole day: « Le matin, je me lève tôt. Le soir, je me couche tard. »\n\nSay your real morning routine out loud, with three times in it.",
+  "vocabulary": [
+    { "id": "heure", "fr": "l'heure", "en": "time / hour", "pos": "noun", "exampleFr": "Quelle heure est-il ?", "exampleEn": "What time is it?", "audio": "audio/a1.1/unit-10-time-routine/vocab-heure.mp3", "voice": "denise" },
+    { "id": "se-lever", "fr": "se lever", "en": "to get up", "pos": "verb", "exampleFr": "Je me lève à sept heures.", "exampleEn": "I get up at seven.", "audio": "audio/a1.1/unit-10-time-routine/vocab-se-lever.mp3", "voice": "henri" },
+    { "id": "se-coucher", "fr": "se coucher", "en": "to go to bed", "pos": "verb", "exampleFr": "Je me couche tard.", "exampleEn": "I go to bed late.", "audio": "audio/a1.1/unit-10-time-routine/vocab-se-coucher.mp3", "voice": "denise" },
+    { "id": "se-laver", "fr": "se laver", "en": "to wash (oneself)", "pos": "verb", "exampleFr": "Il se lave le matin.", "exampleEn": "He washes up in the morning.", "audio": "audio/a1.1/unit-10-time-routine/vocab-se-laver.mp3", "voice": "henri" },
+    { "id": "matin", "fr": "le matin", "en": "morning", "pos": "noun", "exampleFr": "Le matin, je bois un café.", "exampleEn": "In the morning, I drink a coffee.", "audio": "audio/a1.1/unit-10-time-routine/vocab-matin.mp3", "voice": "denise" },
+    { "id": "apres-midi", "fr": "l'après-midi", "en": "afternoon", "pos": "noun", "exampleFr": "L'après-midi, je travaille.", "exampleEn": "In the afternoon, I work.", "audio": "audio/a1.1/unit-10-time-routine/vocab-apres-midi.mp3", "voice": "henri" },
+    { "id": "soir", "fr": "le soir", "en": "evening", "pos": "noun", "exampleFr": "Le soir, je regarde la télé.", "exampleEn": "In the evening, I watch TV.", "audio": "audio/a1.1/unit-10-time-routine/vocab-soir.mp3", "voice": "denise" },
+    { "id": "nuit", "fr": "la nuit", "en": "night", "pos": "noun", "exampleFr": "La nuit, je dors.", "exampleEn": "At night, I sleep.", "audio": "audio/a1.1/unit-10-time-routine/vocab-nuit.mp3", "voice": "henri" },
+    { "id": "midi", "fr": "midi", "en": "noon / midday", "pos": "noun", "exampleFr": "Il est midi.", "exampleEn": "It is noon.", "audio": "audio/a1.1/unit-10-time-routine/vocab-midi.mp3", "voice": "denise" },
+    { "id": "minuit", "fr": "minuit", "en": "midnight", "pos": "noun", "exampleFr": "Il est minuit.", "exampleEn": "It is midnight.", "audio": "audio/a1.1/unit-10-time-routine/vocab-minuit.mp3", "voice": "henri" },
+    { "id": "tot", "fr": "tôt", "en": "early", "pos": "adverb", "exampleFr": "Je me lève tôt.", "exampleEn": "I get up early.", "audio": "audio/a1.1/unit-10-time-routine/vocab-tot.mp3", "voice": "denise" },
+    { "id": "tard", "fr": "tard", "en": "late", "pos": "adverb", "exampleFr": "Il se couche tard.", "exampleEn": "He goes to bed late.", "audio": "audio/a1.1/unit-10-time-routine/vocab-tard.mp3", "voice": "henri" },
+    { "id": "demie", "fr": "et demie", "en": "half past", "pos": "phrase", "exampleFr": "Il est huit heures et demie.", "exampleEn": "It is half past eight.", "audio": "audio/a1.1/unit-10-time-routine/vocab-demie.mp3", "voice": "denise" },
+    { "id": "quart", "fr": "et quart", "en": "quarter past", "pos": "phrase", "exampleFr": "Il est neuf heures et quart.", "exampleEn": "It is quarter past nine.", "audio": "audio/a1.1/unit-10-time-routine/vocab-quart.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "Quelle heure est-il ?", "en": "What time is it?", "audio": "audio/a1.1/unit-10-time-routine/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "Il est huit heures et demie.", "en": "It is half past eight.", "audio": "audio/a1.1/unit-10-time-routine/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "Je me lève à sept heures.", "en": "I get up at seven.", "audio": "audio/a1.1/unit-10-time-routine/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "Le soir, je me couche tard.", "en": "In the evening, I go to bed late.", "audio": "audio/a1.1/unit-10-time-routine/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "Il est midi.", "en": "It is noon.", "audio": "audio/a1.1/unit-10-time-routine/example-ex-5.mp3", "voice": "denise" }
+  ]
+}

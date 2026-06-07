@@ -14,15 +14,15 @@ Status: ✅ built · 🔨 in progress · ⬜ planned
 | 1 | Greetings & politeness | D0 / D1 | salutations, tu vs vous, register | ✅ unit-01 |
 | 2 | Numbers (0–69) | D0 | cardinal numbers 0–69 | ✅ unit-02 |
 | 3 | Introducing yourself | D0 / D1·L1 | être, nationalities, c'est/il est | ✅ unit-03 |
-| 4 | Personal info & spelling | D1·L2 | l'alphabet, quel, coordonnées, numbers 70+ | ⬜ |
-| 5 | The city: location & articles | D2·L1 | articles (un/une/le/la/des), il y a, prépositions de lieu | 🔨 unit-07 |
+| 4 | Alphabet & personal info | D0/D1 | l'alphabet, épeler, accents, quel, coordonnées (numbers 70+: later) | ✅ unit-12 |
+| 5 | The city: location & articles | D2·L1 | articles (un/une/le/la/des), il y a, prépositions de lieu | ✅ unit-07 |
 | 6 | Directions & the imperative | D2·L2–L3 | l'impératif, indiquer la route (addresses/code postal: later) | ✅ unit-08 |
 | 7 | Family & relationships | D3·L1 | avoir, la famille, possessifs | ✅ unit-04 |
 | 8 | Describing people | D3·L2 | adjectives + gender agreement, c'est vs il est | ✅ unit-09 |
 | 9 | Tastes & hobbies | D3·L3 | aimer + article, loisirs | ✅ unit-05 |
 | 10 | Saying no: negation | D3 | ne…pas, détester | ✅ unit-06 |
-| 11 | Time & daily routine | D4·L1/L3 | l'heure, verbes pronominaux, fréquence | ⬜ |
-| 12 | Going out & plans | D4·L2 | futur proche, invitations | ⬜ |
+| 11 | Time & daily routine | D4·L1/L3 | l'heure, verbes pronominaux | ✅ unit-10 |
+| 12 | Going out & plans | D4·L2 | futur proche (aller + infinitif), invitations | ✅ unit-11 |
 
 ## a1.2 — Dossiers 5–9
 | # | Module | Alter Ego | Grammar focus | Status |

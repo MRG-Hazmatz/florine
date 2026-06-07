@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "a1.1/unit-12-alphabet",
+  "level": "a1.1",
+  "unitNumber": 12,
+  "slug": "unit-12-alphabet",
+  "title": "Alphabet & Personal Info",
+  "titleFr": "L'alphabet et les coordonnées",
+  "cefrDescriptors": [
+    "Can spell out words and names aloud and name the accents.",
+    "Can ask for and give basic personal details using quel/quelle."
+  ],
+  "skills": ["reading", "listening", "writing"],
+  "estimatedMinutes": 40,
+  "concept": "Two survival skills here, and both show up in the DELF oral: spelling out loud, and giving your personal details.\n\nThe French alphabet has the same 26 letters as English, but the letter NAMES are pronounced differently — use the audio to hear them. What matters first is the question that triggers spelling: « Comment ça s'écrit ? » (How is it spelled?), and the verb épeler (to spell).\n\nFrench also writes accents on letters, and they are NOT optional decoration — they change pronunciation and sometimes meaning. Learn their names so you can spell aloud:\n  é = e accent aigu, è = e accent grave, ê = e accent circonflexe, ç = c cédille, ë = e tréma.\nSo « café » is spelled C-A-F-E accent aigu.\n\nTo ASK for information, French uses the question word quel / quelle (\"which / what\"). It behaves like an adjective, so it agrees with the noun: « Quel est votre nom ? » (nom is masculine → quel) but « Quelle est votre adresse ? » (adresse is feminine → quelle).\n\nThe details you'll give and ask for: le nom (surname), le prénom (first name), le numéro de téléphone (phone number), l'adresse, l'e-mail.\n\nA typical exchange: « — Quel est votre prénom ? — Léa. — Comment ça s'écrit ? — L, E accent aigu, A. »\n\nPractise spelling your own name out loud, including any accents — it's the single most likely thing you'll be asked to do in a real French conversation.",
+  "vocabulary": [
+    { "id": "alphabet", "fr": "l'alphabet", "en": "the alphabet", "pos": "noun", "exampleFr": "On apprend l'alphabet.", "exampleEn": "We're learning the alphabet.", "audio": "audio/a1.1/unit-12-alphabet/vocab-alphabet.mp3", "voice": "denise" },
+    { "id": "epeler", "fr": "épeler", "en": "to spell", "pos": "verb", "exampleFr": "Pouvez-vous épeler ?", "exampleEn": "Can you spell it?", "audio": "audio/a1.1/unit-12-alphabet/vocab-epeler.mp3", "voice": "henri" },
+    { "id": "comment-ca-secrit", "fr": "comment ça s'écrit ?", "en": "how is it spelled?", "pos": "phrase", "exampleFr": "Comment ça s'écrit ?", "exampleEn": "How is it spelled?", "audio": "audio/a1.1/unit-12-alphabet/vocab-comment-ca-secrit.mp3", "voice": "denise" },
+    { "id": "nom", "fr": "le nom", "en": "surname / family name", "pos": "noun", "exampleFr": "Quel est votre nom ?", "exampleEn": "What is your surname?", "audio": "audio/a1.1/unit-12-alphabet/vocab-nom.mp3", "voice": "henri" },
+    { "id": "prenom", "fr": "le prénom", "en": "first name", "pos": "noun", "exampleFr": "Mon prénom est Léa.", "exampleEn": "My first name is Léa.", "audio": "audio/a1.1/unit-12-alphabet/vocab-prenom.mp3", "voice": "denise" },
+    { "id": "numero", "fr": "le numéro", "en": "number", "pos": "noun", "exampleFr": "Quel est votre numéro ?", "exampleEn": "What is your number?", "audio": "audio/a1.1/unit-12-alphabet/vocab-numero.mp3", "voice": "henri" },
+    { "id": "email", "fr": "l'e-mail", "en": "email", "pos": "noun", "exampleFr": "Voici mon e-mail.", "exampleEn": "Here is my email.", "audio": "audio/a1.1/unit-12-alphabet/vocab-email.mp3", "voice": "denise" },
+    { "id": "quel", "fr": "quel / quelle", "en": "which / what", "pos": "adjective", "exampleFr": "Quel est votre nom ?", "exampleEn": "What is your name?", "audio": "audio/a1.1/unit-12-alphabet/vocab-quel.mp3", "voice": "henri" },
+    { "id": "accent-aigu", "fr": "un accent aigu", "en": "acute accent (é)", "pos": "noun", "exampleFr": "É, c'est un accent aigu.", "exampleEn": "É is an acute accent.", "audio": "audio/a1.1/unit-12-alphabet/vocab-accent-aigu.mp3", "voice": "denise" },
+    { "id": "accent-grave", "fr": "un accent grave", "en": "grave accent (è)", "pos": "noun", "exampleFr": "È, c'est un accent grave.", "exampleEn": "È is a grave accent.", "audio": "audio/a1.1/unit-12-alphabet/vocab-accent-grave.mp3", "voice": "henri" },
+    { "id": "accent-circonflexe", "fr": "un accent circonflexe", "en": "circumflex (ê)", "pos": "noun", "exampleFr": "Ê, c'est un accent circonflexe.", "exampleEn": "Ê is a circumflex.", "audio": "audio/a1.1/unit-12-alphabet/vocab-accent-circonflexe.mp3", "voice": "denise" },
+    { "id": "cedille", "fr": "une cédille", "en": "cedilla (ç)", "pos": "noun", "exampleFr": "Ç, c'est une cédille.", "exampleEn": "Ç is a cedilla.", "audio": "audio/a1.1/unit-12-alphabet/vocab-cedille.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "Comment ça s'écrit ?", "en": "How is it spelled?", "audio": "audio/a1.1/unit-12-alphabet/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "Quel est votre prénom ?", "en": "What is your first name?", "audio": "audio/a1.1/unit-12-alphabet/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "É, c'est un e accent aigu.", "en": "É is an e with an acute accent.", "audio": "audio/a1.1/unit-12-alphabet/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "Quelle est votre adresse ?", "en": "What is your address?", "audio": "audio/a1.1/unit-12-alphabet/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "Quel est votre numéro de téléphone ?", "en": "What is your phone number?", "audio": "audio/a1.1/unit-12-alphabet/example-ex-5.mp3", "voice": "denise" }
+  ]
+}

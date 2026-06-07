@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "a1.1/unit-11-going-out",
+  "level": "a1.1",
+  "unitNumber": 11,
+  "slug": "unit-11-going-out",
+  "title": "Going Out & Plans",
+  "titleFr": "Les sorties et le futur proche",
+  "cefrDescriptors": [
+    "Can talk about near-future plans and arrangements.",
+    "Can use the futur proche (aller + infinitive)."
+  ],
+  "skills": ["reading", "listening", "writing"],
+  "estimatedMinutes": 40,
+  "concept": "Good news: you can talk about the future without learning a whole new tense yet. French has a shortcut called the futur proche (\"near future\"), and it's built from a verb you'll use everywhere — aller (to go).\n\nFirst, learn aller in the present:\n  je vais, tu vas, il/elle va,\n  nous allons, vous allez, ils/elles vont.\n\nThe recipe for the near future is simple: aller (conjugated) + a verb in the infinitive (its base form). That's it.\n  je vais manger (I'm going to eat)\n  on va aller au cinéma (we're going to go to the cinema)\n  tu vas sortir ? (are you going to go out?)\nIt works for any verb: nous allons regarder un film, ils vont travailler.\n\nNotice « on va aller » — yes, aller can appear twice (the helper aller + the main verb aller, \"going to go\"). That's normal.\n\nPair it with time markers that point forward: demain (tomorrow), ce soir (tonight), ce week-end (this weekend). And the social glue of making plans: inviter (to invite), sortir (to go out), avec (with), ensemble (together), peut-être (maybe), and the cheerful « On y va ! » (Let's go!).\n\nNow you can make plans: « Ce week-end, je vais sortir avec des amis. On va aller au cinéma. » Write two real plans you have, using aller + an infinitive each.",
+  "vocabulary": [
+    { "id": "aller", "fr": "aller", "en": "to go", "pos": "verb", "exampleFr": "Je vais au cinéma.", "exampleEn": "I'm going to the cinema.", "audio": "audio/a1.1/unit-11-going-out/vocab-aller.mp3", "voice": "denise" },
+    { "id": "sortir", "fr": "sortir", "en": "to go out", "pos": "verb", "exampleFr": "Tu vas sortir ce soir ?", "exampleEn": "Are you going out tonight?", "audio": "audio/a1.1/unit-11-going-out/vocab-sortir.mp3", "voice": "henri" },
+    { "id": "inviter", "fr": "inviter", "en": "to invite", "pos": "verb", "exampleFr": "Je vais inviter Marie.", "exampleEn": "I'm going to invite Marie.", "audio": "audio/a1.1/unit-11-going-out/vocab-inviter.mp3", "voice": "denise" },
+    { "id": "demain", "fr": "demain", "en": "tomorrow", "pos": "adverb", "exampleFr": "Demain, je vais travailler.", "exampleEn": "Tomorrow, I'm going to work.", "audio": "audio/a1.1/unit-11-going-out/vocab-demain.mp3", "voice": "henri" },
+    { "id": "ce-soir", "fr": "ce soir", "en": "tonight / this evening", "pos": "phrase", "exampleFr": "Ce soir, on va sortir.", "exampleEn": "Tonight, we're going out.", "audio": "audio/a1.1/unit-11-going-out/vocab-ce-soir.mp3", "voice": "denise" },
+    { "id": "ce-week-end", "fr": "ce week-end", "en": "this weekend", "pos": "phrase", "exampleFr": "Ce week-end, je vais à Paris.", "exampleEn": "This weekend, I'm going to Paris.", "audio": "audio/a1.1/unit-11-going-out/vocab-ce-week-end.mp3", "voice": "henri" },
+    { "id": "film", "fr": "le film", "en": "film / movie", "pos": "noun", "exampleFr": "On va regarder un film.", "exampleEn": "We're going to watch a film.", "audio": "audio/a1.1/unit-11-going-out/vocab-film.mp3", "voice": "denise" },
+    { "id": "fete", "fr": "la fête", "en": "party", "pos": "noun", "exampleFr": "Il y a une fête ce soir.", "exampleEn": "There's a party tonight.", "audio": "audio/a1.1/unit-11-going-out/vocab-fete.mp3", "voice": "henri" },
+    { "id": "avec", "fr": "avec", "en": "with", "pos": "preposition", "exampleFr": "Je sors avec des amis.", "exampleEn": "I'm going out with friends.", "audio": "audio/a1.1/unit-11-going-out/vocab-avec.mp3", "voice": "denise" },
+    { "id": "ensemble", "fr": "ensemble", "en": "together", "pos": "adverb", "exampleFr": "On va manger ensemble.", "exampleEn": "We're going to eat together.", "audio": "audio/a1.1/unit-11-going-out/vocab-ensemble.mp3", "voice": "henri" },
+    { "id": "peut-etre", "fr": "peut-être", "en": "maybe / perhaps", "pos": "adverb", "exampleFr": "Peut-être ce week-end.", "exampleEn": "Maybe this weekend.", "audio": "audio/a1.1/unit-11-going-out/vocab-peut-etre.mp3", "voice": "denise" },
+    { "id": "on-y-va", "fr": "on y va", "en": "let's go", "pos": "phrase", "exampleFr": "Allez, on y va !", "exampleEn": "Come on, let's go!", "audio": "audio/a1.1/unit-11-going-out/vocab-on-y-va.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "Je vais aller au cinéma.", "en": "I'm going to go to the cinema.", "audio": "audio/a1.1/unit-11-going-out/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "Ce soir, on va manger au restaurant.", "en": "Tonight, we're going to eat at the restaurant.", "audio": "audio/a1.1/unit-11-going-out/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "Tu vas sortir demain ?", "en": "Are you going out tomorrow?", "audio": "audio/a1.1/unit-11-going-out/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "Nous allons regarder un film ensemble.", "en": "We're going to watch a film together.", "audio": "audio/a1.1/unit-11-going-out/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "On y va !", "en": "Let's go!", "audio": "audio/a1.1/unit-11-going-out/example-ex-5.mp3", "voice": "denise" }
+  ]
+}
