@@ -16,7 +16,7 @@ Status: ✅ built · 🔨 in progress · ⬜ planned
 | 3 | Introducing yourself | D0 / D1·L1 | être, nationalities, c'est/il est | ✅ unit-03 |
 | 4 | Personal info & spelling | D1·L2 | l'alphabet, quel, coordonnées, numbers 70+ | ⬜ |
 | 5 | The city: location & articles | D2·L1 | articles (un/une/le/la/des), il y a, prépositions de lieu | 🔨 unit-07 |
-| 6 | Directions & addresses | D2·L2–L3 | l'impératif, indiquer la route, l'adresse | ⬜ |
+| 6 | Directions & the imperative | D2·L2–L3 | l'impératif, indiquer la route (addresses/code postal: later) | ✅ unit-08 |
 | 7 | Family & relationships | D3·L1 | avoir, la famille, possessifs | ✅ unit-04 |
 | 8 | Describing people | D3·L2 | -er verbs, character & appearance | ✅ unit-05 (partial) |
 | 9 | Tastes & hobbies | D3·L3 | aimer + article, loisirs | ✅ unit-05 |

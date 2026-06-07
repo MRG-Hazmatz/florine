@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "a1.1/unit-08-directions",
+  "level": "a1.1",
+  "unitNumber": 8,
+  "slug": "unit-08-directions",
+  "title": "Directions & the Imperative",
+  "titleFr": "Demander et indiquer le chemin",
+  "cefrDescriptors": [
+    "Can ask for and give simple directions in a town.",
+    "Can use the imperative to give basic instructions."
+  ],
+  "skills": ["reading", "listening", "writing"],
+  "estimatedMinutes": 40,
+  "concept": "Now that you can name places (Unit 7), let's get to them. This unit is about asking the way and giving directions — and it introduces a brand-new verb form: the imperative.\n\nThe imperative gives orders, instructions and directions. The trick is wonderfully simple: take the present tense and DROP the subject pronoun.\n  vous tournez (you turn)  ->  Tournez ! (Turn!)\n  vous continuez          ->  Continuez ! (Keep going!)\nFor directions you'll mostly use the vous form — it's polite and works with strangers. One small spelling rule: in the tu form of -er verbs, the imperative drops the final -s: tu tournes becomes Tourne !\n\nThe direction toolkit is tiny and high-value:\n  à droite (to/on the right), à gauche (to/on the left), tout droit (straight ahead),\n  tourner (to turn), continuer (to keep going), traverser (to cross), prendre (to take).\nNote prendre is irregular, but its vous imperative is easy: Prenez la première rue (Take the first street).\n\nTo ask, stay polite: « Pardon, où est la gare ? » (Excuse me, where is the station?) or « Pour aller à l'hôtel, s'il vous plaît ? ». A typical answer strings the pieces together: « Continuez tout droit, puis prenez la deuxième rue à gauche. »\n\nPractise out loud: give someone directions from your home to the nearest shop, using at least three of these verbs in the imperative.",
+  "vocabulary": [
+    { "id": "tourner", "fr": "tourner", "en": "to turn", "pos": "verb", "exampleFr": "Tournez à droite.", "exampleEn": "Turn right.", "audio": "audio/a1.1/unit-08-directions/vocab-tourner.mp3", "voice": "denise" },
+    { "id": "continuer", "fr": "continuer", "en": "to continue / keep going", "pos": "verb", "exampleFr": "Continuez tout droit.", "exampleEn": "Keep going straight ahead.", "audio": "audio/a1.1/unit-08-directions/vocab-continuer.mp3", "voice": "henri" },
+    { "id": "traverser", "fr": "traverser", "en": "to cross", "pos": "verb", "exampleFr": "Traversez le pont.", "exampleEn": "Cross the bridge.", "audio": "audio/a1.1/unit-08-directions/vocab-traverser.mp3", "voice": "denise" },
+    { "id": "prendre", "fr": "prendre", "en": "to take", "pos": "verb", "exampleFr": "Prenez la première rue.", "exampleEn": "Take the first street.", "audio": "audio/a1.1/unit-08-directions/vocab-prendre.mp3", "voice": "henri" },
+    { "id": "a-droite", "fr": "à droite", "en": "(on/to the) right", "pos": "phrase", "exampleFr": "Tournez à droite.", "exampleEn": "Turn right.", "audio": "audio/a1.1/unit-08-directions/vocab-a-droite.mp3", "voice": "denise" },
+    { "id": "a-gauche", "fr": "à gauche", "en": "(on/to the) left", "pos": "phrase", "exampleFr": "C'est à gauche.", "exampleEn": "It's on the left.", "audio": "audio/a1.1/unit-08-directions/vocab-a-gauche.mp3", "voice": "henri" },
+    { "id": "tout-droit", "fr": "tout droit", "en": "straight ahead", "pos": "phrase", "exampleFr": "Allez tout droit.", "exampleEn": "Go straight ahead.", "audio": "audio/a1.1/unit-08-directions/vocab-tout-droit.mp3", "voice": "denise" },
+    { "id": "pont", "fr": "le pont", "en": "bridge", "pos": "noun", "exampleFr": "Le pont est là-bas.", "exampleEn": "The bridge is over there.", "audio": "audio/a1.1/unit-08-directions/vocab-pont.mp3", "voice": "henri" },
+    { "id": "carrefour", "fr": "le carrefour", "en": "crossroads / intersection", "pos": "noun", "exampleFr": "Au carrefour, tournez à droite.", "exampleEn": "At the intersection, turn right.", "audio": "audio/a1.1/unit-08-directions/vocab-carrefour.mp3", "voice": "denise" },
+    { "id": "premiere", "fr": "la première (rue)", "en": "the first (street)", "pos": "adjective", "exampleFr": "Prenez la première rue.", "exampleEn": "Take the first street.", "audio": "audio/a1.1/unit-08-directions/vocab-premiere.mp3", "voice": "henri" },
+    { "id": "pardon", "fr": "pardon", "en": "excuse me / sorry", "pos": "interjection", "exampleFr": "Pardon, où est la gare ?", "exampleEn": "Excuse me, where is the station?", "audio": "audio/a1.1/unit-08-directions/vocab-pardon.mp3", "voice": "denise" },
+    { "id": "ou-est", "fr": "où est… ?", "en": "where is…?", "pos": "phrase", "exampleFr": "Où est l'hôtel ?", "exampleEn": "Where is the hotel?", "audio": "audio/a1.1/unit-08-directions/vocab-ou-est.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "Pardon, où est la gare ?", "en": "Excuse me, where is the station?", "audio": "audio/a1.1/unit-08-directions/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "Tournez à gauche.", "en": "Turn left.", "audio": "audio/a1.1/unit-08-directions/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "Continuez tout droit.", "en": "Keep going straight ahead.", "audio": "audio/a1.1/unit-08-directions/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "Prenez la première rue à droite.", "en": "Take the first street on the right.", "audio": "audio/a1.1/unit-08-directions/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "Traversez le pont, puis tournez à gauche.", "en": "Cross the bridge, then turn left.", "audio": "audio/a1.1/unit-08-directions/example-ex-5.mp3", "voice": "denise" }
+  ]
+}
