@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "unitId": "a1.1/unit-07-city-articles",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Choose the right indefinite article: « Il y a ___ parc. » (a park)",
+      "options": [
+        { "id": "a", "text": "un" },
+        { "id": "b", "text": "une" },
+        { "id": "c", "text": "le" },
+        { "id": "d", "text": "des" }
+      ],
+      "correct": ["a"],
+      "explanation": "parc is masculine and singular, first mention -> un parc."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Choose the right definite article (\"the\"): « ___ gare est près d'ici. »",
+      "options": [
+        { "id": "a", "text": "La" },
+        { "id": "b", "text": "Le" },
+        { "id": "c", "text": "Une" },
+        { "id": "d", "text": "Les" }
+      ],
+      "correct": ["a"],
+      "explanation": "gare is feminine, and we mean a specific one -> la gare."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Add the correct indefinite articles (un / une).",
+      "inputMode": "typed",
+      "template": "Il y a {{b1}} café et {{b2}} école.",
+      "blanks": [
+        { "id": "b1", "accept": ["un"] },
+        { "id": "b2", "accept": ["une"] }
+      ],
+      "explanation": "un café (masculine), une école (feminine)."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each place to its English meaning.",
+      "pairs": [
+        { "id": "p1", "left": "la gare", "right": "the station" },
+        { "id": "p2", "left": "le magasin", "right": "the shop" },
+        { "id": "p3", "left": "l'école", "right": "the school" },
+        { "id": "p4", "left": "le parc", "right": "the park" }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order to say \"There is a school.\"",
+      "tokens": [
+        { "id": "t1", "text": "Il y a" },
+        { "id": "t2", "text": "une" },
+        { "id": "t3", "text": "école" }
+      ],
+      "correctOrder": ["t1", "t2", "t3"]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then: what is there in the town?",
+      "audio": "audio/a1.1/unit-07-city-articles/listen-1.mp3",
+      "transcript": "Dans ma ville, il y a un parc et deux cafés.",
+      "options": [
+        { "id": "a", "text": "A park and two cafés" },
+        { "id": "b", "text": "A school and a station" },
+        { "id": "c", "text": "Three shops" }
+      ],
+      "correct": ["a"],
+      "explanation": "« il y a un parc et deux cafés »."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read the description and answer both questions.",
+      "passageFr": "Voici ma ville. Il y a une gare, un parc et trois restaurants. Le parc est à côté de la gare.",
+      "passageEn": "This is my town. There is a station, a park and three restaurants. The park is next to the station.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "How many restaurants are there?",
+          "options": [
+            { "id": "a", "text": "2" },
+            { "id": "b", "text": "3" },
+            { "id": "c", "text": "4" }
+          ],
+          "correct": ["b"]
+        },
+        {
+          "id": "q2",
+          "prompt": "Where is the park?",
+          "options": [
+            { "id": "a", "text": "Next to the station" },
+            { "id": "b", "text": "In front of the school" },
+            { "id": "c", "text": "Near the restaurants" }
+          ],
+          "correct": ["a"]
+        }
+      ]
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Choose the preposition: the café is IN FRONT OF the park.",
+      "inputMode": "dropdown",
+      "template": "Le café est {{b1}} le parc.",
+      "blanks": [{ "id": "b1", "accept": ["devant"], "options": ["devant", "derrière"] }],
+      "explanation": "devant = in front of; derrière = behind."
+    }
+  ]
+}

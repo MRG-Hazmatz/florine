@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "a1.1/unit-07-city-articles",
+  "level": "a1.1",
+  "unitNumber": 7,
+  "slug": "unit-07-city-articles",
+  "title": "The City: Location & Articles",
+  "titleFr": "La ville : il y a et les articles",
+  "cefrDescriptors": [
+    "Can say what there is in a place and locate things using simple prepositions.",
+    "Can use indefinite and definite articles correctly with everyday nouns."
+  ],
+  "skills": ["reading", "listening", "writing"],
+  "estimatedMinutes": 45,
+  "concept": "Time to fill a gap: every French noun travels with a little word in front of it — an article — and you've been using them since Unit 1 (le sport, une sœur). Here's how they actually work.\n\nFrench has two kinds. INDEFINITE articles = \"a / some\", for one-of-many or first mention: un (masculine), une (feminine), des (plural). un café, une gare, des magasins. DEFINITE articles = \"the\", for something specific or already known: le (m.), la (f.), l' (before a vowel), les (plural). le café, la gare, l'école, les magasins.\n\nThe catch English speakers must accept early: in French the article is almost never optional, and every noun has a gender you simply have to learn with the word. Tip: memorise nouns WITH their article — not « gare » but « une gare ».\n\nTo say what exists in a place, use the fixed phrase il y a (\"there is / there are\") — same form for singular and plural: il y a un parc, il y a des restaurants.\n\nTo locate things, use prepositions of place: dans (in), sur (on), sous (under), devant (in front of), derrière (behind), à côté de (next to), près de (near), loin de (far from). The ones ending in de contract with le/les: à côté du parc (de + le), près des magasins (de + les) — but à côté de la gare stays as is.\n\nDescribe your own town: « Dans ma ville, il y a… » and place three things with prepositions.",
+  "vocabulary": [
+    { "id": "ville", "fr": "la ville", "en": "town / city", "pos": "noun", "exampleFr": "J'aime ma ville.", "exampleEn": "I like my town.", "audio": "audio/a1.1/unit-07-city-articles/vocab-ville.mp3", "voice": "denise" },
+    { "id": "il-y-a", "fr": "il y a", "en": "there is / there are", "pos": "phrase", "exampleFr": "Il y a un parc.", "exampleEn": "There is a park.", "audio": "audio/a1.1/unit-07-city-articles/vocab-il-y-a.mp3", "voice": "henri" },
+    { "id": "parc", "fr": "un parc", "en": "a park", "pos": "noun", "exampleFr": "Il y a un parc dans la ville.", "exampleEn": "There is a park in the town.", "audio": "audio/a1.1/unit-07-city-articles/vocab-parc.mp3", "voice": "denise" },
+    { "id": "cafe", "fr": "un café", "en": "a café", "pos": "noun", "exampleFr": "Le café est ouvert.", "exampleEn": "The café is open.", "audio": "audio/a1.1/unit-07-city-articles/vocab-cafe.mp3", "voice": "henri" },
+    { "id": "gare", "fr": "une gare", "en": "a (train) station", "pos": "noun", "exampleFr": "La gare est grande.", "exampleEn": "The station is big.", "audio": "audio/a1.1/unit-07-city-articles/vocab-gare.mp3", "voice": "denise" },
+    { "id": "ecole", "fr": "une école", "en": "a school", "pos": "noun", "exampleFr": "L'école est fermée.", "exampleEn": "The school is closed.", "audio": "audio/a1.1/unit-07-city-articles/vocab-ecole.mp3", "voice": "henri" },
+    { "id": "restaurant", "fr": "un restaurant", "en": "a restaurant", "pos": "noun", "exampleFr": "Il y a un restaurant ici.", "exampleEn": "There is a restaurant here.", "audio": "audio/a1.1/unit-07-city-articles/vocab-restaurant.mp3", "voice": "denise" },
+    { "id": "magasin", "fr": "un magasin", "en": "a shop / store", "pos": "noun", "exampleFr": "Les magasins sont fermés.", "exampleEn": "The shops are closed.", "audio": "audio/a1.1/unit-07-city-articles/vocab-magasin.mp3", "voice": "henri" },
+    { "id": "rue", "fr": "une rue", "en": "a street", "pos": "noun", "exampleFr": "J'habite dans cette rue.", "exampleEn": "I live in this street.", "audio": "audio/a1.1/unit-07-city-articles/vocab-rue.mp3", "voice": "denise" },
+    { "id": "dans", "fr": "dans", "en": "in / inside", "pos": "preposition", "exampleFr": "Le chat est dans la maison.", "exampleEn": "The cat is in the house.", "audio": "audio/a1.1/unit-07-city-articles/vocab-dans.mp3", "voice": "henri" },
+    { "id": "sur", "fr": "sur", "en": "on", "pos": "preposition", "exampleFr": "Le livre est sur la table.", "exampleEn": "The book is on the table.", "audio": "audio/a1.1/unit-07-city-articles/vocab-sur.mp3", "voice": "denise" },
+    { "id": "devant", "fr": "devant", "en": "in front of", "pos": "preposition", "exampleFr": "La gare est devant l'hôtel.", "exampleEn": "The station is in front of the hotel.", "audio": "audio/a1.1/unit-07-city-articles/vocab-devant.mp3", "voice": "henri" },
+    { "id": "a-cote-de", "fr": "à côté de", "en": "next to", "pos": "preposition", "exampleFr": "Le café est à côté de la gare.", "exampleEn": "The café is next to the station.", "audio": "audio/a1.1/unit-07-city-articles/vocab-a-cote-de.mp3", "voice": "denise" },
+    { "id": "pres-de", "fr": "près de", "en": "near", "pos": "preposition", "exampleFr": "J'habite près du parc.", "exampleEn": "I live near the park.", "audio": "audio/a1.1/unit-07-city-articles/vocab-pres-de.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "Dans ma ville, il y a un parc.", "en": "In my town, there is a park.", "audio": "audio/a1.1/unit-07-city-articles/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "Le café est à côté de la gare.", "en": "The café is next to the station.", "audio": "audio/a1.1/unit-07-city-articles/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "Il y a des magasins dans la rue.", "en": "There are shops in the street.", "audio": "audio/a1.1/unit-07-city-articles/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "Où est l'école ?", "en": "Where is the school?", "audio": "audio/a1.1/unit-07-city-articles/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "La gare est devant l'hôtel.", "en": "The station is in front of the hotel.", "audio": "audio/a1.1/unit-07-city-articles/example-ex-5.mp3", "voice": "denise" }
+  ]
+}
