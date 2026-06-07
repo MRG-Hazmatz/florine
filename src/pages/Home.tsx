@@ -64,12 +64,13 @@ export default function Home() {
           <img src="/icons/hand.png" alt="" className="h-12 w-auto object-contain" />
         </h1>
         <p className="max-w-prose text-lg text-ink/70">
-          Florine is structured, DELF-aligned French practice — explicit grammar in
-          English, drills in French, every exercise shaped like a real exam question.
+          Glad you're here. Florine is a calmer way to learn French: clear grammar
+          explained in plain English, real practice in French, and every exercise
+          built like a question from the actual DELF exam.
         </p>
       </div>
 
-      <GuideStranger seed="florine-home" caption="votre guide">
+      <GuideStranger seed="florine-home" caption="votre guide" pinnedOdds={0.85}>
         Welcome back. Pick a level to keep going, or clear your due reviews first —
         a little every day beats cramming.
       </GuideStranger>

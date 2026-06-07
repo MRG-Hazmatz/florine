@@ -27,7 +27,6 @@ export default function Review() {
   );
   const cardByKey = Object.fromEntries(allCards.map((c) => [c.key, c]));
 
-  // Snapshot the due queue once at mount so reviewing doesn't reshuffle mid-session.
   const [queue] = useState<string[]>(() =>
     allCards.filter((c) => isDue(vocabState[c.key] ?? initialCard())).map((c) => c.key),
   );
@@ -65,41 +64,57 @@ export default function Review() {
   };
 
   return (
-    <section className="space-y-6">
-      <img src="/icons/review.png" alt="Révision" className="mx-auto h-24 object-contain mix-blend-multiply" />
+    <section className="space-y-5">
       <div className="flex items-center justify-between">
-        <h1 className="font-display text-2xl font-bold text-ink">Vocabulary review</h1>
+        <div className="flex items-center gap-3">
+          <img src="/icons/review.png" alt="" className="h-14 object-contain mix-blend-multiply" />
+          <h1 className="font-display text-2xl font-bold text-ink">Vocabulary review</h1>
+        </div>
         <span className="text-sm text-ink/50">
           {index + 1} / {queue.length}
         </span>
       </div>
 
-      <div className="mx-auto flex min-h-56 max-w-md flex-col items-center justify-center gap-3 rounded-xl border border-ink/15 bg-card p-8 text-center">
-        <div className="flex items-center gap-2">
-          <span className="font-display text-3xl text-marine">{card.vocab.fr}</span>
-          <AudioButton src={card.vocab.audio} label={`Play ${card.vocab.fr}`} />
+      {/* Tarot-style flashcard: thick outer frame + thin inner rule + hard offset shadow */}
+      <div className="mx-auto max-w-xs">
+        <div className="rounded-xl border-2 border-ink/70 bg-card p-1.5 shadow-[5px_5px_0_rgba(23,18,12,0.35)]">
+          <div className="flex min-h-80 flex-col items-center justify-between rounded-lg border border-ink/30 px-5 py-6 text-center">
+            <span className="text-[10px] uppercase tracking-[0.35em] text-ink/40">
+              Carte · Français
+            </span>
+
+            <div className="flex flex-col items-center gap-3">
+              <span className="font-display text-4xl text-marine">{card.vocab.fr}</span>
+              <AudioButton src={card.vocab.audio} label={`Play ${card.vocab.fr}`} />
+            </div>
+
+            <div className="min-h-16 w-full">
+              {revealed ? (
+                <div className="space-y-2">
+                  <div className="mx-auto h-px w-16 bg-ink/25" />
+                  <p className="text-lg text-ink/80">{card.vocab.en}</p>
+                  {card.vocab.exampleFr && (
+                    <p className="text-sm italic text-ink/50">{card.vocab.exampleFr}</p>
+                  )}
+                </div>
+              ) : (
+                <button
+                  type="button"
+                  onClick={() => setRevealed(true)}
+                  className="rounded bg-marine px-6 py-2 font-medium text-white hover:bg-marine/90"
+                >
+                  Show answer
+                </button>
+              )}
+            </div>
+
+            <span className="text-[10px] uppercase tracking-[0.35em] text-ink/30">Florine</span>
+          </div>
         </div>
-        {revealed ? (
-          <>
-            <hr className="w-16 border-ink/15" />
-            <p className="text-lg text-ink/80">{card.vocab.en}</p>
-            {card.vocab.exampleFr && (
-              <p className="text-sm italic text-ink/50">{card.vocab.exampleFr}</p>
-            )}
-          </>
-        ) : (
-          <button
-            type="button"
-            onClick={() => setRevealed(true)}
-            className="mt-2 rounded bg-marine px-5 py-2 font-medium text-white"
-          >
-            Show answer
-          </button>
-        )}
       </div>
 
       {revealed && (
-        <div className="mx-auto grid max-w-md grid-cols-4 gap-2">
+        <div className="mx-auto grid max-w-xs grid-cols-4 gap-2">
           {RATINGS.map((r) => (
             <button
               key={r.rating}

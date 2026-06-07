@@ -47,10 +47,7 @@ export default function UnitView() {
         </div>
       )}
 
-      <GuideStranger seed={unit.id} caption="leçon">
-        Read the notes, play the audio for each word, then test yourself. Aim for{" "}
-        {Math.round(unit.exercises.passThreshold * 100)}% to pass and unlock what's next.
-      </GuideStranger>
+      <GuideStranger seed={unit.id} caption="leçon" />
 
       <section className="space-y-2">
         <h2 className="text-xl font-semibold">Concept</h2>
