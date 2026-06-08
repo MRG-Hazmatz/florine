@@ -1,18 +1,22 @@
 import { useRef, useState } from "react";
 import type { Exercise } from "../../lib/content/schema";
-import { allOrNothing, type GradeResult } from "../../lib/exercises/grade";
+import type { GradeResult } from "../../lib/exercises/grade";
 import AudioButton from "../AudioButton";
 
 type SP = Extract<Exercise, { type: "speak" }>;
 
-type Phase = "idle" | "recording" | "scoring" | "done";
+type Phase = "idle" | "recording" | "recorded" | "scoring" | "done";
 
 interface Feedback {
   transcript?: string;
   score?: number | null;
   feedback?: string;
   error?: string;
+  status?: number;
 }
+
+/** Pass mark for a spoken attempt (0-100). */
+const PASS = 50;
 
 /** Encode an AudioBuffer's first channel as 16-bit PCM mono WAV, base64 (no prefix). */
 function audioBufferToWavBase64(buf: AudioBuffer): string {
@@ -64,8 +68,48 @@ export default function Speak({
   const [fb, setFb] = useState<Feedback | null>(null);
   const recorderRef = useRef<MediaRecorder | null>(null);
   const chunksRef = useRef<Blob[]>([]);
+  const blobRef = useRef<Blob | null>(null);
 
-  const sendForScoring = async (blob: Blob) => {
+  const startRecording = async () => {
+    try {
+      const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+      const mr = new MediaRecorder(stream);
+      chunksRef.current = [];
+      mr.ondataavailable = (e) => {
+        if (e.data.size > 0) chunksRef.current.push(e.data);
+      };
+      mr.onstop = () => {
+        stream.getTracks().forEach((t) => t.stop());
+        const blob = new Blob(chunksRef.current, { type: mr.mimeType || "audio/webm" });
+        blobRef.current = blob;
+        if (recUrl) URL.revokeObjectURL(recUrl);
+        setRecUrl(URL.createObjectURL(blob));
+        setPhase("recorded");
+      };
+      recorderRef.current = mr;
+      mr.start();
+      setPhase("recording");
+    } catch {
+      setFb({ error: "mic" });
+      setPhase("done");
+      onGrade({ earned: 0, max: 0, correct: false, ungraded: true });
+    }
+  };
+
+  const stopRecording = () => recorderRef.current?.stop();
+
+  const reRecord = () => {
+    blobRef.current = null;
+    if (recUrl) URL.revokeObjectURL(recUrl);
+    setRecUrl(null);
+    setFb(null);
+    setPhase("idle");
+  };
+
+  const submit = async () => {
+    const blob = blobRef.current;
+    if (!blob) return;
+    setPhase("scoring");
     let result: Feedback;
     try {
       const arr = await blob.arrayBuffer();
@@ -84,41 +128,19 @@ export default function Speak({
     }
     setFb(result);
     setPhase("done");
-    // Speaking is participation-based practice: a genuine attempt counts as done.
-    onGrade(allOrNothing(exercise.points, true));
-  };
 
-  const startRecording = async () => {
-    try {
-      const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
-      const mr = new MediaRecorder(stream);
-      chunksRef.current = [];
-      mr.ondataavailable = (e) => {
-        if (e.data.size > 0) chunksRef.current.push(e.data);
-      };
-      mr.onstop = () => {
-        stream.getTracks().forEach((t) => t.stop());
-        const blob = new Blob(chunksRef.current, { type: mr.mimeType || "audio/webm" });
-        setRecUrl(URL.createObjectURL(blob));
-        void sendForScoring(blob);
-      };
-      recorderRef.current = mr;
-      mr.start();
-      setPhase("recording");
-    } catch {
-      setFb({ error: "mic" });
-      setPhase("done");
-      onGrade(allOrNothing(exercise.points, true));
+    const score = typeof result.score === "number" ? result.score : null;
+    if (score != null) {
+      const passed = score >= PASS;
+      onGrade({ earned: passed ? exercise.points : 0, max: exercise.points, correct: passed });
+    } else {
+      // No usable score (coach offline / error): log as practice, don't score it.
+      onGrade({ earned: 0, max: 0, correct: false, ungraded: true });
     }
   };
 
-  const stopRecording = () => {
-    recorderRef.current?.stop();
-    setPhase("scoring");
-  };
-
   const hasScore = fb != null && typeof fb.score === "number";
-  const coachUnavailable = fb != null && (fb.error != null || fb.score == null) && fb.error !== "mic";
+  const offlineReason = fb?.status ? `${fb.error} ${fb.status}` : fb?.error;
 
   return (
     <div className="space-y-4">
@@ -132,7 +154,15 @@ export default function Speak({
         </div>
       </div>
 
-      {/* Record / stop control */}
+      {/* Your recording (preview) */}
+      {recUrl && (
+        <div className="flex items-center justify-center gap-2 text-sm text-ink/60">
+          <span>Your recording:</span>
+          <audio src={recUrl} controls className="h-8" />
+        </div>
+      )}
+
+      {/* Controls by phase */}
       {!graded && phase === "idle" && (
         <button
           type="button"
@@ -148,26 +178,36 @@ export default function Speak({
           onClick={stopRecording}
           className="w-full animate-pulse rounded-lg border-2 border-rouge bg-rouge/10 px-4 py-3 font-medium text-rouge"
         >
-          ■ Stop &amp; submit
+          ■ Stop recording
         </button>
+      )}
+      {phase === "recorded" && (
+        <div className="flex gap-2">
+          <button
+            type="button"
+            onClick={reRecord}
+            className="flex-1 rounded-lg border border-marine/30 px-4 py-2.5 font-medium text-marine hover:bg-marine/10"
+          >
+            ↺ Re-record
+          </button>
+          <button
+            type="button"
+            onClick={submit}
+            className="flex-1 rounded-lg bg-marine px-4 py-2.5 font-medium text-white hover:bg-marine/90"
+          >
+            Submit attempt
+          </button>
+        </div>
       )}
       {phase === "scoring" && (
         <p className="text-center text-sm text-ink/60">Listening to your recording…</p>
       )}
 
-      {/* Playback of the learner's own recording */}
-      {recUrl && (
-        <div className="flex items-center justify-center gap-2 text-sm text-ink/60">
-          <span>Your recording:</span>
-          <audio src={recUrl} controls className="h-8" />
-        </div>
-      )}
-
-      {/* Coach feedback (or graceful fallback) */}
+      {/* Result */}
       {phase === "done" && fb?.error === "mic" && (
         <p className="rounded-lg border border-amber-300 bg-amber-50 p-3 text-sm text-ink/70">
-          I couldn't reach your microphone. Check the browser's mic permission and try again — or
-          just shadow the native audio aloud.
+          I couldn't reach your microphone. Check the browser's mic permission and try the exercise
+          again.
         </p>
       )}
       {phase === "done" && hasScore && (
@@ -181,11 +221,14 @@ export default function Speak({
           {fb?.feedback && <p className="text-ink/70">{fb.feedback}</p>}
         </div>
       )}
-      {phase === "done" && coachUnavailable && (
-        <p className="rounded-lg border border-ink/15 bg-parchment p-3 text-sm text-ink/70">
-          The pronunciation coach is offline right now, but your practice still counts. Replay your
-          recording above and compare it with the native speaker.
-        </p>
+      {phase === "done" && !hasScore && fb?.error !== "mic" && (
+        <div className="space-y-1 rounded-lg border border-ink/15 bg-parchment p-3 text-sm text-ink/70">
+          <p>
+            The pronunciation coach didn't respond, so this attempt wasn't scored (it won't count
+            against you). Replay your recording above and compare it with the native speaker.
+          </p>
+          {offlineReason && <p className="text-xs text-ink/40">coach status: {offlineReason}</p>}
+        </div>
       )}
     </div>
   );

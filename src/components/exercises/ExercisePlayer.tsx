@@ -97,11 +97,15 @@ export default function ExercisePlayer({ unit }: { unit: Unit }) {
           <ol className="space-y-1.5 text-sm">
             {exercises.map((e, i) => (
               <li key={e.id} className="flex items-center gap-2">
-                <img
-                  src={results[i]?.correct ? "/icons/correct.png" : "/icons/wrong.png"}
-                  alt={results[i]?.correct ? "correct" : "wrong"}
-                  className="h-6 w-6 shrink-0 object-contain mix-blend-multiply"
-                />
+                {results[i]?.ungraded ? (
+                  <span className="flex h-6 w-6 shrink-0 items-center justify-center text-ink/40">•</span>
+                ) : (
+                  <img
+                    src={results[i]?.correct ? "/icons/correct.png" : "/icons/wrong.png"}
+                    alt={results[i]?.correct ? "correct" : "wrong"}
+                    className="h-6 w-6 shrink-0 object-contain mix-blend-multiply"
+                  />
+                )}
                 <span className="text-ink/70">
                   {i + 1}. {e.prompt}
                 </span>
@@ -166,11 +170,13 @@ export default function ExercisePlayer({ unit }: { unit: Unit }) {
     setFinished(true);
   };
 
-  const verdict = result?.correct
-    ? { text: "Correct!", cls: "text-emerald-700" }
-    : (result?.earned ?? 0) > 0
-      ? { text: "Partly right", cls: "text-amber-700" }
-      : { text: "Not quite", cls: "text-rouge" };
+  const verdict = result?.ungraded
+    ? { text: "Practice logged", cls: "text-ink/60" }
+    : result?.correct
+      ? { text: "Correct!", cls: "text-emerald-700" }
+      : (result?.earned ?? 0) > 0
+        ? { text: "Partly right", cls: "text-amber-700" }
+        : { text: "Not quite", cls: "text-rouge" };
 
   const progressPct = ((current + (result ? 1 : 0)) / exercises.length) * 100;
 

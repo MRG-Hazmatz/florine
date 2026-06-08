@@ -4,6 +4,7 @@ export interface GradeResult {
   earned: number; // points earned (0..max)
   max: number; // points available
   correct: boolean; // fully correct
+  ungraded?: boolean; // logged as practice but not scored (e.g. speaking coach offline)
 }
 
 /** Order-independent set equality (for multi-select answers). */
