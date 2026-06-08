@@ -12,6 +12,52 @@ import Listen from "./Listen";
 import Read from "./Read";
 import Speak from "./Speak";
 
+/** How many exercises make up one attempt (sampled from the larger pool). */
+const TEST_SIZE = 8;
+
+/** Fisher-Yates shuffle (returns a new array). Only called in lazy initialisers
+ *  and event handlers — never during render — so the impurity is safe. */
+function shuffle<T>(arr: readonly T[]): T[] {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+/** Shuffle the answer POSITIONS inside an exercise. Correctness is keyed by id,
+ *  so reordering the displayed options never changes what's right. */
+function shuffleAnswers(ex: Exercise): Exercise {
+  switch (ex.type) {
+    case "multiple-choice":
+    case "listen":
+      return { ...ex, options: shuffle(ex.options) };
+    case "read":
+      return { ...ex, questions: ex.questions.map((q) => ({ ...q, options: shuffle(q.options) })) };
+    case "fill-blank":
+      return {
+        ...ex,
+        blanks: ex.blanks.map((b) => (b.options ? { ...b, options: shuffle(b.options) } : b)),
+      };
+    default:
+      return ex;
+  }
+}
+
+/** Build one attempt from the unit's pool: sample up to TEST_SIZE (always keeping
+ *  one speaking drill if the pool has any), shuffle their order, and shuffle the
+ *  answer positions within each. This is what stops learners memorising answers. */
+function buildDeck(pool: readonly Exercise[]): Exercise[] {
+  const speak = pool.filter((e) => e.type === "speak");
+  const rest = pool.filter((e) => e.type !== "speak");
+  const keepSpeak = speak.length > 0 ? 1 : 0;
+  const picked = shuffle(rest).slice(0, Math.max(0, TEST_SIZE - keepSpeak));
+  const deck: Exercise[] = shuffle(picked);
+  if (keepSpeak) deck.push(shuffle(speak)[0]);
+  return deck.map(shuffleAnswers);
+}
+
 function assertNever(x: never): never {
   throw new Error("Unhandled exercise type: " + JSON.stringify(x));
 }
@@ -38,7 +84,7 @@ function renderExercise(ex: Exercise, graded: boolean, onGrade: (r: GradeResult)
 }
 
 export default function ExercisePlayer({ unit }: { unit: Unit }) {
-  const exercises = unit.exercises.exercises;
+  const pool = unit.exercises.exercises;
   const passThreshold = unit.exercises.passThreshold;
   const nextUnit = getAdjacentUnits(unit).next;
 
@@ -48,12 +94,13 @@ export default function ExercisePlayer({ unit }: { unit: Unit }) {
   const addStudyMinutes = useProgress((s) => s.addStudyMinutes);
 
   const [attempt, setAttempt] = useState(0);
+  const [deck, setDeck] = useState<Exercise[]>(() => buildDeck(pool));
   const [current, setCurrent] = useState(0);
-  const [results, setResults] = useState<(GradeResult | null)[]>(() => exercises.map(() => null));
+  const [results, setResults] = useState<(GradeResult | null)[]>(() => deck.map(() => null));
   const [finished, setFinished] = useState(false);
   const [startTime, setStartTime] = useState<number>(() => Date.now());
 
-  if (exercises.length === 0) {
+  if (deck.length === 0) {
     return <p className="text-ink/60">No exercises in this unit yet.</p>;
   }
 
@@ -95,7 +142,7 @@ export default function ExercisePlayer({ unit }: { unit: Unit }) {
             Marksheet
           </p>
           <ol className="space-y-1.5 text-sm">
-            {exercises.map((e, i) => (
+            {deck.map((e, i) => (
               <li key={e.id} className="flex items-center gap-2">
                 {results[i]?.ungraded ? (
                   <span className="flex h-6 w-6 shrink-0 items-center justify-center text-ink/40">•</span>
@@ -117,7 +164,9 @@ export default function ExercisePlayer({ unit }: { unit: Unit }) {
           <button
             type="button"
             onClick={() => {
-              setResults(exercises.map(() => null));
+              const fresh = buildDeck(pool);
+              setDeck(fresh);
+              setResults(fresh.map(() => null));
               setCurrent(0);
               setFinished(false);
               setStartTime(Date.now());
@@ -146,7 +195,7 @@ export default function ExercisePlayer({ unit }: { unit: Unit }) {
     );
   }
 
-  const ex = exercises[current];
+  const ex = deck[current];
   const result = results[current];
 
   const handleGrade = (r: GradeResult) => {
@@ -159,7 +208,7 @@ export default function ExercisePlayer({ unit }: { unit: Unit }) {
   };
 
   const goNext = () => {
-    if (current < exercises.length - 1) {
+    if (current < deck.length - 1) {
       setCurrent((c) => c + 1);
       return;
     }
@@ -178,13 +227,13 @@ export default function ExercisePlayer({ unit }: { unit: Unit }) {
         ? { text: "Partly right", cls: "text-amber-700" }
         : { text: "Not quite", cls: "text-rouge" };
 
-  const progressPct = ((current + (result ? 1 : 0)) / exercises.length) * 100;
+  const progressPct = ((current + (result ? 1 : 0)) / deck.length) * 100;
 
   return (
     <div className="space-y-5">
       <div className="flex items-center justify-between text-sm text-ink/50">
         <span>
-          Exercise {current + 1} of {exercises.length}
+          Exercise {current + 1} of {deck.length}
         </span>
         <span className="capitalize">{ex.skill}</span>
       </div>
@@ -207,7 +256,7 @@ export default function ExercisePlayer({ unit }: { unit: Unit }) {
             onClick={goNext}
             className="rounded bg-marine px-4 py-2 font-medium text-white"
           >
-            {current < exercises.length - 1 ? "Next →" : "Finish"}
+            {current < deck.length - 1 ? "Next →" : "Finish"}
           </button>
         </div>
       )}
