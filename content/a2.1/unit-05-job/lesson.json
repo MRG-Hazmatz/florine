@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "a2.1/unit-05-job",
+  "level": "a2.1",
+  "unitNumber": 5,
+  "slug": "unit-05-job",
+  "title": "Looking for a Job",
+  "titleFr": "La recherche d'emploi",
+  "cefrDescriptors": [
+    "Can talk about job-hunting and work experience.",
+    "Can use depuis, pendant and il y a to situate actions in time."
+  ],
+  "skills": ["reading", "listening", "writing", "speaking"],
+  "estimatedMinutes": 50,
+  "concept": "Job-hunting in French — plus the three time words that trip everyone up. They look similar but mean different things:\n  • depuis = since / for, for something STILL going on now:\n      Je travaille ici depuis 2020. (since 2020)  ·  depuis trois ans. (for three years, still here)\n  • pendant = for / during, a FINISHED stretch of time:\n      J'ai travaillé à Lyon pendant deux ans. (for two years — it's over)\n  • il y a = ago, a point in the past:\n      J'ai commencé il y a un mois. (a month ago)\nQuick test: still true now → depuis; finished span → pendant; a point in time → il y a.\n\nThe job vocabulary: chercher un emploi (to look for a job), une annonce (a job ad), postuler (to apply), un CV, une entreprise (a company), un poste (a position), une compétence (a skill), une expérience, un salaire, and embaucher (to hire).\n\nSo you can present yourself: « Je cherche un emploi dans le marketing. J'ai un diplôme et je travaille dans une entreprise depuis 2021. J'ai répondu à une annonce et j'ai envoyé mon CV. »\n\nWrite two sentences about work (real or imagined): one with depuis (something still true) and one with il y a (when it started).",
+  "vocabulary": [
+    { "id": "emploi", "fr": "un emploi", "en": "a job", "pos": "noun", "exampleFr": "Je cherche un emploi.", "exampleEn": "I'm looking for a job.", "audio": "audio/a2.1/unit-05-job/vocab-emploi.mp3", "voice": "denise" },
+    { "id": "annonce", "fr": "une annonce", "en": "a job ad / advert", "pos": "noun", "exampleFr": "J'ai vu une annonce.", "exampleEn": "I saw an ad.", "audio": "audio/a2.1/unit-05-job/vocab-annonce.mp3", "voice": "henri" },
+    { "id": "postuler", "fr": "postuler", "en": "to apply (for a job)", "pos": "verb", "exampleFr": "Je vais postuler à ce poste.", "exampleEn": "I'm going to apply for this position.", "audio": "audio/a2.1/unit-05-job/vocab-postuler.mp3", "voice": "denise" },
+    { "id": "cv", "fr": "le CV", "en": "CV / résumé", "pos": "noun", "exampleFr": "J'ai envoyé mon CV.", "exampleEn": "I sent my CV.", "audio": "audio/a2.1/unit-05-job/vocab-cv.mp3", "voice": "henri" },
+    { "id": "entreprise", "fr": "une entreprise", "en": "a company", "pos": "noun", "exampleFr": "Je travaille dans une grande entreprise.", "exampleEn": "I work in a big company.", "audio": "audio/a2.1/unit-05-job/vocab-entreprise.mp3", "voice": "denise" },
+    { "id": "poste", "fr": "le poste", "en": "position / job role", "pos": "noun", "exampleFr": "Le poste est intéressant.", "exampleEn": "The position is interesting.", "audio": "audio/a2.1/unit-05-job/vocab-poste.mp3", "voice": "henri" },
+    { "id": "experience", "fr": "l'expérience", "en": "experience", "pos": "noun", "exampleFr": "J'ai beaucoup d'expérience.", "exampleEn": "I have a lot of experience.", "audio": "audio/a2.1/unit-05-job/vocab-experience.mp3", "voice": "denise" },
+    { "id": "competence", "fr": "une compétence", "en": "a skill", "pos": "noun", "exampleFr": "C'est une compétence utile.", "exampleEn": "It's a useful skill.", "audio": "audio/a2.1/unit-05-job/vocab-competence.mp3", "voice": "henri" },
+    { "id": "salaire", "fr": "le salaire", "en": "salary", "pos": "noun", "exampleFr": "Le salaire est correct.", "exampleEn": "The salary is decent.", "audio": "audio/a2.1/unit-05-job/vocab-salaire.mp3", "voice": "denise" },
+    { "id": "embaucher", "fr": "embaucher", "en": "to hire", "pos": "verb", "exampleFr": "L'entreprise va m'embaucher.", "exampleEn": "The company is going to hire me.", "audio": "audio/a2.1/unit-05-job/vocab-embaucher.mp3", "voice": "henri" },
+    { "id": "chercher", "fr": "chercher", "en": "to look for", "pos": "verb", "exampleFr": "Je cherche du travail.", "exampleEn": "I'm looking for work.", "audio": "audio/a2.1/unit-05-job/vocab-chercher.mp3", "voice": "denise" },
+    { "id": "depuis", "fr": "depuis", "en": "since / for (still ongoing)", "pos": "preposition", "exampleFr": "Je travaille ici depuis 2020.", "exampleEn": "I've worked here since 2020.", "audio": "audio/a2.1/unit-05-job/vocab-depuis.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "Je cherche un emploi.", "en": "I'm looking for a job.", "audio": "audio/a2.1/unit-05-job/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "J'ai vu une annonce intéressante.", "en": "I saw an interesting ad.", "audio": "audio/a2.1/unit-05-job/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "Je travaille dans cette entreprise depuis trois ans.", "en": "I've worked at this company for three years.", "audio": "audio/a2.1/unit-05-job/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "J'ai envoyé mon CV pour ce poste.", "en": "I sent my CV for this position.", "audio": "audio/a2.1/unit-05-job/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "J'ai beaucoup d'expérience.", "en": "I have a lot of experience.", "audio": "audio/a2.1/unit-05-job/example-ex-5.mp3", "voice": "denise" }
+  ]
+}

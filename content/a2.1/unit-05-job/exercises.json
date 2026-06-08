@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "unitId": "a2.1/unit-05-job",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "« Je travaille ici depuis 2020 » means I've worked here…",
+      "options": [
+        { "id": "a", "text": "since 2020 (and still do)" },
+        { "id": "b", "text": "back in 2020 only" },
+        { "id": "c", "text": "until 2020" }
+      ],
+      "correct": ["a"],
+      "explanation": "depuis = since / for, for something still going on now."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "For an action that is STILL going on, which word do you use?",
+      "options": [
+        { "id": "a", "text": "depuis" },
+        { "id": "b", "text": "pendant" },
+        { "id": "c", "text": "il y a" }
+      ],
+      "correct": ["a"],
+      "explanation": "depuis = ongoing; pendant = a finished span; il y a = ago."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "A finished period of two years → which word?",
+      "inputMode": "dropdown",
+      "template": "J'ai habité à Paris {{b1}} deux ans.",
+      "blanks": [{ "id": "b1", "accept": ["pendant"], "options": ["pendant", "depuis"] }],
+      "explanation": "It's over → pendant deux ans. (depuis would mean you still live there.)"
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each job word to its English meaning.",
+      "pairs": [
+        { "id": "p1", "left": "un emploi", "right": "a job" },
+        { "id": "p2", "left": "une annonce", "right": "an ad" },
+        { "id": "p3", "left": "postuler", "right": "to apply" },
+        { "id": "p4", "left": "le CV", "right": "résumé" }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"I'm looking for a job.\"",
+      "tokens": [
+        { "id": "t1", "text": "Je" },
+        { "id": "t2", "text": "cherche" },
+        { "id": "t3", "text": "un" },
+        { "id": "t4", "text": "emploi" }
+      ],
+      "correctOrder": ["t1", "t2", "t3", "t4"]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then: what did the speaker do?",
+      "audio": "audio/a2.1/unit-05-job/listen-1.mp3",
+      "transcript": "J'ai envoyé mon CV pour ce poste.",
+      "options": [
+        { "id": "a", "text": "Sent their CV for the position" },
+        { "id": "b", "text": "Quit their job" },
+        { "id": "c", "text": "Asked for a raise" }
+      ],
+      "correct": ["a"],
+      "explanation": "« j'ai envoyé mon CV pour ce poste » = I sent my CV for this position."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read and answer both questions.",
+      "passageFr": "Bonjour, je m'appelle Lucie. Je cherche un emploi dans le marketing. J'ai un diplôme et trois ans d'expérience. Je travaille dans une entreprise depuis 2021, mais je voudrais changer.",
+      "passageEn": "Hello, my name is Lucie. I'm looking for a job in marketing. I have a degree and three years of experience. I've worked at a company since 2021, but I'd like a change.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "What field does Lucie want to work in?",
+          "options": [
+            { "id": "a", "text": "Marketing" },
+            { "id": "b", "text": "Medicine" },
+            { "id": "c", "text": "Teaching" }
+          ],
+          "correct": ["a"]
+        },
+        {
+          "id": "q2",
+          "prompt": "Since when has Lucie worked at her company?",
+          "options": [
+            { "id": "a", "text": "Since 2021" },
+            { "id": "b", "text": "For two months" },
+            { "id": "c", "text": "She doesn't have a job" }
+          ],
+          "correct": ["a"]
+        }
+      ]
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "A point in the past (a month ago) → which word?",
+      "inputMode": "dropdown",
+      "template": "J'ai trouvé ce travail {{b1}} un mois.",
+      "blanks": [{ "id": "b1", "accept": ["il y a"], "options": ["il y a", "depuis"] }],
+      "explanation": "A point in time → il y a un mois (a month ago)."
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "Je cherche un emploi.",
+      "targetEn": "I'm looking for a job.",
+      "audio": "audio/a2.1/unit-05-job/example-ex-1.mp3"
+    }
+  ]
+}

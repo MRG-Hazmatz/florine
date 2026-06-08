@@ -24,8 +24,8 @@ Status: ✅ built · 🔨 in progress · ⬜ planned
 | 2 | Neighbours & reported speech | D1·L2 | discours indirect au présent (dire que / demander si / ce que) | ✅ a2.1/unit-02 |
 | 3 | Telling a story: meeting someone | D1·L3 | passé composé vs imparfait (deepened); marqueurs temporels (il y a / pendant / dans) | ✅ a2.1/unit-03 |
 | 4 | Studies & student life | D2·L1 | le plus-que-parfait; adverbs in -ment | ✅ a2.1/unit-04 |
-| 5 | Looking for a job | D2·L2 | marqueurs temporels (depuis / pendant / il y a / pour); CV & annonces | ⬜ |
-| 6 | Advice & job interviews | D2·L3 | le subjonctif de nécessité (il faut que…); donner des conseils | ⬜ |
+| 5 | Looking for a job | D2·L2 | marqueurs temporels (depuis / pendant / il y a / pour); CV & annonces | ✅ a2.1/unit-05 |
+| 6 | Advice & job interviews | D2·L3 | le subjonctif de nécessité (il faut que…); donner des conseils | ✅ a2.1/unit-06 |
 
 ## a2.2 — Dossiers 3–4
 | # | Module | Alter Ego+ 2 | Grammar focus | Status |

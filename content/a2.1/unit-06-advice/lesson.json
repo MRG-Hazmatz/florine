@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "a2.1/unit-06-advice",
+  "level": "a2.1",
+  "unitNumber": 6,
+  "slug": "unit-06-advice",
+  "title": "Advice & Interviews",
+  "titleFr": "Les entretiens d'embauche",
+  "cefrDescriptors": [
+    "Can give advice and warnings, including for a job interview.",
+    "Can express necessity with il faut que + the subjunctive."
+  ],
+  "skills": ["reading", "listening", "writing", "speaking"],
+  "estimatedMinutes": 50,
+  "concept": "The last unit of A2.1 — and it introduces a famous French verb mood: the subjonctif. Don't panic; at this level you mainly need it in ONE very common pattern: il faut que… (it's necessary that…), for obligations.\n  Il faut que tu sois à l'heure. (You must be on time.)\n  Il faut que tu aies confiance en toi. (You must be confident.)\nAfter il faut que, the verb shifts to the subjunctive. The two you'll use most are irregular and worth memorising:\n  être → que je sois, que tu sois, qu'il soit, que nous soyons…\n  avoir → que j'aie, que tu aies, qu'il ait…\nFor regular -er verbs the subjunctive looks like the present for tu/il: il faut que tu parles, qu'il travaille.\n\nYou don't always need the subjunctive, though — French has gentler ways to advise:\n  • devoir + infinitive: Tu dois préparer l'entretien. (You must / should prepare.)\n  • il est important de + infinitive: Il est important d'être poli.\n  • je te conseille de + infinitive: Je te conseille de sourire.\n  • the impératif: Prépare-toi bien !\n\nThe theme is the job interview (l'entretien d'embauche): un conseil (advice), conseiller (to advise), se préparer (to get ready), à l'heure / en retard (on time / late), le patron (the boss), motivé (motivated), serrer la main (to shake hands).\n\nPut it together: « Pour réussir ton entretien : il faut que tu sois à l'heure, tu dois être motivé, et n'oublie pas de serrer la main du patron ! »\n\nGive a friend two pieces of advice for an interview: one with il faut que + subjonctif, one with tu dois + infinitive.",
+  "vocabulary": [
+    { "id": "entretien", "fr": "l'entretien", "en": "(job) interview", "pos": "noun", "exampleFr": "J'ai un entretien demain.", "exampleEn": "I have an interview tomorrow.", "audio": "audio/a2.1/unit-06-advice/vocab-entretien.mp3", "voice": "denise" },
+    { "id": "conseil", "fr": "le conseil", "en": "piece of advice", "pos": "noun", "exampleFr": "Merci pour le conseil.", "exampleEn": "Thanks for the advice.", "audio": "audio/a2.1/unit-06-advice/vocab-conseil.mp3", "voice": "henri" },
+    { "id": "conseiller", "fr": "conseiller", "en": "to advise", "pos": "verb", "exampleFr": "Je te conseille de venir.", "exampleEn": "I advise you to come.", "audio": "audio/a2.1/unit-06-advice/vocab-conseiller.mp3", "voice": "denise" },
+    { "id": "se-preparer", "fr": "se préparer", "en": "to get ready / prepare", "pos": "verb", "exampleFr": "Prépare-toi bien.", "exampleEn": "Get ready properly.", "audio": "audio/a2.1/unit-06-advice/vocab-se-preparer.mp3", "voice": "henri" },
+    { "id": "a-l-heure", "fr": "à l'heure", "en": "on time", "pos": "phrase", "exampleFr": "Sois à l'heure !", "exampleEn": "Be on time!", "audio": "audio/a2.1/unit-06-advice/vocab-a-l-heure.mp3", "voice": "denise" },
+    { "id": "en-retard", "fr": "en retard", "en": "late", "pos": "phrase", "exampleFr": "Je suis en retard.", "exampleEn": "I'm late.", "audio": "audio/a2.1/unit-06-advice/vocab-en-retard.mp3", "voice": "henri" },
+    { "id": "patron", "fr": "le patron", "en": "boss (f. la patronne)", "pos": "noun", "exampleFr": "Le patron est sympa.", "exampleEn": "The boss is nice.", "audio": "audio/a2.1/unit-06-advice/vocab-patron.mp3", "voice": "denise" },
+    { "id": "motive", "fr": "motivé", "en": "motivated (f. motivée)", "pos": "adjective", "exampleFr": "Elle est très motivée.", "exampleEn": "She is very motivated.", "audio": "audio/a2.1/unit-06-advice/vocab-motive.mp3", "voice": "henri" },
+    { "id": "calme", "fr": "calme", "en": "calm", "pos": "adjective", "exampleFr": "Reste calme.", "exampleEn": "Stay calm.", "audio": "audio/a2.1/unit-06-advice/vocab-calme.mp3", "voice": "denise" },
+    { "id": "il-faut-que", "fr": "il faut que", "en": "one must / it's necessary that (+ subjunctive)", "pos": "phrase", "exampleFr": "Il faut que tu sois à l'heure.", "exampleEn": "You must be on time.", "audio": "audio/a2.1/unit-06-advice/vocab-il-faut-que.mp3", "voice": "henri" },
+    { "id": "devoir", "fr": "devoir", "en": "to have to / must", "pos": "verb", "exampleFr": "Tu dois travailler.", "exampleEn": "You have to work.", "audio": "audio/a2.1/unit-06-advice/vocab-devoir.mp3", "voice": "denise" },
+    { "id": "serrer-la-main", "fr": "serrer la main", "en": "to shake hands", "pos": "phrase", "exampleFr": "Serre la main du patron.", "exampleEn": "Shake the boss's hand.", "audio": "audio/a2.1/unit-06-advice/vocab-serrer-la-main.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "Il faut que tu sois à l'heure.", "en": "You must be on time.", "audio": "audio/a2.1/unit-06-advice/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "Tu dois préparer l'entretien.", "en": "You must prepare for the interview.", "audio": "audio/a2.1/unit-06-advice/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "Il est important d'être poli.", "en": "It's important to be polite.", "audio": "audio/a2.1/unit-06-advice/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "Je te conseille de sourire.", "en": "I advise you to smile.", "audio": "audio/a2.1/unit-06-advice/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "Il faut que tu aies confiance en toi.", "en": "You must be confident.", "audio": "audio/a2.1/unit-06-advice/example-ex-5.mp3", "voice": "denise" }
+  ]
+}
