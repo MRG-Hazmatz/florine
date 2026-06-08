@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "b1.1/unit-04-reported-past",
+  "level": "b1.1",
+  "unitNumber": 4,
+  "slug": "unit-04-reported-past",
+  "title": "Reported Speech in the Past",
+  "titleFr": "Rapporter des paroles",
+  "cefrDescriptors": [
+    "Can report what someone said, including in the past.",
+    "Can apply the concordance des temps when the reporting verb is in the past."
+  ],
+  "skills": ["reading", "listening", "writing", "speaking"],
+  "estimatedMinutes": 55,
+  "concept": "The other half of Dossier 2: reporting what people said — essential for negotiating, retelling, and writing complaints.\n\nReporting in the PRESENT (rappel): dire que (statement), demander si (yes/no question), demander ce que (what), dire de + infinitive (an order):\n  Il dit qu'il vient. · Elle demande si tu viens. · Il me dit de venir.\n\nNow the B1 step — reporting in the PAST. When the reporting verb is past (il a dit que…, elle a demandé si…), the tenses shift back — this is la concordance des temps:\n  • présent → imparfait: « Je viens » → Il a dit qu'il venait.\n  • passé composé → plus-que-parfait: « J'ai fini » → Il a dit qu'il avait fini.\n  • futur → conditionnel: « Je viendrai » → Il a promis qu'il viendrait.\n  • imparfait stays imparfait: « J'étais malade » → Il a dit qu'il était malade.\nQuestions shift the same way: « Tu as reçu le colis ? » → Il a demandé si j'avais reçu le colis.\n\nReporting verbs let you be precise: affirmer (to claim), ajouter (to add), répéter, promettre (to promise), prévenir (to warn), avouer (to admit), déclarer (to state).\n\nThe theme is consumer life and complaints: se plaindre (to complain), une réclamation (a complaint), le vendeur (the salesperson), un colis (a parcel), and selon (according to: selon lui…).\n\nPut it together: « J'ai appelé le magasin. Le vendeur a dit que mon colis était en retard ; il a affirmé qu'il l'avait envoyé lundi et il a promis qu'il arriverait vite. »\n\nWrite two reported sentences in the past: one statement (il a dit que…) and one question (elle a demandé si…), shifting the tenses correctly.",
+  "vocabulary": [
+    { "id": "rapporter", "fr": "rapporter", "en": "to report / relay (words)", "pos": "verb", "exampleFr": "Il rapporte les paroles du chef.", "exampleEn": "He relays the boss's words.", "audio": "audio/b1.1/unit-04-reported-past/vocab-rapporter.mp3", "voice": "denise" },
+    { "id": "affirmer", "fr": "affirmer", "en": "to claim / assert", "pos": "verb", "exampleFr": "Il affirme que c'est vrai.", "exampleEn": "He claims it's true.", "audio": "audio/b1.1/unit-04-reported-past/vocab-affirmer.mp3", "voice": "henri" },
+    { "id": "ajouter", "fr": "ajouter", "en": "to add", "pos": "verb", "exampleFr": "Elle ajoute un détail.", "exampleEn": "She adds a detail.", "audio": "audio/b1.1/unit-04-reported-past/vocab-ajouter.mp3", "voice": "denise" },
+    { "id": "repeter", "fr": "répéter", "en": "to repeat", "pos": "verb", "exampleFr": "Je répète la question.", "exampleEn": "I repeat the question.", "audio": "audio/b1.1/unit-04-reported-past/vocab-repeter.mp3", "voice": "henri" },
+    { "id": "promettre", "fr": "promettre", "en": "to promise", "pos": "verb", "exampleFr": "Il promet de venir.", "exampleEn": "He promises to come.", "audio": "audio/b1.1/unit-04-reported-past/vocab-promettre.mp3", "voice": "denise" },
+    { "id": "prevenir", "fr": "prévenir", "en": "to warn / let know", "pos": "verb", "exampleFr": "Préviens-moi à l'avance.", "exampleEn": "Let me know in advance.", "audio": "audio/b1.1/unit-04-reported-past/vocab-prevenir.mp3", "voice": "henri" },
+    { "id": "avouer", "fr": "avouer", "en": "to admit / confess", "pos": "verb", "exampleFr": "Il avoue son erreur.", "exampleEn": "He admits his mistake.", "audio": "audio/b1.1/unit-04-reported-past/vocab-avouer.mp3", "voice": "denise" },
+    { "id": "declarer", "fr": "déclarer", "en": "to state / declare", "pos": "verb", "exampleFr": "Le témoin déclare la vérité.", "exampleEn": "The witness states the truth.", "audio": "audio/b1.1/unit-04-reported-past/vocab-declarer.mp3", "voice": "henri" },
+    { "id": "se-plaindre", "fr": "se plaindre", "en": "to complain", "pos": "verb", "exampleFr": "Le client se plaint du service.", "exampleEn": "The customer complains about the service.", "audio": "audio/b1.1/unit-04-reported-past/vocab-se-plaindre.mp3", "voice": "denise" },
+    { "id": "reclamation", "fr": "une réclamation", "en": "a complaint (formal)", "pos": "noun", "exampleFr": "J'envoie une réclamation.", "exampleEn": "I'm sending a complaint.", "audio": "audio/b1.1/unit-04-reported-past/vocab-reclamation.mp3", "voice": "henri" },
+    { "id": "selon", "fr": "selon", "en": "according to", "pos": "preposition", "exampleFr": "Selon lui, c'est faux.", "exampleEn": "According to him, it's false.", "audio": "audio/b1.1/unit-04-reported-past/vocab-selon.mp3", "voice": "denise" },
+    { "id": "vendeur", "fr": "le vendeur", "en": "salesperson (f. la vendeuse)", "pos": "noun", "exampleFr": "Le vendeur est aimable.", "exampleEn": "The salesperson is friendly.", "audio": "audio/b1.1/unit-04-reported-past/vocab-vendeur.mp3", "voice": "henri" },
+    { "id": "colis", "fr": "un colis", "en": "a parcel", "pos": "noun", "exampleFr": "Mon colis est en retard.", "exampleEn": "My parcel is late.", "audio": "audio/b1.1/unit-04-reported-past/vocab-colis.mp3", "voice": "denise" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "Il a dit qu'il venait.", "en": "He said he was coming.", "audio": "audio/b1.1/unit-04-reported-past/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "Elle a dit qu'elle avait fini.", "en": "She said she had finished.", "audio": "audio/b1.1/unit-04-reported-past/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "Il a promis qu'il viendrait.", "en": "He promised he would come.", "audio": "audio/b1.1/unit-04-reported-past/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "Le client s'est plaint du service.", "en": "The customer complained about the service.", "audio": "audio/b1.1/unit-04-reported-past/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "Selon lui, le produit était défectueux.", "en": "According to him, the product was faulty.", "audio": "audio/b1.1/unit-04-reported-past/example-ex-5.mp3", "voice": "denise" },
+    { "id": "ex-6", "fr": "Elle m'a demandé si j'avais reçu le colis.", "en": "She asked me if I had received the parcel.", "audio": "audio/b1.1/unit-04-reported-past/example-ex-6.mp3", "voice": "henri" }
+  ]
+}

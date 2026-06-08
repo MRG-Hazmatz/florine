@@ -22,8 +22,8 @@ Status: ✅ built · 🔨 in progress · ⬜ planned
 |---|---|---|---|---|
 | 1 | Image & relationships | D1 *Je séduis* | relative pronouns (rappel) + with demonstratives; la mise en relief | ✅ b1.1/unit-01 |
 | 2 | Feelings & the subjunctive | D1 *Je séduis* | subjonctif présent (rappel), subjonctif passé / infinitif passé; subjonctif vs infinitif after feelings | ✅ b1.1/unit-02 |
-| 3 | Consumer habits & comparing | D2 *J'achète* | les degrés de la comparaison; les pronoms relatifs composés (lequel, auquel…) | ⬜ |
-| 4 | Reporting speech | D2 *J'achète* | le discours rapporté au présent (rappel) + au passé & la concordance des temps | ⬜ |
+| 3 | Comparison & complex relatives | D2 *J'achète* | les degrés de la comparaison; les pronoms relatifs composés (lequel, auquel…) | ✅ b1.1/unit-03 |
+| 4 | Reported speech in the past | D2 *J'achète* | le discours rapporté au présent (rappel) + au passé & la concordance des temps | ✅ b1.1/unit-04 |
 | 5 | Recounting the past | D3 *J'apprends* | imparfait vs passé composé (rappel) + le plus-que-parfait; accord du participe passé | ⬜ |
 | 6 | Opposition & concession | D3 *J'apprends* | exprimer l'opposition et la concession (mais, pourtant, bien que…) | ⬜ |
 | 7 | News & the passive | D4 *Je m'informe* | la forme passive; la phrase nominale (press headlines) | ⬜ |

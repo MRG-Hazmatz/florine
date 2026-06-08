@@ -1,0 +1,422 @@
+{
+  "schemaVersion": 1,
+  "unitId": "b1.1/unit-03-consumption",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "What is the comparative of « bon » (good)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "meilleur"
+        },
+        {
+          "id": "b",
+          "text": "plus bon"
+        },
+        {
+          "id": "c",
+          "text": "mieux"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "bon → meilleur (better). mieux is the comparative of the adverb bien."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Compare a quantity: « J'ai ___ temps que toi. » (more time)",
+      "options": [
+        {
+          "id": "a",
+          "text": "plus de"
+        },
+        {
+          "id": "b",
+          "text": "plus que"
+        },
+        {
+          "id": "c",
+          "text": "plus"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "With a noun, use plus de … que: plus de temps que toi."
+    },
+    {
+      "id": "ex-mc-3",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "After a preposition (masculine thing): « le stylo avec ___ j'écris »",
+      "options": [
+        {
+          "id": "a",
+          "text": "lequel"
+        },
+        {
+          "id": "b",
+          "text": "laquelle"
+        },
+        {
+          "id": "c",
+          "text": "qui"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "stylo is masculine → avec lequel. (qui is only for people.)"
+    },
+    {
+      "id": "ex-mc-4",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "After a preposition (feminine thing): « la raison pour ___ je pars »",
+      "options": [
+        {
+          "id": "a",
+          "text": "laquelle"
+        },
+        {
+          "id": "b",
+          "text": "lequel"
+        },
+        {
+          "id": "c",
+          "text": "dont"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "raison is feminine → pour laquelle (the reason why)."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "The verb is penser À. Contract à + lequel.",
+      "inputMode": "dropdown",
+      "template": "C'est le problème {{b1}} je pense.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "auquel"
+          ],
+          "options": [
+            "auquel",
+            "à lequel",
+            "duquel"
+          ]
+        }
+      ],
+      "explanation": "à + lequel → auquel: le problème auquel je pense."
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Compare adjectives: the train is LESS expensive than the plane.",
+      "inputMode": "typed",
+      "template": "Ce produit est {{b1}} cher que l'autre.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "moins"
+          ]
+        }
+      ],
+      "explanation": "moins … que = less … than."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "la consommation",
+          "right": "consumption"
+        },
+        {
+          "id": "p2",
+          "left": "une marque",
+          "right": "a brand"
+        },
+        {
+          "id": "p3",
+          "left": "négocier",
+          "right": "to negotiate"
+        },
+        {
+          "id": "p4",
+          "left": "dépenser",
+          "right": "to spend"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"This product is better than the other.\"",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Ce"
+        },
+        {
+          "id": "t2",
+          "text": "produit"
+        },
+        {
+          "id": "t3",
+          "text": "est"
+        },
+        {
+          "id": "t4",
+          "text": "meilleur"
+        },
+        {
+          "id": "t5",
+          "text": "que"
+        },
+        {
+          "id": "t6",
+          "text": "l'autre"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then: what's the advantage of buying online here?",
+      "audio": "audio/b1.1/unit-03-consumption/listen-1.mp3",
+      "transcript": "Sur internet, il y a plus de choix et de meilleurs prix.",
+      "options": [
+        {
+          "id": "a",
+          "text": "More choice and better prices"
+        },
+        {
+          "id": "b",
+          "text": "Faster delivery only"
+        },
+        {
+          "id": "c",
+          "text": "Friendlier staff"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "« plus de choix et de meilleurs prix » = more choice and better prices."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read and answer both questions.",
+      "passageFr": "Léa achète souvent en ligne. C'est plus pratique et il y a plus de promotions. Le site sur lequel elle commande propose les meilleurs prix. Avant d'acheter, elle compare toujours les marques.",
+      "passageEn": "Léa often shops online. It's more convenient and there are more deals. The site she orders from offers the best prices. Before buying, she always compares brands.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "Why does Léa shop online?",
+          "options": [
+            {
+              "id": "a",
+              "text": "It's convenient and has more deals"
+            },
+            {
+              "id": "b",
+              "text": "It's the only option"
+            },
+            {
+              "id": "c",
+              "text": "She dislikes shops"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        },
+        {
+          "id": "q2",
+          "prompt": "What does she always do before buying?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Compare brands"
+            },
+            {
+              "id": "b",
+              "text": "Call a friend"
+            },
+            {
+              "id": "c",
+              "text": "Wait a week"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « la consommation » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "consumption"
+        },
+        {
+          "id": "b",
+          "text": "a purchase"
+        },
+        {
+          "id": "c",
+          "text": "consumer"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "la consommation = consumption."
+    },
+    {
+      "id": "ex-mc-pool-2",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Which French word means « a purchase »?",
+      "options": [
+        {
+          "id": "a",
+          "text": "un achat"
+        },
+        {
+          "id": "b",
+          "text": "la consommation"
+        },
+        {
+          "id": "c",
+          "text": "le consommateur"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "« a purchase » = un achat."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "un produit",
+          "right": "a product"
+        },
+        {
+          "id": "p2",
+          "left": "une marque",
+          "right": "a brand"
+        },
+        {
+          "id": "p3",
+          "left": "la qualité",
+          "right": "quality"
+        },
+        {
+          "id": "p4",
+          "left": "une promotion",
+          "right": "a special offer / sale"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “I have more choice on the internet.”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "J'ai"
+        },
+        {
+          "id": "t2",
+          "text": "plus"
+        },
+        {
+          "id": "t3",
+          "text": "de"
+        },
+        {
+          "id": "t4",
+          "text": "choix"
+        },
+        {
+          "id": "t5",
+          "text": "sur"
+        },
+        {
+          "id": "t6",
+          "text": "internet"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ]
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "Ce produit est meilleur que l'autre.",
+      "targetEn": "This product is better than the other.",
+      "audio": "audio/b1.1/unit-03-consumption/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "Voici la raison pour laquelle j'achète en ligne.",
+      "targetEn": "Here's the reason why I shop online.",
+      "audio": "audio/b1.1/unit-03-consumption/example-ex-3.mp3"
+    }
+  ]
+}

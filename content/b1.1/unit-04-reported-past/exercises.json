@@ -1,0 +1,419 @@
+{
+  "schemaVersion": 1,
+  "unitId": "b1.1/unit-04-reported-past",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Report in the past: « Je viens » → « Il a dit qu'il ___ . »",
+      "options": [
+        {
+          "id": "a",
+          "text": "venait"
+        },
+        {
+          "id": "b",
+          "text": "vient"
+        },
+        {
+          "id": "c",
+          "text": "viendra"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "présent → imparfait: « il venait »."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Report in the past: « J'ai fini » → « Elle a dit qu'elle ___ fini. »",
+      "options": [
+        {
+          "id": "a",
+          "text": "avait"
+        },
+        {
+          "id": "b",
+          "text": "a"
+        },
+        {
+          "id": "c",
+          "text": "aura"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "passé composé → plus-que-parfait: « elle avait fini »."
+    },
+    {
+      "id": "ex-mc-3",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Report in the past: « Je viendrai » → « Il a promis qu'il ___ . »",
+      "options": [
+        {
+          "id": "a",
+          "text": "viendrait"
+        },
+        {
+          "id": "b",
+          "text": "viendra"
+        },
+        {
+          "id": "c",
+          "text": "venait"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "futur → conditionnel: « il viendrait »."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Report a yes/no question.",
+      "inputMode": "dropdown",
+      "template": "Elle m'a demandé {{b1}} j'avais le reçu.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "si"
+          ],
+          "options": [
+            "si",
+            "que",
+            "ce que"
+          ]
+        }
+      ],
+      "explanation": "A reported yes/no question uses si: « demander si »."
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Report a 'what' question (Qu'est-ce que tu fais ?).",
+      "inputMode": "dropdown",
+      "template": "Il a demandé {{b1}} je faisais.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "ce que"
+          ],
+          "options": [
+            "ce que",
+            "que",
+            "si"
+          ]
+        }
+      ],
+      "explanation": "« Qu'est-ce que » becomes ce que in reported speech."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each verb to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "affirmer",
+          "right": "to claim"
+        },
+        {
+          "id": "p2",
+          "left": "ajouter",
+          "right": "to add"
+        },
+        {
+          "id": "p3",
+          "left": "promettre",
+          "right": "to promise"
+        },
+        {
+          "id": "p4",
+          "left": "se plaindre",
+          "right": "to complain"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"He said he was coming.\"",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Il"
+        },
+        {
+          "id": "t2",
+          "text": "a"
+        },
+        {
+          "id": "t3",
+          "text": "dit"
+        },
+        {
+          "id": "t4",
+          "text": "qu'il"
+        },
+        {
+          "id": "t5",
+          "text": "venait"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5"
+      ]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then: what did he promise?",
+      "audio": "audio/b1.1/unit-04-reported-past/listen-1.mp3",
+      "transcript": "Il a promis qu'il rembourserait le client.",
+      "options": [
+        {
+          "id": "a",
+          "text": "To refund the customer"
+        },
+        {
+          "id": "b",
+          "text": "To close the shop"
+        },
+        {
+          "id": "c",
+          "text": "To raise the price"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "« il a promis qu'il rembourserait » = he promised he would refund (futur → conditionnel)."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read and answer both questions.",
+      "passageFr": "Hier, j'ai appelé le magasin. Le vendeur a dit que mon colis était en retard. Il a affirmé qu'il l'avait envoyé lundi et il a promis qu'il arriverait bientôt.",
+      "passageEn": "Yesterday, I called the shop. The salesperson said my parcel was late. He claimed he had sent it on Monday and promised it would arrive soon.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "What did the salesperson say about the parcel?",
+          "options": [
+            {
+              "id": "a",
+              "text": "It was late"
+            },
+            {
+              "id": "b",
+              "text": "It was lost"
+            },
+            {
+              "id": "c",
+              "text": "It was delivered"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        },
+        {
+          "id": "q2",
+          "prompt": "What did he promise?",
+          "options": [
+            {
+              "id": "a",
+              "text": "That it would arrive soon"
+            },
+            {
+              "id": "b",
+              "text": "That he would refund it"
+            },
+            {
+              "id": "c",
+              "text": "That he would call back"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex-fb-3",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Concordance: « Je suis fatigué » → past report (présent → imparfait).",
+      "inputMode": "dropdown",
+      "template": "Il a dit qu'il {{b1}} fatigué.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "était"
+          ],
+          "options": [
+            "était",
+            "est"
+          ]
+        }
+      ],
+      "explanation": "présent (est) → imparfait (était) when the report is in the past."
+    },
+    {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « rapporter » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "to report / relay"
+        },
+        {
+          "id": "b",
+          "text": "to claim / assert"
+        },
+        {
+          "id": "c",
+          "text": "to add"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "rapporter = to report / relay."
+    },
+    {
+      "id": "ex-mc-pool-2",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Which French word means « to claim / assert »?",
+      "options": [
+        {
+          "id": "a",
+          "text": "affirmer"
+        },
+        {
+          "id": "b",
+          "text": "rapporter"
+        },
+        {
+          "id": "c",
+          "text": "ajouter"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "« to claim / assert » = affirmer."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "promettre",
+          "right": "to promise"
+        },
+        {
+          "id": "p2",
+          "left": "prévenir",
+          "right": "to warn / let know"
+        },
+        {
+          "id": "p3",
+          "left": "avouer",
+          "right": "to admit / confess"
+        },
+        {
+          "id": "p4",
+          "left": "déclarer",
+          "right": "to state / declare"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “She said she had finished.”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Elle"
+        },
+        {
+          "id": "t2",
+          "text": "a"
+        },
+        {
+          "id": "t3",
+          "text": "dit"
+        },
+        {
+          "id": "t4",
+          "text": "qu'elle"
+        },
+        {
+          "id": "t5",
+          "text": "avait"
+        },
+        {
+          "id": "t6",
+          "text": "fini"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ]
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "Il a dit qu'il venait.",
+      "targetEn": "He said he was coming.",
+      "audio": "audio/b1.1/unit-04-reported-past/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "Il a promis qu'il viendrait.",
+      "targetEn": "He promised he would come.",
+      "audio": "audio/b1.1/unit-04-reported-past/example-ex-3.mp3"
+    }
+  ]
+}

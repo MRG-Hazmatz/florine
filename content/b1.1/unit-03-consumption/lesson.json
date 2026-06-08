@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "b1.1/unit-03-consumption",
+  "level": "b1.1",
+  "unitNumber": 3,
+  "slug": "unit-03-consumption",
+  "title": "Comparison & Complex Relatives",
+  "titleFr": "J'achète : comparer et choisir",
+  "cefrDescriptors": [
+    "Can compare products, prices and habits in detail.",
+    "Can use complex relative pronouns (lequel, laquelle, auquel…) after prepositions."
+  ],
+  "skills": ["reading", "listening", "writing", "speaking"],
+  "estimatedMinutes": 55,
+  "concept": "Dossier 2 is about how we shop and choose — so you need the language of comparing, plus a more precise relative pronoun.\n\nComparing (a rappel, with B1 refinements):\n  • adjectives: plus / moins / aussi + adjective + que → Ce produit est plus cher que l'autre.\n  • superlative: le / la / les plus (or moins) → le produit le moins cher.\n  • irregulars: bon → meilleur (better), bien → mieux (better, with a verb), mauvais → pire (worse).\n  • quantities (with nouns): plus de / moins de / autant de + noun + que → J'ai plus de choix en ligne.\n\nComplex relative pronouns — lequel, laquelle, lesquels, lesquelles — are used after a PREPOSITION (avec, pour, dans, sur, sans…) when the thing referred to isn't a person:\n  le magasin dans lequel je vais (the shop I go into)\n  la raison pour laquelle j'achète en ligne (the reason why I buy online)\nWith à and de they contract:\n  à + lequel → auquel · à + laquelle → à laquelle · à + lesquels → auxquels\n  le problème auquel je pense (penser À → auquel)\n(For people you can still use qui after a preposition: la personne avec qui je travaille.)\n\nThe theme vocabulary: la consommation, un achat, le consommateur / le client, un produit, une marque (a brand), la qualité, une promotion (a special offer), and the verbs comparer, négocier, dépenser (to spend), économiser (to save).\n\nPut it together: « J'achète en ligne parce qu'il y a plus de choix et de meilleurs prix. Le site sur lequel je commande propose toujours des promotions, et je compare les marques avant de dépenser. »\n\nWrite two sentences: one comparing two products, and one using lequel / laquelle after a preposition.",
+  "vocabulary": [
+    { "id": "consommation", "fr": "la consommation", "en": "consumption", "pos": "noun", "exampleFr": "La consommation augmente.", "exampleEn": "Consumption is rising.", "audio": "audio/b1.1/unit-03-consumption/vocab-consommation.mp3", "voice": "denise" },
+    { "id": "achat", "fr": "un achat", "en": "a purchase", "pos": "noun", "exampleFr": "Je fais un achat en ligne.", "exampleEn": "I'm making a purchase online.", "audio": "audio/b1.1/unit-03-consumption/vocab-achat.mp3", "voice": "henri" },
+    { "id": "consommateur", "fr": "le consommateur", "en": "consumer (f. la consommatrice)", "pos": "noun", "exampleFr": "Le consommateur compare les prix.", "exampleEn": "The consumer compares prices.", "audio": "audio/b1.1/unit-03-consumption/vocab-consommateur.mp3", "voice": "denise" },
+    { "id": "client", "fr": "le client", "en": "customer (f. la cliente)", "pos": "noun", "exampleFr": "Le client a toujours raison.", "exampleEn": "The customer is always right.", "audio": "audio/b1.1/unit-03-consumption/vocab-client.mp3", "voice": "henri" },
+    { "id": "produit", "fr": "un produit", "en": "a product", "pos": "noun", "exampleFr": "Ce produit est de bonne qualité.", "exampleEn": "This product is good quality.", "audio": "audio/b1.1/unit-03-consumption/vocab-produit.mp3", "voice": "denise" },
+    { "id": "marque", "fr": "une marque", "en": "a brand", "pos": "noun", "exampleFr": "J'aime bien cette marque.", "exampleEn": "I quite like this brand.", "audio": "audio/b1.1/unit-03-consumption/vocab-marque.mp3", "voice": "henri" },
+    { "id": "qualite", "fr": "la qualité", "en": "quality", "pos": "noun", "exampleFr": "La qualité est meilleure ici.", "exampleEn": "The quality is better here.", "audio": "audio/b1.1/unit-03-consumption/vocab-qualite.mp3", "voice": "denise" },
+    { "id": "promotion", "fr": "une promotion", "en": "a special offer / sale", "pos": "noun", "exampleFr": "Il y a une promotion sur ce produit.", "exampleEn": "There's an offer on this product.", "audio": "audio/b1.1/unit-03-consumption/vocab-promotion.mp3", "voice": "henri" },
+    { "id": "comparer", "fr": "comparer", "en": "to compare", "pos": "verb", "exampleFr": "Je compare avant d'acheter.", "exampleEn": "I compare before buying.", "audio": "audio/b1.1/unit-03-consumption/vocab-comparer.mp3", "voice": "denise" },
+    { "id": "negocier", "fr": "négocier", "en": "to negotiate", "pos": "verb", "exampleFr": "On peut négocier le prix.", "exampleEn": "We can negotiate the price.", "audio": "audio/b1.1/unit-03-consumption/vocab-negocier.mp3", "voice": "henri" },
+    { "id": "depenser", "fr": "dépenser", "en": "to spend (money)", "pos": "verb", "exampleFr": "Je dépense trop d'argent.", "exampleEn": "I spend too much money.", "audio": "audio/b1.1/unit-03-consumption/vocab-depenser.mp3", "voice": "denise" },
+    { "id": "economiser", "fr": "économiser", "en": "to save (money)", "pos": "verb", "exampleFr": "J'économise pour un voyage.", "exampleEn": "I'm saving for a trip.", "audio": "audio/b1.1/unit-03-consumption/vocab-economiser.mp3", "voice": "henri" },
+    { "id": "plus-de", "fr": "plus de … que", "en": "more … than (quantity)", "pos": "phrase", "exampleFr": "J'ai plus de choix en ligne.", "exampleEn": "I have more choice online.", "audio": "audio/b1.1/unit-03-consumption/vocab-plus-de.mp3", "voice": "denise" },
+    { "id": "lequel", "fr": "lequel / laquelle", "en": "which (one) — after a preposition", "pos": "pronoun", "exampleFr": "Le magasin dans lequel je vais.", "exampleEn": "The shop I go into.", "audio": "audio/b1.1/unit-03-consumption/vocab-lequel.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "Ce produit est meilleur que l'autre.", "en": "This product is better than the other.", "audio": "audio/b1.1/unit-03-consumption/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "J'ai plus de choix sur internet.", "en": "I have more choice on the internet.", "audio": "audio/b1.1/unit-03-consumption/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "Voici la raison pour laquelle j'achète en ligne.", "en": "Here's the reason why I shop online.", "audio": "audio/b1.1/unit-03-consumption/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "C'est le magasin dans lequel je vais souvent.", "en": "It's the shop I often go to.", "audio": "audio/b1.1/unit-03-consumption/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "Le client compare les prix avant d'acheter.", "en": "The customer compares prices before buying.", "audio": "audio/b1.1/unit-03-consumption/example-ex-5.mp3", "voice": "denise" },
+    { "id": "ex-6", "fr": "Quelle marque préfères-tu ? — Celle qui est moins chère.", "en": "Which brand do you prefer? — The one that's cheaper.", "audio": "audio/b1.1/unit-03-consumption/example-ex-6.mp3", "voice": "henri" }
+  ]
+}
