@@ -1,0 +1,362 @@
+{
+  "schemaVersion": 1,
+  "unitId": "a2.1/unit-07-coi",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Replace 'à Marie': « Je téléphone à Marie » → « Je ___ téléphone. »",
+      "options": [
+        {
+          "id": "a",
+          "text": "lui"
+        },
+        {
+          "id": "b",
+          "text": "le"
+        },
+        {
+          "id": "c",
+          "text": "la"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "téléphoner À quelqu'un → indirect → lui (to him/her)."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Replace 'à mes amis': « J'écris à mes amis » → « Je ___ écris. »",
+      "options": [
+        {
+          "id": "a",
+          "text": "leur"
+        },
+        {
+          "id": "b",
+          "text": "les"
+        },
+        {
+          "id": "c",
+          "text": "lui"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "écrire À plusieurs personnes → leur (to them)."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Replace 'à Paul' (donner À quelqu'un).",
+      "inputMode": "dropdown",
+      "template": "Tu donnes le livre à Paul ? Oui, je {{b1}} donne le livre.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "lui"
+          ],
+          "options": [
+            "lui",
+            "le"
+          ]
+        }
+      ],
+      "explanation": "donner À Paul → lui (indirect). 'le' would replace the book, not Paul."
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Direct object this time (voir + no preposition).",
+      "inputMode": "dropdown",
+      "template": "Tu vois Marie ? Oui, je {{b1}} vois.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "la"
+          ],
+          "options": [
+            "la",
+            "lui"
+          ]
+        }
+      ],
+      "explanation": "voir quelqu'un (no à) → direct → la (her). lui is only for à-verbs."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "téléphoner",
+          "right": "to phone"
+        },
+        {
+          "id": "p2",
+          "left": "écrire",
+          "right": "to write"
+        },
+        {
+          "id": "p3",
+          "left": "offrir",
+          "right": "to give (a gift)"
+        },
+        {
+          "id": "p4",
+          "left": "lui",
+          "right": "to him / to her"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"I give him/her a gift.\"",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Je"
+        },
+        {
+          "id": "t2",
+          "text": "lui"
+        },
+        {
+          "id": "t3",
+          "text": "offre"
+        },
+        {
+          "id": "t4",
+          "text": "un"
+        },
+        {
+          "id": "t5",
+          "text": "cadeau"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5"
+      ]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then: who will the speaker contact tonight?",
+      "audio": "audio/a2.1/unit-07-coi/listen-1.mp3",
+      "transcript": "Je vais leur téléphoner ce soir.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Them"
+        },
+        {
+          "id": "b",
+          "text": "Him only"
+        },
+        {
+          "id": "c",
+          "text": "No one"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "« leur » = to them: I'm going to phone them tonight."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read and answer both questions.",
+      "passageFr": "Marie est ma meilleure amie. Je lui parle tous les jours. Pour son anniversaire, je vais lui offrir un livre. Mes parents habitent loin, mais je leur écris souvent.",
+      "passageEn": "Marie is my best friend. I talk to her every day. For her birthday, I'm going to give her a book. My parents live far away, but I write to them often.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "How often does the writer talk to Marie?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Every day"
+            },
+            {
+              "id": "b",
+              "text": "Once a year"
+            },
+            {
+              "id": "c",
+              "text": "Never"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        },
+        {
+          "id": "q2",
+          "prompt": "What will the writer give Marie?",
+          "options": [
+            {
+              "id": "a",
+              "text": "A book"
+            },
+            {
+              "id": "b",
+              "text": "Flowers"
+            },
+            {
+              "id": "c",
+              "text": "Nothing"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « téléphoner à » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "to phone"
+        },
+        {
+          "id": "b",
+          "text": "to write"
+        },
+        {
+          "id": "c",
+          "text": "to give to"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "téléphoner à = to phone."
+    },
+    {
+      "id": "ex-mc-pool-2",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Which French word means « to write »?",
+      "options": [
+        {
+          "id": "a",
+          "text": "écrire à"
+        },
+        {
+          "id": "b",
+          "text": "téléphoner à"
+        },
+        {
+          "id": "c",
+          "text": "offrir à"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "« to write » = écrire à."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "montrer à",
+          "right": "to show to"
+        },
+        {
+          "id": "p2",
+          "left": "prêter à",
+          "right": "to lend to"
+        },
+        {
+          "id": "p3",
+          "left": "répondre à",
+          "right": "to answer / reply to"
+        },
+        {
+          "id": "p4",
+          "left": "lui",
+          "right": "to him / to her"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “I'm going to answer them.”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Je"
+        },
+        {
+          "id": "t2",
+          "text": "vais"
+        },
+        {
+          "id": "t3",
+          "text": "leur"
+        },
+        {
+          "id": "t4",
+          "text": "répondre"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4"
+      ]
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "Je téléphone à Marie. — Je lui téléphone.",
+      "targetEn": "I phone Marie. — I phone her.",
+      "audio": "audio/a2.1/unit-07-coi/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "Je lui offre un cadeau.",
+      "targetEn": "I give him/her a gift.",
+      "audio": "audio/a2.1/unit-07-coi/example-ex-3.mp3"
+    }
+  ]
+}

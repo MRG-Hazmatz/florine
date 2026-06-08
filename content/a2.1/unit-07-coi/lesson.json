@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "a2.1/unit-07-coi",
+  "level": "a2.1",
+  "unitNumber": 7,
+  "slug": "unit-07-coi",
+  "title": "Indirect Object Pronouns",
+  "titleFr": "Les pronoms COI (lui, leur)",
+  "cefrDescriptors": [
+    "Can avoid repetition using indirect object pronouns (lui, leur).",
+    "Can choose between direct (le/la/les) and indirect (lui/leur) object pronouns."
+  ],
+  "skills": ["reading", "listening", "writing", "speaking"],
+  "estimatedMinutes": 45,
+  "concept": "You've used COD pronouns (le, la, les) to avoid repeating a direct object. Now meet their partner: COI pronouns (lui, leur), for the INDIRECT object — a person reached through à.\n\nThe difference is that little à:\n  • Direct object (no preposition): voir quelqu'un, aimer, prendre → le / la / les.\n      Tu vois Paul ? — Oui, je le vois.\n  • Indirect object (verb + à + person): parler À, téléphoner À, écrire À, répondre À,\n    donner / offrir … À → lui (to one person) / leur (to several).\n      Tu téléphones à Marie ? — Oui, je lui téléphone.\n      Tu écris à tes parents ? — Oui, je leur écris.\n\nKey points:\n  • lui covers BOTH genders (to him AND to her) — only the number changes (lui = one, leur = several).\n  • Like COD, they go BEFORE the verb — and before the infinitive in the near future:\n      Je vais lui parler. · Je vais leur offrir un cadeau.\n\nThe test: if the verb attaches its person with à (parler à, téléphoner à, écrire à, donner à) → use lui / leur. No preposition (voir, aimer, regarder quelqu'un) → direct object → le / la / les.\n\nUseful à-verbs: téléphoner, écrire, parler, répondre, offrir, donner, montrer, prêter.\n\nPut it together: « Marie ? Je lui parle souvent et je vais lui offrir un livre. Mes parents ? Je leur écris chaque semaine. »\n\nWrite two sentences: one with lui, one with leur.",
+  "vocabulary": [
+    { "id": "telephoner", "fr": "téléphoner à", "en": "to phone (someone)", "pos": "verb", "exampleFr": "Je téléphone à ma sœur.", "exampleEn": "I phone my sister.", "audio": "audio/a2.1/unit-07-coi/vocab-telephoner.mp3", "voice": "denise" },
+    { "id": "ecrire", "fr": "écrire à", "en": "to write (to someone)", "pos": "verb", "exampleFr": "J'écris à un ami.", "exampleEn": "I write to a friend.", "audio": "audio/a2.1/unit-07-coi/vocab-ecrire.mp3", "voice": "henri" },
+    { "id": "offrir", "fr": "offrir à", "en": "to give (a gift) to", "pos": "verb", "exampleFr": "J'offre des fleurs à ma mère.", "exampleEn": "I give flowers to my mother.", "audio": "audio/a2.1/unit-07-coi/vocab-offrir.mp3", "voice": "denise" },
+    { "id": "donner", "fr": "donner à", "en": "to give to", "pos": "verb", "exampleFr": "Je donne le livre à Paul.", "exampleEn": "I give the book to Paul.", "audio": "audio/a2.1/unit-07-coi/vocab-donner.mp3", "voice": "henri" },
+    { "id": "montrer", "fr": "montrer à", "en": "to show to", "pos": "verb", "exampleFr": "Montre la photo à Léa.", "exampleEn": "Show the photo to Léa.", "audio": "audio/a2.1/unit-07-coi/vocab-montrer.mp3", "voice": "denise" },
+    { "id": "preter", "fr": "prêter à", "en": "to lend to", "pos": "verb", "exampleFr": "Je prête mon vélo à Marc.", "exampleEn": "I lend my bike to Marc.", "audio": "audio/a2.1/unit-07-coi/vocab-preter.mp3", "voice": "henri" },
+    { "id": "repondre", "fr": "répondre à", "en": "to answer / reply to", "pos": "verb", "exampleFr": "Je réponds à la question.", "exampleEn": "I answer the question.", "audio": "audio/a2.1/unit-07-coi/vocab-repondre.mp3", "voice": "denise" },
+    { "id": "lui", "fr": "lui", "en": "to him / to her", "pos": "pronoun", "exampleFr": "Je lui parle souvent.", "exampleEn": "I often speak to him/her.", "audio": "audio/a2.1/unit-07-coi/vocab-lui.mp3", "voice": "henri" },
+    { "id": "leur", "fr": "leur", "en": "to them", "pos": "pronoun", "exampleFr": "Je leur écris.", "exampleEn": "I write to them.", "audio": "audio/a2.1/unit-07-coi/vocab-leur.mp3", "voice": "denise" },
+    { "id": "le-la-les", "fr": "le / la / les", "en": "him / her / it / them (direct object)", "pos": "pronoun", "exampleFr": "Je le vois demain.", "exampleEn": "I'm seeing him tomorrow.", "audio": "audio/a2.1/unit-07-coi/vocab-le-la-les.mp3", "voice": "henri" },
+    { "id": "message", "fr": "un message", "en": "a message", "pos": "noun", "exampleFr": "Je lui laisse un message.", "exampleEn": "I leave him/her a message.", "audio": "audio/a2.1/unit-07-coi/vocab-message.mp3", "voice": "denise" },
+    { "id": "cadeau", "fr": "un cadeau", "en": "a gift", "pos": "noun", "exampleFr": "Je leur offre un cadeau.", "exampleEn": "I give them a gift.", "audio": "audio/a2.1/unit-07-coi/vocab-cadeau.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "Je téléphone à Marie. — Je lui téléphone.", "en": "I phone Marie. — I phone her.", "audio": "audio/a2.1/unit-07-coi/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "Tu écris à tes parents ? — Oui, je leur écris.", "en": "Do you write to your parents? — Yes, I write to them.", "audio": "audio/a2.1/unit-07-coi/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "Je lui offre un cadeau.", "en": "I give him/her a gift.", "audio": "audio/a2.1/unit-07-coi/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "Tu vois Paul ? — Oui, je le vois.", "en": "Do you see Paul? — Yes, I see him.", "audio": "audio/a2.1/unit-07-coi/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "Je vais leur répondre.", "en": "I'm going to answer them.", "audio": "audio/a2.1/unit-07-coi/example-ex-5.mp3", "voice": "denise" }
+  ]
+}

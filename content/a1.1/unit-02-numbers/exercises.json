@@ -7,181 +7,199 @@
       "id": "ex-mc-1",
       "type": "multiple-choice",
       "skill": "reading",
-      "prompt": "Which number comes right after « huit »?",
+      "prompt": "Which French number is 80?",
       "options": [
         {
           "id": "a",
-          "text": "sept"
+          "text": "quatre-vingts"
         },
         {
           "id": "b",
-          "text": "neuf"
+          "text": "soixante-dix"
         },
         {
           "id": "c",
-          "text": "dix"
-        },
-        {
-          "id": "d",
-          "text": "six"
+          "text": "quatre-vingt-dix"
         }
       ],
       "correct": [
-        "b"
+        "a"
       ],
-      "explanation": "sept (7), huit (8), neuf (9), dix (10)."
+      "explanation": "80 = quatre-vingts (literally 4 × 20). 70 = soixante-dix, 90 = quatre-vingt-dix."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "« soixante-dix » is which number?",
+      "options": [
+        {
+          "id": "a",
+          "text": "70"
+        },
+        {
+          "id": "b",
+          "text": "60"
+        },
+        {
+          "id": "c",
+          "text": "80"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "soixante-dix = 60 + 10 = 70."
     },
     {
       "id": "ex-fb-1",
       "type": "fill-blank",
       "skill": "writing",
-      "prompt": "Complete the sequence with the two missing numbers (in words).",
+      "prompt": "Complete the number 90 (= 80 + 10).",
       "inputMode": "typed",
-      "template": "six, sept, {{b1}}, {{b2}}, dix",
+      "template": "90 = quatre-vingt-{{b1}}",
       "blanks": [
         {
           "id": "b1",
           "accept": [
-            "huit"
-          ]
-        },
-        {
-          "id": "b2",
-          "accept": [
-            "neuf"
+            "dix"
           ]
         }
       ],
-      "explanation": "six, sept, huit, neuf, dix."
-    },
-    {
-      "id": "ex-ro-1",
-      "type": "reorder",
-      "skill": "writing",
-      "prompt": "Put these numbers in DESCENDING order (biggest first).",
-      "tokens": [
-        {
-          "id": "t1",
-          "text": "un"
-        },
-        {
-          "id": "t2",
-          "text": "trois"
-        },
-        {
-          "id": "t3",
-          "text": "cinq"
-        }
-      ],
-      "correctOrder": [
-        "t3",
-        "t2",
-        "t1"
-      ],
-      "explanation": "Biggest first: cinq (5), trois (3), un (1)."
+      "explanation": "90 = quatre-vingt-dix (\"four-twenties-ten\")."
     },
     {
       "id": "ex-mp-1",
       "type": "match-pairs",
       "skill": "reading",
-      "prompt": "Match each numeral to the French word.",
+      "prompt": "Match each number word to its value.",
       "pairs": [
         {
           "id": "p1",
-          "left": "0",
-          "right": "zéro"
+          "left": "soixante-dix",
+          "right": "70"
         },
         {
           "id": "p2",
-          "left": "7",
-          "right": "sept"
+          "left": "quatre-vingts",
+          "right": "80"
         },
         {
           "id": "p3",
-          "left": "8",
-          "right": "huit"
+          "left": "quatre-vingt-dix",
+          "right": "90"
         },
         {
           "id": "p4",
-          "left": "9",
-          "right": "neuf"
+          "left": "cinquante",
+          "right": "50"
         }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"It costs eighty euros.\"",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Ça"
+        },
+        {
+          "id": "t2",
+          "text": "coûte"
+        },
+        {
+          "id": "t3",
+          "text": "quatre-vingts"
+        },
+        {
+          "id": "t4",
+          "text": "euros"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4"
       ]
     },
     {
       "id": "ex-li-1",
       "type": "listen",
       "skill": "listening",
-      "prompt": "Listen to the sentence. How old is the person?",
+      "prompt": "Listen, then: how old is the speaker?",
       "audio": "audio/a1.1/unit-02-numbers/listen-1.mp3",
-      "transcript": "J'ai sept ans.",
+      "transcript": "J'ai soixante-quinze ans.",
       "options": [
         {
           "id": "a",
-          "text": "6"
+          "text": "75"
         },
         {
           "id": "b",
-          "text": "7"
+          "text": "65"
         },
         {
           "id": "c",
-          "text": "8"
+          "text": "95"
         }
       ],
       "correct": [
-        "b"
+        "a"
       ],
-      "explanation": "« J'ai sept ans » = I am seven years old."
+      "explanation": "soixante-quinze = 60 + 15 = 75."
     },
     {
       "id": "ex-rd-1",
       "type": "read",
       "skill": "reading",
-      "prompt": "Read about Tom and answer both questions.",
-      "passageFr": "Bonjour ! Je m'appelle Tom. J'ai huit ans. J'ai deux frères.",
-      "passageEn": "Hello! My name is Tom. I am eight years old. I have two brothers.",
+      "prompt": "Read and answer both questions.",
+      "passageFr": "Ma grand-mère a quatre-vingt-deux ans et mon grand-père a quatre-vingt-onze ans.",
+      "passageEn": "My grandmother is eighty-two and my grandfather is ninety-one.",
       "questions": [
         {
           "id": "q1",
-          "prompt": "How old is Tom?",
+          "prompt": "How old is the grandmother?",
           "options": [
             {
               "id": "a",
-              "text": "6"
+              "text": "82"
             },
             {
               "id": "b",
-              "text": "8"
+              "text": "72"
             },
             {
               "id": "c",
-              "text": "10"
+              "text": "92"
             }
           ],
           "correct": [
-            "b"
+            "a"
           ]
         },
         {
           "id": "q2",
-          "prompt": "How many brothers does he have?",
+          "prompt": "How old is the grandfather?",
           "options": [
             {
               "id": "a",
-              "text": "1"
+              "text": "91"
             },
             {
               "id": "b",
-              "text": "2"
+              "text": "81"
             },
             {
               "id": "c",
-              "text": "3"
+              "text": "71"
             }
           ],
           "correct": [
-            "b"
+            "a"
           ]
         }
       ]
@@ -190,107 +208,22 @@
       "id": "ex-fb-2",
       "type": "fill-blank",
       "skill": "writing",
-      "prompt": "Write the number in words.",
-      "inputMode": "typed",
-      "template": "4 = {{b1}}",
+      "prompt": "Complete the number 71 (uses « et »).",
+      "inputMode": "dropdown",
+      "template": "71 = soixante et {{b1}}",
       "blanks": [
         {
           "id": "b1",
           "accept": [
-            "quatre"
+            "onze"
+          ],
+          "options": [
+            "onze",
+            "dix"
           ]
         }
       ],
-      "explanation": "4 = quatre."
-    },
-    {
-      "id": "ex-mc-2",
-      "type": "multiple-choice",
-      "skill": "reading",
-      "prompt": "« Trois cafés, s'il vous plaît. » How many coffees are ordered?",
-      "options": [
-        {
-          "id": "a",
-          "text": "2"
-        },
-        {
-          "id": "b",
-          "text": "3"
-        },
-        {
-          "id": "c",
-          "text": "4"
-        }
-      ],
-      "correct": [
-        "b"
-      ],
-      "explanation": "trois = 3."
-    },
-    {
-      "id": "ex-mc-3",
-      "type": "multiple-choice",
-      "skill": "reading",
-      "prompt": "Which number is « seize »?",
-      "options": [
-        {
-          "id": "a",
-          "text": "6"
-        },
-        {
-          "id": "b",
-          "text": "16"
-        },
-        {
-          "id": "c",
-          "text": "60"
-        }
-      ],
-      "correct": [
-        "b"
-      ],
-      "explanation": "seize = 16. (six = 6, soixante = 60)"
-    },
-    {
-      "id": "ex-fb-3",
-      "type": "fill-blank",
-      "skill": "writing",
-      "prompt": "Write the number in words.",
-      "inputMode": "typed",
-      "template": "40 = {{b1}}",
-      "blanks": [
-        {
-          "id": "b1",
-          "accept": [
-            "quarante"
-          ]
-        }
-      ],
-      "explanation": "40 = quarante."
-    },
-    {
-      "id": "ex-mc-4",
-      "type": "multiple-choice",
-      "skill": "reading",
-      "prompt": "What number is « vingt-trois »?",
-      "options": [
-        {
-          "id": "a",
-          "text": "13"
-        },
-        {
-          "id": "b",
-          "text": "23"
-        },
-        {
-          "id": "c",
-          "text": "32"
-        }
-      ],
-      "correct": [
-        "b"
-      ],
-      "explanation": "vingt (20) + trois (3) = vingt-trois (23)."
+      "explanation": "71 = soixante et onze (60 + 11). Note the « et », like vingt-et-un."
     },
     {
       "id": "ex-mc-pool-1",
@@ -407,8 +340,8 @@
       "type": "speak",
       "skill": "speaking",
       "prompt": "Speaking practice — say this sentence aloud and record yourself:",
-      "targetFr": "Il est huit heures.",
-      "targetEn": "It is eight o'clock.",
+      "targetFr": "Ça coûte quatre-vingts euros.",
+      "targetEn": "It costs eighty euros.",
       "audio": "audio/a1.1/unit-02-numbers/example-ex-3.mp3"
     }
   ]

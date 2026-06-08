@@ -12,7 +12,7 @@ Status: ✅ built · 🔨 in progress · ⬜ planned
 | # | Module | Alter Ego | Grammar focus | Status |
 |---|---|---|---|---|
 | 1 | Greetings & politeness | D0 / D1 | salutations, tu vs vous, register | ✅ unit-01 |
-| 2 | Numbers (0–69) | D0 | cardinal numbers 0–69 | ✅ unit-02 |
+| 2 | Numbers (0–99) | D0/D1 | cardinal numbers 0–99 (incl. base-20: 70–99) | ✅ unit-02 |
 | 3 | Introducing yourself | D0 / D1·L1 | être, nationalities, c'est/il est | ✅ unit-03 |
 | 4 | Alphabet & personal info | D0/D1 | l'alphabet, épeler, accents, quel, coordonnées (numbers 70+: later) | ✅ unit-12 |
 | 5 | The city: location & articles | D2·L1 | articles (un/une/le/la/des), il y a, prépositions de lieu | ✅ unit-07 |

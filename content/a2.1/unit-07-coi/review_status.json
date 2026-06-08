@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "unitId": "a2.1/unit-07-coi",
+  "status": "pending_review",
+  "reviewers": [],
+  "approvedAt": null,
+  "sourceRefs": [
+    "DRAFT — built to the unit-03 template (objectif pragmatique + Point Langue grammar + thematic lexicon + DELF-format comprehension), then self-audited before commit. Awaiting native-speaker review.",
+    "Consolidation unit closing the A2 object-pronoun coverage: COD (le/la/les, taught in a1.2) vs COI (lui/leur). Grammar point from Alter Ego+ (A1 D7 / A2), built original; book used only for scope/sequence."
+  ]
+}
