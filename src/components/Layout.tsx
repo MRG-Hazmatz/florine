@@ -8,7 +8,7 @@ const navClass = ({ isActive }: { isActive: boolean }) =>
 export default function Layout() {
   return (
     <div className="min-h-full flex flex-col">
-      <header className="sticky top-0 border-b border-ink/10 bg-parchment/80 backdrop-blur">
+      <header className="sticky top-0 z-50 border-b border-ink/20 bg-parchment/90 backdrop-blur">
         <div className="mx-auto flex max-w-4xl items-center gap-4 px-4 py-3">
           <Link to="/" className="font-display text-2xl font-bold text-rouge">
             Florine
