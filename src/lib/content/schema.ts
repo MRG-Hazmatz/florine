@@ -180,6 +180,14 @@ export const readSchema = z.object({
   questions: z.array(readQuestionSchema).min(1),
 });
 
+export const speakSchema = z.object({
+  ...exerciseBase,
+  type: z.literal("speak"),
+  targetFr: z.string(), // the sentence the learner should say aloud
+  targetEn: z.string().optional(),
+  audio: z.string(), // native reference clip to shadow
+});
+
 export const exerciseSchema = z.discriminatedUnion("type", [
   multipleChoiceSchema,
   fillBlankSchema,
@@ -187,6 +195,7 @@ export const exerciseSchema = z.discriminatedUnion("type", [
   matchPairsSchema,
   listenSchema,
   readSchema,
+  speakSchema,
 ]);
 export type Exercise = z.infer<typeof exerciseSchema>;
 export type ExerciseType = Exercise["type"];

@@ -119,6 +119,15 @@
       "template": "C'est un ami {{b1}} je vois souvent.",
       "blanks": [{ "id": "b1", "accept": ["que"], "options": ["que", "qui"] }],
       "explanation": "Next word is the subject 'je' → object relative que."
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "C'est une amie qui m'écoute toujours.",
+      "targetEn": "She's a friend who always listens to me.",
+      "audio": "audio/a2.1/unit-01-character/example-ex-1.mp3"
     }
   ]
 }

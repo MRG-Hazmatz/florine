@@ -144,6 +144,11 @@ for lesson_path in lesson_paths:
                     for c in q.get("correct", []):
                         if c not in opts:
                             err(uid, f"{xid}: question '{q.get('id')}' correct '{c}' not among options")
+            elif t == "speak":
+                if not x.get("targetFr"):
+                    err(uid, f"{xid}: speak missing targetFr")
+                if not audio_ok(x.get("audio")):
+                    err(uid, f"{xid}: speak audio MISSING: {x.get('audio')}")
             else:
                 warn(uid, f"{xid}: unknown exercise type '{t}'")
         # skill coverage

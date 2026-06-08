@@ -10,6 +10,7 @@ import Reorder from "./Reorder";
 import MatchPairs from "./MatchPairs";
 import Listen from "./Listen";
 import Read from "./Read";
+import Speak from "./Speak";
 
 function assertNever(x: never): never {
   throw new Error("Unhandled exercise type: " + JSON.stringify(x));
@@ -29,6 +30,8 @@ function renderExercise(ex: Exercise, graded: boolean, onGrade: (r: GradeResult)
       return <Listen exercise={ex} graded={graded} onGrade={onGrade} />;
     case "read":
       return <Read exercise={ex} graded={graded} onGrade={onGrade} />;
+    case "speak":
+      return <Speak exercise={ex} graded={graded} onGrade={onGrade} />;
     default:
       return assertNever(ex);
   }
