@@ -226,6 +226,117 @@
       "explanation": "tu as fait (avez is the vous form)."
     },
     {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « hier » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "yesterday"
+        },
+        {
+          "id": "b",
+          "text": "last weekend"
+        },
+        {
+          "id": "c",
+          "text": "already"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "hier = yesterday."
+    },
+    {
+      "id": "ex-mc-pool-2",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Which French word means « last weekend »?",
+      "options": [
+        {
+          "id": "a",
+          "text": "le week-end dernier"
+        },
+        {
+          "id": "b",
+          "text": "hier"
+        },
+        {
+          "id": "c",
+          "text": "déjà"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "« last weekend » = le week-end dernier."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "acheter",
+          "right": "to buy"
+        },
+        {
+          "id": "p2",
+          "left": "regarder",
+          "right": "to watch"
+        },
+        {
+          "id": "p3",
+          "left": "manger",
+          "right": "to eat"
+        },
+        {
+          "id": "p4",
+          "left": "travailler",
+          "right": "to work"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “Yesterday, I ate at the restaurant.”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Hier,"
+        },
+        {
+          "id": "t2",
+          "text": "j'ai"
+        },
+        {
+          "id": "t3",
+          "text": "mangé"
+        },
+        {
+          "id": "t4",
+          "text": "au"
+        },
+        {
+          "id": "t5",
+          "text": "restaurant"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5"
+      ]
+    },
+    {
       "id": "ex-sp-1",
       "type": "speak",
       "skill": "speaking",

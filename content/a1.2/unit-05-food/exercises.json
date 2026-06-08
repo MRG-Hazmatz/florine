@@ -230,6 +230,112 @@
       "explanation": "Plural partitive → des fruits."
     },
     {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « le pain » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "bread"
+        },
+        {
+          "id": "b",
+          "text": "cheese"
+        },
+        {
+          "id": "c",
+          "text": "fruit"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "le pain = bread."
+    },
+    {
+      "id": "ex-mc-pool-2",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Which French word means « cheese »?",
+      "options": [
+        {
+          "id": "a",
+          "text": "le fromage"
+        },
+        {
+          "id": "b",
+          "text": "le pain"
+        },
+        {
+          "id": "c",
+          "text": "les fruits"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "« cheese » = le fromage."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "le lait",
+          "right": "milk"
+        },
+        {
+          "id": "p2",
+          "left": "le petit-déjeuner",
+          "right": "breakfast"
+        },
+        {
+          "id": "p3",
+          "left": "le déjeuner",
+          "right": "lunch"
+        },
+        {
+          "id": "p4",
+          "left": "le dîner",
+          "right": "dinner"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “She drinks (some) water.”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Elle"
+        },
+        {
+          "id": "t2",
+          "text": "boit"
+        },
+        {
+          "id": "t3",
+          "text": "de"
+        },
+        {
+          "id": "t4",
+          "text": "l'eau"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4"
+      ]
+    },
+    {
       "id": "ex-sp-1",
       "type": "speak",
       "skill": "speaking",

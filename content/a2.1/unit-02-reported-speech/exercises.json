@@ -236,6 +236,117 @@
       "explanation": "Statement → que, shortened to qu' before 'elle': elle dit qu'elle est contente."
     },
     {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « dire » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "to say / tell"
+        },
+        {
+          "id": "b",
+          "text": "to ask"
+        },
+        {
+          "id": "c",
+          "text": "to answer / reply"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "dire = to say / tell."
+    },
+    {
+      "id": "ex-mc-pool-2",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Which French word means « to ask »?",
+      "options": [
+        {
+          "id": "a",
+          "text": "demander"
+        },
+        {
+          "id": "b",
+          "text": "dire"
+        },
+        {
+          "id": "c",
+          "text": "répondre"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "« to ask » = demander."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "raconter",
+          "right": "to tell / recount"
+        },
+        {
+          "id": "p2",
+          "left": "saluer",
+          "right": "to greet"
+        },
+        {
+          "id": "p3",
+          "left": "discuter",
+          "right": "to chat / talk"
+        },
+        {
+          "id": "p4",
+          "left": "le voisin",
+          "right": "neighbour"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “She asks if you're coming.”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Elle"
+        },
+        {
+          "id": "t2",
+          "text": "demande"
+        },
+        {
+          "id": "t3",
+          "text": "si"
+        },
+        {
+          "id": "t4",
+          "text": "tu"
+        },
+        {
+          "id": "t5",
+          "text": "viens"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5"
+      ]
+    },
+    {
       "id": "ex-sp-1",
       "type": "speak",
       "skill": "speaking",

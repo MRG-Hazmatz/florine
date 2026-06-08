@@ -231,6 +231,117 @@
       "explanation": "Il faut + infinitive = you must. 'Il est faire' is not grammatical."
     },
     {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « il faut » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "you must / it's necessary to"
+        },
+        {
+          "id": "b",
+          "text": "rent"
+        },
+        {
+          "id": "c",
+          "text": "neighbour"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "il faut = you must / it's necessary to."
+    },
+    {
+      "id": "ex-mc-pool-2",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Which French word means « rent »?",
+      "options": [
+        {
+          "id": "a",
+          "text": "le loyer"
+        },
+        {
+          "id": "b",
+          "text": "il faut"
+        },
+        {
+          "id": "c",
+          "text": "le voisin"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "« rent » = le loyer."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "la règle",
+          "right": "rule"
+        },
+        {
+          "id": "p2",
+          "left": "interdit",
+          "right": "forbidden"
+        },
+        {
+          "id": "p3",
+          "left": "partager",
+          "right": "to share"
+        },
+        {
+          "id": "p4",
+          "left": "respecter",
+          "right": "to respect"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “Smoking is forbidden.”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Il"
+        },
+        {
+          "id": "t2",
+          "text": "est"
+        },
+        {
+          "id": "t3",
+          "text": "interdit"
+        },
+        {
+          "id": "t4",
+          "text": "de"
+        },
+        {
+          "id": "t5",
+          "text": "fumer"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5"
+      ]
+    },
+    {
       "id": "ex-sp-1",
       "type": "speak",
       "skill": "speaking",

@@ -226,6 +226,117 @@
       "explanation": "bon goes before the noun: un bon restaurant."
     },
     {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « le restaurant » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "restaurant"
+        },
+        {
+          "id": "b",
+          "text": "menu"
+        },
+        {
+          "id": "c",
+          "text": "dish / course"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "le restaurant = restaurant."
+    },
+    {
+      "id": "ex-mc-pool-2",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Which French word means « menu »?",
+      "options": [
+        {
+          "id": "a",
+          "text": "le menu"
+        },
+        {
+          "id": "b",
+          "text": "le restaurant"
+        },
+        {
+          "id": "c",
+          "text": "le plat"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "« menu » = le menu."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "commander",
+          "right": "to order"
+        },
+        {
+          "id": "p2",
+          "left": "réserver",
+          "right": "to book / reserve"
+        },
+        {
+          "id": "p3",
+          "left": "le serveur",
+          "right": "waiter"
+        },
+        {
+          "id": "p4",
+          "left": "l'entrée",
+          "right": "starter / first course"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “The menu, please.”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Le"
+        },
+        {
+          "id": "t2",
+          "text": "menu,"
+        },
+        {
+          "id": "t3",
+          "text": "s'il"
+        },
+        {
+          "id": "t4",
+          "text": "vous"
+        },
+        {
+          "id": "t5",
+          "text": "plaît"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5"
+      ]
+    },
+    {
       "id": "ex-sp-1",
       "type": "speak",
       "skill": "speaking",

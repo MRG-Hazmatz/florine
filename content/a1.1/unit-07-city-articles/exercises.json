@@ -235,6 +235,107 @@
       "explanation": "devant = in front of; derrière = behind."
     },
     {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « la ville » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "town / city"
+        },
+        {
+          "id": "b",
+          "text": "there is / there are"
+        },
+        {
+          "id": "c",
+          "text": "a park"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "la ville = town / city."
+    },
+    {
+      "id": "ex-mc-pool-2",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Which French word means « there is / there are »?",
+      "options": [
+        {
+          "id": "a",
+          "text": "il y a"
+        },
+        {
+          "id": "b",
+          "text": "la ville"
+        },
+        {
+          "id": "c",
+          "text": "un parc"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "« there is / there are » = il y a."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "une gare",
+          "right": "a station"
+        },
+        {
+          "id": "p2",
+          "left": "une école",
+          "right": "a school"
+        },
+        {
+          "id": "p3",
+          "left": "un restaurant",
+          "right": "a restaurant"
+        },
+        {
+          "id": "p4",
+          "left": "un magasin",
+          "right": "a shop / store"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “Where is the school?”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Où"
+        },
+        {
+          "id": "t2",
+          "text": "est"
+        },
+        {
+          "id": "t3",
+          "text": "l'école"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3"
+      ]
+    },
+    {
       "id": "ex-sp-1",
       "type": "speak",
       "skill": "speaking",

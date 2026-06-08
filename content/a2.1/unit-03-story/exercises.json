@@ -240,6 +240,117 @@
       "explanation": "A one-time event = passé composé: j'ai rencontré."
     },
     {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « la rencontre » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "meeting / encounter"
+        },
+        {
+          "id": "b",
+          "text": "to meet"
+        },
+        {
+          "id": "c",
+          "text": "love at first sight"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "la rencontre = meeting / encounter."
+    },
+    {
+      "id": "ex-mc-pool-2",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Which French word means « to meet »?",
+      "options": [
+        {
+          "id": "a",
+          "text": "rencontrer"
+        },
+        {
+          "id": "b",
+          "text": "la rencontre"
+        },
+        {
+          "id": "c",
+          "text": "le coup de foudre"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "« to meet » = rencontrer."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "sourire",
+          "right": "to smile"
+        },
+        {
+          "id": "p2",
+          "left": "le regard",
+          "right": "look / gaze"
+        },
+        {
+          "id": "p3",
+          "left": "tout de suite",
+          "right": "right away / immediately"
+        },
+        {
+          "id": "p4",
+          "left": "il y a",
+          "right": "ago"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “It was love at first sight!”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "C'était"
+        },
+        {
+          "id": "t2",
+          "text": "le"
+        },
+        {
+          "id": "t3",
+          "text": "coup"
+        },
+        {
+          "id": "t4",
+          "text": "de"
+        },
+        {
+          "id": "t5",
+          "text": "foudre"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5"
+      ]
+    },
+    {
       "id": "ex-sp-1",
       "type": "speak",
       "skill": "speaking",

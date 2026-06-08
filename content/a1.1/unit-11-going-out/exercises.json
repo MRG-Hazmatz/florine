@@ -236,6 +236,117 @@
       "explanation": "tu vas (je vais is the 'I' form)."
     },
     {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « aller » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "to go"
+        },
+        {
+          "id": "b",
+          "text": "to go out"
+        },
+        {
+          "id": "c",
+          "text": "to invite"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "aller = to go."
+    },
+    {
+      "id": "ex-mc-pool-2",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Which French word means « to go out »?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sortir"
+        },
+        {
+          "id": "b",
+          "text": "aller"
+        },
+        {
+          "id": "c",
+          "text": "inviter"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "« to go out » = sortir."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "ce soir",
+          "right": "tonight / this evening"
+        },
+        {
+          "id": "p2",
+          "left": "ce week-end",
+          "right": "this weekend"
+        },
+        {
+          "id": "p3",
+          "left": "le film",
+          "right": "film / movie"
+        },
+        {
+          "id": "p4",
+          "left": "la fête",
+          "right": "party"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “I'm going to go to the cinema.”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Je"
+        },
+        {
+          "id": "t2",
+          "text": "vais"
+        },
+        {
+          "id": "t3",
+          "text": "aller"
+        },
+        {
+          "id": "t4",
+          "text": "au"
+        },
+        {
+          "id": "t5",
+          "text": "cinéma"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5"
+      ]
+    },
+    {
       "id": "ex-sp-1",
       "type": "speak",
       "skill": "speaking",

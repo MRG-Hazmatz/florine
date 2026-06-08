@@ -9,11 +9,22 @@
       "skill": "writing",
       "prompt": "Emphasise the SUBJECT: « C'est Marie ___ a gagné. »",
       "options": [
-        { "id": "a", "text": "qui" },
-        { "id": "b", "text": "que" },
-        { "id": "c", "text": "dont" }
+        {
+          "id": "a",
+          "text": "qui"
+        },
+        {
+          "id": "b",
+          "text": "que"
+        },
+        {
+          "id": "c",
+          "text": "dont"
+        }
       ],
-      "correct": ["a"],
+      "correct": [
+        "a"
+      ],
       "explanation": "c'est … qui highlights the subject (followed by a verb): C'est Marie qui a gagné."
     },
     {
@@ -22,11 +33,22 @@
       "skill": "writing",
       "prompt": "Emphasise the object: « C'est ce film ___ je préfère. »",
       "options": [
-        { "id": "a", "text": "que" },
-        { "id": "b", "text": "qui" },
-        { "id": "c", "text": "où" }
+        {
+          "id": "a",
+          "text": "que"
+        },
+        {
+          "id": "b",
+          "text": "qui"
+        },
+        {
+          "id": "c",
+          "text": "où"
+        }
       ],
-      "correct": ["a"],
+      "correct": [
+        "a"
+      ],
       "explanation": "c'est … que highlights the rest (followed by a subject): C'est ce film que je préfère."
     },
     {
@@ -35,11 +57,22 @@
       "skill": "reading",
       "prompt": "What is the noun (nominalisation) from the verb « augmenter »?",
       "options": [
-        { "id": "a", "text": "une augmentation" },
-        { "id": "b", "text": "un augment" },
-        { "id": "c", "text": "augmenté" }
+        {
+          "id": "a",
+          "text": "une augmentation"
+        },
+        {
+          "id": "b",
+          "text": "un augment"
+        },
+        {
+          "id": "c",
+          "text": "augmenté"
+        }
       ],
-      "correct": ["a"],
+      "correct": [
+        "a"
+      ],
       "explanation": "augmenter → une augmentation (often used in headlines)."
     },
     {
@@ -49,7 +82,18 @@
       "prompt": "Emphasise the subject 'toi'.",
       "inputMode": "dropdown",
       "template": "C'est toi {{b1}} as raison.",
-      "blanks": [{ "id": "b1", "accept": ["qui"], "options": ["qui", "que"] }],
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "qui"
+          ],
+          "options": [
+            "qui",
+            "que"
+          ]
+        }
+      ],
       "explanation": "Subject + verb → qui: C'est toi qui as raison."
     },
     {
@@ -59,7 +103,18 @@
       "prompt": "Emphasise the object 'ce livre'.",
       "inputMode": "dropdown",
       "template": "C'est ce livre {{b1}} je cherche.",
-      "blanks": [{ "id": "b1", "accept": ["que"], "options": ["que", "qui"] }],
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "que"
+          ],
+          "options": [
+            "que",
+            "qui"
+          ]
+        }
+      ],
       "explanation": "Followed by a subject (je) → que: C'est ce livre que je cherche."
     },
     {
@@ -68,10 +123,26 @@
       "skill": "reading",
       "prompt": "Match each media word to its English meaning.",
       "pairs": [
-        { "id": "p1", "left": "la presse", "right": "the press" },
-        { "id": "p2", "left": "le journal", "right": "newspaper" },
-        { "id": "p3", "left": "une émission", "right": "a programme" },
-        { "id": "p4", "left": "le titre", "right": "headline" }
+        {
+          "id": "p1",
+          "left": "la presse",
+          "right": "the press"
+        },
+        {
+          "id": "p2",
+          "left": "le journal",
+          "right": "newspaper"
+        },
+        {
+          "id": "p3",
+          "left": "une émission",
+          "right": "a programme"
+        },
+        {
+          "id": "p4",
+          "left": "le titre",
+          "right": "headline"
+        }
       ]
     },
     {
@@ -80,13 +151,34 @@
       "skill": "writing",
       "prompt": "Put the words in order: \"It's a programme (that) I love.\"",
       "tokens": [
-        { "id": "t1", "text": "C'est" },
-        { "id": "t2", "text": "une" },
-        { "id": "t3", "text": "émission" },
-        { "id": "t4", "text": "que" },
-        { "id": "t5", "text": "j'adore" }
+        {
+          "id": "t1",
+          "text": "C'est"
+        },
+        {
+          "id": "t2",
+          "text": "une"
+        },
+        {
+          "id": "t3",
+          "text": "émission"
+        },
+        {
+          "id": "t4",
+          "text": "que"
+        },
+        {
+          "id": "t5",
+          "text": "j'adore"
+        }
       ],
-      "correctOrder": ["t1", "t2", "t3", "t4", "t5"]
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5"
+      ]
     },
     {
       "id": "ex-li-1",
@@ -96,11 +188,22 @@
       "audio": "audio/a2.2/unit-05-press/listen-1.mp3",
       "transcript": "C'est ce journaliste qui a écrit l'article.",
       "options": [
-        { "id": "a", "text": "This journalist" },
-        { "id": "b", "text": "The TV host" },
-        { "id": "c", "text": "Nobody knows" }
+        {
+          "id": "a",
+          "text": "This journalist"
+        },
+        {
+          "id": "b",
+          "text": "The TV host"
+        },
+        {
+          "id": "c",
+          "text": "Nobody knows"
+        }
       ],
-      "correct": ["a"],
+      "correct": [
+        "a"
+      ],
       "explanation": "« C'est ce journaliste qui a écrit… » = It's this journalist who wrote…"
     },
     {
@@ -115,21 +218,119 @@
           "id": "q1",
           "prompt": "What does the newspaper announce?",
           "options": [
-            { "id": "a", "text": "A price increase" },
-            { "id": "b", "text": "A new TV show" },
-            { "id": "c", "text": "A football result" }
+            {
+              "id": "a",
+              "text": "A price increase"
+            },
+            {
+              "id": "b",
+              "text": "A new TV show"
+            },
+            {
+              "id": "c",
+              "text": "A football result"
+            }
           ],
-          "correct": ["a"]
+          "correct": [
+            "a"
+          ]
         },
         {
           "id": "q2",
           "prompt": "Which medium does the speaker prefer?",
           "options": [
-            { "id": "a", "text": "The radio" },
-            { "id": "b", "text": "The newspaper" },
-            { "id": "c", "text": "Television" }
+            {
+              "id": "a",
+              "text": "The radio"
+            },
+            {
+              "id": "b",
+              "text": "The newspaper"
+            },
+            {
+              "id": "c",
+              "text": "Television"
+            }
           ],
-          "correct": ["a"]
+          "correct": [
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « la presse » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "the press"
+        },
+        {
+          "id": "b",
+          "text": "newspaper"
+        },
+        {
+          "id": "c",
+          "text": "channel"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "la presse = the press."
+    },
+    {
+      "id": "ex-mc-pool-2",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Which French word means « newspaper »?",
+      "options": [
+        {
+          "id": "a",
+          "text": "le journal"
+        },
+        {
+          "id": "b",
+          "text": "la presse"
+        },
+        {
+          "id": "c",
+          "text": "la chaîne"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "« newspaper » = le journal."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "le titre",
+          "right": "headline / title"
+        },
+        {
+          "id": "p2",
+          "left": "les infos",
+          "right": "the news"
+        },
+        {
+          "id": "p3",
+          "left": "le journaliste",
+          "right": "journalist"
+        },
+        {
+          "id": "p4",
+          "left": "une opinion",
+          "right": "an opinion"
         }
       ]
     },

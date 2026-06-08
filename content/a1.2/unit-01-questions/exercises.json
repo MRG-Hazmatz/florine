@@ -236,6 +236,107 @@
       "explanation": "Est-ce que makes a yes/no question; qu'est-ce que asks \"what\"."
     },
     {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « est-ce que » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "(makes a yes/no question)"
+        },
+        {
+          "id": "b",
+          "text": "what"
+        },
+        {
+          "id": "c",
+          "text": "where"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "est-ce que = (makes a yes/no question)."
+    },
+    {
+      "id": "ex-mc-pool-2",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Which French word means « what »?",
+      "options": [
+        {
+          "id": "a",
+          "text": "qu'est-ce que"
+        },
+        {
+          "id": "b",
+          "text": "est-ce que"
+        },
+        {
+          "id": "c",
+          "text": "où"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "« what » = qu'est-ce que."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "pourquoi",
+          "right": "why"
+        },
+        {
+          "id": "p2",
+          "left": "combien",
+          "right": "how much / how many"
+        },
+        {
+          "id": "p3",
+          "left": "qui",
+          "right": "who"
+        },
+        {
+          "id": "p4",
+          "left": "qu'est-ce que c'est ?",
+          "right": "what is it?"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “What is it?”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Qu'est-ce"
+        },
+        {
+          "id": "t2",
+          "text": "que"
+        },
+        {
+          "id": "t3",
+          "text": "c'est"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3"
+      ]
+    },
+    {
       "id": "ex-sp-1",
       "type": "speak",
       "skill": "speaking",

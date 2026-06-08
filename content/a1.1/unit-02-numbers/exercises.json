@@ -293,6 +293,107 @@
       "explanation": "vingt (20) + trois (3) = vingt-trois (23)."
     },
     {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « zéro » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "zero"
+        },
+        {
+          "id": "b",
+          "text": "one"
+        },
+        {
+          "id": "c",
+          "text": "two"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "zéro = zero."
+    },
+    {
+      "id": "ex-mc-pool-2",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Which French word means « one »?",
+      "options": [
+        {
+          "id": "a",
+          "text": "un"
+        },
+        {
+          "id": "b",
+          "text": "zéro"
+        },
+        {
+          "id": "c",
+          "text": "deux"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "« one » = un."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "quatre",
+          "right": "four"
+        },
+        {
+          "id": "p2",
+          "left": "cinq",
+          "right": "five"
+        },
+        {
+          "id": "p3",
+          "left": "six",
+          "right": "six"
+        },
+        {
+          "id": "p4",
+          "left": "sept",
+          "right": "seven"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “One, two, three!”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Un,"
+        },
+        {
+          "id": "t2",
+          "text": "deux,"
+        },
+        {
+          "id": "t3",
+          "text": "trois"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3"
+      ]
+    },
+    {
       "id": "ex-sp-1",
       "type": "speak",
       "skill": "speaking",

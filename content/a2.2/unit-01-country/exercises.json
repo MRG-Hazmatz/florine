@@ -9,11 +9,22 @@
       "skill": "writing",
       "prompt": "Choose the relative pronoun for a place: « la ville ___ j'habite »",
       "options": [
-        { "id": "a", "text": "où" },
-        { "id": "b", "text": "dont" },
-        { "id": "c", "text": "que" }
+        {
+          "id": "a",
+          "text": "où"
+        },
+        {
+          "id": "b",
+          "text": "dont"
+        },
+        {
+          "id": "c",
+          "text": "que"
+        }
       ],
-      "correct": ["a"],
+      "correct": [
+        "a"
+      ],
       "explanation": "où = where (a place or a time): la ville où j'habite."
     },
     {
@@ -22,11 +33,22 @@
       "skill": "writing",
       "prompt": "The verb is parler DE. Choose: « le sujet ___ je parle »",
       "options": [
-        { "id": "a", "text": "dont" },
-        { "id": "b", "text": "où" },
-        { "id": "c", "text": "qui" }
+        {
+          "id": "a",
+          "text": "dont"
+        },
+        {
+          "id": "b",
+          "text": "où"
+        },
+        {
+          "id": "c",
+          "text": "qui"
+        }
       ],
-      "correct": ["a"],
+      "correct": [
+        "a"
+      ],
       "explanation": "When the phrase uses de (parler de), the relative is dont."
     },
     {
@@ -35,11 +57,22 @@
       "skill": "reading",
       "prompt": "What does « la plupart des gens » mean?",
       "options": [
-        { "id": "a", "text": "most people" },
-        { "id": "b", "text": "a few people" },
-        { "id": "c", "text": "no one" }
+        {
+          "id": "a",
+          "text": "most people"
+        },
+        {
+          "id": "b",
+          "text": "a few people"
+        },
+        {
+          "id": "c",
+          "text": "no one"
+        }
       ],
-      "correct": ["a"],
+      "correct": [
+        "a"
+      ],
       "explanation": "la plupart des + plural = most (of)."
     },
     {
@@ -49,7 +82,18 @@
       "prompt": "Relative pronoun for a place (where I was born).",
       "inputMode": "dropdown",
       "template": "C'est la maison {{b1}} je suis né.",
-      "blanks": [{ "id": "b1", "accept": ["où"], "options": ["où", "dont"] }],
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "où"
+          ],
+          "options": [
+            "où",
+            "dont"
+          ]
+        }
+      ],
       "explanation": "A place → où: la maison où je suis né."
     },
     {
@@ -59,7 +103,18 @@
       "prompt": "The phrase is parler DE. Choose the relative.",
       "inputMode": "dropdown",
       "template": "C'est le sujet {{b1}} nous parlons.",
-      "blanks": [{ "id": "b1", "accept": ["dont"], "options": ["dont", "où"] }],
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "dont"
+          ],
+          "options": [
+            "dont",
+            "où"
+          ]
+        }
+      ],
       "explanation": "parler de → le sujet dont nous parlons."
     },
     {
@@ -68,10 +123,26 @@
       "skill": "reading",
       "prompt": "Match each word to its English meaning.",
       "pairs": [
-        { "id": "p1", "left": "les habitants", "right": "inhabitants" },
-        { "id": "p2", "left": "la culture", "right": "culture" },
-        { "id": "p3", "left": "accueillant", "right": "welcoming" },
-        { "id": "p4", "left": "célèbre", "right": "famous" }
+        {
+          "id": "p1",
+          "left": "les habitants",
+          "right": "inhabitants"
+        },
+        {
+          "id": "p2",
+          "left": "la culture",
+          "right": "culture"
+        },
+        {
+          "id": "p3",
+          "left": "accueillant",
+          "right": "welcoming"
+        },
+        {
+          "id": "p4",
+          "left": "célèbre",
+          "right": "famous"
+        }
       ]
     },
     {
@@ -80,14 +151,39 @@
       "skill": "writing",
       "prompt": "Put the words in order: \"It's the country where I live.\"",
       "tokens": [
-        { "id": "t1", "text": "C'est" },
-        { "id": "t2", "text": "le" },
-        { "id": "t3", "text": "pays" },
-        { "id": "t4", "text": "où" },
-        { "id": "t5", "text": "je" },
-        { "id": "t6", "text": "vis" }
+        {
+          "id": "t1",
+          "text": "C'est"
+        },
+        {
+          "id": "t2",
+          "text": "le"
+        },
+        {
+          "id": "t3",
+          "text": "pays"
+        },
+        {
+          "id": "t4",
+          "text": "où"
+        },
+        {
+          "id": "t5",
+          "text": "je"
+        },
+        {
+          "id": "t6",
+          "text": "vis"
+        }
       ],
-      "correctOrder": ["t1", "t2", "t3", "t4", "t5", "t6"]
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ]
     },
     {
       "id": "ex-li-1",
@@ -97,11 +193,22 @@
       "audio": "audio/a2.2/unit-01-country/listen-1.mp3",
       "transcript": "La France est un pays dont la cuisine est célèbre.",
       "options": [
-        { "id": "a", "text": "Its cuisine" },
-        { "id": "b", "text": "Its mountains" },
-        { "id": "c", "text": "Its trains" }
+        {
+          "id": "a",
+          "text": "Its cuisine"
+        },
+        {
+          "id": "b",
+          "text": "Its mountains"
+        },
+        {
+          "id": "c",
+          "text": "Its trains"
+        }
       ],
-      "correct": ["a"],
+      "correct": [
+        "a"
+      ],
       "explanation": "« dont la cuisine est célèbre » = whose cuisine is famous."
     },
     {
@@ -116,22 +223,160 @@
           "id": "q1",
           "prompt": "How are the people described?",
           "options": [
-            { "id": "a", "text": "Very polite" },
-            { "id": "b", "text": "Very loud" },
-            { "id": "c", "text": "Unfriendly" }
+            {
+              "id": "a",
+              "text": "Very polite"
+            },
+            {
+              "id": "b",
+              "text": "Very loud"
+            },
+            {
+              "id": "c",
+              "text": "Unfriendly"
+            }
           ],
-          "correct": ["a"]
+          "correct": [
+            "a"
+          ]
         },
         {
           "id": "q2",
           "prompt": "What do most inhabitants like?",
           "options": [
-            { "id": "a", "text": "Tea" },
-            { "id": "b", "text": "Coffee" },
-            { "id": "c", "text": "Wine" }
+            {
+              "id": "a",
+              "text": "Tea"
+            },
+            {
+              "id": "b",
+              "text": "Coffee"
+            },
+            {
+              "id": "c",
+              "text": "Wine"
+            }
           ],
-          "correct": ["a"]
+          "correct": [
+            "a"
+          ]
         }
+      ]
+    },
+    {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « le pays » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "country"
+        },
+        {
+          "id": "b",
+          "text": "inhabitants / people"
+        },
+        {
+          "id": "c",
+          "text": "culture"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "le pays = country."
+    },
+    {
+      "id": "ex-mc-pool-2",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Which French word means « inhabitants / people »?",
+      "options": [
+        {
+          "id": "a",
+          "text": "les habitants"
+        },
+        {
+          "id": "b",
+          "text": "le pays"
+        },
+        {
+          "id": "c",
+          "text": "la culture"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "« inhabitants / people » = les habitants."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "la plupart",
+          "right": "most"
+        },
+        {
+          "id": "p2",
+          "left": "le pourcentage",
+          "right": "percentage"
+        },
+        {
+          "id": "p3",
+          "left": "accueillant",
+          "right": "welcoming"
+        },
+        {
+          "id": "p4",
+          "left": "célèbre",
+          "right": "famous"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “Most of the inhabitants are welcoming.”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "La"
+        },
+        {
+          "id": "t2",
+          "text": "plupart"
+        },
+        {
+          "id": "t3",
+          "text": "des"
+        },
+        {
+          "id": "t4",
+          "text": "habitants"
+        },
+        {
+          "id": "t5",
+          "text": "sont"
+        },
+        {
+          "id": "t6",
+          "text": "accueillants"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
       ]
     },
     {

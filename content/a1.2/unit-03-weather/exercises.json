@@ -230,6 +230,107 @@
       "explanation": "Cold + snow → l'hiver (winter)."
     },
     {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « le temps » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "weather"
+        },
+        {
+          "id": "b",
+          "text": "it's nice / sunny"
+        },
+        {
+          "id": "c",
+          "text": "the weather's bad"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "le temps = weather."
+    },
+    {
+      "id": "ex-mc-pool-2",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Which French word means « it's nice / sunny »?",
+      "options": [
+        {
+          "id": "a",
+          "text": "il fait beau"
+        },
+        {
+          "id": "b",
+          "text": "le temps"
+        },
+        {
+          "id": "c",
+          "text": "il fait mauvais"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "« it's nice / sunny » = il fait beau."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "il fait froid",
+          "right": "it's cold"
+        },
+        {
+          "id": "p2",
+          "left": "il pleut",
+          "right": "it's raining"
+        },
+        {
+          "id": "p3",
+          "left": "il neige",
+          "right": "it's snowing"
+        },
+        {
+          "id": "p4",
+          "left": "le soleil",
+          "right": "the sun"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “What's the weather like?”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Quel"
+        },
+        {
+          "id": "t2",
+          "text": "temps"
+        },
+        {
+          "id": "t3",
+          "text": "fait-il"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3"
+      ]
+    },
+    {
       "id": "ex-sp-1",
       "type": "speak",
       "skill": "speaking",

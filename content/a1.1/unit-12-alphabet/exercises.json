@@ -233,6 +233,107 @@
       "explanation": "adresse is feminine → Quelle."
     },
     {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « l'alphabet » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "the alphabet"
+        },
+        {
+          "id": "b",
+          "text": "to spell"
+        },
+        {
+          "id": "c",
+          "text": "how is it spelled?"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "l'alphabet = the alphabet."
+    },
+    {
+      "id": "ex-mc-pool-2",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Which French word means « to spell »?",
+      "options": [
+        {
+          "id": "a",
+          "text": "épeler"
+        },
+        {
+          "id": "b",
+          "text": "l'alphabet"
+        },
+        {
+          "id": "c",
+          "text": "comment ça s'écrit ?"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "« to spell » = épeler."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "le prénom",
+          "right": "first name"
+        },
+        {
+          "id": "p2",
+          "left": "le numéro",
+          "right": "number"
+        },
+        {
+          "id": "p3",
+          "left": "l'e-mail",
+          "right": "email"
+        },
+        {
+          "id": "p4",
+          "left": "quel / quelle",
+          "right": "which / what"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “How is it spelled?”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Comment"
+        },
+        {
+          "id": "t2",
+          "text": "ça"
+        },
+        {
+          "id": "t3",
+          "text": "s'écrit"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3"
+      ]
+    },
+    {
       "id": "ex-sp-1",
       "type": "speak",
       "skill": "speaking",

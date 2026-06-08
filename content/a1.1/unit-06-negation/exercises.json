@@ -240,6 +240,117 @@
       "explanation": "nous ne regardons pas la télé."
     },
     {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « ne … pas » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "not"
+        },
+        {
+          "id": "b",
+          "text": "to hate / to really dislike"
+        },
+        {
+          "id": "c",
+          "text": "to eat"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "ne … pas = not."
+    },
+    {
+      "id": "ex-mc-pool-2",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Which French word means « to hate / to really dislike »?",
+      "options": [
+        {
+          "id": "a",
+          "text": "détester"
+        },
+        {
+          "id": "b",
+          "text": "ne … pas"
+        },
+        {
+          "id": "c",
+          "text": "manger"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "« to hate / to really dislike » = détester."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "le café",
+          "right": "coffee"
+        },
+        {
+          "id": "p2",
+          "left": "le thé",
+          "right": "tea"
+        },
+        {
+          "id": "p3",
+          "left": "les légumes",
+          "right": "vegetables"
+        },
+        {
+          "id": "p4",
+          "left": "le poisson",
+          "right": "fish"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “I don't like coffee.”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Je"
+        },
+        {
+          "id": "t2",
+          "text": "n'aime"
+        },
+        {
+          "id": "t3",
+          "text": "pas"
+        },
+        {
+          "id": "t4",
+          "text": "le"
+        },
+        {
+          "id": "t5",
+          "text": "café"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5"
+      ]
+    },
+    {
       "id": "ex-sp-1",
       "type": "speak",
       "skill": "speaking",

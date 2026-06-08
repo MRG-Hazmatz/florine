@@ -231,6 +231,112 @@
       ]
     },
     {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « bonjour » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "hello / good morning"
+        },
+        {
+          "id": "b",
+          "text": "good evening"
+        },
+        {
+          "id": "c",
+          "text": "hi / bye"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "bonjour = hello / good morning."
+    },
+    {
+      "id": "ex-mc-pool-2",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Which French word means « good evening »?",
+      "options": [
+        {
+          "id": "a",
+          "text": "bonsoir"
+        },
+        {
+          "id": "b",
+          "text": "bonjour"
+        },
+        {
+          "id": "c",
+          "text": "salut"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "« good evening » = bonsoir."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "merci",
+          "right": "thank you"
+        },
+        {
+          "id": "p2",
+          "left": "s'il vous plaît",
+          "right": "please"
+        },
+        {
+          "id": "p3",
+          "left": "oui",
+          "right": "yes"
+        },
+        {
+          "id": "p4",
+          "left": "non",
+          "right": "no"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “Hello, my name is Claire.”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Bonjour,"
+        },
+        {
+          "id": "t2",
+          "text": "je"
+        },
+        {
+          "id": "t3",
+          "text": "m'appelle"
+        },
+        {
+          "id": "t4",
+          "text": "Claire"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4"
+      ]
+    },
+    {
       "id": "ex-sp-1",
       "type": "speak",
       "skill": "speaking",

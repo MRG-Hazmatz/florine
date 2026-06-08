@@ -232,6 +232,117 @@
       "explanation": "Before an article + noun (un ami), French uses « C'est », not « Il est »."
     },
     {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « grand » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "tall / big"
+        },
+        {
+          "id": "b",
+          "text": "small / short"
+        },
+        {
+          "id": "c",
+          "text": "young"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "grand = tall / big."
+    },
+    {
+      "id": "ex-mc-pool-2",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Which French word means « small / short »?",
+      "options": [
+        {
+          "id": "a",
+          "text": "petit"
+        },
+        {
+          "id": "b",
+          "text": "grand"
+        },
+        {
+          "id": "c",
+          "text": "jeune"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "« small / short » = petit."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "sympa",
+          "right": "nice / friendly"
+        },
+        {
+          "id": "p2",
+          "left": "gentil",
+          "right": "kind"
+        },
+        {
+          "id": "p3",
+          "left": "intelligent",
+          "right": "intelligent"
+        },
+        {
+          "id": "p4",
+          "left": "timide",
+          "right": "shy"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “She is tall and friendly.”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Elle"
+        },
+        {
+          "id": "t2",
+          "text": "est"
+        },
+        {
+          "id": "t3",
+          "text": "grande"
+        },
+        {
+          "id": "t4",
+          "text": "et"
+        },
+        {
+          "id": "t5",
+          "text": "sympa"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5"
+      ]
+    },
+    {
       "id": "ex-sp-1",
       "type": "speak",
       "skill": "speaking",

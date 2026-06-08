@@ -227,6 +227,117 @@
       "explanation": "tu tournes -> imperative « Tourne ! » (no final -s for -er verbs)."
     },
     {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « tourner » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "to turn"
+        },
+        {
+          "id": "b",
+          "text": "to continue / keep going"
+        },
+        {
+          "id": "c",
+          "text": "to cross"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "tourner = to turn."
+    },
+    {
+      "id": "ex-mc-pool-2",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Which French word means « to continue / keep going »?",
+      "options": [
+        {
+          "id": "a",
+          "text": "continuer"
+        },
+        {
+          "id": "b",
+          "text": "tourner"
+        },
+        {
+          "id": "c",
+          "text": "traverser"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "« to continue / keep going » = continuer."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "à droite",
+          "right": "right"
+        },
+        {
+          "id": "p2",
+          "left": "à gauche",
+          "right": "left"
+        },
+        {
+          "id": "p3",
+          "left": "tout droit",
+          "right": "straight ahead"
+        },
+        {
+          "id": "p4",
+          "left": "le pont",
+          "right": "bridge"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “Excuse me, where is the station?”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Pardon,"
+        },
+        {
+          "id": "t2",
+          "text": "où"
+        },
+        {
+          "id": "t3",
+          "text": "est"
+        },
+        {
+          "id": "t4",
+          "text": "la"
+        },
+        {
+          "id": "t5",
+          "text": "gare"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5"
+      ]
+    },
+    {
       "id": "ex-sp-1",
       "type": "speak",
       "skill": "speaking",

@@ -231,6 +231,112 @@
       "explanation": "An ongoing past habit → imparfait (habitais). 'ai habité' would mark a finished, one-time stay."
     },
     {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « l'appartement » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "flat / apartment"
+        },
+        {
+          "id": "b",
+          "text": "apartment building"
+        },
+        {
+          "id": "c",
+          "text": "room"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "l'appartement = flat / apartment."
+    },
+    {
+      "id": "ex-mc-pool-2",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Which French word means « apartment building »?",
+      "options": [
+        {
+          "id": "a",
+          "text": "l'immeuble"
+        },
+        {
+          "id": "b",
+          "text": "l'appartement"
+        },
+        {
+          "id": "c",
+          "text": "la pièce"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "« apartment building » = l'immeuble."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "la chambre",
+          "right": "bedroom"
+        },
+        {
+          "id": "p2",
+          "left": "le salon",
+          "right": "living room"
+        },
+        {
+          "id": "p3",
+          "left": "la salle de bains",
+          "right": "bathroom"
+        },
+        {
+          "id": "p4",
+          "left": "le jardin",
+          "right": "garden"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “Before, I used to live in Paris.”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Avant,"
+        },
+        {
+          "id": "t2",
+          "text": "j'habitais"
+        },
+        {
+          "id": "t3",
+          "text": "à"
+        },
+        {
+          "id": "t4",
+          "text": "Paris"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4"
+      ]
+    },
+    {
       "id": "ex-sp-1",
       "type": "speak",
       "skill": "speaking",

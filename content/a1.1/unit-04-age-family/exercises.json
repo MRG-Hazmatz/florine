@@ -227,6 +227,107 @@
       "explanation": "il a cinq ans (avoir for age)."
     },
     {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « avoir » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "to have"
+        },
+        {
+          "id": "b",
+          "text": "age"
+        },
+        {
+          "id": "c",
+          "text": "year"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "avoir = to have."
+    },
+    {
+      "id": "ex-mc-pool-2",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Which French word means « age »?",
+      "options": [
+        {
+          "id": "a",
+          "text": "l'âge"
+        },
+        {
+          "id": "b",
+          "text": "avoir"
+        },
+        {
+          "id": "c",
+          "text": "un an / ans"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "« age » = l'âge."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "le père",
+          "right": "father"
+        },
+        {
+          "id": "p2",
+          "left": "la mère",
+          "right": "mother"
+        },
+        {
+          "id": "p3",
+          "left": "les parents",
+          "right": "parents"
+        },
+        {
+          "id": "p4",
+          "left": "le frère",
+          "right": "brother"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “I am ten years old.”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "J'ai"
+        },
+        {
+          "id": "t2",
+          "text": "dix"
+        },
+        {
+          "id": "t3",
+          "text": "ans"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3"
+      ]
+    },
+    {
       "id": "ex-sp-1",
       "type": "speak",
       "skill": "speaking",

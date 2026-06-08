@@ -242,6 +242,122 @@
       "explanation": "plus grande que = bigger than."
     },
     {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « voyager » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "to travel"
+        },
+        {
+          "id": "b",
+          "text": "trip / journey"
+        },
+        {
+          "id": "c",
+          "text": "country"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "voyager = to travel."
+    },
+    {
+      "id": "ex-mc-pool-2",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Which French word means « trip / journey »?",
+      "options": [
+        {
+          "id": "a",
+          "text": "le voyage"
+        },
+        {
+          "id": "b",
+          "text": "voyager"
+        },
+        {
+          "id": "c",
+          "text": "le pays"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "« trip / journey » = le voyage."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "le train",
+          "right": "train"
+        },
+        {
+          "id": "p2",
+          "left": "l'avion",
+          "right": "plane"
+        },
+        {
+          "id": "p3",
+          "left": "le billet",
+          "right": "ticket"
+        },
+        {
+          "id": "p4",
+          "left": "cher",
+          "right": "expensive"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “Paris is bigger than Lyon.”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Paris"
+        },
+        {
+          "id": "t2",
+          "text": "est"
+        },
+        {
+          "id": "t3",
+          "text": "plus"
+        },
+        {
+          "id": "t4",
+          "text": "grand"
+        },
+        {
+          "id": "t5",
+          "text": "que"
+        },
+        {
+          "id": "t6",
+          "text": "Lyon"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ]
+    },
+    {
       "id": "ex-sp-1",
       "type": "speak",
       "skill": "speaking",

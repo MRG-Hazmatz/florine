@@ -236,6 +236,122 @@
       "explanation": "Next word is the subject 'je' → object relative que."
     },
     {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « le caractère » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "character / personality"
+        },
+        {
+          "id": "b",
+          "text": "good quality / strength"
+        },
+        {
+          "id": "c",
+          "text": "fault / flaw"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "le caractère = character / personality."
+    },
+    {
+      "id": "ex-mc-pool-2",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Which French word means « good quality / strength »?",
+      "options": [
+        {
+          "id": "a",
+          "text": "la qualité"
+        },
+        {
+          "id": "b",
+          "text": "le caractère"
+        },
+        {
+          "id": "c",
+          "text": "le défaut"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "« good quality / strength » = la qualité."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "égoïste",
+          "right": "selfish"
+        },
+        {
+          "id": "p2",
+          "left": "patient",
+          "right": "patient"
+        },
+        {
+          "id": "p3",
+          "left": "tolérant",
+          "right": "tolerant"
+        },
+        {
+          "id": "p4",
+          "left": "autoritaire",
+          "right": "bossy / authoritarian"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “She's a friend who always listens to me.”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "C'est"
+        },
+        {
+          "id": "t2",
+          "text": "une"
+        },
+        {
+          "id": "t3",
+          "text": "amie"
+        },
+        {
+          "id": "t4",
+          "text": "qui"
+        },
+        {
+          "id": "t5",
+          "text": "m'écoute"
+        },
+        {
+          "id": "t6",
+          "text": "toujours"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ]
+    },
+    {
       "id": "ex-sp-1",
       "type": "speak",
       "skill": "speaking",

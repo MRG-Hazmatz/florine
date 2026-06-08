@@ -226,6 +226,122 @@
       "explanation": "en replaces de/des + noun: « j'en ai » = I have some."
     },
     {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « les courses » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "the shopping"
+        },
+        {
+          "id": "b",
+          "text": "market"
+        },
+        {
+          "id": "c",
+          "text": "apple"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "les courses = the shopping."
+    },
+    {
+      "id": "ex-mc-pool-2",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Which French word means « market »?",
+      "options": [
+        {
+          "id": "a",
+          "text": "le marché"
+        },
+        {
+          "id": "b",
+          "text": "les courses"
+        },
+        {
+          "id": "c",
+          "text": "la pomme"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "« market » = le marché."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "un peu de",
+          "right": "a little / a bit of"
+        },
+        {
+          "id": "p2",
+          "left": "assez de",
+          "right": "enough"
+        },
+        {
+          "id": "p3",
+          "left": "trop de",
+          "right": "too much / too many"
+        },
+        {
+          "id": "p4",
+          "left": "un kilo de",
+          "right": "a kilo of"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “I'd like a kilo of apples.”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Je"
+        },
+        {
+          "id": "t2",
+          "text": "voudrais"
+        },
+        {
+          "id": "t3",
+          "text": "un"
+        },
+        {
+          "id": "t4",
+          "text": "kilo"
+        },
+        {
+          "id": "t5",
+          "text": "de"
+        },
+        {
+          "id": "t6",
+          "text": "pommes"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ]
+    },
+    {
       "id": "ex-sp-1",
       "type": "speak",
       "skill": "speaking",

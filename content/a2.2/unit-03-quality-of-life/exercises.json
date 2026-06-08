@@ -9,11 +9,22 @@
       "skill": "reading",
       "prompt": "What does « la plus grande ville » mean?",
       "options": [
-        { "id": "a", "text": "the biggest city" },
-        { "id": "b", "text": "a big city" },
-        { "id": "c", "text": "the smallest city" }
+        {
+          "id": "a",
+          "text": "the biggest city"
+        },
+        {
+          "id": "b",
+          "text": "a big city"
+        },
+        {
+          "id": "c",
+          "text": "the smallest city"
+        }
       ],
-      "correct": ["a"],
+      "correct": [
+        "a"
+      ],
       "explanation": "le/la plus + adjective = the most… → la plus grande = the biggest."
     },
     {
@@ -22,11 +33,22 @@
       "skill": "writing",
       "prompt": "What is the superlative of « bon » (good)?",
       "options": [
-        { "id": "a", "text": "le meilleur" },
-        { "id": "b", "text": "le plus bon" },
-        { "id": "c", "text": "le plus bien" }
+        {
+          "id": "a",
+          "text": "le meilleur"
+        },
+        {
+          "id": "b",
+          "text": "le plus bon"
+        },
+        {
+          "id": "c",
+          "text": "le plus bien"
+        }
       ],
-      "correct": ["a"],
+      "correct": [
+        "a"
+      ],
       "explanation": "bon is irregular: le meilleur (the best), never « le plus bon »."
     },
     {
@@ -35,11 +57,22 @@
       "skill": "reading",
       "prompt": "What does « la qualité de vie » mean?",
       "options": [
-        { "id": "a", "text": "quality of life" },
-        { "id": "b", "text": "cost of living" },
-        { "id": "c", "text": "way of speaking" }
+        {
+          "id": "a",
+          "text": "quality of life"
+        },
+        {
+          "id": "b",
+          "text": "cost of living"
+        },
+        {
+          "id": "c",
+          "text": "way of speaking"
+        }
       ],
-      "correct": ["a"],
+      "correct": [
+        "a"
+      ],
       "explanation": "la qualité de vie = quality of life."
     },
     {
@@ -49,7 +82,18 @@
       "prompt": "Highlight the SUBJECT (what is important).",
       "inputMode": "dropdown",
       "template": "{{b1}} est important, c'est la santé.",
-      "blanks": [{ "id": "b1", "accept": ["Ce qui"], "options": ["Ce qui", "Ce que"] }],
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "Ce qui"
+          ],
+          "options": [
+            "Ce qui",
+            "Ce que"
+          ]
+        }
+      ],
       "explanation": "Before the verb (est) → subject → Ce qui."
     },
     {
@@ -59,7 +103,18 @@
       "prompt": "Highlight the OBJECT (what I prefer).",
       "inputMode": "dropdown",
       "template": "{{b1}} je préfère, c'est le calme.",
-      "blanks": [{ "id": "b1", "accept": ["Ce que"], "options": ["Ce que", "Ce qui"] }],
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "Ce que"
+          ],
+          "options": [
+            "Ce que",
+            "Ce qui"
+          ]
+        }
+      ],
       "explanation": "Followed by a subject (je) → object → Ce que."
     },
     {
@@ -68,10 +123,26 @@
       "skill": "reading",
       "prompt": "Match each word to its English meaning.",
       "pairs": [
-        { "id": "p1", "left": "la sécurité", "right": "safety" },
-        { "id": "p2", "left": "les transports", "right": "transport" },
-        { "id": "p3", "left": "agréable", "right": "pleasant" },
-        { "id": "p4", "left": "le coût", "right": "cost" }
+        {
+          "id": "p1",
+          "left": "la sécurité",
+          "right": "safety"
+        },
+        {
+          "id": "p2",
+          "left": "les transports",
+          "right": "transport"
+        },
+        {
+          "id": "p3",
+          "left": "agréable",
+          "right": "pleasant"
+        },
+        {
+          "id": "p4",
+          "left": "le coût",
+          "right": "cost"
+        }
       ]
     },
     {
@@ -80,13 +151,34 @@
       "skill": "writing",
       "prompt": "Put the words in order: \"It's the biggest city.\"",
       "tokens": [
-        { "id": "t1", "text": "C'est" },
-        { "id": "t2", "text": "la" },
-        { "id": "t3", "text": "plus" },
-        { "id": "t4", "text": "grande" },
-        { "id": "t5", "text": "ville" }
+        {
+          "id": "t1",
+          "text": "C'est"
+        },
+        {
+          "id": "t2",
+          "text": "la"
+        },
+        {
+          "id": "t3",
+          "text": "plus"
+        },
+        {
+          "id": "t4",
+          "text": "grande"
+        },
+        {
+          "id": "t5",
+          "text": "ville"
+        }
       ],
-      "correctOrder": ["t1", "t2", "t3", "t4", "t5"]
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5"
+      ]
     },
     {
       "id": "ex-li-1",
@@ -96,11 +188,22 @@
       "audio": "audio/a2.2/unit-03-quality-of-life/listen-1.mp3",
       "transcript": "Ce que j'aime ici, c'est le calme.",
       "options": [
-        { "id": "a", "text": "The calm / quiet" },
-        { "id": "b", "text": "The nightlife" },
-        { "id": "c", "text": "The shops" }
+        {
+          "id": "a",
+          "text": "The calm / quiet"
+        },
+        {
+          "id": "b",
+          "text": "The nightlife"
+        },
+        {
+          "id": "c",
+          "text": "The shops"
+        }
       ],
-      "correct": ["a"],
+      "correct": [
+        "a"
+      ],
       "explanation": "« Ce que j'aime, c'est le calme » = what I like is the calm."
     },
     {
@@ -115,22 +218,160 @@
           "id": "q1",
           "prompt": "Which is the biggest city in France?",
           "options": [
-            { "id": "a", "text": "Paris" },
-            { "id": "b", "text": "Lyon" },
-            { "id": "c", "text": "Nice" }
+            {
+              "id": "a",
+              "text": "Paris"
+            },
+            {
+              "id": "b",
+              "text": "Lyon"
+            },
+            {
+              "id": "c",
+              "text": "Nice"
+            }
           ],
-          "correct": ["a"]
+          "correct": [
+            "a"
+          ]
         },
         {
           "id": "q2",
           "prompt": "What is pleasant about Lyon?",
           "options": [
-            { "id": "a", "text": "The quality of life" },
-            { "id": "b", "text": "The cost" },
-            { "id": "c", "text": "The noise" }
+            {
+              "id": "a",
+              "text": "The quality of life"
+            },
+            {
+              "id": "b",
+              "text": "The cost"
+            },
+            {
+              "id": "c",
+              "text": "The noise"
+            }
           ],
-          "correct": ["a"]
+          "correct": [
+            "a"
+          ]
         }
+      ]
+    },
+    {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « la qualité de vie » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "quality of life"
+        },
+        {
+          "id": "b",
+          "text": "safety / security"
+        },
+        {
+          "id": "c",
+          "text": "transport"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "la qualité de vie = quality of life."
+    },
+    {
+      "id": "ex-mc-pool-2",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Which French word means « safety / security »?",
+      "options": [
+        {
+          "id": "a",
+          "text": "la sécurité"
+        },
+        {
+          "id": "b",
+          "text": "la qualité de vie"
+        },
+        {
+          "id": "c",
+          "text": "les transports"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "« safety / security » = la sécurité."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "agréable",
+          "right": "pleasant"
+        },
+        {
+          "id": "p2",
+          "left": "pratique",
+          "right": "practical / convenient"
+        },
+        {
+          "id": "p3",
+          "left": "animé",
+          "right": "lively"
+        },
+        {
+          "id": "p4",
+          "left": "tranquille",
+          "right": "quiet / peaceful"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “It's the most pleasant city.”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "C'est"
+        },
+        {
+          "id": "t2",
+          "text": "la"
+        },
+        {
+          "id": "t3",
+          "text": "ville"
+        },
+        {
+          "id": "t4",
+          "text": "la"
+        },
+        {
+          "id": "t5",
+          "text": "plus"
+        },
+        {
+          "id": "t6",
+          "text": "agréable"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
       ]
     },
     {

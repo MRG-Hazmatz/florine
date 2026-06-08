@@ -230,6 +230,117 @@
       "explanation": "avoir in the subjunctive: que tu aies. ('tu as' is the ordinary present.)"
     },
     {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « l'entretien » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "interview"
+        },
+        {
+          "id": "b",
+          "text": "piece of advice"
+        },
+        {
+          "id": "c",
+          "text": "to advise"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "l'entretien = interview."
+    },
+    {
+      "id": "ex-mc-pool-2",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Which French word means « piece of advice »?",
+      "options": [
+        {
+          "id": "a",
+          "text": "le conseil"
+        },
+        {
+          "id": "b",
+          "text": "l'entretien"
+        },
+        {
+          "id": "c",
+          "text": "conseiller"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "« piece of advice » = le conseil."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "à l'heure",
+          "right": "on time"
+        },
+        {
+          "id": "p2",
+          "left": "en retard",
+          "right": "late"
+        },
+        {
+          "id": "p3",
+          "left": "le patron",
+          "right": "boss"
+        },
+        {
+          "id": "p4",
+          "left": "motivé",
+          "right": "motivated"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “It's important to be polite.”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Il"
+        },
+        {
+          "id": "t2",
+          "text": "est"
+        },
+        {
+          "id": "t3",
+          "text": "important"
+        },
+        {
+          "id": "t4",
+          "text": "d'être"
+        },
+        {
+          "id": "t5",
+          "text": "poli"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5"
+      ]
+    },
+    {
       "id": "ex-sp-1",
       "type": "speak",
       "skill": "speaking",

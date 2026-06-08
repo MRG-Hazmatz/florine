@@ -230,6 +230,117 @@
       "explanation": "A point in time → il y a un mois (a month ago)."
     },
     {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « un emploi » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "a job"
+        },
+        {
+          "id": "b",
+          "text": "a job ad / advert"
+        },
+        {
+          "id": "c",
+          "text": "to apply"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "un emploi = a job."
+    },
+    {
+      "id": "ex-mc-pool-2",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Which French word means « a job ad / advert »?",
+      "options": [
+        {
+          "id": "a",
+          "text": "une annonce"
+        },
+        {
+          "id": "b",
+          "text": "un emploi"
+        },
+        {
+          "id": "c",
+          "text": "postuler"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "« a job ad / advert » = une annonce."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "une entreprise",
+          "right": "a company"
+        },
+        {
+          "id": "p2",
+          "left": "le poste",
+          "right": "position / job role"
+        },
+        {
+          "id": "p3",
+          "left": "l'expérience",
+          "right": "experience"
+        },
+        {
+          "id": "p4",
+          "left": "une compétence",
+          "right": "a skill"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “I saw an interesting ad.”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "J'ai"
+        },
+        {
+          "id": "t2",
+          "text": "vu"
+        },
+        {
+          "id": "t3",
+          "text": "une"
+        },
+        {
+          "id": "t4",
+          "text": "annonce"
+        },
+        {
+          "id": "t5",
+          "text": "intéressante"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5"
+      ]
+    },
+    {
       "id": "ex-sp-1",
       "type": "speak",
       "skill": "speaking",

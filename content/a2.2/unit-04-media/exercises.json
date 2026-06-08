@@ -9,11 +9,22 @@
       "skill": "reading",
       "prompt": "« Si on allait au cinéma ? » is a way to…",
       "options": [
-        { "id": "a", "text": "make a suggestion" },
-        { "id": "b", "text": "talk about the past" },
-        { "id": "c", "text": "give an order" }
+        {
+          "id": "a",
+          "text": "make a suggestion"
+        },
+        {
+          "id": "b",
+          "text": "talk about the past"
+        },
+        {
+          "id": "c",
+          "text": "give an order"
+        }
       ],
-      "correct": ["a"],
+      "correct": [
+        "a"
+      ],
       "explanation": "si + imparfait floats a suggestion: « Si on allait…? » = How about going…?"
     },
     {
@@ -22,11 +33,22 @@
       "skill": "reading",
       "prompt": "What does « Je ne vois personne » mean?",
       "options": [
-        { "id": "a", "text": "I don't see anybody" },
-        { "id": "b", "text": "I see someone" },
-        { "id": "c", "text": "I see something" }
+        {
+          "id": "a",
+          "text": "I don't see anybody"
+        },
+        {
+          "id": "b",
+          "text": "I see someone"
+        },
+        {
+          "id": "c",
+          "text": "I see something"
+        }
       ],
-      "correct": ["a"],
+      "correct": [
+        "a"
+      ],
       "explanation": "ne… personne = nobody / not anybody."
     },
     {
@@ -35,11 +57,22 @@
       "skill": "writing",
       "prompt": "What is the negative partner of « quelque chose »?",
       "options": [
-        { "id": "a", "text": "rien" },
-        { "id": "b", "text": "personne" },
-        { "id": "c", "text": "quelqu'un" }
+        {
+          "id": "a",
+          "text": "rien"
+        },
+        {
+          "id": "b",
+          "text": "personne"
+        },
+        {
+          "id": "c",
+          "text": "quelqu'un"
+        }
       ],
-      "correct": ["a"],
+      "correct": [
+        "a"
+      ],
       "explanation": "quelque chose (something) ↔ rien (nothing)."
     },
     {
@@ -49,7 +82,18 @@
       "prompt": "Make a suggestion: si + imparfait of regarder.",
       "inputMode": "dropdown",
       "template": "Si on {{b1}} un film ?",
-      "blanks": [{ "id": "b1", "accept": ["regardait"], "options": ["regardait", "regarde"] }],
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "regardait"
+          ],
+          "options": [
+            "regardait",
+            "regarde"
+          ]
+        }
+      ],
       "explanation": "Suggestion = si + imparfait: « Si on regardait…? »"
     },
     {
@@ -59,7 +103,18 @@
       "prompt": "Complete with the word for 'nobody'.",
       "inputMode": "dropdown",
       "template": "Il n'y a {{b1}} dans la rue.",
-      "blanks": [{ "id": "b1", "accept": ["personne"], "options": ["personne", "rien"] }],
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "personne"
+          ],
+          "options": [
+            "personne",
+            "rien"
+          ]
+        }
+      ],
       "explanation": "ne… personne = nobody: « il n'y a personne »."
     },
     {
@@ -68,10 +123,26 @@
       "skill": "reading",
       "prompt": "Match each word to its English meaning.",
       "pairs": [
-        { "id": "p1", "left": "un blog", "right": "a blog" },
-        { "id": "p2", "left": "publier", "right": "to post" },
-        { "id": "p3", "left": "un commentaire", "right": "a comment" },
-        { "id": "p4", "left": "réagir", "right": "to react" }
+        {
+          "id": "p1",
+          "left": "un blog",
+          "right": "a blog"
+        },
+        {
+          "id": "p2",
+          "left": "publier",
+          "right": "to post"
+        },
+        {
+          "id": "p3",
+          "left": "un commentaire",
+          "right": "a comment"
+        },
+        {
+          "id": "p4",
+          "left": "réagir",
+          "right": "to react"
+        }
       ]
     },
     {
@@ -80,12 +151,29 @@
       "skill": "writing",
       "prompt": "Put the words in order: \"I posted a comment.\"",
       "tokens": [
-        { "id": "t1", "text": "J'ai" },
-        { "id": "t2", "text": "publié" },
-        { "id": "t3", "text": "un" },
-        { "id": "t4", "text": "commentaire" }
+        {
+          "id": "t1",
+          "text": "J'ai"
+        },
+        {
+          "id": "t2",
+          "text": "publié"
+        },
+        {
+          "id": "t3",
+          "text": "un"
+        },
+        {
+          "id": "t4",
+          "text": "commentaire"
+        }
       ],
-      "correctOrder": ["t1", "t2", "t3", "t4"]
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4"
+      ]
     },
     {
       "id": "ex-li-1",
@@ -95,11 +183,22 @@
       "audio": "audio/a2.2/unit-04-media/listen-1.mp3",
       "transcript": "Si on écrivait un article ensemble ?",
       "options": [
-        { "id": "a", "text": "Writing an article together" },
-        { "id": "b", "text": "Deleting a blog" },
-        { "id": "c", "text": "Buying a phone" }
+        {
+          "id": "a",
+          "text": "Writing an article together"
+        },
+        {
+          "id": "b",
+          "text": "Deleting a blog"
+        },
+        {
+          "id": "c",
+          "text": "Buying a phone"
+        }
       ],
-      "correct": ["a"],
+      "correct": [
+        "a"
+      ],
       "explanation": "« Si on écrivait…? » = How about writing…?"
     },
     {
@@ -114,22 +213,155 @@
           "id": "q1",
           "prompt": "What did the speaker do yesterday?",
           "options": [
-            { "id": "a", "text": "Read an article and posted a comment" },
-            { "id": "b", "text": "Deleted their blog" },
-            { "id": "c", "text": "Bought a new phone" }
+            {
+              "id": "a",
+              "text": "Read an article and posted a comment"
+            },
+            {
+              "id": "b",
+              "text": "Deleted their blog"
+            },
+            {
+              "id": "c",
+              "text": "Bought a new phone"
+            }
           ],
-          "correct": ["a"]
+          "correct": [
+            "a"
+          ]
         },
         {
           "id": "q2",
           "prompt": "What does the speaker suggest?",
           "options": [
-            { "id": "a", "text": "Creating a blog together" },
-            { "id": "b", "text": "Stopping blogging" },
-            { "id": "c", "text": "Meeting in person" }
+            {
+              "id": "a",
+              "text": "Creating a blog together"
+            },
+            {
+              "id": "b",
+              "text": "Stopping blogging"
+            },
+            {
+              "id": "c",
+              "text": "Meeting in person"
+            }
           ],
-          "correct": ["a"]
+          "correct": [
+            "a"
+          ]
         }
+      ]
+    },
+    {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « un blog » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "a blog"
+        },
+        {
+          "id": "b",
+          "text": "an article"
+        },
+        {
+          "id": "c",
+          "text": "the internet"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "un blog = a blog."
+    },
+    {
+      "id": "ex-mc-pool-2",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Which French word means « an article »?",
+      "options": [
+        {
+          "id": "a",
+          "text": "un article"
+        },
+        {
+          "id": "b",
+          "text": "un blog"
+        },
+        {
+          "id": "c",
+          "text": "internet"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "« an article » = un article."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "publier",
+          "right": "to post / publish"
+        },
+        {
+          "id": "p2",
+          "left": "un commentaire",
+          "right": "a comment"
+        },
+        {
+          "id": "p3",
+          "left": "réagir",
+          "right": "to react"
+        },
+        {
+          "id": "p4",
+          "left": "quelqu'un",
+          "right": "someone"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “I don't see anything interesting.”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Je"
+        },
+        {
+          "id": "t2",
+          "text": "ne"
+        },
+        {
+          "id": "t3",
+          "text": "vois"
+        },
+        {
+          "id": "t4",
+          "text": "rien"
+        },
+        {
+          "id": "t5",
+          "text": "d'intéressant"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5"
       ]
     },
     {

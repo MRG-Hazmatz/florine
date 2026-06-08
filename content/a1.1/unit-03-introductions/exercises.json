@@ -242,6 +242,112 @@
       ]
     },
     {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « être » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "to be"
+        },
+        {
+          "id": "b",
+          "text": "to be called"
+        },
+        {
+          "id": "c",
+          "text": "how"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "être = to be."
+    },
+    {
+      "id": "ex-mc-pool-2",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Which French word means « to be called »?",
+      "options": [
+        {
+          "id": "a",
+          "text": "s'appeler"
+        },
+        {
+          "id": "b",
+          "text": "être"
+        },
+        {
+          "id": "c",
+          "text": "comment"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "« to be called » = s'appeler."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "français",
+          "right": "French"
+        },
+        {
+          "id": "p2",
+          "left": "anglais",
+          "right": "English"
+        },
+        {
+          "id": "p3",
+          "left": "indien",
+          "right": "Indian"
+        },
+        {
+          "id": "p4",
+          "left": "espagnol",
+          "right": "Spanish"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “Are you French, sir?”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Vous"
+        },
+        {
+          "id": "t2",
+          "text": "êtes"
+        },
+        {
+          "id": "t3",
+          "text": "français,"
+        },
+        {
+          "id": "t4",
+          "text": "monsieur"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4"
+      ]
+    },
+    {
       "id": "ex-sp-1",
       "type": "speak",
       "skill": "speaking",

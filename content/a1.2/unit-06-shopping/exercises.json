@@ -226,6 +226,122 @@
       "explanation": "Plural object → les: « je les adore »."
     },
     {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « le vêtement » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "garment / item of clothing"
+        },
+        {
+          "id": "b",
+          "text": "dress"
+        },
+        {
+          "id": "c",
+          "text": "trousers / pants"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "le vêtement = garment / item of clothing."
+    },
+    {
+      "id": "ex-mc-pool-2",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Which French word means « dress »?",
+      "options": [
+        {
+          "id": "a",
+          "text": "la robe"
+        },
+        {
+          "id": "b",
+          "text": "le vêtement"
+        },
+        {
+          "id": "c",
+          "text": "le pantalon"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "« dress » = la robe."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "les chaussures",
+          "right": "shoes"
+        },
+        {
+          "id": "p2",
+          "left": "le manteau",
+          "right": "coat"
+        },
+        {
+          "id": "p3",
+          "left": "porter",
+          "right": "to wear"
+        },
+        {
+          "id": "p4",
+          "left": "essayer",
+          "right": "to try on"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “I like this dress. I'll take it.”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "J'aime"
+        },
+        {
+          "id": "t2",
+          "text": "cette"
+        },
+        {
+          "id": "t3",
+          "text": "robe."
+        },
+        {
+          "id": "t4",
+          "text": "Je"
+        },
+        {
+          "id": "t5",
+          "text": "la"
+        },
+        {
+          "id": "t6",
+          "text": "prends"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ]
+    },
+    {
       "id": "ex-sp-1",
       "type": "speak",
       "skill": "speaking",

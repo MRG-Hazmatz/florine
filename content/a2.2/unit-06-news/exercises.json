@@ -9,11 +9,22 @@
       "skill": "reading",
       "prompt": "« Le voleur a été arrêté » is in the…",
       "options": [
-        { "id": "a", "text": "passive voice" },
-        { "id": "b", "text": "imperative" },
-        { "id": "c", "text": "near future" }
+        {
+          "id": "a",
+          "text": "passive voice"
+        },
+        {
+          "id": "b",
+          "text": "imperative"
+        },
+        {
+          "id": "c",
+          "text": "near future"
+        }
       ],
-      "correct": ["a"],
+      "correct": [
+        "a"
+      ],
       "explanation": "Passive = subject + être + past participle: a été arrêté (was arrested)."
     },
     {
@@ -22,11 +33,22 @@
       "skill": "writing",
       "prompt": "The passive is built with être + …",
       "options": [
-        { "id": "a", "text": "the past participle" },
-        { "id": "b", "text": "the infinitive" },
-        { "id": "c", "text": "the present tense" }
+        {
+          "id": "a",
+          "text": "the past participle"
+        },
+        {
+          "id": "b",
+          "text": "the infinitive"
+        },
+        {
+          "id": "c",
+          "text": "the present tense"
+        }
       ],
-      "correct": ["a"],
+      "correct": [
+        "a"
+      ],
       "explanation": "être (in the right tense) + past participle: il a été arrêté, elle a été vue."
     },
     {
@@ -35,11 +57,22 @@
       "skill": "writing",
       "prompt": "Agree the participle: « La voiture a été ___ » (voler)",
       "options": [
-        { "id": "a", "text": "volée" },
-        { "id": "b", "text": "volé" },
-        { "id": "c", "text": "voler" }
+        {
+          "id": "a",
+          "text": "volée"
+        },
+        {
+          "id": "b",
+          "text": "volé"
+        },
+        {
+          "id": "c",
+          "text": "voler"
+        }
       ],
-      "correct": ["a"],
+      "correct": [
+        "a"
+      ],
       "explanation": "In the passive the participle agrees with the subject: la voiture → volée (feminine)."
     },
     {
@@ -49,7 +82,18 @@
       "prompt": "Make it passive (the castle WAS built in 1500).",
       "inputMode": "dropdown",
       "template": "Le château {{b1}} construit en 1500.",
-      "blanks": [{ "id": "b1", "accept": ["a été"], "options": ["a été", "a"] }],
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "a été"
+          ],
+          "options": [
+            "a été",
+            "a"
+          ]
+        }
+      ],
       "explanation": "Passive: a été construit (was built). 'a construit' would mean it built something."
     },
     {
@@ -59,7 +103,18 @@
       "prompt": "Agree the participle with 'la lettre' (preceding object).",
       "inputMode": "dropdown",
       "template": "Voici la lettre que j'ai {{b1}}.",
-      "blanks": [{ "id": "b1", "accept": ["écrite"], "options": ["écrite", "écrit"] }],
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "écrite"
+          ],
+          "options": [
+            "écrite",
+            "écrit"
+          ]
+        }
+      ],
       "explanation": "The object (la lettre, fem) comes before via que → the participle agrees: écrite."
     },
     {
@@ -68,10 +123,26 @@
       "skill": "reading",
       "prompt": "Match each word to its English meaning.",
       "pairs": [
-        { "id": "p1", "left": "un voleur", "right": "thief" },
-        { "id": "p2", "left": "la police", "right": "police" },
-        { "id": "p3", "left": "un témoin", "right": "witness" },
-        { "id": "p4", "left": "un accident", "right": "accident" }
+        {
+          "id": "p1",
+          "left": "un voleur",
+          "right": "thief"
+        },
+        {
+          "id": "p2",
+          "left": "la police",
+          "right": "police"
+        },
+        {
+          "id": "p3",
+          "left": "un témoin",
+          "right": "witness"
+        },
+        {
+          "id": "p4",
+          "left": "un accident",
+          "right": "accident"
+        }
       ]
     },
     {
@@ -80,13 +151,34 @@
       "skill": "writing",
       "prompt": "Put the words in order: \"The thief was arrested.\"",
       "tokens": [
-        { "id": "t1", "text": "Le" },
-        { "id": "t2", "text": "voleur" },
-        { "id": "t3", "text": "a" },
-        { "id": "t4", "text": "été" },
-        { "id": "t5", "text": "arrêté" }
+        {
+          "id": "t1",
+          "text": "Le"
+        },
+        {
+          "id": "t2",
+          "text": "voleur"
+        },
+        {
+          "id": "t3",
+          "text": "a"
+        },
+        {
+          "id": "t4",
+          "text": "été"
+        },
+        {
+          "id": "t5",
+          "text": "arrêté"
+        }
       ],
-      "correctOrder": ["t1", "t2", "t3", "t4", "t5"]
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5"
+      ]
     },
     {
       "id": "ex-li-1",
@@ -96,11 +188,22 @@
       "audio": "audio/a2.2/unit-06-news/listen-1.mp3",
       "transcript": "Un voleur a été arrêté ce matin.",
       "options": [
-        { "id": "a", "text": "A thief was arrested" },
-        { "id": "b", "text": "A shop opened" },
-        { "id": "c", "text": "A match was cancelled" }
+        {
+          "id": "a",
+          "text": "A thief was arrested"
+        },
+        {
+          "id": "b",
+          "text": "A shop opened"
+        },
+        {
+          "id": "c",
+          "text": "A match was cancelled"
+        }
       ],
-      "correct": ["a"],
+      "correct": [
+        "a"
+      ],
       "explanation": "« Un voleur a été arrêté » = a thief was arrested (passive)."
     },
     {
@@ -115,22 +218,160 @@
           "id": "q1",
           "prompt": "What happened last night?",
           "options": [
-            { "id": "a", "text": "A car was stolen" },
-            { "id": "b", "text": "A house burned down" },
-            { "id": "c", "text": "Nothing happened" }
+            {
+              "id": "a",
+              "text": "A car was stolen"
+            },
+            {
+              "id": "b",
+              "text": "A house burned down"
+            },
+            {
+              "id": "c",
+              "text": "Nothing happened"
+            }
           ],
-          "correct": ["a"]
+          "correct": [
+            "a"
+          ]
         },
         {
           "id": "q2",
           "prompt": "What happened to the thief?",
           "options": [
-            { "id": "a", "text": "Arrested by the police" },
-            { "id": "b", "text": "Never found" },
-            { "id": "c", "text": "Given a reward" }
+            {
+              "id": "a",
+              "text": "Arrested by the police"
+            },
+            {
+              "id": "b",
+              "text": "Never found"
+            },
+            {
+              "id": "c",
+              "text": "Given a reward"
+            }
           ],
-          "correct": ["a"]
+          "correct": [
+            "a"
+          ]
         }
+      ]
+    },
+    {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « un fait divers » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "news item / news in brief"
+        },
+        {
+          "id": "b",
+          "text": "a thief"
+        },
+        {
+          "id": "c",
+          "text": "to steal"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "un fait divers = news item / news in brief."
+    },
+    {
+      "id": "ex-mc-pool-2",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Which French word means « a thief »?",
+      "options": [
+        {
+          "id": "a",
+          "text": "un voleur"
+        },
+        {
+          "id": "b",
+          "text": "un fait divers"
+        },
+        {
+          "id": "c",
+          "text": "voler"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "« a thief » = un voleur."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "la police",
+          "right": "police"
+        },
+        {
+          "id": "p2",
+          "left": "arrêter",
+          "right": "to arrest / stop"
+        },
+        {
+          "id": "p3",
+          "left": "un témoin",
+          "right": "a witness"
+        },
+        {
+          "id": "p4",
+          "left": "la victime",
+          "right": "victim"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “The car was stolen yesterday.”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "La"
+        },
+        {
+          "id": "t2",
+          "text": "voiture"
+        },
+        {
+          "id": "t3",
+          "text": "a"
+        },
+        {
+          "id": "t4",
+          "text": "été"
+        },
+        {
+          "id": "t5",
+          "text": "volée"
+        },
+        {
+          "id": "t6",
+          "text": "hier"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
       ]
     },
     {

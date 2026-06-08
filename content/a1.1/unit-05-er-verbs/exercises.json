@@ -232,6 +232,107 @@
       "explanation": "vous + -er verb takes -ez: vous parlez."
     },
     {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « parler » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "to speak"
+        },
+        {
+          "id": "b",
+          "text": "to live"
+        },
+        {
+          "id": "c",
+          "text": "to like / to love"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "parler = to speak."
+    },
+    {
+      "id": "ex-mc-pool-2",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Which French word means « to live »?",
+      "options": [
+        {
+          "id": "a",
+          "text": "habiter"
+        },
+        {
+          "id": "b",
+          "text": "parler"
+        },
+        {
+          "id": "c",
+          "text": "aimer"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "« to live » = habiter."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "regarder",
+          "right": "to watch / to look at"
+        },
+        {
+          "id": "p2",
+          "left": "travailler",
+          "right": "to work"
+        },
+        {
+          "id": "p3",
+          "left": "étudier",
+          "right": "to study"
+        },
+        {
+          "id": "p4",
+          "left": "jouer",
+          "right": "to play"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “I like music.”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "J'aime"
+        },
+        {
+          "id": "t2",
+          "text": "la"
+        },
+        {
+          "id": "t3",
+          "text": "musique"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3"
+      ]
+    },
+    {
       "id": "ex-sp-1",
       "type": "speak",
       "skill": "speaking",

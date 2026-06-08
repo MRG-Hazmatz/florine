@@ -226,6 +226,107 @@
       "explanation": "midi = noon (12:00 midday); minuit = midnight."
     },
     {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « l'heure » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "time / hour"
+        },
+        {
+          "id": "b",
+          "text": "to get up"
+        },
+        {
+          "id": "c",
+          "text": "to go to bed"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "l'heure = time / hour."
+    },
+    {
+      "id": "ex-mc-pool-2",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Which French word means « to get up »?",
+      "options": [
+        {
+          "id": "a",
+          "text": "se lever"
+        },
+        {
+          "id": "b",
+          "text": "l'heure"
+        },
+        {
+          "id": "c",
+          "text": "se coucher"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "« to get up » = se lever."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "le matin",
+          "right": "morning"
+        },
+        {
+          "id": "p2",
+          "left": "l'après-midi",
+          "right": "afternoon"
+        },
+        {
+          "id": "p3",
+          "left": "le soir",
+          "right": "evening"
+        },
+        {
+          "id": "p4",
+          "left": "la nuit",
+          "right": "night"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “What time is it?”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Quelle"
+        },
+        {
+          "id": "t2",
+          "text": "heure"
+        },
+        {
+          "id": "t3",
+          "text": "est-il"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3"
+      ]
+    },
+    {
       "id": "ex-sp-1",
       "type": "speak",
       "skill": "speaking",
