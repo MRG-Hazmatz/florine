@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "unitId": "a2.2/unit-01-country",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Choose the relative pronoun for a place: « la ville ___ j'habite »",
+      "options": [
+        { "id": "a", "text": "où" },
+        { "id": "b", "text": "dont" },
+        { "id": "c", "text": "que" }
+      ],
+      "correct": ["a"],
+      "explanation": "où = where (a place or a time): la ville où j'habite."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "The verb is parler DE. Choose: « le sujet ___ je parle »",
+      "options": [
+        { "id": "a", "text": "dont" },
+        { "id": "b", "text": "où" },
+        { "id": "c", "text": "qui" }
+      ],
+      "correct": ["a"],
+      "explanation": "When the phrase uses de (parler de), the relative is dont."
+    },
+    {
+      "id": "ex-mc-3",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « la plupart des gens » mean?",
+      "options": [
+        { "id": "a", "text": "most people" },
+        { "id": "b", "text": "a few people" },
+        { "id": "c", "text": "no one" }
+      ],
+      "correct": ["a"],
+      "explanation": "la plupart des + plural = most (of)."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Relative pronoun for a place (where I was born).",
+      "inputMode": "dropdown",
+      "template": "C'est la maison {{b1}} je suis né.",
+      "blanks": [{ "id": "b1", "accept": ["où"], "options": ["où", "dont"] }],
+      "explanation": "A place → où: la maison où je suis né."
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "The phrase is parler DE. Choose the relative.",
+      "inputMode": "dropdown",
+      "template": "C'est le sujet {{b1}} nous parlons.",
+      "blanks": [{ "id": "b1", "accept": ["dont"], "options": ["dont", "où"] }],
+      "explanation": "parler de → le sujet dont nous parlons."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        { "id": "p1", "left": "les habitants", "right": "inhabitants" },
+        { "id": "p2", "left": "la culture", "right": "culture" },
+        { "id": "p3", "left": "accueillant", "right": "welcoming" },
+        { "id": "p4", "left": "célèbre", "right": "famous" }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"It's the country where I live.\"",
+      "tokens": [
+        { "id": "t1", "text": "C'est" },
+        { "id": "t2", "text": "le" },
+        { "id": "t3", "text": "pays" },
+        { "id": "t4", "text": "où" },
+        { "id": "t5", "text": "je" },
+        { "id": "t6", "text": "vis" }
+      ],
+      "correctOrder": ["t1", "t2", "t3", "t4", "t5", "t6"]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then: what is famous about France here?",
+      "audio": "audio/a2.2/unit-01-country/listen-1.mp3",
+      "transcript": "La France est un pays dont la cuisine est célèbre.",
+      "options": [
+        { "id": "a", "text": "Its cuisine" },
+        { "id": "b", "text": "Its mountains" },
+        { "id": "c", "text": "Its trains" }
+      ],
+      "correct": ["a"],
+      "explanation": "« dont la cuisine est célèbre » = whose cuisine is famous."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read and answer both questions.",
+      "passageFr": "Le Japon est un pays que j'adore. C'est un pays où les gens sont très polis. La plupart des habitants aiment le thé. C'est une culture dont je veux apprendre la langue.",
+      "passageEn": "Japan is a country (that) I love. It's a country where people are very polite. Most of the inhabitants like tea. It's a culture whose language I want to learn.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "How are the people described?",
+          "options": [
+            { "id": "a", "text": "Very polite" },
+            { "id": "b", "text": "Very loud" },
+            { "id": "c", "text": "Unfriendly" }
+          ],
+          "correct": ["a"]
+        },
+        {
+          "id": "q2",
+          "prompt": "What do most inhabitants like?",
+          "options": [
+            { "id": "a", "text": "Tea" },
+            { "id": "b", "text": "Coffee" },
+            { "id": "c", "text": "Wine" }
+          ],
+          "correct": ["a"]
+        }
+      ]
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "C'est le pays où je suis né.",
+      "targetEn": "It's the country where I was born.",
+      "audio": "audio/a2.2/unit-01-country/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "La plupart des habitants sont accueillants.",
+      "targetEn": "Most of the inhabitants are welcoming.",
+      "audio": "audio/a2.2/unit-01-country/example-ex-3.mp3"
+    }
+  ]
+}

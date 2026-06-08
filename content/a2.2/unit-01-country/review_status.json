@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "unitId": "a2.2/unit-01-country",
+  "status": "pending_review",
+  "reviewers": [],
+  "approvedAt": null,
+  "sourceRefs": [
+    "DRAFT — built to the unit-03 template (objectif pragmatique + Point Langue grammar + thematic lexicon + DELF-format comprehension), then self-audited before commit. Awaiting native-speaker review.",
+    "Progression blueprint: Alter Ego+ 2 (Hachette), Dossier 3 'La France vue par...', Leçon 1 (parler d'un pays et de ses habitants; les pronoms relatifs où et dont; exprimer un pourcentage). Content is original; the book is used only for scope/sequence, never copied."
+  ]
+}

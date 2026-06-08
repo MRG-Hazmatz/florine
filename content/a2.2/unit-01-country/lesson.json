@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "a2.2/unit-01-country",
+  "level": "a2.2",
+  "unitNumber": 1,
+  "slug": "unit-01-country",
+  "title": "A Country & Its People",
+  "titleFr": "Un pays et ses habitants",
+  "cefrDescriptors": [
+    "Can describe a country and its people.",
+    "Can link ideas with the relative pronouns où and dont, and express proportions."
+  ],
+  "skills": ["reading", "listening", "writing", "speaking"],
+  "estimatedMinutes": 50,
+  "concept": "Welcome to A2.2. This unit adds two more relative pronouns — où and dont — plus the language for talking about a country and its people.\n\noù usually means \"where\" (a place), but it also means \"when\" (a time):\n  la ville où j'habite (the town where I live)\n  le jour où je suis arrivé (the day [when] I arrived)\n\ndont replaces de + something. Use it whenever the underlying verb or phrase takes de:\n  parler DE quelque chose → le sujet dont je parle (the topic I'm talking about)\n  avoir besoin DE → la chose dont j'ai besoin (the thing I need)\nIt also means \"whose\": un pays dont la cuisine est célèbre (a country whose cuisine is famous).\n\nFor talking about people in general, two handy tools:\n  • la plupart des + plural = \"most\": La plupart des habitants sont accueillants.\n  • percentages: 80 % des gens… (\"80% of people…\"). In French, % is read « pour cent ».\n\nThe theme vocabulary: un pays (a country), les habitants (the inhabitants), la culture, une coutume (a custom), la mentalité, accueillant (welcoming), célèbre (famous), vivre (to live).\n\nPut it together: « Le Japon est un pays où les gens sont polis ; c'est une culture dont j'aime beaucoup les traditions. »\n\nWrite two sentences about a country you like: one with où and one with dont.",
+  "vocabulary": [
+    { "id": "pays", "fr": "le pays", "en": "country", "pos": "noun", "exampleFr": "La France est un beau pays.", "exampleEn": "France is a beautiful country.", "audio": "audio/a2.2/unit-01-country/vocab-pays.mp3", "voice": "denise" },
+    { "id": "habitants", "fr": "les habitants", "en": "inhabitants / people", "pos": "noun", "exampleFr": "Les habitants sont sympas.", "exampleEn": "The people are nice.", "audio": "audio/a2.2/unit-01-country/vocab-habitants.mp3", "voice": "henri" },
+    { "id": "culture", "fr": "la culture", "en": "culture", "pos": "noun", "exampleFr": "J'aime la culture française.", "exampleEn": "I like French culture.", "audio": "audio/a2.2/unit-01-country/vocab-culture.mp3", "voice": "denise" },
+    { "id": "coutume", "fr": "la coutume", "en": "custom / tradition", "pos": "noun", "exampleFr": "C'est une vieille coutume.", "exampleEn": "It's an old custom.", "audio": "audio/a2.2/unit-01-country/vocab-coutume.mp3", "voice": "henri" },
+    { "id": "la-plupart", "fr": "la plupart", "en": "most (of)", "pos": "phrase", "exampleFr": "La plupart des gens aiment ça.", "exampleEn": "Most people like that.", "audio": "audio/a2.2/unit-01-country/vocab-la-plupart.mp3", "voice": "denise" },
+    { "id": "pourcentage", "fr": "le pourcentage", "en": "percentage", "pos": "noun", "exampleFr": "Un grand pourcentage de jeunes.", "exampleEn": "A large percentage of young people.", "audio": "audio/a2.2/unit-01-country/vocab-pourcentage.mp3", "voice": "henri" },
+    { "id": "accueillant", "fr": "accueillant", "en": "welcoming (f. accueillante)", "pos": "adjective", "exampleFr": "Les gens sont accueillants.", "exampleEn": "The people are welcoming.", "audio": "audio/a2.2/unit-01-country/vocab-accueillant.mp3", "voice": "denise" },
+    { "id": "celebre", "fr": "célèbre", "en": "famous", "pos": "adjective", "exampleFr": "Paris est célèbre.", "exampleEn": "Paris is famous.", "audio": "audio/a2.2/unit-01-country/vocab-celebre.mp3", "voice": "henri" },
+    { "id": "mentalite", "fr": "la mentalité", "en": "mentality / mindset", "pos": "noun", "exampleFr": "C'est une autre mentalité.", "exampleEn": "It's a different mindset.", "audio": "audio/a2.2/unit-01-country/vocab-mentalite.mp3", "voice": "denise" },
+    { "id": "vivre", "fr": "vivre", "en": "to live", "pos": "verb", "exampleFr": "J'aime vivre ici.", "exampleEn": "I like living here.", "audio": "audio/a2.2/unit-01-country/vocab-vivre.mp3", "voice": "henri" },
+    { "id": "ou-rel", "fr": "où", "en": "where / when (relative)", "pos": "pronoun", "exampleFr": "La ville où je vis.", "exampleEn": "The town where I live.", "audio": "audio/a2.2/unit-01-country/vocab-ou-rel.mp3", "voice": "denise" },
+    { "id": "dont", "fr": "dont", "en": "of which / whose / about which", "pos": "pronoun", "exampleFr": "Le livre dont je parle.", "exampleEn": "The book I'm talking about.", "audio": "audio/a2.2/unit-01-country/vocab-dont.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "C'est le pays où je suis né.", "en": "It's the country where I was born.", "audio": "audio/a2.2/unit-01-country/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "La France est un pays dont la cuisine est célèbre.", "en": "France is a country whose cuisine is famous.", "audio": "audio/a2.2/unit-01-country/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "La plupart des habitants sont accueillants.", "en": "Most of the inhabitants are welcoming.", "audio": "audio/a2.2/unit-01-country/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "Quatre-vingts pour cent des Français aiment le fromage.", "en": "Eighty percent of French people like cheese.", "audio": "audio/a2.2/unit-01-country/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "C'est une culture que j'adore.", "en": "It's a culture (that) I love.", "audio": "audio/a2.2/unit-01-country/example-ex-5.mp3", "voice": "denise" }
+  ]
+}
