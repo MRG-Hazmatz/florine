@@ -9,11 +9,22 @@
       "skill": "reading",
       "prompt": "Which instruction means \"Turn right\"?",
       "options": [
-        { "id": "a", "text": "Tournez à droite." },
-        { "id": "b", "text": "Tournez à gauche." },
-        { "id": "c", "text": "Continuez tout droit." }
+        {
+          "id": "a",
+          "text": "Tournez à droite."
+        },
+        {
+          "id": "b",
+          "text": "Tournez à gauche."
+        },
+        {
+          "id": "c",
+          "text": "Continuez tout droit."
+        }
       ],
-      "correct": ["a"],
+      "correct": [
+        "a"
+      ],
       "explanation": "à droite = right, à gauche = left, tout droit = straight ahead."
     },
     {
@@ -22,11 +33,22 @@
       "skill": "writing",
       "prompt": "Give the instruction \"continue\" politely (vous). Which is the imperative?",
       "options": [
-        { "id": "a", "text": "Continuez" },
-        { "id": "b", "text": "Continuer" },
-        { "id": "c", "text": "Vous continuez" }
+        {
+          "id": "a",
+          "text": "Continuez"
+        },
+        {
+          "id": "b",
+          "text": "Continuer"
+        },
+        {
+          "id": "c",
+          "text": "Vous continuez"
+        }
       ],
-      "correct": ["a"],
+      "correct": [
+        "a"
+      ],
       "explanation": "The imperative drops the subject: « vous continuez » -> « Continuez ! »"
     },
     {
@@ -37,8 +59,18 @@
       "inputMode": "typed",
       "template": "Pour aller à la gare, {{b1}} à droite et {{b2}} tout droit.",
       "blanks": [
-        { "id": "b1", "accept": ["tournez"] },
-        { "id": "b2", "accept": ["continuez"] }
+        {
+          "id": "b1",
+          "accept": [
+            "tournez"
+          ]
+        },
+        {
+          "id": "b2",
+          "accept": [
+            "continuez"
+          ]
+        }
       ],
       "explanation": "Tournez à droite et continuez tout droit."
     },
@@ -48,10 +80,26 @@
       "skill": "reading",
       "prompt": "Match each French expression to its English meaning.",
       "pairs": [
-        { "id": "p1", "left": "à droite", "right": "to the right" },
-        { "id": "p2", "left": "à gauche", "right": "to the left" },
-        { "id": "p3", "left": "tout droit", "right": "straight ahead" },
-        { "id": "p4", "left": "le pont", "right": "the bridge" }
+        {
+          "id": "p1",
+          "left": "à droite",
+          "right": "to the right"
+        },
+        {
+          "id": "p2",
+          "left": "à gauche",
+          "right": "to the left"
+        },
+        {
+          "id": "p3",
+          "left": "tout droit",
+          "right": "straight ahead"
+        },
+        {
+          "id": "p4",
+          "left": "le pont",
+          "right": "the bridge"
+        }
       ]
     },
     {
@@ -60,11 +108,24 @@
       "skill": "writing",
       "prompt": "Put the words in order to say \"Turn left.\"",
       "tokens": [
-        { "id": "t1", "text": "Tournez" },
-        { "id": "t2", "text": "à" },
-        { "id": "t3", "text": "gauche" }
+        {
+          "id": "t1",
+          "text": "Tournez"
+        },
+        {
+          "id": "t2",
+          "text": "à"
+        },
+        {
+          "id": "t3",
+          "text": "gauche"
+        }
       ],
-      "correctOrder": ["t1", "t2", "t3"]
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3"
+      ]
     },
     {
       "id": "ex-li-1",
@@ -74,11 +135,22 @@
       "audio": "audio/a1.1/unit-08-directions/listen-1.mp3",
       "transcript": "Continuez tout droit, puis tournez à droite.",
       "options": [
-        { "id": "a", "text": "Turn right" },
-        { "id": "b", "text": "Turn left" },
-        { "id": "c", "text": "Go straight ahead" }
+        {
+          "id": "a",
+          "text": "Turn right"
+        },
+        {
+          "id": "b",
+          "text": "Turn left"
+        },
+        {
+          "id": "c",
+          "text": "Go straight ahead"
+        }
       ],
-      "correct": ["a"],
+      "correct": [
+        "a"
+      ],
       "explanation": "« …puis tournez à droite » — then turn right. (puis = then)"
     },
     {
@@ -93,21 +165,43 @@
           "id": "q1",
           "prompt": "Which street should you take?",
           "options": [
-            { "id": "a", "text": "The first on the right" },
-            { "id": "b", "text": "The second on the left" },
-            { "id": "c", "text": "The third on the right" }
+            {
+              "id": "a",
+              "text": "The first on the right"
+            },
+            {
+              "id": "b",
+              "text": "The second on the left"
+            },
+            {
+              "id": "c",
+              "text": "The third on the right"
+            }
           ],
-          "correct": ["b"]
+          "correct": [
+            "b"
+          ]
         },
         {
           "id": "q2",
           "prompt": "Where is the hotel?",
           "options": [
-            { "id": "a", "text": "Next to the park" },
-            { "id": "b", "text": "In front of the station" },
-            { "id": "c", "text": "On the bridge" }
+            {
+              "id": "a",
+              "text": "Next to the park"
+            },
+            {
+              "id": "b",
+              "text": "In front of the station"
+            },
+            {
+              "id": "c",
+              "text": "On the bridge"
+            }
           ],
-          "correct": ["a"]
+          "correct": [
+            "a"
+          ]
         }
       ]
     },
@@ -118,8 +212,37 @@
       "prompt": "Tell a friend (tu) to turn. Careful: the tu imperative of -er verbs drops the final -s.",
       "inputMode": "dropdown",
       "template": "{{b1}} à droite !",
-      "blanks": [{ "id": "b1", "accept": ["Tourne"], "options": ["Tourne", "Tournes"] }],
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "Tourne"
+          ],
+          "options": [
+            "Tourne",
+            "Tournes"
+          ]
+        }
+      ],
       "explanation": "tu tournes -> imperative « Tourne ! » (no final -s for -er verbs)."
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "Pardon, où est la gare ?",
+      "targetEn": "Excuse me, where is the station?",
+      "audio": "audio/a1.1/unit-08-directions/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "Continuez tout droit.",
+      "targetEn": "Keep going straight ahead.",
+      "audio": "audio/a1.1/unit-08-directions/example-ex-3.mp3"
     }
   ]
 }

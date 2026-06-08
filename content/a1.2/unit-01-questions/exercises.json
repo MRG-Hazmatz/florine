@@ -9,11 +9,22 @@
       "skill": "reading",
       "prompt": "What is « est-ce que » used for?",
       "options": [
-        { "id": "a", "text": "To turn a sentence into a yes/no question" },
-        { "id": "b", "text": "To say no" },
-        { "id": "c", "text": "To count things" }
+        {
+          "id": "a",
+          "text": "To turn a sentence into a yes/no question"
+        },
+        {
+          "id": "b",
+          "text": "To say no"
+        },
+        {
+          "id": "c",
+          "text": "To count things"
+        }
       ],
-      "correct": ["a"],
+      "correct": [
+        "a"
+      ],
       "explanation": "« Est-ce que tu viens ? » = the yes/no question form of « Tu viens. »"
     },
     {
@@ -22,11 +33,22 @@
       "skill": "reading",
       "prompt": "How do you ask \"What is it?\"",
       "options": [
-        { "id": "a", "text": "Qu'est-ce que c'est ?" },
-        { "id": "b", "text": "Où c'est ?" },
-        { "id": "c", "text": "Qui c'est ?" }
+        {
+          "id": "a",
+          "text": "Qu'est-ce que c'est ?"
+        },
+        {
+          "id": "b",
+          "text": "Où c'est ?"
+        },
+        {
+          "id": "c",
+          "text": "Qui c'est ?"
+        }
       ],
-      "correct": ["a"],
+      "correct": [
+        "a"
+      ],
       "explanation": "« Qu'est-ce que c'est ? » — learn it as one fixed phrase."
     },
     {
@@ -36,7 +58,19 @@
       "prompt": "Choose the right question word (asking WHEN).",
       "inputMode": "dropdown",
       "template": "{{b1}} est ton anniversaire ?",
-      "blanks": [{ "id": "b1", "accept": ["Quand"], "options": ["Quand", "Où", "Qui"] }],
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "Quand"
+          ],
+          "options": [
+            "Quand",
+            "Où",
+            "Qui"
+          ]
+        }
+      ],
       "explanation": "Quand = when; Où = where; Qui = who."
     },
     {
@@ -45,10 +79,26 @@
       "skill": "reading",
       "prompt": "Match each question word to its English meaning.",
       "pairs": [
-        { "id": "p1", "left": "où", "right": "where" },
-        { "id": "p2", "left": "quand", "right": "when" },
-        { "id": "p3", "left": "pourquoi", "right": "why" },
-        { "id": "p4", "left": "qui", "right": "who" }
+        {
+          "id": "p1",
+          "left": "où",
+          "right": "where"
+        },
+        {
+          "id": "p2",
+          "left": "quand",
+          "right": "when"
+        },
+        {
+          "id": "p3",
+          "left": "pourquoi",
+          "right": "why"
+        },
+        {
+          "id": "p4",
+          "left": "qui",
+          "right": "who"
+        }
       ]
     },
     {
@@ -57,13 +107,34 @@
       "skill": "writing",
       "prompt": "Put the words in order to ask \"Where is the party?\"",
       "tokens": [
-        { "id": "t1", "text": "Où" },
-        { "id": "t2", "text": "est" },
-        { "id": "t3", "text": "la" },
-        { "id": "t4", "text": "fête" },
-        { "id": "t5", "text": "?" }
+        {
+          "id": "t1",
+          "text": "Où"
+        },
+        {
+          "id": "t2",
+          "text": "est"
+        },
+        {
+          "id": "t3",
+          "text": "la"
+        },
+        {
+          "id": "t4",
+          "text": "fête"
+        },
+        {
+          "id": "t5",
+          "text": "?"
+        }
       ],
-      "correctOrder": ["t1", "t2", "t3", "t4", "t5"]
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5"
+      ]
     },
     {
       "id": "ex-li-1",
@@ -73,11 +144,22 @@
       "audio": "audio/a1.2/unit-01-questions/listen-1.mp3",
       "transcript": "Tu vas à la fête ce soir ?",
       "options": [
-        { "id": "a", "text": "If you're going to the party tonight" },
-        { "id": "b", "text": "Where you live" },
-        { "id": "c", "text": "What your name is" }
+        {
+          "id": "a",
+          "text": "If you're going to the party tonight"
+        },
+        {
+          "id": "b",
+          "text": "Where you live"
+        },
+        {
+          "id": "c",
+          "text": "What your name is"
+        }
       ],
-      "correct": ["a"],
+      "correct": [
+        "a"
+      ],
       "explanation": "A yes/no question by intonation: « Tu vas à la fête ce soir ? »"
     },
     {
@@ -92,21 +174,43 @@
           "id": "q1",
           "prompt": "What is happening on Saturday?",
           "options": [
-            { "id": "a", "text": "A birthday party" },
-            { "id": "b", "text": "A French exam" },
-            { "id": "c", "text": "A trip to Paris" }
+            {
+              "id": "a",
+              "text": "A birthday party"
+            },
+            {
+              "id": "b",
+              "text": "A French exam"
+            },
+            {
+              "id": "c",
+              "text": "A trip to Paris"
+            }
           ],
-          "correct": ["a"]
+          "correct": [
+            "a"
+          ]
         },
         {
           "id": "q2",
           "prompt": "What time is the party?",
           "options": [
-            { "id": "a", "text": "8 o'clock" },
-            { "id": "b", "text": "6 o'clock" },
-            { "id": "c", "text": "Noon" }
+            {
+              "id": "a",
+              "text": "8 o'clock"
+            },
+            {
+              "id": "b",
+              "text": "6 o'clock"
+            },
+            {
+              "id": "c",
+              "text": "Noon"
+            }
           ],
-          "correct": ["a"]
+          "correct": [
+            "a"
+          ]
         }
       ]
     },
@@ -117,8 +221,37 @@
       "prompt": "Start a yes/no question (do you like coffee?).",
       "inputMode": "dropdown",
       "template": "{{b1}} tu aimes le café ?",
-      "blanks": [{ "id": "b1", "accept": ["Est-ce que"], "options": ["Est-ce que", "Qu'est-ce que"] }],
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "Est-ce que"
+          ],
+          "options": [
+            "Est-ce que",
+            "Qu'est-ce que"
+          ]
+        }
+      ],
       "explanation": "Est-ce que makes a yes/no question; qu'est-ce que asks \"what\"."
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "Est-ce que tu vas à la fête ?",
+      "targetEn": "Are you going to the party?",
+      "audio": "audio/a1.2/unit-01-questions/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "Où est la fête ?",
+      "targetEn": "Where is the party?",
+      "audio": "audio/a1.2/unit-01-questions/example-ex-3.mp3"
     }
   ]
 }

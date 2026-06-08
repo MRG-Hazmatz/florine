@@ -9,11 +9,22 @@
       "skill": "reading",
       "prompt": "What does « il faut » + infinitive mean?",
       "options": [
-        { "id": "a", "text": "You have to / it's necessary to" },
-        { "id": "b", "text": "You are" },
-        { "id": "c", "text": "There was" }
+        {
+          "id": "a",
+          "text": "You have to / it's necessary to"
+        },
+        {
+          "id": "b",
+          "text": "You are"
+        },
+        {
+          "id": "c",
+          "text": "There was"
+        }
       ],
-      "correct": ["a"],
+      "correct": [
+        "a"
+      ],
       "explanation": "il faut + infinitive expresses obligation: Il faut payer = you have to pay."
     },
     {
@@ -22,11 +33,22 @@
       "skill": "reading",
       "prompt": "Which sentence says something is FORBIDDEN?",
       "options": [
-        { "id": "a", "text": "Il est interdit de fumer." },
-        { "id": "b", "text": "Il faut fumer." },
-        { "id": "c", "text": "Je fume une cigarette." }
+        {
+          "id": "a",
+          "text": "Il est interdit de fumer."
+        },
+        {
+          "id": "b",
+          "text": "Il faut fumer."
+        },
+        {
+          "id": "c",
+          "text": "Je fume une cigarette."
+        }
       ],
-      "correct": ["a"],
+      "correct": [
+        "a"
+      ],
       "explanation": "Il est interdit de + infinitive = it is forbidden to…"
     },
     {
@@ -36,7 +58,14 @@
       "prompt": "Complete the prohibition (you must NOT make noise).",
       "inputMode": "typed",
       "template": "Il ne {{b1}} pas faire de bruit.",
-      "blanks": [{ "id": "b1", "accept": ["faut"] }],
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "faut"
+          ]
+        }
+      ],
       "explanation": "il ne faut pas + infinitive = you must not…"
     },
     {
@@ -45,10 +74,26 @@
       "skill": "reading",
       "prompt": "Match each word to its English meaning.",
       "pairs": [
-        { "id": "p1", "left": "le loyer", "right": "rent" },
-        { "id": "p2", "left": "le voisin", "right": "neighbour" },
-        { "id": "p3", "left": "le bruit", "right": "noise" },
-        { "id": "p4", "left": "la poubelle", "right": "the bin" }
+        {
+          "id": "p1",
+          "left": "le loyer",
+          "right": "rent"
+        },
+        {
+          "id": "p2",
+          "left": "le voisin",
+          "right": "neighbour"
+        },
+        {
+          "id": "p3",
+          "left": "le bruit",
+          "right": "noise"
+        },
+        {
+          "id": "p4",
+          "left": "la poubelle",
+          "right": "the bin"
+        }
       ]
     },
     {
@@ -57,13 +102,34 @@
       "skill": "writing",
       "prompt": "Put the words in order to say \"You have to pay the rent.\"",
       "tokens": [
-        { "id": "t1", "text": "Il" },
-        { "id": "t2", "text": "faut" },
-        { "id": "t3", "text": "payer" },
-        { "id": "t4", "text": "le" },
-        { "id": "t5", "text": "loyer" }
+        {
+          "id": "t1",
+          "text": "Il"
+        },
+        {
+          "id": "t2",
+          "text": "faut"
+        },
+        {
+          "id": "t3",
+          "text": "payer"
+        },
+        {
+          "id": "t4",
+          "text": "le"
+        },
+        {
+          "id": "t5",
+          "text": "loyer"
+        }
       ],
-      "correctOrder": ["t1", "t2", "t3", "t4", "t5"]
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5"
+      ]
     },
     {
       "id": "ex-li-1",
@@ -73,11 +139,22 @@
       "audio": "audio/a1.2/unit-10-rules/listen-1.mp3",
       "transcript": "Dans la colocation, il faut respecter les voisins.",
       "options": [
-        { "id": "a", "text": "Respect the neighbours" },
-        { "id": "b", "text": "Pay double rent" },
-        { "id": "c", "text": "Leave the flat" }
+        {
+          "id": "a",
+          "text": "Respect the neighbours"
+        },
+        {
+          "id": "b",
+          "text": "Pay double rent"
+        },
+        {
+          "id": "c",
+          "text": "Leave the flat"
+        }
       ],
-      "correct": ["a"],
+      "correct": [
+        "a"
+      ],
       "explanation": "« il faut respecter les voisins » = you must respect the neighbours."
     },
     {
@@ -92,21 +169,43 @@
           "id": "q1",
           "prompt": "What must you do after dinner?",
           "options": [
-            { "id": "a", "text": "Tidy the kitchen" },
-            { "id": "b", "text": "Pay the rent" },
-            { "id": "c", "text": "Call the neighbours" }
+            {
+              "id": "a",
+              "text": "Tidy the kitchen"
+            },
+            {
+              "id": "b",
+              "text": "Pay the rent"
+            },
+            {
+              "id": "c",
+              "text": "Call the neighbours"
+            }
           ],
-          "correct": ["a"]
+          "correct": [
+            "a"
+          ]
         },
         {
           "id": "q2",
           "prompt": "What is forbidden?",
           "options": [
-            { "id": "a", "text": "Smoking in the apartment" },
-            { "id": "b", "text": "Cooking after 10 pm" },
-            { "id": "c", "text": "Having guests" }
+            {
+              "id": "a",
+              "text": "Smoking in the apartment"
+            },
+            {
+              "id": "b",
+              "text": "Cooking after 10 pm"
+            },
+            {
+              "id": "c",
+              "text": "Having guests"
+            }
           ],
-          "correct": ["a"]
+          "correct": [
+            "a"
+          ]
         }
       ]
     },
@@ -117,8 +216,37 @@
       "prompt": "Express obligation (you must do the housework every week).",
       "inputMode": "dropdown",
       "template": "{{b1}} faire le ménage chaque semaine.",
-      "blanks": [{ "id": "b1", "accept": ["Il faut"], "options": ["Il faut", "Il est"] }],
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "Il faut"
+          ],
+          "options": [
+            "Il faut",
+            "Il est"
+          ]
+        }
+      ],
       "explanation": "Il faut + infinitive = you must. 'Il est faire' is not grammatical."
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "Il faut payer le loyer.",
+      "targetEn": "You have to pay the rent.",
+      "audio": "audio/a1.2/unit-10-rules/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "Il est interdit de fumer.",
+      "targetEn": "Smoking is forbidden.",
+      "audio": "audio/a1.2/unit-10-rules/example-ex-3.mp3"
     }
   ]
 }

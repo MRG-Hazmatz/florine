@@ -9,11 +9,22 @@
       "skill": "reading",
       "prompt": "What does « Quel temps fait-il ? » ask about?",
       "options": [
-        { "id": "a", "text": "The weather" },
-        { "id": "b", "text": "The time" },
-        { "id": "c", "text": "Your name" }
+        {
+          "id": "a",
+          "text": "The weather"
+        },
+        {
+          "id": "b",
+          "text": "The time"
+        },
+        {
+          "id": "c",
+          "text": "Your name"
+        }
       ],
-      "correct": ["a"],
+      "correct": [
+        "a"
+      ],
       "explanation": "Here temps means weather. (It can also mean 'time' in other contexts.)"
     },
     {
@@ -22,11 +33,22 @@
       "skill": "reading",
       "prompt": "How do you say \"It's cold\"?",
       "options": [
-        { "id": "a", "text": "Il fait froid." },
-        { "id": "b", "text": "Il fait chaud." },
-        { "id": "c", "text": "Il pleut." }
+        {
+          "id": "a",
+          "text": "Il fait froid."
+        },
+        {
+          "id": "b",
+          "text": "Il fait chaud."
+        },
+        {
+          "id": "c",
+          "text": "Il pleut."
+        }
       ],
-      "correct": ["a"],
+      "correct": [
+        "a"
+      ],
       "explanation": "Il fait froid = it's cold; il fait chaud = it's hot; il pleut = it's raining."
     },
     {
@@ -35,10 +57,26 @@
       "skill": "reading",
       "prompt": "Match each season to its English meaning.",
       "pairs": [
-        { "id": "p1", "left": "le printemps", "right": "spring" },
-        { "id": "p2", "left": "l'été", "right": "summer" },
-        { "id": "p3", "left": "l'automne", "right": "autumn" },
-        { "id": "p4", "left": "l'hiver", "right": "winter" }
+        {
+          "id": "p1",
+          "left": "le printemps",
+          "right": "spring"
+        },
+        {
+          "id": "p2",
+          "left": "l'été",
+          "right": "summer"
+        },
+        {
+          "id": "p3",
+          "left": "l'automne",
+          "right": "autumn"
+        },
+        {
+          "id": "p4",
+          "left": "l'hiver",
+          "right": "winter"
+        }
       ]
     },
     {
@@ -48,7 +86,18 @@
       "prompt": "Complete: in December, what happens?",
       "inputMode": "dropdown",
       "template": "En décembre, {{b1}}.",
-      "blanks": [{ "id": "b1", "accept": ["il neige"], "options": ["il neige", "il fait chaud"] }],
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "il neige"
+          ],
+          "options": [
+            "il neige",
+            "il fait chaud"
+          ]
+        }
+      ],
       "explanation": "il neige = it snows."
     },
     {
@@ -57,12 +106,29 @@
       "skill": "writing",
       "prompt": "Put the words in order to say \"It's nice today.\"",
       "tokens": [
-        { "id": "t1", "text": "Il" },
-        { "id": "t2", "text": "fait" },
-        { "id": "t3", "text": "beau" },
-        { "id": "t4", "text": "aujourd'hui" }
+        {
+          "id": "t1",
+          "text": "Il"
+        },
+        {
+          "id": "t2",
+          "text": "fait"
+        },
+        {
+          "id": "t3",
+          "text": "beau"
+        },
+        {
+          "id": "t4",
+          "text": "aujourd'hui"
+        }
       ],
-      "correctOrder": ["t1", "t2", "t3", "t4"]
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4"
+      ]
     },
     {
       "id": "ex-li-1",
@@ -72,11 +138,22 @@
       "audio": "audio/a1.2/unit-03-weather/listen-1.mp3",
       "transcript": "Aujourd'hui, il fait beau et chaud.",
       "options": [
-        { "id": "a", "text": "Nice and hot" },
-        { "id": "b", "text": "Cold and rainy" },
-        { "id": "c", "text": "Snowing" }
+        {
+          "id": "a",
+          "text": "Nice and hot"
+        },
+        {
+          "id": "b",
+          "text": "Cold and rainy"
+        },
+        {
+          "id": "c",
+          "text": "Snowing"
+        }
       ],
-      "correct": ["a"],
+      "correct": [
+        "a"
+      ],
       "explanation": "« il fait beau et chaud » = it's nice and hot."
     },
     {
@@ -91,21 +168,43 @@
           "id": "q1",
           "prompt": "What is the weather like in summer?",
           "options": [
-            { "id": "a", "text": "Hot and nice" },
-            { "id": "b", "text": "Cold and snowy" },
-            { "id": "c", "text": "Rainy" }
+            {
+              "id": "a",
+              "text": "Hot and nice"
+            },
+            {
+              "id": "b",
+              "text": "Cold and snowy"
+            },
+            {
+              "id": "c",
+              "text": "Rainy"
+            }
           ],
-          "correct": ["a"]
+          "correct": [
+            "a"
+          ]
         },
         {
           "id": "q2",
           "prompt": "What happens in winter?",
           "options": [
-            { "id": "a", "text": "It's cold and it snows" },
-            { "id": "b", "text": "It's hot" },
-            { "id": "c", "text": "It's sunny" }
+            {
+              "id": "a",
+              "text": "It's cold and it snows"
+            },
+            {
+              "id": "b",
+              "text": "It's hot"
+            },
+            {
+              "id": "c",
+              "text": "It's sunny"
+            }
           ],
-          "correct": ["a"]
+          "correct": [
+            "a"
+          ]
         }
       ]
     },
@@ -116,8 +215,37 @@
       "prompt": "Which season is it? « It's cold and it snows. »",
       "inputMode": "dropdown",
       "template": "Il fait froid et il neige : c'est {{b1}}.",
-      "blanks": [{ "id": "b1", "accept": ["l'hiver"], "options": ["l'hiver", "l'été"] }],
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "l'hiver"
+          ],
+          "options": [
+            "l'hiver",
+            "l'été"
+          ]
+        }
+      ],
       "explanation": "Cold + snow → l'hiver (winter)."
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "Quel temps fait-il ?",
+      "targetEn": "What's the weather like?",
+      "audio": "audio/a1.2/unit-03-weather/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "En hiver, il fait froid et il neige.",
+      "targetEn": "In winter, it's cold and it snows.",
+      "audio": "audio/a1.2/unit-03-weather/example-ex-3.mp3"
     }
   ]
 }

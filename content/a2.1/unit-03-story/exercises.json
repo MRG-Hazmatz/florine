@@ -9,11 +9,22 @@
       "skill": "reading",
       "prompt": "In a story, which tense sets the SCENE and background?",
       "options": [
-        { "id": "a", "text": "the imparfait" },
-        { "id": "b", "text": "the passé composé" },
-        { "id": "c", "text": "the futur proche" }
+        {
+          "id": "a",
+          "text": "the imparfait"
+        },
+        {
+          "id": "b",
+          "text": "the passé composé"
+        },
+        {
+          "id": "c",
+          "text": "the futur proche"
+        }
       ],
-      "correct": ["a"],
+      "correct": [
+        "a"
+      ],
       "explanation": "Imparfait = background/description; passé composé = the events that happen."
     },
     {
@@ -22,11 +33,22 @@
       "skill": "reading",
       "prompt": "What does « il y a deux ans » mean?",
       "options": [
-        { "id": "a", "text": "two years ago" },
-        { "id": "b", "text": "in two years" },
-        { "id": "c", "text": "for two years" }
+        {
+          "id": "a",
+          "text": "two years ago"
+        },
+        {
+          "id": "b",
+          "text": "in two years"
+        },
+        {
+          "id": "c",
+          "text": "for two years"
+        }
       ],
-      "correct": ["a"],
+      "correct": [
+        "a"
+      ],
       "explanation": "il y a + a duration = ago. (dans = in/within; pendant = for/during.)"
     },
     {
@@ -36,7 +58,18 @@
       "prompt": "Background description → which tense? « Hier, il ___ beau. »",
       "inputMode": "dropdown",
       "template": "Hier, il {{b1}} beau, alors je suis sorti.",
-      "blanks": [{ "id": "b1", "accept": ["faisait"], "options": ["faisait", "a fait"] }],
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "faisait"
+          ],
+          "options": [
+            "faisait",
+            "a fait"
+          ]
+        }
+      ],
       "explanation": "Weather/scene = imparfait: il faisait beau."
     },
     {
@@ -45,10 +78,26 @@
       "skill": "reading",
       "prompt": "Match each word to its English meaning.",
       "pairs": [
-        { "id": "p1", "left": "la rencontre", "right": "meeting" },
-        { "id": "p2", "left": "le coup de foudre", "right": "love at first sight" },
-        { "id": "p3", "left": "sourire", "right": "to smile" },
-        { "id": "p4", "left": "le regard", "right": "look" }
+        {
+          "id": "p1",
+          "left": "la rencontre",
+          "right": "meeting"
+        },
+        {
+          "id": "p2",
+          "left": "le coup de foudre",
+          "right": "love at first sight"
+        },
+        {
+          "id": "p3",
+          "left": "sourire",
+          "right": "to smile"
+        },
+        {
+          "id": "p4",
+          "left": "le regard",
+          "right": "look"
+        }
       ]
     },
     {
@@ -57,14 +106,39 @@
       "skill": "writing",
       "prompt": "Put the words in order: \"We talked for hours.\"",
       "tokens": [
-        { "id": "t1", "text": "On" },
-        { "id": "t2", "text": "a" },
-        { "id": "t3", "text": "parlé" },
-        { "id": "t4", "text": "pendant" },
-        { "id": "t5", "text": "des" },
-        { "id": "t6", "text": "heures" }
+        {
+          "id": "t1",
+          "text": "On"
+        },
+        {
+          "id": "t2",
+          "text": "a"
+        },
+        {
+          "id": "t3",
+          "text": "parlé"
+        },
+        {
+          "id": "t4",
+          "text": "pendant"
+        },
+        {
+          "id": "t5",
+          "text": "des"
+        },
+        {
+          "id": "t6",
+          "text": "heures"
+        }
       ],
-      "correctOrder": ["t1", "t2", "t3", "t4", "t5", "t6"]
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ]
     },
     {
       "id": "ex-li-1",
@@ -74,11 +148,22 @@
       "audio": "audio/a2.1/unit-03-story/listen-1.mp3",
       "transcript": "J'ai rencontré mon meilleur ami il y a cinq ans.",
       "options": [
-        { "id": "a", "text": "Five years ago" },
-        { "id": "b", "text": "In five years" },
-        { "id": "c", "text": "Last week" }
+        {
+          "id": "a",
+          "text": "Five years ago"
+        },
+        {
+          "id": "b",
+          "text": "In five years"
+        },
+        {
+          "id": "c",
+          "text": "Last week"
+        }
       ],
-      "correct": ["a"],
+      "correct": [
+        "a"
+      ],
       "explanation": "« il y a cinq ans » = five years ago."
     },
     {
@@ -93,21 +178,43 @@
           "id": "q1",
           "prompt": "What was the weather like?",
           "options": [
-            { "id": "a", "text": "It was nice" },
-            { "id": "b", "text": "It was raining" },
-            { "id": "c", "text": "It was cold" }
+            {
+              "id": "a",
+              "text": "It was nice"
+            },
+            {
+              "id": "b",
+              "text": "It was raining"
+            },
+            {
+              "id": "c",
+              "text": "It was cold"
+            }
           ],
-          "correct": ["a"]
+          "correct": [
+            "a"
+          ]
         },
         {
           "id": "q2",
           "prompt": "How long did they talk?",
           "options": [
-            { "id": "a", "text": "An hour" },
-            { "id": "b", "text": "Five minutes" },
-            { "id": "c", "text": "All day" }
+            {
+              "id": "a",
+              "text": "An hour"
+            },
+            {
+              "id": "b",
+              "text": "Five minutes"
+            },
+            {
+              "id": "c",
+              "text": "All day"
+            }
           ],
-          "correct": ["a"]
+          "correct": [
+            "a"
+          ]
         }
       ]
     },
@@ -118,7 +225,18 @@
       "prompt": "A single completed event → which tense? « Hier, j'___ un vieil ami. »",
       "inputMode": "dropdown",
       "template": "Hier, j'{{b1}} un vieil ami.",
-      "blanks": [{ "id": "b1", "accept": ["ai rencontré"], "options": ["ai rencontré", "rencontrais"] }],
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "ai rencontré"
+          ],
+          "options": [
+            "ai rencontré",
+            "rencontrais"
+          ]
+        }
+      ],
       "explanation": "A one-time event = passé composé: j'ai rencontré."
     },
     {
@@ -129,6 +247,15 @@
       "targetFr": "On a parlé pendant des heures.",
       "targetEn": "We talked for hours.",
       "audio": "audio/a2.1/unit-03-story/example-ex-5.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "J'ai rencontré Léa il y a deux ans.",
+      "targetEn": "I met Léa two years ago.",
+      "audio": "audio/a2.1/unit-03-story/example-ex-1.mp3"
     }
   ]
 }

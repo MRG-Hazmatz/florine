@@ -9,11 +9,22 @@
       "skill": "writing",
       "prompt": "Choose the relative pronoun: « C'est un ami ___ habite à Paris. » (followed by a verb)",
       "options": [
-        { "id": "a", "text": "qui" },
-        { "id": "b", "text": "que" },
-        { "id": "c", "text": "à qui" }
+        {
+          "id": "a",
+          "text": "qui"
+        },
+        {
+          "id": "b",
+          "text": "que"
+        },
+        {
+          "id": "c",
+          "text": "à qui"
+        }
       ],
-      "correct": ["a"],
+      "correct": [
+        "a"
+      ],
       "explanation": "The next word is a verb (habite), so the relative is the subject → qui."
     },
     {
@@ -22,11 +33,22 @@
       "skill": "writing",
       "prompt": "Choose the relative pronoun: « C'est le livre ___ je préfère. » (followed by a subject)",
       "options": [
-        { "id": "a", "text": "que" },
-        { "id": "b", "text": "qui" },
-        { "id": "c", "text": "à qui" }
+        {
+          "id": "a",
+          "text": "que"
+        },
+        {
+          "id": "b",
+          "text": "qui"
+        },
+        {
+          "id": "c",
+          "text": "à qui"
+        }
       ],
-      "correct": ["a"],
+      "correct": [
+        "a"
+      ],
       "explanation": "The next word is a subject (je), so the relative is the object → que."
     },
     {
@@ -36,7 +58,19 @@
       "prompt": "Complete with the relative for 'to whom' (faire confiance à).",
       "inputMode": "dropdown",
       "template": "C'est une personne {{b1}} je fais confiance.",
-      "blanks": [{ "id": "b1", "accept": ["à qui"], "options": ["à qui", "qui", "que"] }],
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "à qui"
+          ],
+          "options": [
+            "à qui",
+            "qui",
+            "que"
+          ]
+        }
+      ],
       "explanation": "faire confiance À quelqu'un → à qui je fais confiance."
     },
     {
@@ -45,10 +79,26 @@
       "skill": "reading",
       "prompt": "Match each personality word to its English meaning.",
       "pairs": [
-        { "id": "p1", "left": "généreux", "right": "generous" },
-        { "id": "p2", "left": "égoïste", "right": "selfish" },
-        { "id": "p3", "left": "patient", "right": "patient" },
-        { "id": "p4", "left": "autoritaire", "right": "bossy" }
+        {
+          "id": "p1",
+          "left": "généreux",
+          "right": "generous"
+        },
+        {
+          "id": "p2",
+          "left": "égoïste",
+          "right": "selfish"
+        },
+        {
+          "id": "p3",
+          "left": "patient",
+          "right": "patient"
+        },
+        {
+          "id": "p4",
+          "left": "autoritaire",
+          "right": "bossy"
+        }
       ]
     },
     {
@@ -57,13 +107,34 @@
       "skill": "writing",
       "prompt": "Put the words in order: \"She's a friend who listens to me.\"",
       "tokens": [
-        { "id": "t1", "text": "C'est" },
-        { "id": "t2", "text": "une" },
-        { "id": "t3", "text": "amie" },
-        { "id": "t4", "text": "qui" },
-        { "id": "t5", "text": "m'écoute" }
+        {
+          "id": "t1",
+          "text": "C'est"
+        },
+        {
+          "id": "t2",
+          "text": "une"
+        },
+        {
+          "id": "t3",
+          "text": "amie"
+        },
+        {
+          "id": "t4",
+          "text": "qui"
+        },
+        {
+          "id": "t5",
+          "text": "m'écoute"
+        }
       ],
-      "correctOrder": ["t1", "t2", "t3", "t4", "t5"]
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5"
+      ]
     },
     {
       "id": "ex-li-1",
@@ -73,11 +144,22 @@
       "audio": "audio/a2.1/unit-01-character/listen-1.mp3",
       "transcript": "Mon meilleur ami est généreux et très drôle.",
       "options": [
-        { "id": "a", "text": "Generous and funny" },
-        { "id": "b", "text": "Selfish and bossy" },
-        { "id": "c", "text": "Patient and shy" }
+        {
+          "id": "a",
+          "text": "Generous and funny"
+        },
+        {
+          "id": "b",
+          "text": "Selfish and bossy"
+        },
+        {
+          "id": "c",
+          "text": "Patient and shy"
+        }
       ],
-      "correct": ["a"],
+      "correct": [
+        "a"
+      ],
       "explanation": "« généreux et très drôle » = generous and very funny."
     },
     {
@@ -92,21 +174,43 @@
           "id": "q1",
           "prompt": "What is Marie like?",
           "options": [
-            { "id": "a", "text": "Generous and helpful" },
-            { "id": "b", "text": "Selfish and bossy" },
-            { "id": "c", "text": "Shy and quiet" }
+            {
+              "id": "a",
+              "text": "Generous and helpful"
+            },
+            {
+              "id": "b",
+              "text": "Selfish and bossy"
+            },
+            {
+              "id": "c",
+              "text": "Shy and quiet"
+            }
           ],
-          "correct": ["a"]
+          "correct": [
+            "a"
+          ]
         },
         {
           "id": "q2",
           "prompt": "Does the writer trust Marie?",
           "options": [
-            { "id": "a", "text": "Yes" },
-            { "id": "b", "text": "No" },
-            { "id": "c", "text": "It doesn't say" }
+            {
+              "id": "a",
+              "text": "Yes"
+            },
+            {
+              "id": "b",
+              "text": "No"
+            },
+            {
+              "id": "c",
+              "text": "It doesn't say"
+            }
           ],
-          "correct": ["a"]
+          "correct": [
+            "a"
+          ]
         }
       ]
     },
@@ -117,7 +221,18 @@
       "prompt": "Choose the relative (followed by a subject 'je').",
       "inputMode": "dropdown",
       "template": "C'est un ami {{b1}} je vois souvent.",
-      "blanks": [{ "id": "b1", "accept": ["que"], "options": ["que", "qui"] }],
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "que"
+          ],
+          "options": [
+            "que",
+            "qui"
+          ]
+        }
+      ],
       "explanation": "Next word is the subject 'je' → object relative que."
     },
     {
@@ -128,6 +243,15 @@
       "targetFr": "C'est une amie qui m'écoute toujours.",
       "targetEn": "She's a friend who always listens to me.",
       "audio": "audio/a2.1/unit-01-character/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "Il est généreux et très patient.",
+      "targetEn": "He is generous and very patient.",
+      "audio": "audio/a2.1/unit-01-character/example-ex-3.mp3"
     }
   ]
 }

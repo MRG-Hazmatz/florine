@@ -9,11 +9,22 @@
       "skill": "reading",
       "prompt": "In French, where do MOST descriptive adjectives go?",
       "options": [
-        { "id": "a", "text": "After the noun" },
-        { "id": "b", "text": "Before the noun" },
-        { "id": "c", "text": "It never matters" }
+        {
+          "id": "a",
+          "text": "After the noun"
+        },
+        {
+          "id": "b",
+          "text": "Before the noun"
+        },
+        {
+          "id": "c",
+          "text": "It never matters"
+        }
       ],
-      "correct": ["a"],
+      "correct": [
+        "a"
+      ],
       "explanation": "Most adjectives follow the noun: un plat délicieux, une ville moderne."
     },
     {
@@ -22,11 +33,22 @@
       "skill": "writing",
       "prompt": "Which adjective comes BEFORE the noun?",
       "options": [
-        { "id": "a", "text": "bon" },
-        { "id": "b", "text": "délicieux" },
-        { "id": "c", "text": "moderne" }
+        {
+          "id": "a",
+          "text": "bon"
+        },
+        {
+          "id": "b",
+          "text": "délicieux"
+        },
+        {
+          "id": "c",
+          "text": "moderne"
+        }
       ],
-      "correct": ["a"],
+      "correct": [
+        "a"
+      ],
       "explanation": "bon is in the small 'before' group (size/age/beauty/goodness): un bon plat."
     },
     {
@@ -36,7 +58,14 @@
       "prompt": "Ask for the bill at the end of the meal.",
       "inputMode": "typed",
       "template": "L'{{b1}}, s'il vous plaît !",
-      "blanks": [{ "id": "b1", "accept": ["addition"] }],
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "addition"
+          ]
+        }
+      ],
       "explanation": "l'addition = the bill / check."
     },
     {
@@ -45,10 +74,26 @@
       "skill": "reading",
       "prompt": "Match each restaurant word to its English meaning.",
       "pairs": [
-        { "id": "p1", "left": "le menu", "right": "menu" },
-        { "id": "p2", "left": "le plat", "right": "dish" },
-        { "id": "p3", "left": "l'addition", "right": "the bill" },
-        { "id": "p4", "left": "le serveur", "right": "waiter" }
+        {
+          "id": "p1",
+          "left": "le menu",
+          "right": "menu"
+        },
+        {
+          "id": "p2",
+          "left": "le plat",
+          "right": "dish"
+        },
+        {
+          "id": "p3",
+          "left": "l'addition",
+          "right": "the bill"
+        },
+        {
+          "id": "p4",
+          "left": "le serveur",
+          "right": "waiter"
+        }
       ]
     },
     {
@@ -57,12 +102,29 @@
       "skill": "writing",
       "prompt": "Put the words in order to say \"This dish is delicious.\"",
       "tokens": [
-        { "id": "t1", "text": "Ce" },
-        { "id": "t2", "text": "plat" },
-        { "id": "t3", "text": "est" },
-        { "id": "t4", "text": "délicieux" }
+        {
+          "id": "t1",
+          "text": "Ce"
+        },
+        {
+          "id": "t2",
+          "text": "plat"
+        },
+        {
+          "id": "t3",
+          "text": "est"
+        },
+        {
+          "id": "t4",
+          "text": "délicieux"
+        }
       ],
-      "correctOrder": ["t1", "t2", "t3", "t4"]
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4"
+      ]
     },
     {
       "id": "ex-li-1",
@@ -72,11 +134,22 @@
       "audio": "audio/a1.2/unit-08-restaurant/listen-1.mp3",
       "transcript": "Bonjour, je voudrais commander le plat du jour.",
       "options": [
-        { "id": "a", "text": "Order the dish of the day" },
-        { "id": "b", "text": "Book a table for four" },
-        { "id": "c", "text": "Pay the bill" }
+        {
+          "id": "a",
+          "text": "Order the dish of the day"
+        },
+        {
+          "id": "b",
+          "text": "Book a table for four"
+        },
+        {
+          "id": "c",
+          "text": "Pay the bill"
+        }
       ],
-      "correct": ["a"],
+      "correct": [
+        "a"
+      ],
       "explanation": "« je voudrais commander le plat du jour » = I'd like to order the dish of the day."
     },
     {
@@ -91,21 +164,43 @@
           "id": "q1",
           "prompt": "How is the dish of the day?",
           "options": [
-            { "id": "a", "text": "Delicious" },
-            { "id": "b", "text": "Too cold" },
-            { "id": "c", "text": "Not ready" }
+            {
+              "id": "a",
+              "text": "Delicious"
+            },
+            {
+              "id": "b",
+              "text": "Too cold"
+            },
+            {
+              "id": "c",
+              "text": "Not ready"
+            }
           ],
-          "correct": ["a"]
+          "correct": [
+            "a"
+          ]
         },
         {
           "id": "q2",
           "prompt": "Is the restaurant expensive?",
           "options": [
-            { "id": "a", "text": "No, it's not expensive" },
-            { "id": "b", "text": "Yes, very expensive" },
-            { "id": "c", "text": "It doesn't say" }
+            {
+              "id": "a",
+              "text": "No, it's not expensive"
+            },
+            {
+              "id": "b",
+              "text": "Yes, very expensive"
+            },
+            {
+              "id": "c",
+              "text": "It doesn't say"
+            }
           ],
-          "correct": ["a"]
+          "correct": [
+            "a"
+          ]
         }
       ]
     },
@@ -116,8 +211,37 @@
       "prompt": "Choose the adjective that fits BEFORE the noun (a good restaurant).",
       "inputMode": "dropdown",
       "template": "C'est un {{b1}} restaurant.",
-      "blanks": [{ "id": "b1", "accept": ["bon"], "options": ["bon", "délicieux"] }],
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "bon"
+          ],
+          "options": [
+            "bon",
+            "délicieux"
+          ]
+        }
+      ],
       "explanation": "bon goes before the noun: un bon restaurant."
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "Je voudrais réserver une table pour deux.",
+      "targetEn": "I'd like to book a table for two.",
+      "audio": "audio/a1.2/unit-08-restaurant/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "Je vais commander le plat du jour.",
+      "targetEn": "I'll order the dish of the day.",
+      "audio": "audio/a1.2/unit-08-restaurant/example-ex-3.mp3"
     }
   ]
 }

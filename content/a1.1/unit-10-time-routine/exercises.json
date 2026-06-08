@@ -9,11 +9,22 @@
       "skill": "reading",
       "prompt": "What does « Quelle heure est-il ? » ask?",
       "options": [
-        { "id": "a", "text": "What time is it?" },
-        { "id": "b", "text": "What's your name?" },
-        { "id": "c", "text": "How are you?" }
+        {
+          "id": "a",
+          "text": "What time is it?"
+        },
+        {
+          "id": "b",
+          "text": "What's your name?"
+        },
+        {
+          "id": "c",
+          "text": "How are you?"
+        }
       ],
-      "correct": ["a"],
+      "correct": [
+        "a"
+      ],
       "explanation": "« Quelle heure est-il ? » = What time is it?"
     },
     {
@@ -22,11 +33,22 @@
       "skill": "writing",
       "prompt": "Which correctly says \"I get up at seven\"?",
       "options": [
-        { "id": "a", "text": "Je me lève à sept heures." },
-        { "id": "b", "text": "Je lève à sept heures." },
-        { "id": "c", "text": "Je me lever à sept heures." }
+        {
+          "id": "a",
+          "text": "Je me lève à sept heures."
+        },
+        {
+          "id": "b",
+          "text": "Je lève à sept heures."
+        },
+        {
+          "id": "c",
+          "text": "Je me lever à sept heures."
+        }
       ],
-      "correct": ["a"],
+      "correct": [
+        "a"
+      ],
       "explanation": "se lever is reflexive: je ME lève (and the verb is conjugated, not the infinitive)."
     },
     {
@@ -36,7 +58,14 @@
       "prompt": "Add the reflexive pronoun.",
       "inputMode": "typed",
       "template": "Le matin, je {{b1}} lève tôt.",
-      "blanks": [{ "id": "b1", "accept": ["me"] }],
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "me"
+          ]
+        }
+      ],
       "explanation": "je me lève — the reflexive pronoun for je is me."
     },
     {
@@ -45,10 +74,26 @@
       "skill": "reading",
       "prompt": "Match each word to its English meaning.",
       "pairs": [
-        { "id": "p1", "left": "le matin", "right": "morning" },
-        { "id": "p2", "left": "le soir", "right": "evening" },
-        { "id": "p3", "left": "midi", "right": "noon" },
-        { "id": "p4", "left": "la nuit", "right": "night" }
+        {
+          "id": "p1",
+          "left": "le matin",
+          "right": "morning"
+        },
+        {
+          "id": "p2",
+          "left": "le soir",
+          "right": "evening"
+        },
+        {
+          "id": "p3",
+          "left": "midi",
+          "right": "noon"
+        },
+        {
+          "id": "p4",
+          "left": "la nuit",
+          "right": "night"
+        }
       ]
     },
     {
@@ -57,12 +102,29 @@
       "skill": "writing",
       "prompt": "Put the words in order to say \"It is eight o'clock.\"",
       "tokens": [
-        { "id": "t1", "text": "Il" },
-        { "id": "t2", "text": "est" },
-        { "id": "t3", "text": "huit" },
-        { "id": "t4", "text": "heures" }
+        {
+          "id": "t1",
+          "text": "Il"
+        },
+        {
+          "id": "t2",
+          "text": "est"
+        },
+        {
+          "id": "t3",
+          "text": "huit"
+        },
+        {
+          "id": "t4",
+          "text": "heures"
+        }
       ],
-      "correctOrder": ["t1", "t2", "t3", "t4"]
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4"
+      ]
     },
     {
       "id": "ex-li-1",
@@ -72,11 +134,22 @@
       "audio": "audio/a1.1/unit-10-time-routine/listen-1.mp3",
       "transcript": "Je me lève à sept heures et je me couche à dix heures.",
       "options": [
-        { "id": "a", "text": "7:00" },
-        { "id": "b", "text": "8:00" },
-        { "id": "c", "text": "10:00" }
+        {
+          "id": "a",
+          "text": "7:00"
+        },
+        {
+          "id": "b",
+          "text": "8:00"
+        },
+        {
+          "id": "c",
+          "text": "10:00"
+        }
       ],
-      "correct": ["a"],
+      "correct": [
+        "a"
+      ],
       "explanation": "« je me lève à sept heures » = I get up at 7."
     },
     {
@@ -91,21 +164,43 @@
           "id": "q1",
           "prompt": "When does Marie get up?",
           "options": [
-            { "id": "a", "text": "At six in the morning" },
-            { "id": "b", "text": "At noon" },
-            { "id": "c", "text": "At ten in the evening" }
+            {
+              "id": "a",
+              "text": "At six in the morning"
+            },
+            {
+              "id": "b",
+              "text": "At noon"
+            },
+            {
+              "id": "c",
+              "text": "At ten in the evening"
+            }
           ],
-          "correct": ["a"]
+          "correct": [
+            "a"
+          ]
         },
         {
           "id": "q2",
           "prompt": "When does she go to bed?",
           "options": [
-            { "id": "a", "text": "At ten in the evening" },
-            { "id": "b", "text": "At six in the morning" },
-            { "id": "c", "text": "At noon" }
+            {
+              "id": "a",
+              "text": "At ten in the evening"
+            },
+            {
+              "id": "b",
+              "text": "At six in the morning"
+            },
+            {
+              "id": "c",
+              "text": "At noon"
+            }
           ],
-          "correct": ["a"]
+          "correct": [
+            "a"
+          ]
         }
       ]
     },
@@ -116,8 +211,37 @@
       "prompt": "It's 12:00 midday. Choose the right word.",
       "inputMode": "dropdown",
       "template": "Il est {{b1}}.",
-      "blanks": [{ "id": "b1", "accept": ["midi"], "options": ["midi", "minuit"] }],
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "midi"
+          ],
+          "options": [
+            "midi",
+            "minuit"
+          ]
+        }
+      ],
       "explanation": "midi = noon (12:00 midday); minuit = midnight."
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "Quelle heure est-il ?",
+      "targetEn": "What time is it?",
+      "audio": "audio/a1.1/unit-10-time-routine/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "Je me lève à sept heures.",
+      "targetEn": "I get up at seven.",
+      "audio": "audio/a1.1/unit-10-time-routine/example-ex-3.mp3"
     }
   ]
 }

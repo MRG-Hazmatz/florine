@@ -9,12 +9,26 @@
       "skill": "reading",
       "prompt": "Which number comes right after « huit »?",
       "options": [
-        { "id": "a", "text": "sept" },
-        { "id": "b", "text": "neuf" },
-        { "id": "c", "text": "dix" },
-        { "id": "d", "text": "six" }
+        {
+          "id": "a",
+          "text": "sept"
+        },
+        {
+          "id": "b",
+          "text": "neuf"
+        },
+        {
+          "id": "c",
+          "text": "dix"
+        },
+        {
+          "id": "d",
+          "text": "six"
+        }
       ],
-      "correct": ["b"],
+      "correct": [
+        "b"
+      ],
       "explanation": "sept (7), huit (8), neuf (9), dix (10)."
     },
     {
@@ -25,8 +39,18 @@
       "inputMode": "typed",
       "template": "six, sept, {{b1}}, {{b2}}, dix",
       "blanks": [
-        { "id": "b1", "accept": ["huit"] },
-        { "id": "b2", "accept": ["neuf"] }
+        {
+          "id": "b1",
+          "accept": [
+            "huit"
+          ]
+        },
+        {
+          "id": "b2",
+          "accept": [
+            "neuf"
+          ]
+        }
       ],
       "explanation": "six, sept, huit, neuf, dix."
     },
@@ -36,11 +60,24 @@
       "skill": "writing",
       "prompt": "Put these numbers in DESCENDING order (biggest first).",
       "tokens": [
-        { "id": "t1", "text": "un" },
-        { "id": "t2", "text": "trois" },
-        { "id": "t3", "text": "cinq" }
+        {
+          "id": "t1",
+          "text": "un"
+        },
+        {
+          "id": "t2",
+          "text": "trois"
+        },
+        {
+          "id": "t3",
+          "text": "cinq"
+        }
       ],
-      "correctOrder": ["t3", "t2", "t1"],
+      "correctOrder": [
+        "t3",
+        "t2",
+        "t1"
+      ],
       "explanation": "Biggest first: cinq (5), trois (3), un (1)."
     },
     {
@@ -49,10 +86,26 @@
       "skill": "reading",
       "prompt": "Match each numeral to the French word.",
       "pairs": [
-        { "id": "p1", "left": "0", "right": "zéro" },
-        { "id": "p2", "left": "7", "right": "sept" },
-        { "id": "p3", "left": "8", "right": "huit" },
-        { "id": "p4", "left": "9", "right": "neuf" }
+        {
+          "id": "p1",
+          "left": "0",
+          "right": "zéro"
+        },
+        {
+          "id": "p2",
+          "left": "7",
+          "right": "sept"
+        },
+        {
+          "id": "p3",
+          "left": "8",
+          "right": "huit"
+        },
+        {
+          "id": "p4",
+          "left": "9",
+          "right": "neuf"
+        }
       ]
     },
     {
@@ -63,11 +116,22 @@
       "audio": "audio/a1.1/unit-02-numbers/listen-1.mp3",
       "transcript": "J'ai sept ans.",
       "options": [
-        { "id": "a", "text": "6" },
-        { "id": "b", "text": "7" },
-        { "id": "c", "text": "8" }
+        {
+          "id": "a",
+          "text": "6"
+        },
+        {
+          "id": "b",
+          "text": "7"
+        },
+        {
+          "id": "c",
+          "text": "8"
+        }
       ],
-      "correct": ["b"],
+      "correct": [
+        "b"
+      ],
       "explanation": "« J'ai sept ans » = I am seven years old."
     },
     {
@@ -82,21 +146,43 @@
           "id": "q1",
           "prompt": "How old is Tom?",
           "options": [
-            { "id": "a", "text": "6" },
-            { "id": "b", "text": "8" },
-            { "id": "c", "text": "10" }
+            {
+              "id": "a",
+              "text": "6"
+            },
+            {
+              "id": "b",
+              "text": "8"
+            },
+            {
+              "id": "c",
+              "text": "10"
+            }
           ],
-          "correct": ["b"]
+          "correct": [
+            "b"
+          ]
         },
         {
           "id": "q2",
           "prompt": "How many brothers does he have?",
           "options": [
-            { "id": "a", "text": "1" },
-            { "id": "b", "text": "2" },
-            { "id": "c", "text": "3" }
+            {
+              "id": "a",
+              "text": "1"
+            },
+            {
+              "id": "b",
+              "text": "2"
+            },
+            {
+              "id": "c",
+              "text": "3"
+            }
           ],
-          "correct": ["b"]
+          "correct": [
+            "b"
+          ]
         }
       ]
     },
@@ -107,7 +193,14 @@
       "prompt": "Write the number in words.",
       "inputMode": "typed",
       "template": "4 = {{b1}}",
-      "blanks": [{ "id": "b1", "accept": ["quatre"] }],
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "quatre"
+          ]
+        }
+      ],
       "explanation": "4 = quatre."
     },
     {
@@ -116,11 +209,22 @@
       "skill": "reading",
       "prompt": "« Trois cafés, s'il vous plaît. » How many coffees are ordered?",
       "options": [
-        { "id": "a", "text": "2" },
-        { "id": "b", "text": "3" },
-        { "id": "c", "text": "4" }
+        {
+          "id": "a",
+          "text": "2"
+        },
+        {
+          "id": "b",
+          "text": "3"
+        },
+        {
+          "id": "c",
+          "text": "4"
+        }
       ],
-      "correct": ["b"],
+      "correct": [
+        "b"
+      ],
       "explanation": "trois = 3."
     },
     {
@@ -129,11 +233,22 @@
       "skill": "reading",
       "prompt": "Which number is « seize »?",
       "options": [
-        { "id": "a", "text": "6" },
-        { "id": "b", "text": "16" },
-        { "id": "c", "text": "60" }
+        {
+          "id": "a",
+          "text": "6"
+        },
+        {
+          "id": "b",
+          "text": "16"
+        },
+        {
+          "id": "c",
+          "text": "60"
+        }
       ],
-      "correct": ["b"],
+      "correct": [
+        "b"
+      ],
       "explanation": "seize = 16. (six = 6, soixante = 60)"
     },
     {
@@ -143,7 +258,14 @@
       "prompt": "Write the number in words.",
       "inputMode": "typed",
       "template": "40 = {{b1}}",
-      "blanks": [{ "id": "b1", "accept": ["quarante"] }],
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "quarante"
+          ]
+        }
+      ],
       "explanation": "40 = quarante."
     },
     {
@@ -152,12 +274,41 @@
       "skill": "reading",
       "prompt": "What number is « vingt-trois »?",
       "options": [
-        { "id": "a", "text": "13" },
-        { "id": "b", "text": "23" },
-        { "id": "c", "text": "32" }
+        {
+          "id": "a",
+          "text": "13"
+        },
+        {
+          "id": "b",
+          "text": "23"
+        },
+        {
+          "id": "c",
+          "text": "32"
+        }
       ],
-      "correct": ["b"],
+      "correct": [
+        "b"
+      ],
       "explanation": "vingt (20) + trois (3) = vingt-trois (23)."
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "Un, deux, trois !",
+      "targetEn": "One, two, three!",
+      "audio": "audio/a1.1/unit-02-numbers/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "Il est huit heures.",
+      "targetEn": "It is eight o'clock.",
+      "audio": "audio/a1.1/unit-02-numbers/example-ex-3.mp3"
     }
   ]
 }

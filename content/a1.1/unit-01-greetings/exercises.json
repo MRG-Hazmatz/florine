@@ -9,12 +9,26 @@
       "skill": "reading",
       "prompt": "You are introduced to your friend's grandmother. Which greeting is most appropriate?",
       "options": [
-        { "id": "a", "text": "Salut !" },
-        { "id": "b", "text": "Coucou !" },
-        { "id": "c", "text": "Bonjour, madame." },
-        { "id": "d", "text": "Ça va ?" }
+        {
+          "id": "a",
+          "text": "Salut !"
+        },
+        {
+          "id": "b",
+          "text": "Coucou !"
+        },
+        {
+          "id": "c",
+          "text": "Bonjour, madame."
+        },
+        {
+          "id": "d",
+          "text": "Ça va ?"
+        }
       ],
-      "correct": ["c"],
+      "correct": [
+        "c"
+      ],
       "explanation": "With an elder or someone you don't know, use the polite « Bonjour, madame. » Salut and Coucou are informal."
     },
     {
@@ -24,7 +38,14 @@
       "prompt": "It is 8 p.m. Greet someone with the right time-of-day word.",
       "inputMode": "typed",
       "template": "{{b1}}, madame.",
-      "blanks": [{ "id": "b1", "accept": ["bonsoir"] }],
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "bonsoir"
+          ]
+        }
+      ],
       "explanation": "Bonjour is for the daytime; in the evening you switch to Bonsoir."
     },
     {
@@ -33,12 +54,26 @@
       "skill": "reading",
       "prompt": "Which is the FORMAL way to ask how someone is?",
       "options": [
-        { "id": "a", "text": "Ça va ?" },
-        { "id": "b", "text": "Comment ça va ?" },
-        { "id": "c", "text": "Tu vas bien ?" },
-        { "id": "d", "text": "Comment allez-vous ?" }
+        {
+          "id": "a",
+          "text": "Ça va ?"
+        },
+        {
+          "id": "b",
+          "text": "Comment ça va ?"
+        },
+        {
+          "id": "c",
+          "text": "Tu vas bien ?"
+        },
+        {
+          "id": "d",
+          "text": "Comment allez-vous ?"
+        }
       ],
-      "correct": ["d"],
+      "correct": [
+        "d"
+      ],
       "explanation": "« Comment allez-vous ? » uses vous and is the formal/polite form. The others are informal (tu)."
     },
     {
@@ -48,7 +83,18 @@
       "prompt": "You greet a close friend. Choose the natural, informal greeting.",
       "inputMode": "dropdown",
       "template": "{{b1}} ! Ça va ?",
-      "blanks": [{ "id": "b1", "accept": ["Salut"], "options": ["Salut", "Bonjour madame"] }],
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "Salut"
+          ],
+          "options": [
+            "Salut",
+            "Bonjour madame"
+          ]
+        }
+      ],
       "explanation": "With a friend you use the informal « Salut ! ». « Bonjour madame » would be far too formal."
     },
     {
@@ -57,10 +103,26 @@
       "skill": "reading",
       "prompt": "Match each French expression to its English meaning.",
       "pairs": [
-        { "id": "p1", "left": "bonsoir", "right": "good evening" },
-        { "id": "p2", "left": "au revoir", "right": "goodbye" },
-        { "id": "p3", "left": "s'il vous plaît", "right": "please" },
-        { "id": "p4", "left": "enchanté", "right": "pleased to meet you" }
+        {
+          "id": "p1",
+          "left": "bonsoir",
+          "right": "good evening"
+        },
+        {
+          "id": "p2",
+          "left": "au revoir",
+          "right": "goodbye"
+        },
+        {
+          "id": "p3",
+          "left": "s'il vous plaît",
+          "right": "please"
+        },
+        {
+          "id": "p4",
+          "left": "enchanté",
+          "right": "pleased to meet you"
+        }
       ]
     },
     {
@@ -69,12 +131,29 @@
       "skill": "writing",
       "prompt": "Put the words in order to ask someone's name politely.",
       "tokens": [
-        { "id": "t1", "text": "Comment" },
-        { "id": "t2", "text": "vous" },
-        { "id": "t3", "text": "appelez-vous" },
-        { "id": "t4", "text": "?" }
+        {
+          "id": "t1",
+          "text": "Comment"
+        },
+        {
+          "id": "t2",
+          "text": "vous"
+        },
+        {
+          "id": "t3",
+          "text": "appelez-vous"
+        },
+        {
+          "id": "t4",
+          "text": "?"
+        }
       ],
-      "correctOrder": ["t1", "t2", "t3", "t4"],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4"
+      ],
       "explanation": "« Comment vous appelez-vous ? » is the formal way to ask someone's name."
     },
     {
@@ -85,10 +164,18 @@
       "audio": "audio/a1.1/unit-01-greetings/listen-1.mp3",
       "transcript": "Bonsoir madame, comment allez-vous ?",
       "options": [
-        { "id": "a", "text": "Formal" },
-        { "id": "b", "text": "Informal" }
+        {
+          "id": "a",
+          "text": "Formal"
+        },
+        {
+          "id": "b",
+          "text": "Informal"
+        }
       ],
-      "correct": ["a"],
+      "correct": [
+        "a"
+      ],
       "explanation": "« madame » and « allez-vous » (vous) signal a formal, polite greeting."
     },
     {
@@ -103,23 +190,63 @@
           "id": "q1",
           "prompt": "What time of day is it, most likely?",
           "options": [
-            { "id": "a", "text": "Morning" },
-            { "id": "b", "text": "Evening" },
-            { "id": "c", "text": "Middle of the night" }
+            {
+              "id": "a",
+              "text": "Morning"
+            },
+            {
+              "id": "b",
+              "text": "Evening"
+            },
+            {
+              "id": "c",
+              "text": "Middle of the night"
+            }
           ],
-          "correct": ["b"]
+          "correct": [
+            "b"
+          ]
         },
         {
           "id": "q2",
           "prompt": "How are the two people speaking to each other?",
           "options": [
-            { "id": "a", "text": "Formally" },
-            { "id": "b", "text": "Informally" },
-            { "id": "c", "text": "Angrily" }
+            {
+              "id": "a",
+              "text": "Formally"
+            },
+            {
+              "id": "b",
+              "text": "Informally"
+            },
+            {
+              "id": "c",
+              "text": "Angrily"
+            }
           ],
-          "correct": ["a"]
+          "correct": [
+            "a"
+          ]
         }
       ]
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "Bonjour, je m'appelle Claire.",
+      "targetEn": "Hello, my name is Claire.",
+      "audio": "audio/a1.1/unit-01-greetings/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "Comment ça va ? — Ça va bien, merci.",
+      "targetEn": "How are you? — I'm well, thank you.",
+      "audio": "audio/a1.1/unit-01-greetings/example-ex-3.mp3"
     }
   ]
 }

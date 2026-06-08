@@ -9,11 +9,22 @@
       "skill": "reading",
       "prompt": "What does « Comment ça s'écrit ? » mean?",
       "options": [
-        { "id": "a", "text": "How is it spelled?" },
-        { "id": "b", "text": "What's your name?" },
-        { "id": "c", "text": "How are you?" }
+        {
+          "id": "a",
+          "text": "How is it spelled?"
+        },
+        {
+          "id": "b",
+          "text": "What's your name?"
+        },
+        {
+          "id": "c",
+          "text": "How are you?"
+        }
       ],
-      "correct": ["a"],
+      "correct": [
+        "a"
+      ],
       "explanation": "« Comment ça s'écrit ? » = How is it spelled / written?"
     },
     {
@@ -22,11 +33,22 @@
       "skill": "writing",
       "prompt": "Complete: « ___ est votre nom ? » (nom is masculine)",
       "options": [
-        { "id": "a", "text": "Quel" },
-        { "id": "b", "text": "Quelle" },
-        { "id": "c", "text": "Qui" }
+        {
+          "id": "a",
+          "text": "Quel"
+        },
+        {
+          "id": "b",
+          "text": "Quelle"
+        },
+        {
+          "id": "c",
+          "text": "Qui"
+        }
       ],
-      "correct": ["a"],
+      "correct": [
+        "a"
+      ],
       "explanation": "quel agrees with the noun; nom is masculine → quel."
     },
     {
@@ -35,11 +57,22 @@
       "skill": "reading",
       "prompt": "The accent on « é » is called:",
       "options": [
-        { "id": "a", "text": "un accent aigu" },
-        { "id": "b", "text": "un accent grave" },
-        { "id": "c", "text": "une cédille" }
+        {
+          "id": "a",
+          "text": "un accent aigu"
+        },
+        {
+          "id": "b",
+          "text": "un accent grave"
+        },
+        {
+          "id": "c",
+          "text": "une cédille"
+        }
       ],
-      "correct": ["a"],
+      "correct": [
+        "a"
+      ],
       "explanation": "é = e accent aigu. (è = grave, ç = cédille)"
     },
     {
@@ -48,10 +81,26 @@
       "skill": "reading",
       "prompt": "Match each word to its English meaning.",
       "pairs": [
-        { "id": "p1", "left": "le nom", "right": "surname" },
-        { "id": "p2", "left": "le prénom", "right": "first name" },
-        { "id": "p3", "left": "épeler", "right": "to spell" },
-        { "id": "p4", "left": "le numéro", "right": "number" }
+        {
+          "id": "p1",
+          "left": "le nom",
+          "right": "surname"
+        },
+        {
+          "id": "p2",
+          "left": "le prénom",
+          "right": "first name"
+        },
+        {
+          "id": "p3",
+          "left": "épeler",
+          "right": "to spell"
+        },
+        {
+          "id": "p4",
+          "left": "le numéro",
+          "right": "number"
+        }
       ]
     },
     {
@@ -60,12 +109,29 @@
       "skill": "writing",
       "prompt": "Put the words in order to ask \"How is it spelled?\"",
       "tokens": [
-        { "id": "t1", "text": "Comment" },
-        { "id": "t2", "text": "ça" },
-        { "id": "t3", "text": "s'écrit" },
-        { "id": "t4", "text": "?" }
+        {
+          "id": "t1",
+          "text": "Comment"
+        },
+        {
+          "id": "t2",
+          "text": "ça"
+        },
+        {
+          "id": "t3",
+          "text": "s'écrit"
+        },
+        {
+          "id": "t4",
+          "text": "?"
+        }
       ],
-      "correctOrder": ["t1", "t2", "t3", "t4"]
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4"
+      ]
     },
     {
       "id": "ex-li-1",
@@ -75,11 +141,22 @@
       "audio": "audio/a1.1/unit-12-alphabet/listen-1.mp3",
       "transcript": "Bonjour, mon prénom est Léa et mon nom est Martin.",
       "options": [
-        { "id": "a", "text": "Léa" },
-        { "id": "b", "text": "Martin" },
-        { "id": "c", "text": "Marie" }
+        {
+          "id": "a",
+          "text": "Léa"
+        },
+        {
+          "id": "b",
+          "text": "Martin"
+        },
+        {
+          "id": "c",
+          "text": "Marie"
+        }
       ],
-      "correct": ["a"],
+      "correct": [
+        "a"
+      ],
       "explanation": "prénom = first name (Léa); Martin is the nom (surname)."
     },
     {
@@ -94,21 +171,43 @@
           "id": "q1",
           "prompt": "What is the first name?",
           "options": [
-            { "id": "a", "text": "Marc" },
-            { "id": "b", "text": "Dubois" },
-            { "id": "c", "text": "Léa" }
+            {
+              "id": "a",
+              "text": "Marc"
+            },
+            {
+              "id": "b",
+              "text": "Dubois"
+            },
+            {
+              "id": "c",
+              "text": "Léa"
+            }
           ],
-          "correct": ["a"]
+          "correct": [
+            "a"
+          ]
         },
         {
           "id": "q2",
           "prompt": "What is the surname?",
           "options": [
-            { "id": "a", "text": "Dubois" },
-            { "id": "b", "text": "Marc" },
-            { "id": "c", "text": "Martin" }
+            {
+              "id": "a",
+              "text": "Dubois"
+            },
+            {
+              "id": "b",
+              "text": "Marc"
+            },
+            {
+              "id": "c",
+              "text": "Martin"
+            }
           ],
-          "correct": ["a"]
+          "correct": [
+            "a"
+          ]
         }
       ]
     },
@@ -119,8 +218,37 @@
       "prompt": "Choose quel or quelle (adresse is feminine).",
       "inputMode": "dropdown",
       "template": "{{b1}} est votre adresse ?",
-      "blanks": [{ "id": "b1", "accept": ["Quelle"], "options": ["Quel", "Quelle"] }],
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "Quelle"
+          ],
+          "options": [
+            "Quel",
+            "Quelle"
+          ]
+        }
+      ],
       "explanation": "adresse is feminine → Quelle."
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "Comment ça s'écrit ?",
+      "targetEn": "How is it spelled?",
+      "audio": "audio/a1.1/unit-12-alphabet/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "É, c'est un e accent aigu.",
+      "targetEn": "É is an e with an acute accent.",
+      "audio": "audio/a1.1/unit-12-alphabet/example-ex-3.mp3"
     }
   ]
 }

@@ -9,11 +9,22 @@
       "skill": "reading",
       "prompt": "What is « je mange » in the passé composé (past)?",
       "options": [
-        { "id": "a", "text": "j'ai mangé" },
-        { "id": "b", "text": "je mangé" },
-        { "id": "c", "text": "j'ai manger" }
+        {
+          "id": "a",
+          "text": "j'ai mangé"
+        },
+        {
+          "id": "b",
+          "text": "je mangé"
+        },
+        {
+          "id": "c",
+          "text": "j'ai manger"
+        }
       ],
-      "correct": ["a"],
+      "correct": [
+        "a"
+      ],
       "explanation": "avoir (j'ai) + past participle (mangé). Not the infinitive 'manger'."
     },
     {
@@ -22,11 +33,22 @@
       "skill": "writing",
       "prompt": "What is the past participle of « regarder »?",
       "options": [
-        { "id": "a", "text": "regardé" },
-        { "id": "b", "text": "regarder" },
-        { "id": "c", "text": "regardez" }
+        {
+          "id": "a",
+          "text": "regardé"
+        },
+        {
+          "id": "b",
+          "text": "regarder"
+        },
+        {
+          "id": "c",
+          "text": "regardez"
+        }
       ],
-      "correct": ["a"],
+      "correct": [
+        "a"
+      ],
       "explanation": "-er verbs → -é: regarder → regardé."
     },
     {
@@ -36,7 +58,14 @@
       "prompt": "Add the correct form of avoir (the auxiliary).",
       "inputMode": "typed",
       "template": "Hier, nous {{b1}} regardé un film.",
-      "blanks": [{ "id": "b1", "accept": ["avons"] }],
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "avons"
+          ]
+        }
+      ],
       "explanation": "nous avons + regardé."
     },
     {
@@ -45,10 +74,26 @@
       "skill": "reading",
       "prompt": "Match each word to its English meaning.",
       "pairs": [
-        { "id": "p1", "left": "hier", "right": "yesterday" },
-        { "id": "p2", "left": "fait", "right": "done / made" },
-        { "id": "p3", "left": "vu", "right": "seen" },
-        { "id": "p4", "left": "acheté", "right": "bought" }
+        {
+          "id": "p1",
+          "left": "hier",
+          "right": "yesterday"
+        },
+        {
+          "id": "p2",
+          "left": "fait",
+          "right": "done / made"
+        },
+        {
+          "id": "p3",
+          "left": "vu",
+          "right": "seen"
+        },
+        {
+          "id": "p4",
+          "left": "acheté",
+          "right": "bought"
+        }
       ]
     },
     {
@@ -57,12 +102,29 @@
       "skill": "writing",
       "prompt": "Put the words in order to say \"I ate a pizza.\"",
       "tokens": [
-        { "id": "t1", "text": "J'ai" },
-        { "id": "t2", "text": "mangé" },
-        { "id": "t3", "text": "une" },
-        { "id": "t4", "text": "pizza" }
+        {
+          "id": "t1",
+          "text": "J'ai"
+        },
+        {
+          "id": "t2",
+          "text": "mangé"
+        },
+        {
+          "id": "t3",
+          "text": "une"
+        },
+        {
+          "id": "t4",
+          "text": "pizza"
+        }
       ],
-      "correctOrder": ["t1", "t2", "t3", "t4"]
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4"
+      ]
     },
     {
       "id": "ex-li-1",
@@ -72,11 +134,22 @@
       "audio": "audio/a1.2/unit-02-past/listen-1.mp3",
       "transcript": "Hier, j'ai visité un musée avec un ami.",
       "options": [
-        { "id": "a", "text": "Visited a museum" },
-        { "id": "b", "text": "Watched a film" },
-        { "id": "c", "text": "Worked at home" }
+        {
+          "id": "a",
+          "text": "Visited a museum"
+        },
+        {
+          "id": "b",
+          "text": "Watched a film"
+        },
+        {
+          "id": "c",
+          "text": "Worked at home"
+        }
       ],
-      "correct": ["a"],
+      "correct": [
+        "a"
+      ],
       "explanation": "« j'ai visité un musée » = I visited a museum."
     },
     {
@@ -91,21 +164,43 @@
           "id": "q1",
           "prompt": "Which city did they visit?",
           "options": [
-            { "id": "a", "text": "Paris" },
-            { "id": "b", "text": "Lyon" },
-            { "id": "c", "text": "Nice" }
+            {
+              "id": "a",
+              "text": "Paris"
+            },
+            {
+              "id": "b",
+              "text": "Lyon"
+            },
+            {
+              "id": "c",
+              "text": "Nice"
+            }
           ],
-          "correct": ["a"]
+          "correct": [
+            "a"
+          ]
         },
         {
           "id": "q2",
           "prompt": "What did they see?",
           "options": [
-            { "id": "a", "text": "The Eiffel Tower" },
-            { "id": "b", "text": "The sea" },
-            { "id": "c", "text": "A film" }
+            {
+              "id": "a",
+              "text": "The Eiffel Tower"
+            },
+            {
+              "id": "b",
+              "text": "The sea"
+            },
+            {
+              "id": "c",
+              "text": "A film"
+            }
           ],
-          "correct": ["a"]
+          "correct": [
+            "a"
+          ]
         }
       ]
     },
@@ -116,8 +211,37 @@
       "prompt": "Ask a friend (tu) if they did their homework.",
       "inputMode": "dropdown",
       "template": "Tu {{b1}} fait tes devoirs ?",
-      "blanks": [{ "id": "b1", "accept": ["as"], "options": ["as", "avez"] }],
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "as"
+          ],
+          "options": [
+            "as",
+            "avez"
+          ]
+        }
+      ],
       "explanation": "tu as fait (avez is the vous form)."
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "Hier, j'ai mangé au restaurant.",
+      "targetEn": "Yesterday, I ate at the restaurant.",
+      "audio": "audio/a1.2/unit-02-past/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "Nous avons visité Paris.",
+      "targetEn": "We visited Paris.",
+      "audio": "audio/a1.2/unit-02-past/example-ex-3.mp3"
     }
   ]
 }

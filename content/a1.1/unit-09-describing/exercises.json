@@ -9,11 +9,22 @@
       "skill": "writing",
       "prompt": "Marie is tall. Complete: « Marie est ___. »",
       "options": [
-        { "id": "a", "text": "grande" },
-        { "id": "b", "text": "grand" },
-        { "id": "c", "text": "grands" }
+        {
+          "id": "a",
+          "text": "grande"
+        },
+        {
+          "id": "b",
+          "text": "grand"
+        },
+        {
+          "id": "c",
+          "text": "grands"
+        }
       ],
-      "correct": ["a"],
+      "correct": [
+        "a"
+      ],
       "explanation": "Marie is feminine, so the adjective adds -e: grand -> grande."
     },
     {
@@ -22,11 +33,22 @@
       "skill": "reading",
       "prompt": "\"He is nice.\" Which is correct?",
       "options": [
-        { "id": "a", "text": "Il est sympa." },
-        { "id": "b", "text": "C'est sympa." },
-        { "id": "c", "text": "C'est un sympa." }
+        {
+          "id": "a",
+          "text": "Il est sympa."
+        },
+        {
+          "id": "b",
+          "text": "C'est sympa."
+        },
+        {
+          "id": "c",
+          "text": "C'est un sympa."
+        }
       ],
-      "correct": ["a"],
+      "correct": [
+        "a"
+      ],
       "explanation": "Use il/elle est + a bare adjective. (c'est is for c'est + article + noun.)"
     },
     {
@@ -37,8 +59,18 @@
       "inputMode": "typed",
       "template": "Il est {{b1}} et elle est {{b2}}.",
       "blanks": [
-        { "id": "b1", "accept": ["petit"] },
-        { "id": "b2", "accept": ["petite"] }
+        {
+          "id": "b1",
+          "accept": [
+            "petit"
+          ]
+        },
+        {
+          "id": "b2",
+          "accept": [
+            "petite"
+          ]
+        }
       ],
       "explanation": "Masculine petit, feminine petite."
     },
@@ -48,10 +80,26 @@
       "skill": "reading",
       "prompt": "Match each adjective to its English meaning.",
       "pairs": [
-        { "id": "p1", "left": "grand", "right": "tall" },
-        { "id": "p2", "left": "gentil", "right": "kind" },
-        { "id": "p3", "left": "timide", "right": "shy" },
-        { "id": "p4", "left": "drôle", "right": "funny" }
+        {
+          "id": "p1",
+          "left": "grand",
+          "right": "tall"
+        },
+        {
+          "id": "p2",
+          "left": "gentil",
+          "right": "kind"
+        },
+        {
+          "id": "p3",
+          "left": "timide",
+          "right": "shy"
+        },
+        {
+          "id": "p4",
+          "left": "drôle",
+          "right": "funny"
+        }
       ]
     },
     {
@@ -60,12 +108,29 @@
       "skill": "writing",
       "prompt": "Put the words in order to say \"She is very kind.\"",
       "tokens": [
-        { "id": "t1", "text": "Elle" },
-        { "id": "t2", "text": "est" },
-        { "id": "t3", "text": "très" },
-        { "id": "t4", "text": "gentille" }
+        {
+          "id": "t1",
+          "text": "Elle"
+        },
+        {
+          "id": "t2",
+          "text": "est"
+        },
+        {
+          "id": "t3",
+          "text": "très"
+        },
+        {
+          "id": "t4",
+          "text": "gentille"
+        }
       ],
-      "correctOrder": ["t1", "t2", "t3", "t4"]
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4"
+      ]
     },
     {
       "id": "ex-li-1",
@@ -75,11 +140,22 @@
       "audio": "audio/a1.1/unit-09-describing/listen-1.mp3",
       "transcript": "Mon frère est grand et il a les cheveux bruns.",
       "options": [
-        { "id": "a", "text": "Tall, with brown hair" },
-        { "id": "b", "text": "Short, with blond hair" },
-        { "id": "c", "text": "Young, with brown hair" }
+        {
+          "id": "a",
+          "text": "Tall, with brown hair"
+        },
+        {
+          "id": "b",
+          "text": "Short, with blond hair"
+        },
+        {
+          "id": "c",
+          "text": "Young, with brown hair"
+        }
       ],
-      "correct": ["a"],
+      "correct": [
+        "a"
+      ],
       "explanation": "« grand » (tall) + « les cheveux bruns » (brown hair)."
     },
     {
@@ -94,21 +170,43 @@
           "id": "q1",
           "prompt": "What is Léa like?",
           "options": [
-            { "id": "a", "text": "Short and funny" },
-            { "id": "b", "text": "Tall and serious" },
-            { "id": "c", "text": "Shy and quiet" }
+            {
+              "id": "a",
+              "text": "Short and funny"
+            },
+            {
+              "id": "b",
+              "text": "Tall and serious"
+            },
+            {
+              "id": "c",
+              "text": "Shy and quiet"
+            }
           ],
-          "correct": ["a"]
+          "correct": [
+            "a"
+          ]
         },
         {
           "id": "q2",
           "prompt": "What colour is her hair?",
           "options": [
-            { "id": "a", "text": "Blond" },
-            { "id": "b", "text": "Brown" },
-            { "id": "c", "text": "Black" }
+            {
+              "id": "a",
+              "text": "Blond"
+            },
+            {
+              "id": "b",
+              "text": "Brown"
+            },
+            {
+              "id": "c",
+              "text": "Black"
+            }
           ],
-          "correct": ["a"]
+          "correct": [
+            "a"
+          ]
         }
       ]
     },
@@ -119,8 +217,37 @@
       "prompt": "Introduce someone: \"It's a friend.\" Choose c'est or il est.",
       "inputMode": "dropdown",
       "template": "{{b1}} un ami.",
-      "blanks": [{ "id": "b1", "accept": ["C'est"], "options": ["C'est", "Il est"] }],
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "C'est"
+          ],
+          "options": [
+            "C'est",
+            "Il est"
+          ]
+        }
+      ],
       "explanation": "Before an article + noun (un ami), French uses « C'est », not « Il est »."
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "Elle est grande et sympa.",
+      "targetEn": "She is tall and friendly.",
+      "audio": "audio/a1.1/unit-09-describing/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "Marie est très intelligente.",
+      "targetEn": "Marie is very intelligent.",
+      "audio": "audio/a1.1/unit-09-describing/example-ex-3.mp3"
     }
   ]
 }

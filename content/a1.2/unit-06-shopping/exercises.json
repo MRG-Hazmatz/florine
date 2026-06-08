@@ -9,11 +9,22 @@
       "skill": "writing",
       "prompt": "Replace 'la robe': « Tu aimes la robe ? — Oui, je ___ aime. »",
       "options": [
-        { "id": "a", "text": "l'" },
-        { "id": "b", "text": "la" },
-        { "id": "c", "text": "le" }
+        {
+          "id": "a",
+          "text": "l'"
+        },
+        {
+          "id": "b",
+          "text": "la"
+        },
+        {
+          "id": "c",
+          "text": "le"
+        }
       ],
-      "correct": ["a"],
+      "correct": [
+        "a"
+      ],
       "explanation": "la → l' before a vowel: « je l'aime »."
     },
     {
@@ -22,11 +33,22 @@
       "skill": "writing",
       "prompt": "Replace 'le pantalon': « Tu prends le pantalon ? — Oui, je ___ prends. »",
       "options": [
-        { "id": "a", "text": "le" },
-        { "id": "b", "text": "la" },
-        { "id": "c", "text": "les" }
+        {
+          "id": "a",
+          "text": "le"
+        },
+        {
+          "id": "b",
+          "text": "la"
+        },
+        {
+          "id": "c",
+          "text": "les"
+        }
       ],
-      "correct": ["a"],
+      "correct": [
+        "a"
+      ],
       "explanation": "le pantalon (masculine) → le, before the verb: « je le prends »."
     },
     {
@@ -36,7 +58,14 @@
       "prompt": "Replace 'les chaussures' with the right pronoun.",
       "inputMode": "typed",
       "template": "Ces chaussures ? Je {{b1}} achète.",
-      "blanks": [{ "id": "b1", "accept": ["les"] }],
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "les"
+          ]
+        }
+      ],
       "explanation": "Plural object → les, before the verb: « je les achète »."
     },
     {
@@ -45,10 +74,26 @@
       "skill": "reading",
       "prompt": "Match each item of clothing to its English meaning.",
       "pairs": [
-        { "id": "p1", "left": "la robe", "right": "dress" },
-        { "id": "p2", "left": "le pantalon", "right": "trousers" },
-        { "id": "p3", "left": "les chaussures", "right": "shoes" },
-        { "id": "p4", "left": "le manteau", "right": "coat" }
+        {
+          "id": "p1",
+          "left": "la robe",
+          "right": "dress"
+        },
+        {
+          "id": "p2",
+          "left": "le pantalon",
+          "right": "trousers"
+        },
+        {
+          "id": "p3",
+          "left": "les chaussures",
+          "right": "shoes"
+        },
+        {
+          "id": "p4",
+          "left": "le manteau",
+          "right": "coat"
+        }
       ]
     },
     {
@@ -57,12 +102,29 @@
       "skill": "writing",
       "prompt": "Put the words in order to say \"I'm wearing a coat.\"",
       "tokens": [
-        { "id": "t1", "text": "Je" },
-        { "id": "t2", "text": "porte" },
-        { "id": "t3", "text": "un" },
-        { "id": "t4", "text": "manteau" }
+        {
+          "id": "t1",
+          "text": "Je"
+        },
+        {
+          "id": "t2",
+          "text": "porte"
+        },
+        {
+          "id": "t3",
+          "text": "un"
+        },
+        {
+          "id": "t4",
+          "text": "manteau"
+        }
       ],
-      "correctOrder": ["t1", "t2", "t3", "t4"]
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4"
+      ]
     },
     {
       "id": "ex-li-1",
@@ -72,11 +134,22 @@
       "audio": "audio/a1.2/unit-06-shopping/listen-1.mp3",
       "transcript": "J'aime cette chemise, je la prends.",
       "options": [
-        { "id": "a", "text": "To take the shirt" },
-        { "id": "b", "text": "Not to buy anything" },
-        { "id": "c", "text": "To try the shoes" }
+        {
+          "id": "a",
+          "text": "To take the shirt"
+        },
+        {
+          "id": "b",
+          "text": "Not to buy anything"
+        },
+        {
+          "id": "c",
+          "text": "To try the shoes"
+        }
       ],
-      "correct": ["a"],
+      "correct": [
+        "a"
+      ],
       "explanation": "« je la prends » = I'll take it (the shirt)."
     },
     {
@@ -91,21 +164,43 @@
           "id": "q1",
           "prompt": "Why doesn't the speaker buy the dress?",
           "options": [
-            { "id": "a", "text": "It's too expensive" },
-            { "id": "b", "text": "It's too small" },
-            { "id": "c", "text": "It's ugly" }
+            {
+              "id": "a",
+              "text": "It's too expensive"
+            },
+            {
+              "id": "b",
+              "text": "It's too small"
+            },
+            {
+              "id": "c",
+              "text": "It's ugly"
+            }
           ],
-          "correct": ["a"]
+          "correct": [
+            "a"
+          ]
         },
         {
           "id": "q2",
           "prompt": "What does the speaker prefer?",
           "options": [
-            { "id": "a", "text": "The blue shirt" },
-            { "id": "b", "text": "The coat" },
-            { "id": "c", "text": "The shoes" }
+            {
+              "id": "a",
+              "text": "The blue shirt"
+            },
+            {
+              "id": "b",
+              "text": "The coat"
+            },
+            {
+              "id": "c",
+              "text": "The shoes"
+            }
           ],
-          "correct": ["a"]
+          "correct": [
+            "a"
+          ]
         }
       ]
     },
@@ -116,8 +211,37 @@
       "prompt": "Replace 'les chaussures' (you adore them).",
       "inputMode": "dropdown",
       "template": "Tu aimes les chaussures ? Oui, je {{b1}} adore.",
-      "blanks": [{ "id": "b1", "accept": ["les"], "options": ["les", "le"] }],
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "les"
+          ],
+          "options": [
+            "les",
+            "le"
+          ]
+        }
+      ],
       "explanation": "Plural object → les: « je les adore »."
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "J'aime cette robe. Je la prends.",
+      "targetEn": "I like this dress. I'll take it.",
+      "audio": "audio/a1.2/unit-06-shopping/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "Ces chaussures ? Je les achète.",
+      "targetEn": "These shoes? I'll buy them.",
+      "audio": "audio/a1.2/unit-06-shopping/example-ex-3.mp3"
     }
   ]
 }

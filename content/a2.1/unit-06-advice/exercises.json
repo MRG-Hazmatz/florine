@@ -9,11 +9,22 @@
       "skill": "reading",
       "prompt": "After « il faut que », which verb form do you use?",
       "options": [
-        { "id": "a", "text": "the subjunctive (subjonctif)" },
-        { "id": "b", "text": "the future" },
-        { "id": "c", "text": "the infinitive" }
+        {
+          "id": "a",
+          "text": "the subjunctive (subjonctif)"
+        },
+        {
+          "id": "b",
+          "text": "the future"
+        },
+        {
+          "id": "c",
+          "text": "the infinitive"
+        }
       ],
-      "correct": ["a"],
+      "correct": [
+        "a"
+      ],
       "explanation": "il faut que triggers the subjunctive: il faut que tu sois, que tu aies…"
     },
     {
@@ -22,11 +33,22 @@
       "skill": "writing",
       "prompt": "Subjunctive of être: « Il faut que tu ___ à l'heure. »",
       "options": [
-        { "id": "a", "text": "sois" },
-        { "id": "b", "text": "es" },
-        { "id": "c", "text": "être" }
+        {
+          "id": "a",
+          "text": "sois"
+        },
+        {
+          "id": "b",
+          "text": "es"
+        },
+        {
+          "id": "c",
+          "text": "être"
+        }
       ],
-      "correct": ["a"],
+      "correct": [
+        "a"
+      ],
       "explanation": "être in the subjunctive: que tu sois."
     },
     {
@@ -36,7 +58,18 @@
       "prompt": "Give advice with devoir (you must prepare).",
       "inputMode": "dropdown",
       "template": "Tu {{b1}} préparer l'entretien.",
-      "blanks": [{ "id": "b1", "accept": ["dois"], "options": ["dois", "faut"] }],
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "dois"
+          ],
+          "options": [
+            "dois",
+            "faut"
+          ]
+        }
+      ],
       "explanation": "devoir: tu dois + infinitive. ('il faut' is impersonal — il faut préparer.)"
     },
     {
@@ -45,10 +78,26 @@
       "skill": "reading",
       "prompt": "Match each word to its English meaning.",
       "pairs": [
-        { "id": "p1", "left": "l'entretien", "right": "interview" },
-        { "id": "p2", "left": "le conseil", "right": "advice" },
-        { "id": "p3", "left": "à l'heure", "right": "on time" },
-        { "id": "p4", "left": "le patron", "right": "boss" }
+        {
+          "id": "p1",
+          "left": "l'entretien",
+          "right": "interview"
+        },
+        {
+          "id": "p2",
+          "left": "le conseil",
+          "right": "advice"
+        },
+        {
+          "id": "p3",
+          "left": "à l'heure",
+          "right": "on time"
+        },
+        {
+          "id": "p4",
+          "left": "le patron",
+          "right": "boss"
+        }
       ]
     },
     {
@@ -57,12 +106,29 @@
       "skill": "writing",
       "prompt": "Put the words in order: \"You must prepare for the interview.\"",
       "tokens": [
-        { "id": "t1", "text": "Tu" },
-        { "id": "t2", "text": "dois" },
-        { "id": "t3", "text": "préparer" },
-        { "id": "t4", "text": "l'entretien" }
+        {
+          "id": "t1",
+          "text": "Tu"
+        },
+        {
+          "id": "t2",
+          "text": "dois"
+        },
+        {
+          "id": "t3",
+          "text": "préparer"
+        },
+        {
+          "id": "t4",
+          "text": "l'entretien"
+        }
       ],
-      "correctOrder": ["t1", "t2", "t3", "t4"]
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4"
+      ]
     },
     {
       "id": "ex-li-1",
@@ -72,11 +138,22 @@
       "audio": "audio/a2.1/unit-06-advice/listen-1.mp3",
       "transcript": "Il faut que tu sois à l'heure pour l'entretien.",
       "options": [
-        { "id": "a", "text": "Be on time for the interview" },
-        { "id": "b", "text": "Bring your CV" },
-        { "id": "c", "text": "Call the boss" }
+        {
+          "id": "a",
+          "text": "Be on time for the interview"
+        },
+        {
+          "id": "b",
+          "text": "Bring your CV"
+        },
+        {
+          "id": "c",
+          "text": "Call the boss"
+        }
       ],
-      "correct": ["a"],
+      "correct": [
+        "a"
+      ],
       "explanation": "« il faut que tu sois à l'heure » = you must be on time."
     },
     {
@@ -91,21 +168,43 @@
           "id": "q1",
           "prompt": "What should you be at the interview?",
           "options": [
-            { "id": "a", "text": "Polite and motivated" },
-            { "id": "b", "text": "Late and quiet" },
-            { "id": "c", "text": "Funny and loud" }
+            {
+              "id": "a",
+              "text": "Polite and motivated"
+            },
+            {
+              "id": "b",
+              "text": "Late and quiet"
+            },
+            {
+              "id": "c",
+              "text": "Funny and loud"
+            }
           ],
-          "correct": ["a"]
+          "correct": [
+            "a"
+          ]
         },
         {
           "id": "q2",
           "prompt": "What is important?",
           "options": [
-            { "id": "a", "text": "To prepare well" },
-            { "id": "b", "text": "To bring food" },
-            { "id": "c", "text": "To arrive late" }
+            {
+              "id": "a",
+              "text": "To prepare well"
+            },
+            {
+              "id": "b",
+              "text": "To bring food"
+            },
+            {
+              "id": "c",
+              "text": "To arrive late"
+            }
           ],
-          "correct": ["a"]
+          "correct": [
+            "a"
+          ]
         }
       ]
     },
@@ -116,7 +215,18 @@
       "prompt": "Subjunctive of avoir after il faut que (you must be confident).",
       "inputMode": "dropdown",
       "template": "Il faut que tu {{b1}} confiance en toi.",
-      "blanks": [{ "id": "b1", "accept": ["aies"], "options": ["aies", "as"] }],
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "aies"
+          ],
+          "options": [
+            "aies",
+            "as"
+          ]
+        }
+      ],
       "explanation": "avoir in the subjunctive: que tu aies. ('tu as' is the ordinary present.)"
     },
     {
@@ -127,6 +237,15 @@
       "targetFr": "Il faut que tu sois à l'heure.",
       "targetEn": "You must be on time.",
       "audio": "audio/a2.1/unit-06-advice/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "Il est important d'être poli.",
+      "targetEn": "It's important to be polite.",
+      "audio": "audio/a2.1/unit-06-advice/example-ex-3.mp3"
     }
   ]
 }

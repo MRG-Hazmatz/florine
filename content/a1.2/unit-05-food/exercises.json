@@ -9,11 +9,22 @@
       "skill": "writing",
       "prompt": "Choose the partitive: « Je mange ___ pain. » (some bread, masculine)",
       "options": [
-        { "id": "a", "text": "du" },
-        { "id": "b", "text": "de la" },
-        { "id": "c", "text": "des" }
+        {
+          "id": "a",
+          "text": "du"
+        },
+        {
+          "id": "b",
+          "text": "de la"
+        },
+        {
+          "id": "c",
+          "text": "des"
+        }
       ],
-      "correct": ["a"],
+      "correct": [
+        "a"
+      ],
       "explanation": "pain is masculine → du pain (some bread)."
     },
     {
@@ -22,11 +33,22 @@
       "skill": "writing",
       "prompt": "After a negative, the partitive becomes: « Je ne mange pas ___ viande. »",
       "options": [
-        { "id": "a", "text": "de" },
-        { "id": "b", "text": "de la" },
-        { "id": "c", "text": "du" }
+        {
+          "id": "a",
+          "text": "de"
+        },
+        {
+          "id": "b",
+          "text": "de la"
+        },
+        {
+          "id": "c",
+          "text": "du"
+        }
       ],
-      "correct": ["a"],
+      "correct": [
+        "a"
+      ],
       "explanation": "After ne…pas, du/de la/des all become de: « pas de viande »."
     },
     {
@@ -36,7 +58,18 @@
       "prompt": "Choose the partitive before a vowel (water).",
       "inputMode": "dropdown",
       "template": "Elle boit {{b1}} eau.",
-      "blanks": [{ "id": "b1", "accept": ["de l'"], "options": ["de l'", "du"] }],
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "de l'"
+          ],
+          "options": [
+            "de l'",
+            "du"
+          ]
+        }
+      ],
       "explanation": "Before a vowel, du/de la → de l': de l'eau."
     },
     {
@@ -45,10 +78,26 @@
       "skill": "reading",
       "prompt": "Match each food/drink to its English meaning.",
       "pairs": [
-        { "id": "p1", "left": "le pain", "right": "bread" },
-        { "id": "p2", "left": "l'eau", "right": "water" },
-        { "id": "p3", "left": "le fromage", "right": "cheese" },
-        { "id": "p4", "left": "le lait", "right": "milk" }
+        {
+          "id": "p1",
+          "left": "le pain",
+          "right": "bread"
+        },
+        {
+          "id": "p2",
+          "left": "l'eau",
+          "right": "water"
+        },
+        {
+          "id": "p3",
+          "left": "le fromage",
+          "right": "cheese"
+        },
+        {
+          "id": "p4",
+          "left": "le lait",
+          "right": "milk"
+        }
       ]
     },
     {
@@ -57,12 +106,29 @@
       "skill": "writing",
       "prompt": "Put the words in order to say \"I eat (some) bread.\"",
       "tokens": [
-        { "id": "t1", "text": "Je" },
-        { "id": "t2", "text": "mange" },
-        { "id": "t3", "text": "du" },
-        { "id": "t4", "text": "pain" }
+        {
+          "id": "t1",
+          "text": "Je"
+        },
+        {
+          "id": "t2",
+          "text": "mange"
+        },
+        {
+          "id": "t3",
+          "text": "du"
+        },
+        {
+          "id": "t4",
+          "text": "pain"
+        }
       ],
-      "correctOrder": ["t1", "t2", "t3", "t4"]
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4"
+      ]
     },
     {
       "id": "ex-li-1",
@@ -72,11 +138,22 @@
       "audio": "audio/a1.2/unit-05-food/listen-1.mp3",
       "transcript": "Au petit-déjeuner, je bois du café et je mange du pain.",
       "options": [
-        { "id": "a", "text": "Coffee and bread" },
-        { "id": "b", "text": "Tea and fruit" },
-        { "id": "c", "text": "Milk and cheese" }
+        {
+          "id": "a",
+          "text": "Coffee and bread"
+        },
+        {
+          "id": "b",
+          "text": "Tea and fruit"
+        },
+        {
+          "id": "c",
+          "text": "Milk and cheese"
+        }
       ],
-      "correct": ["a"],
+      "correct": [
+        "a"
+      ],
       "explanation": "« du café et du pain » — coffee and bread."
     },
     {
@@ -91,21 +168,43 @@
           "id": "q1",
           "prompt": "What does the speaker drink?",
           "options": [
-            { "id": "a", "text": "Tea" },
-            { "id": "b", "text": "Coffee" },
-            { "id": "c", "text": "Water" }
+            {
+              "id": "a",
+              "text": "Tea"
+            },
+            {
+              "id": "b",
+              "text": "Coffee"
+            },
+            {
+              "id": "c",
+              "text": "Water"
+            }
           ],
-          "correct": ["a"]
+          "correct": [
+            "a"
+          ]
         },
         {
           "id": "q2",
           "prompt": "What does the speaker NOT eat?",
           "options": [
-            { "id": "a", "text": "Meat" },
-            { "id": "b", "text": "Fruit" },
-            { "id": "c", "text": "Bread" }
+            {
+              "id": "a",
+              "text": "Meat"
+            },
+            {
+              "id": "b",
+              "text": "Fruit"
+            },
+            {
+              "id": "c",
+              "text": "Bread"
+            }
           ],
-          "correct": ["a"]
+          "correct": [
+            "a"
+          ]
         }
       ]
     },
@@ -116,8 +215,37 @@
       "prompt": "Offer some fruit (plural).",
       "inputMode": "dropdown",
       "template": "Tu veux {{b1}} fruits ?",
-      "blanks": [{ "id": "b1", "accept": ["des"], "options": ["des", "du"] }],
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "des"
+          ],
+          "options": [
+            "des",
+            "du"
+          ]
+        }
+      ],
       "explanation": "Plural partitive → des fruits."
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "Je mange du pain.",
+      "targetEn": "I eat (some) bread.",
+      "audio": "audio/a1.2/unit-05-food/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "Au petit-déjeuner, je bois du café.",
+      "targetEn": "At breakfast, I drink coffee.",
+      "audio": "audio/a1.2/unit-05-food/example-ex-3.mp3"
     }
   ]
 }

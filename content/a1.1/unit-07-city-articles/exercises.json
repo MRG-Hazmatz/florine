@@ -9,12 +9,26 @@
       "skill": "writing",
       "prompt": "Choose the right indefinite article: « Il y a ___ parc. » (a park)",
       "options": [
-        { "id": "a", "text": "un" },
-        { "id": "b", "text": "une" },
-        { "id": "c", "text": "le" },
-        { "id": "d", "text": "des" }
+        {
+          "id": "a",
+          "text": "un"
+        },
+        {
+          "id": "b",
+          "text": "une"
+        },
+        {
+          "id": "c",
+          "text": "le"
+        },
+        {
+          "id": "d",
+          "text": "des"
+        }
       ],
-      "correct": ["a"],
+      "correct": [
+        "a"
+      ],
       "explanation": "parc is masculine and singular, first mention -> un parc."
     },
     {
@@ -23,12 +37,26 @@
       "skill": "reading",
       "prompt": "Choose the right definite article (\"the\"): « ___ gare est près d'ici. »",
       "options": [
-        { "id": "a", "text": "La" },
-        { "id": "b", "text": "Le" },
-        { "id": "c", "text": "Une" },
-        { "id": "d", "text": "Les" }
+        {
+          "id": "a",
+          "text": "La"
+        },
+        {
+          "id": "b",
+          "text": "Le"
+        },
+        {
+          "id": "c",
+          "text": "Une"
+        },
+        {
+          "id": "d",
+          "text": "Les"
+        }
       ],
-      "correct": ["a"],
+      "correct": [
+        "a"
+      ],
       "explanation": "gare is feminine, and we mean a specific one -> la gare."
     },
     {
@@ -39,8 +67,18 @@
       "inputMode": "typed",
       "template": "Il y a {{b1}} café et {{b2}} école.",
       "blanks": [
-        { "id": "b1", "accept": ["un"] },
-        { "id": "b2", "accept": ["une"] }
+        {
+          "id": "b1",
+          "accept": [
+            "un"
+          ]
+        },
+        {
+          "id": "b2",
+          "accept": [
+            "une"
+          ]
+        }
       ],
       "explanation": "un café (masculine), une école (feminine)."
     },
@@ -50,10 +88,26 @@
       "skill": "reading",
       "prompt": "Match each place to its English meaning.",
       "pairs": [
-        { "id": "p1", "left": "la gare", "right": "the station" },
-        { "id": "p2", "left": "le magasin", "right": "the shop" },
-        { "id": "p3", "left": "l'école", "right": "the school" },
-        { "id": "p4", "left": "le parc", "right": "the park" }
+        {
+          "id": "p1",
+          "left": "la gare",
+          "right": "the station"
+        },
+        {
+          "id": "p2",
+          "left": "le magasin",
+          "right": "the shop"
+        },
+        {
+          "id": "p3",
+          "left": "l'école",
+          "right": "the school"
+        },
+        {
+          "id": "p4",
+          "left": "le parc",
+          "right": "the park"
+        }
       ]
     },
     {
@@ -62,11 +116,24 @@
       "skill": "writing",
       "prompt": "Put the words in order to say \"There is a school.\"",
       "tokens": [
-        { "id": "t1", "text": "Il y a" },
-        { "id": "t2", "text": "une" },
-        { "id": "t3", "text": "école" }
+        {
+          "id": "t1",
+          "text": "Il y a"
+        },
+        {
+          "id": "t2",
+          "text": "une"
+        },
+        {
+          "id": "t3",
+          "text": "école"
+        }
       ],
-      "correctOrder": ["t1", "t2", "t3"]
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3"
+      ]
     },
     {
       "id": "ex-li-1",
@@ -76,11 +143,22 @@
       "audio": "audio/a1.1/unit-07-city-articles/listen-1.mp3",
       "transcript": "Dans ma ville, il y a un parc et deux cafés.",
       "options": [
-        { "id": "a", "text": "A park and two cafés" },
-        { "id": "b", "text": "A school and a station" },
-        { "id": "c", "text": "Three shops" }
+        {
+          "id": "a",
+          "text": "A park and two cafés"
+        },
+        {
+          "id": "b",
+          "text": "A school and a station"
+        },
+        {
+          "id": "c",
+          "text": "Three shops"
+        }
       ],
-      "correct": ["a"],
+      "correct": [
+        "a"
+      ],
       "explanation": "« il y a un parc et deux cafés »."
     },
     {
@@ -95,21 +173,43 @@
           "id": "q1",
           "prompt": "How many restaurants are there?",
           "options": [
-            { "id": "a", "text": "2" },
-            { "id": "b", "text": "3" },
-            { "id": "c", "text": "4" }
+            {
+              "id": "a",
+              "text": "2"
+            },
+            {
+              "id": "b",
+              "text": "3"
+            },
+            {
+              "id": "c",
+              "text": "4"
+            }
           ],
-          "correct": ["b"]
+          "correct": [
+            "b"
+          ]
         },
         {
           "id": "q2",
           "prompt": "Where is the park?",
           "options": [
-            { "id": "a", "text": "Next to the station" },
-            { "id": "b", "text": "In front of the school" },
-            { "id": "c", "text": "Near the restaurants" }
+            {
+              "id": "a",
+              "text": "Next to the station"
+            },
+            {
+              "id": "b",
+              "text": "In front of the school"
+            },
+            {
+              "id": "c",
+              "text": "Near the restaurants"
+            }
           ],
-          "correct": ["a"]
+          "correct": [
+            "a"
+          ]
         }
       ]
     },
@@ -120,8 +220,37 @@
       "prompt": "Choose the preposition: the café is IN FRONT OF the park.",
       "inputMode": "dropdown",
       "template": "Le café est {{b1}} le parc.",
-      "blanks": [{ "id": "b1", "accept": ["devant"], "options": ["devant", "derrière"] }],
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "devant"
+          ],
+          "options": [
+            "devant",
+            "derrière"
+          ]
+        }
+      ],
       "explanation": "devant = in front of; derrière = behind."
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "Dans ma ville, il y a un parc.",
+      "targetEn": "In my town, there is a park.",
+      "audio": "audio/a1.1/unit-07-city-articles/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "Il y a des magasins dans la rue.",
+      "targetEn": "There are shops in the street.",
+      "audio": "audio/a1.1/unit-07-city-articles/example-ex-3.mp3"
     }
   ]
 }

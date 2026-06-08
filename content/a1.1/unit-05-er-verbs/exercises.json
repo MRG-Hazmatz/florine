@@ -9,12 +9,26 @@
       "skill": "writing",
       "prompt": "Choose the correct form: « Nous ___ français. » (parler)",
       "options": [
-        { "id": "a", "text": "parlons" },
-        { "id": "b", "text": "parlez" },
-        { "id": "c", "text": "parle" },
-        { "id": "d", "text": "parlent" }
+        {
+          "id": "a",
+          "text": "parlons"
+        },
+        {
+          "id": "b",
+          "text": "parlez"
+        },
+        {
+          "id": "c",
+          "text": "parle"
+        },
+        {
+          "id": "d",
+          "text": "parlent"
+        }
       ],
-      "correct": ["a"],
+      "correct": [
+        "a"
+      ],
       "explanation": "nous + -er verb takes -ons: nous parlons."
     },
     {
@@ -25,8 +39,18 @@
       "inputMode": "typed",
       "template": "Tu {{b1}} français ? — Oui, et j'{{b2}} à Paris.",
       "blanks": [
-        { "id": "b1", "accept": ["parles"] },
-        { "id": "b2", "accept": ["habite"] }
+        {
+          "id": "b1",
+          "accept": [
+            "parles"
+          ]
+        },
+        {
+          "id": "b2",
+          "accept": [
+            "habite"
+          ]
+        }
       ],
       "explanation": "tu parles; j' + habite (elision before a vowel/silent h)."
     },
@@ -36,12 +60,26 @@
       "skill": "reading",
       "prompt": "Choose the correct form: « Ils ___ la télé. » (regarder)",
       "options": [
-        { "id": "a", "text": "regardent" },
-        { "id": "b", "text": "regarde" },
-        { "id": "c", "text": "regardez" },
-        { "id": "d", "text": "regardons" }
+        {
+          "id": "a",
+          "text": "regardent"
+        },
+        {
+          "id": "b",
+          "text": "regarde"
+        },
+        {
+          "id": "c",
+          "text": "regardez"
+        },
+        {
+          "id": "d",
+          "text": "regardons"
+        }
       ],
-      "correct": ["a"],
+      "correct": [
+        "a"
+      ],
       "explanation": "ils/elles take -ent (written but silent): ils regardent."
     },
     {
@@ -50,10 +88,26 @@
       "skill": "reading",
       "prompt": "Match each verb to its English meaning.",
       "pairs": [
-        { "id": "p1", "left": "parler", "right": "to speak" },
-        { "id": "p2", "left": "habiter", "right": "to live" },
-        { "id": "p3", "left": "aimer", "right": "to like" },
-        { "id": "p4", "left": "écouter", "right": "to listen to" }
+        {
+          "id": "p1",
+          "left": "parler",
+          "right": "to speak"
+        },
+        {
+          "id": "p2",
+          "left": "habiter",
+          "right": "to live"
+        },
+        {
+          "id": "p3",
+          "left": "aimer",
+          "right": "to like"
+        },
+        {
+          "id": "p4",
+          "left": "écouter",
+          "right": "to listen to"
+        }
       ]
     },
     {
@@ -62,11 +116,24 @@
       "skill": "writing",
       "prompt": "Put the words in order to say \"I like the movies.\"",
       "tokens": [
-        { "id": "t1", "text": "J'aime" },
-        { "id": "t2", "text": "le" },
-        { "id": "t3", "text": "cinéma" }
+        {
+          "id": "t1",
+          "text": "J'aime"
+        },
+        {
+          "id": "t2",
+          "text": "le"
+        },
+        {
+          "id": "t3",
+          "text": "cinéma"
+        }
       ],
-      "correctOrder": ["t1", "t2", "t3"],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3"
+      ],
       "explanation": "Use the article: « j'aime LE cinéma » (French keeps the article where English drops it)."
     },
     {
@@ -77,11 +144,22 @@
       "audio": "audio/a1.1/unit-05-er-verbs/listen-1.mp3",
       "transcript": "Bonjour ! J'aime la musique et j'aime le sport.",
       "options": [
-        { "id": "a", "text": "Music and sport" },
-        { "id": "b", "text": "Cinema and TV" },
-        { "id": "c", "text": "Reading" }
+        {
+          "id": "a",
+          "text": "Music and sport"
+        },
+        {
+          "id": "b",
+          "text": "Cinema and TV"
+        },
+        {
+          "id": "c",
+          "text": "Reading"
+        }
       ],
-      "correct": ["a"],
+      "correct": [
+        "a"
+      ],
       "explanation": "« j'aime la musique et j'aime le sport »."
     },
     {
@@ -96,21 +174,43 @@
           "id": "q1",
           "prompt": "Where does Théo live?",
           "options": [
-            { "id": "a", "text": "Paris" },
-            { "id": "b", "text": "Lyon" },
-            { "id": "c", "text": "Nice" }
+            {
+              "id": "a",
+              "text": "Paris"
+            },
+            {
+              "id": "b",
+              "text": "Lyon"
+            },
+            {
+              "id": "c",
+              "text": "Nice"
+            }
           ],
-          "correct": ["b"]
+          "correct": [
+            "b"
+          ]
         },
         {
           "id": "q2",
           "prompt": "What does Théo study?",
           "options": [
-            { "id": "a", "text": "English" },
-            { "id": "b", "text": "Music" },
-            { "id": "c", "text": "Sport" }
+            {
+              "id": "a",
+              "text": "English"
+            },
+            {
+              "id": "b",
+              "text": "Music"
+            },
+            {
+              "id": "c",
+              "text": "Sport"
+            }
           ],
-          "correct": ["a"]
+          "correct": [
+            "a"
+          ]
         }
       ]
     },
@@ -121,8 +221,33 @@
       "prompt": "Complete with the vous form of parler.",
       "inputMode": "typed",
       "template": "Vous {{b1}} anglais ?",
-      "blanks": [{ "id": "b1", "accept": ["parlez"] }],
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "parlez"
+          ]
+        }
+      ],
       "explanation": "vous + -er verb takes -ez: vous parlez."
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "J'aime la musique.",
+      "targetEn": "I like music.",
+      "audio": "audio/a1.1/unit-05-er-verbs/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "Nous habitons à Paris.",
+      "targetEn": "We live in Paris.",
+      "audio": "audio/a1.1/unit-05-er-verbs/example-ex-3.mp3"
     }
   ]
 }

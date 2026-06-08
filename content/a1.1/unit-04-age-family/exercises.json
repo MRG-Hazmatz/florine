@@ -9,12 +9,26 @@
       "skill": "writing",
       "prompt": "Choose the correct form of avoir: « Elle ___ deux frères. »",
       "options": [
-        { "id": "a", "text": "a" },
-        { "id": "b", "text": "as" },
-        { "id": "c", "text": "ai" },
-        { "id": "d", "text": "ont" }
+        {
+          "id": "a",
+          "text": "a"
+        },
+        {
+          "id": "b",
+          "text": "as"
+        },
+        {
+          "id": "c",
+          "text": "ai"
+        },
+        {
+          "id": "d",
+          "text": "ont"
+        }
       ],
-      "correct": ["a"],
+      "correct": [
+        "a"
+      ],
       "explanation": "il/elle a. Full set: j'ai, tu as, il/elle a, nous avons, vous avez, ils/elles ont."
     },
     {
@@ -23,11 +37,22 @@
       "skill": "reading",
       "prompt": "How do you say \"I am 13 years old\" in French?",
       "options": [
-        { "id": "a", "text": "Je suis treize ans." },
-        { "id": "b", "text": "J'ai treize ans." },
-        { "id": "c", "text": "J'ai treize." }
+        {
+          "id": "a",
+          "text": "Je suis treize ans."
+        },
+        {
+          "id": "b",
+          "text": "J'ai treize ans."
+        },
+        {
+          "id": "c",
+          "text": "J'ai treize."
+        }
       ],
-      "correct": ["b"],
+      "correct": [
+        "b"
+      ],
       "explanation": "French uses avoir for age: « j'ai treize ans » (literally 'I have thirteen years'). Never être, and don't drop « ans »."
     },
     {
@@ -38,8 +63,18 @@
       "inputMode": "typed",
       "template": "Tu {{b1}} quel âge ? — J'{{b2}} dix ans.",
       "blanks": [
-        { "id": "b1", "accept": ["as"] },
-        { "id": "b2", "accept": ["ai"] }
+        {
+          "id": "b1",
+          "accept": [
+            "as"
+          ]
+        },
+        {
+          "id": "b2",
+          "accept": [
+            "ai"
+          ]
+        }
       ],
       "explanation": "tu as, j'ai."
     },
@@ -49,10 +84,26 @@
       "skill": "reading",
       "prompt": "Match each family word to its English meaning.",
       "pairs": [
-        { "id": "p1", "left": "le père", "right": "father" },
-        { "id": "p2", "left": "la mère", "right": "mother" },
-        { "id": "p3", "left": "le frère", "right": "brother" },
-        { "id": "p4", "left": "la sœur", "right": "sister" }
+        {
+          "id": "p1",
+          "left": "le père",
+          "right": "father"
+        },
+        {
+          "id": "p2",
+          "left": "la mère",
+          "right": "mother"
+        },
+        {
+          "id": "p3",
+          "left": "le frère",
+          "right": "brother"
+        },
+        {
+          "id": "p4",
+          "left": "la sœur",
+          "right": "sister"
+        }
       ]
     },
     {
@@ -61,11 +112,24 @@
       "skill": "writing",
       "prompt": "Put the words in order to say \"I have a sister.\"",
       "tokens": [
-        { "id": "t1", "text": "J'ai" },
-        { "id": "t2", "text": "une" },
-        { "id": "t3", "text": "sœur" }
+        {
+          "id": "t1",
+          "text": "J'ai"
+        },
+        {
+          "id": "t2",
+          "text": "une"
+        },
+        {
+          "id": "t3",
+          "text": "sœur"
+        }
       ],
-      "correctOrder": ["t1", "t2", "t3"]
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3"
+      ]
     },
     {
       "id": "ex-li-1",
@@ -75,11 +139,22 @@
       "audio": "audio/a1.1/unit-04-age-family/listen-1.mp3",
       "transcript": "Bonjour ! J'ai dix ans et j'ai un frère.",
       "options": [
-        { "id": "a", "text": "0" },
-        { "id": "b", "text": "1" },
-        { "id": "c", "text": "2" }
+        {
+          "id": "a",
+          "text": "0"
+        },
+        {
+          "id": "b",
+          "text": "1"
+        },
+        {
+          "id": "c",
+          "text": "2"
+        }
       ],
-      "correct": ["b"],
+      "correct": [
+        "b"
+      ],
       "explanation": "« j'ai un frère » = I have one brother."
     },
     {
@@ -94,21 +169,43 @@
           "id": "q1",
           "prompt": "What is the father's name?",
           "options": [
-            { "id": "a", "text": "Marc" },
-            { "id": "b", "text": "Léa" },
-            { "id": "c", "text": "Luc" }
+            {
+              "id": "a",
+              "text": "Marc"
+            },
+            {
+              "id": "b",
+              "text": "Léa"
+            },
+            {
+              "id": "c",
+              "text": "Luc"
+            }
           ],
-          "correct": ["a"]
+          "correct": [
+            "a"
+          ]
         },
         {
           "id": "q2",
           "prompt": "How old is the sister?",
           "options": [
-            { "id": "a", "text": "5" },
-            { "id": "b", "text": "8" },
-            { "id": "c", "text": "10" }
+            {
+              "id": "a",
+              "text": "5"
+            },
+            {
+              "id": "b",
+              "text": "8"
+            },
+            {
+              "id": "c",
+              "text": "10"
+            }
           ],
-          "correct": ["b"]
+          "correct": [
+            "b"
+          ]
         }
       ]
     },
@@ -119,8 +216,33 @@
       "prompt": "Complete with the right form of avoir.",
       "inputMode": "typed",
       "template": "J'ai un frère. Il {{b1}} cinq ans.",
-      "blanks": [{ "id": "b1", "accept": ["a"] }],
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "a"
+          ]
+        }
+      ],
       "explanation": "il a cinq ans (avoir for age)."
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "J'ai dix ans.",
+      "targetEn": "I am ten years old.",
+      "audio": "audio/a1.1/unit-04-age-family/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "Voici ma famille.",
+      "targetEn": "This is my family.",
+      "audio": "audio/a1.1/unit-04-age-family/example-ex-3.mp3"
     }
   ]
 }
