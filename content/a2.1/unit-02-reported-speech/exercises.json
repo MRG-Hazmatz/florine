@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "unitId": "a2.1/unit-02-reported-speech",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Report a statement: « Il dit ___ il est malade. »",
+      "options": [
+        { "id": "a", "text": "qu'" },
+        { "id": "b", "text": "si" },
+        { "id": "c", "text": "qui" }
+      ],
+      "correct": ["a"],
+      "explanation": "A reported statement uses dire que (qu' before a vowel): il dit qu'il est malade."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Report a yes/no question: « Elle demande ___ tu viens. »",
+      "options": [
+        { "id": "a", "text": "si" },
+        { "id": "b", "text": "que" },
+        { "id": "c", "text": "ce que" }
+      ],
+      "correct": ["a"],
+      "explanation": "A reported yes/no question uses demander si: elle demande si tu viens."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Report a 'what' question (Qu'est-ce que tu fais ?).",
+      "inputMode": "dropdown",
+      "template": "Il demande {{b1}} je fais.",
+      "blanks": [{ "id": "b1", "accept": ["ce que"], "options": ["ce que", "que", "si"] }],
+      "explanation": "« Qu'est-ce que » becomes ce que in reported speech: il demande ce que je fais."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each verb/word to its English meaning.",
+      "pairs": [
+        { "id": "p1", "left": "dire", "right": "to say" },
+        { "id": "p2", "left": "demander", "right": "to ask" },
+        { "id": "p3", "left": "répondre", "right": "to answer" },
+        { "id": "p4", "left": "le voisin", "right": "neighbour" }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"He says (that) he's tired.\"",
+      "tokens": [
+        { "id": "t1", "text": "Il" },
+        { "id": "t2", "text": "dit" },
+        { "id": "t3", "text": "qu'il" },
+        { "id": "t4", "text": "est" },
+        { "id": "t5", "text": "fatigué" }
+      ],
+      "correctOrder": ["t1", "t2", "t3", "t4", "t5"]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then: what does the neighbour ask?",
+      "audio": "audio/a2.1/unit-02-reported-speech/listen-1.mp3",
+      "transcript": "Ma voisine demande si je suis libre ce soir.",
+      "options": [
+        { "id": "a", "text": "If you're free tonight" },
+        { "id": "b", "text": "Where you live" },
+        { "id": "c", "text": "What time it is" }
+      ],
+      "correct": ["a"],
+      "explanation": "« demande si je suis libre ce soir » = asks if I'm free tonight."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read and answer both questions.",
+      "passageFr": "Mon voisin est très poli. Tous les matins, il dit bonjour et il demande comment je vais. Il demande aussi si j'ai besoin d'aide.",
+      "passageEn": "My neighbour is very polite. Every morning, he says hello and asks how I am. He also asks if I need help.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "What is the neighbour like?",
+          "options": [
+            { "id": "a", "text": "Polite" },
+            { "id": "b", "text": "Noisy" },
+            { "id": "c", "text": "Selfish" }
+          ],
+          "correct": ["a"]
+        },
+        {
+          "id": "q2",
+          "prompt": "What does he also ask?",
+          "options": [
+            { "id": "a", "text": "If you need help" },
+            { "id": "b", "text": "Where you work" },
+            { "id": "c", "text": "Your name" }
+          ],
+          "correct": ["a"]
+        }
+      ]
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Report a statement before a vowel (she's happy).",
+      "inputMode": "dropdown",
+      "template": "Elle dit {{b1}} elle est contente.",
+      "blanks": [{ "id": "b1", "accept": ["qu'"], "options": ["qu'", "si"] }],
+      "explanation": "Statement → que, shortened to qu' before 'elle': elle dit qu'elle est contente."
+    }
+  ]
+}

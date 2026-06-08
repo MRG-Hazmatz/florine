@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "a2.1/unit-01-character",
+  "level": "a2.1",
+  "unitNumber": 1,
+  "slug": "unit-01-character",
+  "title": "Describing Character & Friends",
+  "titleFr": "Mon alter ego",
+  "cefrDescriptors": [
+    "Can describe a person's character with a range of adjectives and nouns.",
+    "Can link ideas using the relative pronouns qui, que and à qui."
+  ],
+  "skills": ["reading", "listening", "writing"],
+  "estimatedMinutes": 50,
+  "concept": "Welcome to A2. The conversations get richer now — and the first tool you need is the relative pronoun: the little word that joins two ideas into one smooth sentence (English: who / that / which / whom).\n\nThree to master here:\n  qui = SUBJECT of the next verb (who/that does something):\n    C'est une amie qui m'écoute. (a friend WHO listens to me)\n    → qui is followed directly by a verb.\n  que = OBJECT of the next verb (whom/that someone does something to):\n    C'est un ami que j'admire. (a friend [whom] I admire)\n    → que is followed by a subject + verb. (que → qu' before a vowel: un film qu'il aime.)\n  à qui = to whom (people, after verbs built with à — parler à, faire confiance à):\n    C'est quelqu'un à qui je parle souvent.\n\nQuick test: if the next word is a verb, use qui; if it's a subject (je, tu, Marie…), use que.\n\nThis lets you DESCRIBE and DEFINE people — the theme of this unit: someone's caractère, their qualités (good points) and défauts (flaws). Useful adjectives: généreux (generous), patient, tolérant, drôle, sympa — and the less flattering égoïste (selfish), impatient, autoritaire (bossy). Pair them with friendship words: l'amitié, un(e) ami(e), faire confiance (to trust).\n\nYou can even give a definition: « L'amitié, c'est quand on peut faire confiance à quelqu'un. »\n\nDescribe a friend in two sentences: one using qui, one using que.",
+  "vocabulary": [
+    { "id": "caractere", "fr": "le caractère", "en": "character / personality", "pos": "noun", "exampleFr": "Il a bon caractère.", "exampleEn": "He has a good character.", "audio": "audio/a2.1/unit-01-character/vocab-caractere.mp3", "voice": "denise" },
+    { "id": "qualite", "fr": "la qualité", "en": "good quality / strength", "pos": "noun", "exampleFr": "La patience est une qualité.", "exampleEn": "Patience is a good quality.", "audio": "audio/a2.1/unit-01-character/vocab-qualite.mp3", "voice": "henri" },
+    { "id": "defaut", "fr": "le défaut", "en": "fault / flaw", "pos": "noun", "exampleFr": "Tout le monde a des défauts.", "exampleEn": "Everyone has flaws.", "audio": "audio/a2.1/unit-01-character/vocab-defaut.mp3", "voice": "denise" },
+    { "id": "genereux", "fr": "généreux", "en": "generous (f. généreuse)", "pos": "adjective", "exampleFr": "Elle est très généreuse.", "exampleEn": "She is very generous.", "audio": "audio/a2.1/unit-01-character/vocab-genereux.mp3", "voice": "henri" },
+    { "id": "egoiste", "fr": "égoïste", "en": "selfish", "pos": "adjective", "exampleFr": "Il est un peu égoïste.", "exampleEn": "He is a bit selfish.", "audio": "audio/a2.1/unit-01-character/vocab-egoiste.mp3", "voice": "denise" },
+    { "id": "patient", "fr": "patient", "en": "patient (f. patiente)", "pos": "adjective", "exampleFr": "Sois patient !", "exampleEn": "Be patient!", "audio": "audio/a2.1/unit-01-character/vocab-patient.mp3", "voice": "henri" },
+    { "id": "tolerant", "fr": "tolérant", "en": "tolerant (f. tolérante)", "pos": "adjective", "exampleFr": "Mes parents sont tolérants.", "exampleEn": "My parents are tolerant.", "audio": "audio/a2.1/unit-01-character/vocab-tolerant.mp3", "voice": "denise" },
+    { "id": "autoritaire", "fr": "autoritaire", "en": "bossy / authoritarian", "pos": "adjective", "exampleFr": "Le chef est autoritaire.", "exampleEn": "The boss is bossy.", "audio": "audio/a2.1/unit-01-character/vocab-autoritaire.mp3", "voice": "henri" },
+    { "id": "amitie", "fr": "l'amitié", "en": "friendship", "pos": "noun", "exampleFr": "L'amitié est importante.", "exampleEn": "Friendship is important.", "audio": "audio/a2.1/unit-01-character/vocab-amitie.mp3", "voice": "denise" },
+    { "id": "faire-confiance", "fr": "faire confiance", "en": "to trust", "pos": "phrase", "exampleFr": "Je lui fais confiance.", "exampleEn": "I trust him/her.", "audio": "audio/a2.1/unit-01-character/vocab-faire-confiance.mp3", "voice": "henri" },
+    { "id": "qui", "fr": "qui", "en": "who / that (relative subject)", "pos": "pronoun", "exampleFr": "C'est un ami qui m'aide.", "exampleEn": "He's a friend who helps me.", "audio": "audio/a2.1/unit-01-character/vocab-qui.mp3", "voice": "denise" },
+    { "id": "que", "fr": "que", "en": "whom / that (relative object)", "pos": "pronoun", "exampleFr": "C'est un ami que j'admire.", "exampleEn": "He's a friend (whom) I admire.", "audio": "audio/a2.1/unit-01-character/vocab-que.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "C'est une amie qui m'écoute toujours.", "en": "She's a friend who always listens to me.", "audio": "audio/a2.1/unit-01-character/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "C'est un ami que j'admire beaucoup.", "en": "He's a friend (whom) I admire a lot.", "audio": "audio/a2.1/unit-01-character/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "Il est généreux et très patient.", "en": "He is generous and very patient.", "audio": "audio/a2.1/unit-01-character/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "Je n'aime pas les gens autoritaires.", "en": "I don't like bossy people.", "audio": "audio/a2.1/unit-01-character/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "C'est quelqu'un à qui je fais confiance.", "en": "He/She's someone I trust.", "audio": "audio/a2.1/unit-01-character/example-ex-5.mp3", "voice": "denise" }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "a2.1/unit-02-reported-speech",
+  "level": "a2.1",
+  "unitNumber": 2,
+  "slug": "unit-02-reported-speech",
+  "title": "Neighbours & Reported Speech",
+  "titleFr": "Voisins, voisines",
+  "cefrDescriptors": [
+    "Can report what someone says using indirect speech in the present.",
+    "Can talk about neighbours and everyday relations."
+  ],
+  "skills": ["reading", "listening", "writing"],
+  "estimatedMinutes": 50,
+  "concept": "This unit gives you reported speech (le discours indirect) — how to say what someone ELSE said, without quoting them directly. It's everywhere in real talk: \"What did she say? — She said she was coming.\"\n\nThe key is the linking word, which changes with the kind of sentence:\n\n1) A STATEMENT → dire que (to say that):\n   Direct:   Il dit : « Je suis fatigué. »\n   Reported: Il dit qu'il est fatigué.\n   (que → qu' before a vowel.)\n\n2) A YES/NO QUESTION → demander si (to ask if / whether):\n   Direct:   Elle demande : « Tu viens ? »\n   Reported: Elle demande si tu viens.\n\n3) An INFORMATION QUESTION with qu'est-ce que → demander ce que (to ask what):\n   Direct:   Il demande : « Qu'est-ce que tu fais ? »\n   Reported: Il demande ce que tu fais.\n   (Other question words simply stay: demander où, quand, comment, pourquoi…)\n\nNotice the pronouns shift to match the new speaker (je → il/elle), exactly like English (\"I'm tired\" → he said he was tired).\n\nThe theme is neighbours (les voisins) — perfect for reporting little exchanges. Useful verbs: dire, demander, répondre (to answer), expliquer (to explain), raconter (to tell). And to describe relations: saluer (to greet), poli (polite), aimable (friendly), bruyant (noisy).\n\nSo you can narrate: « Ma voisine est aimable. Ce matin, elle m'a dit bonjour et elle a demandé si tout allait bien. »\n\nReport two things a friend said today: one statement (… dit que …) and one question (… demande si …).",
+  "vocabulary": [
+    { "id": "dire", "fr": "dire", "en": "to say / tell", "pos": "verb", "exampleFr": "Il dit bonjour.", "exampleEn": "He says hello.", "audio": "audio/a2.1/unit-02-reported-speech/vocab-dire.mp3", "voice": "denise" },
+    { "id": "demander", "fr": "demander", "en": "to ask", "pos": "verb", "exampleFr": "Elle demande l'heure.", "exampleEn": "She asks the time.", "audio": "audio/a2.1/unit-02-reported-speech/vocab-demander.mp3", "voice": "henri" },
+    { "id": "repondre", "fr": "répondre", "en": "to answer / reply", "pos": "verb", "exampleFr": "Je réponds à la question.", "exampleEn": "I answer the question.", "audio": "audio/a2.1/unit-02-reported-speech/vocab-repondre.mp3", "voice": "denise" },
+    { "id": "expliquer", "fr": "expliquer", "en": "to explain", "pos": "verb", "exampleFr": "Il explique le problème.", "exampleEn": "He explains the problem.", "audio": "audio/a2.1/unit-02-reported-speech/vocab-expliquer.mp3", "voice": "henri" },
+    { "id": "raconter", "fr": "raconter", "en": "to tell / recount", "pos": "verb", "exampleFr": "Elle raconte sa journée.", "exampleEn": "She talks about her day.", "audio": "audio/a2.1/unit-02-reported-speech/vocab-raconter.mp3", "voice": "denise" },
+    { "id": "saluer", "fr": "saluer", "en": "to greet", "pos": "verb", "exampleFr": "Je salue mes voisins.", "exampleEn": "I greet my neighbours.", "audio": "audio/a2.1/unit-02-reported-speech/vocab-saluer.mp3", "voice": "henri" },
+    { "id": "discuter", "fr": "discuter", "en": "to chat / talk", "pos": "verb", "exampleFr": "On discute sur le palier.", "exampleEn": "We chat on the landing.", "audio": "audio/a2.1/unit-02-reported-speech/vocab-discuter.mp3", "voice": "denise" },
+    { "id": "voisin", "fr": "le voisin", "en": "neighbour (f. la voisine)", "pos": "noun", "exampleFr": "Mon voisin est sympa.", "exampleEn": "My neighbour is nice.", "audio": "audio/a2.1/unit-02-reported-speech/vocab-voisin.mp3", "voice": "henri" },
+    { "id": "poli", "fr": "poli", "en": "polite (f. polie)", "pos": "adjective", "exampleFr": "Sois poli !", "exampleEn": "Be polite!", "audio": "audio/a2.1/unit-02-reported-speech/vocab-poli.mp3", "voice": "denise" },
+    { "id": "aimable", "fr": "aimable", "en": "kind / friendly", "pos": "adjective", "exampleFr": "Elle est très aimable.", "exampleEn": "She is very friendly.", "audio": "audio/a2.1/unit-02-reported-speech/vocab-aimable.mp3", "voice": "henri" },
+    { "id": "bruyant", "fr": "bruyant", "en": "noisy (f. bruyante)", "pos": "adjective", "exampleFr": "Les voisins sont bruyants.", "exampleEn": "The neighbours are noisy.", "audio": "audio/a2.1/unit-02-reported-speech/vocab-bruyant.mp3", "voice": "denise" },
+    { "id": "palier", "fr": "le palier", "en": "landing (between flats)", "pos": "noun", "exampleFr": "On se voit sur le palier.", "exampleEn": "We see each other on the landing.", "audio": "audio/a2.1/unit-02-reported-speech/vocab-palier.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "Il dit qu'il est fatigué.", "en": "He says (that) he's tired.", "audio": "audio/a2.1/unit-02-reported-speech/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "Elle demande si tu viens.", "en": "She asks if you're coming.", "audio": "audio/a2.1/unit-02-reported-speech/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "Le voisin demande ce que je fais.", "en": "The neighbour asks what I'm doing.", "audio": "audio/a2.1/unit-02-reported-speech/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "Ma voisine est très aimable.", "en": "My neighbour is very friendly.", "audio": "audio/a2.1/unit-02-reported-speech/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "Je salue mes voisins tous les matins.", "en": "I greet my neighbours every morning.", "audio": "audio/a2.1/unit-02-reported-speech/example-ex-5.mp3", "voice": "denise" }
+  ]
+}
