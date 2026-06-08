@@ -30,7 +30,7 @@
   "examples": [
     { "id": "ex-1", "fr": "Paris est plus grand que Lyon.", "en": "Paris is bigger than Lyon.", "audio": "audio/a1.2/unit-04-travel-comparisons/example-ex-1.mp3", "voice": "denise" },
     { "id": "ex-2", "fr": "Le train est moins cher que l'avion.", "en": "The train is cheaper than the plane.", "audio": "audio/a1.2/unit-04-travel-comparisons/example-ex-2.mp3", "voice": "henri" },
-    { "id": "ex-3", "fr": "J'aime voyager dans le monde.", "en": "I like travelling around the world.", "audio": "audio/a1.2/unit-04-travel-comparisons/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-3", "fr": "Je prends l'avion demain.", "en": "I'm taking the plane tomorrow.", "audio": "audio/a1.2/unit-04-travel-comparisons/example-ex-3.mp3", "voice": "denise" },
     { "id": "ex-4", "fr": "Nice est aussi belle que Cannes.", "en": "Nice is as beautiful as Cannes.", "audio": "audio/a1.2/unit-04-travel-comparisons/example-ex-4.mp3", "voice": "henri" },
     { "id": "ex-5", "fr": "Je vais à Paris en train.", "en": "I'm going to Paris by train.", "audio": "audio/a1.2/unit-04-travel-comparisons/example-ex-5.mp3", "voice": "denise" }
   ]
