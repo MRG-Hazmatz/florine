@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "a2.2/unit-05-press",
+  "level": "a2.2",
+  "unitNumber": 5,
+  "slug": "unit-05-press",
+  "title": "Traditional Media",
+  "titleFr": "La presse, la radio, la télévision",
+  "cefrDescriptors": [
+    "Can understand press headlines and talk about media.",
+    "Can recognise nominalisation and emphasise with c'est… qui / c'est… que."
+  ],
+  "skills": ["reading", "listening", "writing", "speaking"],
+  "estimatedMinutes": 50,
+  "concept": "This unit is about traditional media — newspapers, radio, TV — and two tools for talking about them.\n\n1) Nominalisation: turning a verb into a noun. Headlines love this — instead of « Les prix augmentent » (prices are rising), a headline writes « Augmentation des prix » (price increase). Common endings:\n  augmenter → une augmentation, ouvrir → une ouverture, arriver → une arrivée, annoncer → une annonce.\nSpotting these helps you read titres de presse (press headlines).\n\n2) c'est… qui / c'est… que to EMPHASISE (English: \"It's … who / that\"):\n  • c'est … qui highlights the SUBJECT: C'est Marie qui a gagné. (It's Marie who won.)\n  • c'est … que highlights the rest (object, place…): C'est ce film que je préfère. · C'est ici que j'habite.\nSame qui-vs-que logic as relative pronouns: qui + verb, que + subject.\n\nThe theme vocabulary: la presse, un journal (newspaper), une chaîne (TV channel), une émission (a programme), un titre (headline), les infos (the news), un journaliste, une opinion, une nouvelle (a piece of news), and the verbs annoncer (to announce) and augmenter (to increase).\n\nPut it together: « C'est une émission que j'adore. Hier, le journal a annoncé une augmentation des prix. »\n\nWrite two sentences about media: one with c'est… qui or c'est… que, and one using the news vocabulary.",
+  "vocabulary": [
+    { "id": "la-presse", "fr": "la presse", "en": "the press", "pos": "noun", "exampleFr": "Je lis la presse en ligne.", "exampleEn": "I read the press online.", "audio": "audio/a2.2/unit-05-press/vocab-la-presse.mp3", "voice": "denise" },
+    { "id": "le-journal", "fr": "le journal", "en": "newspaper", "pos": "noun", "exampleFr": "Le journal est sur la table.", "exampleEn": "The newspaper is on the table.", "audio": "audio/a2.2/unit-05-press/vocab-le-journal.mp3", "voice": "henri" },
+    { "id": "la-chaine", "fr": "la chaîne", "en": "(TV) channel", "pos": "noun", "exampleFr": "Quelle chaîne tu regardes ?", "exampleEn": "Which channel are you watching?", "audio": "audio/a2.2/unit-05-press/vocab-la-chaine.mp3", "voice": "denise" },
+    { "id": "l-emission", "fr": "une émission", "en": "a programme / show", "pos": "noun", "exampleFr": "C'est une bonne émission.", "exampleEn": "It's a good show.", "audio": "audio/a2.2/unit-05-press/vocab-l-emission.mp3", "voice": "henri" },
+    { "id": "le-titre", "fr": "le titre", "en": "headline / title", "pos": "noun", "exampleFr": "Le titre est choquant.", "exampleEn": "The headline is shocking.", "audio": "audio/a2.2/unit-05-press/vocab-le-titre.mp3", "voice": "denise" },
+    { "id": "les-infos", "fr": "les infos", "en": "the news", "pos": "noun", "exampleFr": "Je regarde les infos le soir.", "exampleEn": "I watch the news in the evening.", "audio": "audio/a2.2/unit-05-press/vocab-les-infos.mp3", "voice": "henri" },
+    { "id": "le-journaliste", "fr": "le journaliste", "en": "journalist", "pos": "noun", "exampleFr": "C'est un bon journaliste.", "exampleEn": "He's a good journalist.", "audio": "audio/a2.2/unit-05-press/vocab-le-journaliste.mp3", "voice": "denise" },
+    { "id": "l-opinion", "fr": "une opinion", "en": "an opinion", "pos": "noun", "exampleFr": "Donne ton opinion.", "exampleEn": "Give your opinion.", "audio": "audio/a2.2/unit-05-press/vocab-l-opinion.mp3", "voice": "henri" },
+    { "id": "une-nouvelle", "fr": "une nouvelle", "en": "a piece of news", "pos": "noun", "exampleFr": "J'ai une bonne nouvelle.", "exampleEn": "I have good news.", "audio": "audio/a2.2/unit-05-press/vocab-une-nouvelle.mp3", "voice": "denise" },
+    { "id": "annoncer", "fr": "annoncer", "en": "to announce", "pos": "verb", "exampleFr": "Le journal annonce une augmentation.", "exampleEn": "The newspaper announces an increase.", "audio": "audio/a2.2/unit-05-press/vocab-annoncer.mp3", "voice": "henri" },
+    { "id": "augmenter", "fr": "augmenter", "en": "to increase / rise", "pos": "verb", "exampleFr": "Les prix augmentent.", "exampleEn": "Prices are rising.", "audio": "audio/a2.2/unit-05-press/vocab-augmenter.mp3", "voice": "denise" },
+    { "id": "c-est-qui-que", "fr": "c'est… qui / c'est… que", "en": "it's … who / that (emphasis)", "pos": "phrase", "exampleFr": "C'est toi qui décides.", "exampleEn": "It's you who decides.", "audio": "audio/a2.2/unit-05-press/vocab-c-est-qui-que.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "C'est une émission que j'adore.", "en": "It's a programme (that) I love.", "audio": "audio/a2.2/unit-05-press/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "C'est ce journaliste qui a écrit l'article.", "en": "It's this journalist who wrote the article.", "audio": "audio/a2.2/unit-05-press/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "Le titre annonce une augmentation des prix.", "en": "The headline announces a price increase.", "audio": "audio/a2.2/unit-05-press/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "Je regarde les infos à la télévision.", "en": "I watch the news on TV.", "audio": "audio/a2.2/unit-05-press/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "Quelle est ton opinion sur cette chaîne ?", "en": "What's your opinion of this channel?", "audio": "audio/a2.2/unit-05-press/example-ex-5.mp3", "voice": "denise" }
+  ]
+}

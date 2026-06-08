@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "unitId": "a2.2/unit-05-press",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Emphasise the SUBJECT: « C'est Marie ___ a gagné. »",
+      "options": [
+        { "id": "a", "text": "qui" },
+        { "id": "b", "text": "que" },
+        { "id": "c", "text": "dont" }
+      ],
+      "correct": ["a"],
+      "explanation": "c'est … qui highlights the subject (followed by a verb): C'est Marie qui a gagné."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Emphasise the object: « C'est ce film ___ je préfère. »",
+      "options": [
+        { "id": "a", "text": "que" },
+        { "id": "b", "text": "qui" },
+        { "id": "c", "text": "où" }
+      ],
+      "correct": ["a"],
+      "explanation": "c'est … que highlights the rest (followed by a subject): C'est ce film que je préfère."
+    },
+    {
+      "id": "ex-mc-3",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What is the noun (nominalisation) from the verb « augmenter »?",
+      "options": [
+        { "id": "a", "text": "une augmentation" },
+        { "id": "b", "text": "un augment" },
+        { "id": "c", "text": "augmenté" }
+      ],
+      "correct": ["a"],
+      "explanation": "augmenter → une augmentation (often used in headlines)."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Emphasise the subject 'toi'.",
+      "inputMode": "dropdown",
+      "template": "C'est toi {{b1}} as raison.",
+      "blanks": [{ "id": "b1", "accept": ["qui"], "options": ["qui", "que"] }],
+      "explanation": "Subject + verb → qui: C'est toi qui as raison."
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Emphasise the object 'ce livre'.",
+      "inputMode": "dropdown",
+      "template": "C'est ce livre {{b1}} je cherche.",
+      "blanks": [{ "id": "b1", "accept": ["que"], "options": ["que", "qui"] }],
+      "explanation": "Followed by a subject (je) → que: C'est ce livre que je cherche."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each media word to its English meaning.",
+      "pairs": [
+        { "id": "p1", "left": "la presse", "right": "the press" },
+        { "id": "p2", "left": "le journal", "right": "newspaper" },
+        { "id": "p3", "left": "une émission", "right": "a programme" },
+        { "id": "p4", "left": "le titre", "right": "headline" }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"It's a programme (that) I love.\"",
+      "tokens": [
+        { "id": "t1", "text": "C'est" },
+        { "id": "t2", "text": "une" },
+        { "id": "t3", "text": "émission" },
+        { "id": "t4", "text": "que" },
+        { "id": "t5", "text": "j'adore" }
+      ],
+      "correctOrder": ["t1", "t2", "t3", "t4", "t5"]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then: who wrote the article?",
+      "audio": "audio/a2.2/unit-05-press/listen-1.mp3",
+      "transcript": "C'est ce journaliste qui a écrit l'article.",
+      "options": [
+        { "id": "a", "text": "This journalist" },
+        { "id": "b", "text": "The TV host" },
+        { "id": "c", "text": "Nobody knows" }
+      ],
+      "correct": ["a"],
+      "explanation": "« C'est ce journaliste qui a écrit… » = It's this journalist who wrote…"
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read and answer both questions.",
+      "passageFr": "Le journal annonce une augmentation des prix. C'est un journaliste connu qui a écrit l'article. Moi, ce que je préfère, c'est la radio : c'est plus pratique.",
+      "passageEn": "The newspaper announces a price increase. It's a well-known journalist who wrote the article. Me, what I prefer is the radio: it's more practical.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "What does the newspaper announce?",
+          "options": [
+            { "id": "a", "text": "A price increase" },
+            { "id": "b", "text": "A new TV show" },
+            { "id": "c", "text": "A football result" }
+          ],
+          "correct": ["a"]
+        },
+        {
+          "id": "q2",
+          "prompt": "Which medium does the speaker prefer?",
+          "options": [
+            { "id": "a", "text": "The radio" },
+            { "id": "b", "text": "The newspaper" },
+            { "id": "c", "text": "Television" }
+          ],
+          "correct": ["a"]
+        }
+      ]
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "C'est une émission que j'adore.",
+      "targetEn": "It's a programme (that) I love.",
+      "audio": "audio/a2.2/unit-05-press/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "Le titre annonce une augmentation des prix.",
+      "targetEn": "The headline announces a price increase.",
+      "audio": "audio/a2.2/unit-05-press/example-ex-3.mp3"
+    }
+  ]
+}
