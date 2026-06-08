@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "a1.2/unit-10-rules",
+  "level": "a1.2",
+  "unitNumber": 10,
+  "slug": "unit-10-rules",
+  "title": "Living Together",
+  "titleFr": "La vie en commun",
+  "cefrDescriptors": [
+    "Can express obligation and necessity with il faut.",
+    "Can state rules and prohibitions and give simple instructions."
+  ],
+  "skills": ["reading", "listening", "writing"],
+  "estimatedMinutes": 45,
+  "concept": "Living with other people means rules — and French has a neat, impersonal way to state them: il faut.\n\nil faut + infinitive = \"you have to / one must / it's necessary to.\" It never changes form (always il faut), and it's followed by a verb in the infinitive:\n  Il faut payer le loyer. (You have to pay the rent.)\n  Il faut respecter les voisins. (You must respect the neighbours.)\n\nTo forbid something, make it negative — il ne faut pas + infinitive = \"you must not\":\n  Il ne faut pas faire de bruit. (You mustn't make noise.)\n\nFor official-sounding rules and signs, French uses il est interdit de + infinitive (it is forbidden to…):\n  Il est interdit de fumer. (No smoking.)\n\nAnd you already met l'impératif in the directions unit — it's still the quickest way to give a direct instruction (tu / vous / nous), with no subject pronoun:\n  Range ta chambre ! (Tidy your room!)   Faisons le ménage. (Let's do the housework.)\n\nThe shared-living vocabulary fits the theme: le loyer (rent), le voisin (neighbour), le bruit (noise), la règle (rule), la poubelle (the bin), and verbs like partager (to share), ranger (to tidy), respecter (to respect), faire le ménage (to do the housework).\n\nA set of house rules in action:\n  « Il faut ranger la cuisine. Il ne faut pas faire de bruit le soir. Il est interdit de fumer. »\n\nWrite two rules for a shared flat: one with il faut and one with il ne faut pas.\n\nThat's the final module of A1 — félicitations !",
+  "vocabulary": [
+    { "id": "il-faut", "fr": "il faut", "en": "you must / it's necessary to", "pos": "phrase", "exampleFr": "Il faut payer le loyer.", "exampleEn": "You have to pay the rent.", "audio": "audio/a1.2/unit-10-rules/vocab-il-faut.mp3", "voice": "denise" },
+    { "id": "loyer", "fr": "le loyer", "en": "rent", "pos": "noun", "exampleFr": "Le loyer est cher.", "exampleEn": "The rent is expensive.", "audio": "audio/a1.2/unit-10-rules/vocab-loyer.mp3", "voice": "henri" },
+    { "id": "voisin", "fr": "le voisin", "en": "neighbour (f. la voisine)", "pos": "noun", "exampleFr": "Mon voisin est gentil.", "exampleEn": "My neighbour is nice.", "audio": "audio/a1.2/unit-10-rules/vocab-voisin.mp3", "voice": "denise" },
+    { "id": "bruit", "fr": "le bruit", "en": "noise", "pos": "noun", "exampleFr": "Il y a trop de bruit.", "exampleEn": "There's too much noise.", "audio": "audio/a1.2/unit-10-rules/vocab-bruit.mp3", "voice": "henri" },
+    { "id": "regle", "fr": "la règle", "en": "rule", "pos": "noun", "exampleFr": "C'est la règle.", "exampleEn": "That's the rule.", "audio": "audio/a1.2/unit-10-rules/vocab-regle.mp3", "voice": "denise" },
+    { "id": "interdit", "fr": "interdit", "en": "forbidden (f. interdite)", "pos": "adjective", "exampleFr": "Il est interdit de fumer.", "exampleEn": "Smoking is forbidden.", "audio": "audio/a1.2/unit-10-rules/vocab-interdit.mp3", "voice": "henri" },
+    { "id": "partager", "fr": "partager", "en": "to share", "pos": "verb", "exampleFr": "On partage la cuisine.", "exampleEn": "We share the kitchen.", "audio": "audio/a1.2/unit-10-rules/vocab-partager.mp3", "voice": "denise" },
+    { "id": "respecter", "fr": "respecter", "en": "to respect", "pos": "verb", "exampleFr": "Il faut respecter les voisins.", "exampleEn": "You must respect the neighbours.", "audio": "audio/a1.2/unit-10-rules/vocab-respecter.mp3", "voice": "henri" },
+    { "id": "ranger", "fr": "ranger", "en": "to tidy up", "pos": "verb", "exampleFr": "Range ta chambre !", "exampleEn": "Tidy your room!", "audio": "audio/a1.2/unit-10-rules/vocab-ranger.mp3", "voice": "denise" },
+    { "id": "poubelle", "fr": "la poubelle", "en": "bin / rubbish", "pos": "noun", "exampleFr": "Sors la poubelle, s'il te plaît.", "exampleEn": "Take out the bin, please.", "audio": "audio/a1.2/unit-10-rules/vocab-poubelle.mp3", "voice": "henri" },
+    { "id": "fumer", "fr": "fumer", "en": "to smoke", "pos": "verb", "exampleFr": "Il est interdit de fumer ici.", "exampleEn": "It's forbidden to smoke here.", "audio": "audio/a1.2/unit-10-rules/vocab-fumer.mp3", "voice": "denise" },
+    { "id": "menage", "fr": "le ménage", "en": "housework", "pos": "noun", "exampleFr": "Je fais le ménage le samedi.", "exampleEn": "I do the housework on Saturdays.", "audio": "audio/a1.2/unit-10-rules/vocab-menage.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "Il faut payer le loyer.", "en": "You have to pay the rent.", "audio": "audio/a1.2/unit-10-rules/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "Il ne faut pas faire de bruit après 22 heures.", "en": "You mustn't make noise after 10 pm.", "audio": "audio/a1.2/unit-10-rules/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "Il est interdit de fumer.", "en": "Smoking is forbidden.", "audio": "audio/a1.2/unit-10-rules/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "Range ta chambre, s'il te plaît.", "en": "Tidy your room, please.", "audio": "audio/a1.2/unit-10-rules/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "Il faut respecter les voisins.", "en": "You have to respect the neighbours.", "audio": "audio/a1.2/unit-10-rules/example-ex-5.mp3", "voice": "denise" }
+  ]
+}

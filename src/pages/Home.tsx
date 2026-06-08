@@ -23,10 +23,10 @@ const SKILL_ICON: Record<Skill, string> = {
 function Stat({ label, value, icon }: { label: string; value: string; icon?: string }) {
   return (
     <div className="rounded-lg border border-ink/10 bg-card p-3 text-center">
-      {icon && (
-        <img src={icon} alt="" className="mx-auto mb-1 h-8 w-8 object-contain" />
-      )}
-      <p className="font-display text-2xl font-bold text-marine">{value}</p>
+      <p className="flex items-center justify-center gap-1.5 font-display text-2xl font-bold text-marine">
+        {value}
+        {icon && <img src={icon} alt="" className="h-7 w-7 object-contain" />}
+      </p>
       <p className="text-xs uppercase tracking-wide text-ink/50">{label}</p>
     </div>
   );
