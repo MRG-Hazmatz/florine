@@ -34,7 +34,7 @@ export default function Layout() {
         <Outlet />
       </main>
 
-      <footer className="border-t border-ink/10 py-4 text-center text-xs text-ink/55">
+      <footer className="py-4 text-center text-xs text-ink/55">
         Florine — open-source DELF practice · Faces: Francisco Lemos (lemos.itch.io), CC BY 4.0
       </footer>
     </div>

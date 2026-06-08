@@ -100,8 +100,8 @@ export default function Review() {
 
       {/* Tarot-style flashcard: thick outer frame + thin inner rule + hard offset shadow */}
       <div className="mx-auto max-w-sm">
-        <div className="rounded-xl border-2 border-ink/70 bg-card p-1.5 shadow-[5px_5px_0_rgba(23,18,12,0.35)]">
-          <div className="flex min-h-80 flex-col items-center justify-between rounded-lg border border-ink/30 px-5 py-6 text-center">
+        <div className="ornate-frame bg-card">
+          <div className="flex min-h-72 flex-col items-center justify-between px-5 py-6 text-center">
             <span className="text-[10px] uppercase tracking-[0.35em] text-ink/40">
               Carte · Français
             </span>
