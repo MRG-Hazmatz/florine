@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "a2.2/unit-04-media",
+  "level": "a2.2",
+  "unitNumber": 4,
+  "slug": "unit-04-media",
+  "title": "New Media & Blogs",
+  "titleFr": "Médiamania : les médias participatifs",
+  "cefrDescriptors": [
+    "Can talk about the internet, blogs and social media, and make suggestions.",
+    "Can use si + imparfait to suggest, and indefinite pronouns (quelqu'un, rien, personne…)."
+  ],
+  "skills": ["reading", "listening", "writing", "speaking"],
+  "estimatedMinutes": 50,
+  "concept": "This unit is about new media — blogs, the internet, sharing online — with two grammar tools.\n\n1) si + imparfait to SUGGEST something (a soft \"how about…?\"):\n  Si on regardait un film ? (How about watching a film?)\n  Si tu écrivais un article ? (Why not write an article?)\nHere the imparfait isn't about the past — it floats an idea or invitation.\n\n2) Indefinite pronouns and adverbs — the \"some / any / no\" words, in opposite pairs:\n  • quelqu'un (someone) ↔ personne (no one): Il y a quelqu'un ? — Non, il n'y a personne.\n  • quelque chose (something) ↔ rien (nothing): Tu vois quelque chose ? — Non, je ne vois rien.\n  • quelque part (somewhere) ↔ nulle part (nowhere).\nThe negative ones (personne, rien, nulle part) pair with ne: « je ne vois rien », « il n'y a personne ». To add an adjective, use de: rien d'intéressant (nothing interesting).\n\nThe theme vocabulary: un blog, un article, internet, un réseau social (a social network), publier (to post), un commentaire (a comment), réagir (to react).\n\nPut it together: « J'ai lu un article génial sur un blog et j'ai publié un commentaire. Si on créait un blog ensemble ? »\n\nWrite two sentences: one suggestion with si + imparfait, and one using rien or personne.",
+  "vocabulary": [
+    { "id": "blog", "fr": "un blog", "en": "a blog", "pos": "noun", "exampleFr": "Je lis un blog de voyage.", "exampleEn": "I read a travel blog.", "audio": "audio/a2.2/unit-04-media/vocab-blog.mp3", "voice": "denise" },
+    { "id": "article", "fr": "un article", "en": "an article", "pos": "noun", "exampleFr": "J'ai lu un article intéressant.", "exampleEn": "I read an interesting article.", "audio": "audio/a2.2/unit-04-media/vocab-article.mp3", "voice": "henri" },
+    { "id": "internet", "fr": "internet", "en": "the internet", "pos": "noun", "exampleFr": "Je cherche sur internet.", "exampleEn": "I'm searching on the internet.", "audio": "audio/a2.2/unit-04-media/vocab-internet.mp3", "voice": "denise" },
+    { "id": "reseau-social", "fr": "un réseau social", "en": "a social network", "pos": "noun", "exampleFr": "Les réseaux sociaux sont populaires.", "exampleEn": "Social networks are popular.", "audio": "audio/a2.2/unit-04-media/vocab-reseau-social.mp3", "voice": "henri" },
+    { "id": "publier", "fr": "publier", "en": "to post / publish", "pos": "verb", "exampleFr": "J'ai publié une photo.", "exampleEn": "I posted a photo.", "audio": "audio/a2.2/unit-04-media/vocab-publier.mp3", "voice": "denise" },
+    { "id": "commentaire", "fr": "un commentaire", "en": "a comment", "pos": "noun", "exampleFr": "Laisse un commentaire.", "exampleEn": "Leave a comment.", "audio": "audio/a2.2/unit-04-media/vocab-commentaire.mp3", "voice": "henri" },
+    { "id": "reagir", "fr": "réagir", "en": "to react", "pos": "verb", "exampleFr": "Les gens réagissent vite.", "exampleEn": "People react quickly.", "audio": "audio/a2.2/unit-04-media/vocab-reagir.mp3", "voice": "denise" },
+    { "id": "quelqu-un", "fr": "quelqu'un", "en": "someone", "pos": "pronoun", "exampleFr": "Il y a quelqu'un ?", "exampleEn": "Is anyone there?", "audio": "audio/a2.2/unit-04-media/vocab-quelqu-un.mp3", "voice": "henri" },
+    { "id": "quelque-chose", "fr": "quelque chose", "en": "something", "pos": "pronoun", "exampleFr": "Tu veux quelque chose ?", "exampleEn": "Do you want something?", "audio": "audio/a2.2/unit-04-media/vocab-quelque-chose.mp3", "voice": "denise" },
+    { "id": "personne", "fr": "personne", "en": "no one (ne… personne)", "pos": "pronoun", "exampleFr": "Il n'y a personne.", "exampleEn": "There's no one.", "audio": "audio/a2.2/unit-04-media/vocab-personne.mp3", "voice": "henri" },
+    { "id": "rien", "fr": "rien", "en": "nothing (ne… rien)", "pos": "pronoun", "exampleFr": "Je ne vois rien.", "exampleEn": "I don't see anything.", "audio": "audio/a2.2/unit-04-media/vocab-rien.mp3", "voice": "denise" },
+    { "id": "nulle-part", "fr": "nulle part", "en": "nowhere (ne… nulle part)", "pos": "phrase", "exampleFr": "Je ne vais nulle part.", "exampleEn": "I'm not going anywhere.", "audio": "audio/a2.2/unit-04-media/vocab-nulle-part.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "Si on regardait un film ce soir ?", "en": "How about watching a film tonight?", "audio": "audio/a2.2/unit-04-media/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "J'ai publié un commentaire sur le blog.", "en": "I posted a comment on the blog.", "audio": "audio/a2.2/unit-04-media/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "Il y a quelqu'un sur le forum.", "en": "There's someone on the forum.", "audio": "audio/a2.2/unit-04-media/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "Je ne vois rien d'intéressant.", "en": "I don't see anything interesting.", "audio": "audio/a2.2/unit-04-media/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "Tu as lu cet article sur internet ?", "en": "Did you read this article online?", "audio": "audio/a2.2/unit-04-media/example-ex-5.mp3", "voice": "denise" }
+  ]
+}

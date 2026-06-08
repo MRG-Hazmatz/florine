@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "unitId": "a2.2/unit-04-media",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "« Si on allait au cinéma ? » is a way to…",
+      "options": [
+        { "id": "a", "text": "make a suggestion" },
+        { "id": "b", "text": "talk about the past" },
+        { "id": "c", "text": "give an order" }
+      ],
+      "correct": ["a"],
+      "explanation": "si + imparfait floats a suggestion: « Si on allait…? » = How about going…?"
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « Je ne vois personne » mean?",
+      "options": [
+        { "id": "a", "text": "I don't see anybody" },
+        { "id": "b", "text": "I see someone" },
+        { "id": "c", "text": "I see something" }
+      ],
+      "correct": ["a"],
+      "explanation": "ne… personne = nobody / not anybody."
+    },
+    {
+      "id": "ex-mc-3",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "What is the negative partner of « quelque chose »?",
+      "options": [
+        { "id": "a", "text": "rien" },
+        { "id": "b", "text": "personne" },
+        { "id": "c", "text": "quelqu'un" }
+      ],
+      "correct": ["a"],
+      "explanation": "quelque chose (something) ↔ rien (nothing)."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Make a suggestion: si + imparfait of regarder.",
+      "inputMode": "dropdown",
+      "template": "Si on {{b1}} un film ?",
+      "blanks": [{ "id": "b1", "accept": ["regardait"], "options": ["regardait", "regarde"] }],
+      "explanation": "Suggestion = si + imparfait: « Si on regardait…? »"
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Complete with the word for 'nobody'.",
+      "inputMode": "dropdown",
+      "template": "Il n'y a {{b1}} dans la rue.",
+      "blanks": [{ "id": "b1", "accept": ["personne"], "options": ["personne", "rien"] }],
+      "explanation": "ne… personne = nobody: « il n'y a personne »."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        { "id": "p1", "left": "un blog", "right": "a blog" },
+        { "id": "p2", "left": "publier", "right": "to post" },
+        { "id": "p3", "left": "un commentaire", "right": "a comment" },
+        { "id": "p4", "left": "réagir", "right": "to react" }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"I posted a comment.\"",
+      "tokens": [
+        { "id": "t1", "text": "J'ai" },
+        { "id": "t2", "text": "publié" },
+        { "id": "t3", "text": "un" },
+        { "id": "t4", "text": "commentaire" }
+      ],
+      "correctOrder": ["t1", "t2", "t3", "t4"]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then: what is the person suggesting?",
+      "audio": "audio/a2.2/unit-04-media/listen-1.mp3",
+      "transcript": "Si on écrivait un article ensemble ?",
+      "options": [
+        { "id": "a", "text": "Writing an article together" },
+        { "id": "b", "text": "Deleting a blog" },
+        { "id": "c", "text": "Buying a phone" }
+      ],
+      "correct": ["a"],
+      "explanation": "« Si on écrivait…? » = How about writing…?"
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read and answer both questions.",
+      "passageFr": "J'adore les blogs de voyage. Hier, j'ai lu un article génial et j'ai publié un commentaire. Si on créait un blog ensemble ? Il n'y a rien de plus amusant !",
+      "passageEn": "I love travel blogs. Yesterday, I read a great article and I posted a comment. How about we create a blog together? There's nothing more fun!",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "What did the speaker do yesterday?",
+          "options": [
+            { "id": "a", "text": "Read an article and posted a comment" },
+            { "id": "b", "text": "Deleted their blog" },
+            { "id": "c", "text": "Bought a new phone" }
+          ],
+          "correct": ["a"]
+        },
+        {
+          "id": "q2",
+          "prompt": "What does the speaker suggest?",
+          "options": [
+            { "id": "a", "text": "Creating a blog together" },
+            { "id": "b", "text": "Stopping blogging" },
+            { "id": "c", "text": "Meeting in person" }
+          ],
+          "correct": ["a"]
+        }
+      ]
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "Si on regardait un film ce soir ?",
+      "targetEn": "How about watching a film tonight?",
+      "audio": "audio/a2.2/unit-04-media/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "Je ne vois rien d'intéressant.",
+      "targetEn": "I don't see anything interesting.",
+      "audio": "audio/a2.2/unit-04-media/example-ex-4.mp3"
+    }
+  ]
+}
