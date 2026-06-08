@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "unitId": "a2.2/unit-02-elsewhere",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Replace a masculine noun: « mon vélo et ___ de Paul »",
+      "options": [
+        { "id": "a", "text": "celui" },
+        { "id": "b", "text": "celle" },
+        { "id": "c", "text": "ceux" }
+      ],
+      "correct": ["a"],
+      "explanation": "vélo is masculine singular → celui de Paul (Paul's one)."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Replace a feminine noun: « ma voiture et ___ de Marie »",
+      "options": [
+        { "id": "a", "text": "celle" },
+        { "id": "b", "text": "celui" },
+        { "id": "c", "text": "celles" }
+      ],
+      "correct": ["a"],
+      "explanation": "voiture is feminine singular → celle de Marie."
+    },
+    {
+      "id": "ex-mc-3",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « celui-ci » mean?",
+      "options": [
+        { "id": "a", "text": "this one" },
+        { "id": "b", "text": "those ones" },
+        { "id": "c", "text": "no one" }
+      ],
+      "correct": ["a"],
+      "explanation": "celui-ci = this one; celui-là = that one."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Point to a dress (feminine) further away: 'that one'.",
+      "inputMode": "dropdown",
+      "template": "J'aime cette robe, mais je préfère {{b1}}.",
+      "blanks": [{ "id": "b1", "accept": ["celle-là"], "options": ["celle-là", "celui-là"] }],
+      "explanation": "robe is feminine → celle-là (that one)."
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Replace 'le quartier' (masculine) with the right pronoun.",
+      "inputMode": "dropdown",
+      "template": "Mon quartier est calme, mais {{b1}} de Paul est bruyant.",
+      "blanks": [{ "id": "b1", "accept": ["celui"], "options": ["celui", "celle"] }],
+      "explanation": "quartier is masculine → celui de Paul."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        { "id": "p1", "left": "s'installer", "right": "to settle" },
+        { "id": "p2", "left": "ailleurs", "right": "elsewhere" },
+        { "id": "p3", "left": "choisir", "right": "to choose" },
+        { "id": "p4", "left": "le climat", "right": "climate" }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"I'd like to live elsewhere.\"",
+      "tokens": [
+        { "id": "t1", "text": "Je" },
+        { "id": "t2", "text": "voudrais" },
+        { "id": "t3", "text": "vivre" },
+        { "id": "t4", "text": "ailleurs" }
+      ],
+      "correctOrder": ["t1", "t2", "t3", "t4"]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then: what does the speaker prefer?",
+      "audio": "audio/a2.2/unit-02-elsewhere/listen-1.mp3",
+      "transcript": "Je préfère la campagne à la ville.",
+      "options": [
+        { "id": "a", "text": "The countryside" },
+        { "id": "b", "text": "The city" },
+        { "id": "c", "text": "The sea" }
+      ],
+      "correct": ["a"],
+      "explanation": "préférer X à Y: « la campagne à la ville » = the countryside over the city."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read and answer both questions.",
+      "passageFr": "Lucas habite à Lyon, mais il veut vivre ailleurs. Il a choisi de s'installer au Canada. Le climat est froid, mais la qualité de vie est meilleure que celle de la France, dit-il. Il s'habitue vite à sa nouvelle vie.",
+      "passageEn": "Lucas lives in Lyon, but he wants to live elsewhere. He has chosen to settle in Canada. The climate is cold, but the quality of life is better than that of France, he says. He's quickly getting used to his new life.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "Where did Lucas choose to move?",
+          "options": [
+            { "id": "a", "text": "Canada" },
+            { "id": "b", "text": "Lyon" },
+            { "id": "c", "text": "Italy" }
+          ],
+          "correct": ["a"]
+        },
+        {
+          "id": "q2",
+          "prompt": "How is the quality of life there, according to him?",
+          "options": [
+            { "id": "a", "text": "Better than in France" },
+            { "id": "b", "text": "Worse than in France" },
+            { "id": "c", "text": "Exactly the same" }
+          ],
+          "correct": ["a"]
+        }
+      ]
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "Je voudrais m'installer à l'étranger.",
+      "targetEn": "I'd like to settle abroad.",
+      "audio": "audio/a2.2/unit-02-elsewhere/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "Le climat d'ici est meilleur que celui de Paris.",
+      "targetEn": "The climate here is better than the one in Paris.",
+      "audio": "audio/a2.2/unit-02-elsewhere/example-ex-5.mp3"
+    }
+  ]
+}

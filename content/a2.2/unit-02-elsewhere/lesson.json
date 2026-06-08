@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "a2.2/unit-02-elsewhere",
+  "level": "a2.2",
+  "unitNumber": 2,
+  "slug": "unit-02-elsewhere",
+  "title": "Living Elsewhere",
+  "titleFr": "Vivre ailleurs",
+  "cefrDescriptors": [
+    "Can talk about moving and living in another place.",
+    "Can avoid repetition using demonstrative pronouns (celui, celle, ceux, celles)."
+  ],
+  "skills": ["reading", "listening", "writing", "speaking"],
+  "estimatedMinutes": 50,
+  "concept": "This unit is about choosing where to live — and the grammar that lets you compare options without repeating the noun: demonstrative pronouns.\n\nThey mean \"the one / the ones\" and match gender and number:\n  celui (m. sing.), celle (f. sing.), ceux (m. pl.), celles (f. pl.).\nYou never use them alone — they're always followed by one of these:\n  • -ci / -là (this one / that one): « Je préfère celui-ci. », « Prends celle-là. »\n  • de + owner/place: « mon vélo et celui de Paul » (Paul's one), « le climat d'ici et celui de Paris ».\n  • qui / que (a relative): « celui qui parle » (the one who's speaking).\n\nSo instead of repeating, you say: « Mon appartement est petit, mais celui de Marie est grand. »\n\nThe theme is living elsewhere: s'installer (to settle / move in), vivre ailleurs (to live elsewhere), changer de vie (to change one's life), choisir (to choose), préférer (to prefer), s'habituer à (to get used to), le climat, la langue, l'étranger (abroad).\n\nA useful structure: préférer X à Y (to prefer X over Y): « Je préfère la campagne à la ville. »\n\nPut it together: « J'ai choisi de m'installer au Canada. Le climat est plus froid que celui de la France, mais je m'habitue vite ! »\n\nWrite two sentences comparing two places, using celui or celle de each time.",
+  "vocabulary": [
+    { "id": "s-installer", "fr": "s'installer", "en": "to settle / move in", "pos": "verb", "exampleFr": "Je veux m'installer à Paris.", "exampleEn": "I want to settle in Paris.", "audio": "audio/a2.2/unit-02-elsewhere/vocab-s-installer.mp3", "voice": "denise" },
+    { "id": "ailleurs", "fr": "ailleurs", "en": "elsewhere", "pos": "adverb", "exampleFr": "Je veux vivre ailleurs.", "exampleEn": "I want to live elsewhere.", "audio": "audio/a2.2/unit-02-elsewhere/vocab-ailleurs.mp3", "voice": "henri" },
+    { "id": "changer", "fr": "changer", "en": "to change", "pos": "verb", "exampleFr": "Je voudrais changer de vie.", "exampleEn": "I'd like to change my life.", "audio": "audio/a2.2/unit-02-elsewhere/vocab-changer.mp3", "voice": "denise" },
+    { "id": "choisir", "fr": "choisir", "en": "to choose", "pos": "verb", "exampleFr": "Il faut choisir.", "exampleEn": "You have to choose.", "audio": "audio/a2.2/unit-02-elsewhere/vocab-choisir.mp3", "voice": "henri" },
+    { "id": "preferer", "fr": "préférer", "en": "to prefer", "pos": "verb", "exampleFr": "Je préfère la campagne à la ville.", "exampleEn": "I prefer the countryside to the city.", "audio": "audio/a2.2/unit-02-elsewhere/vocab-preferer.mp3", "voice": "denise" },
+    { "id": "la-vie", "fr": "la vie", "en": "life", "pos": "noun", "exampleFr": "La vie ici est calme.", "exampleEn": "Life here is calm.", "audio": "audio/a2.2/unit-02-elsewhere/vocab-la-vie.mp3", "voice": "henri" },
+    { "id": "climat", "fr": "le climat", "en": "climate", "pos": "noun", "exampleFr": "Le climat est doux.", "exampleEn": "The climate is mild.", "audio": "audio/a2.2/unit-02-elsewhere/vocab-climat.mp3", "voice": "denise" },
+    { "id": "langue", "fr": "la langue", "en": "language", "pos": "noun", "exampleFr": "J'apprends la langue.", "exampleEn": "I'm learning the language.", "audio": "audio/a2.2/unit-02-elsewhere/vocab-langue.mp3", "voice": "henri" },
+    { "id": "s-habituer", "fr": "s'habituer à", "en": "to get used to", "pos": "verb", "exampleFr": "Je m'habitue à la vie ici.", "exampleEn": "I'm getting used to life here.", "audio": "audio/a2.2/unit-02-elsewhere/vocab-s-habituer.mp3", "voice": "denise" },
+    { "id": "etranger", "fr": "l'étranger", "en": "abroad", "pos": "noun", "exampleFr": "Il habite à l'étranger.", "exampleEn": "He lives abroad.", "audio": "audio/a2.2/unit-02-elsewhere/vocab-etranger.mp3", "voice": "henri" },
+    { "id": "celui", "fr": "celui / celle", "en": "the one (m. / f.)", "pos": "pronoun", "exampleFr": "Celui de Paul est rouge.", "exampleEn": "Paul's one is red.", "audio": "audio/a2.2/unit-02-elsewhere/vocab-celui.mp3", "voice": "denise" },
+    { "id": "celui-ci", "fr": "celui-ci / celui-là", "en": "this one / that one", "pos": "pronoun", "exampleFr": "Je préfère celui-ci.", "exampleEn": "I prefer this one.", "audio": "audio/a2.2/unit-02-elsewhere/vocab-celui-ci.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "Je voudrais m'installer à l'étranger.", "en": "I'd like to settle abroad.", "audio": "audio/a2.2/unit-02-elsewhere/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "Quelle ville préfères-tu : celle-ci ou celle-là ?", "en": "Which city do you prefer: this one or that one?", "audio": "audio/a2.2/unit-02-elsewhere/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "Mon appartement est petit, mais celui de Marie est grand.", "en": "My flat is small, but Marie's is big.", "audio": "audio/a2.2/unit-02-elsewhere/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "Je m'habitue à la vie ici.", "en": "I'm getting used to life here.", "audio": "audio/a2.2/unit-02-elsewhere/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "Le climat d'ici est meilleur que celui de Paris.", "en": "The climate here is better than the one in Paris.", "audio": "audio/a2.2/unit-02-elsewhere/example-ex-5.mp3", "voice": "denise" }
+  ]
+}
