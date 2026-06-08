@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "a1.2/unit-09-homes",
+  "level": "a1.2",
+  "unitNumber": 9,
+  "slug": "unit-09-homes",
+  "title": "Homes & Living",
+  "titleFr": "Le logement",
+  "cefrDescriptors": [
+    "Can describe a home and the rooms in it.",
+    "Can tell the difference between a past habit/description (imparfait) and a past event (passé composé)."
+  ],
+  "skills": ["reading", "listening", "writing"],
+  "estimatedMinutes": 50,
+  "concept": "Now you have two past tenses, and the skill is knowing which one to use.\n\nYou already know the passé composé — it's for a completed event, something that HAPPENED:\n  « L'année dernière, j'ai déménagé. » (Last year, I moved.)\n\nThe new one is the imparfait — it's for DESCRIPTION and HABITS in the past: how things were, what used to happen, the background:\n  « Avant, j'habitais à Paris. » (Before, I used to live / was living in Paris.)\n\nHow to build the imparfait: take the nous form of the present, drop -ons, and add -ais, -ais, -ait, -ions, -iez, -aient.\n  parler → nous parlons → parl- → je parlais, tu parlais, il parlait…\n  avoir  → nous avons   → av-   → j'avais\nOne irregular stem to memorise: être → ét- → j'étais, tu étais, il était…\n\nThe contrast in one breath:\n  « Quand j'étais petit, j'habitais dans une petite maison (imparfait — how things were). Un jour, mes parents ont acheté un appartement (passé composé — the event). »\n\nThe home vocabulary fits perfectly: l'appartement, l'immeuble (apartment building), la pièce (room), la cuisine, la chambre, le salon, la salle de bains, le jardin, le quartier (neighbourhood), plus déménager (to move house) and louer (to rent).\n\nDon't stress about getting every choice perfect — for now, just recognising \"description/habit = imparfait, event = passé composé\" is the goal.\n\nDescribe where you lived when you were younger (imparfait), then one thing that happened (passé composé).",
+  "vocabulary": [
+    { "id": "appartement", "fr": "l'appartement", "en": "flat / apartment", "pos": "noun", "exampleFr": "J'habite dans un appartement.", "exampleEn": "I live in an apartment.", "audio": "audio/a1.2/unit-09-homes/vocab-appartement.mp3", "voice": "denise" },
+    { "id": "immeuble", "fr": "l'immeuble", "en": "apartment building", "pos": "noun", "exampleFr": "L'immeuble est ancien.", "exampleEn": "The building is old.", "audio": "audio/a1.2/unit-09-homes/vocab-immeuble.mp3", "voice": "henri" },
+    { "id": "piece", "fr": "la pièce", "en": "room", "pos": "noun", "exampleFr": "L'appartement a trois pièces.", "exampleEn": "The apartment has three rooms.", "audio": "audio/a1.2/unit-09-homes/vocab-piece.mp3", "voice": "denise" },
+    { "id": "cuisine", "fr": "la cuisine", "en": "kitchen", "pos": "noun", "exampleFr": "La cuisine est petite.", "exampleEn": "The kitchen is small.", "audio": "audio/a1.2/unit-09-homes/vocab-cuisine.mp3", "voice": "henri" },
+    { "id": "chambre", "fr": "la chambre", "en": "bedroom", "pos": "noun", "exampleFr": "Ma chambre est grande.", "exampleEn": "My bedroom is big.", "audio": "audio/a1.2/unit-09-homes/vocab-chambre.mp3", "voice": "denise" },
+    { "id": "salon", "fr": "le salon", "en": "living room", "pos": "noun", "exampleFr": "Il y a un grand salon.", "exampleEn": "There's a big living room.", "audio": "audio/a1.2/unit-09-homes/vocab-salon.mp3", "voice": "henri" },
+    { "id": "salle-de-bain", "fr": "la salle de bains", "en": "bathroom", "pos": "noun", "exampleFr": "La salle de bains est à droite.", "exampleEn": "The bathroom is on the right.", "audio": "audio/a1.2/unit-09-homes/vocab-salle-de-bain.mp3", "voice": "denise" },
+    { "id": "jardin", "fr": "le jardin", "en": "garden", "pos": "noun", "exampleFr": "Quand j'étais petit, j'avais un jardin.", "exampleEn": "When I was little, I had a garden.", "audio": "audio/a1.2/unit-09-homes/vocab-jardin.mp3", "voice": "henri" },
+    { "id": "quartier", "fr": "le quartier", "en": "neighbourhood / area", "pos": "noun", "exampleFr": "J'aime mon quartier.", "exampleEn": "I like my neighbourhood.", "audio": "audio/a1.2/unit-09-homes/vocab-quartier.mp3", "voice": "denise" },
+    { "id": "demenager", "fr": "déménager", "en": "to move house (past: déménagé)", "pos": "verb", "exampleFr": "L'année dernière, j'ai déménagé.", "exampleEn": "Last year, I moved.", "audio": "audio/a1.2/unit-09-homes/vocab-demenager.mp3", "voice": "henri" },
+    { "id": "louer", "fr": "louer", "en": "to rent", "pos": "verb", "exampleFr": "Je voudrais louer un appartement.", "exampleEn": "I'd like to rent an apartment.", "audio": "audio/a1.2/unit-09-homes/vocab-louer.mp3", "voice": "denise" },
+    { "id": "avant", "fr": "avant", "en": "before / in the past", "pos": "adverb", "exampleFr": "Avant, j'habitais à Paris.", "exampleEn": "Before, I used to live in Paris.", "audio": "audio/a1.2/unit-09-homes/vocab-avant.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "Avant, j'habitais à Paris.", "en": "Before, I used to live in Paris.", "audio": "audio/a1.2/unit-09-homes/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "L'année dernière, j'ai déménagé.", "en": "Last year, I moved.", "audio": "audio/a1.2/unit-09-homes/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "Mon appartement a trois pièces.", "en": "My apartment has three rooms.", "audio": "audio/a1.2/unit-09-homes/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "Quand j'étais petit, j'avais un jardin.", "en": "When I was little, I had a garden.", "audio": "audio/a1.2/unit-09-homes/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "La cuisine est petite mais le salon est grand.", "en": "The kitchen is small but the living room is big.", "audio": "audio/a1.2/unit-09-homes/example-ex-5.mp3", "voice": "denise" }
+  ]
+}

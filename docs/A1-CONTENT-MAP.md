@@ -30,12 +30,12 @@ Status: ✅ built · 🔨 in progress · ⬜ planned
 | 13 | Asking questions & celebrations | D5·L1 | est-ce que / qu'est-ce que, mots interrogatifs, fêtes | ✅ a1.2/unit-01 |
 | 14 | Talking about the past | D5·L2–L3 | passé composé (avoir) | ✅ a1.2/unit-02 |
 | 15 | Weather & seasons | D6·L1 | quel temps fait-il, il fait…, les saisons | ✅ a1.2/unit-03 |
-| 16 | Geography & travel | D6·L2–L3 | comparatif (intro), le pronom y | ⬜ |
-| 17 | Food & meals | D7·L1 | articles partitifs (du/de la/des), la quantité | ⬜ |
-| 18 | Shopping & advice | D7·L2–L3 | pronoms COD/COI, conseiller | ⬜ |
-| 19 | Groceries & quantity | D8·L1 | le pronom en, expressions de quantité | ⬜ |
-| 20 | Restaurants & describing | D8·L2–L3 | adjectifs qualificatifs, comparatif | ⬜ |
-| 21 | Homes & living | D9·L1–L2 | passé composé vs imparfait | ⬜ |
+| 16 | Geography & travel | D6·L2–L3 | comparatif, le pronom y | ✅ a1.2/unit-04 |
+| 17 | Food & meals | D7·L1 | articles partitifs (du/de la/des), la quantité | ✅ a1.2/unit-05 |
+| 18 | Shopping & clothes | D7·L2 | pronoms COD (le/la/les) | ✅ a1.2/unit-06 |
+| 19 | Groceries & quantity | D8·L1 | le pronom en, expressions de quantité | ✅ a1.2/unit-07 |
+| 20 | Restaurants & describing | D8·L2–L3 | place de l'adjectif, meilleur | ✅ a1.2/unit-08 |
+| 21 | Homes & living | D9·L1–L2 | passé composé vs imparfait | ✅ a1.2/unit-09 |
 | 22 | Living together (rules) | D9·L3 | il faut, l'interdiction, l'impératif | ⬜ |
 
 ## Notes
@@ -51,3 +51,7 @@ Status: ✅ built · 🔨 in progress · ⬜ planned
   "describing people" module added (unit-09, D3·L2 adjectives).
 - **Resequence (done):** `unitNumber` fields renumbered to book order (D0→D4).
   Folder/slug names intentionally kept as-is (internal-only mismatch, no learner impact).
+- **Coverage gap (flagged):** the A1 book's COI pronouns (lui/leur) + giving advice
+  (D7·L3) were NOT folded into unit-06 (which kept to COD for focus). COI is genuinely
+  A2-level and spirals into the A2 book — decide later whether to add a small a1.2 bonus
+  module or let a2.1 carry it.

@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "a1.2/unit-08-restaurant",
+  "level": "a1.2",
+  "unitNumber": 8,
+  "slug": "unit-08-restaurant",
+  "title": "Restaurants & Describing",
+  "titleFr": "Au restaurant",
+  "cefrDescriptors": [
+    "Can order a meal and handle a simple restaurant exchange.",
+    "Can describe food and places with adjectives in the right position."
+  ],
+  "skills": ["reading", "listening", "writing"],
+  "estimatedMinutes": 45,
+  "concept": "Eating out is one of the most useful things you can do in French — and a great place to practise describing things with adjectives.\n\nFirst, the restaurant script: you réserver une table (book a table), ask for le menu, commander (order) un plat (a dish) — maybe le plat du jour (the dish of the day) — and at the end ask for l'addition (the bill).\n\nNow the grammar: adjective placement. Unlike English, most French adjectives come AFTER the noun:\n  un plat délicieux (a delicious dish), une table libre (a free table), un café noir.\nBut a small, common group comes BEFORE the noun — think size, age, beauty, and goodness: grand, petit, jeune, beau, joli, bon, nouveau:\n  un bon restaurant, une petite table, une belle vue, un nouveau menu.\nThey still agree with the noun: un bon plat / une bonne pizza.\n\nA comparison reminder: to say \"better\", bon has an irregular comparative — meilleur, not « plus bon »:\n  « Ce plat est meilleur que l'autre. » (This dish is better than the other one.)\n\nAt the table it all comes together:\n  « Bonjour, je voudrais réserver une table pour deux. » … « C'est un bon restaurant, et le plat du jour est délicieux ! »\n\nDescribe a dish or a place you like, using one adjective BEFORE the noun and one AFTER.",
+  "vocabulary": [
+    { "id": "restaurant", "fr": "le restaurant", "en": "restaurant", "pos": "noun", "exampleFr": "C'est un bon restaurant.", "exampleEn": "It's a good restaurant.", "audio": "audio/a1.2/unit-08-restaurant/vocab-restaurant.mp3", "voice": "denise" },
+    { "id": "menu", "fr": "le menu", "en": "menu", "pos": "noun", "exampleFr": "Le menu, s'il vous plaît.", "exampleEn": "The menu, please.", "audio": "audio/a1.2/unit-08-restaurant/vocab-menu.mp3", "voice": "henri" },
+    { "id": "plat", "fr": "le plat", "en": "dish / course", "pos": "noun", "exampleFr": "Quel est le plat du jour ?", "exampleEn": "What's the dish of the day?", "audio": "audio/a1.2/unit-08-restaurant/vocab-plat.mp3", "voice": "denise" },
+    { "id": "addition", "fr": "l'addition", "en": "the bill / check", "pos": "noun", "exampleFr": "L'addition, s'il vous plaît !", "exampleEn": "The bill, please!", "audio": "audio/a1.2/unit-08-restaurant/vocab-addition.mp3", "voice": "henri" },
+    { "id": "commander", "fr": "commander", "en": "to order", "pos": "verb", "exampleFr": "Je vais commander une pizza.", "exampleEn": "I'm going to order a pizza.", "audio": "audio/a1.2/unit-08-restaurant/vocab-commander.mp3", "voice": "denise" },
+    { "id": "reserver", "fr": "réserver", "en": "to book / reserve", "pos": "verb", "exampleFr": "Je voudrais réserver une table.", "exampleEn": "I'd like to book a table.", "audio": "audio/a1.2/unit-08-restaurant/vocab-reserver.mp3", "voice": "henri" },
+    { "id": "serveur", "fr": "le serveur", "en": "waiter (f. la serveuse)", "pos": "noun", "exampleFr": "Le serveur arrive.", "exampleEn": "The waiter is coming.", "audio": "audio/a1.2/unit-08-restaurant/vocab-serveur.mp3", "voice": "denise" },
+    { "id": "entree", "fr": "l'entrée", "en": "starter / first course", "pos": "noun", "exampleFr": "Comme entrée, une salade.", "exampleEn": "As a starter, a salad.", "audio": "audio/a1.2/unit-08-restaurant/vocab-entree.mp3", "voice": "henri" },
+    { "id": "dessert", "fr": "le dessert", "en": "dessert", "pos": "noun", "exampleFr": "Tu veux un dessert ?", "exampleEn": "Do you want a dessert?", "audio": "audio/a1.2/unit-08-restaurant/vocab-dessert.mp3", "voice": "denise" },
+    { "id": "delicieux", "fr": "délicieux", "en": "delicious (f. délicieuse)", "pos": "adjective", "exampleFr": "Ce plat est délicieux.", "exampleEn": "This dish is delicious.", "audio": "audio/a1.2/unit-08-restaurant/vocab-delicieux.mp3", "voice": "henri" },
+    { "id": "bon", "fr": "bon", "en": "good (f. bonne)", "pos": "adjective", "exampleFr": "C'est très bon !", "exampleEn": "It's very good!", "audio": "audio/a1.2/unit-08-restaurant/vocab-bon.mp3", "voice": "denise" },
+    { "id": "meilleur", "fr": "meilleur", "en": "better (irregular of bon)", "pos": "adjective", "exampleFr": "Ce plat est meilleur que l'autre.", "exampleEn": "This dish is better than the other.", "audio": "audio/a1.2/unit-08-restaurant/vocab-meilleur.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "Je voudrais réserver une table pour deux.", "en": "I'd like to book a table for two.", "audio": "audio/a1.2/unit-08-restaurant/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "Le menu, s'il vous plaît.", "en": "The menu, please.", "audio": "audio/a1.2/unit-08-restaurant/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "Je vais commander le plat du jour.", "en": "I'll order the dish of the day.", "audio": "audio/a1.2/unit-08-restaurant/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "Ce plat est délicieux !", "en": "This dish is delicious!", "audio": "audio/a1.2/unit-08-restaurant/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "C'est un bon restaurant.", "en": "It's a good restaurant.", "audio": "audio/a1.2/unit-08-restaurant/example-ex-5.mp3", "voice": "denise" }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "unitId": "a1.2/unit-09-homes",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What is the imparfait used for?",
+      "options": [
+        { "id": "a", "text": "Past habits and descriptions" },
+        { "id": "b", "text": "A single completed event" },
+        { "id": "c", "text": "Plans for the future" }
+      ],
+      "correct": ["a"],
+      "explanation": "Imparfait = how things were / used to be. A completed event uses the passé composé."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Which sentence describes a past HABIT (imparfait)?",
+      "options": [
+        { "id": "a", "text": "Avant, j'habitais à Paris." },
+        { "id": "b", "text": "Hier, j'ai déménagé." },
+        { "id": "c", "text": "Demain, je vais déménager." }
+      ],
+      "correct": ["a"],
+      "explanation": "« j'habitais » (imparfait) = used to live. 'j'ai déménagé' is a one-time event; 'je vais déménager' is the future."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Put être in the imparfait (when I WAS little).",
+      "inputMode": "typed",
+      "template": "Quand j'{{b1}} petit, j'avais un chien.",
+      "blanks": [{ "id": "b1", "accept": ["étais"] }],
+      "explanation": "être in the imparfait: j'étais (irregular stem ét-)."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each room/home word to its English meaning.",
+      "pairs": [
+        { "id": "p1", "left": "l'appartement", "right": "apartment" },
+        { "id": "p2", "left": "la cuisine", "right": "kitchen" },
+        { "id": "p3", "left": "la chambre", "right": "bedroom" },
+        { "id": "p4", "left": "le jardin", "right": "garden" }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order to say \"My apartment has three rooms.\"",
+      "tokens": [
+        { "id": "t1", "text": "Mon" },
+        { "id": "t2", "text": "appartement" },
+        { "id": "t3", "text": "a" },
+        { "id": "t4", "text": "trois" },
+        { "id": "t5", "text": "pièces" }
+      ],
+      "correctOrder": ["t1", "t2", "t3", "t4", "t5"]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then: where did the speaker used to live?",
+      "audio": "audio/a1.2/unit-09-homes/listen-1.mp3",
+      "transcript": "Avant, j'habitais dans une petite maison à la campagne.",
+      "options": [
+        { "id": "a", "text": "In a small house in the countryside" },
+        { "id": "b", "text": "In a big city apartment" },
+        { "id": "c", "text": "Near the sea" }
+      ],
+      "correct": ["a"],
+      "explanation": "« j'habitais dans une petite maison à la campagne » = I used to live in a small house in the countryside."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read and answer both questions. Notice the two past tenses.",
+      "passageFr": "Quand j'étais enfant, j'habitais dans un grand appartement à Lyon. Il y avait trois chambres et un balcon. L'année dernière, j'ai déménagé à Paris.",
+      "passageEn": "When I was a child, I lived in a big apartment in Lyon. There were three bedrooms and a balcony. Last year, I moved to Paris.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "As a child, where did the speaker live?",
+          "options": [
+            { "id": "a", "text": "In a big apartment in Lyon" },
+            { "id": "b", "text": "In a small house in Paris" },
+            { "id": "c", "text": "In the countryside" }
+          ],
+          "correct": ["a"]
+        },
+        {
+          "id": "q2",
+          "prompt": "What happened last year?",
+          "options": [
+            { "id": "a", "text": "They moved to Paris" },
+            { "id": "b", "text": "They bought a garden" },
+            { "id": "c", "text": "They stayed in Lyon" }
+          ],
+          "correct": ["a"]
+        }
+      ]
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Past habit → which tense? « When I was young, I lived in the countryside. »",
+      "inputMode": "dropdown",
+      "template": "Quand j'étais jeune, je {{b1}} à la campagne.",
+      "blanks": [{ "id": "b1", "accept": ["habitais"], "options": ["habitais", "ai habité"] }],
+      "explanation": "An ongoing past habit → imparfait (habitais). 'ai habité' would mark a finished, one-time stay."
+    }
+  ]
+}
