@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "a1.2/unit-06-shopping",
+  "level": "a1.2",
+  "unitNumber": 6,
+  "slug": "unit-06-shopping",
+  "title": "Shopping & Clothes",
+  "titleFr": "Les vêtements et les achats",
+  "cefrDescriptors": [
+    "Can talk about clothes and shopping.",
+    "Can use direct object pronouns (le, la, les) to avoid repetition."
+  ],
+  "skills": ["reading", "listening", "writing"],
+  "estimatedMinutes": 45,
+  "concept": "Shopping is full of \"I'll take it\" and \"I like them\" — so this unit teaches direct object pronouns (le, la, les): the little words that replace a noun you've already mentioned, so you don't repeat it.\n\nThey match the noun's gender and number:\n  le (masculine):  le pantalon → Je le prends. (I'll take it.)\n  la (feminine):   la robe → Je la prends.\n  l' (before a vowel): Je l'aime. (I like it.)\n  les (plural):    les chaussures → Je les achète. (I'll buy them.)\nThe key placement rule: the pronoun goes BEFORE the verb, unlike English. \"I like it\" → « Je l'aime » — literally \"I it-like.\"\n\nThe clothes: un vêtement (a garment), une robe (dress), un pantalon (trousers), une chemise (shirt), des chaussures (shoes), un manteau (coat). The verbs: porter (to wear), essayer (to try on), acheter (to buy). And the shopping talk: le prix (price), cher / chère (expensive).\n\nA shop exchange in action:\n  « Tu aimes cette robe ? — Oui, je l'aime, mais elle est trop chère. Je préfère la chemise — je la prends. »\n\nPick an item of clothing you like and say you'll take it, using le, la or les correctly.",
+  "vocabulary": [
+    { "id": "vetement", "fr": "le vêtement", "en": "garment / item of clothing", "pos": "noun", "exampleFr": "J'achète des vêtements.", "exampleEn": "I'm buying clothes.", "audio": "audio/a1.2/unit-06-shopping/vocab-vetement.mp3", "voice": "denise" },
+    { "id": "robe", "fr": "la robe", "en": "dress", "pos": "noun", "exampleFr": "J'aime cette robe.", "exampleEn": "I like this dress.", "audio": "audio/a1.2/unit-06-shopping/vocab-robe.mp3", "voice": "henri" },
+    { "id": "pantalon", "fr": "le pantalon", "en": "trousers / pants", "pos": "noun", "exampleFr": "Le pantalon est noir.", "exampleEn": "The trousers are black.", "audio": "audio/a1.2/unit-06-shopping/vocab-pantalon.mp3", "voice": "denise" },
+    { "id": "chemise", "fr": "la chemise", "en": "shirt", "pos": "noun", "exampleFr": "Tu aimes la chemise ?", "exampleEn": "Do you like the shirt?", "audio": "audio/a1.2/unit-06-shopping/vocab-chemise.mp3", "voice": "henri" },
+    { "id": "chaussures", "fr": "les chaussures", "en": "shoes", "pos": "noun", "exampleFr": "Ces chaussures sont belles.", "exampleEn": "These shoes are nice.", "audio": "audio/a1.2/unit-06-shopping/vocab-chaussures.mp3", "voice": "denise" },
+    { "id": "manteau", "fr": "le manteau", "en": "coat", "pos": "noun", "exampleFr": "Il fait froid, prends ton manteau.", "exampleEn": "It's cold, take your coat.", "audio": "audio/a1.2/unit-06-shopping/vocab-manteau.mp3", "voice": "henri" },
+    { "id": "porter", "fr": "porter", "en": "to wear", "pos": "verb", "exampleFr": "Elle porte une robe rouge.", "exampleEn": "She's wearing a red dress.", "audio": "audio/a1.2/unit-06-shopping/vocab-porter.mp3", "voice": "denise" },
+    { "id": "essayer", "fr": "essayer", "en": "to try on", "pos": "verb", "exampleFr": "Je peux essayer ?", "exampleEn": "Can I try it on?", "audio": "audio/a1.2/unit-06-shopping/vocab-essayer.mp3", "voice": "henri" },
+    { "id": "prix", "fr": "le prix", "en": "price", "pos": "noun", "exampleFr": "Quel est le prix ?", "exampleEn": "What is the price?", "audio": "audio/a1.2/unit-06-shopping/vocab-prix.mp3", "voice": "denise" },
+    { "id": "cher2", "fr": "cher", "en": "expensive (f. chère)", "pos": "adjective", "exampleFr": "C'est trop cher.", "exampleEn": "It's too expensive.", "audio": "audio/a1.2/unit-06-shopping/vocab-cher2.mp3", "voice": "henri" },
+    { "id": "cod", "fr": "le / la / les", "en": "it / them (object pronoun, before the verb)", "pos": "phrase", "exampleFr": "Je la prends.", "exampleEn": "I'll take it.", "audio": "audio/a1.2/unit-06-shopping/vocab-cod.mp3", "voice": "denise" },
+    { "id": "joli", "fr": "joli", "en": "pretty / nice (f. jolie)", "pos": "adjective", "exampleFr": "C'est une jolie robe.", "exampleEn": "It's a pretty dress.", "audio": "audio/a1.2/unit-06-shopping/vocab-joli.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "J'aime cette robe. Je la prends.", "en": "I like this dress. I'll take it.", "audio": "audio/a1.2/unit-06-shopping/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "Tu portes un beau manteau.", "en": "You're wearing a nice coat.", "audio": "audio/a1.2/unit-06-shopping/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "Ces chaussures ? Je les achète.", "en": "These shoes? I'll buy them.", "audio": "audio/a1.2/unit-06-shopping/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "Le pantalon est trop cher.", "en": "The trousers are too expensive.", "audio": "audio/a1.2/unit-06-shopping/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "Tu aimes la chemise ? — Oui, je l'aime.", "en": "Do you like the shirt? — Yes, I like it.", "audio": "audio/a1.2/unit-06-shopping/example-ex-5.mp3", "voice": "denise" }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "unitId": "a1.2/unit-07-quantities",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « beaucoup de » mean?",
+      "options": [
+        { "id": "a", "text": "a lot of" },
+        { "id": "b", "text": "a little of" },
+        { "id": "c", "text": "not enough" }
+      ],
+      "correct": ["a"],
+      "explanation": "beaucoup de = a lot of; un peu de = a little."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "After a quantity word, which is correct? « Un kilo ___ pommes. »",
+      "options": [
+        { "id": "a", "text": "de" },
+        { "id": "b", "text": "des" },
+        { "id": "c", "text": "du" }
+      ],
+      "correct": ["a"],
+      "explanation": "Quantity expressions take just de — un kilo de pommes (no article)."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Say there's A LOT of fruit at the market.",
+      "inputMode": "typed",
+      "template": "Il y a {{b1}} de fruits au marché.",
+      "blanks": [{ "id": "b1", "accept": ["beaucoup"] }],
+      "explanation": "beaucoup de fruits = a lot of fruit."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        { "id": "p1", "left": "les courses", "right": "the shopping" },
+        { "id": "p2", "left": "le marché", "right": "market" },
+        { "id": "p3", "left": "la pomme", "right": "apple" },
+        { "id": "p4", "left": "l'argent", "right": "money" }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order to say \"I do the shopping.\"",
+      "tokens": [
+        { "id": "t1", "text": "Je" },
+        { "id": "t2", "text": "fais" },
+        { "id": "t3", "text": "les" },
+        { "id": "t4", "text": "courses" }
+      ],
+      "correctOrder": ["t1", "t2", "t3", "t4"]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then: what does the speaker buy?",
+      "audio": "audio/a1.2/unit-07-quantities/listen-1.mp3",
+      "transcript": "Au marché, j'achète un kilo de pommes.",
+      "options": [
+        { "id": "a", "text": "A kilo of apples" },
+        { "id": "b", "text": "A litre of milk" },
+        { "id": "c", "text": "A lot of cheese" }
+      ],
+      "correct": ["a"],
+      "explanation": "« un kilo de pommes » = a kilo of apples."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read and answer both questions.",
+      "passageFr": "Le samedi, je vais au marché. J'achète beaucoup de fruits et un peu de fromage. C'est moins cher qu'au supermarché.",
+      "passageEn": "On Saturdays, I go to the market. I buy a lot of fruit and a little cheese. It's cheaper than the supermarket.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "When does the speaker go to the market?",
+          "options": [
+            { "id": "a", "text": "On Saturdays" },
+            { "id": "b", "text": "Every morning" },
+            { "id": "c", "text": "On Sundays" }
+          ],
+          "correct": ["a"]
+        },
+        {
+          "id": "q2",
+          "prompt": "Compared to the supermarket, the market is…",
+          "options": [
+            { "id": "a", "text": "cheaper" },
+            { "id": "b", "text": "more expensive" },
+            { "id": "c", "text": "the same price" }
+          ],
+          "correct": ["a"]
+        }
+      ]
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Replace 'des pommes' with the pronoun for 'some'.",
+      "inputMode": "dropdown",
+      "template": "Tu as des pommes ? — Oui, j'{{b1}} ai.",
+      "blanks": [{ "id": "b1", "accept": ["en"], "options": ["en", "les"] }],
+      "explanation": "en replaces de/des + noun: « j'en ai » = I have some."
+    }
+  ]
+}

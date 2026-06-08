@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "a1.2/unit-07-quantities",
+  "level": "a1.2",
+  "unitNumber": 7,
+  "slug": "unit-07-quantities",
+  "title": "Quantities & Groceries",
+  "titleFr": "Les quantités et les courses",
+  "cefrDescriptors": [
+    "Can talk about quantities when shopping for food.",
+    "Can use quantity expressions with de and the pronoun en."
+  ],
+  "skills": ["reading", "listening", "writing"],
+  "estimatedMinutes": 45,
+  "concept": "At the market you need to talk about HOW MUCH. French gives you two tools.\n\nFirst, expressions of quantity. After every one of them, French uses just de (or d') with NO article:\n  un peu de (a little), beaucoup de (a lot of), assez de (enough), trop de (too much/many),\n  un kilo de (a kilo of), un litre de (a litre of).\nSo: un kilo de pommes, beaucoup de fruits, un peu de café. Never « beaucoup des fruits » — just « beaucoup de fruits ».\n\nSecond, the pronoun en. It replaces de + a noun (including du / de la / des + noun) so you don't repeat it. Think \"some / of it / of them\":\n  « Tu as des pommes ? — Oui, j'en ai. » (Yes, I have some.)\n  « Tu veux du café ? — Non merci, je n'en veux pas. »\nLike other object pronouns, en goes BEFORE the verb.\n\nThe shopping words: faire les courses (to do the grocery shopping), le marché (market), l'argent (money), and coûter (to cost) → « Ça coûte combien ? ».\n\nA market scene: « Le samedi, je fais les courses au marché. J'achète un kilo de pommes et beaucoup de légumes. — Tu veux du fromage ? — Oui, j'en veux un peu. »\n\nWrite what you buy when you do the shopping, using one quantity expression and en once.",
+  "vocabulary": [
+    { "id": "courses", "fr": "les courses", "en": "the (grocery) shopping", "pos": "noun", "exampleFr": "Je fais les courses.", "exampleEn": "I do the shopping.", "audio": "audio/a1.2/unit-07-quantities/vocab-courses.mp3", "voice": "denise" },
+    { "id": "marche", "fr": "le marché", "en": "market", "pos": "noun", "exampleFr": "Je vais au marché.", "exampleEn": "I'm going to the market.", "audio": "audio/a1.2/unit-07-quantities/vocab-marche.mp3", "voice": "henri" },
+    { "id": "pomme", "fr": "la pomme", "en": "apple", "pos": "noun", "exampleFr": "J'achète des pommes.", "exampleEn": "I'm buying apples.", "audio": "audio/a1.2/unit-07-quantities/vocab-pomme.mp3", "voice": "denise" },
+    { "id": "beaucoup-de", "fr": "beaucoup de", "en": "a lot of", "pos": "phrase", "exampleFr": "Il y a beaucoup de fruits.", "exampleEn": "There's a lot of fruit.", "audio": "audio/a1.2/unit-07-quantities/vocab-beaucoup-de.mp3", "voice": "henri" },
+    { "id": "un-peu-de", "fr": "un peu de", "en": "a little / a bit of", "pos": "phrase", "exampleFr": "Un peu de café.", "exampleEn": "A little coffee.", "audio": "audio/a1.2/unit-07-quantities/vocab-un-peu-de.mp3", "voice": "denise" },
+    { "id": "assez-de", "fr": "assez de", "en": "enough", "pos": "phrase", "exampleFr": "J'ai assez de pain.", "exampleEn": "I have enough bread.", "audio": "audio/a1.2/unit-07-quantities/vocab-assez-de.mp3", "voice": "henri" },
+    { "id": "trop-de", "fr": "trop de", "en": "too much / too many", "pos": "phrase", "exampleFr": "Il y a trop de sucre.", "exampleEn": "There's too much sugar.", "audio": "audio/a1.2/unit-07-quantities/vocab-trop-de.mp3", "voice": "denise" },
+    { "id": "un-kilo-de", "fr": "un kilo de", "en": "a kilo of", "pos": "phrase", "exampleFr": "Un kilo de pommes.", "exampleEn": "A kilo of apples.", "audio": "audio/a1.2/unit-07-quantities/vocab-un-kilo-de.mp3", "voice": "henri" },
+    { "id": "un-litre-de", "fr": "un litre de", "en": "a litre of", "pos": "phrase", "exampleFr": "Un litre de lait.", "exampleEn": "A litre of milk.", "audio": "audio/a1.2/unit-07-quantities/vocab-un-litre-de.mp3", "voice": "denise" },
+    { "id": "argent", "fr": "l'argent", "en": "money", "pos": "noun", "exampleFr": "Je n'ai pas d'argent.", "exampleEn": "I don't have any money.", "audio": "audio/a1.2/unit-07-quantities/vocab-argent.mp3", "voice": "henri" },
+    { "id": "couter", "fr": "coûter", "en": "to cost", "pos": "verb", "exampleFr": "Ça coûte combien ?", "exampleEn": "How much does it cost?", "audio": "audio/a1.2/unit-07-quantities/vocab-couter.mp3", "voice": "denise" },
+    { "id": "en", "fr": "en", "en": "some / of it / of them (pronoun)", "pos": "pronoun", "exampleFr": "J'en veux un peu.", "exampleEn": "I want a little (of it).", "audio": "audio/a1.2/unit-07-quantities/vocab-en.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "Je voudrais un kilo de pommes.", "en": "I'd like a kilo of apples.", "audio": "audio/a1.2/unit-07-quantities/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "Il y a beaucoup de fruits au marché.", "en": "There's a lot of fruit at the market.", "audio": "audio/a1.2/unit-07-quantities/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "Je bois un peu de café.", "en": "I drink a little coffee.", "audio": "audio/a1.2/unit-07-quantities/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "Tu as des pommes ? — Oui, j'en ai.", "en": "Do you have apples? — Yes, I have some.", "audio": "audio/a1.2/unit-07-quantities/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "Je fais les courses le samedi.", "en": "I do the shopping on Saturdays.", "audio": "audio/a1.2/unit-07-quantities/example-ex-5.mp3", "voice": "denise" }
+  ]
+}
