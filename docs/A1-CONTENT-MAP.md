@@ -49,5 +49,5 @@ Status: ✅ built · 🔨 in progress · ⬜ planned
   ordering + unlock derive from `unitNumber`.
 - **Retroactive TODOs** (all cleared): ✅ numbers extended to 0–69; ✅ dedicated
   "describing people" module added (unit-09, D3·L2 adjectives).
-- **Final resequence (deferred):** once a1.1's last 3 modules exist, renumber
-  `unitNumber` to match exact book order (D0→D4) — cheap, no id/folder renames.
+- **Resequence (done):** `unitNumber` fields renumbered to book order (D0→D4).
+  Folder/slug names intentionally kept as-is (internal-only mismatch, no learner impact).

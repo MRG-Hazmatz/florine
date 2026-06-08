@@ -64,22 +64,3 @@ body::after {
   pointer-events: none;
   background: radial-gradient(130% 110% at 50% 0%, transparent 55%, rgba(23, 18, 12, 0.22) 100%);
 }
-
-/* Ornate baroque 9-slice frame for showcase cards. The element's own
-   background fills the centre; the frame art draws only in the border ring. */
-.ornate-frame {
-  border-style: solid;
-  border-width: 30px;
-  border-image-source: url("/icons/frame.png");
-  border-image-slice: 70 69 65 68;
-  border-image-repeat: round;
-}
-
-/* Haunted portrait frame for the guide faces */
-.portrait-frame {
-  border-style: solid;
-  border-width: 22px 18px 18px 18px;
-  border-image-source: url("/icons/portrait-frame.png");
-  border-image-slice: 96 73 69 71;
-  border-image-repeat: round;
-}
