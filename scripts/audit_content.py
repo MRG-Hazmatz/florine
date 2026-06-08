@@ -107,6 +107,9 @@ for lesson_path in lesson_paths:
                 for c in cor:
                     if c not in opts:
                         err(uid, f"{xid}: correct '{c}' not among options")
+                texts = [o.get("text") for o in x.get("options", [])]
+                if len(set(texts)) != len(texts):
+                    err(uid, f"{xid}: duplicate option text")
                 if t == "listen" and not audio_ok(x.get("audio")):
                     err(uid, f"{xid}: listen audio MISSING: {x.get('audio')}")
             elif t == "fill-blank":
@@ -144,6 +147,9 @@ for lesson_path in lesson_paths:
                     for c in q.get("correct", []):
                         if c not in opts:
                             err(uid, f"{xid}: question '{q.get('id')}' correct '{c}' not among options")
+                    qtexts = [o.get("text") for o in q.get("options", [])]
+                    if len(set(qtexts)) != len(qtexts):
+                        err(uid, f"{xid}: question '{q.get('id')}' duplicate option text")
             elif t == "speak":
                 if not x.get("targetFr"):
                     err(uid, f"{xid}: speak missing targetFr")
