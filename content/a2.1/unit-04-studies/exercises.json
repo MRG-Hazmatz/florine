@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "unitId": "a2.1/unit-04-studies",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "The plus-que-parfait describes an action that happened…",
+      "options": [
+        { "id": "a", "text": "before another past action" },
+        { "id": "b", "text": "in the near future" },
+        { "id": "c", "text": "right now" }
+      ],
+      "correct": ["a"],
+      "explanation": "It's the 'past of the past': J'avais fini quand il est arrivé."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "What is the adverb from « heureux » (feminine: heureuse)?",
+      "options": [
+        { "id": "a", "text": "heureusement" },
+        { "id": "b", "text": "heureuxment" },
+        { "id": "c", "text": "heureuse" }
+      ],
+      "correct": ["a"],
+      "explanation": "Feminine adjective + -ment: heureuse → heureusement."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Form the plus-que-parfait (I had already eaten).",
+      "inputMode": "dropdown",
+      "template": "Quand il est arrivé, j'{{b1}} déjà mangé.",
+      "blanks": [{ "id": "b1", "accept": ["avais"], "options": ["avais", "ai"] }],
+      "explanation": "Plus-que-parfait = avoir in the imparfait + participle: j'avais mangé."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        { "id": "p1", "left": "les études", "right": "studies" },
+        { "id": "p2", "left": "l'université", "right": "university" },
+        { "id": "p3", "left": "la bourse", "right": "scholarship" },
+        { "id": "p4", "left": "l'examen", "right": "exam" }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"I passed my exam.\"",
+      "tokens": [
+        { "id": "t1", "text": "J'ai" },
+        { "id": "t2", "text": "réussi" },
+        { "id": "t3", "text": "mon" },
+        { "id": "t4", "text": "examen" }
+      ],
+      "correctOrder": ["t1", "t2", "t3", "t4"]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then: what did the speaker do last year?",
+      "audio": "audio/a2.1/unit-04-studies/listen-1.mp3",
+      "transcript": "L'année dernière, j'ai fait un échange en Espagne.",
+      "options": [
+        { "id": "a", "text": "An exchange in Spain" },
+        { "id": "b", "text": "An exam in France" },
+        { "id": "c", "text": "A job in Italy" }
+      ],
+      "correct": ["a"],
+      "explanation": "« j'ai fait un échange en Espagne » = I did an exchange in Spain."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read and answer both questions.",
+      "passageFr": "Marie a toujours aimé les langues. À l'université, elle a obtenu une bourse et elle a fait un échange en Italie. Avant, elle n'avait jamais voyagé à l'étranger.",
+      "passageEn": "Marie has always loved languages. At university, she got a scholarship and did an exchange in Italy. Before, she had never travelled abroad.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "What did Marie get at university?",
+          "options": [
+            { "id": "a", "text": "A scholarship" },
+            { "id": "b", "text": "A job" },
+            { "id": "c", "text": "A car" }
+          ],
+          "correct": ["a"]
+        },
+        {
+          "id": "q2",
+          "prompt": "Had Marie travelled abroad before?",
+          "options": [
+            { "id": "a", "text": "No, never" },
+            { "id": "b", "text": "Yes, many times" },
+            { "id": "c", "text": "Yes, once" }
+          ],
+          "correct": ["a"]
+        }
+      ]
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Complete with the adverb for 'slowly'.",
+      "inputMode": "dropdown",
+      "template": "Il parle français très {{b1}}.",
+      "blanks": [{ "id": "b1", "accept": ["lentement"], "options": ["lentement", "lent"] }],
+      "explanation": "lent → lente → lentement (the adverb, not the adjective 'lent')."
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "Je voudrais étudier à l'étranger.",
+      "targetEn": "I'd like to study abroad.",
+      "audio": "audio/a2.1/unit-04-studies/example-ex-5.mp3"
+    }
+  ]
+}

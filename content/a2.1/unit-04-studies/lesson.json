@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "a2.1/unit-04-studies",
+  "level": "a2.1",
+  "unitNumber": 4,
+  "slug": "unit-04-studies",
+  "title": "Studies & Student Life",
+  "titleFr": "Vers la vie active : les études",
+  "cefrDescriptors": [
+    "Can talk about studies and a student exchange experience.",
+    "Can use the plus-que-parfait and form adverbs in -ment."
+  ],
+  "skills": ["reading", "listening", "writing", "speaking"],
+  "estimatedMinutes": 50,
+  "concept": "This unit is about studies and student life — a great place to add one more past tense and a whole family of adverbs.\n\nThe plus-que-parfait (\"had done\") describes an action finished BEFORE another past action — the \"past of the past\":\n  J'avais déjà mangé quand il est arrivé. (I had already eaten when he arrived.)\nHow to build it: take avoir or être in the IMPARFAIT, then add the past participle.\n  avoir → j'avais, tu avais, il avait… + participle → j'avais fini, tu avais vu\n  (Verbs that take être in the passé composé take it here too: j'étais parti(e).)\nUse it with déjà (already) and quand (when) to show which event came first.\n\nAdverbs in -ment (English \"-ly\") say HOW something is done. The usual recipe: take the FEMININE adjective and add -ment:\n  lent → lente → lentement (slowly)\n  heureux → heureuse → heureusement (luckily)\n  facile → facilement (easily)\nWhen the adjective already ends in a vowel, just add -ment to the masculine: vrai → vraiment (really), poli → poliment. They usually sit right after the verb: « Il parle lentement. », « J'ai vraiment aimé. »\n\nThe theme is studies: les études, l'université, une matière (a subject), un examen, réussir (to pass / succeed), un diplôme — plus the student-mobility words une bourse (a grant), un échange (an exchange), à l'étranger (abroad).\n\nPut it together: « À l'université, j'ai obtenu une bourse. Avant, je n'avais jamais étudié à l'étranger. Heureusement, j'ai réussi tous mes examens ! »\n\nWrite two sentences about your studies: one with a -ment adverb, one with the plus-que-parfait (something you had already done).",
+  "vocabulary": [
+    { "id": "etudes", "fr": "les études", "en": "studies", "pos": "noun", "exampleFr": "J'aime mes études.", "exampleEn": "I like my studies.", "audio": "audio/a2.1/unit-04-studies/vocab-etudes.mp3", "voice": "denise" },
+    { "id": "universite", "fr": "l'université", "en": "university", "pos": "noun", "exampleFr": "Je vais à l'université.", "exampleEn": "I go to university.", "audio": "audio/a2.1/unit-04-studies/vocab-universite.mp3", "voice": "henri" },
+    { "id": "bourse", "fr": "la bourse", "en": "grant / scholarship", "pos": "noun", "exampleFr": "J'ai obtenu une bourse.", "exampleEn": "I got a scholarship.", "audio": "audio/a2.1/unit-04-studies/vocab-bourse.mp3", "voice": "denise" },
+    { "id": "echange", "fr": "l'échange", "en": "(student) exchange", "pos": "noun", "exampleFr": "Je fais un échange en Italie.", "exampleEn": "I'm doing an exchange in Italy.", "audio": "audio/a2.1/unit-04-studies/vocab-echange.mp3", "voice": "henri" },
+    { "id": "diplome", "fr": "le diplôme", "en": "diploma / degree", "pos": "noun", "exampleFr": "Elle a un diplôme de médecine.", "exampleEn": "She has a medical degree.", "audio": "audio/a2.1/unit-04-studies/vocab-diplome.mp3", "voice": "denise" },
+    { "id": "matiere", "fr": "la matière", "en": "(school) subject", "pos": "noun", "exampleFr": "Ma matière préférée, c'est l'histoire.", "exampleEn": "My favourite subject is history.", "audio": "audio/a2.1/unit-04-studies/vocab-matiere.mp3", "voice": "henri" },
+    { "id": "reussir", "fr": "réussir", "en": "to pass / succeed", "pos": "verb", "exampleFr": "J'ai réussi mon examen.", "exampleEn": "I passed my exam.", "audio": "audio/a2.1/unit-04-studies/vocab-reussir.mp3", "voice": "denise" },
+    { "id": "examen", "fr": "l'examen", "en": "exam", "pos": "noun", "exampleFr": "L'examen est difficile.", "exampleEn": "The exam is hard.", "audio": "audio/a2.1/unit-04-studies/vocab-examen.mp3", "voice": "henri" },
+    { "id": "a-l-etranger", "fr": "à l'étranger", "en": "abroad", "pos": "phrase", "exampleFr": "Je veux vivre à l'étranger.", "exampleEn": "I want to live abroad.", "audio": "audio/a2.1/unit-04-studies/vocab-a-l-etranger.mp3", "voice": "denise" },
+    { "id": "vraiment", "fr": "vraiment", "en": "really", "pos": "adverb", "exampleFr": "C'est vraiment intéressant.", "exampleEn": "It's really interesting.", "audio": "audio/a2.1/unit-04-studies/vocab-vraiment.mp3", "voice": "henri" },
+    { "id": "facilement", "fr": "facilement", "en": "easily", "pos": "adverb", "exampleFr": "Il apprend facilement.", "exampleEn": "He learns easily.", "audio": "audio/a2.1/unit-04-studies/vocab-facilement.mp3", "voice": "denise" },
+    { "id": "lentement", "fr": "lentement", "en": "slowly", "pos": "adverb", "exampleFr": "Parlez lentement, s'il vous plaît.", "exampleEn": "Speak slowly, please.", "audio": "audio/a2.1/unit-04-studies/vocab-lentement.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "J'ai étudié à l'université de Lyon.", "en": "I studied at the University of Lyon.", "audio": "audio/a2.1/unit-04-studies/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "J'avais déjà fini mes études quand j'ai trouvé un travail.", "en": "I had already finished my studies when I found a job.", "audio": "audio/a2.1/unit-04-studies/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "Elle a obtenu une bourse pour un échange.", "en": "She got a scholarship for an exchange.", "audio": "audio/a2.1/unit-04-studies/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "Heureusement, j'ai réussi mon examen.", "en": "Luckily, I passed my exam.", "audio": "audio/a2.1/unit-04-studies/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "Je voudrais étudier à l'étranger.", "en": "I'd like to study abroad.", "audio": "audio/a2.1/unit-04-studies/example-ex-5.mp3", "voice": "denise" }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "a2.1/unit-03-story",
+  "level": "a2.1",
+  "unitNumber": 3,
+  "slug": "unit-03-story",
+  "title": "Telling a Story",
+  "titleFr": "Au premier regard",
+  "cefrDescriptors": [
+    "Can narrate a past experience, distinguishing background from events.",
+    "Can situate events in time with il y a and pendant."
+  ],
+  "skills": ["reading", "listening", "writing", "speaking"],
+  "estimatedMinutes": 50,
+  "concept": "In A1 you met the passé composé and the imparfait separately. Now you'll use them TOGETHER to tell a story — the heart of narration in French.\n\nThe division of labour:\n  • imparfait = the SCENE and background: weather, feelings, what was going on, descriptions.\n      Il faisait beau. J'étais au café. Elle portait une robe rouge.\n  • passé composé = the EVENTS that move the story forward, one after another.\n      J'ai vu Léa. On a parlé. Elle a souri.\nThink of the imparfait as the film set, and the passé composé as the actions filmed on it.\n\nA few irregular past participles you'll keep needing: voir → vu, faire → fait, être → été, avoir → eu, prendre → pris, dire → dit.\n\nTo place events in time, use these markers:\n  • il y a + duration = AGO → « il y a deux ans » (two years ago).\n  • pendant + duration = FOR / DURING → « pendant une heure » (for an hour).\n  (dans + duration points to the future: « dans deux jours » = in two days.)\n\nThe theme is the classic French story — la rencontre (the meeting): rencontrer (to meet), le coup de foudre (love at first sight), sourire (to smile), un regard (a look), tout de suite (right away).\n\nPut it together: « J'ai rencontré Léa il y a deux ans. Il faisait beau, on a parlé pendant des heures… c'était le coup de foudre ! »\n\nTell a 3-sentence story of how you met a friend: set the scene (imparfait), then two things that happened (passé composé).",
+  "vocabulary": [
+    { "id": "rencontre", "fr": "la rencontre", "en": "meeting / encounter", "pos": "noun", "exampleFr": "C'était une belle rencontre.", "exampleEn": "It was a lovely encounter.", "audio": "audio/a2.1/unit-03-story/vocab-rencontre.mp3", "voice": "denise" },
+    { "id": "rencontrer", "fr": "rencontrer", "en": "to meet", "pos": "verb", "exampleFr": "J'ai rencontré Léa hier.", "exampleEn": "I met Léa yesterday.", "audio": "audio/a2.1/unit-03-story/vocab-rencontrer.mp3", "voice": "henri" },
+    { "id": "coup-de-foudre", "fr": "le coup de foudre", "en": "love at first sight", "pos": "noun", "exampleFr": "C'était le coup de foudre.", "exampleEn": "It was love at first sight.", "audio": "audio/a2.1/unit-03-story/vocab-coup-de-foudre.mp3", "voice": "denise" },
+    { "id": "tomber-amoureux", "fr": "tomber amoureux", "en": "to fall in love (f. amoureuse)", "pos": "phrase", "exampleFr": "Il est tombé amoureux.", "exampleEn": "He fell in love.", "audio": "audio/a2.1/unit-03-story/vocab-tomber-amoureux.mp3", "voice": "henri" },
+    { "id": "sourire", "fr": "sourire", "en": "to smile", "pos": "verb", "exampleFr": "Elle m'a souri.", "exampleEn": "She smiled at me.", "audio": "audio/a2.1/unit-03-story/vocab-sourire.mp3", "voice": "denise" },
+    { "id": "regard", "fr": "le regard", "en": "look / gaze", "pos": "noun", "exampleFr": "J'aime son regard.", "exampleEn": "I like the way he/she looks.", "audio": "audio/a2.1/unit-03-story/vocab-regard.mp3", "voice": "henri" },
+    { "id": "tout-de-suite", "fr": "tout de suite", "en": "right away / immediately", "pos": "phrase", "exampleFr": "J'arrive tout de suite.", "exampleEn": "I'm coming right away.", "audio": "audio/a2.1/unit-03-story/vocab-tout-de-suite.mp3", "voice": "denise" },
+    { "id": "il-y-a", "fr": "il y a", "en": "ago (with a duration)", "pos": "phrase", "exampleFr": "Il y a deux ans.", "exampleEn": "Two years ago.", "audio": "audio/a2.1/unit-03-story/vocab-il-y-a.mp3", "voice": "henri" },
+    { "id": "pendant", "fr": "pendant", "en": "during / for", "pos": "preposition", "exampleFr": "On a parlé pendant une heure.", "exampleEn": "We talked for an hour.", "audio": "audio/a2.1/unit-03-story/vocab-pendant.mp3", "voice": "denise" },
+    { "id": "se-passer", "fr": "se passer", "en": "to happen", "pos": "verb", "exampleFr": "Qu'est-ce qui s'est passé ?", "exampleEn": "What happened?", "audio": "audio/a2.1/unit-03-story/vocab-se-passer.mp3", "voice": "henri" },
+    { "id": "alors", "fr": "alors", "en": "so / then", "pos": "adverb", "exampleFr": "Alors, je suis parti.", "exampleEn": "So, I left.", "audio": "audio/a2.1/unit-03-story/vocab-alors.mp3", "voice": "denise" },
+    { "id": "heureux", "fr": "heureux", "en": "happy (f. heureuse)", "pos": "adjective", "exampleFr": "J'étais très heureux.", "exampleEn": "I was very happy.", "audio": "audio/a2.1/unit-03-story/vocab-heureux.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "J'ai rencontré Léa il y a deux ans.", "en": "I met Léa two years ago.", "audio": "audio/a2.1/unit-03-story/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "Il faisait beau et j'étais au café.", "en": "The weather was nice and I was at the café.", "audio": "audio/a2.1/unit-03-story/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "Quand j'ai vu Léa, j'ai tout de suite souri.", "en": "When I saw Léa, I smiled right away.", "audio": "audio/a2.1/unit-03-story/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "C'était le coup de foudre !", "en": "It was love at first sight!", "audio": "audio/a2.1/unit-03-story/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "On a parlé pendant des heures.", "en": "We talked for hours.", "audio": "audio/a2.1/unit-03-story/example-ex-5.mp3", "voice": "denise" }
+  ]
+}

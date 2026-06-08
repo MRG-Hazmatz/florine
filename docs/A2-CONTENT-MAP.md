@@ -20,10 +20,10 @@ Status: ✅ built · 🔨 in progress · ⬜ planned
 ## a2.1 — Dossiers 1–2
 | # | Module | Alter Ego+ 2 | Grammar focus | Status |
 |---|---|---|---|---|
-| 1 | Describing character & friends | D1·L1 | relative pronouns qui / que / à qui; giving a definition | 🔨 |
-| 2 | Neighbours & reported speech | D1·L2 | discours indirect au présent (dire que / demander si / ce que) | 🔨 |
-| 3 | Telling a story: meeting someone | D1·L3 | passé composé vs imparfait (deepened); marqueurs temporels (il y a / pendant / dans) | ⬜ |
-| 4 | Studies & student life | D2·L1 | le plus-que-parfait; adverbs in -ment | ⬜ |
+| 1 | Describing character & friends | D1·L1 | relative pronouns qui / que / à qui; giving a definition | ✅ a2.1/unit-01 |
+| 2 | Neighbours & reported speech | D1·L2 | discours indirect au présent (dire que / demander si / ce que) | ✅ a2.1/unit-02 |
+| 3 | Telling a story: meeting someone | D1·L3 | passé composé vs imparfait (deepened); marqueurs temporels (il y a / pendant / dans) | ✅ a2.1/unit-03 |
+| 4 | Studies & student life | D2·L1 | le plus-que-parfait; adverbs in -ment | ✅ a2.1/unit-04 |
 | 5 | Looking for a job | D2·L2 | marqueurs temporels (depuis / pendant / il y a / pour); CV & annonces | ⬜ |
 | 6 | Advice & job interviews | D2·L3 | le subjonctif de nécessité (il faut que…); donner des conseils | ⬜ |
 

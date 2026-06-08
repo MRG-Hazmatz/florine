@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "unitId": "a2.1/unit-03-story",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "In a story, which tense sets the SCENE and background?",
+      "options": [
+        { "id": "a", "text": "the imparfait" },
+        { "id": "b", "text": "the passé composé" },
+        { "id": "c", "text": "the futur proche" }
+      ],
+      "correct": ["a"],
+      "explanation": "Imparfait = background/description; passé composé = the events that happen."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « il y a deux ans » mean?",
+      "options": [
+        { "id": "a", "text": "two years ago" },
+        { "id": "b", "text": "in two years" },
+        { "id": "c", "text": "for two years" }
+      ],
+      "correct": ["a"],
+      "explanation": "il y a + a duration = ago. (dans = in/within; pendant = for/during.)"
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Background description → which tense? « Hier, il ___ beau. »",
+      "inputMode": "dropdown",
+      "template": "Hier, il {{b1}} beau, alors je suis sorti.",
+      "blanks": [{ "id": "b1", "accept": ["faisait"], "options": ["faisait", "a fait"] }],
+      "explanation": "Weather/scene = imparfait: il faisait beau."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        { "id": "p1", "left": "la rencontre", "right": "meeting" },
+        { "id": "p2", "left": "le coup de foudre", "right": "love at first sight" },
+        { "id": "p3", "left": "sourire", "right": "to smile" },
+        { "id": "p4", "left": "le regard", "right": "look" }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"We talked for hours.\"",
+      "tokens": [
+        { "id": "t1", "text": "On" },
+        { "id": "t2", "text": "a" },
+        { "id": "t3", "text": "parlé" },
+        { "id": "t4", "text": "pendant" },
+        { "id": "t5", "text": "des" },
+        { "id": "t6", "text": "heures" }
+      ],
+      "correctOrder": ["t1", "t2", "t3", "t4", "t5", "t6"]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then: when did the speaker meet their best friend?",
+      "audio": "audio/a2.1/unit-03-story/listen-1.mp3",
+      "transcript": "J'ai rencontré mon meilleur ami il y a cinq ans.",
+      "options": [
+        { "id": "a", "text": "Five years ago" },
+        { "id": "b", "text": "In five years" },
+        { "id": "c", "text": "Last week" }
+      ],
+      "correct": ["a"],
+      "explanation": "« il y a cinq ans » = five years ago."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read the story and answer both questions.",
+      "passageFr": "C'était un dimanche. Il faisait beau et j'étais au parc. Tout à coup, j'ai vu une fille qui souriait. On a parlé pendant une heure. C'était le coup de foudre !",
+      "passageEn": "It was a Sunday. The weather was nice and I was at the park. Suddenly, I saw a girl who was smiling. We talked for an hour. It was love at first sight!",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "What was the weather like?",
+          "options": [
+            { "id": "a", "text": "It was nice" },
+            { "id": "b", "text": "It was raining" },
+            { "id": "c", "text": "It was cold" }
+          ],
+          "correct": ["a"]
+        },
+        {
+          "id": "q2",
+          "prompt": "How long did they talk?",
+          "options": [
+            { "id": "a", "text": "An hour" },
+            { "id": "b", "text": "Five minutes" },
+            { "id": "c", "text": "All day" }
+          ],
+          "correct": ["a"]
+        }
+      ]
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "A single completed event → which tense? « Hier, j'___ un vieil ami. »",
+      "inputMode": "dropdown",
+      "template": "Hier, j'{{b1}} un vieil ami.",
+      "blanks": [{ "id": "b1", "accept": ["ai rencontré"], "options": ["ai rencontré", "rencontrais"] }],
+      "explanation": "A one-time event = passé composé: j'ai rencontré."
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "On a parlé pendant des heures.",
+      "targetEn": "We talked for hours.",
+      "audio": "audio/a2.1/unit-03-story/example-ex-5.mp3"
+    }
+  ]
+}
