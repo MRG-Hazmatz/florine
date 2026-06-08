@@ -1,0 +1,377 @@
+{
+  "schemaVersion": 1,
+  "unitId": "b1.1/unit-02-feelings",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Same subject (you're glad and you're the one coming): « Je suis content ___ . »",
+      "options": [
+        {
+          "id": "a",
+          "text": "de venir"
+        },
+        {
+          "id": "b",
+          "text": "que je vienne"
+        },
+        {
+          "id": "c",
+          "text": "que venir"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Same subject → de + infinitive: je suis content de venir."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Different subjects, subjunctive of être: « Je suis content que tu ___ là. »",
+      "options": [
+        {
+          "id": "a",
+          "text": "sois"
+        },
+        {
+          "id": "b",
+          "text": "es"
+        },
+        {
+          "id": "c",
+          "text": "être"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Different subjects → que + subjonctif: que tu sois."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Subjonctif passé of être (a feeling about something already done).",
+      "inputMode": "dropdown",
+      "template": "Je suis triste qu'il {{b1}} parti.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "soit"
+          ],
+          "options": [
+            "soit",
+            "est"
+          ]
+        }
+      ],
+      "explanation": "Subjonctif passé: qu'il soit parti (subjonctif of être + participle)."
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Same subject again — link with…?",
+      "inputMode": "dropdown",
+      "template": "Je suis heureux {{b1}} partir en vacances.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "de"
+          ],
+          "options": [
+            "de",
+            "que je"
+          ]
+        }
+      ],
+      "explanation": "Same subject → de + infinitive: heureux de partir."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each feeling word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "content",
+          "right": "happy"
+        },
+        {
+          "id": "p2",
+          "left": "triste",
+          "right": "sad"
+        },
+        {
+          "id": "p3",
+          "left": "déçu",
+          "right": "disappointed"
+        },
+        {
+          "id": "p4",
+          "left": "avoir peur",
+          "right": "to be afraid"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"I'm glad to see you.\"",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Je"
+        },
+        {
+          "id": "t2",
+          "text": "suis"
+        },
+        {
+          "id": "t3",
+          "text": "content"
+        },
+        {
+          "id": "t4",
+          "text": "de"
+        },
+        {
+          "id": "t5",
+          "text": "te"
+        },
+        {
+          "id": "t6",
+          "text": "voir"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then: how does the speaker feel?",
+      "audio": "audio/b1.1/unit-02-feelings/listen-1.mp3",
+      "transcript": "Je suis vraiment heureux que tu sois venu.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Happy that you came"
+        },
+        {
+          "id": "b",
+          "text": "Angry that you left"
+        },
+        {
+          "id": "c",
+          "text": "Afraid of coming"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "« heureux que tu sois venu » = happy that you came (subjonctif passé)."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read and answer both questions.",
+      "passageFr": "Hier, je me suis disputé avec mon meilleur ami. Je regrette de lui avoir parlé comme ça. J'ai peur qu'il soit encore fâché. J'espère qu'on va se réconcilier vite.",
+      "passageEn": "Yesterday, I argued with my best friend. I regret talking to him like that. I'm afraid he's still angry. I hope we'll make up soon.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "What happened yesterday?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The writer argued with their best friend"
+            },
+            {
+              "id": "b",
+              "text": "The writer met a new friend"
+            },
+            {
+              "id": "c",
+              "text": "The writer moved house"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        },
+        {
+          "id": "q2",
+          "prompt": "What does the writer hope for?",
+          "options": [
+            {
+              "id": "a",
+              "text": "To make up soon"
+            },
+            {
+              "id": "b",
+              "text": "To never speak again"
+            },
+            {
+              "id": "c",
+              "text": "To move away"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « content » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "happy / glad"
+        },
+        {
+          "id": "b",
+          "text": "sad"
+        },
+        {
+          "id": "c",
+          "text": "disappointed"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "content = happy / glad."
+    },
+    {
+      "id": "ex-mc-pool-2",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Which French word means « sad »?",
+      "options": [
+        {
+          "id": "a",
+          "text": "triste"
+        },
+        {
+          "id": "b",
+          "text": "content"
+        },
+        {
+          "id": "c",
+          "text": "déçu"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "« sad » = triste."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "fier",
+          "right": "proud"
+        },
+        {
+          "id": "p2",
+          "left": "avoir peur",
+          "right": "to be afraid"
+        },
+        {
+          "id": "p3",
+          "left": "regretter",
+          "right": "to regret / be sorry"
+        },
+        {
+          "id": "p4",
+          "left": "un sentiment",
+          "right": "a feeling"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “I'm afraid he won't come.”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "J'ai"
+        },
+        {
+          "id": "t2",
+          "text": "peur"
+        },
+        {
+          "id": "t3",
+          "text": "qu'il"
+        },
+        {
+          "id": "t4",
+          "text": "ne"
+        },
+        {
+          "id": "t5",
+          "text": "vienne"
+        },
+        {
+          "id": "t6",
+          "text": "pas"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ]
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "Je suis content que tu sois là.",
+      "targetEn": "I'm glad (that) you're here.",
+      "audio": "audio/b1.1/unit-02-feelings/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "Je suis triste que tu sois parti.",
+      "targetEn": "I'm sad that you left.",
+      "audio": "audio/b1.1/unit-02-feelings/example-ex-3.mp3"
+    }
+  ]
+}

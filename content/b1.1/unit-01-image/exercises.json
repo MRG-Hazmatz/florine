@@ -1,0 +1,337 @@
+{
+  "schemaVersion": 1,
+  "unitId": "b1.1/unit-01-image",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "The verb is parler DE. Choose: « la personne ___ je parle »",
+      "options": [
+        {
+          "id": "a",
+          "text": "dont"
+        },
+        {
+          "id": "b",
+          "text": "qui"
+        },
+        {
+          "id": "c",
+          "text": "que"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "A de-verb (parler de) → dont: la personne dont je parle."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Complete with 'the one who': « ___ qui se présente bien séduit. »",
+      "options": [
+        {
+          "id": "a",
+          "text": "Celui"
+        },
+        {
+          "id": "b",
+          "text": "Ce"
+        },
+        {
+          "id": "c",
+          "text": "Que"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "demonstrative + relative: celui qui = the one who."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Highlight with a de-verb (avoir besoin DE).",
+      "inputMode": "dropdown",
+      "template": "{{b1}} j'ai besoin, c'est de calme.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "Ce dont"
+          ],
+          "options": [
+            "Ce dont",
+            "Ce que"
+          ]
+        }
+      ],
+      "explanation": "avoir besoin DE → ce dont: « Ce dont j'ai besoin, c'est… »"
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "l'apparence",
+          "right": "appearance"
+        },
+        {
+          "id": "p2",
+          "left": "une tenue",
+          "right": "an outfit"
+        },
+        {
+          "id": "p3",
+          "left": "soigné",
+          "right": "neat"
+        },
+        {
+          "id": "p4",
+          "left": "le comportement",
+          "right": "behaviour"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"The one who's speaking is my friend.\"",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Celui"
+        },
+        {
+          "id": "t2",
+          "text": "qui"
+        },
+        {
+          "id": "t3",
+          "text": "parle"
+        },
+        {
+          "id": "t4",
+          "text": "est"
+        },
+        {
+          "id": "t5",
+          "text": "mon"
+        },
+        {
+          "id": "t6",
+          "text": "ami"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then: what does the speaker like about her?",
+      "audio": "audio/b1.1/unit-01-image/listen-1.mp3",
+      "transcript": "Ce qui me plaît chez elle, c'est sa confiance en elle.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Her self-confidence"
+        },
+        {
+          "id": "b",
+          "text": "Her clothes"
+        },
+        {
+          "id": "c",
+          "text": "Her car"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "« Ce qui me plaît, c'est sa confiance en elle » = what I like is her self-confidence."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read and answer both questions.",
+      "passageFr": "Pour moi, l'apparence n'est pas tout. Ce qui compte vraiment, c'est le comportement. Je préfère les personnes dont le caractère est sincère, celles qui sont gentilles et sûres d'elles.",
+      "passageEn": "For me, appearance isn't everything. What really counts is behaviour. I prefer people whose character is sincere, the ones who are kind and self-assured.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "What matters most to the writer?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Behaviour"
+            },
+            {
+              "id": "b",
+              "text": "Appearance"
+            },
+            {
+              "id": "c",
+              "text": "Clothes"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        },
+        {
+          "id": "q2",
+          "prompt": "What kind of people does the writer prefer?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Sincere and kind ones"
+            },
+            {
+              "id": "b",
+              "text": "Famous ones"
+            },
+            {
+              "id": "c",
+              "text": "Well-dressed ones"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Highlight the SUBJECT (what counts).",
+      "inputMode": "dropdown",
+      "template": "{{b1}} compte pour moi, c'est le comportement.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "Ce qui"
+          ],
+          "options": [
+            "Ce qui",
+            "Ce que"
+          ]
+        }
+      ],
+      "explanation": "Before the verb (compte) → subject → Ce qui."
+    },
+    {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « l'image » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "image"
+        },
+        {
+          "id": "b",
+          "text": "appearance"
+        },
+        {
+          "id": "c",
+          "text": "an outfit"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "l'image = image."
+    },
+    {
+      "id": "ex-mc-pool-2",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Which French word means « appearance »?",
+      "options": [
+        {
+          "id": "a",
+          "text": "l'apparence"
+        },
+        {
+          "id": "b",
+          "text": "l'image"
+        },
+        {
+          "id": "c",
+          "text": "une tenue"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "« appearance » = l'apparence."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "négligé",
+          "right": "sloppy / unkempt"
+        },
+        {
+          "id": "p2",
+          "left": "le comportement",
+          "right": "behaviour"
+        },
+        {
+          "id": "p3",
+          "left": "séduire",
+          "right": "to charm / win over"
+        },
+        {
+          "id": "p4",
+          "left": "la première impression",
+          "right": "first impression"
+        }
+      ]
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "La première impression, c'est ce qui compte le plus.",
+      "targetEn": "The first impression is what counts most.",
+      "audio": "audio/b1.1/unit-01-image/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "Ce que j'apprécie, c'est sa confiance en lui.",
+      "targetEn": "What I appreciate is his self-confidence.",
+      "audio": "audio/b1.1/unit-01-image/example-ex-3.mp3"
+    }
+  ]
+}

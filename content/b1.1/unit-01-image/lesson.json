@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "b1.1/unit-01-image",
+  "level": "b1.1",
+  "unitNumber": 1,
+  "slug": "unit-01-image",
+  "title": "Image & Relationships",
+  "titleFr": "Je séduis",
+  "cefrDescriptors": [
+    "Can talk about self-image and characterise people in some detail.",
+    "Can link and highlight ideas with relative pronouns, demonstratives, and la mise en relief."
+  ],
+  "skills": ["reading", "listening", "writing", "speaking"],
+  "estimatedMinutes": 55,
+  "concept": "B1 begins — and the conversations get more opinionated. Dossier 1 is about image: how we present ourselves and how we read other people. The grammar pulls the relative pronouns together and adds a more elegant way to emphasise.\n\nRelative pronouns (rappel): qui (subject — qui + verb), que (object — que + subject), où (place/time), and dont (replaces de: parler DE → la personne dont je parle; also \"whose\": une personne dont l'apparence est soignée).\n\nNew at B1 — combine them with demonstratives (celui, celle, ceux, celles) to mean \"the one(s) who / that\":\n  celui qui se présente bien (the one who presents himself well)\n  ceux que je préfère (the ones I prefer)\n  celles dont je parle (the ones I'm talking about)\n\nLa mise en relief (highlighting): you met ce qui / ce que … c'est in A2; B1 adds ce dont … c'est for de-verbs:\n  Ce qui compte, c'est l'apparence. (subject)\n  Ce que j'apprécie, c'est sa franchise. (object)\n  Ce dont je me souviens, c'est son sourire. (se souvenir DE → ce dont)\n\nThe theme vocabulary: l'image, l'apparence, une tenue (an outfit), soigné / négligé (neat / sloppy), le comportement, séduire (to charm), la première impression, juger, paraître (to appear), être sûr de soi (self-assured), l'estime de soi (self-esteem).\n\nPut it together: « Pour moi, ce qui compte, ce n'est pas l'apparence : je préfère les personnes dont le comportement est sincère, celles qui sont sûres d'elles sans juger les autres. »\n\nWrite two sentences about what matters to you in people — one with ce qui / ce que / ce dont, one with celui / celle / ceux qui.",
+  "vocabulary": [
+    { "id": "image", "fr": "l'image", "en": "image", "pos": "noun", "exampleFr": "L'image de soi est importante.", "exampleEn": "Self-image is important.", "audio": "audio/b1.1/unit-01-image/vocab-image.mp3", "voice": "denise" },
+    { "id": "apparence", "fr": "l'apparence", "en": "appearance", "pos": "noun", "exampleFr": "L'apparence n'est pas tout.", "exampleEn": "Appearance isn't everything.", "audio": "audio/b1.1/unit-01-image/vocab-apparence.mp3", "voice": "henri" },
+    { "id": "tenue", "fr": "une tenue", "en": "an outfit", "pos": "noun", "exampleFr": "Il a une tenue élégante.", "exampleEn": "He has an elegant outfit.", "audio": "audio/b1.1/unit-01-image/vocab-tenue.mp3", "voice": "denise" },
+    { "id": "soigne", "fr": "soigné", "en": "neat / well-groomed (f. soignée)", "pos": "adjective", "exampleFr": "Une apparence soignée.", "exampleEn": "A neat appearance.", "audio": "audio/b1.1/unit-01-image/vocab-soigne.mp3", "voice": "henri" },
+    { "id": "neglige", "fr": "négligé", "en": "sloppy / unkempt (f. négligée)", "pos": "adjective", "exampleFr": "Une tenue négligée.", "exampleEn": "A sloppy outfit.", "audio": "audio/b1.1/unit-01-image/vocab-neglige.mp3", "voice": "denise" },
+    { "id": "comportement", "fr": "le comportement", "en": "behaviour", "pos": "noun", "exampleFr": "Son comportement est sincère.", "exampleEn": "His behaviour is sincere.", "audio": "audio/b1.1/unit-01-image/vocab-comportement.mp3", "voice": "henri" },
+    { "id": "seduire", "fr": "séduire", "en": "to charm / win over", "pos": "verb", "exampleFr": "Il cherche à séduire.", "exampleEn": "He's trying to charm.", "audio": "audio/b1.1/unit-01-image/vocab-seduire.mp3", "voice": "denise" },
+    { "id": "premiere-impression", "fr": "la première impression", "en": "first impression", "pos": "noun", "exampleFr": "La première impression compte.", "exampleEn": "The first impression counts.", "audio": "audio/b1.1/unit-01-image/vocab-premiere-impression.mp3", "voice": "henri" },
+    { "id": "juger", "fr": "juger", "en": "to judge", "pos": "verb", "exampleFr": "Il ne faut pas juger les gens.", "exampleEn": "You shouldn't judge people.", "audio": "audio/b1.1/unit-01-image/vocab-juger.mp3", "voice": "denise" },
+    { "id": "paraitre", "fr": "paraître", "en": "to appear / seem", "pos": "verb", "exampleFr": "Elle paraît timide.", "exampleEn": "She appears shy.", "audio": "audio/b1.1/unit-01-image/vocab-paraitre.mp3", "voice": "henri" },
+    { "id": "sur-de-soi", "fr": "sûr de soi", "en": "self-assured / confident", "pos": "phrase", "exampleFr": "Elle est sûre d'elle.", "exampleEn": "She is self-assured.", "audio": "audio/b1.1/unit-01-image/vocab-sur-de-soi.mp3", "voice": "denise" },
+    { "id": "estime-de-soi", "fr": "l'estime de soi", "en": "self-esteem", "pos": "noun", "exampleFr": "L'estime de soi est essentielle.", "exampleEn": "Self-esteem is essential.", "audio": "audio/b1.1/unit-01-image/vocab-estime-de-soi.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "La première impression, c'est ce qui compte le plus.", "en": "The first impression is what counts most.", "audio": "audio/b1.1/unit-01-image/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "C'est une personne dont l'apparence est soignée.", "en": "It's a person whose appearance is neat.", "audio": "audio/b1.1/unit-01-image/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "Ce que j'apprécie, c'est sa confiance en lui.", "en": "What I appreciate is his self-confidence.", "audio": "audio/b1.1/unit-01-image/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "Celui qui se présente bien séduit plus facilement.", "en": "The one who presents themselves well charms more easily.", "audio": "audio/b1.1/unit-01-image/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "Ce dont je me souviens, c'est son sourire.", "en": "What I remember is his smile.", "audio": "audio/b1.1/unit-01-image/example-ex-5.mp3", "voice": "denise" }
+  ]
+}

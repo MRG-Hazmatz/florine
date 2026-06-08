@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "b1.1/unit-02-feelings",
+  "level": "b1.1",
+  "unitNumber": 2,
+  "slug": "unit-02-feelings",
+  "title": "Feelings & the Subjunctive",
+  "titleFr": "Exprimer ses sentiments",
+  "cefrDescriptors": [
+    "Can express feelings about people and events.",
+    "Can choose between subjonctif and infinitif after verbs of feeling, in present and past."
+  ],
+  "skills": ["reading", "listening", "writing", "speaking"],
+  "estimatedMinutes": 55,
+  "concept": "Dossier 1 also explores feelings — which means the subjonctif, the mood French uses after emotion, will, and necessity. Here we focus on emotion.\n\nThe rule after a verb of feeling (être content / triste / déçu / surpris que, avoir peur que, regretter que):\n  • SAME subject (the feeler also does the action) → de + infinitive:\n      Je suis content DE partir. (I'm glad to leave — I'm the one leaving.)\n  • DIFFERENT subjects → que + subjonctif:\n      Je suis content QUE tu partes. (I'm glad that you're leaving.)\n\nSubjonctif présent (rappel): the common ones are irregular — être → que je sois, qu'il soit; avoir → que j'aie, qu'il ait. Regular -er verbs look like the present for je/tu/il: que je parle; partir → qu'il parte.\n\nSubjonctif passé — for a feeling about something ALREADY done: avoir/être (in the subjonctif) + past participle:\n  Je suis content que tu sois venu. (I'm glad you came.)\n  Je regrette qu'il ait dit ça. (I'm sorry he said that.)\n\nAnd the same-subject version in the past is the infinitif passé (avoir/être + participle):\n  Je regrette DE t'avoir menti. (I regret having lied to you.)\n\nThe theme vocabulary: content / heureux (happy), triste (sad), déçu (disappointed), surpris (surprised), fier (proud), avoir peur (to be afraid), regretter, un sentiment, l'amour, être amoureux, se disputer (to argue), se réconcilier (to make up).\n\nPut it together: « Je suis vraiment content que tu sois là. J'avais peur que tu sois encore fâché — je regrette de m'être disputé avec toi. »\n\nWrite two sentences about your feelings: one same-subject (… de + infinitif) and one different-subject (… que + subjonctif).",
+  "vocabulary": [
+    { "id": "content", "fr": "content", "en": "happy / glad (f. contente)", "pos": "adjective", "exampleFr": "Je suis content de te voir.", "exampleEn": "I'm glad to see you.", "audio": "audio/b1.1/unit-02-feelings/vocab-content.mp3", "voice": "denise" },
+    { "id": "triste", "fr": "triste", "en": "sad", "pos": "adjective", "exampleFr": "Il est triste de partir.", "exampleEn": "He's sad to leave.", "audio": "audio/b1.1/unit-02-feelings/vocab-triste.mp3", "voice": "henri" },
+    { "id": "decu", "fr": "déçu", "en": "disappointed (f. déçue)", "pos": "adjective", "exampleFr": "Je suis déçu du résultat.", "exampleEn": "I'm disappointed by the result.", "audio": "audio/b1.1/unit-02-feelings/vocab-decu.mp3", "voice": "denise" },
+    { "id": "surpris", "fr": "surpris", "en": "surprised (f. surprise)", "pos": "adjective", "exampleFr": "Elle est surprise.", "exampleEn": "She is surprised.", "audio": "audio/b1.1/unit-02-feelings/vocab-surpris.mp3", "voice": "henri" },
+    { "id": "fier", "fr": "fier", "en": "proud (f. fière)", "pos": "adjective", "exampleFr": "Je suis fier de toi.", "exampleEn": "I'm proud of you.", "audio": "audio/b1.1/unit-02-feelings/vocab-fier.mp3", "voice": "denise" },
+    { "id": "avoir-peur", "fr": "avoir peur", "en": "to be afraid", "pos": "phrase", "exampleFr": "J'ai peur qu'il parte.", "exampleEn": "I'm afraid he'll leave.", "audio": "audio/b1.1/unit-02-feelings/vocab-avoir-peur.mp3", "voice": "henri" },
+    { "id": "regretter", "fr": "regretter", "en": "to regret / be sorry", "pos": "verb", "exampleFr": "Je regrette mon erreur.", "exampleEn": "I regret my mistake.", "audio": "audio/b1.1/unit-02-feelings/vocab-regretter.mp3", "voice": "denise" },
+    { "id": "sentiment", "fr": "un sentiment", "en": "a feeling", "pos": "noun", "exampleFr": "C'est un sentiment fort.", "exampleEn": "It's a strong feeling.", "audio": "audio/b1.1/unit-02-feelings/vocab-sentiment.mp3", "voice": "henri" },
+    { "id": "amour", "fr": "l'amour", "en": "love", "pos": "noun", "exampleFr": "L'amour rend heureux.", "exampleEn": "Love makes you happy.", "audio": "audio/b1.1/unit-02-feelings/vocab-amour.mp3", "voice": "denise" },
+    { "id": "etre-amoureux", "fr": "être amoureux", "en": "to be in love (f. amoureuse)", "pos": "phrase", "exampleFr": "Il est amoureux d'elle.", "exampleEn": "He's in love with her.", "audio": "audio/b1.1/unit-02-feelings/vocab-etre-amoureux.mp3", "voice": "henri" },
+    { "id": "se-disputer", "fr": "se disputer", "en": "to argue / quarrel", "pos": "verb", "exampleFr": "Ils se disputent souvent.", "exampleEn": "They argue often.", "audio": "audio/b1.1/unit-02-feelings/vocab-se-disputer.mp3", "voice": "denise" },
+    { "id": "se-reconcilier", "fr": "se réconcilier", "en": "to make up / reconcile", "pos": "verb", "exampleFr": "On s'est réconciliés.", "exampleEn": "We made up.", "audio": "audio/b1.1/unit-02-feelings/vocab-se-reconcilier.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "Je suis content que tu sois là.", "en": "I'm glad (that) you're here.", "audio": "audio/b1.1/unit-02-feelings/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "Je suis content de te voir.", "en": "I'm glad to see you.", "audio": "audio/b1.1/unit-02-feelings/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "Je suis triste que tu sois parti.", "en": "I'm sad that you left.", "audio": "audio/b1.1/unit-02-feelings/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "J'ai peur qu'il ne vienne pas.", "en": "I'm afraid he won't come.", "audio": "audio/b1.1/unit-02-feelings/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "Je regrette de t'avoir menti.", "en": "I regret having lied to you.", "audio": "audio/b1.1/unit-02-feelings/example-ex-5.mp3", "voice": "denise" }
+  ]
+}
