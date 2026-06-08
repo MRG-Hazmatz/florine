@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "a1.2/unit-02-past",
+  "level": "a1.2",
+  "unitNumber": 2,
+  "slug": "unit-02-past",
+  "title": "Talking About the Past",
+  "titleFr": "Le passé composé",
+  "cefrDescriptors": [
+    "Can describe past events and activities using the passé composé.",
+    "Can form the passé composé of regular -er verbs and common irregulars with avoir."
+  ],
+  "skills": ["reading", "listening", "writing"],
+  "estimatedMinutes": 50,
+  "concept": "Time to talk about yesterday. French's everyday past tense is the passé composé, and it's built from two pieces you can already handle:\n  avoir (in the present) + a past participle.\nYou know half of it already — avoir: j'ai, tu as, il/elle a, nous avons, vous avez, ils/elles ont.\n\nThe past participle is the \"-ed / done\" form. For the huge -er family it's beautifully regular: drop -er, add -é.\n  parler → parlé:  j'ai parlé (I spoke / I have spoken)\n  manger → mangé:  tu as mangé\n  visiter → visité: nous avons visité\nWatch the spelling: -er, -é and -ez all SOUND the same, so listen carefully and write the right one.\n\nA few very common verbs have irregular participles you simply memorise:\n  faire → fait, voir → vu, avoir → eu, être → été.\nSo: j'ai fait (I did/made), j'ai vu (I saw).\n\nTo make it negative, wrap ne … pas around the avoir part, NOT the participle:\n  je n'ai pas mangé, elle n'a pas travaillé.\n\nPoint it at the past with time markers: hier (yesterday), le week-end dernier (last weekend), déjà (already).\n\nOne heads-up for next time: a small set of verbs (mostly movement — aller, venir…) build the passé composé with être instead of avoir (« je suis allé »). We'll tackle those soon; for now, avoir covers the vast majority.\n\nTell me one true thing you did yesterday: « Hier, j'ai… »",
+  "vocabulary": [
+    { "id": "hier", "fr": "hier", "en": "yesterday", "pos": "adverb", "exampleFr": "Hier, j'ai travaillé.", "exampleEn": "Yesterday, I worked.", "audio": "audio/a1.2/unit-02-past/vocab-hier.mp3", "voice": "denise" },
+    { "id": "le-week-end-dernier", "fr": "le week-end dernier", "en": "last weekend", "pos": "phrase", "exampleFr": "Le week-end dernier, j'ai visité Paris.", "exampleEn": "Last weekend, I visited Paris.", "audio": "audio/a1.2/unit-02-past/vocab-le-week-end-dernier.mp3", "voice": "henri" },
+    { "id": "deja", "fr": "déjà", "en": "already", "pos": "adverb", "exampleFr": "J'ai déjà mangé.", "exampleEn": "I have already eaten.", "audio": "audio/a1.2/unit-02-past/vocab-deja.mp3", "voice": "denise" },
+    { "id": "visiter", "fr": "visiter", "en": "to visit (past: visité)", "pos": "verb", "exampleFr": "Nous avons visité le musée.", "exampleEn": "We visited the museum.", "audio": "audio/a1.2/unit-02-past/vocab-visiter.mp3", "voice": "henri" },
+    { "id": "acheter", "fr": "acheter", "en": "to buy (past: acheté)", "pos": "verb", "exampleFr": "J'ai acheté un cadeau.", "exampleEn": "I bought a present.", "audio": "audio/a1.2/unit-02-past/vocab-acheter.mp3", "voice": "denise" },
+    { "id": "regarder", "fr": "regarder", "en": "to watch (past: regardé)", "pos": "verb", "exampleFr": "Tu as regardé le film ?", "exampleEn": "Did you watch the film?", "audio": "audio/a1.2/unit-02-past/vocab-regarder.mp3", "voice": "henri" },
+    { "id": "manger", "fr": "manger", "en": "to eat (past: mangé)", "pos": "verb", "exampleFr": "J'ai mangé une pizza.", "exampleEn": "I ate a pizza.", "audio": "audio/a1.2/unit-02-past/vocab-manger.mp3", "voice": "denise" },
+    { "id": "travailler", "fr": "travailler", "en": "to work (past: travaillé)", "pos": "verb", "exampleFr": "Elle a travaillé hier.", "exampleEn": "She worked yesterday.", "audio": "audio/a1.2/unit-02-past/vocab-travailler.mp3", "voice": "henri" },
+    { "id": "faire", "fr": "faire", "en": "to do / make (past: fait)", "pos": "verb", "exampleFr": "J'ai fait mes devoirs.", "exampleEn": "I did my homework.", "audio": "audio/a1.2/unit-02-past/vocab-faire.mp3", "voice": "denise" },
+    { "id": "voir", "fr": "voir", "en": "to see (past: vu)", "pos": "verb", "exampleFr": "J'ai vu un film.", "exampleEn": "I saw a film.", "audio": "audio/a1.2/unit-02-past/vocab-voir.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "Hier, j'ai mangé au restaurant.", "en": "Yesterday, I ate at the restaurant.", "audio": "audio/a1.2/unit-02-past/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "Tu as regardé le film ?", "en": "Did you watch the film?", "audio": "audio/a1.2/unit-02-past/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "Nous avons visité Paris.", "en": "We visited Paris.", "audio": "audio/a1.2/unit-02-past/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "J'ai fait mes devoirs.", "en": "I did my homework.", "audio": "audio/a1.2/unit-02-past/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "Elle n'a pas travaillé hier.", "en": "She didn't work yesterday.", "audio": "audio/a1.2/unit-02-past/example-ex-5.mp3", "voice": "denise" }
+  ]
+}

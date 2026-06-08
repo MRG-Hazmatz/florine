@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "a1.2/unit-03-weather",
+  "level": "a1.2",
+  "unitNumber": 3,
+  "slug": "unit-03-weather",
+  "title": "Weather & Seasons",
+  "titleFr": "Le temps et les saisons",
+  "cefrDescriptors": [
+    "Can ask about and describe the weather.",
+    "Can name the seasons and say what the weather is like in each."
+  ],
+  "skills": ["reading", "listening", "writing"],
+  "estimatedMinutes": 40,
+  "concept": "Small talk, French style: the weather. The question is « Quel temps fait-il ? » — literally \"what weather does it make?\" (note: temps means both \"weather\" and \"time\", so context tells you which).\n\nMost answers use the verb faire with the impersonal il (\"it\"):\n  Il fait beau. (It's nice / sunny.)   Il fait mauvais. (The weather's bad.)\n  Il fait chaud. (It's hot.)           Il fait froid. (It's cold.)\nTwo key weather verbs stand alone, with no faire:\n  Il pleut. (It's raining.)            Il neige. (It's snowing.)\nAnd the cheerful one: il y a du soleil (it's sunny), from le soleil (the sun).\n\nThe four seasons — les saisons — are le printemps (spring), l'été (summer), l'automne (autumn), l'hiver (winter). To say \"in\" a season, French uses en for three of them but au for spring:\n  en été, en automne, en hiver — but au printemps.\n\nNow you can do real small talk: « Quel temps fait-il aujourd'hui ? — Il fait beau ! » or « En hiver, il fait froid et il neige. »\n\nDescribe today's weather where you are, name the season, and say one thing about it — for example: « J'aime l'été : il fait chaud. »",
+  "vocabulary": [
+    { "id": "temps", "fr": "le temps", "en": "weather (also: time)", "pos": "noun", "exampleFr": "Quel temps fait-il ?", "exampleEn": "What's the weather like?", "audio": "audio/a1.2/unit-03-weather/vocab-temps.mp3", "voice": "denise" },
+    { "id": "il-fait-beau", "fr": "il fait beau", "en": "it's nice / sunny", "pos": "phrase", "exampleFr": "Aujourd'hui, il fait beau.", "exampleEn": "Today, it's nice.", "audio": "audio/a1.2/unit-03-weather/vocab-il-fait-beau.mp3", "voice": "henri" },
+    { "id": "il-fait-mauvais", "fr": "il fait mauvais", "en": "the weather's bad", "pos": "phrase", "exampleFr": "Il fait mauvais aujourd'hui.", "exampleEn": "The weather's bad today.", "audio": "audio/a1.2/unit-03-weather/vocab-il-fait-mauvais.mp3", "voice": "denise" },
+    { "id": "il-fait-chaud", "fr": "il fait chaud", "en": "it's hot", "pos": "phrase", "exampleFr": "En été, il fait chaud.", "exampleEn": "In summer, it's hot.", "audio": "audio/a1.2/unit-03-weather/vocab-il-fait-chaud.mp3", "voice": "henri" },
+    { "id": "il-fait-froid", "fr": "il fait froid", "en": "it's cold", "pos": "phrase", "exampleFr": "En hiver, il fait froid.", "exampleEn": "In winter, it's cold.", "audio": "audio/a1.2/unit-03-weather/vocab-il-fait-froid.mp3", "voice": "denise" },
+    { "id": "il-pleut", "fr": "il pleut", "en": "it's raining", "pos": "phrase", "exampleFr": "Prends un parapluie, il pleut.", "exampleEn": "Take an umbrella, it's raining.", "audio": "audio/a1.2/unit-03-weather/vocab-il-pleut.mp3", "voice": "henri" },
+    { "id": "il-neige", "fr": "il neige", "en": "it's snowing", "pos": "phrase", "exampleFr": "En décembre, il neige.", "exampleEn": "In December, it snows.", "audio": "audio/a1.2/unit-03-weather/vocab-il-neige.mp3", "voice": "denise" },
+    { "id": "soleil", "fr": "le soleil", "en": "the sun", "pos": "noun", "exampleFr": "Il y a du soleil.", "exampleEn": "It's sunny.", "audio": "audio/a1.2/unit-03-weather/vocab-soleil.mp3", "voice": "henri" },
+    { "id": "printemps", "fr": "le printemps", "en": "spring", "pos": "noun", "exampleFr": "Au printemps, il fait beau.", "exampleEn": "In spring, it's nice.", "audio": "audio/a1.2/unit-03-weather/vocab-printemps.mp3", "voice": "denise" },
+    { "id": "ete", "fr": "l'été", "en": "summer", "pos": "noun", "exampleFr": "J'aime l'été.", "exampleEn": "I like summer.", "audio": "audio/a1.2/unit-03-weather/vocab-ete.mp3", "voice": "henri" },
+    { "id": "automne", "fr": "l'automne", "en": "autumn / fall", "pos": "noun", "exampleFr": "En automne, il pleut.", "exampleEn": "In autumn, it rains.", "audio": "audio/a1.2/unit-03-weather/vocab-automne.mp3", "voice": "denise" },
+    { "id": "hiver", "fr": "l'hiver", "en": "winter", "pos": "noun", "exampleFr": "L'hiver, il fait froid.", "exampleEn": "In winter, it's cold.", "audio": "audio/a1.2/unit-03-weather/vocab-hiver.mp3", "voice": "henri" },
+    { "id": "saison", "fr": "la saison", "en": "season", "pos": "noun", "exampleFr": "Quelle est ta saison préférée ?", "exampleEn": "What's your favourite season?", "audio": "audio/a1.2/unit-03-weather/vocab-saison.mp3", "voice": "denise" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "Quel temps fait-il ?", "en": "What's the weather like?", "audio": "audio/a1.2/unit-03-weather/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "Il fait beau aujourd'hui.", "en": "It's nice today.", "audio": "audio/a1.2/unit-03-weather/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "En hiver, il fait froid et il neige.", "en": "In winter, it's cold and it snows.", "audio": "audio/a1.2/unit-03-weather/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "Il pleut.", "en": "It's raining.", "audio": "audio/a1.2/unit-03-weather/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "J'aime l'été : il fait chaud.", "en": "I like summer: it's hot.", "audio": "audio/a1.2/unit-03-weather/example-ex-5.mp3", "voice": "denise" }
+  ]
+}

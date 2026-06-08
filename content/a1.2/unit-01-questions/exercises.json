@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "unitId": "a1.2/unit-01-questions",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What is « est-ce que » used for?",
+      "options": [
+        { "id": "a", "text": "To turn a sentence into a yes/no question" },
+        { "id": "b", "text": "To say no" },
+        { "id": "c", "text": "To count things" }
+      ],
+      "correct": ["a"],
+      "explanation": "« Est-ce que tu viens ? » = the yes/no question form of « Tu viens. »"
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "How do you ask \"What is it?\"",
+      "options": [
+        { "id": "a", "text": "Qu'est-ce que c'est ?" },
+        { "id": "b", "text": "Où c'est ?" },
+        { "id": "c", "text": "Qui c'est ?" }
+      ],
+      "correct": ["a"],
+      "explanation": "« Qu'est-ce que c'est ? » — learn it as one fixed phrase."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Choose the right question word (asking WHEN).",
+      "inputMode": "dropdown",
+      "template": "{{b1}} est ton anniversaire ?",
+      "blanks": [{ "id": "b1", "accept": ["Quand"], "options": ["Quand", "Où", "Qui"] }],
+      "explanation": "Quand = when; Où = where; Qui = who."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each question word to its English meaning.",
+      "pairs": [
+        { "id": "p1", "left": "où", "right": "where" },
+        { "id": "p2", "left": "quand", "right": "when" },
+        { "id": "p3", "left": "pourquoi", "right": "why" },
+        { "id": "p4", "left": "qui", "right": "who" }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order to ask \"Where is the party?\"",
+      "tokens": [
+        { "id": "t1", "text": "Où" },
+        { "id": "t2", "text": "est" },
+        { "id": "t3", "text": "la" },
+        { "id": "t4", "text": "fête" },
+        { "id": "t5", "text": "?" }
+      ],
+      "correctOrder": ["t1", "t2", "t3", "t4", "t5"]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen. What is the person asking?",
+      "audio": "audio/a1.2/unit-01-questions/listen-1.mp3",
+      "transcript": "Tu vas à la fête ce soir ?",
+      "options": [
+        { "id": "a", "text": "If you're going to the party tonight" },
+        { "id": "b", "text": "Where you live" },
+        { "id": "c", "text": "What your name is" }
+      ],
+      "correct": ["a"],
+      "explanation": "A yes/no question by intonation: « Tu vas à la fête ce soir ? »"
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read the invitation and answer both questions.",
+      "passageFr": "Salut ! Samedi, c'est mon anniversaire. Il y a une fête chez moi à huit heures. À samedi !",
+      "passageEn": "Hi! Saturday is my birthday. There's a party at my place at eight o'clock. See you Saturday!",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "What is happening on Saturday?",
+          "options": [
+            { "id": "a", "text": "A birthday party" },
+            { "id": "b", "text": "A French exam" },
+            { "id": "c", "text": "A trip to Paris" }
+          ],
+          "correct": ["a"]
+        },
+        {
+          "id": "q2",
+          "prompt": "What time is the party?",
+          "options": [
+            { "id": "a", "text": "8 o'clock" },
+            { "id": "b", "text": "6 o'clock" },
+            { "id": "c", "text": "Noon" }
+          ],
+          "correct": ["a"]
+        }
+      ]
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Start a yes/no question (do you like coffee?).",
+      "inputMode": "dropdown",
+      "template": "{{b1}} tu aimes le café ?",
+      "blanks": [{ "id": "b1", "accept": ["Est-ce que"], "options": ["Est-ce que", "Qu'est-ce que"] }],
+      "explanation": "Est-ce que makes a yes/no question; qu'est-ce que asks \"what\"."
+    }
+  ]
+}

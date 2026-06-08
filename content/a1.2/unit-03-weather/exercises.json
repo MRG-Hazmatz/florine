@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "unitId": "a1.2/unit-03-weather",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « Quel temps fait-il ? » ask about?",
+      "options": [
+        { "id": "a", "text": "The weather" },
+        { "id": "b", "text": "The time" },
+        { "id": "c", "text": "Your name" }
+      ],
+      "correct": ["a"],
+      "explanation": "Here temps means weather. (It can also mean 'time' in other contexts.)"
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "How do you say \"It's cold\"?",
+      "options": [
+        { "id": "a", "text": "Il fait froid." },
+        { "id": "b", "text": "Il fait chaud." },
+        { "id": "c", "text": "Il pleut." }
+      ],
+      "correct": ["a"],
+      "explanation": "Il fait froid = it's cold; il fait chaud = it's hot; il pleut = it's raining."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each season to its English meaning.",
+      "pairs": [
+        { "id": "p1", "left": "le printemps", "right": "spring" },
+        { "id": "p2", "left": "l'été", "right": "summer" },
+        { "id": "p3", "left": "l'automne", "right": "autumn" },
+        { "id": "p4", "left": "l'hiver", "right": "winter" }
+      ]
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Complete: in December, what happens?",
+      "inputMode": "dropdown",
+      "template": "En décembre, {{b1}}.",
+      "blanks": [{ "id": "b1", "accept": ["il neige"], "options": ["il neige", "il fait chaud"] }],
+      "explanation": "il neige = it snows."
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order to say \"It's nice today.\"",
+      "tokens": [
+        { "id": "t1", "text": "Il" },
+        { "id": "t2", "text": "fait" },
+        { "id": "t3", "text": "beau" },
+        { "id": "t4", "text": "aujourd'hui" }
+      ],
+      "correctOrder": ["t1", "t2", "t3", "t4"]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then: what's the weather like?",
+      "audio": "audio/a1.2/unit-03-weather/listen-1.mp3",
+      "transcript": "Aujourd'hui, il fait beau et chaud.",
+      "options": [
+        { "id": "a", "text": "Nice and hot" },
+        { "id": "b", "text": "Cold and rainy" },
+        { "id": "c", "text": "Snowing" }
+      ],
+      "correct": ["a"],
+      "explanation": "« il fait beau et chaud » = it's nice and hot."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read and answer both questions.",
+      "passageFr": "En été, il fait chaud et il fait beau. En hiver, il fait froid et il neige.",
+      "passageEn": "In summer, it's hot and nice. In winter, it's cold and it snows.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "What is the weather like in summer?",
+          "options": [
+            { "id": "a", "text": "Hot and nice" },
+            { "id": "b", "text": "Cold and snowy" },
+            { "id": "c", "text": "Rainy" }
+          ],
+          "correct": ["a"]
+        },
+        {
+          "id": "q2",
+          "prompt": "What happens in winter?",
+          "options": [
+            { "id": "a", "text": "It's cold and it snows" },
+            { "id": "b", "text": "It's hot" },
+            { "id": "c", "text": "It's sunny" }
+          ],
+          "correct": ["a"]
+        }
+      ]
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Which season is it? « It's cold and it snows. »",
+      "inputMode": "dropdown",
+      "template": "Il fait froid et il neige : c'est {{b1}}.",
+      "blanks": [{ "id": "b1", "accept": ["l'hiver"], "options": ["l'hiver", "l'été"] }],
+      "explanation": "Cold + snow → l'hiver (winter)."
+    }
+  ]
+}

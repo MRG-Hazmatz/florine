@@ -27,9 +27,9 @@ Status: ✅ built · 🔨 in progress · ⬜ planned
 ## a1.2 — Dossiers 5–9
 | # | Module | Alter Ego | Grammar focus | Status |
 |---|---|---|---|---|
-| 13 | Celebrations & asking questions | D5·L1 | est-ce que / qu'est-ce que, fêtes | ⬜ |
-| 14 | Talking about the past | D5·L2–L3 | passé composé | ⬜ |
-| 15 | Weather & seasons | D6·L1 | il fait…, le climat | ⬜ |
+| 13 | Asking questions & celebrations | D5·L1 | est-ce que / qu'est-ce que, mots interrogatifs, fêtes | ✅ a1.2/unit-01 |
+| 14 | Talking about the past | D5·L2–L3 | passé composé (avoir) | ✅ a1.2/unit-02 |
+| 15 | Weather & seasons | D6·L1 | quel temps fait-il, il fait…, les saisons | ✅ a1.2/unit-03 |
 | 16 | Geography & travel | D6·L2–L3 | comparatif (intro), le pronom y | ⬜ |
 | 17 | Food & meals | D7·L1 | articles partitifs (du/de la/des), la quantité | ⬜ |
 | 18 | Shopping & advice | D7·L2–L3 | pronoms COD/COI, conseiller | ⬜ |

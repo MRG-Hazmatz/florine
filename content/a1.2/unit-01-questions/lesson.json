@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "a1.2/unit-01-questions",
+  "level": "a1.2",
+  "unitNumber": 1,
+  "slug": "unit-01-questions",
+  "title": "Asking Questions & Celebrations",
+  "titleFr": "Poser des questions",
+  "cefrDescriptors": [
+    "Can ask simple yes/no and information questions.",
+    "Can talk about celebrations and invitations."
+  ],
+  "skills": ["reading", "listening", "writing"],
+  "estimatedMinutes": 40,
+  "concept": "Welcome to A1.2. You've been answering questions all through A1.1 — now you'll ask them.\n\nFor a YES/NO question, French gives you three levels of formality:\n  1. Intonation (easiest): keep the sentence, raise your voice — « Tu aimes le café ? »\n  2. est-ce que (neutral, very common): put est-ce que in front — « Est-ce que tu aimes le café ? »\n  3. Inversion (formal): swap verb and subject — « Aimes-tu le café ? »\nFor now, master the first two. est-ce que is your safe everyday choice.\n\nFor INFORMATION questions, add a question word: où (where), quand (when), comment (how), pourquoi (why), combien (how much/many), qui (who), and qu'est-ce que (what). They often pair with est-ce que: « Où est-ce que tu habites ? », « Quand est-ce que tu viens ? » — or, more simply, « Où est la fête ? », « Quand est ton anniversaire ? ».\n\nOne fixed phrase to learn whole: « Qu'est-ce que c'est ? » (What is it?). You'll use it constantly.\n\nWe'll practise this with a cheerful theme — celebrations: une fête (a party), un anniversaire (a birthday), un cadeau (a present), fêter (to celebrate), Noël (Christmas). So you can handle a real invitation: « Est-ce que tu vas à la fête ? — Oui ! Quand est-ce que c'est ? »\n\nWrite three questions you'd ask a new friend, using three different question words.",
+  "vocabulary": [
+    { "id": "est-ce-que", "fr": "est-ce que", "en": "(makes a yes/no question)", "pos": "phrase", "exampleFr": "Est-ce que tu aimes le café ?", "exampleEn": "Do you like coffee?", "audio": "audio/a1.2/unit-01-questions/vocab-est-ce-que.mp3", "voice": "denise" },
+    { "id": "qu-est-ce-que", "fr": "qu'est-ce que", "en": "what (in a question)", "pos": "phrase", "exampleFr": "Qu'est-ce que tu fais ?", "exampleEn": "What are you doing?", "audio": "audio/a1.2/unit-01-questions/vocab-qu-est-ce-que.mp3", "voice": "henri" },
+    { "id": "ou", "fr": "où", "en": "where", "pos": "adverb", "exampleFr": "Où est la gare ?", "exampleEn": "Where is the station?", "audio": "audio/a1.2/unit-01-questions/vocab-ou.mp3", "voice": "denise" },
+    { "id": "quand", "fr": "quand", "en": "when", "pos": "adverb", "exampleFr": "Quand est la fête ?", "exampleEn": "When is the party?", "audio": "audio/a1.2/unit-01-questions/vocab-quand.mp3", "voice": "henri" },
+    { "id": "pourquoi", "fr": "pourquoi", "en": "why", "pos": "adverb", "exampleFr": "Pourquoi ?", "exampleEn": "Why?", "audio": "audio/a1.2/unit-01-questions/vocab-pourquoi.mp3", "voice": "denise" },
+    { "id": "combien", "fr": "combien", "en": "how much / how many", "pos": "adverb", "exampleFr": "C'est combien ?", "exampleEn": "How much is it?", "audio": "audio/a1.2/unit-01-questions/vocab-combien.mp3", "voice": "henri" },
+    { "id": "qui", "fr": "qui", "en": "who", "pos": "pronoun", "exampleFr": "Qui est-ce ?", "exampleEn": "Who is it?", "audio": "audio/a1.2/unit-01-questions/vocab-qui.mp3", "voice": "denise" },
+    { "id": "quest-ce-que-cest", "fr": "qu'est-ce que c'est ?", "en": "what is it?", "pos": "phrase", "exampleFr": "Qu'est-ce que c'est ?", "exampleEn": "What is it?", "audio": "audio/a1.2/unit-01-questions/vocab-quest-ce-que-cest.mp3", "voice": "henri" },
+    { "id": "anniversaire", "fr": "l'anniversaire", "en": "birthday", "pos": "noun", "exampleFr": "Bon anniversaire !", "exampleEn": "Happy birthday!", "audio": "audio/a1.2/unit-01-questions/vocab-anniversaire.mp3", "voice": "denise" },
+    { "id": "cadeau", "fr": "le cadeau", "en": "gift / present", "pos": "noun", "exampleFr": "C'est un cadeau pour toi.", "exampleEn": "It's a present for you.", "audio": "audio/a1.2/unit-01-questions/vocab-cadeau.mp3", "voice": "henri" },
+    { "id": "feter", "fr": "fêter", "en": "to celebrate", "pos": "verb", "exampleFr": "On va fêter ça !", "exampleEn": "We're going to celebrate that!", "audio": "audio/a1.2/unit-01-questions/vocab-feter.mp3", "voice": "denise" },
+    { "id": "noel", "fr": "Noël", "en": "Christmas", "pos": "noun", "exampleFr": "Joyeux Noël !", "exampleEn": "Merry Christmas!", "audio": "audio/a1.2/unit-01-questions/vocab-noel.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "Est-ce que tu vas à la fête ?", "en": "Are you going to the party?", "audio": "audio/a1.2/unit-01-questions/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "Qu'est-ce que c'est ?", "en": "What is it?", "audio": "audio/a1.2/unit-01-questions/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "Où est la fête ?", "en": "Where is the party?", "audio": "audio/a1.2/unit-01-questions/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "Quand est ton anniversaire ?", "en": "When is your birthday?", "audio": "audio/a1.2/unit-01-questions/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "C'est un cadeau pour toi !", "en": "It's a present for you!", "audio": "audio/a1.2/unit-01-questions/example-ex-5.mp3", "voice": "denise" }
+  ]
+}
