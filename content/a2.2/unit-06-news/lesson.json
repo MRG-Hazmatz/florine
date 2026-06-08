@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "a2.2/unit-06-news",
+  "level": "a2.2",
+  "unitNumber": 6,
+  "slug": "unit-06-news",
+  "title": "News & Faits Divers",
+  "titleFr": "Les faits divers",
+  "cefrDescriptors": [
+    "Can report a news item or a fait divers.",
+    "Can use the passive voice and agree the past participle with a preceding object."
+  ],
+  "skills": ["reading", "listening", "writing", "speaking"],
+  "estimatedMinutes": 50,
+  "concept": "The final unit of A2 — news and faits divers (news in brief: a theft, an accident, an event). Two grammar points round things off.\n\n1) The passive voice (la forme passive). Instead of saying who did it, you spotlight what happened TO the subject:\n  Active:  La police a arrêté le voleur. (The police arrested the thief.)\n  Passive: Le voleur a été arrêté (par la police). (The thief was arrested by the police.)\nForm: subject + être (in the right tense) + past participle. The participle agrees with the subject:\n  La voiture a été volée. (volée, feminine)  ·  Les maisons ont été vendues.\nThe doer, if named, comes after par.\n\n2) Agreement of the past participle with a preceding direct object. In the passé composé with avoir, the participle usually doesn't change — UNLESS the direct object comes before the verb. Then it agrees:\n  J'ai vu Marie. → Je l'ai vue. (vue agrees with l' = Marie)\n  la lettre que j'ai écrite (écrite agrees with lettre, via que)\n\nThe theme vocabulary: un fait divers (news item), un voleur (a thief), voler (to steal), un accident, la police, arrêter (to arrest), un témoin (a witness), la victime, un événement (an event), grave (serious), récemment (recently).\n\nPut it together: « Un fait divers : une voiture a été volée hier soir. Heureusement, le voleur a été arrêté ce matin. »\n\nFélicitations — that's the end of A2! Write one passive sentence about a recent event.",
+  "vocabulary": [
+    { "id": "fait-divers", "fr": "un fait divers", "en": "news item / news in brief", "pos": "noun", "exampleFr": "J'ai lu un fait divers.", "exampleEn": "I read a news item.", "audio": "audio/a2.2/unit-06-news/vocab-fait-divers.mp3", "voice": "denise" },
+    { "id": "voleur", "fr": "un voleur", "en": "a thief", "pos": "noun", "exampleFr": "Le voleur a été arrêté.", "exampleEn": "The thief was arrested.", "audio": "audio/a2.2/unit-06-news/vocab-voleur.mp3", "voice": "henri" },
+    { "id": "voler", "fr": "voler", "en": "to steal", "pos": "verb", "exampleFr": "On a volé mon vélo.", "exampleEn": "Someone stole my bike.", "audio": "audio/a2.2/unit-06-news/vocab-voler.mp3", "voice": "denise" },
+    { "id": "accident", "fr": "un accident", "en": "an accident", "pos": "noun", "exampleFr": "Il y a eu un accident.", "exampleEn": "There was an accident.", "audio": "audio/a2.2/unit-06-news/vocab-accident.mp3", "voice": "henri" },
+    { "id": "police", "fr": "la police", "en": "police", "pos": "noun", "exampleFr": "La police arrive.", "exampleEn": "The police are coming.", "audio": "audio/a2.2/unit-06-news/vocab-police.mp3", "voice": "denise" },
+    { "id": "arreter", "fr": "arrêter", "en": "to arrest / stop", "pos": "verb", "exampleFr": "La police a arrêté le voleur.", "exampleEn": "The police arrested the thief.", "audio": "audio/a2.2/unit-06-news/vocab-arreter.mp3", "voice": "henri" },
+    { "id": "temoin", "fr": "un témoin", "en": "a witness", "pos": "noun", "exampleFr": "Un témoin a parlé à la police.", "exampleEn": "A witness spoke to the police.", "audio": "audio/a2.2/unit-06-news/vocab-temoin.mp3", "voice": "denise" },
+    { "id": "victime", "fr": "la victime", "en": "victim", "pos": "noun", "exampleFr": "La victime va bien.", "exampleEn": "The victim is okay.", "audio": "audio/a2.2/unit-06-news/vocab-victime.mp3", "voice": "henri" },
+    { "id": "evenement", "fr": "un événement", "en": "an event", "pos": "noun", "exampleFr": "C'est un grand événement.", "exampleEn": "It's a big event.", "audio": "audio/a2.2/unit-06-news/vocab-evenement.mp3", "voice": "denise" },
+    { "id": "grave", "fr": "grave", "en": "serious", "pos": "adjective", "exampleFr": "Ce n'est pas grave.", "exampleEn": "It's not serious / no worries.", "audio": "audio/a2.2/unit-06-news/vocab-grave.mp3", "voice": "henri" },
+    { "id": "recemment", "fr": "récemment", "en": "recently", "pos": "adverb", "exampleFr": "C'est arrivé récemment.", "exampleEn": "It happened recently.", "audio": "audio/a2.2/unit-06-news/vocab-recemment.mp3", "voice": "denise" },
+    { "id": "se-passer", "fr": "se passer", "en": "to happen", "pos": "verb", "exampleFr": "Qu'est-ce qui s'est passé ?", "exampleEn": "What happened?", "audio": "audio/a2.2/unit-06-news/vocab-se-passer.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "Le voleur a été arrêté par la police.", "en": "The thief was arrested by the police.", "audio": "audio/a2.2/unit-06-news/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "La voiture a été volée hier.", "en": "The car was stolen yesterday.", "audio": "audio/a2.2/unit-06-news/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "Il y a eu un accident dans la rue.", "en": "There was an accident in the street.", "audio": "audio/a2.2/unit-06-news/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "C'est l'histoire que j'ai entendue à la radio.", "en": "It's the story (that) I heard on the radio.", "audio": "audio/a2.2/unit-06-news/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "Un témoin a parlé à la police.", "en": "A witness spoke to the police.", "audio": "audio/a2.2/unit-06-news/example-ex-5.mp3", "voice": "denise" }
+  ]
+}

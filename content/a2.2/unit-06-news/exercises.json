@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "unitId": "a2.2/unit-06-news",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "« Le voleur a été arrêté » is in the…",
+      "options": [
+        { "id": "a", "text": "passive voice" },
+        { "id": "b", "text": "imperative" },
+        { "id": "c", "text": "near future" }
+      ],
+      "correct": ["a"],
+      "explanation": "Passive = subject + être + past participle: a été arrêté (was arrested)."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "The passive is built with être + …",
+      "options": [
+        { "id": "a", "text": "the past participle" },
+        { "id": "b", "text": "the infinitive" },
+        { "id": "c", "text": "the present tense" }
+      ],
+      "correct": ["a"],
+      "explanation": "être (in the right tense) + past participle: il a été arrêté, elle a été vue."
+    },
+    {
+      "id": "ex-mc-3",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Agree the participle: « La voiture a été ___ » (voler)",
+      "options": [
+        { "id": "a", "text": "volée" },
+        { "id": "b", "text": "volé" },
+        { "id": "c", "text": "voler" }
+      ],
+      "correct": ["a"],
+      "explanation": "In the passive the participle agrees with the subject: la voiture → volée (feminine)."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Make it passive (the castle WAS built in 1500).",
+      "inputMode": "dropdown",
+      "template": "Le château {{b1}} construit en 1500.",
+      "blanks": [{ "id": "b1", "accept": ["a été"], "options": ["a été", "a"] }],
+      "explanation": "Passive: a été construit (was built). 'a construit' would mean it built something."
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Agree the participle with 'la lettre' (preceding object).",
+      "inputMode": "dropdown",
+      "template": "Voici la lettre que j'ai {{b1}}.",
+      "blanks": [{ "id": "b1", "accept": ["écrite"], "options": ["écrite", "écrit"] }],
+      "explanation": "The object (la lettre, fem) comes before via que → the participle agrees: écrite."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        { "id": "p1", "left": "un voleur", "right": "thief" },
+        { "id": "p2", "left": "la police", "right": "police" },
+        { "id": "p3", "left": "un témoin", "right": "witness" },
+        { "id": "p4", "left": "un accident", "right": "accident" }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"The thief was arrested.\"",
+      "tokens": [
+        { "id": "t1", "text": "Le" },
+        { "id": "t2", "text": "voleur" },
+        { "id": "t3", "text": "a" },
+        { "id": "t4", "text": "été" },
+        { "id": "t5", "text": "arrêté" }
+      ],
+      "correctOrder": ["t1", "t2", "t3", "t4", "t5"]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then: what happened this morning?",
+      "audio": "audio/a2.2/unit-06-news/listen-1.mp3",
+      "transcript": "Un voleur a été arrêté ce matin.",
+      "options": [
+        { "id": "a", "text": "A thief was arrested" },
+        { "id": "b", "text": "A shop opened" },
+        { "id": "c", "text": "A match was cancelled" }
+      ],
+      "correct": ["a"],
+      "explanation": "« Un voleur a été arrêté » = a thief was arrested (passive)."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read the news item and answer both questions.",
+      "passageFr": "Hier soir, il y a eu un vol dans le quartier. Une voiture a été volée. Heureusement, le voleur a été arrêté par la police ce matin.",
+      "passageEn": "Last night, there was a theft in the neighbourhood. A car was stolen. Luckily, the thief was arrested by the police this morning.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "What happened last night?",
+          "options": [
+            { "id": "a", "text": "A car was stolen" },
+            { "id": "b", "text": "A house burned down" },
+            { "id": "c", "text": "Nothing happened" }
+          ],
+          "correct": ["a"]
+        },
+        {
+          "id": "q2",
+          "prompt": "What happened to the thief?",
+          "options": [
+            { "id": "a", "text": "Arrested by the police" },
+            { "id": "b", "text": "Never found" },
+            { "id": "c", "text": "Given a reward" }
+          ],
+          "correct": ["a"]
+        }
+      ]
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "Le voleur a été arrêté par la police.",
+      "targetEn": "The thief was arrested by the police.",
+      "audio": "audio/a2.2/unit-06-news/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "Il y a eu un accident dans la rue.",
+      "targetEn": "There was an accident in the street.",
+      "audio": "audio/a2.2/unit-06-news/example-ex-3.mp3"
+    }
+  ]
+}
