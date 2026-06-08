@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "a1.2/unit-04-travel-comparisons",
+  "level": "a1.2",
+  "unitNumber": 4,
+  "slug": "unit-04-travel-comparisons",
+  "title": "Travel & Comparisons",
+  "titleFr": "Voyages et comparaisons",
+  "cefrDescriptors": [
+    "Can talk about travel and means of transport.",
+    "Can compare two things using the comparative."
+  ],
+  "skills": ["reading", "listening", "writing"],
+  "estimatedMinutes": 45,
+  "concept": "This unit pairs a useful theme — travel — with a genuinely powerful grammar tool: the comparative, for saying one thing is more, less, or as something as another.\n\nThe pattern wraps around an adjective and uses que for \"than/as\":\n  plus … que  = more … than   →  Paris est plus grand que Lyon.\n  moins … que = less … than   →  Le train est moins cher que l'avion.\n  aussi … que = as … as       →  Nice est aussi belle que Cannes.\nThe adjective still AGREES with the first noun: « Lyon est plus petit » but « Nice est plus petite ». One common irregular to note: bon (good) → meilleur (better), not « plus bon ».\n\nWith travel words you can compare real options: voyager (to travel), le voyage (trip), le pays (country), le monde (world). For getting around, French uses en with most transport: en train, en avion, en bus, en voiture — and you'll want un billet (a ticket).\n\nA quick bonus pronoun: y replaces a place introduced by à. Instead of « Je vais à Paris », once Paris is known you can say « J'y vais » (I'm going there). It sits before the verb.\n\nPut it to work: « J'aime voyager. La France est plus grande que la Belgique, et le train est moins cher que l'avion. »\n\nCompare two cities or countries you know, out loud, using plus … que and moins … que.",
+  "vocabulary": [
+    { "id": "voyager", "fr": "voyager", "en": "to travel", "pos": "verb", "exampleFr": "J'aime voyager.", "exampleEn": "I like to travel.", "audio": "audio/a1.2/unit-04-travel-comparisons/vocab-voyager.mp3", "voice": "denise" },
+    { "id": "voyage", "fr": "le voyage", "en": "trip / journey", "pos": "noun", "exampleFr": "Bon voyage !", "exampleEn": "Have a good trip!", "audio": "audio/a1.2/unit-04-travel-comparisons/vocab-voyage.mp3", "voice": "henri" },
+    { "id": "pays", "fr": "le pays", "en": "country", "pos": "noun", "exampleFr": "La France est un beau pays.", "exampleEn": "France is a beautiful country.", "audio": "audio/a1.2/unit-04-travel-comparisons/vocab-pays.mp3", "voice": "denise" },
+    { "id": "monde", "fr": "le monde", "en": "world", "pos": "noun", "exampleFr": "Je veux voir le monde.", "exampleEn": "I want to see the world.", "audio": "audio/a1.2/unit-04-travel-comparisons/vocab-monde.mp3", "voice": "henri" },
+    { "id": "train", "fr": "le train", "en": "train", "pos": "noun", "exampleFr": "Je vais à Paris en train.", "exampleEn": "I'm going to Paris by train.", "audio": "audio/a1.2/unit-04-travel-comparisons/vocab-train.mp3", "voice": "denise" },
+    { "id": "avion", "fr": "l'avion", "en": "plane", "pos": "noun", "exampleFr": "L'avion est rapide.", "exampleEn": "The plane is fast.", "audio": "audio/a1.2/unit-04-travel-comparisons/vocab-avion.mp3", "voice": "henri" },
+    { "id": "billet", "fr": "le billet", "en": "ticket", "pos": "noun", "exampleFr": "Voici mon billet de train.", "exampleEn": "Here is my train ticket.", "audio": "audio/a1.2/unit-04-travel-comparisons/vocab-billet.mp3", "voice": "denise" },
+    { "id": "cher", "fr": "cher", "en": "expensive (f. chère)", "pos": "adjective", "exampleFr": "L'avion est cher.", "exampleEn": "The plane is expensive.", "audio": "audio/a1.2/unit-04-travel-comparisons/vocab-cher.mp3", "voice": "henri" },
+    { "id": "loin", "fr": "loin", "en": "far", "pos": "adverb", "exampleFr": "C'est loin ?", "exampleEn": "Is it far?", "audio": "audio/a1.2/unit-04-travel-comparisons/vocab-loin.mp3", "voice": "denise" },
+    { "id": "plus-que", "fr": "plus … que", "en": "more … than", "pos": "phrase", "exampleFr": "Paris est plus grand que Lyon.", "exampleEn": "Paris is bigger than Lyon.", "audio": "audio/a1.2/unit-04-travel-comparisons/vocab-plus-que.mp3", "voice": "henri" },
+    { "id": "moins-que", "fr": "moins … que", "en": "less … than", "pos": "phrase", "exampleFr": "Le train est moins cher que l'avion.", "exampleEn": "The train is less expensive than the plane.", "audio": "audio/a1.2/unit-04-travel-comparisons/vocab-moins-que.mp3", "voice": "denise" },
+    { "id": "aussi-que", "fr": "aussi … que", "en": "as … as", "pos": "phrase", "exampleFr": "Nice est aussi belle que Cannes.", "exampleEn": "Nice is as beautiful as Cannes.", "audio": "audio/a1.2/unit-04-travel-comparisons/vocab-aussi-que.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "Paris est plus grand que Lyon.", "en": "Paris is bigger than Lyon.", "audio": "audio/a1.2/unit-04-travel-comparisons/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "Le train est moins cher que l'avion.", "en": "The train is cheaper than the plane.", "audio": "audio/a1.2/unit-04-travel-comparisons/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "J'aime voyager dans le monde.", "en": "I like travelling around the world.", "audio": "audio/a1.2/unit-04-travel-comparisons/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "Nice est aussi belle que Cannes.", "en": "Nice is as beautiful as Cannes.", "audio": "audio/a1.2/unit-04-travel-comparisons/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "Je vais à Paris en train.", "en": "I'm going to Paris by train.", "audio": "audio/a1.2/unit-04-travel-comparisons/example-ex-5.mp3", "voice": "denise" }
+  ]
+}

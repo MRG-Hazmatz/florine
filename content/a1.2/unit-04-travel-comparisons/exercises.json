@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "unitId": "a1.2/unit-04-travel-comparisons",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Paris is BIGGER than Lyon. Complete: « Paris est ___ Lyon. »",
+      "options": [
+        { "id": "a", "text": "plus grand que" },
+        { "id": "b", "text": "moins grand que" },
+        { "id": "c", "text": "aussi grand que" }
+      ],
+      "correct": ["a"],
+      "explanation": "plus … que = more … than → plus grand que (bigger than)."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « moins cher que » mean?",
+      "options": [
+        { "id": "a", "text": "less expensive than" },
+        { "id": "b", "text": "more expensive than" },
+        { "id": "c", "text": "as expensive as" }
+      ],
+      "correct": ["a"],
+      "explanation": "moins = less; cher = expensive; que = than."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Complete the comparison (the train is LESS expensive THAN the plane).",
+      "inputMode": "typed",
+      "template": "Le train est {{b1}} cher {{b2}} l'avion.",
+      "blanks": [
+        { "id": "b1", "accept": ["moins"] },
+        { "id": "b2", "accept": ["que"] }
+      ],
+      "explanation": "moins … que = less … than."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        { "id": "p1", "left": "voyager", "right": "to travel" },
+        { "id": "p2", "left": "le pays", "right": "country" },
+        { "id": "p3", "left": "le train", "right": "train" },
+        { "id": "p4", "left": "l'avion", "right": "plane" }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order to say \"Nice is as beautiful as Cannes.\"",
+      "tokens": [
+        { "id": "t1", "text": "Nice" },
+        { "id": "t2", "text": "est" },
+        { "id": "t3", "text": "aussi" },
+        { "id": "t4", "text": "belle" },
+        { "id": "t5", "text": "que" },
+        { "id": "t6", "text": "Cannes" }
+      ],
+      "correctOrder": ["t1", "t2", "t3", "t4", "t5", "t6"]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then: which is cheaper?",
+      "audio": "audio/a1.2/unit-04-travel-comparisons/listen-1.mp3",
+      "transcript": "Le train est moins cher que l'avion.",
+      "options": [
+        { "id": "a", "text": "The train" },
+        { "id": "b", "text": "The plane" },
+        { "id": "c", "text": "They cost the same" }
+      ],
+      "correct": ["a"],
+      "explanation": "« le train est moins cher » — the train costs less."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read and answer both questions.",
+      "passageFr": "J'adore voyager. La France est plus grande que la Belgique. Demain, je vais à Paris en train.",
+      "passageEn": "I love travelling. France is bigger than Belgium. Tomorrow, I'm going to Paris by train.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "Which country is bigger?",
+          "options": [
+            { "id": "a", "text": "France" },
+            { "id": "b", "text": "Belgium" },
+            { "id": "c", "text": "They're the same size" }
+          ],
+          "correct": ["a"]
+        },
+        {
+          "id": "q2",
+          "prompt": "How is the speaker travelling?",
+          "options": [
+            { "id": "a", "text": "By train" },
+            { "id": "b", "text": "By plane" },
+            { "id": "c", "text": "By car" }
+          ],
+          "correct": ["a"]
+        }
+      ]
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Tokyo is BIGGER than Paris. Choose the right word.",
+      "inputMode": "dropdown",
+      "template": "Tokyo est {{b1}} grande que Paris.",
+      "blanks": [{ "id": "b1", "accept": ["plus"], "options": ["plus", "moins"] }],
+      "explanation": "plus grande que = bigger than."
+    }
+  ]
+}

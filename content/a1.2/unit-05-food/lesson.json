@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "a1.2/unit-05-food",
+  "level": "a1.2",
+  "unitNumber": 5,
+  "slug": "unit-05-food",
+  "title": "Food & Meals",
+  "titleFr": "La nourriture et les repas",
+  "cefrDescriptors": [
+    "Can talk about food, drink and meals.",
+    "Can use the partitive articles du, de la, de l', des."
+  ],
+  "skills": ["reading", "listening", "writing"],
+  "estimatedMinutes": 45,
+  "concept": "Food talk needs a special little word: the partitive article — French for \"some / an unspecified amount.\" English often drops it (\"I eat bread\"), but French keeps it:\n  du (masculine):    je mange du pain\n  de la (feminine):  je mange de la salade\n  de l' (before a vowel): je bois de l'eau\n  des (plural):      je mange des fruits\nThink of all of them as \"some\": du pain = some bread.\n\nOne important twist: after a negative, they all collapse to just de (or d' before a vowel):\n  je mange du pain  →  je ne mange pas de pain\n  je bois de l'eau  →  je ne bois pas d'eau\n\nThe three meals: le petit-déjeuner (breakfast), le déjeuner (lunch), le dîner (dinner). And a useful irregular verb, boire (to drink): je bois, tu bois, il/elle boit, nous buvons, vous buvez, ils/elles boivent.\n\nTwo handy expressions use avoir, not être: j'ai faim (I'm hungry — literally \"I have hunger\") and j'ai soif (I'm thirsty).\n\nAt the table it all comes together: « Au petit-déjeuner, je bois du café et je mange du pain. Je ne mange pas de viande. »\n\nDescribe what you eat and drink at breakfast using du / de la / des — and name one thing you don't eat (remember: with de).",
+  "vocabulary": [
+    { "id": "pain", "fr": "le pain", "en": "bread", "pos": "noun", "exampleFr": "Je mange du pain.", "exampleEn": "I eat (some) bread.", "audio": "audio/a1.2/unit-05-food/vocab-pain.mp3", "voice": "denise" },
+    { "id": "fromage", "fr": "le fromage", "en": "cheese", "pos": "noun", "exampleFr": "J'aime le fromage.", "exampleEn": "I like cheese.", "audio": "audio/a1.2/unit-05-food/vocab-fromage.mp3", "voice": "henri" },
+    { "id": "fruits", "fr": "les fruits", "en": "fruit", "pos": "noun", "exampleFr": "Je mange des fruits.", "exampleEn": "I eat (some) fruit.", "audio": "audio/a1.2/unit-05-food/vocab-fruits.mp3", "voice": "denise" },
+    { "id": "eau", "fr": "l'eau", "en": "water", "pos": "noun", "exampleFr": "Je bois de l'eau.", "exampleEn": "I drink (some) water.", "audio": "audio/a1.2/unit-05-food/vocab-eau.mp3", "voice": "henri" },
+    { "id": "lait", "fr": "le lait", "en": "milk", "pos": "noun", "exampleFr": "Du lait, s'il vous plaît.", "exampleEn": "Some milk, please.", "audio": "audio/a1.2/unit-05-food/vocab-lait.mp3", "voice": "denise" },
+    { "id": "petit-dejeuner", "fr": "le petit-déjeuner", "en": "breakfast", "pos": "noun", "exampleFr": "Le petit-déjeuner est à huit heures.", "exampleEn": "Breakfast is at eight.", "audio": "audio/a1.2/unit-05-food/vocab-petit-dejeuner.mp3", "voice": "henri" },
+    { "id": "dejeuner", "fr": "le déjeuner", "en": "lunch", "pos": "noun", "exampleFr": "Le déjeuner est à midi.", "exampleEn": "Lunch is at noon.", "audio": "audio/a1.2/unit-05-food/vocab-dejeuner.mp3", "voice": "denise" },
+    { "id": "diner", "fr": "le dîner", "en": "dinner", "pos": "noun", "exampleFr": "Le dîner est à huit heures.", "exampleEn": "Dinner is at eight.", "audio": "audio/a1.2/unit-05-food/vocab-diner.mp3", "voice": "henri" },
+    { "id": "boire", "fr": "boire", "en": "to drink (je bois)", "pos": "verb", "exampleFr": "Je bois du café.", "exampleEn": "I drink coffee.", "audio": "audio/a1.2/unit-05-food/vocab-boire.mp3", "voice": "denise" },
+    { "id": "du-de-la", "fr": "du / de la / des", "en": "some (partitive)", "pos": "phrase", "exampleFr": "Je voudrais du pain et de la confiture.", "exampleEn": "I'd like some bread and some jam.", "audio": "audio/a1.2/unit-05-food/vocab-du-de-la.mp3", "voice": "henri" },
+    { "id": "avoir-faim", "fr": "avoir faim", "en": "to be hungry", "pos": "phrase", "exampleFr": "J'ai faim !", "exampleEn": "I'm hungry!", "audio": "audio/a1.2/unit-05-food/vocab-avoir-faim.mp3", "voice": "denise" },
+    { "id": "avoir-soif", "fr": "avoir soif", "en": "to be thirsty", "pos": "phrase", "exampleFr": "J'ai soif.", "exampleEn": "I'm thirsty.", "audio": "audio/a1.2/unit-05-food/vocab-avoir-soif.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "Je mange du pain.", "en": "I eat (some) bread.", "audio": "audio/a1.2/unit-05-food/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "Elle boit de l'eau.", "en": "She drinks (some) water.", "audio": "audio/a1.2/unit-05-food/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "Au petit-déjeuner, je bois du café.", "en": "At breakfast, I drink coffee.", "audio": "audio/a1.2/unit-05-food/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "Je ne mange pas de viande.", "en": "I don't eat meat.", "audio": "audio/a1.2/unit-05-food/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "Tu veux des fruits ?", "en": "Do you want (some) fruit?", "audio": "audio/a1.2/unit-05-food/example-ex-5.mp3", "voice": "denise" }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "unitId": "a1.2/unit-05-food",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Choose the partitive: « Je mange ___ pain. » (some bread, masculine)",
+      "options": [
+        { "id": "a", "text": "du" },
+        { "id": "b", "text": "de la" },
+        { "id": "c", "text": "des" }
+      ],
+      "correct": ["a"],
+      "explanation": "pain is masculine → du pain (some bread)."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "After a negative, the partitive becomes: « Je ne mange pas ___ viande. »",
+      "options": [
+        { "id": "a", "text": "de" },
+        { "id": "b", "text": "de la" },
+        { "id": "c", "text": "du" }
+      ],
+      "correct": ["a"],
+      "explanation": "After ne…pas, du/de la/des all become de: « pas de viande »."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Choose the partitive before a vowel (water).",
+      "inputMode": "dropdown",
+      "template": "Elle boit {{b1}} eau.",
+      "blanks": [{ "id": "b1", "accept": ["de l'"], "options": ["de l'", "du"] }],
+      "explanation": "Before a vowel, du/de la → de l': de l'eau."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each food/drink to its English meaning.",
+      "pairs": [
+        { "id": "p1", "left": "le pain", "right": "bread" },
+        { "id": "p2", "left": "l'eau", "right": "water" },
+        { "id": "p3", "left": "le fromage", "right": "cheese" },
+        { "id": "p4", "left": "le lait", "right": "milk" }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order to say \"I eat (some) bread.\"",
+      "tokens": [
+        { "id": "t1", "text": "Je" },
+        { "id": "t2", "text": "mange" },
+        { "id": "t3", "text": "du" },
+        { "id": "t4", "text": "pain" }
+      ],
+      "correctOrder": ["t1", "t2", "t3", "t4"]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then: what does the speaker have for breakfast?",
+      "audio": "audio/a1.2/unit-05-food/listen-1.mp3",
+      "transcript": "Au petit-déjeuner, je bois du café et je mange du pain.",
+      "options": [
+        { "id": "a", "text": "Coffee and bread" },
+        { "id": "b", "text": "Tea and fruit" },
+        { "id": "c", "text": "Milk and cheese" }
+      ],
+      "correct": ["a"],
+      "explanation": "« du café et du pain » — coffee and bread."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read and answer both questions.",
+      "passageFr": "Le matin, je prends un petit-déjeuner. Je bois du thé et je mange des fruits. Je ne mange pas de viande.",
+      "passageEn": "In the morning, I have breakfast. I drink tea and I eat fruit. I don't eat meat.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "What does the speaker drink?",
+          "options": [
+            { "id": "a", "text": "Tea" },
+            { "id": "b", "text": "Coffee" },
+            { "id": "c", "text": "Water" }
+          ],
+          "correct": ["a"]
+        },
+        {
+          "id": "q2",
+          "prompt": "What does the speaker NOT eat?",
+          "options": [
+            { "id": "a", "text": "Meat" },
+            { "id": "b", "text": "Fruit" },
+            { "id": "c", "text": "Bread" }
+          ],
+          "correct": ["a"]
+        }
+      ]
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Offer some fruit (plural).",
+      "inputMode": "dropdown",
+      "template": "Tu veux {{b1}} fruits ?",
+      "blanks": [{ "id": "b1", "accept": ["des"], "options": ["des", "du"] }],
+      "explanation": "Plural partitive → des fruits."
+    }
+  ]
+}
