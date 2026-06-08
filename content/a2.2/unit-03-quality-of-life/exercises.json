@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "unitId": "a2.2/unit-03-quality-of-life",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « la plus grande ville » mean?",
+      "options": [
+        { "id": "a", "text": "the biggest city" },
+        { "id": "b", "text": "a big city" },
+        { "id": "c", "text": "the smallest city" }
+      ],
+      "correct": ["a"],
+      "explanation": "le/la plus + adjective = the most… → la plus grande = the biggest."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "What is the superlative of « bon » (good)?",
+      "options": [
+        { "id": "a", "text": "le meilleur" },
+        { "id": "b", "text": "le plus bon" },
+        { "id": "c", "text": "le plus bien" }
+      ],
+      "correct": ["a"],
+      "explanation": "bon is irregular: le meilleur (the best), never « le plus bon »."
+    },
+    {
+      "id": "ex-mc-3",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « la qualité de vie » mean?",
+      "options": [
+        { "id": "a", "text": "quality of life" },
+        { "id": "b", "text": "cost of living" },
+        { "id": "c", "text": "way of speaking" }
+      ],
+      "correct": ["a"],
+      "explanation": "la qualité de vie = quality of life."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Highlight the SUBJECT (what is important).",
+      "inputMode": "dropdown",
+      "template": "{{b1}} est important, c'est la santé.",
+      "blanks": [{ "id": "b1", "accept": ["Ce qui"], "options": ["Ce qui", "Ce que"] }],
+      "explanation": "Before the verb (est) → subject → Ce qui."
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Highlight the OBJECT (what I prefer).",
+      "inputMode": "dropdown",
+      "template": "{{b1}} je préfère, c'est le calme.",
+      "blanks": [{ "id": "b1", "accept": ["Ce que"], "options": ["Ce que", "Ce qui"] }],
+      "explanation": "Followed by a subject (je) → object → Ce que."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        { "id": "p1", "left": "la sécurité", "right": "safety" },
+        { "id": "p2", "left": "les transports", "right": "transport" },
+        { "id": "p3", "left": "agréable", "right": "pleasant" },
+        { "id": "p4", "left": "le coût", "right": "cost" }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"It's the biggest city.\"",
+      "tokens": [
+        { "id": "t1", "text": "C'est" },
+        { "id": "t2", "text": "la" },
+        { "id": "t3", "text": "plus" },
+        { "id": "t4", "text": "grande" },
+        { "id": "t5", "text": "ville" }
+      ],
+      "correctOrder": ["t1", "t2", "t3", "t4", "t5"]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then: what does the speaker like here?",
+      "audio": "audio/a2.2/unit-03-quality-of-life/listen-1.mp3",
+      "transcript": "Ce que j'aime ici, c'est le calme.",
+      "options": [
+        { "id": "a", "text": "The calm / quiet" },
+        { "id": "b", "text": "The nightlife" },
+        { "id": "c", "text": "The shops" }
+      ],
+      "correct": ["a"],
+      "explanation": "« Ce que j'aime, c'est le calme » = what I like is the calm."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read and answer both questions.",
+      "passageFr": "Lyon est une grande ville, mais Paris est la plus grande de France. Ce qui est agréable à Lyon, c'est la qualité de vie. Les transports sont pratiques et la ville est plus tranquille que Paris.",
+      "passageEn": "Lyon is a big city, but Paris is the biggest in France. What's pleasant about Lyon is the quality of life. The transport is convenient and the city is quieter than Paris.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "Which is the biggest city in France?",
+          "options": [
+            { "id": "a", "text": "Paris" },
+            { "id": "b", "text": "Lyon" },
+            { "id": "c", "text": "Nice" }
+          ],
+          "correct": ["a"]
+        },
+        {
+          "id": "q2",
+          "prompt": "What is pleasant about Lyon?",
+          "options": [
+            { "id": "a", "text": "The quality of life" },
+            { "id": "b", "text": "The cost" },
+            { "id": "c", "text": "The noise" }
+          ],
+          "correct": ["a"]
+        }
+      ]
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "Ce qui est important, c'est la sécurité.",
+      "targetEn": "What's important is safety.",
+      "audio": "audio/a2.2/unit-03-quality-of-life/example-ex-3.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "Paris est la plus grande ville de France.",
+      "targetEn": "Paris is the biggest city in France.",
+      "audio": "audio/a2.2/unit-03-quality-of-life/example-ex-1.mp3"
+    }
+  ]
+}

@@ -32,7 +32,7 @@ Status: ✅ built · 🔨 in progress · ⬜ planned
 |---|---|---|---|---|
 | 7 | A country & its people | D3·L1 | relative pronouns où / dont; expressing percentages | ✅ a2.2/unit-01 |
 | 8 | Living elsewhere | D3·L2 | demonstrative pronouns (celui/celle/ceux/celles) | ✅ a2.2/unit-02 |
-| 9 | Quality of life | D3·L3 | the superlative; mise en relief (ce qui / ce que… c'est) | ⬜ |
+| 9 | Quality of life | D3·L3 | the superlative; mise en relief (ce qui / ce que… c'est) | ✅ a2.2/unit-03 |
 | 10 | New media & blogs | D4·L1 | si + imparfait (suggestion); indefinite pronouns/adverbs (quelqu'un, rien, personne) | ⬜ |
 | 11 | Traditional media | D4·L2 | la nominalisation; c'est… qui / c'est… que (mise en relief) | ⬜ |
 | 12 | News & faits divers | D4·L3 | the passive voice; accord du participe passé avec le COD | ⬜ |

@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "a2.2/unit-03-quality-of-life",
+  "level": "a2.2",
+  "unitNumber": 3,
+  "slug": "unit-03-quality-of-life",
+  "title": "Quality of Life",
+  "titleFr": "La qualité de vie",
+  "cefrDescriptors": [
+    "Can compare places and say what matters most about where one lives.",
+    "Can use the superlative and the mise en relief (ce qui / ce que… c'est)."
+  ],
+  "skills": ["reading", "listening", "writing", "speaking"],
+  "estimatedMinutes": 50,
+  "concept": "This unit is about quality of life — comparing places and saying what matters — with two tools: the superlative and mise en relief.\n\nThe superlative picks out the #1 (the most / the least):\n  le / la / les + plus (or moins) + adjective:\n    la plus grande ville (the biggest city), le quartier le moins cher (the least expensive area).\n  Adjectives that normally follow the noun keep their place and repeat the article: « la ville la plus agréable ».\n  One irregular: bon → le meilleur (the best), never « le plus bon ». And « de » = \"in\": la plus grande ville DE France.\n\nMise en relief (\"highlighting\") spotlights what matters, with ce qui / ce que … c'est:\n  • ce qui = the thing that (SUBJECT): Ce qui est important, c'est la sécurité.\n  • ce que = the thing that (OBJECT): Ce que j'aime, c'est le calme.\nThe pattern is: Ce qui/que … , c'est + [your point].\n\nThe theme vocabulary: la qualité de vie, la sécurité (safety), les transports, le coût (cost), un avantage (an advantage), and the adjectives agréable (pleasant), pratique (convenient), animé (lively), tranquille (quiet).\n\nPut it together: « Ce que j'aime dans ma ville, c'est la qualité de vie. Les transports sont pratiques et c'est le quartier le plus tranquille de la ville. »\n\nWrite two sentences about your town: one with a superlative, one with ce qui / ce que … c'est.",
+  "vocabulary": [
+    { "id": "qualite-de-vie", "fr": "la qualité de vie", "en": "quality of life", "pos": "noun", "exampleFr": "La qualité de vie est bonne ici.", "exampleEn": "The quality of life is good here.", "audio": "audio/a2.2/unit-03-quality-of-life/vocab-qualite-de-vie.mp3", "voice": "denise" },
+    { "id": "securite", "fr": "la sécurité", "en": "safety / security", "pos": "noun", "exampleFr": "La sécurité est importante.", "exampleEn": "Safety is important.", "audio": "audio/a2.2/unit-03-quality-of-life/vocab-securite.mp3", "voice": "henri" },
+    { "id": "transports", "fr": "les transports", "en": "(public) transport", "pos": "noun", "exampleFr": "Les transports sont pratiques.", "exampleEn": "The transport is convenient.", "audio": "audio/a2.2/unit-03-quality-of-life/vocab-transports.mp3", "voice": "denise" },
+    { "id": "cout", "fr": "le coût", "en": "cost", "pos": "noun", "exampleFr": "Le coût de la vie est élevé.", "exampleEn": "The cost of living is high.", "audio": "audio/a2.2/unit-03-quality-of-life/vocab-cout.mp3", "voice": "henri" },
+    { "id": "agreable", "fr": "agréable", "en": "pleasant", "pos": "adjective", "exampleFr": "C'est un quartier agréable.", "exampleEn": "It's a pleasant area.", "audio": "audio/a2.2/unit-03-quality-of-life/vocab-agreable.mp3", "voice": "denise" },
+    { "id": "pratique", "fr": "pratique", "en": "practical / convenient", "pos": "adjective", "exampleFr": "C'est très pratique.", "exampleEn": "It's very convenient.", "audio": "audio/a2.2/unit-03-quality-of-life/vocab-pratique.mp3", "voice": "henri" },
+    { "id": "anime", "fr": "animé", "en": "lively (f. animée)", "pos": "adjective", "exampleFr": "Le centre est animé.", "exampleEn": "The centre is lively.", "audio": "audio/a2.2/unit-03-quality-of-life/vocab-anime.mp3", "voice": "denise" },
+    { "id": "tranquille", "fr": "tranquille", "en": "quiet / peaceful", "pos": "adjective", "exampleFr": "C'est un endroit tranquille.", "exampleEn": "It's a peaceful place.", "audio": "audio/a2.2/unit-03-quality-of-life/vocab-tranquille.mp3", "voice": "henri" },
+    { "id": "avantage", "fr": "un avantage", "en": "an advantage", "pos": "noun", "exampleFr": "C'est un grand avantage.", "exampleEn": "It's a big advantage.", "audio": "audio/a2.2/unit-03-quality-of-life/vocab-avantage.mp3", "voice": "denise" },
+    { "id": "le-plus", "fr": "le plus / le moins", "en": "the most / the least", "pos": "phrase", "exampleFr": "C'est le quartier le plus calme.", "exampleEn": "It's the quietest area.", "audio": "audio/a2.2/unit-03-quality-of-life/vocab-le-plus.mp3", "voice": "henri" },
+    { "id": "le-meilleur", "fr": "le meilleur", "en": "the best (irregular of bon)", "pos": "phrase", "exampleFr": "C'est le meilleur quartier.", "exampleEn": "It's the best area.", "audio": "audio/a2.2/unit-03-quality-of-life/vocab-le-meilleur.mp3", "voice": "denise" },
+    { "id": "ce-qui-ce-que", "fr": "ce qui / ce que", "en": "what (the thing that)", "pos": "phrase", "exampleFr": "Ce qui compte, c'est la famille.", "exampleEn": "What matters is family.", "audio": "audio/a2.2/unit-03-quality-of-life/vocab-ce-qui-ce-que.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "Paris est la plus grande ville de France.", "en": "Paris is the biggest city in France.", "audio": "audio/a2.2/unit-03-quality-of-life/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "C'est la ville la plus agréable.", "en": "It's the most pleasant city.", "audio": "audio/a2.2/unit-03-quality-of-life/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "Ce qui est important, c'est la sécurité.", "en": "What's important is safety.", "audio": "audio/a2.2/unit-03-quality-of-life/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "Ce que j'aime, c'est le calme.", "en": "What I like is the calm.", "audio": "audio/a2.2/unit-03-quality-of-life/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "Ici, la qualité de vie est meilleure.", "en": "Here, the quality of life is better.", "audio": "audio/a2.2/unit-03-quality-of-life/example-ex-5.mp3", "voice": "denise" }
+  ]
+}
