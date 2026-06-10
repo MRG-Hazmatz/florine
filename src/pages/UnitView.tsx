@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
 import { getUnit, getAdjacentUnits } from "../lib/content/load";
 import ReviewBadge from "../components/ReviewBadge";
+import ConceptText from "../components/ConceptText";
 import AudioButton from "../components/AudioButton";
 import GuideStranger from "../components/GuideStranger";
 import { useProgress } from "../lib/storage/progress";
@@ -52,7 +53,7 @@ export default function UnitView() {
 
       <section className="space-y-2">
         <h2 className="text-xl font-semibold">Concept</h2>
-        <p className="max-w-prose whitespace-pre-line text-ink/80">{lesson.concept}</p>
+        <ConceptText text={lesson.concept} />
       </section>
 
       <section className="space-y-2">
