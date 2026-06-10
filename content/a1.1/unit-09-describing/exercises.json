@@ -232,6 +232,31 @@
       "explanation": "Before an article + noun (un ami), French uses « C'est », not « Il est »."
     },
     {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/a1.1/unit-09-describing/example-ex-1.mp3",
+      "transcript": "Elle est grande et sympa.",
+      "options": [
+        {
+          "id": "a",
+          "text": "She is tall and friendly."
+        },
+        {
+          "id": "b",
+          "text": "He is short and shy."
+        },
+        {
+          "id": "c",
+          "text": "Marie is very intelligent."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
       "id": "ex-mc-pool-1",
       "type": "multiple-choice",
       "skill": "reading",
@@ -256,28 +281,21 @@
       "explanation": "grand = tall / big."
     },
     {
-      "id": "ex-mc-pool-2",
-      "type": "multiple-choice",
-      "skill": "reading",
-      "prompt": "Which French word means « small / short »?",
-      "options": [
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "Il est {{b1}}.",
+      "blanks": [
         {
-          "id": "a",
-          "text": "petit"
-        },
-        {
-          "id": "b",
-          "text": "grand"
-        },
-        {
-          "id": "c",
-          "text": "jeune"
+          "id": "b1",
+          "accept": [
+            "grand"
+          ]
         }
       ],
-      "correct": [
-        "a"
-      ],
-      "explanation": "« small / short » = petit."
+      "explanation": "« Il est grand. » — tall / big."
     },
     {
       "id": "ex-mp-pool-1",

@@ -226,6 +226,31 @@
       "explanation": "en replaces de/des + noun: « j'en ai » = I have some."
     },
     {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/a1.2/unit-07-quantities/example-ex-1.mp3",
+      "transcript": "Je voudrais un kilo de pommes.",
+      "options": [
+        {
+          "id": "a",
+          "text": "I'd like a kilo of apples."
+        },
+        {
+          "id": "b",
+          "text": "There's a lot of fruit at the market."
+        },
+        {
+          "id": "c",
+          "text": "I drink a little coffee."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
       "id": "ex-mc-pool-1",
       "type": "multiple-choice",
       "skill": "reading",
@@ -250,28 +275,21 @@
       "explanation": "les courses = the shopping."
     },
     {
-      "id": "ex-mc-pool-2",
-      "type": "multiple-choice",
-      "skill": "reading",
-      "prompt": "Which French word means « market »?",
-      "options": [
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "Je fais les {{b1}}.",
+      "blanks": [
         {
-          "id": "a",
-          "text": "le marché"
-        },
-        {
-          "id": "b",
-          "text": "les courses"
-        },
-        {
-          "id": "c",
-          "text": "la pomme"
+          "id": "b1",
+          "accept": [
+            "courses"
+          ]
         }
       ],
-      "correct": [
-        "a"
-      ],
-      "explanation": "« market » = le marché."
+      "explanation": "« Je fais les courses. » — the shopping."
     },
     {
       "id": "ex-mp-pool-1",

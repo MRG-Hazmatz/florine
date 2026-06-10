@@ -240,6 +240,31 @@
       "explanation": "Before the verb (compte) → subject → Ce qui."
     },
     {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/b1.1/unit-01-image/example-ex-1.mp3",
+      "transcript": "La première impression, c'est ce qui compte le plus.",
+      "options": [
+        {
+          "id": "a",
+          "text": "The first impression is what counts most."
+        },
+        {
+          "id": "b",
+          "text": "It's a person whose appearance is neat."
+        },
+        {
+          "id": "c",
+          "text": "What I appreciate is his self-confidence."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
       "id": "ex-mc-pool-1",
       "type": "multiple-choice",
       "skill": "reading",
@@ -264,28 +289,21 @@
       "explanation": "l'image = image."
     },
     {
-      "id": "ex-mc-pool-2",
-      "type": "multiple-choice",
-      "skill": "reading",
-      "prompt": "Which French word means « appearance »?",
-      "options": [
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "Il a une {{b1}} élégante.",
+      "blanks": [
         {
-          "id": "a",
-          "text": "l'apparence"
-        },
-        {
-          "id": "b",
-          "text": "l'image"
-        },
-        {
-          "id": "c",
-          "text": "une tenue"
+          "id": "b1",
+          "accept": [
+            "tenue"
+          ]
         }
       ],
-      "correct": [
-        "a"
-      ],
-      "explanation": "« appearance » = l'apparence."
+      "explanation": "« Il a une tenue élégante. » — an outfit."
     },
     {
       "id": "ex-mp-pool-1",
@@ -313,6 +331,51 @@
           "left": "la première impression",
           "right": "first impression"
         }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “It's a person whose appearance is neat.”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "C'est"
+        },
+        {
+          "id": "t2",
+          "text": "une"
+        },
+        {
+          "id": "t3",
+          "text": "personne"
+        },
+        {
+          "id": "t4",
+          "text": "dont"
+        },
+        {
+          "id": "t5",
+          "text": "l'apparence"
+        },
+        {
+          "id": "t6",
+          "text": "est"
+        },
+        {
+          "id": "t7",
+          "text": "soignée"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7"
       ]
     },
     {

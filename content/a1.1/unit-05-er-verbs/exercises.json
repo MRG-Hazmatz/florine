@@ -232,6 +232,31 @@
       "explanation": "vous + -er verb takes -ez: vous parlez."
     },
     {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/a1.1/unit-05-er-verbs/example-ex-1.mp3",
+      "transcript": "J'aime la musique.",
+      "options": [
+        {
+          "id": "a",
+          "text": "I like music."
+        },
+        {
+          "id": "b",
+          "text": "Do you speak French?"
+        },
+        {
+          "id": "c",
+          "text": "We live in Paris."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
       "id": "ex-mc-pool-1",
       "type": "multiple-choice",
       "skill": "reading",
@@ -256,28 +281,21 @@
       "explanation": "parler = to speak."
     },
     {
-      "id": "ex-mc-pool-2",
-      "type": "multiple-choice",
-      "skill": "reading",
-      "prompt": "Which French word means « to live »?",
-      "options": [
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "J'aime la {{b1}}.",
+      "blanks": [
         {
-          "id": "a",
-          "text": "habiter"
-        },
-        {
-          "id": "b",
-          "text": "parler"
-        },
-        {
-          "id": "c",
-          "text": "aimer"
+          "id": "b1",
+          "accept": [
+            "musique"
+          ]
         }
       ],
-      "correct": [
-        "a"
-      ],
-      "explanation": "« to live » = habiter."
+      "explanation": "« J'aime la musique. » — music."
     },
     {
       "id": "ex-mp-pool-1",

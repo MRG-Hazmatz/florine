@@ -226,6 +226,31 @@
       "explanation": "Plural object → les: « je les adore »."
     },
     {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/a1.2/unit-06-shopping/example-ex-1.mp3",
+      "transcript": "J'aime cette robe. Je la prends.",
+      "options": [
+        {
+          "id": "a",
+          "text": "I like this dress. I'll take it."
+        },
+        {
+          "id": "b",
+          "text": "You're wearing a nice coat."
+        },
+        {
+          "id": "c",
+          "text": "These shoes? I'll buy them."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
       "id": "ex-mc-pool-1",
       "type": "multiple-choice",
       "skill": "reading",
@@ -250,28 +275,21 @@
       "explanation": "le vêtement = garment / item of clothing."
     },
     {
-      "id": "ex-mc-pool-2",
-      "type": "multiple-choice",
-      "skill": "reading",
-      "prompt": "Which French word means « dress »?",
-      "options": [
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "J'aime cette {{b1}}.",
+      "blanks": [
         {
-          "id": "a",
-          "text": "la robe"
-        },
-        {
-          "id": "b",
-          "text": "le vêtement"
-        },
-        {
-          "id": "c",
-          "text": "le pantalon"
+          "id": "b1",
+          "accept": [
+            "robe"
+          ]
         }
       ],
-      "correct": [
-        "a"
-      ],
-      "explanation": "« dress » = la robe."
+      "explanation": "« J'aime cette robe. » — dress."
     },
     {
       "id": "ex-mp-pool-1",

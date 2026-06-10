@@ -282,6 +282,31 @@
       "explanation": "présent (est) → imparfait (était) when the report is in the past."
     },
     {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/b1.1/unit-04-reported-past/example-ex-1.mp3",
+      "transcript": "Il a dit qu'il venait.",
+      "options": [
+        {
+          "id": "a",
+          "text": "He said he was coming."
+        },
+        {
+          "id": "b",
+          "text": "She said she had finished."
+        },
+        {
+          "id": "c",
+          "text": "He promised he would come."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
       "id": "ex-mc-pool-1",
       "type": "multiple-choice",
       "skill": "reading",
@@ -306,28 +331,21 @@
       "explanation": "rapporter = to report / relay."
     },
     {
-      "id": "ex-mc-pool-2",
-      "type": "multiple-choice",
-      "skill": "reading",
-      "prompt": "Which French word means « to claim / assert »?",
-      "options": [
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "J'envoie une {{b1}}.",
+      "blanks": [
         {
-          "id": "a",
-          "text": "affirmer"
-        },
-        {
-          "id": "b",
-          "text": "rapporter"
-        },
-        {
-          "id": "c",
-          "text": "ajouter"
+          "id": "b1",
+          "accept": [
+            "réclamation"
+          ]
         }
       ],
-      "correct": [
-        "a"
-      ],
-      "explanation": "« to claim / assert » = affirmer."
+      "explanation": "« J'envoie une réclamation. » — a complaint."
     },
     {
       "id": "ex-mp-pool-1",

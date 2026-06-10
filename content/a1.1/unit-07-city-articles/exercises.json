@@ -235,6 +235,31 @@
       "explanation": "devant = in front of; derrière = behind."
     },
     {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/a1.1/unit-07-city-articles/example-ex-1.mp3",
+      "transcript": "Dans ma ville, il y a un parc.",
+      "options": [
+        {
+          "id": "a",
+          "text": "In my town, there is a park."
+        },
+        {
+          "id": "b",
+          "text": "The café is next to the station."
+        },
+        {
+          "id": "c",
+          "text": "There are shops in the street."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
       "id": "ex-mc-pool-1",
       "type": "multiple-choice",
       "skill": "reading",
@@ -259,28 +284,21 @@
       "explanation": "la ville = town / city."
     },
     {
-      "id": "ex-mc-pool-2",
-      "type": "multiple-choice",
-      "skill": "reading",
-      "prompt": "Which French word means « there is / there are »?",
-      "options": [
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "J'aime ma {{b1}}.",
+      "blanks": [
         {
-          "id": "a",
-          "text": "il y a"
-        },
-        {
-          "id": "b",
-          "text": "la ville"
-        },
-        {
-          "id": "c",
-          "text": "un parc"
+          "id": "b1",
+          "accept": [
+            "ville"
+          ]
         }
       ],
-      "correct": [
-        "a"
-      ],
-      "explanation": "« there is / there are » = il y a."
+      "explanation": "« J'aime ma ville. » — town / city."
     },
     {
       "id": "ex-mp-pool-1",

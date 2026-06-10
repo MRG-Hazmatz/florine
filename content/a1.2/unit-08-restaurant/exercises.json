@@ -226,6 +226,31 @@
       "explanation": "bon goes before the noun: un bon restaurant."
     },
     {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/a1.2/unit-08-restaurant/example-ex-1.mp3",
+      "transcript": "Je voudrais réserver une table pour deux.",
+      "options": [
+        {
+          "id": "a",
+          "text": "I'd like to book a table for two."
+        },
+        {
+          "id": "b",
+          "text": "The menu, please."
+        },
+        {
+          "id": "c",
+          "text": "I'll order the dish of the day."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
       "id": "ex-mc-pool-1",
       "type": "multiple-choice",
       "skill": "reading",
@@ -250,28 +275,21 @@
       "explanation": "le restaurant = restaurant."
     },
     {
-      "id": "ex-mc-pool-2",
-      "type": "multiple-choice",
-      "skill": "reading",
-      "prompt": "Which French word means « menu »?",
-      "options": [
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "C'est un bon {{b1}}.",
+      "blanks": [
         {
-          "id": "a",
-          "text": "le menu"
-        },
-        {
-          "id": "b",
-          "text": "le restaurant"
-        },
-        {
-          "id": "c",
-          "text": "le plat"
+          "id": "b1",
+          "accept": [
+            "restaurant"
+          ]
         }
       ],
-      "correct": [
-        "a"
-      ],
-      "explanation": "« menu » = le menu."
+      "explanation": "« C'est un bon restaurant. » — restaurant."
     },
     {
       "id": "ex-mp-pool-1",
@@ -305,27 +323,35 @@
       "id": "ex-ro-pool-1",
       "type": "reorder",
       "skill": "writing",
-      "prompt": "Put the words in order: “The menu, please.”",
+      "prompt": "Put the words in order: “I'd like to book a table for two.”",
       "tokens": [
         {
           "id": "t1",
-          "text": "Le"
+          "text": "Je"
         },
         {
           "id": "t2",
-          "text": "menu,"
+          "text": "voudrais"
         },
         {
           "id": "t3",
-          "text": "s'il"
+          "text": "réserver"
         },
         {
           "id": "t4",
-          "text": "vous"
+          "text": "une"
         },
         {
           "id": "t5",
-          "text": "plaît"
+          "text": "table"
+        },
+        {
+          "id": "t6",
+          "text": "pour"
+        },
+        {
+          "id": "t7",
+          "text": "deux"
         }
       ],
       "correctOrder": [
@@ -333,7 +359,9 @@
         "t2",
         "t3",
         "t4",
-        "t5"
+        "t5",
+        "t6",
+        "t7"
       ]
     },
     {

@@ -227,6 +227,31 @@
       "explanation": "il a cinq ans (avoir for age)."
     },
     {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/a1.1/unit-04-age-family/example-ex-1.mp3",
+      "transcript": "J'ai dix ans.",
+      "options": [
+        {
+          "id": "a",
+          "text": "I am ten years old."
+        },
+        {
+          "id": "b",
+          "text": "How old are you?"
+        },
+        {
+          "id": "c",
+          "text": "This is my family."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
       "id": "ex-mc-pool-1",
       "type": "multiple-choice",
       "skill": "reading",
@@ -251,28 +276,21 @@
       "explanation": "avoir = to have."
     },
     {
-      "id": "ex-mc-pool-2",
-      "type": "multiple-choice",
-      "skill": "reading",
-      "prompt": "Which French word means « age »?",
-      "options": [
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "Voici ma {{b1}}.",
+      "blanks": [
         {
-          "id": "a",
-          "text": "l'âge"
-        },
-        {
-          "id": "b",
-          "text": "avoir"
-        },
-        {
-          "id": "c",
-          "text": "un an / ans"
+          "id": "b1",
+          "accept": [
+            "famille"
+          ]
         }
       ],
-      "correct": [
-        "a"
-      ],
-      "explanation": "« age » = l'âge."
+      "explanation": "« Voici ma famille. » — family."
     },
     {
       "id": "ex-mp-pool-1",

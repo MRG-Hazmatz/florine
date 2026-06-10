@@ -264,6 +264,31 @@
       ]
     },
     {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/a2.2/unit-01-country/example-ex-1.mp3",
+      "transcript": "C'est le pays où je suis né.",
+      "options": [
+        {
+          "id": "a",
+          "text": "It's the country where I was born."
+        },
+        {
+          "id": "b",
+          "text": "France is a country whose cuisine is famous."
+        },
+        {
+          "id": "c",
+          "text": "Most of the inhabitants are welcoming."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
       "id": "ex-mc-pool-1",
       "type": "multiple-choice",
       "skill": "reading",
@@ -288,28 +313,21 @@
       "explanation": "le pays = country."
     },
     {
-      "id": "ex-mc-pool-2",
-      "type": "multiple-choice",
-      "skill": "reading",
-      "prompt": "Which French word means « inhabitants / people »?",
-      "options": [
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "La France est un beau {{b1}}.",
+      "blanks": [
         {
-          "id": "a",
-          "text": "les habitants"
-        },
-        {
-          "id": "b",
-          "text": "le pays"
-        },
-        {
-          "id": "c",
-          "text": "la culture"
+          "id": "b1",
+          "accept": [
+            "pays"
+          ]
         }
       ],
-      "correct": [
-        "a"
-      ],
-      "explanation": "« inhabitants / people » = les habitants."
+      "explanation": "« La France est un beau pays. » — country."
     },
     {
       "id": "ex-mp-pool-1",
@@ -343,31 +361,35 @@
       "id": "ex-ro-pool-1",
       "type": "reorder",
       "skill": "writing",
-      "prompt": "Put the words in order: “Most of the inhabitants are welcoming.”",
+      "prompt": "Put the words in order: “It's the country where I was born.”",
       "tokens": [
         {
           "id": "t1",
-          "text": "La"
+          "text": "C'est"
         },
         {
           "id": "t2",
-          "text": "plupart"
+          "text": "le"
         },
         {
           "id": "t3",
-          "text": "des"
+          "text": "pays"
         },
         {
           "id": "t4",
-          "text": "habitants"
+          "text": "où"
         },
         {
           "id": "t5",
-          "text": "sont"
+          "text": "je"
         },
         {
           "id": "t6",
-          "text": "accueillants"
+          "text": "suis"
+        },
+        {
+          "id": "t7",
+          "text": "né"
         }
       ],
       "correctOrder": [
@@ -376,7 +398,8 @@
         "t3",
         "t4",
         "t5",
-        "t6"
+        "t6",
+        "t7"
       ]
     },
     {

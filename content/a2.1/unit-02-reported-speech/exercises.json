@@ -236,6 +236,31 @@
       "explanation": "Statement → que, shortened to qu' before 'elle': elle dit qu'elle est contente."
     },
     {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/a2.1/unit-02-reported-speech/example-ex-1.mp3",
+      "transcript": "Il dit qu'il est fatigué.",
+      "options": [
+        {
+          "id": "a",
+          "text": "He says he's tired."
+        },
+        {
+          "id": "b",
+          "text": "She asks if you're coming."
+        },
+        {
+          "id": "c",
+          "text": "The neighbour asks what I'm doing."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
       "id": "ex-mc-pool-1",
       "type": "multiple-choice",
       "skill": "reading",
@@ -260,28 +285,21 @@
       "explanation": "dire = to say / tell."
     },
     {
-      "id": "ex-mc-pool-2",
-      "type": "multiple-choice",
-      "skill": "reading",
-      "prompt": "Which French word means « to ask »?",
-      "options": [
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "Mon {{b1}} est sympa.",
+      "blanks": [
         {
-          "id": "a",
-          "text": "demander"
-        },
-        {
-          "id": "b",
-          "text": "dire"
-        },
-        {
-          "id": "c",
-          "text": "répondre"
+          "id": "b1",
+          "accept": [
+            "voisin"
+          ]
         }
       ],
-      "correct": [
-        "a"
-      ],
-      "explanation": "« to ask » = demander."
+      "explanation": "« Mon voisin est sympa. » — neighbour."
     },
     {
       "id": "ex-mp-pool-1",

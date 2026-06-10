@@ -242,6 +242,31 @@
       ]
     },
     {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/a1.1/unit-03-introductions/example-ex-1.mp3",
+      "transcript": "Bonjour, je m'appelle Sofia et je suis indienne.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hello, my name is Sofia and I am Indian."
+        },
+        {
+          "id": "b",
+          "text": "Are you French, sir?"
+        },
+        {
+          "id": "c",
+          "text": "She is Canadian and she is a doctor."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
       "id": "ex-mc-pool-1",
       "type": "multiple-choice",
       "skill": "reading",
@@ -266,28 +291,21 @@
       "explanation": "être = to be."
     },
     {
-      "id": "ex-mc-pool-2",
-      "type": "multiple-choice",
-      "skill": "reading",
-      "prompt": "Which French word means « to be called »?",
-      "options": [
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "Quelle est votre {{b1}} ?",
+      "blanks": [
         {
-          "id": "a",
-          "text": "s'appeler"
-        },
-        {
-          "id": "b",
-          "text": "être"
-        },
-        {
-          "id": "c",
-          "text": "comment"
+          "id": "b1",
+          "accept": [
+            "nationalité"
+          ]
         }
       ],
-      "correct": [
-        "a"
-      ],
-      "explanation": "« to be called » = s'appeler."
+      "explanation": "« Quelle est votre nationalité ? » — nationality."
     },
     {
       "id": "ex-mp-pool-1",

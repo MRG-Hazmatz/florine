@@ -259,6 +259,31 @@
       ]
     },
     {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/a2.2/unit-05-press/example-ex-1.mp3",
+      "transcript": "C'est une émission que j'adore.",
+      "options": [
+        {
+          "id": "a",
+          "text": "It's a programme I love."
+        },
+        {
+          "id": "b",
+          "text": "It's this journalist who wrote the article."
+        },
+        {
+          "id": "c",
+          "text": "The headline announces a price increase."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
       "id": "ex-mc-pool-1",
       "type": "multiple-choice",
       "skill": "reading",
@@ -283,28 +308,21 @@
       "explanation": "la presse = the press."
     },
     {
-      "id": "ex-mc-pool-2",
-      "type": "multiple-choice",
-      "skill": "reading",
-      "prompt": "Which French word means « newspaper »?",
-      "options": [
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "Je lis la {{b1}} en ligne.",
+      "blanks": [
         {
-          "id": "a",
-          "text": "le journal"
-        },
-        {
-          "id": "b",
-          "text": "la presse"
-        },
-        {
-          "id": "c",
-          "text": "la chaîne"
+          "id": "b1",
+          "accept": [
+            "presse"
+          ]
         }
       ],
-      "correct": [
-        "a"
-      ],
-      "explanation": "« newspaper » = le journal."
+      "explanation": "« Je lis la presse en ligne. » — the press."
     },
     {
       "id": "ex-mp-pool-1",
@@ -332,6 +350,51 @@
           "left": "une opinion",
           "right": "an opinion"
         }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “It's this journalist who wrote the article.”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "C'est"
+        },
+        {
+          "id": "t2",
+          "text": "ce"
+        },
+        {
+          "id": "t3",
+          "text": "journaliste"
+        },
+        {
+          "id": "t4",
+          "text": "qui"
+        },
+        {
+          "id": "t5",
+          "text": "a"
+        },
+        {
+          "id": "t6",
+          "text": "écrit"
+        },
+        {
+          "id": "t7",
+          "text": "l'article"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7"
       ]
     },
     {

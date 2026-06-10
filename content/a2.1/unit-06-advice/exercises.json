@@ -230,6 +230,31 @@
       "explanation": "avoir in the subjunctive: que tu aies. ('tu as' is the ordinary present.)"
     },
     {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/a2.1/unit-06-advice/example-ex-1.mp3",
+      "transcript": "Il faut que tu sois à l'heure.",
+      "options": [
+        {
+          "id": "a",
+          "text": "You must be on time."
+        },
+        {
+          "id": "b",
+          "text": "You must prepare for the interview."
+        },
+        {
+          "id": "c",
+          "text": "It's important to be polite."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
       "id": "ex-mc-pool-1",
       "type": "multiple-choice",
       "skill": "reading",
@@ -254,28 +279,21 @@
       "explanation": "l'entretien = interview."
     },
     {
-      "id": "ex-mc-pool-2",
-      "type": "multiple-choice",
-      "skill": "reading",
-      "prompt": "Which French word means « piece of advice »?",
-      "options": [
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "Merci pour le {{b1}}.",
+      "blanks": [
         {
-          "id": "a",
-          "text": "le conseil"
-        },
-        {
-          "id": "b",
-          "text": "l'entretien"
-        },
-        {
-          "id": "c",
-          "text": "conseiller"
+          "id": "b1",
+          "accept": [
+            "conseil"
+          ]
         }
       ],
-      "correct": [
-        "a"
-      ],
-      "explanation": "« piece of advice » = le conseil."
+      "explanation": "« Merci pour le conseil. » — piece of advice."
     },
     {
       "id": "ex-mp-pool-1",
@@ -309,7 +327,7 @@
       "id": "ex-ro-pool-1",
       "type": "reorder",
       "skill": "writing",
-      "prompt": "Put the words in order: “It's important to be polite.”",
+      "prompt": "Put the words in order: “You must be on time.”",
       "tokens": [
         {
           "id": "t1",
@@ -317,19 +335,27 @@
         },
         {
           "id": "t2",
-          "text": "est"
+          "text": "faut"
         },
         {
           "id": "t3",
-          "text": "important"
+          "text": "que"
         },
         {
           "id": "t4",
-          "text": "d'être"
+          "text": "tu"
         },
         {
           "id": "t5",
-          "text": "poli"
+          "text": "sois"
+        },
+        {
+          "id": "t6",
+          "text": "à"
+        },
+        {
+          "id": "t7",
+          "text": "l'heure"
         }
       ],
       "correctOrder": [
@@ -337,7 +363,9 @@
         "t2",
         "t3",
         "t4",
-        "t5"
+        "t5",
+        "t6",
+        "t7"
       ]
     },
     {

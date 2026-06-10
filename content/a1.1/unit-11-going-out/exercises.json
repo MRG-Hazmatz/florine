@@ -236,6 +236,31 @@
       "explanation": "tu vas (je vais is the 'I' form)."
     },
     {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/a1.1/unit-11-going-out/example-ex-1.mp3",
+      "transcript": "Je vais aller au cinéma.",
+      "options": [
+        {
+          "id": "a",
+          "text": "I'm going to go to the cinema."
+        },
+        {
+          "id": "b",
+          "text": "Tonight, we're going to eat at the restaurant."
+        },
+        {
+          "id": "c",
+          "text": "Are you going out tomorrow?"
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
       "id": "ex-mc-pool-1",
       "type": "multiple-choice",
       "skill": "reading",
@@ -260,28 +285,21 @@
       "explanation": "aller = to go."
     },
     {
-      "id": "ex-mc-pool-2",
-      "type": "multiple-choice",
-      "skill": "reading",
-      "prompt": "Which French word means « to go out »?",
-      "options": [
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "Tu vas {{b1}} ce soir ?",
+      "blanks": [
         {
-          "id": "a",
-          "text": "sortir"
-        },
-        {
-          "id": "b",
-          "text": "aller"
-        },
-        {
-          "id": "c",
-          "text": "inviter"
+          "id": "b1",
+          "accept": [
+            "sortir"
+          ]
         }
       ],
-      "correct": [
-        "a"
-      ],
-      "explanation": "« to go out » = sortir."
+      "explanation": "« Tu vas sortir ce soir ? » — to go out."
     },
     {
       "id": "ex-mp-pool-1",

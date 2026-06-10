@@ -227,6 +227,31 @@
       "explanation": "tu tournes -> imperative « Tourne ! » (no final -s for -er verbs)."
     },
     {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/a1.1/unit-08-directions/example-ex-1.mp3",
+      "transcript": "Pardon, où est la gare ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Excuse me, where is the station?"
+        },
+        {
+          "id": "b",
+          "text": "Turn left."
+        },
+        {
+          "id": "c",
+          "text": "Keep going straight ahead."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
       "id": "ex-mc-pool-1",
       "type": "multiple-choice",
       "skill": "reading",
@@ -251,28 +276,21 @@
       "explanation": "tourner = to turn."
     },
     {
-      "id": "ex-mc-pool-2",
-      "type": "multiple-choice",
-      "skill": "reading",
-      "prompt": "Which French word means « to continue / keep going »?",
-      "options": [
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "Le {{b1}} est là-bas.",
+      "blanks": [
         {
-          "id": "a",
-          "text": "continuer"
-        },
-        {
-          "id": "b",
-          "text": "tourner"
-        },
-        {
-          "id": "c",
-          "text": "traverser"
+          "id": "b1",
+          "accept": [
+            "pont"
+          ]
         }
       ],
-      "correct": [
-        "a"
-      ],
-      "explanation": "« to continue / keep going » = continuer."
+      "explanation": "« Le pont est là-bas. » — bridge."
     },
     {
       "id": "ex-mp-pool-1",

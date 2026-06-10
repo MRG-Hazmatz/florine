@@ -230,6 +230,31 @@
       "explanation": "Cold + snow → l'hiver (winter)."
     },
     {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/a1.2/unit-03-weather/example-ex-1.mp3",
+      "transcript": "Quel temps fait-il ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "What's the weather like?"
+        },
+        {
+          "id": "b",
+          "text": "It's nice today."
+        },
+        {
+          "id": "c",
+          "text": "In winter, it's cold and it snows."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
       "id": "ex-mc-pool-1",
       "type": "multiple-choice",
       "skill": "reading",
@@ -254,28 +279,21 @@
       "explanation": "le temps = weather."
     },
     {
-      "id": "ex-mc-pool-2",
-      "type": "multiple-choice",
-      "skill": "reading",
-      "prompt": "Which French word means « it's nice / sunny »?",
-      "options": [
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "Quel {{b1}} fait-il ?",
+      "blanks": [
         {
-          "id": "a",
-          "text": "il fait beau"
-        },
-        {
-          "id": "b",
-          "text": "le temps"
-        },
-        {
-          "id": "c",
-          "text": "il fait mauvais"
+          "id": "b1",
+          "accept": [
+            "temps"
+          ]
         }
       ],
-      "correct": [
-        "a"
-      ],
-      "explanation": "« it's nice / sunny » = il fait beau."
+      "explanation": "« Quel temps fait-il ? » — weather."
     },
     {
       "id": "ex-mp-pool-1",

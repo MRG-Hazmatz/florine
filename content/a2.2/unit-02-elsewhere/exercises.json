@@ -254,6 +254,31 @@
       ]
     },
     {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/a2.2/unit-02-elsewhere/example-ex-1.mp3",
+      "transcript": "Je voudrais m'installer à l'étranger.",
+      "options": [
+        {
+          "id": "a",
+          "text": "I'd like to settle abroad."
+        },
+        {
+          "id": "b",
+          "text": "Which city do you prefer: this one or that one?"
+        },
+        {
+          "id": "c",
+          "text": "My flat is small, but Marie's is big."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
       "id": "ex-mc-pool-1",
       "type": "multiple-choice",
       "skill": "reading",
@@ -278,28 +303,21 @@
       "explanation": "s'installer = to settle / move in."
     },
     {
-      "id": "ex-mc-pool-2",
-      "type": "multiple-choice",
-      "skill": "reading",
-      "prompt": "Which French word means « elsewhere »?",
-      "options": [
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "Je veux vivre {{b1}}.",
+      "blanks": [
         {
-          "id": "a",
-          "text": "ailleurs"
-        },
-        {
-          "id": "b",
-          "text": "s'installer"
-        },
-        {
-          "id": "c",
-          "text": "changer"
+          "id": "b1",
+          "accept": [
+            "ailleurs"
+          ]
         }
       ],
-      "correct": [
-        "a"
-      ],
-      "explanation": "« elsewhere » = ailleurs."
+      "explanation": "« Je veux vivre ailleurs. » — elsewhere."
     },
     {
       "id": "ex-mp-pool-1",

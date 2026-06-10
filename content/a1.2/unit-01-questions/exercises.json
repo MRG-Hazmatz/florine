@@ -236,6 +236,31 @@
       "explanation": "Est-ce que makes a yes/no question; qu'est-ce que asks \"what\"."
     },
     {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/a1.2/unit-01-questions/example-ex-1.mp3",
+      "transcript": "Est-ce que tu vas à la fête ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Are you going to the party?"
+        },
+        {
+          "id": "b",
+          "text": "What is it?"
+        },
+        {
+          "id": "c",
+          "text": "Where is the party?"
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
       "id": "ex-mc-pool-1",
       "type": "multiple-choice",
       "skill": "reading",
@@ -260,28 +285,21 @@
       "explanation": "est-ce que = (makes a yes/no question)."
     },
     {
-      "id": "ex-mc-pool-2",
-      "type": "multiple-choice",
-      "skill": "reading",
-      "prompt": "Which French word means « what »?",
-      "options": [
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "C'est {{b1}} ?",
+      "blanks": [
         {
-          "id": "a",
-          "text": "qu'est-ce que"
-        },
-        {
-          "id": "b",
-          "text": "est-ce que"
-        },
-        {
-          "id": "c",
-          "text": "où"
+          "id": "b1",
+          "accept": [
+            "combien"
+          ]
         }
       ],
-      "correct": [
-        "a"
-      ],
-      "explanation": "« what » = qu'est-ce que."
+      "explanation": "« C'est combien ? » — how much / how many."
     },
     {
       "id": "ex-mp-pool-1",
@@ -315,11 +333,11 @@
       "id": "ex-ro-pool-1",
       "type": "reorder",
       "skill": "writing",
-      "prompt": "Put the words in order: “What is it?”",
+      "prompt": "Put the words in order: “Are you going to the party?”",
       "tokens": [
         {
           "id": "t1",
-          "text": "Qu'est-ce"
+          "text": "Est-ce"
         },
         {
           "id": "t2",
@@ -327,13 +345,33 @@
         },
         {
           "id": "t3",
-          "text": "c'est"
+          "text": "tu"
+        },
+        {
+          "id": "t4",
+          "text": "vas"
+        },
+        {
+          "id": "t5",
+          "text": "à"
+        },
+        {
+          "id": "t6",
+          "text": "la"
+        },
+        {
+          "id": "t7",
+          "text": "fête"
         }
       ],
       "correctOrder": [
         "t1",
         "t2",
-        "t3"
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7"
       ]
     },
     {

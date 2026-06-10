@@ -240,6 +240,31 @@
       "explanation": "A one-time event = passé composé: j'ai rencontré."
     },
     {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/a2.1/unit-03-story/example-ex-1.mp3",
+      "transcript": "J'ai rencontré Léa il y a deux ans.",
+      "options": [
+        {
+          "id": "a",
+          "text": "I met Léa two years ago."
+        },
+        {
+          "id": "b",
+          "text": "The weather was nice and I was at the café."
+        },
+        {
+          "id": "c",
+          "text": "When I saw Léa, I smiled right away."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
       "id": "ex-mc-pool-1",
       "type": "multiple-choice",
       "skill": "reading",
@@ -264,28 +289,21 @@
       "explanation": "la rencontre = meeting / encounter."
     },
     {
-      "id": "ex-mc-pool-2",
-      "type": "multiple-choice",
-      "skill": "reading",
-      "prompt": "Which French word means « to meet »?",
-      "options": [
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "C'était une belle {{b1}}.",
+      "blanks": [
         {
-          "id": "a",
-          "text": "rencontrer"
-        },
-        {
-          "id": "b",
-          "text": "la rencontre"
-        },
-        {
-          "id": "c",
-          "text": "le coup de foudre"
+          "id": "b1",
+          "accept": [
+            "rencontre"
+          ]
         }
       ],
-      "correct": [
-        "a"
-      ],
-      "explanation": "« to meet » = rencontrer."
+      "explanation": "« C'était une belle rencontre. » — meeting / encounter."
     },
     {
       "id": "ex-mp-pool-1",
@@ -319,27 +337,35 @@
       "id": "ex-ro-pool-1",
       "type": "reorder",
       "skill": "writing",
-      "prompt": "Put the words in order: “It was love at first sight!”",
+      "prompt": "Put the words in order: “The weather was nice and I was at the café.”",
       "tokens": [
         {
           "id": "t1",
-          "text": "C'était"
+          "text": "Il"
         },
         {
           "id": "t2",
-          "text": "le"
+          "text": "faisait"
         },
         {
           "id": "t3",
-          "text": "coup"
+          "text": "beau"
         },
         {
           "id": "t4",
-          "text": "de"
+          "text": "et"
         },
         {
           "id": "t5",
-          "text": "foudre"
+          "text": "j'étais"
+        },
+        {
+          "id": "t6",
+          "text": "au"
+        },
+        {
+          "id": "t7",
+          "text": "café"
         }
       ],
       "correctOrder": [
@@ -347,7 +373,9 @@
         "t2",
         "t3",
         "t4",
-        "t5"
+        "t5",
+        "t6",
+        "t7"
       ]
     },
     {

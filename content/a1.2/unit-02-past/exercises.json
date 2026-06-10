@@ -226,6 +226,31 @@
       "explanation": "tu as fait (avez is the vous form)."
     },
     {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/a1.2/unit-02-past/example-ex-1.mp3",
+      "transcript": "Hier, j'ai mangé au restaurant.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yesterday, I ate at the restaurant."
+        },
+        {
+          "id": "b",
+          "text": "Did you watch the film?"
+        },
+        {
+          "id": "c",
+          "text": "We visited Paris."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
       "id": "ex-mc-pool-1",
       "type": "multiple-choice",
       "skill": "reading",
@@ -250,28 +275,21 @@
       "explanation": "hier = yesterday."
     },
     {
-      "id": "ex-mc-pool-2",
-      "type": "multiple-choice",
-      "skill": "reading",
-      "prompt": "Which French word means « last weekend »?",
-      "options": [
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "J'ai {{b1}} mangé.",
+      "blanks": [
         {
-          "id": "a",
-          "text": "le week-end dernier"
-        },
-        {
-          "id": "b",
-          "text": "hier"
-        },
-        {
-          "id": "c",
-          "text": "déjà"
+          "id": "b1",
+          "accept": [
+            "déjà"
+          ]
         }
       ],
-      "correct": [
-        "a"
-      ],
-      "explanation": "« last weekend » = le week-end dernier."
+      "explanation": "« J'ai déjà mangé. » — already."
     },
     {
       "id": "ex-mp-pool-1",

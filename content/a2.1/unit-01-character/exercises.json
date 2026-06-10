@@ -236,6 +236,31 @@
       "explanation": "Next word is the subject 'je' → object relative que."
     },
     {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/a2.1/unit-01-character/example-ex-1.mp3",
+      "transcript": "C'est une amie qui m'écoute toujours.",
+      "options": [
+        {
+          "id": "a",
+          "text": "She's a friend who always listens to me."
+        },
+        {
+          "id": "b",
+          "text": "He's a friend I admire a lot."
+        },
+        {
+          "id": "c",
+          "text": "He is generous and very patient."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
       "id": "ex-mc-pool-1",
       "type": "multiple-choice",
       "skill": "reading",
@@ -260,28 +285,21 @@
       "explanation": "le caractère = character / personality."
     },
     {
-      "id": "ex-mc-pool-2",
-      "type": "multiple-choice",
-      "skill": "reading",
-      "prompt": "Which French word means « good quality / strength »?",
-      "options": [
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "Il a bon {{b1}}.",
+      "blanks": [
         {
-          "id": "a",
-          "text": "la qualité"
-        },
-        {
-          "id": "b",
-          "text": "le caractère"
-        },
-        {
-          "id": "c",
-          "text": "le défaut"
+          "id": "b1",
+          "accept": [
+            "caractère"
+          ]
         }
       ],
-      "correct": [
-        "a"
-      ],
-      "explanation": "« good quality / strength » = la qualité."
+      "explanation": "« Il a bon caractère. » — character / personality."
     },
     {
       "id": "ex-mp-pool-1",

@@ -230,6 +230,31 @@
       "explanation": "lent → lente → lentement (the adverb, not the adjective 'lent')."
     },
     {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/a2.1/unit-04-studies/example-ex-1.mp3",
+      "transcript": "J'ai étudié à l'université de Lyon.",
+      "options": [
+        {
+          "id": "a",
+          "text": "I studied at the University of Lyon."
+        },
+        {
+          "id": "b",
+          "text": "I had already finished my studies when I found a job."
+        },
+        {
+          "id": "c",
+          "text": "She got a scholarship for an exchange."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
       "id": "ex-mc-pool-1",
       "type": "multiple-choice",
       "skill": "reading",
@@ -254,28 +279,21 @@
       "explanation": "les études = studies."
     },
     {
-      "id": "ex-mc-pool-2",
-      "type": "multiple-choice",
-      "skill": "reading",
-      "prompt": "Which French word means « university »?",
-      "options": [
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "J'aime mes {{b1}}.",
+      "blanks": [
         {
-          "id": "a",
-          "text": "l'université"
-        },
-        {
-          "id": "b",
-          "text": "les études"
-        },
-        {
-          "id": "c",
-          "text": "la bourse"
+          "id": "b1",
+          "accept": [
+            "études"
+          ]
         }
       ],
-      "correct": [
-        "a"
-      ],
-      "explanation": "« university » = l'université."
+      "explanation": "« J'aime mes études. » — studies."
     },
     {
       "id": "ex-mp-pool-1",

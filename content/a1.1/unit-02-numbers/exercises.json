@@ -226,6 +226,31 @@
       "explanation": "71 = soixante et onze (60 + 11). Note the « et », like vingt-et-un."
     },
     {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/a1.1/unit-02-numbers/example-ex-1.mp3",
+      "transcript": "Un, deux, trois !",
+      "options": [
+        {
+          "id": "a",
+          "text": "One, two, three!"
+        },
+        {
+          "id": "b",
+          "text": "She is seventy-five years old."
+        },
+        {
+          "id": "c",
+          "text": "It costs eighty euros."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
       "id": "ex-mc-pool-1",
       "type": "multiple-choice",
       "skill": "reading",
@@ -250,28 +275,21 @@
       "explanation": "zéro = zero."
     },
     {
-      "id": "ex-mc-pool-2",
-      "type": "multiple-choice",
-      "skill": "reading",
-      "prompt": "Which French word means « one »?",
-      "options": [
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "{{b1}} café",
+      "blanks": [
         {
-          "id": "a",
-          "text": "un"
-        },
-        {
-          "id": "b",
-          "text": "zéro"
-        },
-        {
-          "id": "c",
-          "text": "deux"
+          "id": "b1",
+          "accept": [
+            "un"
+          ]
         }
       ],
-      "correct": [
-        "a"
-      ],
-      "explanation": "« one » = un."
+      "explanation": "« un café » — one."
     },
     {
       "id": "ex-mp-pool-1",

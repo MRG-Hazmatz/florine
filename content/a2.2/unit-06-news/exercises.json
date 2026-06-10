@@ -259,6 +259,31 @@
       ]
     },
     {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/a2.2/unit-06-news/example-ex-1.mp3",
+      "transcript": "Le voleur a été arrêté par la police.",
+      "options": [
+        {
+          "id": "a",
+          "text": "The thief was arrested by the police."
+        },
+        {
+          "id": "b",
+          "text": "The car was stolen yesterday."
+        },
+        {
+          "id": "c",
+          "text": "There was an accident in the street."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
       "id": "ex-mc-pool-1",
       "type": "multiple-choice",
       "skill": "reading",
@@ -283,28 +308,21 @@
       "explanation": "un fait divers = news item / news in brief."
     },
     {
-      "id": "ex-mc-pool-2",
-      "type": "multiple-choice",
-      "skill": "reading",
-      "prompt": "Which French word means « a thief »?",
-      "options": [
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "Le {{b1}} a été arrêté.",
+      "blanks": [
         {
-          "id": "a",
-          "text": "un voleur"
-        },
-        {
-          "id": "b",
-          "text": "un fait divers"
-        },
-        {
-          "id": "c",
-          "text": "voler"
+          "id": "b1",
+          "accept": [
+            "voleur"
+          ]
         }
       ],
-      "correct": [
-        "a"
-      ],
-      "explanation": "« a thief » = un voleur."
+      "explanation": "« Le voleur a été arrêté. » — a thief."
     },
     {
       "id": "ex-mp-pool-1",

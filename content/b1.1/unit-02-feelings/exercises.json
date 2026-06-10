@@ -240,6 +240,31 @@
       ]
     },
     {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/b1.1/unit-02-feelings/example-ex-1.mp3",
+      "transcript": "Je suis content que tu sois là.",
+      "options": [
+        {
+          "id": "a",
+          "text": "I'm glad you're here."
+        },
+        {
+          "id": "b",
+          "text": "I'm glad to see you."
+        },
+        {
+          "id": "c",
+          "text": "I'm sad that you left."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
       "id": "ex-mc-pool-1",
       "type": "multiple-choice",
       "skill": "reading",
@@ -264,28 +289,21 @@
       "explanation": "content = happy / glad."
     },
     {
-      "id": "ex-mc-pool-2",
-      "type": "multiple-choice",
-      "skill": "reading",
-      "prompt": "Which French word means « sad »?",
-      "options": [
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "Je suis {{b1}} de te voir.",
+      "blanks": [
         {
-          "id": "a",
-          "text": "triste"
-        },
-        {
-          "id": "b",
-          "text": "content"
-        },
-        {
-          "id": "c",
-          "text": "déçu"
+          "id": "b1",
+          "accept": [
+            "content"
+          ]
         }
       ],
-      "correct": [
-        "a"
-      ],
-      "explanation": "« sad » = triste."
+      "explanation": "« Je suis content de te voir. » — happy / glad."
     },
     {
       "id": "ex-mp-pool-1",
@@ -319,31 +337,35 @@
       "id": "ex-ro-pool-1",
       "type": "reorder",
       "skill": "writing",
-      "prompt": "Put the words in order: “I'm afraid he won't come.”",
+      "prompt": "Put the words in order: “I'm glad (that) you're here.”",
       "tokens": [
         {
           "id": "t1",
-          "text": "J'ai"
+          "text": "Je"
         },
         {
           "id": "t2",
-          "text": "peur"
+          "text": "suis"
         },
         {
           "id": "t3",
-          "text": "qu'il"
+          "text": "content"
         },
         {
           "id": "t4",
-          "text": "ne"
+          "text": "que"
         },
         {
           "id": "t5",
-          "text": "vienne"
+          "text": "tu"
         },
         {
           "id": "t6",
-          "text": "pas"
+          "text": "sois"
+        },
+        {
+          "id": "t7",
+          "text": "là"
         }
       ],
       "correctOrder": [
@@ -352,7 +374,8 @@
         "t3",
         "t4",
         "t5",
-        "t6"
+        "t6",
+        "t7"
       ]
     },
     {

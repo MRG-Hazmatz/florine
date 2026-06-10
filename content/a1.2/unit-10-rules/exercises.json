@@ -231,6 +231,31 @@
       "explanation": "Il faut + infinitive = you must. 'Il est faire' is not grammatical."
     },
     {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/a1.2/unit-10-rules/example-ex-1.mp3",
+      "transcript": "Il faut payer le loyer.",
+      "options": [
+        {
+          "id": "a",
+          "text": "You have to pay the rent."
+        },
+        {
+          "id": "b",
+          "text": "You mustn't make noise after 10 pm."
+        },
+        {
+          "id": "c",
+          "text": "Smoking is forbidden."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
       "id": "ex-mc-pool-1",
       "type": "multiple-choice",
       "skill": "reading",
@@ -255,28 +280,21 @@
       "explanation": "il faut = you must / it's necessary to."
     },
     {
-      "id": "ex-mc-pool-2",
-      "type": "multiple-choice",
-      "skill": "reading",
-      "prompt": "Which French word means « rent »?",
-      "options": [
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "Le {{b1}} est cher.",
+      "blanks": [
         {
-          "id": "a",
-          "text": "le loyer"
-        },
-        {
-          "id": "b",
-          "text": "il faut"
-        },
-        {
-          "id": "c",
-          "text": "le voisin"
+          "id": "b1",
+          "accept": [
+            "loyer"
+          ]
         }
       ],
-      "correct": [
-        "a"
-      ],
-      "explanation": "« rent » = le loyer."
+      "explanation": "« Le loyer est cher. » — rent."
     },
     {
       "id": "ex-mp-pool-1",

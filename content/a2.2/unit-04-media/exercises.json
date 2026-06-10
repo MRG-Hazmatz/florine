@@ -254,6 +254,31 @@
       ]
     },
     {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/a2.2/unit-04-media/example-ex-1.mp3",
+      "transcript": "Si on regardait un film ce soir ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "How about watching a film tonight?"
+        },
+        {
+          "id": "b",
+          "text": "I posted a comment on the blog."
+        },
+        {
+          "id": "c",
+          "text": "There's someone on the forum."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
       "id": "ex-mc-pool-1",
       "type": "multiple-choice",
       "skill": "reading",
@@ -278,28 +303,21 @@
       "explanation": "un blog = a blog."
     },
     {
-      "id": "ex-mc-pool-2",
-      "type": "multiple-choice",
-      "skill": "reading",
-      "prompt": "Which French word means « an article »?",
-      "options": [
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "Je lis un {{b1}} de voyage.",
+      "blanks": [
         {
-          "id": "a",
-          "text": "un article"
-        },
-        {
-          "id": "b",
-          "text": "un blog"
-        },
-        {
-          "id": "c",
-          "text": "internet"
+          "id": "b1",
+          "accept": [
+            "blog"
+          ]
         }
       ],
-      "correct": [
-        "a"
-      ],
-      "explanation": "« an article » = un article."
+      "explanation": "« Je lis un blog de voyage. » — a blog."
     },
     {
       "id": "ex-mp-pool-1",
@@ -333,27 +351,35 @@
       "id": "ex-ro-pool-1",
       "type": "reorder",
       "skill": "writing",
-      "prompt": "Put the words in order: “I don't see anything interesting.”",
+      "prompt": "Put the words in order: “How about watching a film tonight?”",
       "tokens": [
         {
           "id": "t1",
-          "text": "Je"
+          "text": "Si"
         },
         {
           "id": "t2",
-          "text": "ne"
+          "text": "on"
         },
         {
           "id": "t3",
-          "text": "vois"
+          "text": "regardait"
         },
         {
           "id": "t4",
-          "text": "rien"
+          "text": "un"
         },
         {
           "id": "t5",
-          "text": "d'intéressant"
+          "text": "film"
+        },
+        {
+          "id": "t6",
+          "text": "ce"
+        },
+        {
+          "id": "t7",
+          "text": "soir"
         }
       ],
       "correctOrder": [
@@ -361,7 +387,9 @@
         "t2",
         "t3",
         "t4",
-        "t5"
+        "t5",
+        "t6",
+        "t7"
       ]
     },
     {

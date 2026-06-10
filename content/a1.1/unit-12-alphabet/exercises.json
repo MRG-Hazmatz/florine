@@ -233,6 +233,31 @@
       "explanation": "adresse is feminine → Quelle."
     },
     {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/a1.1/unit-12-alphabet/example-ex-1.mp3",
+      "transcript": "Comment ça s'écrit ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "How is it spelled?"
+        },
+        {
+          "id": "b",
+          "text": "What is your first name?"
+        },
+        {
+          "id": "c",
+          "text": "É is an e with an acute accent."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
       "id": "ex-mc-pool-1",
       "type": "multiple-choice",
       "skill": "reading",
@@ -257,28 +282,21 @@
       "explanation": "l'alphabet = the alphabet."
     },
     {
-      "id": "ex-mc-pool-2",
-      "type": "multiple-choice",
-      "skill": "reading",
-      "prompt": "Which French word means « to spell »?",
-      "options": [
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "Pouvez-vous {{b1}} ?",
+      "blanks": [
         {
-          "id": "a",
-          "text": "épeler"
-        },
-        {
-          "id": "b",
-          "text": "l'alphabet"
-        },
-        {
-          "id": "c",
-          "text": "comment ça s'écrit ?"
+          "id": "b1",
+          "accept": [
+            "épeler"
+          ]
         }
       ],
-      "correct": [
-        "a"
-      ],
-      "explanation": "« to spell » = épeler."
+      "explanation": "« Pouvez-vous épeler ? » — to spell."
     },
     {
       "id": "ex-mp-pool-1",

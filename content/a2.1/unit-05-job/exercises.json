@@ -230,6 +230,31 @@
       "explanation": "A point in time → il y a un mois (a month ago)."
     },
     {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/a2.1/unit-05-job/example-ex-1.mp3",
+      "transcript": "Je cherche un emploi.",
+      "options": [
+        {
+          "id": "a",
+          "text": "I'm looking for a job."
+        },
+        {
+          "id": "b",
+          "text": "I saw an interesting ad."
+        },
+        {
+          "id": "c",
+          "text": "I've worked at this company for three years."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
       "id": "ex-mc-pool-1",
       "type": "multiple-choice",
       "skill": "reading",
@@ -254,28 +279,21 @@
       "explanation": "un emploi = a job."
     },
     {
-      "id": "ex-mc-pool-2",
-      "type": "multiple-choice",
-      "skill": "reading",
-      "prompt": "Which French word means « a job ad / advert »?",
-      "options": [
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "Je cherche un {{b1}}.",
+      "blanks": [
         {
-          "id": "a",
-          "text": "une annonce"
-        },
-        {
-          "id": "b",
-          "text": "un emploi"
-        },
-        {
-          "id": "c",
-          "text": "postuler"
+          "id": "b1",
+          "accept": [
+            "emploi"
+          ]
         }
       ],
-      "correct": [
-        "a"
-      ],
-      "explanation": "« a job ad / advert » = une annonce."
+      "explanation": "« Je cherche un emploi. » — a job."
     },
     {
       "id": "ex-mp-pool-1",
