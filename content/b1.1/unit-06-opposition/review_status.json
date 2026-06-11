@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "unitId": "b1.1/unit-06-opposition",
+  "status": "pending_review",
+  "reviewers": [],
+  "approvedAt": null,
+  "sourceRefs": [
+    "DRAFT — built to the unit-03 template (objectif pragmatique + Point Langue grammar + thematic lexicon + DELF-format comprehension), then self-audited before commit. Covers concession (pourtant/cependant/quand même, même si + ind., bien que + subj., malgré + nom, avoir beau + inf.) and opposition (alors que/tandis que, par contre/en revanche, au contraire, contrairement à, au lieu de). Awaiting native-speaker review.",
+    "Progression blueprint: Alter Ego+ 3 (Hachette), Dossier 3 'J'apprends' (exprimer la concession; exprimer l'opposition; thème: grandes écoles vs université, atouts et inconvénients). Content is original; the book is used only for scope/sequence, never copied."
+  ]
+}

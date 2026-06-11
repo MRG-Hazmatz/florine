@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "b1.1/unit-06-opposition",
+  "level": "b1.1",
+  "unitNumber": 6,
+  "slug": "unit-06-opposition",
+  "title": "Opposition & Concession",
+  "titleFr": "Exprimer l'opposition et la concession",
+  "cefrDescriptors": [
+    "Can weigh advantages and drawbacks, conceding a point before contradicting it.",
+    "Can contrast two facts with the appropriate connector and verb form (indicative, subjunctive, infinitive, noun)."
+  ],
+  "skills": ["reading", "listening", "writing", "speaking"],
+  "estimatedMinutes": 55,
+  "concept": "The other half of Dossier 3 is a debate: grandes écoles or university? Weighing les atouts (the assets) against les inconvénients (the drawbacks) is the heart of B1 argument — and it runs on two families of connectors.\n\nLA CONCESSION — you admit a fact, then show it did NOT produce the expected result. \"The training is excellent… and yet it's expensive.\" Each connector demands its own structure:\n  • adverbs: pourtant, cependant, quand même → La formation est excellente, pourtant elle coûte cher. · Elle était malade, elle est quand même venue.\n  • même si + INDICATIF: Même si c'est difficile, je continue.\n  • bien que + SUBJONCTIF: Bien que je sois fatigué, je continue.\n  • malgré / en dépit de + NOM: Malgré la pluie, le match a eu lieu.\n  • avoir beau + INFINITIF: J'ai beau expliquer, il ne comprend rien. (I explain in vain…)\n\nThree traps to burn in now:\n  ✗ malgré que — malgré takes a NOUN, never a clause\n  ✗ bien que + indicatif — bien que ALWAYS takes the subjunctive\n  ✓ quand même sits AFTER the verb: elle est quand même venue\n\nL'OPPOSITION — no expectation is broken; you simply contrast two facts side by side. \"He likes maths, whereas his sister prefers literature.\":\n  • alors que / tandis que + INDICATIF: Il aime les maths, alors que sa sœur préfère les lettres.\n  • par contre (spoken) / en revanche (written): La fac est moins chère ; en revanche, les professeurs sont moins disponibles.\n  • au contraire · contrairement à + NOM: Contrairement à son frère, elle adore la fac.\n  • au lieu de + INFINITIF: Au lieu de te plaindre, cherche une solution.\n\nHow to tell them apart: concession = \"surprising — the opposite of what you'd expect\" (malade → pourtant venue). Opposition = \"different — two things contrasted\" (lui les maths, elle les lettres). DELF writing tasks reward using both.\n\nYour turn: write two sentences about your own studies — one concession (bien que… or malgré…) and one opposition (alors que…).",
+  "vocabulary": [
+    { "id": "atout", "fr": "un atout", "en": "an asset / advantage", "pos": "noun", "exampleFr": "Parler anglais est un atout.", "exampleEn": "Speaking English is an asset.", "audio": "audio/b1.1/unit-06-opposition/vocab-atout.mp3", "voice": "denise" },
+    { "id": "inconvenient", "fr": "un inconvénient", "en": "a drawback / disadvantage", "pos": "noun", "exampleFr": "Chaque choix a des inconvénients.", "exampleEn": "Every choice has drawbacks.", "audio": "audio/b1.1/unit-06-opposition/vocab-inconvenient.mp3", "voice": "henri" },
+    { "id": "pourtant", "fr": "pourtant", "en": "yet / and yet", "pos": "adverb", "exampleFr": "C'est simple, pourtant il échoue.", "exampleEn": "It's simple, and yet he fails.", "audio": "audio/b1.1/unit-06-opposition/vocab-pourtant.mp3", "voice": "denise" },
+    { "id": "cependant", "fr": "cependant", "en": "however", "pos": "adverb", "exampleFr": "Le projet est cher ; cependant, il continue.", "exampleEn": "The project is expensive; however, it continues.", "audio": "audio/b1.1/unit-06-opposition/vocab-cependant.mp3", "voice": "henri" },
+    { "id": "quand-meme", "fr": "quand même", "en": "all the same / anyway", "pos": "adverb", "exampleFr": "Il pleut, je sors quand même.", "exampleEn": "It's raining, I'm going out anyway.", "audio": "audio/b1.1/unit-06-opposition/vocab-quand-meme.mp3", "voice": "denise" },
+    { "id": "meme-si", "fr": "même si", "en": "even if / even though (+ indicative)", "pos": "conjunction", "exampleFr": "Même si c'est dur, j'y vais.", "exampleEn": "Even if it's hard, I'm going.", "audio": "audio/b1.1/unit-06-opposition/vocab-meme-si.mp3", "voice": "henri" },
+    { "id": "bien-que", "fr": "bien que", "en": "although (+ subjunctive)", "pos": "conjunction", "exampleFr": "Bien qu'il soit jeune, il réussit.", "exampleEn": "Although he is young, he succeeds.", "audio": "audio/b1.1/unit-06-opposition/vocab-bien-que.mp3", "voice": "denise" },
+    { "id": "malgre", "fr": "malgré", "en": "despite (+ noun)", "pos": "preposition", "exampleFr": "Malgré la pluie, on joue.", "exampleEn": "Despite the rain, we play.", "audio": "audio/b1.1/unit-06-opposition/vocab-malgre.mp3", "voice": "henri" },
+    { "id": "avoir-beau", "fr": "avoir beau", "en": "to do in vain (+ infinitive)", "pos": "verb", "exampleFr": "J'ai beau crier, personne ne vient.", "exampleEn": "However much I shout, nobody comes.", "audio": "audio/b1.1/unit-06-opposition/vocab-avoir-beau.mp3", "voice": "denise" },
+    { "id": "alors-que", "fr": "alors que", "en": "whereas / while", "pos": "conjunction", "exampleFr": "Il travaille, alors qu'elle se repose.", "exampleEn": "He works, whereas she rests.", "audio": "audio/b1.1/unit-06-opposition/vocab-alors-que.mp3", "voice": "henri" },
+    { "id": "en-revanche", "fr": "en revanche", "en": "on the other hand", "pos": "adverb", "exampleFr": "C'est cher ; en revanche, c'est solide.", "exampleEn": "It's expensive; on the other hand, it's sturdy.", "audio": "audio/b1.1/unit-06-opposition/vocab-en-revanche.mp3", "voice": "denise" },
+    { "id": "au-contraire", "fr": "au contraire", "en": "on the contrary", "pos": "adverb", "exampleFr": "Il n'est pas timide, au contraire !", "exampleEn": "He isn't shy — on the contrary!", "audio": "audio/b1.1/unit-06-opposition/vocab-au-contraire.mp3", "voice": "henri" },
+    { "id": "au-lieu-de", "fr": "au lieu de", "en": "instead of (+ infinitive)", "pos": "preposition", "exampleFr": "Au lieu de parler, écoute.", "exampleEn": "Instead of talking, listen.", "audio": "audio/b1.1/unit-06-opposition/vocab-au-lieu-de.mp3", "voice": "denise" },
+    { "id": "contrairement-a", "fr": "contrairement à", "en": "contrary to / unlike", "pos": "preposition", "exampleFr": "Contrairement à toi, j'aime l'hiver.", "exampleEn": "Unlike you, I love winter.", "audio": "audio/b1.1/unit-06-opposition/vocab-contrairement-a.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "La formation est excellente, pourtant elle coûte cher.", "en": "The training is excellent, and yet it's expensive.", "audio": "audio/b1.1/unit-06-opposition/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "Bien que je sois fatigué, je continue mes études.", "en": "Although I'm tired, I'm continuing my studies.", "audio": "audio/b1.1/unit-06-opposition/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "Malgré la pluie, elle est quand même venue.", "en": "Despite the rain, she came all the same.", "audio": "audio/b1.1/unit-06-opposition/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "J'ai beau expliquer, il ne comprend rien.", "en": "However much I explain, he understands nothing.", "audio": "audio/b1.1/unit-06-opposition/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "Il aime les maths, alors que sa sœur préfère les lettres.", "en": "He likes maths, whereas his sister prefers literature.", "audio": "audio/b1.1/unit-06-opposition/example-ex-5.mp3", "voice": "denise" },
+    { "id": "ex-6", "fr": "Au lieu de te plaindre, cherche une solution.", "en": "Instead of complaining, look for a solution.", "audio": "audio/b1.1/unit-06-opposition/example-ex-6.mp3", "voice": "henri" }
+  ]
+}

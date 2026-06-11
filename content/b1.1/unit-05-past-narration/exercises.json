@@ -1,0 +1,466 @@
+{
+  "schemaVersion": 1,
+  "unitId": "b1.1/unit-05-past-narration",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Which tense expresses a fact that happened BEFORE another past fact?",
+      "options": [
+        {
+          "id": "a",
+          "text": "le plus-que-parfait"
+        },
+        {
+          "id": "b",
+          "text": "le passé composé"
+        },
+        {
+          "id": "c",
+          "text": "l'imparfait"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "The plus-que-parfait is the 'past before the past': avoir/être à l'imparfait + participe passé."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Complete: « Quand je suis arrivé, le cours ___. »",
+      "options": [
+        {
+          "id": "a",
+          "text": "avait déjà commencé"
+        },
+        {
+          "id": "b",
+          "text": "a déjà commencé"
+        },
+        {
+          "id": "c",
+          "text": "commençait déjà"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "The class started BEFORE I arrived → the earlier of two past events takes the plus-que-parfait."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Choose the right past tense.",
+      "inputMode": "dropdown",
+      "template": "Elle a réussi le concours qu'elle {{b1}} pendant un an.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "avait préparé"
+          ],
+          "options": [
+            "avait préparé",
+            "a préparé",
+            "préparait"
+          ]
+        }
+      ],
+      "explanation": "The preparing happened before the passing → plus-que-parfait: qu'elle avait préparé."
+    },
+    {
+      "id": "ex-mc-3",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Two women are speaking. Complete: « Nous nous sommes ___ en licence d'histoire. »",
+      "options": [
+        {
+          "id": "a",
+          "text": "inscrites"
+        },
+        {
+          "id": "b",
+          "text": "inscrit"
+        },
+        {
+          "id": "c",
+          "text": "inscrits"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "S'inscrire is pronominal → the participle agrees with the subject: nous (two women) → inscrites."
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Agreement or not? Complete the sentence.",
+      "inputMode": "dropdown",
+      "template": "Elles se sont {{b1}} deux fois.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "téléphoné"
+          ],
+          "options": [
+            "téléphoné",
+            "téléphonées"
+          ]
+        }
+      ],
+      "explanation": "Téléphoner À quelqu'un: the reflexive pronoun is an INDIRECT object → no agreement: elles se sont téléphoné."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each study word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "une filière",
+          "right": "a track / field of study"
+        },
+        {
+          "id": "p2",
+          "left": "une bourse",
+          "right": "a grant"
+        },
+        {
+          "id": "p3",
+          "left": "un stage",
+          "right": "an internship"
+        },
+        {
+          "id": "p4",
+          "left": "un concours",
+          "right": "a competitive exam"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"She had already visited this country.\"",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Elle"
+        },
+        {
+          "id": "t2",
+          "text": "avait"
+        },
+        {
+          "id": "t3",
+          "text": "déjà"
+        },
+        {
+          "id": "t4",
+          "text": "visité"
+        },
+        {
+          "id": "t5",
+          "text": "ce"
+        },
+        {
+          "id": "t6",
+          "text": "pays"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then: what happened to him?",
+      "audio": "audio/b1.1/unit-05-past-narration/listen-1.mp3",
+      "transcript": "J'ai raté mon premier concours, mais je me suis inscrit en fac et j'ai réussi ma licence.",
+      "options": [
+        {
+          "id": "a",
+          "text": "He failed an entrance exam, then enrolled at university and passed his bachelor's"
+        },
+        {
+          "id": "b",
+          "text": "He passed the entrance exam on his first try"
+        },
+        {
+          "id": "c",
+          "text": "He gave up his studies after failing"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "« J'ai raté mon premier concours… je me suis inscrit en fac… j'ai réussi ma licence » — failed the exam, enrolled, passed the degree."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read Léa's story and answer both questions.",
+      "passageFr": "Avant de partir en Norvège, Léa avait étudié l'anglais pendant deux ans. Elle s'est inscrite à l'université d'Oslo en 2024. Au début, c'était difficile, mais elle s'est vite débrouillée. Quand elle est rentrée en France, elle avait déjà trouvé un travail.",
+      "passageEn": "Before leaving for Norway, Léa had studied English for two years. She enrolled at the University of Oslo in 2024. At first it was hard, but she quickly got the hang of things. By the time she returned to France, she had already found a job.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "What had Léa done BEFORE leaving for Norway?",
+          "options": [
+            {
+              "id": "a",
+              "text": "She had studied English for two years"
+            },
+            {
+              "id": "b",
+              "text": "She had found a job in Oslo"
+            },
+            {
+              "id": "c",
+              "text": "She had enrolled at a French university"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        },
+        {
+          "id": "q2",
+          "prompt": "When she returned to France…",
+          "options": [
+            {
+              "id": "a",
+              "text": "she had already found a job"
+            },
+            {
+              "id": "b",
+              "text": "she was still looking for a job"
+            },
+            {
+              "id": "c",
+              "text": "the text doesn't say"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex-fb-3",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Background, not event: put « étudier » in the imparfait.",
+      "inputMode": "typed",
+      "template": "À cette époque, j'{{b1}} l'histoire de l'art.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "étudiais"
+          ]
+        }
+      ],
+      "explanation": "À cette époque signals ongoing background → imparfait: j'étudiais."
+    },
+    {
+      "id": "ex-mc-4",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Faux ami! « Demain, je passe un examen. » means:",
+      "options": [
+        {
+          "id": "a",
+          "text": "I'm taking an exam tomorrow"
+        },
+        {
+          "id": "b",
+          "text": "I'm passing an exam tomorrow"
+        },
+        {
+          "id": "c",
+          "text": "I'm skipping an exam tomorrow"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Passer un examen = to TAKE an exam. To pass it is réussir un examen."
+    },
+    {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/b1.1/unit-05-past-narration/example-ex-1.mp3",
+      "transcript": "Quand j'étais enfant, je rêvais de partir à l'étranger.",
+      "options": [
+        {
+          "id": "a",
+          "text": "When I was a child, I dreamed of going abroad."
+        },
+        {
+          "id": "b",
+          "text": "When I arrived, the class had already started."
+        },
+        {
+          "id": "c",
+          "text": "She passed the entrance exam she had prepared for a year."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « le parcours » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "path / journey"
+        },
+        {
+          "id": "b",
+          "text": "a track / field of study"
+        },
+        {
+          "id": "c",
+          "text": "a competitive exam"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "le parcours = path / journey."
+    },
+    {
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "Elle raconte son {{b1}}.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "parcours"
+          ]
+        }
+      ],
+      "explanation": "« Elle raconte son parcours. » — path / journey."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "un stage",
+          "right": "an internship"
+        },
+        {
+          "id": "p2",
+          "left": "la licence",
+          "right": "bachelor's degree"
+        },
+        {
+          "id": "p3",
+          "left": "le master",
+          "right": "master's degree"
+        },
+        {
+          "id": "p4",
+          "left": "s'inscrire",
+          "right": "to enroll / register"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “We (two women) enrolled in a history bachelor's.”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Nous"
+        },
+        {
+          "id": "t2",
+          "text": "nous"
+        },
+        {
+          "id": "t3",
+          "text": "sommes"
+        },
+        {
+          "id": "t4",
+          "text": "inscrites"
+        },
+        {
+          "id": "t5",
+          "text": "en"
+        },
+        {
+          "id": "t6",
+          "text": "licence"
+        },
+        {
+          "id": "t7",
+          "text": "d'histoire"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7"
+      ]
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "Quand j'étais enfant, je rêvais de partir à l'étranger.",
+      "targetEn": "When I was a child, I dreamed of going abroad.",
+      "audio": "audio/b1.1/unit-05-past-narration/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "Elle a réussi le concours qu'elle avait préparé pendant un an.",
+      "targetEn": "She passed the entrance exam she had prepared for a year.",
+      "audio": "audio/b1.1/unit-05-past-narration/example-ex-3.mp3"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "b1.1/unit-05-past-narration",
+  "level": "b1.1",
+  "unitNumber": 5,
+  "slug": "unit-05-past-narration",
+  "title": "Recounting the Past",
+  "titleFr": "Parler du passé",
+  "cefrDescriptors": [
+    "Can narrate a personal journey (studies, experiences) using the three main past tenses correctly.",
+    "Can use the plus-que-parfait to situate one past event before another.",
+    "Can apply past participle agreement, including with pronominal verbs."
+  ],
+  "skills": ["reading", "listening", "writing", "speaking"],
+  "estimatedMinutes": 55,
+  "concept": "Dossier 3 is about learning — and its signature task is telling the story of your parcours (your path: studies, exams, time abroad). A B1 story needs three layers of past, not two.\n\nFirst, the rappel. You already know the pair:\n  • passé composé → a completed event, or a chain of events: J'ai obtenu un master en 2023. J'ai écrit, puis j'ai téléphoné.\n  • imparfait → habit, ongoing background, the scenery around an event: À cette époque, j'étudiais l'histoire. Quand j'étais enfant, je rêvais de voyager.\n\nThe B1 step is the third layer: le plus-que-parfait — the past BEFORE the past. Use it for a fact that happened earlier than another past fact:\n  Formation: avoir or être à l'imparfait + participe passé\n  Quand je suis arrivé, le cours avait déjà commencé. (the class started first)\n  J'ai choisi le Canada parce que j'avais déjà visité ce pays.\n  Elle a réussi le concours qu'elle avait préparé pendant un an.\nWords like déjà, auparavant (beforehand) and jusque-là often signal it.\n\nCompound tenses raise the agreement question — l'accord du participe passé:\n  • with être: agree with the subject → Elle est partie. Ils étaient arrivés.\n  • with avoir: agree only with a direct object placed BEFORE the verb → L'université nous a contactées. (but: J'ai contacté l'université.)\n  • pronominal verbs: agree with the subject → Nous nous sommes inscrites. EXCEPT when the reflexive pronoun is an indirect object (téléphoner à, parler à, écrire à) → Elles se sont téléphoné. (no agreement)\n\nThe theme vocabulary is student life: une filière (a track), un concours (a competitive entrance exam), une bourse (a grant), un stage (an internship), la licence and le master. Beware the faux ami: passer un examen means to TAKE an exam — to pass it is réussir.\n\nPut it together: « Quand j'étais en licence, je rêvais d'étudier à l'étranger. J'ai demandé une bourse, parce que je m'étais toujours débrouillé seul. Quand la réponse est arrivée, j'avais déjà préparé mon dossier. »\n\nNow tell yours: write three sentences about your own parcours — one imparfait background, one passé composé event, and one plus-que-parfait for what had happened before.",
+  "vocabulary": [
+    { "id": "parcours", "fr": "le parcours", "en": "path / journey (studies, career)", "pos": "noun", "exampleFr": "Elle raconte son parcours.", "exampleEn": "She tells the story of her journey.", "audio": "audio/b1.1/unit-05-past-narration/vocab-parcours.mp3", "voice": "denise" },
+    { "id": "filiere", "fr": "une filière", "en": "a track / field of study", "pos": "noun", "exampleFr": "Il a choisi la filière scientifique.", "exampleEn": "He chose the science track.", "audio": "audio/b1.1/unit-05-past-narration/vocab-filiere.mp3", "voice": "henri" },
+    { "id": "concours", "fr": "un concours", "en": "a competitive (entrance) exam", "pos": "noun", "exampleFr": "Elle prépare un concours difficile.", "exampleEn": "She is preparing for a difficult entrance exam.", "audio": "audio/b1.1/unit-05-past-narration/vocab-concours.mp3", "voice": "denise" },
+    { "id": "bourse", "fr": "une bourse", "en": "a grant / scholarship", "pos": "noun", "exampleFr": "Il a obtenu une bourse d'études.", "exampleEn": "He got a study grant.", "audio": "audio/b1.1/unit-05-past-narration/vocab-bourse.mp3", "voice": "henri" },
+    { "id": "stage", "fr": "un stage", "en": "an internship", "pos": "noun", "exampleFr": "Je fais un stage cet été.", "exampleEn": "I'm doing an internship this summer.", "audio": "audio/b1.1/unit-05-past-narration/vocab-stage.mp3", "voice": "denise" },
+    { "id": "licence", "fr": "la licence", "en": "bachelor's degree (French university)", "pos": "noun", "exampleFr": "Elle est en licence d'histoire.", "exampleEn": "She's doing a bachelor's in history.", "audio": "audio/b1.1/unit-05-past-narration/vocab-licence.mp3", "voice": "henri" },
+    { "id": "master", "fr": "le master", "en": "master's degree", "pos": "noun", "exampleFr": "Il a obtenu son master en 2023.", "exampleEn": "He got his master's in 2023.", "audio": "audio/b1.1/unit-05-past-narration/vocab-master.mp3", "voice": "denise" },
+    { "id": "s-inscrire", "fr": "s'inscrire", "en": "to enroll / register", "pos": "verb", "exampleFr": "Je m'inscris à l'université.", "exampleEn": "I'm enrolling at the university.", "audio": "audio/b1.1/unit-05-past-narration/vocab-s-inscrire.mp3", "voice": "henri" },
+    { "id": "passer-un-examen", "fr": "passer un examen", "en": "to take an exam (faux ami!)", "pos": "verb", "exampleFr": "Je passe un examen demain.", "exampleEn": "I'm taking an exam tomorrow.", "audio": "audio/b1.1/unit-05-past-narration/vocab-passer-un-examen.mp3", "voice": "denise" },
+    { "id": "echouer", "fr": "échouer", "en": "to fail", "pos": "verb", "exampleFr": "Il a échoué au concours.", "exampleEn": "He failed the entrance exam.", "audio": "audio/b1.1/unit-05-past-narration/vocab-echouer.mp3", "voice": "henri" },
+    { "id": "se-debrouiller", "fr": "se débrouiller", "en": "to manage / get by", "pos": "verb", "exampleFr": "Elle se débrouille bien en anglais.", "exampleEn": "She gets by well in English.", "audio": "audio/b1.1/unit-05-past-narration/vocab-se-debrouiller.mp3", "voice": "denise" },
+    { "id": "a-l-etranger", "fr": "à l'étranger", "en": "abroad", "pos": "adverb", "exampleFr": "Elle étudie à l'étranger.", "exampleEn": "She studies abroad.", "audio": "audio/b1.1/unit-05-past-narration/vocab-a-l-etranger.mp3", "voice": "henri" },
+    { "id": "sejour", "fr": "un séjour", "en": "a stay", "pos": "noun", "exampleFr": "Son séjour à Oslo a duré six mois.", "exampleEn": "Her stay in Oslo lasted six months.", "audio": "audio/b1.1/unit-05-past-narration/vocab-sejour.mp3", "voice": "denise" },
+    { "id": "auparavant", "fr": "auparavant", "en": "beforehand / previously", "pos": "adverb", "exampleFr": "Auparavant, il avait étudié le droit.", "exampleEn": "Previously, he had studied law.", "audio": "audio/b1.1/unit-05-past-narration/vocab-auparavant.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "Quand j'étais enfant, je rêvais de partir à l'étranger.", "en": "When I was a child, I dreamed of going abroad.", "audio": "audio/b1.1/unit-05-past-narration/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "Quand je suis arrivé, le cours avait déjà commencé.", "en": "When I arrived, the class had already started.", "audio": "audio/b1.1/unit-05-past-narration/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "Elle a réussi le concours qu'elle avait préparé pendant un an.", "en": "She passed the entrance exam she had prepared for a year.", "audio": "audio/b1.1/unit-05-past-narration/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "Nous nous sommes inscrites en licence d'histoire.", "en": "We (two women) enrolled in a history bachelor's.", "audio": "audio/b1.1/unit-05-past-narration/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "Elles se sont téléphoné deux fois.", "en": "They phoned each other twice.", "audio": "audio/b1.1/unit-05-past-narration/example-ex-5.mp3", "voice": "denise" },
+    { "id": "ex-6", "fr": "J'ai choisi ce pays parce que j'avais toujours voulu y étudier.", "en": "I chose this country because I had always wanted to study there.", "audio": "audio/b1.1/unit-05-past-narration/example-ex-6.mp3", "voice": "henri" }
+  ]
+}

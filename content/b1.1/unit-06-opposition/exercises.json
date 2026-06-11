@@ -1,0 +1,447 @@
+{
+  "schemaVersion": 1,
+  "unitId": "b1.1/unit-06-opposition",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Complete: « ___ je sois fatigué, je continue mes études. » (sois = subjunctive)",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bien que"
+        },
+        {
+          "id": "b",
+          "text": "Même si"
+        },
+        {
+          "id": "c",
+          "text": "Malgré"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "The verb is in the subjunctive (sois) → bien que. Même si takes the indicative; malgré takes a noun."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Complete: « ___ la pluie, le match a eu lieu. » (followed by a noun)",
+      "options": [
+        {
+          "id": "a",
+          "text": "Malgré"
+        },
+        {
+          "id": "b",
+          "text": "Bien que"
+        },
+        {
+          "id": "c",
+          "text": "Pourtant"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "« la pluie » is a noun → malgré + nom. (And never « malgré que »!)"
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Indicative or subjunctive after « même si »?",
+      "inputMode": "dropdown",
+      "template": "Même si c'{{b1}} difficile, je n'abandonne pas.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "est"
+          ],
+          "options": [
+            "est",
+            "soit"
+          ]
+        }
+      ],
+      "explanation": "Même si + INDICATIF: même si c'est difficile. (Bien que is the one that takes the subjunctive.)"
+    },
+    {
+      "id": "ex-mc-3",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Complete: « Il a beau ___, personne ne l'écoute. »",
+      "options": [
+        {
+          "id": "a",
+          "text": "crier"
+        },
+        {
+          "id": "b",
+          "text": "crie"
+        },
+        {
+          "id": "c",
+          "text": "criant"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Avoir beau + INFINITIF: il a beau crier = however much he shouts."
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Choose the connector that fits.",
+      "inputMode": "dropdown",
+      "template": "Il fait froid ; elle est {{b1}} sortie sans manteau.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "quand même"
+          ],
+          "options": [
+            "quand même",
+            "alors que",
+            "au lieu de"
+          ]
+        }
+      ],
+      "explanation": "Cold weather should stop her — but she went out all the same: quand même, placed after the verb."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each connector to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "pourtant",
+          "right": "and yet"
+        },
+        {
+          "id": "p2",
+          "left": "malgré",
+          "right": "despite"
+        },
+        {
+          "id": "p3",
+          "left": "alors que",
+          "right": "whereas"
+        },
+        {
+          "id": "p4",
+          "left": "au lieu de",
+          "right": "instead of"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"Despite the rain, she came all the same.\"",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Malgré"
+        },
+        {
+          "id": "t2",
+          "text": "la"
+        },
+        {
+          "id": "t3",
+          "text": "pluie,"
+        },
+        {
+          "id": "t4",
+          "text": "elle"
+        },
+        {
+          "id": "t5",
+          "text": "est"
+        },
+        {
+          "id": "t6",
+          "text": "quand même"
+        },
+        {
+          "id": "t7",
+          "text": "venue"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7"
+      ]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/b1.1/unit-06-opposition/listen-1.mp3",
+      "transcript": "J'ai raté le concours, pourtant j'avais beaucoup travaillé.",
+      "options": [
+        {
+          "id": "a",
+          "text": "He failed the exam even though he had worked a lot"
+        },
+        {
+          "id": "b",
+          "text": "He passed the exam because he had worked a lot"
+        },
+        {
+          "id": "c",
+          "text": "He didn't take the exam this year"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "« pourtant j'avais beaucoup travaillé » — the hard work (plus-que-parfait) made failure unexpected: concession."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read and answer both questions.",
+      "passageFr": "Bien que les grandes écoles offrent un bon encadrement, Laura a choisi l'université. La fac est moins chère ; en revanche, les professeurs sont moins disponibles. Son frère adore sa grande école, alors que Laura préfère la liberté de la fac. Malgré quelques difficultés au début, elle ne regrette rien.",
+      "passageEn": "Although the grandes écoles offer good supervision, Laura chose university. Uni is cheaper; on the other hand, the professors are less available. Her brother loves his grande école, whereas Laura prefers the freedom of uni. Despite some early difficulties, she has no regrets.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "What drawback of university does the text mention?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The professors are less available"
+            },
+            {
+              "id": "b",
+              "text": "It is more expensive"
+            },
+            {
+              "id": "c",
+              "text": "There is too much supervision"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        },
+        {
+          "id": "q2",
+          "prompt": "Does Laura regret her choice?",
+          "options": [
+            {
+              "id": "a",
+              "text": "No — despite early difficulties, she has no regrets"
+            },
+            {
+              "id": "b",
+              "text": "Yes, she would prefer a grande école"
+            },
+            {
+              "id": "c",
+              "text": "The text doesn't say"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex-fb-3",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Complete the « in vain » structure (one word).",
+      "inputMode": "typed",
+      "template": "Il a {{b1}} expliquer, je ne comprends rien.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "beau"
+          ]
+        }
+      ],
+      "explanation": "Avoir beau + infinitive: il a beau expliquer = however much he explains."
+    },
+    {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/b1.1/unit-06-opposition/example-ex-1.mp3",
+      "transcript": "La formation est excellente, pourtant elle coûte cher.",
+      "options": [
+        {
+          "id": "a",
+          "text": "The training is excellent, and yet it's expensive."
+        },
+        {
+          "id": "b",
+          "text": "Although I'm tired, I'm continuing my studies."
+        },
+        {
+          "id": "c",
+          "text": "Despite the rain, she came all the same."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « un atout » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "an asset / advantage"
+        },
+        {
+          "id": "b",
+          "text": "a drawback / disadvantage"
+        },
+        {
+          "id": "c",
+          "text": "yet / and yet"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "un atout = an asset / advantage."
+    },
+    {
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "Parler anglais est un {{b1}}.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "atout"
+          ]
+        }
+      ],
+      "explanation": "« Parler anglais est un atout. » — an asset / advantage."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "quand même",
+          "right": "all the same / anyway"
+        },
+        {
+          "id": "p2",
+          "left": "même si",
+          "right": "even if / even though"
+        },
+        {
+          "id": "p3",
+          "left": "bien que",
+          "right": "although"
+        },
+        {
+          "id": "p4",
+          "left": "malgré",
+          "right": "despite"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “However much I explain, he understands nothing.”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "J'ai"
+        },
+        {
+          "id": "t2",
+          "text": "beau"
+        },
+        {
+          "id": "t3",
+          "text": "expliquer,"
+        },
+        {
+          "id": "t4",
+          "text": "il"
+        },
+        {
+          "id": "t5",
+          "text": "ne"
+        },
+        {
+          "id": "t6",
+          "text": "comprend"
+        },
+        {
+          "id": "t7",
+          "text": "rien"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7"
+      ]
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "La formation est excellente, pourtant elle coûte cher.",
+      "targetEn": "The training is excellent, and yet it's expensive.",
+      "audio": "audio/b1.1/unit-06-opposition/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "Malgré la pluie, elle est quand même venue.",
+      "targetEn": "Despite the rain, she came all the same.",
+      "audio": "audio/b1.1/unit-06-opposition/example-ex-3.mp3"
+    }
+  ]
+}

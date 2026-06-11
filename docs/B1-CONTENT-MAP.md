@@ -24,8 +24,8 @@ Status: ✅ built · 🔨 in progress · ⬜ planned
 | 2 | Feelings & the subjunctive | D1 *Je séduis* | subjonctif présent (rappel), subjonctif passé / infinitif passé; subjonctif vs infinitif after feelings | ✅ b1.1/unit-02 |
 | 3 | Comparison & complex relatives | D2 *J'achète* | les degrés de la comparaison; les pronoms relatifs composés (lequel, auquel…) | ✅ b1.1/unit-03 |
 | 4 | Reported speech in the past | D2 *J'achète* | le discours rapporté au présent (rappel) + au passé & la concordance des temps | ✅ b1.1/unit-04 |
-| 5 | Recounting the past | D3 *J'apprends* | imparfait vs passé composé (rappel) + le plus-que-parfait; accord du participe passé | ⬜ |
-| 6 | Opposition & concession | D3 *J'apprends* | exprimer l'opposition et la concession (mais, pourtant, bien que…) | ⬜ |
+| 5 | Recounting the past | D3 *J'apprends* | imparfait vs passé composé (rappel) + le plus-que-parfait; accord du participe passé | ✅ b1.1/unit-05 |
+| 6 | Opposition & concession | D3 *J'apprends* | exprimer l'opposition et la concession (mais, pourtant, bien que…) | ✅ b1.1/unit-06 |
 | 7 | News & the passive | D4 *Je m'informe* | la forme passive; la phrase nominale (press headlines) | ⬜ |
 | 8 | Cause & consequence | D4 *Je m'informe* | exprimer la cause et la conséquence | ⬜ |
 | 9 | Gérondif & participe présent | D5 *J'agis* (solidarité) | le participe présent et le gérondif | ⬜ |
