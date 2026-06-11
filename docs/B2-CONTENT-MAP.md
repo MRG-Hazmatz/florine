@@ -19,8 +19,8 @@ Status: ✅ built · 🔨 in progress · ⬜ planned
 ## b2.1 — Dossiers 1–5
 | # | Module | Alter Ego B2 | Grammar / discourse focus | Status |
 |---|---|---|---|---|
-| 1 | Roots & past tenses | D1 *Racines* | les temps du passé (incl. passé simple, passé antérieur); accord des participes passés (synthèse) | ⬜ |
-| 2 | Telling your story & the job interview | D1 *Racines* | articulateurs de temps (simultanéité, antériorité, postériorité); lettre de motivation, entretien d'embauche | ⬜ |
+| 1 | Roots & past tenses | D1 *Racines* | les temps du passé (incl. passé simple, passé antérieur); accord des participes passés (synthèse) | ✅ b2.1/unit-01 |
+| 2 | Telling your story & the job interview | D1 *Racines* | articulateurs de temps (simultanéité, antériorité, postériorité); lettre de motivation, entretien d'embauche | ✅ b2.1/unit-02 |
 | 3 | Feelings & moods | D2 *Privé* | l'expression des sentiments; subjonctif vs infinitif présent/passé (approfondissement) | ⬜ |
 | 4 | Health, body & opinions | D2 *Privé* | certitude/doute (approfondissement); lexique du corps, de la douleur; donner son avis | ⬜ |
 | 5 | Describing where you live | D3 *Domicile* | la qualification (relatives simples & composées, nom, adjectif); lexique de l'habitat | ⬜ |

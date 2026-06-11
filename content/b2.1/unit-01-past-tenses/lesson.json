@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "b2.1/unit-01-past-tenses",
+  "level": "b2.1",
+  "unitNumber": 1,
+  "slug": "unit-01-past-tenses",
+  "title": "Roots & the Past Tenses",
+  "titleFr": "Racines : les temps du passé",
+  "cefrDescriptors": [
+    "Can recognise the passé simple and passé antérieur in literary and historical narration.",
+    "Can apply the full past-participle agreement system, including faire/laisser + infinitive.",
+    "Can talk about family origins and identity."
+  ],
+  "skills": ["reading", "listening", "writing", "speaking"],
+  "estimatedMinutes": 60,
+  "concept": "Welcome to B2 — Dossier 1 is Racines: where you come from, the languages you inherit, the story of your family. Telling that story at B2 means commanding the WHOLE past system, including the two tenses books use.\n\nThe living system (your B1 toolkit, still the backbone):\n  • imparfait — background and habits: Mes grands-parents vivaient en Italie.\n  • passé composé — events in speech and letters: Ils ont quitté leur village en 1950.\n  • plus-que-parfait — the past before the past: Ils sont retournés au village où ils avaient grandi.\n\nLE PASSÉ SIMPLE — the passé composé's literary twin. You'll meet it in novels, biographies and history — recognise it, you almost never have to write it:\n  • -er verbs: il émigra, ils s'installèrent · regular patterns: il finit, il vendit\n  • the famous irregulars: il fut (être) · il eut (avoir) · il alla (aller) · il vint (venir) · il fit (faire)\n  In conversation, every passé simple becomes a passé composé: il alla = il est allé.\n\nLE PASSÉ ANTÉRIEUR — the plus-que-parfait of literary narration, after dès que / quand / à peine:\n  Formation: avoir or être au passé simple + participe passé\n  Dès qu'il eut terminé ses études, il partit pour la France.\n\nL'ACCORD DES PARTICIPES PASSÉS — the B2 synthesis, including the cases that trip everyone:\n  • être → subject: Elle est partie. · avoir → preceding direct object: la maison qu'ils ont achetée\n  • pronominal: Nous nous sommes installés. BUT Elles se sont téléphoné. (indirect)\n  • faire + infinitive stays INVARIABLE: Elle s'est fait raconter l'histoire. · Il les a fait venir.\n\nThe roots lexicon: les racines, les origines, un ancêtre, un immigré, émigrer, s'installer, la langue maternelle, transmettre un héritage, le pays natal, le métissage (mixing of cultures).\n\nPut it together like a family chronicle: « Mes grands-parents émigrèrent en 1950. Dès qu'ils eurent trouvé du travail, ils s'installèrent à Lyon — la ville que mes ancêtres avaient quittée un siècle plus tôt. »\n\nYour turn: write three lines of your own family story — one imparfait background, one event, one plus-que-parfait — then rewrite the event in the passé simple, novel-style.",
+  "vocabulary": [
+    { "id": "racines", "fr": "les racines (f.)", "en": "roots", "pos": "noun", "exampleFr": "Elle cherche ses racines.", "exampleEn": "She is searching for her roots.", "audio": "audio/b2.1/unit-01-past-tenses/vocab-racines.mp3", "voice": "denise" },
+    { "id": "origines", "fr": "les origines (f.)", "en": "origins / background", "pos": "noun", "exampleFr": "Il est fier de ses origines.", "exampleEn": "He is proud of his origins.", "audio": "audio/b2.1/unit-01-past-tenses/vocab-origines.mp3", "voice": "henri" },
+    { "id": "ancetre", "fr": "un ancêtre", "en": "an ancestor", "pos": "noun", "exampleFr": "Ses ancêtres venaient du Portugal.", "exampleEn": "Her ancestors came from Portugal.", "audio": "audio/b2.1/unit-01-past-tenses/vocab-ancetre.mp3", "voice": "denise" },
+    { "id": "immigre", "fr": "un immigré / une immigrée", "en": "an immigrant", "pos": "noun", "exampleFr": "Ses parents sont arrivés comme immigrés.", "exampleEn": "His parents arrived as immigrants.", "audio": "audio/b2.1/unit-01-past-tenses/vocab-immigre.mp3", "voice": "henri" },
+    { "id": "emigrer", "fr": "émigrer", "en": "to emigrate", "pos": "verb", "exampleFr": "Ils ont émigré vers le Canada.", "exampleEn": "They emigrated to Canada.", "audio": "audio/b2.1/unit-01-past-tenses/vocab-emigrer.mp3", "voice": "denise" },
+    { "id": "s-installer", "fr": "s'installer", "en": "to settle", "pos": "verb", "exampleFr": "La famille s'est installée à Lyon.", "exampleEn": "The family settled in Lyon.", "audio": "audio/b2.1/unit-01-past-tenses/vocab-s-installer.mp3", "voice": "henri" },
+    { "id": "langue-maternelle", "fr": "la langue maternelle", "en": "mother tongue", "pos": "noun", "exampleFr": "Sa langue maternelle est l'arabe.", "exampleEn": "Her mother tongue is Arabic.", "audio": "audio/b2.1/unit-01-past-tenses/vocab-langue-maternelle.mp3", "voice": "denise" },
+    { "id": "transmettre", "fr": "transmettre", "en": "to pass on / hand down", "pos": "verb", "exampleFr": "Elle transmet sa langue à ses enfants.", "exampleEn": "She passes her language on to her children.", "audio": "audio/b2.1/unit-01-past-tenses/vocab-transmettre.mp3", "voice": "henri" },
+    { "id": "heritage", "fr": "un héritage", "en": "a heritage / inheritance", "pos": "noun", "exampleFr": "Cette recette est un héritage familial.", "exampleEn": "This recipe is a family heritage.", "audio": "audio/b2.1/unit-01-past-tenses/vocab-heritage.mp3", "voice": "denise" },
+    { "id": "generation", "fr": "une génération", "en": "a generation", "pos": "noun", "exampleFr": "Trois générations vivent ici.", "exampleEn": "Three generations live here.", "audio": "audio/b2.1/unit-01-past-tenses/vocab-generation.mp3", "voice": "henri" },
+    { "id": "pays-natal", "fr": "le pays natal", "en": "native country", "pos": "noun", "exampleFr": "Il rêve de revoir son pays natal.", "exampleEn": "He dreams of seeing his native country again.", "audio": "audio/b2.1/unit-01-past-tenses/vocab-pays-natal.mp3", "voice": "denise" },
+    { "id": "metissage", "fr": "le métissage", "en": "cultural mixing", "pos": "noun", "exampleFr": "Le métissage enrichit la cuisine.", "exampleEn": "Cultural mixing enriches the cuisine.", "audio": "audio/b2.1/unit-01-past-tenses/vocab-metissage.mp3", "voice": "henri" },
+    { "id": "appartenir", "fr": "appartenir à", "en": "to belong to", "pos": "verb", "exampleFr": "J'appartiens à deux cultures.", "exampleEn": "I belong to two cultures.", "audio": "audio/b2.1/unit-01-past-tenses/vocab-appartenir.mp3", "voice": "denise" },
+    { "id": "itineraire", "fr": "un itinéraire de vie", "en": "a life journey", "pos": "noun", "exampleFr": "Chaque immigré a son itinéraire de vie.", "exampleEn": "Every immigrant has their own life journey.", "audio": "audio/b2.1/unit-01-past-tenses/vocab-itineraire.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "Mes grands-parents émigrèrent en France en 1950.", "en": "My grandparents emigrated to France in 1950.", "audio": "audio/b2.1/unit-01-past-tenses/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "Dès qu'il eut terminé ses études, il partit.", "en": "As soon as he had finished his studies, he left.", "audio": "audio/b2.1/unit-01-past-tenses/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "Nous nous sommes installés à Lyon, où mes ancêtres avaient vécu.", "en": "We settled in Lyon, where my ancestors had lived.", "audio": "audio/b2.1/unit-01-past-tenses/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "La maison qu'ils ont achetée date de 1900.", "en": "The house they bought dates from 1900.", "audio": "audio/b2.1/unit-01-past-tenses/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "Elle s'est fait raconter l'histoire de la famille.", "en": "She had the family history told to her.", "audio": "audio/b2.1/unit-01-past-tenses/example-ex-5.mp3", "voice": "denise" },
+    { "id": "ex-6", "fr": "Elle a grandi entre deux langues.", "en": "She grew up between two languages.", "audio": "audio/b2.1/unit-01-past-tenses/example-ex-6.mp3", "voice": "henri" }
+  ]
+}

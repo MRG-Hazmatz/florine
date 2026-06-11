@@ -1,0 +1,467 @@
+{
+  "schemaVersion": 1,
+  "unitId": "b2.1/unit-02-time-connectors",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Same subject: « Avant ___ postuler, préparez votre dossier. »",
+      "options": [
+        {
+          "id": "a",
+          "text": "de"
+        },
+        {
+          "id": "b",
+          "text": "que"
+        },
+        {
+          "id": "c",
+          "text": "qu'il"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Same subject → avant de + infinitive: avant de postuler."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Different subjects: « Avant que le recruteur ___, envoyez vos références. »",
+      "options": [
+        {
+          "id": "a",
+          "text": "décide"
+        },
+        {
+          "id": "b",
+          "text": "décidera"
+        },
+        {
+          "id": "c",
+          "text": "a décidé"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Avant que + SUBJONCTIF: avant que le recruteur décide."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "After doing something — watch the infinitive.",
+      "inputMode": "dropdown",
+      "template": "Après {{b1}} l'annonce, elle a postulé.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "avoir lu"
+          ],
+          "options": [
+            "avoir lu",
+            "lire",
+            "lu"
+          ]
+        }
+      ],
+      "explanation": "Après + infinitif PASSÉ: après avoir lu. Never « après lire »."
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Hardly… when…",
+      "inputMode": "dropdown",
+      "template": "À peine avait-il envoyé sa lettre {{b1}} le téléphone a sonné.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "que"
+          ],
+          "options": [
+            "que",
+            "quand",
+            "où"
+          ]
+        }
+      ],
+      "explanation": "À peine… que, with inversion after à peine: à peine avait-il envoyé… que…"
+    },
+    {
+      "id": "ex-mc-3",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Which « à peine » sentence is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "À peine était-elle arrivée que la réunion a commencé."
+        },
+        {
+          "id": "b",
+          "text": "À peine elle était arrivée que la réunion a commencé."
+        },
+        {
+          "id": "c",
+          "text": "Elle à peine était arrivée que la réunion a commencé."
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Sentence-initial à peine triggers inversion: À peine était-elle arrivée…"
+    },
+    {
+      "id": "ex-fb-3",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Until… — subjunctive of « être » (one word).",
+      "inputMode": "typed",
+      "template": "Attendez jusqu'à ce qu'il {{b1}} là.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "soit"
+          ]
+        }
+      ],
+      "explanation": "Jusqu'à ce que + subjonctif: jusqu'à ce qu'il soit là."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each job-hunt word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "postuler",
+          "right": "to apply"
+        },
+        {
+          "id": "p2",
+          "left": "un poste",
+          "right": "a position"
+        },
+        {
+          "id": "p3",
+          "left": "une compétence",
+          "right": "a skill"
+        },
+        {
+          "id": "p4",
+          "left": "désormais",
+          "right": "from now on"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"After reading the ad, she applied.\"",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Après"
+        },
+        {
+          "id": "t2",
+          "text": "avoir"
+        },
+        {
+          "id": "t3",
+          "text": "lu"
+        },
+        {
+          "id": "t4",
+          "text": "l'annonce,"
+        },
+        {
+          "id": "t5",
+          "text": "elle"
+        },
+        {
+          "id": "t6",
+          "text": "a"
+        },
+        {
+          "id": "t7",
+          "text": "postulé"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7"
+      ]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen to the recruiter. When does the job start?",
+      "audio": "audio/b2.1/unit-02-time-connectors/listen-1.mp3",
+      "transcript": "Vous commencerez dès que le contrat sera signé ; d'ici là, préparez vos documents.",
+      "options": [
+        {
+          "id": "a",
+          "text": "As soon as the contract is signed"
+        },
+        {
+          "id": "b",
+          "text": "Once the documents are destroyed"
+        },
+        {
+          "id": "c",
+          "text": "Immediately, before any signature"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "« dès que le contrat sera signé » — as soon as the contract is signed."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read this extract from a cover letter and answer both questions.",
+      "passageFr": "Objet : candidature au poste d'assistante de communication\n\nMadame, Monsieur,\nAprès avoir obtenu mon master en 2024, j'ai travaillé deux ans dans une agence lyonnaise. À peine étais-je arrivée que l'on m'a confié la gestion des réseaux sociaux — une compétence que je souhaite désormais mettre au service de votre entreprise. Je me tiens à votre disposition pour un entretien.",
+      "passageEn": "Subject: application for the communication assistant position\n\nDear Sir or Madam,\nAfter obtaining my master's in 2024, I worked for two years in a Lyon agency. I had hardly arrived when I was entrusted with managing social media — a skill I now wish to put at your company's service. I am available for an interview.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "What position is she applying for?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Communication assistant"
+            },
+            {
+              "id": "b",
+              "text": "Social media influencer"
+            },
+            {
+              "id": "c",
+              "text": "Agency director"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        },
+        {
+          "id": "q2",
+          "prompt": "What was she entrusted with soon after arriving at the agency?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Managing social media"
+            },
+            {
+              "id": "b",
+              "text": "Hiring new staff"
+            },
+            {
+              "id": "c",
+              "text": "The company accounts"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex-mc-4",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Which closing line belongs in a formal lettre de motivation?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Je me tiens à votre disposition pour un entretien."
+        },
+        {
+          "id": "b",
+          "text": "Appelle-moi quand tu veux !"
+        },
+        {
+          "id": "c",
+          "text": "À plus tard, bisous."
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Formal register required: je me tiens à votre disposition pour un entretien."
+    },
+    {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/b2.1/unit-02-time-connectors/example-ex-1.mp3",
+      "transcript": "Avant de postuler, relisez votre CV.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Before applying, reread your CV."
+        },
+        {
+          "id": "b",
+          "text": "After reading the ad, she sent her application."
+        },
+        {
+          "id": "c",
+          "text": "He had hardly sent his letter when the recruiter called him."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « une lettre de motivation » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "a cover letter"
+        },
+        {
+          "id": "b",
+          "text": "a job interview"
+        },
+        {
+          "id": "c",
+          "text": "a CV / résumé"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "une lettre de motivation = a cover letter."
+    },
+    {
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "Mettez votre {{b1}} à jour.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "CV"
+          ]
+        }
+      ],
+      "explanation": "« Mettez votre CV à jour. » — a CV / résumé."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "une candidature",
+          "right": "an application"
+        },
+        {
+          "id": "p2",
+          "left": "un poste",
+          "right": "a position / post"
+        },
+        {
+          "id": "p3",
+          "left": "une compétence",
+          "right": "a skill"
+        },
+        {
+          "id": "p4",
+          "left": "recruter",
+          "right": "to recruit / hire"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “Before applying, reread your CV.”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Avant"
+        },
+        {
+          "id": "t2",
+          "text": "de"
+        },
+        {
+          "id": "t3",
+          "text": "postuler,"
+        },
+        {
+          "id": "t4",
+          "text": "relisez"
+        },
+        {
+          "id": "t5",
+          "text": "votre"
+        },
+        {
+          "id": "t6",
+          "text": "CV"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ]
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "Avant de postuler, relisez votre CV.",
+      "targetEn": "Before applying, reread your CV.",
+      "audio": "audio/b2.1/unit-02-time-connectors/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "À peine avait-il envoyé sa lettre que le recruteur l'a appelé.",
+      "targetEn": "He had hardly sent his letter when the recruiter called him.",
+      "audio": "audio/b2.1/unit-02-time-connectors/example-ex-3.mp3"
+    }
+  ]
+}

@@ -1,0 +1,467 @@
+{
+  "schemaVersion": 1,
+  "unitId": "b2.1/unit-01-past-tenses",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "« Mes grands-parents émigrèrent en 1950. » — which tense is « émigrèrent »?",
+      "options": [
+        {
+          "id": "a",
+          "text": "le passé simple"
+        },
+        {
+          "id": "b",
+          "text": "l'imparfait"
+        },
+        {
+          "id": "c",
+          "text": "le passé composé"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "-èrent is the classic passé simple ending of -er verbs: ils émigrèrent."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Where do you mainly meet the passé simple?",
+      "options": [
+        {
+          "id": "a",
+          "text": "In novels, biographies and history writing"
+        },
+        {
+          "id": "b",
+          "text": "In everyday conversation"
+        },
+        {
+          "id": "c",
+          "text": "In text messages"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "The passé simple is the literary narration tense. In speech, the passé composé does its job."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Literary anteriority — the passé antérieur.",
+      "inputMode": "dropdown",
+      "template": "Dès qu'il {{b1}} terminé ses études, il partit.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "eut"
+          ],
+          "options": [
+            "eut",
+            "a",
+            "avait"
+          ]
+        }
+      ],
+      "explanation": "In passé-simple narration, dès que takes the passé antérieur: dès qu'il eut terminé… il partit."
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Make the participle agree (or not!).",
+      "inputMode": "dropdown",
+      "template": "La maison qu'ils ont {{b1}} date de 1900.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "achetée"
+          ],
+          "options": [
+            "achetée",
+            "acheté",
+            "achetés"
+          ]
+        }
+      ],
+      "explanation": "The direct object (que = la maison) precedes the verb → agreement: achetée."
+    },
+    {
+      "id": "ex-mc-3",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Complete: « Elle s'est ___ couper les cheveux. »",
+      "options": [
+        {
+          "id": "a",
+          "text": "fait"
+        },
+        {
+          "id": "b",
+          "text": "faite"
+        },
+        {
+          "id": "c",
+          "text": "faits"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Faire + infinitive never agrees: elle s'est fait couper les cheveux."
+    },
+    {
+      "id": "ex-fb-3",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "The past before the past (one word).",
+      "inputMode": "typed",
+      "template": "Ils sont retournés au village où ils {{b1}} grandi.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "avaient"
+          ]
+        }
+      ],
+      "explanation": "Growing up happened before returning → plus-que-parfait: où ils avaient grandi."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each roots word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "les racines",
+          "right": "roots"
+        },
+        {
+          "id": "p2",
+          "left": "un ancêtre",
+          "right": "an ancestor"
+        },
+        {
+          "id": "p3",
+          "left": "transmettre",
+          "right": "to pass on"
+        },
+        {
+          "id": "p4",
+          "left": "le pays natal",
+          "right": "native country"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"The family settled in Lyon.\"",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "La"
+        },
+        {
+          "id": "t2",
+          "text": "famille"
+        },
+        {
+          "id": "t3",
+          "text": "s'est"
+        },
+        {
+          "id": "t4",
+          "text": "installée"
+        },
+        {
+          "id": "t5",
+          "text": "à"
+        },
+        {
+          "id": "t6",
+          "text": "Lyon"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen to the family story. Why did the grandmother choose Lyon?",
+      "audio": "audio/b2.1/unit-01-past-tenses/listen-1.mp3",
+      "transcript": "Ma grand-mère est née en Italie ; elle s'est installée à Lyon, où elle avait déjà de la famille.",
+      "options": [
+        {
+          "id": "a",
+          "text": "She already had family there"
+        },
+        {
+          "id": "b",
+          "text": "She was born there"
+        },
+        {
+          "id": "c",
+          "text": "She had found a job there"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "« où elle avait déjà de la famille » — the plus-que-parfait gives the pre-existing reason."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read this biography extract (note the literary tenses) and answer both questions.",
+      "passageFr": "Marco Ferrari naquit en Toscane en 1932. À dix-huit ans, il quitta son pays natal et émigra vers la France. Dès qu'il eut trouvé un emploi aux usines de Lyon, il fit venir sa famille. Ses petits-enfants, qui ne parlaient pas un mot d'italien, redécouvrirent plus tard la langue que leur grand-père leur avait transmise en secret : les chansons.",
+      "passageEn": "Marco Ferrari was born in Tuscany in 1932. At eighteen, he left his native country and emigrated to France. As soon as he had found a job in the Lyon factories, he sent for his family. His grandchildren, who didn't speak a word of Italian, later rediscovered the language their grandfather had passed on to them in secret: through songs.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "« Il naquit », « il quitta », « il fit venir » — these verbs are in the…",
+          "options": [
+            {
+              "id": "a",
+              "text": "passé simple (literary narration)"
+            },
+            {
+              "id": "b",
+              "text": "imparfait"
+            },
+            {
+              "id": "c",
+              "text": "présent"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        },
+        {
+          "id": "q2",
+          "prompt": "What had the grandfather secretly passed on?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The Italian language, through songs"
+            },
+            {
+              "id": "b",
+              "text": "A house in Tuscany"
+            },
+            {
+              "id": "c",
+              "text": "His job at the factory"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex-mc-4",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "In conversation, « il alla » becomes…",
+      "options": [
+        {
+          "id": "a",
+          "text": "il est allé"
+        },
+        {
+          "id": "b",
+          "text": "il allait"
+        },
+        {
+          "id": "c",
+          "text": "il ira"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Passé simple ↔ passé composé: same job, different register. Il alla (book) = il est allé (speech)."
+    },
+    {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/b2.1/unit-01-past-tenses/example-ex-1.mp3",
+      "transcript": "Mes grands-parents émigrèrent en France en 1950.",
+      "options": [
+        {
+          "id": "a",
+          "text": "My grandparents emigrated to France in 1950."
+        },
+        {
+          "id": "b",
+          "text": "As soon as he had finished his studies, he left."
+        },
+        {
+          "id": "c",
+          "text": "We settled in Lyon, where my ancestors had lived."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « les racines (f.) » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "roots"
+        },
+        {
+          "id": "b",
+          "text": "origins / background"
+        },
+        {
+          "id": "c",
+          "text": "an ancestor"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "les racines (f.) = roots."
+    },
+    {
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "Cette recette est un {{b1}} familial.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "héritage"
+          ]
+        }
+      ],
+      "explanation": "« Cette recette est un héritage familial. » — a heritage / inheritance."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "émigrer",
+          "right": "to emigrate"
+        },
+        {
+          "id": "p2",
+          "left": "s'installer",
+          "right": "to settle"
+        },
+        {
+          "id": "p3",
+          "left": "la langue maternelle",
+          "right": "mother tongue"
+        },
+        {
+          "id": "p4",
+          "left": "transmettre",
+          "right": "to pass on / hand down"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “My grandparents emigrated to France in 1950.”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Mes"
+        },
+        {
+          "id": "t2",
+          "text": "grands-parents"
+        },
+        {
+          "id": "t3",
+          "text": "émigrèrent"
+        },
+        {
+          "id": "t4",
+          "text": "en"
+        },
+        {
+          "id": "t5",
+          "text": "France"
+        },
+        {
+          "id": "t6",
+          "text": "en"
+        },
+        {
+          "id": "t7",
+          "text": "1950"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7"
+      ]
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "Mes grands-parents émigrèrent en France en 1950.",
+      "targetEn": "My grandparents emigrated to France in 1950.",
+      "audio": "audio/b2.1/unit-01-past-tenses/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "Nous nous sommes installés à Lyon, où mes ancêtres avaient vécu.",
+      "targetEn": "We settled in Lyon, where my ancestors had lived.",
+      "audio": "audio/b2.1/unit-01-past-tenses/example-ex-3.mp3"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "b2.1/unit-02-time-connectors",
+  "level": "b2.1",
+  "unitNumber": 2,
+  "slug": "unit-02-time-connectors",
+  "title": "Time Connectors & the Cover Letter",
+  "titleFr": "Les rapports de temps ; la lettre de motivation",
+  "cefrDescriptors": [
+    "Can express simultaneity, anteriority and posteriority with the right connector and verb form.",
+    "Can write a French cover letter and handle a job interview's key phrases."
+  ],
+  "skills": ["reading", "listening", "writing", "speaking"],
+  "estimatedMinutes": 60,
+  "concept": "The other half of Racines is practical: telling your story to an employer. The lettre de motivation and the entretien d'embauche both run on precise time relations — when you did what, in what order.\n\nLES RAPPORTS DE TEMPS — three relations, each with its grammar:\n\nSimultaneity (two things at once):\n  • pendant que, lorsque, au moment où + indicatif: Au moment où j'ai reçu votre annonce, je cherchais un poste.\n  • tant que (as long as): Je resterai tant que le projet durera.\n  • chaque fois que: Chaque fois que je postule, je relis mon CV.\n\nAnteriority (the main action comes BEFORE):\n  • avant de + infinitif (same subject): Avant de postuler, relisez l'annonce.\n  • avant que + SUBJONCTIF (different subjects): Avant que le recruteur décide…\n  • en attendant que / jusqu'à ce que + SUBJONCTIF: Attendez jusqu'à ce qu'il réponde.\n\nPosteriority (the main action comes AFTER):\n  • après + infinitif PASSÉ: Après avoir lu l'annonce, elle a postulé. (never « après lire »!)\n  • une fois que, dès que, aussitôt que + indicatif: Une fois que le contrat sera signé…\n  • à peine… que + INVERSION: À peine avait-il envoyé sa lettre que le téléphone a sonné.\n\nTimeline adverbs that mark a turning point: désormais / dorénavant (from now on), jusqu'alors (until then), dès lors (from then on).\n\nLA LETTRE DE MOTIVATION — the fixed moves: object line (Objet : candidature au poste de…), the hook (Je me permets de vous adresser ma candidature…), proof (compétences + expérience), the close (Je me tiens à votre disposition pour un entretien…). Key lexicon: postuler, un poste, une candidature, un CV, une compétence, recruter, un entretien d'embauche.\n\nPut it together: « Après avoir obtenu mon diplôme, j'ai travaillé deux ans à Lyon. À peine étais-je arrivée que l'on m'a confié un projet important ; désormais, je cherche un poste qui corresponde à ces compétences. »\n\nYour turn: write the first two sentences of your own lettre de motivation — one après + infinitif passé, one avant de.",
+  "vocabulary": [
+    { "id": "lettre-de-motivation", "fr": "une lettre de motivation", "en": "a cover letter", "pos": "noun", "exampleFr": "Joignez une lettre de motivation.", "exampleEn": "Attach a cover letter.", "audio": "audio/b2.1/unit-02-time-connectors/vocab-lettre-de-motivation.mp3", "voice": "denise" },
+    { "id": "entretien-embauche", "fr": "un entretien d'embauche", "en": "a job interview", "pos": "noun", "exampleFr": "Son entretien d'embauche s'est bien passé.", "exampleEn": "Her job interview went well.", "audio": "audio/b2.1/unit-02-time-connectors/vocab-entretien-embauche.mp3", "voice": "henri" },
+    { "id": "cv", "fr": "un CV", "en": "a CV / résumé", "pos": "noun", "exampleFr": "Mettez votre CV à jour.", "exampleEn": "Update your CV.", "audio": "audio/b2.1/unit-02-time-connectors/vocab-cv.mp3", "voice": "denise" },
+    { "id": "postuler", "fr": "postuler", "en": "to apply (for a job)", "pos": "verb", "exampleFr": "Elle postule à ce poste.", "exampleEn": "She is applying for this position.", "audio": "audio/b2.1/unit-02-time-connectors/vocab-postuler.mp3", "voice": "henri" },
+    { "id": "candidature", "fr": "une candidature", "en": "an application", "pos": "noun", "exampleFr": "Sa candidature a été retenue.", "exampleEn": "Her application was accepted.", "audio": "audio/b2.1/unit-02-time-connectors/vocab-candidature.mp3", "voice": "denise" },
+    { "id": "poste", "fr": "un poste", "en": "a position / post", "pos": "noun", "exampleFr": "Le poste est encore vacant.", "exampleEn": "The position is still vacant.", "audio": "audio/b2.1/unit-02-time-connectors/vocab-poste.mp3", "voice": "henri" },
+    { "id": "competence", "fr": "une compétence", "en": "a skill", "pos": "noun", "exampleFr": "Listez vos compétences clés.", "exampleEn": "List your key skills.", "audio": "audio/b2.1/unit-02-time-connectors/vocab-competence.mp3", "voice": "denise" },
+    { "id": "recruter", "fr": "recruter", "en": "to recruit / hire", "pos": "verb", "exampleFr": "L'entreprise recrute dix personnes.", "exampleEn": "The company is hiring ten people.", "audio": "audio/b2.1/unit-02-time-connectors/vocab-recruter.mp3", "voice": "henri" },
+    { "id": "desormais", "fr": "désormais", "en": "from now on", "pos": "adverb", "exampleFr": "Désormais, je travaille à distance.", "exampleEn": "From now on, I work remotely.", "audio": "audio/b2.1/unit-02-time-connectors/vocab-desormais.mp3", "voice": "denise" },
+    { "id": "jusqu-alors", "fr": "jusqu'alors", "en": "until then", "pos": "adverb", "exampleFr": "Jusqu'alors, il n'avait jamais postulé.", "exampleEn": "Until then, he had never applied.", "audio": "audio/b2.1/unit-02-time-connectors/vocab-jusqu-alors.mp3", "voice": "henri" },
+    { "id": "des-lors", "fr": "dès lors", "en": "from then on", "pos": "adverb", "exampleFr": "Dès lors, tout a changé.", "exampleEn": "From then on, everything changed.", "audio": "audio/b2.1/unit-02-time-connectors/vocab-des-lors.mp3", "voice": "denise" },
+    { "id": "a-peine-que", "fr": "à peine… que", "en": "hardly… when (+ inversion)", "pos": "expression", "exampleFr": "À peine était-il parti que tu es arrivé.", "exampleEn": "He had hardly left when you arrived.", "audio": "audio/b2.1/unit-02-time-connectors/vocab-a-peine-que.mp3", "voice": "henri" },
+    { "id": "avant-que", "fr": "avant que", "en": "before (+ subjunctive)", "pos": "conjunction", "exampleFr": "Pars avant qu'il pleuve.", "exampleEn": "Leave before it rains.", "audio": "audio/b2.1/unit-02-time-connectors/vocab-avant-que.mp3", "voice": "denise" },
+    { "id": "une-fois-que", "fr": "une fois que", "en": "once (something happens)", "pos": "conjunction", "exampleFr": "Une fois que tu signes, c'est fait.", "exampleEn": "Once you sign, it's done.", "audio": "audio/b2.1/unit-02-time-connectors/vocab-une-fois-que.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "Avant de postuler, relisez votre CV.", "en": "Before applying, reread your CV.", "audio": "audio/b2.1/unit-02-time-connectors/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "Après avoir lu l'annonce, elle a envoyé sa candidature.", "en": "After reading the ad, she sent her application.", "audio": "audio/b2.1/unit-02-time-connectors/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "À peine avait-il envoyé sa lettre que le recruteur l'a appelé.", "en": "He had hardly sent his letter when the recruiter called him.", "audio": "audio/b2.1/unit-02-time-connectors/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "Je resterai tant que le projet durera.", "en": "I will stay as long as the project lasts.", "audio": "audio/b2.1/unit-02-time-connectors/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "Attendez jusqu'à ce que le recruteur vous réponde.", "en": "Wait until the recruiter answers you.", "audio": "audio/b2.1/unit-02-time-connectors/example-ex-5.mp3", "voice": "denise" },
+    { "id": "ex-6", "fr": "Désormais, tous les entretiens se font en ligne.", "en": "From now on, all interviews are held online.", "audio": "audio/b2.1/unit-02-time-connectors/example-ex-6.mp3", "voice": "henri" }
+  ]
+}
