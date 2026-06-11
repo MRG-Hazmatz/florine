@@ -37,8 +37,8 @@ Status: ✅ built · 🔨 in progress · ⬜ planned
 | 12 | Style & the senses | D6 *Plaisirs* | synthèse des articles; figures de style (métaphore, comparaison); lexique du goût | ✅ b2.2/unit-02 |
 | 13 | Convictions & campaigns | D7 *Convictions* | la mise en relief (approfondissement); lexique de l'élection et de l'engagement | ✅ b2.2/unit-03 (-ant forms + élections) |
 | 14 | Verbal adjectives & nuance | D7 *Convictions* | gérondif / participe présent / adjectif verbal; place et sens des adjectifs | ✅ b2.2/unit-04 (mise en relief + place des adjectifs) |
-| 15 | Claims & disagreement | D8 *Singularités* | pronoms indéfinis (synthèse); lexique revendication/désaccord; registres de langue | ⬜ |
-| 16 | Logical connectors mastery | D8 *Singularités* | articulateurs logiques (synthèse: cause, conséquence, concession, but, hypothèse) | ⬜ |
+| 15 | Claims & disagreement | D8 *Singularités* | pronoms indéfinis (synthèse); lexique revendication/désaccord; registres de langue | ✅ b2.2/unit-05 (indéfinis + préfixes) |
+| 16 | Logical connectors mastery | D8 *Singularités* | articulateurs logiques (synthèse: cause, conséquence, concession, but, hypothèse) | ✅ b2.2/unit-06 (registres + antonymes) |
 | 17 | Times & modes, the grand synthesis | D9 *Rétrospectives* | synthèse des temps et modes (indicatif/subjonctif/conditionnel); degrés de comparaison | ⬜ |
 | 18 | Society past & future | D9 *Prospectives* | exprimer des opinions sur les phénomènes de société; faits et chiffres; DELF B2 capstone | ⬜ |
 

@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "b2.2/unit-05-indefinites-prefixes",
+  "level": "b2.2",
+  "unitNumber": 5,
+  "slug": "unit-05-indefinites-prefixes",
+  "title": "Anyone, Whoever & Word-Building",
+  "titleFr": "Les pronoms indéfinis et les préfixes",
+  "cefrDescriptors": [
+    "Can use the advanced indefinites (n'importe qui, quiconque, quelconque, tous/tout).",
+    "Can build opposites with negative prefixes (in-, mal-, més-, dés-, anti-).",
+    "Can voice disagreement and claims about identity questions."
+  ],
+  "skills": ["reading", "listening", "writing", "speaking"],
+  "estimatedMinutes": 60,
+  "concept": "Dossier 8 is Singularités — regional identities, minorities, the right to be different. Its grammar gives you the words for ANYONE and EVERYONE, and the prefixes that build disagreement.\n\nLES INDÉFINIS, the B2 floor (upgrading b1.2):\n  • n'importe qui / quoi / où / quand / comment — any…at all: N'importe qui peut adhérer. · Il répond n'importe quoi ! (nonsense!)\n  • n'importe quel(le) + noun: à n'importe quelle heure\n  • quiconque (formal) — whoever/anyone who: Quiconque connaît l'histoire comprendra.\n  • quelconque — some…or other / ordinary: une raison quelconque · un film très quelconque (mediocre!)\n  • the tout family, untangled: TOUS les élus (all the); TOUT le monde (everyone); TOUT est dit (everything); TOUTE la région (the whole).\n\nLES PRÉFIXES NÉGATIFS — French builds opposites by prefix, and B2 expects you to decode them:\n  • in- / im- / il- / ir-: connu → INconnu · possible → IMpossible · légal → ILlégal · régulier → IRrégulier\n  • mal-: honnête → MALhonnête · habile → MALhabile\n  • mé(s)-: content → MÉcontent · estimer → MÉSestimer\n  • dé(s)-: agréable → DÉSagréable · monter → DÉmonter · coller → DÉcoller\n  • anti-: européen → ANTIeuropéen · protectionniste → ANTIprotectionniste\n\nVOICING DISAGREEMENT — three intensities the book distinguishes:\n  simple désaccord (je ne partage pas votre avis) → opposition directe (je m'oppose à, je conteste) → revendication (nous réclamons, nous exigeons que…).\n\nPut it together like a regional-council debate: « N'importe qui peut le voir : cette réforme est malhonnête et antidémocratique. Quiconque défend nos langues régionales votera contre. Tout est encore possible — mais pas avec une concertation quelconque ! »\n\nYour turn: one sentence with quiconque or n'importe qui, and two opposites built with different prefixes.",
+  "vocabulary": [
+    { "id": "n-importe-qui", "fr": "n'importe qui", "en": "anyone (at all)", "pos": "pronoun", "exampleFr": "N'importe qui peut participer.", "exampleEn": "Anyone can take part.", "audio": "audio/b2.2/unit-05-indefinites-prefixes/vocab-n-importe-qui.mp3", "voice": "denise" },
+    { "id": "n-importe-quoi", "fr": "n'importe quoi", "en": "anything / nonsense", "pos": "pronoun", "exampleFr": "Tu dis n'importe quoi !", "exampleEn": "You're talking nonsense!", "audio": "audio/b2.2/unit-05-indefinites-prefixes/vocab-n-importe-quoi.mp3", "voice": "henri" },
+    { "id": "quiconque", "fr": "quiconque", "en": "whoever / anyone who (formal)", "pos": "pronoun", "exampleFr": "Quiconque hésite a déjà perdu.", "exampleEn": "Whoever hesitates has already lost.", "audio": "audio/b2.2/unit-05-indefinites-prefixes/vocab-quiconque.mp3", "voice": "denise" },
+    { "id": "quelconque", "fr": "quelconque", "en": "some…or other / mediocre", "pos": "adjective", "exampleFr": "Il a donné une excuse quelconque.", "exampleEn": "He gave some excuse or other.", "audio": "audio/b2.2/unit-05-indefinites-prefixes/vocab-quelconque.mp3", "voice": "henri" },
+    { "id": "tout-le-monde", "fr": "tous / tout / tout le monde", "en": "all / everything / everyone", "pos": "pronoun", "exampleFr": "Tout le monde est venu, tout est prêt.", "exampleEn": "Everyone came; everything is ready.", "audio": "audio/b2.2/unit-05-indefinites-prefixes/vocab-tout-le-monde.mp3", "voice": "denise" },
+    { "id": "malhonnete", "fr": "malhonnête", "en": "dishonest (mal-)", "pos": "adjective", "exampleFr": "Une pratique malhonnête.", "exampleEn": "A dishonest practice.", "audio": "audio/b2.2/unit-05-indefinites-prefixes/vocab-malhonnete.mp3", "voice": "henri" },
+    { "id": "inconnu", "fr": "inconnu(e)", "en": "unknown (in-)", "pos": "adjective", "exampleFr": "Un artiste encore inconnu.", "exampleEn": "A still-unknown artist.", "audio": "audio/b2.2/unit-05-indefinites-prefixes/vocab-inconnu.mp3", "voice": "denise" },
+    { "id": "mecontent", "fr": "mécontent(e)", "en": "displeased (mé-)", "pos": "adjective", "exampleFr": "Les habitants sont mécontents.", "exampleEn": "The residents are displeased.", "audio": "audio/b2.2/unit-05-indefinites-prefixes/vocab-mecontent.mp3", "voice": "henri" },
+    { "id": "desagreable", "fr": "désagréable", "en": "unpleasant (dés-)", "pos": "adjective", "exampleFr": "Un ton très désagréable.", "exampleEn": "A very unpleasant tone.", "audio": "audio/b2.2/unit-05-indefinites-prefixes/vocab-desagreable.mp3", "voice": "denise" },
+    { "id": "illegal", "fr": "illégal(e)", "en": "illegal (il-)", "pos": "adjective", "exampleFr": "Cette décision est illégale.", "exampleEn": "This decision is illegal.", "audio": "audio/b2.2/unit-05-indefinites-prefixes/vocab-illegal.mp3", "voice": "henri" },
+    { "id": "s-opposer", "fr": "s'opposer à", "en": "to oppose", "pos": "verb", "exampleFr": "Nous nous opposons à ce projet.", "exampleEn": "We oppose this project.", "audio": "audio/b2.2/unit-05-indefinites-prefixes/vocab-s-opposer.mp3", "voice": "denise" },
+    { "id": "contester", "fr": "contester", "en": "to contest / dispute", "pos": "verb", "exampleFr": "Ils contestent le résultat.", "exampleEn": "They dispute the result.", "audio": "audio/b2.2/unit-05-indefinites-prefixes/vocab-contester.mp3", "voice": "henri" },
+    { "id": "reclamer-b22", "fr": "réclamer", "en": "to demand (a right)", "pos": "verb", "exampleFr": "Ils réclament l'égalité.", "exampleEn": "They demand equality.", "audio": "audio/b2.2/unit-05-indefinites-prefixes/vocab-reclamer-b22.mp3", "voice": "denise" },
+    { "id": "langue-regionale", "fr": "une langue régionale", "en": "a regional language", "pos": "noun", "exampleFr": "Le breton est une langue régionale.", "exampleEn": "Breton is a regional language.", "audio": "audio/b2.2/unit-05-indefinites-prefixes/vocab-langue-regionale.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "N'importe qui peut adhérer à l'association.", "en": "Anyone at all can join the association.", "audio": "audio/b2.2/unit-05-indefinites-prefixes/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "Quiconque connaît notre histoire comprendra notre demande.", "en": "Whoever knows our history will understand our request.", "audio": "audio/b2.2/unit-05-indefinites-prefixes/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "Il a refusé pour une raison quelconque.", "en": "He refused for some reason or other.", "audio": "audio/b2.2/unit-05-indefinites-prefixes/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "Tous les élus sont venus ; tout le monde a voté.", "en": "All the councillors came; everyone voted.", "audio": "audio/b2.2/unit-05-indefinites-prefixes/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "Cette pratique malhonnête est désormais illégale.", "en": "This dishonest practice is now illegal.", "audio": "audio/b2.2/unit-05-indefinites-prefixes/example-ex-5.mp3", "voice": "denise" },
+    { "id": "ex-6", "fr": "Mécontents, ils contestent la décision et réclament un vote.", "en": "Displeased, they dispute the decision and demand a vote.", "audio": "audio/b2.2/unit-05-indefinites-prefixes/example-ex-6.mp3", "voice": "henri" }
+  ]
+}

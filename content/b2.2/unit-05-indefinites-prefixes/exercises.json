@@ -1,0 +1,463 @@
+{
+  "schemaVersion": 1,
+  "unitId": "b2.2/unit-05-indefinites-prefixes",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Formal 'whoever': « ___ connaît notre histoire comprendra. »",
+      "options": [
+        {
+          "id": "a",
+          "text": "Quiconque"
+        },
+        {
+          "id": "b",
+          "text": "Quelconque"
+        },
+        {
+          "id": "c",
+          "text": "N'importe quoi"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Quiconque = whoever (formal subject pronoun). Quelconque is an adjective."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "« Un film très quelconque » means the film is…",
+      "options": [
+        {
+          "id": "a",
+          "text": "mediocre / ordinary"
+        },
+        {
+          "id": "b",
+          "text": "outstanding"
+        },
+        {
+          "id": "c",
+          "text": "unknown"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "After the noun with très, quelconque = unremarkable, mediocre."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Nonsense alert!",
+      "inputMode": "dropdown",
+      "template": "Ne l'écoute pas, il dit {{b1}} !",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "n'importe quoi"
+          ],
+          "options": [
+            "n'importe quoi",
+            "n'importe qui",
+            "quiconque"
+          ]
+        }
+      ],
+      "explanation": "Dire n'importe quoi = to talk nonsense."
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "All, everything or everyone?",
+      "inputMode": "dropdown",
+      "template": "{{b1}} les élus régionaux ont signé la déclaration.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "Tous"
+          ],
+          "options": [
+            "Tous",
+            "Tout",
+            "Tout le monde"
+          ]
+        }
+      ],
+      "explanation": "Before les + plural noun → tous: tous les élus."
+    },
+    {
+      "id": "ex-mc-3",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Build the opposite of « honnête »:",
+      "options": [
+        {
+          "id": "a",
+          "text": "malhonnête"
+        },
+        {
+          "id": "b",
+          "text": "inhonnête"
+        },
+        {
+          "id": "c",
+          "text": "déshonnête"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Honnête takes mal-: malhonnête. Each word has its own prefix — learn them as pairs."
+    },
+    {
+      "id": "ex-fb-3",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Build the opposite of « régulier » (one word).",
+      "inputMode": "typed",
+      "template": "Des horaires {{b1}} compliquent la vie des salariés.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "irréguliers",
+            "irreguliers"
+          ]
+        }
+      ],
+      "explanation": "Before r-, the prefix is ir-: irrégulier(s)."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its prefixed opposite.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "connu",
+          "right": "inconnu"
+        },
+        {
+          "id": "p2",
+          "left": "content",
+          "right": "mécontent"
+        },
+        {
+          "id": "p3",
+          "left": "agréable",
+          "right": "désagréable"
+        },
+        {
+          "id": "p4",
+          "left": "légal",
+          "right": "illégal"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"Anyone can join the association.\"",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "N'importe qui"
+        },
+        {
+          "id": "t2",
+          "text": "peut"
+        },
+        {
+          "id": "t3",
+          "text": "adhérer"
+        },
+        {
+          "id": "t4",
+          "text": "à"
+        },
+        {
+          "id": "t5",
+          "text": "l'association"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5"
+      ]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen to the council speech. What intensity of disagreement is this?",
+      "audio": "audio/b2.2/unit-05-indefinites-prefixes/listen-1.mp3",
+      "transcript": "Nous contestons cette décision malhonnête et nous réclamons un nouveau vote.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Strong: they dispute the decision and demand a new vote"
+        },
+        {
+          "id": "b",
+          "text": "Mild: they politely express a small doubt"
+        },
+        {
+          "id": "c",
+          "text": "None: they fully agree with the decision"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Contester + réclamer = opposition directe + revendication, the strong end of the scale."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read the open letter and answer both questions.",
+      "passageFr": "Quiconque aime nos régions le sait : nos langues régionales ne sont pas des folklores quelconques. Tout le monde peut apprendre le breton, à n'importe quel âge. Nous nous opposons donc à la fermeture des classes bilingues — une décision incompréhensible et, selon nos avocats, illégale. Nous réclamons son annulation.",
+      "passageEn": "Whoever loves our regions knows it: our regional languages are not just any folklore. Everyone can learn Breton, at any age. We therefore oppose the closure of the bilingual classes — an incomprehensible and, according to our lawyers, illegal decision. We demand its cancellation.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "What do the writers oppose?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The closure of bilingual classes"
+            },
+            {
+              "id": "b",
+              "text": "The teaching of Breton"
+            },
+            {
+              "id": "c",
+              "text": "Learning at any age"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        },
+        {
+          "id": "q2",
+          "prompt": "Which two prefixed opposites describe the decision?",
+          "options": [
+            {
+              "id": "a",
+              "text": "incompréhensible and illégale"
+            },
+            {
+              "id": "b",
+              "text": "malhonnête and désagréable"
+            },
+            {
+              "id": "c",
+              "text": "inconnue and irrégulière"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex-mc-4",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Any time at all: « Appelle-moi à ___ heure. »",
+      "options": [
+        {
+          "id": "a",
+          "text": "n'importe quelle"
+        },
+        {
+          "id": "b",
+          "text": "n'importe qui"
+        },
+        {
+          "id": "c",
+          "text": "quiconque"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Before a noun → n'importe quel(le): à n'importe quelle heure."
+    },
+    {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/b2.2/unit-05-indefinites-prefixes/example-ex-1.mp3",
+      "transcript": "N'importe qui peut adhérer à l'association.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Anyone at all can join the association."
+        },
+        {
+          "id": "b",
+          "text": "Whoever knows our history will understand our request."
+        },
+        {
+          "id": "c",
+          "text": "He refused for some reason or other."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « n'importe qui » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "anyone"
+        },
+        {
+          "id": "b",
+          "text": "anything / nonsense"
+        },
+        {
+          "id": "c",
+          "text": "whoever / anyone who"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "n'importe qui = anyone."
+    },
+    {
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "Il a donné une excuse {{b1}}.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "quelconque"
+          ]
+        }
+      ],
+      "explanation": "« Il a donné une excuse quelconque. » — some…or other / mediocre."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "tous / tout / tout le monde",
+          "right": "all / everything / everyone"
+        },
+        {
+          "id": "p2",
+          "left": "malhonnête",
+          "right": "dishonest"
+        },
+        {
+          "id": "p3",
+          "left": "inconnu(e)",
+          "right": "unknown"
+        },
+        {
+          "id": "p4",
+          "left": "mécontent(e)",
+          "right": "displeased"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “Whoever knows our history will understand our request.”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Quiconque"
+        },
+        {
+          "id": "t2",
+          "text": "connaît"
+        },
+        {
+          "id": "t3",
+          "text": "notre"
+        },
+        {
+          "id": "t4",
+          "text": "histoire"
+        },
+        {
+          "id": "t5",
+          "text": "comprendra"
+        },
+        {
+          "id": "t6",
+          "text": "notre"
+        },
+        {
+          "id": "t7",
+          "text": "demande"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7"
+      ]
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "N'importe qui peut adhérer à l'association.",
+      "targetEn": "Anyone at all can join the association.",
+      "audio": "audio/b2.2/unit-05-indefinites-prefixes/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "Il a refusé pour une raison quelconque.",
+      "targetEn": "He refused for some reason or other.",
+      "audio": "audio/b2.2/unit-05-indefinites-prefixes/example-ex-3.mp3"
+    }
+  ]
+}

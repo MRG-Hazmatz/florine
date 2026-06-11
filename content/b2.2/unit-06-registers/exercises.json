@@ -1,0 +1,472 @@
+{
+  "schemaVersion": 1,
+  "unitId": "b2.2/unit-06-registers",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Which triplet is ordered familier → courant → soutenu?",
+      "options": [
+        {
+          "id": "a",
+          "text": "bouquin → livre → ouvrage"
+        },
+        {
+          "id": "b",
+          "text": "ouvrage → bouquin → livre"
+        },
+        {
+          "id": "c",
+          "text": "livre → ouvrage → bouquin"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Bouquin (slang) → livre (neutral) → ouvrage (formal)."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "« J'sais pas, sa bagnole est naze. » — which register?",
+      "options": [
+        {
+          "id": "a",
+          "text": "familier"
+        },
+        {
+          "id": "b",
+          "text": "soutenu"
+        },
+        {
+          "id": "c",
+          "text": "courant"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Dropped ne (j'sais pas), bagnole, naze — all markers of spoken slang."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Rewrite for a formal letter.",
+      "inputMode": "dropdown",
+      "template": "En soutenu, « le boulot » devient {{b1}}.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "le labeur"
+          ],
+          "options": [
+            "le labeur",
+            "le taf",
+            "la bagnole"
+          ]
+        }
+      ],
+      "explanation": "Boulot (fam.) → travail (courant) → labeur (soutenu)."
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Formal antonym.",
+      "inputMode": "dropdown",
+      "template": "Le maire est hostile au projet ; son adjointe y est {{b1}}.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "favorable"
+          ],
+          "options": [
+            "favorable",
+            "opaque",
+            "belliqueuse"
+          ]
+        }
+      ],
+      "explanation": "Hostile ↔ favorable — the formal antonym pair."
+    },
+    {
+      "id": "ex-mc-3",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Why is « Si vous m'élisez, je serai aux petits oignons ! » funny in a campaign speech?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Slang clashes with the formal situation — a register mismatch"
+        },
+        {
+          "id": "b",
+          "text": "Onions are forbidden in politics"
+        },
+        {
+          "id": "c",
+          "text": "The grammar is wrong"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "The comic effect comes from familiar idiom inside a formal speech — register mismatch."
+    },
+    {
+      "id": "ex-fb-3",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Opposite of « abonder » (one word).",
+      "inputMode": "typed",
+      "template": "Les idées abondent, mais les moyens {{b1}}.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "manquent"
+          ]
+        }
+      ],
+      "explanation": "Abonder ↔ manquer: ideas abound, means are lacking."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each formal word to its antonym.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "belliqueux",
+          "right": "pacifique"
+        },
+        {
+          "id": "p2",
+          "left": "opaque",
+          "right": "transparent"
+        },
+        {
+          "id": "p3",
+          "left": "partiel",
+          "right": "total"
+        },
+        {
+          "id": "p4",
+          "left": "urbain",
+          "right": "rural"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"We ask you to publish this clarification.\"",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Nous"
+        },
+        {
+          "id": "t2",
+          "text": "vous"
+        },
+        {
+          "id": "t3",
+          "text": "prions"
+        },
+        {
+          "id": "t4",
+          "text": "de"
+        },
+        {
+          "id": "t5",
+          "text": "publier"
+        },
+        {
+          "id": "t6",
+          "text": "cette"
+        },
+        {
+          "id": "t7",
+          "text": "mise au point"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7"
+      ]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen. Which register, and how do you know?",
+      "audio": "audio/b2.2/unit-06-registers/listen-1.mp3",
+      "transcript": "Puis-je vous demander de rectifier ces propos dans votre prochaine édition ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Soutenu — inversion (puis-je) and formal vocabulary (rectifier, propos)"
+        },
+        {
+          "id": "b",
+          "text": "Familier — slang and dropped ne"
+        },
+        {
+          "id": "c",
+          "text": "Courant — neutral everyday phrasing"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Puis-je (inversion) + rectifier ces propos = textbook soutenu."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read the right-of-reply letter and answer both questions.",
+      "passageFr": "DROIT DE RÉPONSE — À la suite de votre article « Un quartier à l'abandon », nous tenons à rectifier plusieurs propos. Contrairement à vos affirmations, la gestion de notre association est transparente : nos comptes, loin d'être opaques, sont publiés chaque année. Le ton belliqueux de votre enquête nous a surpris ; notre réponse, elle, se veut pacifique. Nous vous prions de publier cette mise au point.",
+      "passageEn": "RIGHT OF REPLY — Following your article \"A neighbourhood abandoned\", we wish to set several statements straight. Contrary to your claims, our association's management is transparent: our accounts, far from opaque, are published every year. The warlike tone of your investigation surprised us; our reply intends to be peaceful. We ask you to publish this clarification.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "What do the writers say about their accounts?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Far from opaque — published every year"
+            },
+            {
+              "id": "b",
+              "text": "Secret, for members only"
+            },
+            {
+              "id": "c",
+              "text": "Lost in a fire"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        },
+        {
+          "id": "q2",
+          "prompt": "Which antonym pair structures the last argument?",
+          "options": [
+            {
+              "id": "a",
+              "text": "belliqueux ↔ pacifique"
+            },
+            {
+              "id": "b",
+              "text": "urbain ↔ rural"
+            },
+            {
+              "id": "c",
+              "text": "partiel ↔ total"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex-mc-4",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Your friend texts: « On va au ciné ? » You reply to your boss instead. Which version fits?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Accepteriez-vous de m'accompagner au cinéma ?"
+        },
+        {
+          "id": "b",
+          "text": "On va au ciné ou quoi ?"
+        },
+        {
+          "id": "c",
+          "text": "Ciné. Ouais ?"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "To a superior → soutenu: conditional + inversion, full word cinéma."
+    },
+    {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/b2.2/unit-06-registers/example-ex-1.mp3",
+      "transcript": "Ma bagnole est en panne — ma voiture ne démarre plus.",
+      "options": [
+        {
+          "id": "a",
+          "text": "My wheels broke down — my car won't start."
+        },
+        {
+          "id": "b",
+          "text": "May I ask you to correct these statements?"
+        },
+        {
+          "id": "c",
+          "text": "Ideas abound, but means are lacking."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « un registre de langue » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "a language register"
+        },
+        {
+          "id": "b",
+          "text": "informal / neutral / formal"
+        },
+        {
+          "id": "c",
+          "text": "a car"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "un registre de langue = a language register."
+    },
+    {
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "Nous tenons à {{b1}} ces propos.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "rectifier"
+          ]
+        }
+      ],
+      "explanation": "« Nous tenons à rectifier ces propos. » — to correct / set straight."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "un ouvrage (soutenu)",
+          "right": "a work / book"
+        },
+        {
+          "id": "p2",
+          "left": "belliqueux ↔ pacifique",
+          "right": "warlike ↔ peaceful"
+        },
+        {
+          "id": "p3",
+          "left": "hostile ↔ favorable",
+          "right": "hostile ↔ favourable"
+        },
+        {
+          "id": "p4",
+          "left": "opaque ↔ transparent",
+          "right": "opaque ↔ transparent"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “May I ask you to correct these statements? (formal)”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Puis-je"
+        },
+        {
+          "id": "t2",
+          "text": "vous"
+        },
+        {
+          "id": "t3",
+          "text": "demander"
+        },
+        {
+          "id": "t4",
+          "text": "de"
+        },
+        {
+          "id": "t5",
+          "text": "rectifier"
+        },
+        {
+          "id": "t6",
+          "text": "ces"
+        },
+        {
+          "id": "t7",
+          "text": "propos"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7"
+      ]
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "Ma bagnole est en panne — ma voiture ne démarre plus.",
+      "targetEn": "My wheels broke down — my car won't start. (two registers)",
+      "audio": "audio/b2.2/unit-06-registers/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "Les idées abondent, mais les moyens manquent.",
+      "targetEn": "Ideas abound, but means are lacking.",
+      "audio": "audio/b2.2/unit-06-registers/example-ex-3.mp3"
+    }
+  ]
+}

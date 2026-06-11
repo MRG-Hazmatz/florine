@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "b2.2/unit-06-registers",
+  "level": "b2.2",
+  "unitNumber": 6,
+  "slug": "unit-06-registers",
+  "title": "Registers of French",
+  "titleFr": "Les registres de langue ; les antonymes",
+  "cefrDescriptors": [
+    "Can recognise and switch between familier, courant and soutenu registers.",
+    "Can use formal antonym pairs in argued writing (droit de réponse)."
+  ],
+  "skills": ["reading", "listening", "writing", "speaking"],
+  "estimatedMinutes": 60,
+  "concept": "Second half of Singularités: French isn't one language but three stacked registers — and B2 means moving between them ON PURPOSE. The exam's writing task (a formal complaint, un droit de réponse) is register in action.\n\nLES TROIS REGISTRES:\n  • familier (friends, SMS): la bagnole, le boulot, un bouquin, les flics, ouais — grammar drops the ne (j'sais pas) and loves on\n  • courant (neutral, safe everywhere): la voiture, le travail, un livre, les policiers\n  • soutenu (formal letters, speeches, literature): l'automobile, le labeur, un ouvrage, les forces de l'ordre — grammar keeps inversion (Puis-je…?), nous over on, and the ne explétif\n\nThe triplets to own: bagnole/voiture/automobile · boulot/travail/labeur · bouquin/livre/ouvrage · flic/policier/force de l'ordre · gamin/enfant/chérubin.\nThe comic trap (the book's favourite): mixing registers — « Si vous m'élisez, je serai aux petits oignons ! » (slang in a campaign speech = instant laughter). Match the register to the situation, or the mismatch speaks louder than you.\n\nLES ANTONYMES SOUTENUS — formal writing flips ideas with elegant opposites:\n  belliqueux (warlike) ↔ pacifique · hostile ↔ favorable · opaque ↔ transparent · partiel ↔ total · urbain ↔ rural · augmenter ↔ diminuer · abonder ↔ manquer\n\nLE DROIT DE RÉPONSE — the formal reply to an article that wronged you, all in soutenu: « À la suite de votre article… nous tenons à rectifier… Contrairement à vos affirmations… Nous vous prions de publier cette mise au point. »\n\nPut it together — same complaint, two registers: (familier) « C'est n'importe quoi, votre article sur notre quartier ! » → (soutenu) « Votre enquête, loin d'être transparente, dresse de notre quartier un portrait hostile que nous contestons. »\n\nYour turn: take one familier sentence you'd text a friend and rewrite it in soutenu for a droit de réponse.",
+  "vocabulary": [
+    { "id": "registre", "fr": "un registre de langue", "en": "a language register", "pos": "noun", "exampleFr": "Adaptez le registre à la situation.", "exampleEn": "Adapt the register to the situation.", "audio": "audio/b2.2/unit-06-registers/vocab-registre.mp3", "voice": "denise" },
+    { "id": "familier", "fr": "familier / courant / soutenu", "en": "informal / neutral / formal", "pos": "adjective", "exampleFr": "« Bagnole » est familier, « automobile » soutenu.", "exampleEn": "'Bagnole' is informal; 'automobile' is formal.", "audio": "audio/b2.2/unit-06-registers/vocab-familier.mp3", "voice": "henri" },
+    { "id": "bagnole", "fr": "une bagnole (fam.) = une voiture", "en": "a car (slang)", "pos": "noun", "exampleFr": "Sa bagnole est encore en panne.", "exampleEn": "His car has broken down again.", "audio": "audio/b2.2/unit-06-registers/vocab-bagnole.mp3", "voice": "denise" },
+    { "id": "bouquin", "fr": "un bouquin (fam.) = un livre", "en": "a book (slang)", "pos": "noun", "exampleFr": "Prête-moi ce bouquin.", "exampleEn": "Lend me that book.", "audio": "audio/b2.2/unit-06-registers/vocab-bouquin.mp3", "voice": "henri" },
+    { "id": "ouvrage", "fr": "un ouvrage (soutenu)", "en": "a work / book (formal)", "pos": "noun", "exampleFr": "Un ouvrage de référence.", "exampleEn": "A reference work.", "audio": "audio/b2.2/unit-06-registers/vocab-ouvrage.mp3", "voice": "denise" },
+    { "id": "belliqueux", "fr": "belliqueux ↔ pacifique", "en": "warlike ↔ peaceful", "pos": "adjective", "exampleFr": "Un ton belliqueux, une réponse pacifique.", "exampleEn": "A warlike tone, a peaceful answer.", "audio": "audio/b2.2/unit-06-registers/vocab-belliqueux.mp3", "voice": "henri" },
+    { "id": "hostile", "fr": "hostile ↔ favorable", "en": "hostile ↔ favourable", "pos": "adjective", "exampleFr": "Le conseil est hostile au projet.", "exampleEn": "The council is hostile to the project.", "audio": "audio/b2.2/unit-06-registers/vocab-hostile.mp3", "voice": "denise" },
+    { "id": "opaque", "fr": "opaque ↔ transparent", "en": "opaque ↔ transparent", "pos": "adjective", "exampleFr": "Une gestion opaque inquiète les électeurs.", "exampleEn": "Opaque management worries voters.", "audio": "audio/b2.2/unit-06-registers/vocab-opaque.mp3", "voice": "henri" },
+    { "id": "abonder", "fr": "abonder ↔ manquer", "en": "to abound ↔ to be lacking", "pos": "verb", "exampleFr": "Les idées abondent, les moyens manquent.", "exampleEn": "Ideas abound; means are lacking.", "audio": "audio/b2.2/unit-06-registers/vocab-abonder.mp3", "voice": "denise" },
+    { "id": "droit-de-reponse", "fr": "un droit de réponse", "en": "a right of reply", "pos": "noun", "exampleFr": "Le maire a exigé un droit de réponse.", "exampleEn": "The mayor demanded a right of reply.", "audio": "audio/b2.2/unit-06-registers/vocab-droit-de-reponse.mp3", "voice": "henri" },
+    { "id": "rectifier", "fr": "rectifier", "en": "to correct / set straight", "pos": "verb", "exampleFr": "Nous tenons à rectifier ces propos.", "exampleEn": "We wish to set these statements straight.", "audio": "audio/b2.2/unit-06-registers/vocab-rectifier.mp3", "voice": "denise" },
+    { "id": "mise-au-point", "fr": "une mise au point", "en": "a clarification", "pos": "noun", "exampleFr": "Le journal publiera notre mise au point.", "exampleEn": "The paper will publish our clarification.", "audio": "audio/b2.2/unit-06-registers/vocab-mise-au-point.mp3", "voice": "henri" },
+    { "id": "propos", "fr": "des propos (m.)", "en": "remarks / statements", "pos": "noun", "exampleFr": "Ces propos ont choqué les lecteurs.", "exampleEn": "These remarks shocked the readers.", "audio": "audio/b2.2/unit-06-registers/vocab-propos.mp3", "voice": "denise" },
+    { "id": "ouais", "fr": "ouais (fam.) = oui", "en": "yeah (slang)", "pos": "interjection", "exampleFr": "Ouais, j'arrive !", "exampleEn": "Yeah, coming!", "audio": "audio/b2.2/unit-06-registers/vocab-ouais.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "Ma bagnole est en panne — ma voiture ne démarre plus.", "en": "My wheels broke down — my car won't start. (two registers)", "audio": "audio/b2.2/unit-06-registers/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "Puis-je vous demander de rectifier ces propos ?", "en": "May I ask you to correct these statements? (formal)", "audio": "audio/b2.2/unit-06-registers/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "Les idées abondent, mais les moyens manquent.", "en": "Ideas abound, but means are lacking.", "audio": "audio/b2.2/unit-06-registers/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "Contrairement à vos affirmations, notre gestion est transparente.", "en": "Contrary to your claims, our management is transparent.", "audio": "audio/b2.2/unit-06-registers/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "J'sais pas, demande aux flics du quartier.", "en": "Dunno — ask the local cops. (familier)", "audio": "audio/b2.2/unit-06-registers/example-ex-5.mp3", "voice": "denise" },
+    { "id": "ex-6", "fr": "Nous vous prions de publier cette mise au point.", "en": "We ask you to publish this clarification.", "audio": "audio/b2.2/unit-06-registers/example-ex-6.mp3", "voice": "henri" }
+  ]
+}
