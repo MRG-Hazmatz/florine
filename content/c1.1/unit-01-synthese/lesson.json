@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "c1.1/unit-01-synthese",
+  "level": "c1.1",
+  "unitNumber": 1,
+  "slug": "unit-01-synthese",
+  "title": "La Synthèse de Documents",
+  "titleFr": "Faire une synthèse de documents",
+  "cefrDescriptors": [
+    "Can produce an objective synthesis of several documents — the core DALF C1 written task.",
+    "Can identify a shared problématique and confront sources without copying or opining."
+  ],
+  "skills": ["reading", "listening", "writing", "speaking"],
+  "estimatedMinutes": 70,
+  "concept": "Welcome to C1 — DALF territory. Here the grammar wars are behind you; what's tested now is DISCOURSE: can you think in French, on paper, under rules? Unit one is the king of those rules: la synthèse de documents, worth a third of your DALF C1 written score.\n\nWHAT A SYNTHÈSE IS — one objective text (~200–240 words) built from two or three documents on the same theme. Three iron laws:\n  • OBJECTIVITY — your opinion appears NOWHERE. Not even a sneaky adverb.\n  • CONFRONTATION — never summarise doc 1 then doc 2; weave their ideas around shared questions.\n  • REFORMULATION — copying a sentence from the source is the deadliest sin. Same idea, your words.\n\nLA MÉTHODE — préparation:\n  1. Read/listen to everything once for the gist, once for notes.\n  2. Note essential ideas only (arguments, not examples).\n  3. Dégager la problématique commune — the one question all documents answer.\n  4. Build a two-part plan around aspects, not around documents.\n\nLa rédaction:\n  • Introduction: present the documents (nature, theme) + announce the problématique.\n  • Body: confront ideas using connectors — your entire B-level toolbox finally earns its keep.\n  • Conclusion: one or two sentences, strictly summarising. No opening of new questions, no opinion.\n\nLES PHRASES-OUTILS — the sentences examiners expect (learn them as vocabulary):\n  « Les deux documents traitent de… » · « La problématique commune est la suivante : … » · « L'auteur soulève la question de… » · « Contrairement au premier document, le second met en évidence… » · « Il ressort de ces documents que… » · « En guise de conclusion… »\n\nPut it together — a synthèse intro in miniature: « Ces deux articles traitent du télétravail. Tandis que le premier en souligne les bénéfices, le second en interroge les dérives. La problématique commune est la suivante : le travail à distance libère-t-il ou isole-t-il ? »\n\nYour turn: pick any two articles you've read recently (any language) and write, in French, their problématique commune in one sentence.",
+  "vocabulary": [
+    { "id": "synthese", "fr": "une synthèse", "en": "a synthesis", "pos": "noun", "exampleFr": "La synthèse confronte les documents.", "exampleEn": "The synthesis confronts the documents.", "audio": "audio/c1.1/unit-01-synthese/vocab-synthese.mp3", "voice": "denise" },
+    { "id": "problematique", "fr": "une problématique", "en": "a central question / issue", "pos": "noun", "exampleFr": "Dégagez la problématique commune.", "exampleEn": "Identify the shared central question.", "audio": "audio/c1.1/unit-01-synthese/vocab-problematique.mp3", "voice": "henri" },
+    { "id": "degager", "fr": "dégager", "en": "to draw out / identify", "pos": "verb", "exampleFr": "Dégagez les idées essentielles.", "exampleEn": "Draw out the essential ideas.", "audio": "audio/c1.1/unit-01-synthese/vocab-degager.mp3", "voice": "denise" },
+    { "id": "reformuler", "fr": "reformuler", "en": "to rephrase", "pos": "verb", "exampleFr": "Reformulez sans jamais copier.", "exampleEn": "Rephrase without ever copying.", "audio": "audio/c1.1/unit-01-synthese/vocab-reformuler.mp3", "voice": "henri" },
+    { "id": "confronter", "fr": "confronter", "en": "to confront / set against each other", "pos": "verb", "exampleFr": "Confrontez les points de vue.", "exampleEn": "Set the viewpoints against each other.", "audio": "audio/c1.1/unit-01-synthese/vocab-confronter.mp3", "voice": "denise" },
+    { "id": "plan", "fr": "un plan en deux parties", "en": "a two-part outline", "pos": "noun", "exampleFr": "Construisez un plan en deux parties.", "exampleEn": "Build a two-part outline.", "audio": "audio/c1.1/unit-01-synthese/vocab-plan.mp3", "voice": "henri" },
+    { "id": "objectivite", "fr": "l'objectivité (f.)", "en": "objectivity", "pos": "noun", "exampleFr": "L'objectivité est la règle d'or.", "exampleEn": "Objectivity is the golden rule.", "audio": "audio/c1.1/unit-01-synthese/vocab-objectivite.mp3", "voice": "denise" },
+    { "id": "enjeu", "fr": "un enjeu", "en": "a stake / what is at issue", "pos": "noun", "exampleFr": "Les enjeux du débat sont majeurs.", "exampleEn": "The stakes of the debate are major.", "audio": "audio/c1.1/unit-01-synthese/vocab-enjeu.mp3", "voice": "henri" },
+    { "id": "aborder", "fr": "aborder", "en": "to tackle (a topic)", "pos": "verb", "exampleFr": "Les auteurs abordent le même thème.", "exampleEn": "The authors tackle the same theme.", "audio": "audio/c1.1/unit-01-synthese/vocab-aborder.mp3", "voice": "denise" },
+    { "id": "traiter-de", "fr": "traiter de", "en": "to deal with", "pos": "verb", "exampleFr": "Les deux documents traitent du télétravail.", "exampleEn": "Both documents deal with remote work.", "audio": "audio/c1.1/unit-01-synthese/vocab-traiter-de.mp3", "voice": "henri" },
+    { "id": "soulever", "fr": "soulever (une question)", "en": "to raise (a question)", "pos": "verb", "exampleFr": "L'auteur soulève une question délicate.", "exampleEn": "The author raises a delicate question.", "audio": "audio/c1.1/unit-01-synthese/vocab-soulever.mp3", "voice": "denise" },
+    { "id": "mettre-en-evidence", "fr": "mettre en évidence", "en": "to highlight / bring out", "pos": "expression", "exampleFr": "Le second document met en évidence les risques.", "exampleEn": "The second document highlights the risks.", "audio": "audio/c1.1/unit-01-synthese/vocab-mettre-en-evidence.mp3", "voice": "henri" },
+    { "id": "il-ressort", "fr": "il ressort de … que", "en": "it emerges from … that", "pos": "expression", "exampleFr": "Il ressort de ces documents que rien n'est tranché.", "exampleEn": "It emerges from these documents that nothing is settled.", "audio": "audio/c1.1/unit-01-synthese/vocab-il-ressort.mp3", "voice": "denise" },
+    { "id": "en-guise-de", "fr": "en guise de conclusion", "en": "by way of conclusion", "pos": "expression", "exampleFr": "En guise de conclusion, rappelons l'essentiel.", "exampleEn": "By way of conclusion, let us recall the essentials.", "audio": "audio/c1.1/unit-01-synthese/vocab-en-guise-de.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "Les deux documents traitent de la révolution numérique.", "en": "Both documents deal with the digital revolution.", "audio": "audio/c1.1/unit-01-synthese/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "La problématique commune est la suivante : la technologie nous libère-t-elle ?", "en": "The shared question is this: does technology free us?", "audio": "audio/c1.1/unit-01-synthese/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "L'auteur soulève la question de la dépendance aux écrans.", "en": "The author raises the question of screen dependency.", "audio": "audio/c1.1/unit-01-synthese/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "Contrairement au premier document, le second met en évidence les dérives.", "en": "Unlike the first document, the second highlights the excesses.", "audio": "audio/c1.1/unit-01-synthese/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "Il ressort de ces documents que le débat reste ouvert.", "en": "It emerges from these documents that the debate remains open.", "audio": "audio/c1.1/unit-01-synthese/example-ex-5.mp3", "voice": "denise" },
+    { "id": "ex-6", "fr": "En guise de conclusion, les auteurs appellent à la prudence.", "en": "By way of conclusion, the authors call for caution.", "audio": "audio/c1.1/unit-01-synthese/example-ex-6.mp3", "voice": "henri" }
+  ]
+}

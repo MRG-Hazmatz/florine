@@ -1,0 +1,422 @@
+{
+  "schemaVersion": 1,
+  "unitId": "c1.1/unit-01-synthese",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Iron law #1: where does YOUR opinion belong in a synthèse?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nowhere — total objectivity"
+        },
+        {
+          "id": "b",
+          "text": "In the conclusion only"
+        },
+        {
+          "id": "c",
+          "text": "In the introduction, briefly"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "The synthèse is strictly objective — opinions belong to the essai, the other DALF task."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "How should the body of a synthèse be organised?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Around shared aspects, confronting the documents' ideas"
+        },
+        {
+          "id": "b",
+          "text": "Document 1 summarised, then document 2 summarised"
+        },
+        {
+          "id": "c",
+          "text": "In chronological order of publication"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Confrontation, not succession: weave the sources around themes."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "The phrase-outil for the central question.",
+      "inputMode": "dropdown",
+      "template": "La {{b1}} commune est la suivante : faut-il encadrer l'IA ?",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "problématique"
+          ],
+          "options": [
+            "problématique",
+            "bibliographie",
+            "publicité"
+          ]
+        }
+      ],
+      "explanation": "La problématique = the one question all the documents answer."
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Highlighting a contrast between sources.",
+      "inputMode": "dropdown",
+      "template": "Contrairement au premier document, le second {{b1}} les risques.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "met en évidence"
+          ],
+          "options": [
+            "met en évidence",
+            "passe sous silence que",
+            "est d'accord"
+          ]
+        }
+      ],
+      "explanation": "Mettre en évidence = to highlight — a core synthèse verb."
+    },
+    {
+      "id": "ex-mc-3",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "A sentence from the source text fits your synthèse perfectly. You…",
+      "options": [
+        {
+          "id": "a",
+          "text": "rephrase the idea entirely in your own words"
+        },
+        {
+          "id": "b",
+          "text": "copy it — it says it best"
+        },
+        {
+          "id": "c",
+          "text": "copy it but add quotation marks"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Reformulation is mandatory; copying (even quoted) is penalised in a synthèse."
+    },
+    {
+      "id": "ex-fb-3",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "The emerging-conclusion phrase (one word).",
+      "inputMode": "typed",
+      "template": "Il {{b1}} de ces documents que le débat reste ouvert.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "ressort"
+          ]
+        }
+      ],
+      "explanation": "Il ressort de X que… = it emerges from X that…"
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each synthèse verb to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "dégager",
+          "right": "to draw out"
+        },
+        {
+          "id": "p2",
+          "left": "soulever",
+          "right": "to raise (a question)"
+        },
+        {
+          "id": "p3",
+          "left": "confronter",
+          "right": "to set against each other"
+        },
+        {
+          "id": "p4",
+          "left": "aborder",
+          "right": "to tackle"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"Both documents deal with remote work.\"",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Les"
+        },
+        {
+          "id": "t2",
+          "text": "deux"
+        },
+        {
+          "id": "t3",
+          "text": "documents"
+        },
+        {
+          "id": "t4",
+          "text": "traitent"
+        },
+        {
+          "id": "t5",
+          "text": "du"
+        },
+        {
+          "id": "t6",
+          "text": "télétravail"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen to this synthèse introduction. What does it announce?",
+      "audio": "audio/c1.1/unit-01-synthese/listen-1.mp3",
+      "transcript": "Ces deux articles traitent du télétravail ; la problématique commune est la suivante : le travail à distance libère-t-il ou isole-t-il ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Two articles on remote work, asking whether it frees or isolates"
+        },
+        {
+          "id": "b",
+          "text": "One article praising office life"
+        },
+        {
+          "id": "c",
+          "text": "The speaker's personal opinion on working from home"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "A model intro: documents presented + problématique announced, zero opinion."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read this mini-synthèse and answer both questions.",
+      "passageFr": "Ces deux documents abordent l'intelligence artificielle à l'école. Le premier, un article de presse, met en évidence les gains de temps pour les enseignants ; le second, un entretien avec une sociologue, soulève au contraire la question de la dépendance des élèves. Il ressort de cette confrontation que l'outil ne dispense pas de la pédagogie : les deux auteurs, chacun à sa manière, appellent à un encadrement réfléchi.",
+      "passageEn": "These two documents tackle artificial intelligence at school. The first, a press article, highlights time savings for teachers; the second, an interview with a sociologist, raises on the contrary the question of pupils' dependency. It emerges from this confrontation that the tool does not replace pedagogy: both authors, each in their own way, call for thoughtful regulation.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "Why is this a proper synthèse body (not two summaries)?",
+          "options": [
+            {
+              "id": "a",
+              "text": "It confronts the two sources around one question"
+            },
+            {
+              "id": "b",
+              "text": "It quotes both documents at length"
+            },
+            {
+              "id": "c",
+              "text": "It gives the writer's verdict on AI"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        },
+        {
+          "id": "q2",
+          "prompt": "What shared call do both authors make?",
+          "options": [
+            {
+              "id": "a",
+              "text": "For thoughtful regulation of the tool"
+            },
+            {
+              "id": "b",
+              "text": "For banning AI from schools"
+            },
+            {
+              "id": "c",
+              "text": "For replacing teachers with AI"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex-mc-4",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Order the préparation steps correctly:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Read all → note essential ideas → dégager la problématique → build the plan"
+        },
+        {
+          "id": "b",
+          "text": "Build the plan → read all → copy good sentences → add opinion"
+        },
+        {
+          "id": "c",
+          "text": "Dégager la problématique → read one document → write immediately"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Understanding precedes structure: read, note, problématique, plan — then write."
+    },
+    {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/c1.1/unit-01-synthese/example-ex-1.mp3",
+      "transcript": "Les deux documents traitent de la révolution numérique.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Both documents deal with the digital revolution."
+        },
+        {
+          "id": "b",
+          "text": "The shared question is this: does technology free us?"
+        },
+        {
+          "id": "c",
+          "text": "The author raises the question of screen dependency."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « une synthèse » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "a synthesis"
+        },
+        {
+          "id": "b",
+          "text": "a central question / issue"
+        },
+        {
+          "id": "c",
+          "text": "to draw out / identify"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "une synthèse = a synthesis."
+    },
+    {
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "La {{b1}} confronte les documents.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "synthèse"
+          ]
+        }
+      ],
+      "explanation": "« La synthèse confronte les documents. » — a synthesis."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "confronter",
+          "right": "to confront / set against each other"
+        },
+        {
+          "id": "p2",
+          "left": "un plan en deux parties",
+          "right": "a two-part outline"
+        },
+        {
+          "id": "p3",
+          "left": "l'objectivité (f.)",
+          "right": "objectivity"
+        },
+        {
+          "id": "p4",
+          "left": "un enjeu",
+          "right": "a stake / what is at issue"
+        }
+      ]
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "Les deux documents traitent de la révolution numérique.",
+      "targetEn": "Both documents deal with the digital revolution.",
+      "audio": "audio/c1.1/unit-01-synthese/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "L'auteur soulève la question de la dépendance aux écrans.",
+      "targetEn": "The author raises the question of screen dependency.",
+      "audio": "audio/c1.1/unit-01-synthese/example-ex-3.mp3"
+    }
+  ]
+}

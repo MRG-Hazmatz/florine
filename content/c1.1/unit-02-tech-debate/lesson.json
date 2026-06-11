@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "c1.1/unit-02-tech-debate",
+  "level": "c1.1",
+  "unitNumber": 2,
+  "slug": "unit-02-tech-debate",
+  "title": "Machines & Men: the Digital Debate",
+  "titleFr": "Des machines et des hommes",
+  "cefrDescriptors": [
+    "Can follow and reframe the public debate on technology with C1-register vocabulary.",
+    "Can compare how different media treat the same subject."
+  ],
+  "skills": ["reading", "listening", "writing", "speaking"],
+  "estimatedMinutes": 70,
+  "concept": "The theme half of Dossier 1: the digital revolution, told in three acts — c'était hier (the visionaries who dreamed the Internet), réalités d'aujourd'hui (the mirages of universal communication), et demain ? (la pensée Google). At C1 the new muscle is REGISTER: saying 'technology changes things' like an editorialist, not a tourist.\n\nTHE C1 VERB UPGRADE — six verbs that elevate any tech sentence:\n  • susciter (to give rise to): L'essor du numérique a suscité des débats inédits.\n  • s'emparer de (to seize on): Les médias se sont emparés de la question.\n  • prôner (to advocate): Certains prônent l'innovation à tout prix.\n  • redouter (to dread): D'autres en redoutent les dérives.\n  • relever de (to belong to the realm of): Ce rêve relève-t-il du mirage ?\n  • s'interroger sur (to question): Les chercheurs s'interrogent sur nos usages.\n\nTHE NOUN BANK: une avancée (a breakthrough), une mutation (a deep transformation), l'essor (m., the rise), un enjeu éthique, une dérive (an excess/drift), la vulgarisation scientifique (popular science — making science accessible), le virtuel, un mirage, un usage, inédit (unprecedented — adjective worth gold).\n\nCOMPARING MEDIA TREATMENTS — the dossier's skill: the same event reads differently in a news article (factual), a chronique (personal voice), and a blog (informal). Ask of any document: who speaks? to whom? with what intention — informer, convaincre, divertir ?\n\nPut it together like a chronique opener: « La vulgarisation scientifique connaît un essor inédit : les médias se sont emparés de chaque avancée, suscitant autant d'enthousiasme que de méfiance. Faut-il prôner cette curiosité nouvelle ou en redouter les dérives ? La question, désormais, relève du débat public. »\n\nYour turn: one C1 sentence on a technology you use daily — one verb from the bank, one noun from the bank, zero 'c'est intéressant'.",
+  "vocabulary": [
+    { "id": "susciter", "fr": "susciter", "en": "to give rise to / spark", "pos": "verb", "exampleFr": "L'annonce a suscité un vif débat.", "exampleEn": "The announcement sparked a lively debate.", "audio": "audio/c1.1/unit-02-tech-debate/vocab-susciter.mp3", "voice": "denise" },
+    { "id": "s-emparer", "fr": "s'emparer de", "en": "to seize (on)", "pos": "verb", "exampleFr": "Les médias se sont emparés de l'affaire.", "exampleEn": "The media seized on the affair.", "audio": "audio/c1.1/unit-02-tech-debate/vocab-s-emparer.mp3", "voice": "henri" },
+    { "id": "proner", "fr": "prôner", "en": "to advocate", "pos": "verb", "exampleFr": "Elle prône un usage raisonné des écrans.", "exampleEn": "She advocates reasoned screen use.", "audio": "audio/c1.1/unit-02-tech-debate/vocab-proner.mp3", "voice": "denise" },
+    { "id": "redouter", "fr": "redouter", "en": "to dread / fear", "pos": "verb", "exampleFr": "Beaucoup redoutent les dérives du virtuel.", "exampleEn": "Many dread the excesses of the virtual.", "audio": "audio/c1.1/unit-02-tech-debate/vocab-redouter.mp3", "voice": "henri" },
+    { "id": "relever-de", "fr": "relever de", "en": "to belong to the realm of", "pos": "verb", "exampleFr": "Cette promesse relève du mirage.", "exampleEn": "This promise belongs to the realm of mirage.", "audio": "audio/c1.1/unit-02-tech-debate/vocab-relever-de.mp3", "voice": "denise" },
+    { "id": "s-interroger", "fr": "s'interroger sur", "en": "to question / wonder about", "pos": "verb", "exampleFr": "Les chercheurs s'interrogent sur nos usages.", "exampleEn": "Researchers question our usage habits.", "audio": "audio/c1.1/unit-02-tech-debate/vocab-s-interroger.mp3", "voice": "henri" },
+    { "id": "avancee", "fr": "une avancée", "en": "a breakthrough", "pos": "noun", "exampleFr": "Une avancée majeure en médecine.", "exampleEn": "A major breakthrough in medicine.", "audio": "audio/c1.1/unit-02-tech-debate/vocab-avancee.mp3", "voice": "denise" },
+    { "id": "mutation", "fr": "une mutation", "en": "a deep transformation", "pos": "noun", "exampleFr": "Le travail connaît une mutation profonde.", "exampleEn": "Work is undergoing a deep transformation.", "audio": "audio/c1.1/unit-02-tech-debate/vocab-mutation.mp3", "voice": "henri" },
+    { "id": "essor", "fr": "l'essor (m.)", "en": "the rise / rapid growth", "pos": "noun", "exampleFr": "L'essor du numérique semble sans limite.", "exampleEn": "The rise of digital seems limitless.", "audio": "audio/c1.1/unit-02-tech-debate/vocab-essor.mp3", "voice": "denise" },
+    { "id": "derive", "fr": "une dérive", "en": "an excess / a drift", "pos": "noun", "exampleFr": "Les dérives des réseaux inquiètent.", "exampleEn": "The excesses of social networks worry people.", "audio": "audio/c1.1/unit-02-tech-debate/vocab-derive.mp3", "voice": "henri" },
+    { "id": "vulgarisation", "fr": "la vulgarisation scientifique", "en": "popular science (faux ami!)", "pos": "noun", "exampleFr": "La vulgarisation rend la science accessible.", "exampleEn": "Popularisation makes science accessible.", "audio": "audio/c1.1/unit-02-tech-debate/vocab-vulgarisation.mp3", "voice": "denise" },
+    { "id": "inedit", "fr": "inédit(e)", "en": "unprecedented", "pos": "adjective", "exampleFr": "Une situation inédite dans l'histoire.", "exampleEn": "An unprecedented situation in history.", "audio": "audio/c1.1/unit-02-tech-debate/vocab-inedit.mp3", "voice": "henri" },
+    { "id": "mirage", "fr": "un mirage", "en": "a mirage / illusion", "pos": "noun", "exampleFr": "La communication universelle : un mirage ?", "exampleEn": "Universal communication: a mirage?", "audio": "audio/c1.1/unit-02-tech-debate/vocab-mirage.mp3", "voice": "denise" },
+    { "id": "usage", "fr": "un usage", "en": "a use / practice", "pos": "noun", "exampleFr": "Nos usages numériques évoluent vite.", "exampleEn": "Our digital practices evolve fast.", "audio": "audio/c1.1/unit-02-tech-debate/vocab-usage.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "L'essor du numérique a suscité des débats inédits.", "en": "The rise of digital has sparked unprecedented debates.", "audio": "audio/c1.1/unit-02-tech-debate/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "Certains prônent l'innovation, d'autres en redoutent les dérives.", "en": "Some advocate innovation; others dread its excesses.", "audio": "audio/c1.1/unit-02-tech-debate/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "Les médias se sont emparés de la moindre avancée.", "en": "The media seized on the slightest breakthrough.", "audio": "audio/c1.1/unit-02-tech-debate/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "La vulgarisation rend la science accessible au plus grand nombre.", "en": "Popularisation makes science accessible to the many.", "audio": "audio/c1.1/unit-02-tech-debate/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "Le rêve d'une communication universelle relève-t-il du mirage ?", "en": "Does the dream of universal communication belong to the realm of mirage?", "audio": "audio/c1.1/unit-02-tech-debate/example-ex-5.mp3", "voice": "denise" },
+    { "id": "ex-6", "fr": "Cette mutation soulève des enjeux éthiques majeurs.", "en": "This transformation raises major ethical stakes.", "audio": "audio/c1.1/unit-02-tech-debate/example-ex-6.mp3", "voice": "henri" }
+  ]
+}

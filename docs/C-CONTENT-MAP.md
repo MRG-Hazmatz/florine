@@ -26,8 +26,8 @@ Status: ✅ built · 🔨 in progress · ⬜ planned
 ## c1.1 — Partie 1 *Changements* (D1–4)
 | # | Module | Dossier | Technique / focus | Status |
 |---|---|---|---|---|
-| 1 | Tech & society: la synthèse orale | D1 *Des machines et des hommes* | faire une synthèse de documents oraux; vulgarisation scientifique | ⬜ |
-| 2 | Reading the media on tech | D1 | comparer des traitements médiatiques; lexique du numérique | ⬜ |
+| 1 | Tech & society: la synthèse orale | D1 *Des machines et des hommes* | faire une synthèse de documents oraux; vulgarisation scientifique | ✅ c1.1/unit-01 |
+| 2 | Reading the media on tech | D1 | comparer des traitements médiatiques; lexique du numérique | ✅ c1.1/unit-02 |
 | 3 | Generations: l'exposé | D2 *Générations* | faire un exposé à partir de documents écrits | ⬜ |
 | 4 | Family, education & polemic | D2 | analyser un texte polémique; comparaisons interculturelles | ⬜ |
 | 5 | Work & social ladder: le résumé | D3 *Socialement vôtre* | faire un résumé de texte; allusions et implicites | ⬜ |

@@ -1,0 +1,468 @@
+{
+  "schemaVersion": 1,
+  "unitId": "c1.1/unit-02-tech-debate",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "C1 register: « L'annonce a ___ un vif débat. »",
+      "options": [
+        {
+          "id": "a",
+          "text": "suscité"
+        },
+        {
+          "id": "b",
+          "text": "fait"
+        },
+        {
+          "id": "c",
+          "text": "donné"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Susciter un débat — the precise C1 verb where B1 says 'faire'."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "« La vulgarisation scientifique » means…",
+      "options": [
+        {
+          "id": "a",
+          "text": "making science accessible to the public"
+        },
+        {
+          "id": "b",
+          "text": "vulgar, rude science"
+        },
+        {
+          "id": "c",
+          "text": "fake science"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "A classic faux ami: vulgarisation = popularisation, nothing vulgar about it."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Advocate or dread?",
+      "inputMode": "dropdown",
+      "template": "Certains {{b1}} l'innovation, d'autres en redoutent les dérives.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "prônent"
+          ],
+          "options": [
+            "prônent",
+            "redoutent",
+            "relèvent"
+          ]
+        }
+      ],
+      "explanation": "Prôner = to advocate — the counterweight to redouter in balanced argument."
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "The media grab a story.",
+      "inputMode": "dropdown",
+      "template": "Les médias se sont {{b1}} de la question.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "emparés"
+          ],
+          "options": [
+            "emparés",
+            "interrogés",
+            "suscités"
+          ]
+        }
+      ],
+      "explanation": "S'emparer de = to seize on: les médias se sont emparés de…"
+    },
+    {
+      "id": "ex-mc-3",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "To compare media treatments of one event, the C1 reflex is to ask…",
+      "options": [
+        {
+          "id": "a",
+          "text": "Who speaks, to whom, with what intention?"
+        },
+        {
+          "id": "b",
+          "text": "Which article is longest?"
+        },
+        {
+          "id": "c",
+          "text": "Which has the best photos?"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Source analysis: énonciateur, destinataire, intention (informer / convaincre / divertir)."
+    },
+    {
+      "id": "ex-fb-3",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Unprecedented (one word).",
+      "inputMode": "typed",
+      "template": "Nous vivons une situation {{b1}} dans l'histoire des techniques.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "inédite",
+            "inedite"
+          ]
+        }
+      ],
+      "explanation": "Inédit(e) = unprecedented — agrees with situation: inédite."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each C1 noun to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "une avancée",
+          "right": "a breakthrough"
+        },
+        {
+          "id": "p2",
+          "left": "l'essor",
+          "right": "the rapid rise"
+        },
+        {
+          "id": "p3",
+          "left": "une dérive",
+          "right": "an excess"
+        },
+        {
+          "id": "p4",
+          "left": "une mutation",
+          "right": "a deep transformation"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"This transformation raises major stakes.\"",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Cette"
+        },
+        {
+          "id": "t2",
+          "text": "mutation"
+        },
+        {
+          "id": "t3",
+          "text": "soulève"
+        },
+        {
+          "id": "t4",
+          "text": "des"
+        },
+        {
+          "id": "t5",
+          "text": "enjeux"
+        },
+        {
+          "id": "t6",
+          "text": "majeurs"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen to the chronique opener. What double movement does it describe?",
+      "audio": "audio/c1.1/unit-02-tech-debate/listen-1.mp3",
+      "transcript": "Chaque avancée du numérique suscite autant d'enthousiasme que de méfiance.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Every digital breakthrough sparks as much enthusiasm as distrust"
+        },
+        {
+          "id": "b",
+          "text": "Digital progress has stopped entirely"
+        },
+        {
+          "id": "c",
+          "text": "Everyone agrees the internet is harmless"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "« autant d'enthousiasme que de méfiance » — the balanced C1 frame."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read this chronique extract and answer both questions.",
+      "passageFr": "On nous promettait la communication universelle ; nous voici sommés de répondre à des messages que personne n'a vraiment écrits. L'essor des assistants numériques relève moins de l'avancée que de la mutation : ce ne sont plus nos outils qui changent, ce sont nos usages — et peut-être nos pensées. Les optimistes prônent l'adaptation ; je m'interroge, quant à moi, sur ce que nous abandonnons en chemin.",
+      "passageEn": "We were promised universal communication; here we are, ordered to answer messages nobody really wrote. The rise of digital assistants is less a breakthrough than a transformation: it is no longer our tools that change, but our practices — and perhaps our thoughts. Optimists advocate adaptation; as for me, I wonder what we abandon along the way.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "What distinction does the writer draw?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Less a breakthrough (avancée) than a deep transformation (mutation)"
+            },
+            {
+              "id": "b",
+              "text": "Between cheap and expensive assistants"
+            },
+            {
+              "id": "c",
+              "text": "Between French and American technology"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        },
+        {
+          "id": "q2",
+          "prompt": "This text is a chronique, not a news article, because…",
+          "options": [
+            {
+              "id": "a",
+              "text": "a personal voice questions and takes position (je m'interroge, quant à moi)"
+            },
+            {
+              "id": "b",
+              "text": "it contains numbers and dates"
+            },
+            {
+              "id": "c",
+              "text": "it has no verbs"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex-mc-4",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "« Cette promesse ___ du mirage. » (belongs to the realm of)",
+      "options": [
+        {
+          "id": "a",
+          "text": "relève"
+        },
+        {
+          "id": "b",
+          "text": "soulève"
+        },
+        {
+          "id": "c",
+          "text": "s'empare"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Relever de = to belong to the realm of: cette promesse relève du mirage."
+    },
+    {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/c1.1/unit-02-tech-debate/example-ex-1.mp3",
+      "transcript": "L'essor du numérique a suscité des débats inédits.",
+      "options": [
+        {
+          "id": "a",
+          "text": "The rise of digital has sparked unprecedented debates."
+        },
+        {
+          "id": "b",
+          "text": "Some advocate innovation; others dread its excesses."
+        },
+        {
+          "id": "c",
+          "text": "The media seized on the slightest breakthrough."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « susciter » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "to give rise to / spark"
+        },
+        {
+          "id": "b",
+          "text": "to seize"
+        },
+        {
+          "id": "c",
+          "text": "to advocate"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "susciter = to give rise to / spark."
+    },
+    {
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "Une {{b1}} majeure en médecine.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "avancée"
+          ]
+        }
+      ],
+      "explanation": "« Une avancée majeure en médecine. » — a breakthrough."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "relever de",
+          "right": "to belong to the realm of"
+        },
+        {
+          "id": "p2",
+          "left": "s'interroger sur",
+          "right": "to question / wonder about"
+        },
+        {
+          "id": "p3",
+          "left": "une avancée",
+          "right": "a breakthrough"
+        },
+        {
+          "id": "p4",
+          "left": "une mutation",
+          "right": "a deep transformation"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “This transformation raises major ethical stakes.”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Cette"
+        },
+        {
+          "id": "t2",
+          "text": "mutation"
+        },
+        {
+          "id": "t3",
+          "text": "soulève"
+        },
+        {
+          "id": "t4",
+          "text": "des"
+        },
+        {
+          "id": "t5",
+          "text": "enjeux"
+        },
+        {
+          "id": "t6",
+          "text": "éthiques"
+        },
+        {
+          "id": "t7",
+          "text": "majeurs"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7"
+      ]
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "L'essor du numérique a suscité des débats inédits.",
+      "targetEn": "The rise of digital has sparked unprecedented debates.",
+      "audio": "audio/c1.1/unit-02-tech-debate/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "Les médias se sont emparés de la moindre avancée.",
+      "targetEn": "The media seized on the slightest breakthrough.",
+      "audio": "audio/c1.1/unit-02-tech-debate/example-ex-3.mp3"
+    }
+  ]
+}
