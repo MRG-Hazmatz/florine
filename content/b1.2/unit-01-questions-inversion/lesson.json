@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "b1.2/unit-01-questions-inversion",
+  "level": "b1.2",
+  "unitNumber": 1,
+  "slug": "unit-01-questions-inversion",
+  "title": "Questions & Inversion",
+  "titleFr": "L'interrogation et la question avec inversion",
+  "cefrDescriptors": [
+    "Can conduct a simple interview, choosing the right question register.",
+    "Can build formal questions with inversion, including with noun subjects and the euphonic -t-."
+  ],
+  "skills": ["reading", "listening", "writing", "speaking"],
+  "estimatedMinutes": 55,
+  "concept": "Welcome to b1.2 — Dossier 6 is culture: films, museums, celebrity interviews. And interviews run on questions. French has three registers for the same question, and B1 means commanding all three:\n  • intonation (spoken): Vous aimez le cinéma ?\n  • est-ce que (neutral): Est-ce que vous aimez le cinéma ?\n  • inversion (formal / written / journalism): Aimez-vous le cinéma ?\n\nL'INVERSION — the journalist's register. Verb first, subject pronoun after, joined by a hyphen: Aimez-vous… ? · Avez-vous commencé… ? Three refinements make it B1:\n  • a NOUN subject stays put, then is repeated as a pronoun: Depuis quand les femmes ont-elles le droit de vote ? · Avec quel ami Van Gogh s'est-il disputé ?\n  • the euphonic -t-: when the verb ends in a vowel before il/elle/on, insert -t- to pronounce it: Quel événement le 14 juillet célèbre-t-il ? · Que mange-t-elle ?\n  • in compound tenses, only the auxiliary inverts: Combien d'Oscars le film a-t-il remportés ?\n\nQuestion words stack onto the front: quel/quelle/quels/quelles (agreeing!), depuis quand, pourquoi, comment, combien de.\n\nThe interview kit: une interview (media) vs un entretien (formal, e.g. job), poser une question (never « demander une question »!), répondre à, une émission (a programme), remporter un prix (to win an award), un métier (a profession), célèbre (famous).\n\nPut it together like a journalist meeting a star: « Depuis quand faites-vous ce métier ? Pourquoi avez-vous choisi le cinéma ? Quel prix votre film a-t-il remporté ? »\n\nYour turn: pick a person you admire and write three inversion questions for them — one simple, one with a noun subject (…ont-ils / a-t-elle), one needing the -t-.",
+  "vocabulary": [
+    { "id": "interview", "fr": "une interview", "en": "an interview (media)", "pos": "noun", "exampleFr": "L'acteur donne une interview.", "exampleEn": "The actor is giving an interview.", "audio": "audio/b1.2/unit-01-questions-inversion/vocab-interview.mp3", "voice": "denise" },
+    { "id": "entretien", "fr": "un entretien", "en": "an interview (formal, job)", "pos": "noun", "exampleFr": "J'ai un entretien demain matin.", "exampleEn": "I have an interview tomorrow morning.", "audio": "audio/b1.2/unit-01-questions-inversion/vocab-entretien.mp3", "voice": "henri" },
+    { "id": "poser-une-question", "fr": "poser une question", "en": "to ask a question", "pos": "verb", "exampleFr": "Je peux vous poser une question ?", "exampleEn": "May I ask you a question?", "audio": "audio/b1.2/unit-01-questions-inversion/vocab-poser-une-question.mp3", "voice": "denise" },
+    { "id": "repondre", "fr": "répondre à", "en": "to answer", "pos": "verb", "exampleFr": "Elle répond à toutes les questions.", "exampleEn": "She answers all the questions.", "audio": "audio/b1.2/unit-01-questions-inversion/vocab-repondre.mp3", "voice": "henri" },
+    { "id": "emission", "fr": "une émission", "en": "a (TV/radio) programme", "pos": "noun", "exampleFr": "Cette émission passe le soir.", "exampleEn": "This programme is on in the evening.", "audio": "audio/b1.2/unit-01-questions-inversion/vocab-emission.mp3", "voice": "denise" },
+    { "id": "acteur", "fr": "un acteur / une actrice", "en": "an actor / actress", "pos": "noun", "exampleFr": "Cet acteur est très populaire.", "exampleEn": "This actor is very popular.", "audio": "audio/b1.2/unit-01-questions-inversion/vocab-acteur.mp3", "voice": "henri" },
+    { "id": "succes", "fr": "un succès", "en": "a success / hit", "pos": "noun", "exampleFr": "Le film est un grand succès.", "exampleEn": "The film is a big hit.", "audio": "audio/b1.2/unit-01-questions-inversion/vocab-succes.mp3", "voice": "denise" },
+    { "id": "celebre", "fr": "célèbre", "en": "famous", "pos": "adjective", "exampleFr": "Ce tableau est très célèbre.", "exampleEn": "This painting is very famous.", "audio": "audio/b1.2/unit-01-questions-inversion/vocab-celebre.mp3", "voice": "henri" },
+    { "id": "culture-generale", "fr": "la culture générale", "en": "general knowledge", "pos": "noun", "exampleFr": "Ce quiz teste ta culture générale.", "exampleEn": "This quiz tests your general knowledge.", "audio": "audio/b1.2/unit-01-questions-inversion/vocab-culture-generale.mp3", "voice": "denise" },
+    { "id": "sondage", "fr": "un sondage", "en": "a survey / poll", "pos": "noun", "exampleFr": "Le sondage donne des résultats clairs.", "exampleEn": "The poll gives clear results.", "audio": "audio/b1.2/unit-01-questions-inversion/vocab-sondage.mp3", "voice": "henri" },
+    { "id": "remporter", "fr": "remporter", "en": "to win (a prize)", "pos": "verb", "exampleFr": "Elle a remporté le premier prix.", "exampleEn": "She won first prize.", "audio": "audio/b1.2/unit-01-questions-inversion/vocab-remporter.mp3", "voice": "denise" },
+    { "id": "prix", "fr": "un prix", "en": "a prize / award", "pos": "noun", "exampleFr": "Le film a reçu un prix à Cannes.", "exampleEn": "The film received an award at Cannes.", "audio": "audio/b1.2/unit-01-questions-inversion/vocab-prix.mp3", "voice": "henri" },
+    { "id": "metier", "fr": "un métier", "en": "a profession / trade", "pos": "noun", "exampleFr": "Acteur, c'est un métier difficile.", "exampleEn": "Acting is a difficult profession.", "audio": "audio/b1.2/unit-01-questions-inversion/vocab-metier.mp3", "voice": "denise" },
+    { "id": "interroger", "fr": "interroger", "en": "to question / interview", "pos": "verb", "exampleFr": "Le journaliste interroge la chanteuse.", "exampleEn": "The journalist questions the singer.", "audio": "audio/b1.2/unit-01-questions-inversion/vocab-interroger.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "Est-ce que vous aimez le cinéma ?", "en": "Do you like the cinema?", "audio": "audio/b1.2/unit-01-questions-inversion/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "Aimez-vous le cinéma ?", "en": "Do you like the cinema? (formal)", "audio": "audio/b1.2/unit-01-questions-inversion/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "Quel tableau Léonard de Vinci a-t-il peint ?", "en": "Which famous painting did Leonardo da Vinci paint?", "audio": "audio/b1.2/unit-01-questions-inversion/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "Quel événement le 14 juillet célèbre-t-il ?", "en": "What event does the 14th of July celebrate?", "audio": "audio/b1.2/unit-01-questions-inversion/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "Depuis quand les femmes ont-elles le droit de vote ?", "en": "Since when have women had the right to vote?", "audio": "audio/b1.2/unit-01-questions-inversion/example-ex-5.mp3", "voice": "denise" },
+    { "id": "ex-6", "fr": "Pourquoi avez-vous choisi ce métier ?", "en": "Why did you choose this profession?", "audio": "audio/b1.2/unit-01-questions-inversion/example-ex-6.mp3", "voice": "henri" }
+  ]
+}

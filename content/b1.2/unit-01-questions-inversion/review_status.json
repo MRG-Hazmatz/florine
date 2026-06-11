@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "unitId": "b1.2/unit-01-questions-inversion",
+  "status": "pending_review",
+  "reviewers": [],
+  "approvedAt": null,
+  "sourceRefs": [
+    "DRAFT — built to the unit-03 template (objectif pragmatique + Point Langue grammar + thematic lexicon + DELF-format comprehension), then self-audited before commit. Covers the three question registers and la question avec inversion (noun-subject reprise, euphonic -t-, auxiliary-only inversion in compound tenses). First unit of b1.2. Awaiting native-speaker review.",
+    "Progression blueprint: Alter Ego+ 3 (Hachette), Dossier 6 'Je me cultive' (faire une interview; l'interrogation, la question avec inversion; thème: interviews de célébrités, quiz de culture générale). Content is original; the book is used only for scope/sequence, never copied."
+  ]
+}

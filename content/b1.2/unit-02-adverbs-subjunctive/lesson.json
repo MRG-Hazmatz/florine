@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "b1.2/unit-02-adverbs-subjunctive",
+  "level": "b1.2",
+  "unitNumber": 2,
+  "slug": "unit-02-adverbs-subjunctive",
+  "title": "Adverbs & Picky Relatives",
+  "titleFr": "Les adverbes en -ment et le subjonctif dans les relatives",
+  "cefrDescriptors": [
+    "Can give nuanced impressions of films, shows and exhibitions using -ment adverbs.",
+    "Can use the subjunctive in relative clauses after desire, restriction or negation."
+  ],
+  "skills": ["reading", "listening", "writing", "speaking"],
+  "estimatedMinutes": 55,
+  "concept": "Still in Dossier 6 — now you're the critic. Posting a review takes two tools: adverbs to dose your enthusiasm, and a special subjunctive for the things you're still looking for.\n\nLES ADVERBES EN -MENT — French's '-ly'. The recipe depends on the adjective's ending:\n  • general rule — feminine adjective + -ment: heureuse → heureusement · relative → relativement\n  • adjectives ending in -i, -é, -u — masculine + -ment: vrai → vraiment · absolu → absolument\n  • -ent → -emment: évident → évidemment · fréquent → fréquemment\n  • -ant → -amment: courant → couramment · suffisant → suffisamment\n  (Both -emment and -amment are pronounced \"a-ment\"!)\nPlacement: after a simple-tense verb (J'aime vraiment ce film), but BETWEEN auxiliary and participle in compound tenses: J'ai énormément aimé le bâtiment.\n\nLE SUBJONCTIF DANS LES RELATIVES — normally qui/que clauses take the indicative (C'est un film qui PLAÎT). But the relative flips to the subjunctive when the thing described is wished-for, exceptional, or denied:\n  • after desire / need / search: Je cherche un film qui ne soit pas trop violent. · Il me faudrait un spectacle qui nous plaise à toutes les deux.\n  • after a superlative or restriction (le seul, l'unique, le premier, le dernier, le plus, le moins): C'est le seul roman qui me plaise vraiment. · C'est l'expo la plus originale que je connaisse.\n  • after a negative: Je n'ai rien vu qui soit original. · Il n'y a aucun acteur qui soit connu.\nThe logic: indicative = it exists, I'm describing it; subjunctive = it's an idea I'm hunting for, doubting, or ruling out.\n\nThe critic's kit: un avis (a review/opinion), une critique, déçu (disappointed), ravi (delighted), une exposition, une œuvre (a work of art), un spectacle (a show), valoir le détour (to be worth the trip).\n\nPut it together like a five-star review: « Franchement, c'est l'exposition la plus originale que je connaisse. J'ai énormément aimé les œuvres — ça vaut vraiment le détour ! »\n\nYour turn: write a two-line review of something you've seen — one -ment adverb dosed honestly, one picky relative (le seul… qui soit… / je cherche… qui ait…).",
+  "vocabulary": [
+    { "id": "avis", "fr": "un avis", "en": "an opinion / a review", "pos": "noun", "exampleFr": "Donne-moi ton avis sur ce film.", "exampleEn": "Give me your opinion on this film.", "audio": "audio/b1.2/unit-02-adverbs-subjunctive/vocab-avis.mp3", "voice": "denise" },
+    { "id": "critique", "fr": "une critique", "en": "a review / criticism", "pos": "noun", "exampleFr": "La critique est très positive.", "exampleEn": "The review is very positive.", "audio": "audio/b1.2/unit-02-adverbs-subjunctive/vocab-critique.mp3", "voice": "henri" },
+    { "id": "decu", "fr": "déçu(e)", "en": "disappointed", "pos": "adjective", "exampleFr": "Je suis un peu déçu du concert.", "exampleEn": "I'm a bit disappointed by the concert.", "audio": "audio/b1.2/unit-02-adverbs-subjunctive/vocab-decu.mp3", "voice": "denise" },
+    { "id": "ravi", "fr": "ravi(e)", "en": "delighted", "pos": "adjective", "exampleFr": "Elle est ravie de sa visite.", "exampleEn": "She's delighted with her visit.", "audio": "audio/b1.2/unit-02-adverbs-subjunctive/vocab-ravi.mp3", "voice": "henri" },
+    { "id": "exposition", "fr": "une exposition", "en": "an exhibition", "pos": "noun", "exampleFr": "L'exposition ouvre samedi.", "exampleEn": "The exhibition opens on Saturday.", "audio": "audio/b1.2/unit-02-adverbs-subjunctive/vocab-exposition.mp3", "voice": "denise" },
+    { "id": "oeuvre", "fr": "une œuvre", "en": "a work (of art)", "pos": "noun", "exampleFr": "Cette œuvre est magnifique.", "exampleEn": "This work is magnificent.", "audio": "audio/b1.2/unit-02-adverbs-subjunctive/vocab-oeuvre.mp3", "voice": "henri" },
+    { "id": "spectacle", "fr": "un spectacle", "en": "a show / performance", "pos": "noun", "exampleFr": "Le spectacle commence à vingt heures.", "exampleEn": "The show starts at 8 p.m.", "audio": "audio/b1.2/unit-02-adverbs-subjunctive/vocab-spectacle.mp3", "voice": "denise" },
+    { "id": "valoir-le-detour", "fr": "valoir le détour", "en": "to be worth the trip", "pos": "verb", "exampleFr": "Ce musée vaut le détour.", "exampleEn": "This museum is worth the trip.", "audio": "audio/b1.2/unit-02-adverbs-subjunctive/vocab-valoir-le-detour.mp3", "voice": "henri" },
+    { "id": "franchement", "fr": "franchement", "en": "frankly", "pos": "adverb", "exampleFr": "Franchement, c'était décevant.", "exampleEn": "Frankly, it was disappointing.", "audio": "audio/b1.2/unit-02-adverbs-subjunctive/vocab-franchement.mp3", "voice": "denise" },
+    { "id": "vraiment", "fr": "vraiment", "en": "really", "pos": "adverb", "exampleFr": "C'est vraiment réussi.", "exampleEn": "It's really well done.", "audio": "audio/b1.2/unit-02-adverbs-subjunctive/vocab-vraiment.mp3", "voice": "henri" },
+    { "id": "evidemment", "fr": "évidemment", "en": "obviously", "pos": "adverb", "exampleFr": "Évidemment, il y avait du monde.", "exampleEn": "Obviously, it was crowded.", "audio": "audio/b1.2/unit-02-adverbs-subjunctive/vocab-evidemment.mp3", "voice": "denise" },
+    { "id": "couramment", "fr": "couramment", "en": "fluently", "pos": "adverb", "exampleFr": "Il parle couramment italien.", "exampleEn": "He speaks Italian fluently.", "audio": "audio/b1.2/unit-02-adverbs-subjunctive/vocab-couramment.mp3", "voice": "henri" },
+    { "id": "frequemment", "fr": "fréquemment", "en": "frequently", "pos": "adverb", "exampleFr": "Je vais fréquemment au théâtre.", "exampleEn": "I go to the theatre frequently.", "audio": "audio/b1.2/unit-02-adverbs-subjunctive/vocab-frequemment.mp3", "voice": "denise" },
+    { "id": "plaire", "fr": "plaire à", "en": "to please / be liked by", "pos": "verb", "exampleFr": "Ce spectacle plaît aux enfants.", "exampleEn": "Children love this show.", "audio": "audio/b1.2/unit-02-adverbs-subjunctive/vocab-plaire.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "J'ai énormément aimé le bâtiment.", "en": "I really loved the building.", "audio": "audio/b1.2/unit-02-adverbs-subjunctive/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "Elle parle couramment français.", "en": "She speaks French fluently.", "audio": "audio/b1.2/unit-02-adverbs-subjunctive/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "Évidemment, il est arrivé en retard.", "en": "Obviously, he arrived late.", "audio": "audio/b1.2/unit-02-adverbs-subjunctive/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "Je cherche un film qui ne soit pas trop violent.", "en": "I'm looking for a film that isn't too violent.", "audio": "audio/b1.2/unit-02-adverbs-subjunctive/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "C'est le seul roman qui me plaise vraiment.", "en": "It's the only novel I really like.", "audio": "audio/b1.2/unit-02-adverbs-subjunctive/example-ex-5.mp3", "voice": "denise" },
+    { "id": "ex-6", "fr": "Je n'ai rien vu qui soit original.", "en": "I haven't seen anything original.", "audio": "audio/b1.2/unit-02-adverbs-subjunctive/example-ex-6.mp3", "voice": "henri" }
+  ]
+}

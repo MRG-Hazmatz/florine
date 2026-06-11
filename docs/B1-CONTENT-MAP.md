@@ -34,8 +34,8 @@ Status: ✅ built · 🔨 in progress · ⬜ planned
 ## b1.2 — Dossiers 6–9
 | # | Module | Alter Ego+ 3 | Grammar focus | Status |
 |---|---|---|---|---|
-| 11 | Questions & inversion | D6 *Je me cultive* | l'interrogation; la question avec inversion | ⬜ |
-| 12 | Adverbs & relative + subjunctive | D6 *Je me cultive* | les adverbes en -ment; les relatives avec le subjonctif | ⬜ |
+| 11 | Questions & inversion | D6 *Je me cultive* | l'interrogation; la question avec inversion | ✅ b1.2/unit-01 |
+| 12 | Adverbs & relative + subjunctive | D6 *Je me cultive* | les adverbes en -ment; les relatives avec le subjonctif | ✅ b1.2/unit-02 |
 | 13 | The future | D7 (écologie) | le futur simple (rappel) + le futur antérieur | ⬜ |
 | 14 | Hypotheses & the conditional | D7 (écologie) | le conditionnel présent et passé; l'hypothèse (si…); pronouns y / en | ⬜ |
 | 15 | Doubt & certainty | D8 *Convaincre* (justice) | les expressions du doute et de la certitude (+ mood choice) | ⬜ |

@@ -1,0 +1,462 @@
+{
+  "schemaVersion": 1,
+  "unitId": "b1.2/unit-02-adverbs-subjunctive",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "What is the adverb of « heureux »?",
+      "options": [
+        {
+          "id": "a",
+          "text": "heureusement"
+        },
+        {
+          "id": "b",
+          "text": "heureuxment"
+        },
+        {
+          "id": "c",
+          "text": "heureument"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "General rule: feminine adjective + -ment → heureuse + ment = heureusement."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "What is the adverb of « évident »?",
+      "options": [
+        {
+          "id": "a",
+          "text": "évidemment"
+        },
+        {
+          "id": "b",
+          "text": "évidentement"
+        },
+        {
+          "id": "c",
+          "text": "évidamment"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "-ent → -emment: évident → évidemment (pronounced \"a-ment\")."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Adverb of « courant » — watch the ending.",
+      "inputMode": "dropdown",
+      "template": "Elle parle {{b1}} français.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "couramment"
+          ],
+          "options": [
+            "couramment",
+            "courantement",
+            "couremment"
+          ]
+        }
+      ],
+      "explanation": "-ant → -amment: courant → couramment."
+    },
+    {
+      "id": "ex-mc-3",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Where does the adverb go in a compound tense?",
+      "options": [
+        {
+          "id": "a",
+          "text": "J'ai énormément aimé cette exposition."
+        },
+        {
+          "id": "b",
+          "text": "J'ai aimé énormément cette exposition."
+        },
+        {
+          "id": "c",
+          "text": "Énormément j'ai aimé cette exposition."
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Between the auxiliary and the participle: j'ai énormément aimé."
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Spell the adverb of « fréquent ».",
+      "inputMode": "dropdown",
+      "template": "Il faut y retourner {{b1}}.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "fréquemment"
+          ],
+          "options": [
+            "fréquemment",
+            "fréquentement",
+            "fréquamment"
+          ]
+        }
+      ],
+      "explanation": "-ent → -emment: fréquent → fréquemment."
+    },
+    {
+      "id": "ex-fb-3",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Searching for something — subjunctive of « être » (one word).",
+      "inputMode": "typed",
+      "template": "Je cherche un livre qui {{b1}} facile à lire.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "soit"
+          ]
+        }
+      ],
+      "explanation": "After je cherche… the relative describes a wished-for thing → subjunctive: qui soit."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each critic's word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "déçu",
+          "right": "disappointed"
+        },
+        {
+          "id": "p2",
+          "left": "ravi",
+          "right": "delighted"
+        },
+        {
+          "id": "p3",
+          "left": "un avis",
+          "right": "an opinion / review"
+        },
+        {
+          "id": "p4",
+          "left": "une œuvre",
+          "right": "a work of art"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"It's the only novel I like.\"",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "C'est"
+        },
+        {
+          "id": "t2",
+          "text": "le"
+        },
+        {
+          "id": "t3",
+          "text": "seul"
+        },
+        {
+          "id": "t4",
+          "text": "roman"
+        },
+        {
+          "id": "t5",
+          "text": "qui"
+        },
+        {
+          "id": "t6",
+          "text": "me"
+        },
+        {
+          "id": "t7",
+          "text": "plaise"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7"
+      ]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen to the reviewer. What are they saying?",
+      "audio": "audio/b1.2/unit-02-adverbs-subjunctive/listen-1.mp3",
+      "transcript": "Franchement, c'est l'exposition la plus originale que je connaisse !",
+      "options": [
+        {
+          "id": "a",
+          "text": "It's the most original exhibition they know — high praise"
+        },
+        {
+          "id": "b",
+          "text": "It's frankly the most boring exhibition they've seen"
+        },
+        {
+          "id": "c",
+          "text": "They don't know if the exhibition is original"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "« la plus originale que je connaisse » — superlative + subjunctive: the most original one I know."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read these two museum reviews and answer both questions.",
+      "passageFr": "Léa ★★★★★ : « L'architecture vaut vraiment le détour. J'ai particulièrement aimé les grandes baies vitrées. »\nBoris ★★ : « Je suis un peu déçu. Les œuvres sont insuffisamment mises en valeur, et je n'ai rien vu qui soit vraiment original. »",
+      "passageEn": "Léa ★★★★★: \"The architecture is really worth the trip. I particularly liked the big glass windows.\"\nBoris ★★: \"I'm a bit disappointed. The works aren't shown off well enough, and I didn't see anything really original.\"",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "What did Léa particularly like?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The big glass windows"
+            },
+            {
+              "id": "b",
+              "text": "The paintings"
+            },
+            {
+              "id": "c",
+              "text": "The gift shop"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        },
+        {
+          "id": "q2",
+          "prompt": "Why is Boris disappointed?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The works are poorly displayed and nothing felt original"
+            },
+            {
+              "id": "b",
+              "text": "The museum was closed"
+            },
+            {
+              "id": "c",
+              "text": "The architecture was ugly"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex-mc-4",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Why is « connaisse » in the subjunctive in « la plus originale que je connaisse »?",
+      "options": [
+        {
+          "id": "a",
+          "text": "After a superlative (la plus…), the relative takes the subjunctive"
+        },
+        {
+          "id": "b",
+          "text": "Connaître is always subjunctive"
+        },
+        {
+          "id": "c",
+          "text": "It's a spelling mistake"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Superlatives and restrictions (le seul, le premier, le plus…) push the relative into the subjunctive."
+    },
+    {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/b1.2/unit-02-adverbs-subjunctive/example-ex-1.mp3",
+      "transcript": "J'ai énormément aimé le bâtiment.",
+      "options": [
+        {
+          "id": "a",
+          "text": "I really loved the building."
+        },
+        {
+          "id": "b",
+          "text": "She speaks French fluently."
+        },
+        {
+          "id": "c",
+          "text": "Obviously, he arrived late."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « un avis » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "an opinion / a review"
+        },
+        {
+          "id": "b",
+          "text": "a review / criticism"
+        },
+        {
+          "id": "c",
+          "text": "disappointed"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "un avis = an opinion / a review."
+    },
+    {
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "Donne-moi ton {{b1}} sur ce film.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "avis"
+          ]
+        }
+      ],
+      "explanation": "« Donne-moi ton avis sur ce film. » — an opinion / a review."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "une exposition",
+          "right": "an exhibition"
+        },
+        {
+          "id": "p2",
+          "left": "une œuvre",
+          "right": "a work"
+        },
+        {
+          "id": "p3",
+          "left": "un spectacle",
+          "right": "a show / performance"
+        },
+        {
+          "id": "p4",
+          "left": "valoir le détour",
+          "right": "to be worth the trip"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “I really loved the building.”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "J'ai"
+        },
+        {
+          "id": "t2",
+          "text": "énormément"
+        },
+        {
+          "id": "t3",
+          "text": "aimé"
+        },
+        {
+          "id": "t4",
+          "text": "le"
+        },
+        {
+          "id": "t5",
+          "text": "bâtiment"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5"
+      ]
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "J'ai énormément aimé le bâtiment.",
+      "targetEn": "I really loved the building.",
+      "audio": "audio/b1.2/unit-02-adverbs-subjunctive/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "Évidemment, il est arrivé en retard.",
+      "targetEn": "Obviously, he arrived late.",
+      "audio": "audio/b1.2/unit-02-adverbs-subjunctive/example-ex-3.mp3"
+    }
+  ]
+}
