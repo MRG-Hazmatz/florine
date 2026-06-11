@@ -1,0 +1,427 @@
+{
+  "schemaVersion": 1,
+  "unitId": "b2.2/unit-08-comparison-society",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "The elegant correlation: \"The longer we wait, the harder it gets\" =",
+      "options": [
+        {
+          "id": "a",
+          "text": "Plus on attend, plus c'est difficile."
+        },
+        {
+          "id": "b",
+          "text": "Le plus on attend, le plus c'est difficile."
+        },
+        {
+          "id": "c",
+          "text": "Plus que on attend, plus que c'est difficile."
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "French drops the article: Plus…, plus… (no 'le')."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "« On écrit ___ à la main. » (less and less)",
+      "options": [
+        {
+          "id": "a",
+          "text": "de moins en moins"
+        },
+        {
+          "id": "b",
+          "text": "moins et moins"
+        },
+        {
+          "id": "c",
+          "text": "le moins en moins"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Progression downward: de moins en moins (+ de before a noun)."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Numbers in motion.",
+      "inputMode": "dropdown",
+      "template": "Le temps d'écran est {{b1}} deux à six heures par jour.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "passé de"
+          ],
+          "options": [
+            "passé de",
+            "monté à",
+            "doublé de"
+          ]
+        }
+      ],
+      "explanation": "Passer de X à Y = to go from X to Y."
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Unlike…",
+      "inputMode": "dropdown",
+      "template": "{{b1}} de mes parents, je travaille à distance.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "À la différence"
+          ],
+          "options": [
+            "À la différence",
+            "À la ressemblance",
+            "Au contraire de que"
+          ]
+        }
+      ],
+      "explanation": "À la différence de + noun = unlike."
+    },
+    {
+      "id": "ex-mc-3",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "« Les ventes ont baissé de 30 % » means sales…",
+      "options": [
+        {
+          "id": "a",
+          "text": "fell by 30%"
+        },
+        {
+          "id": "b",
+          "text": "rose to 30%"
+        },
+        {
+          "id": "c",
+          "text": "represent 30% of the market"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Baisser de X % = to fall BY X percent (the de gives the amount of change)."
+    },
+    {
+      "id": "ex-fb-3",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Twice as much (two words: le + ?).",
+      "inputMode": "typed",
+      "template": "Il gagne le {{b1}} de son frère.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "double"
+          ]
+        }
+      ],
+      "explanation": "Le double de = double / twice as much as."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each comparison tool to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "une hausse",
+          "right": "a rise"
+        },
+        {
+          "id": "p2",
+          "left": "ressembler à",
+          "right": "to resemble"
+        },
+        {
+          "id": "p3",
+          "left": "se distinguer de",
+          "right": "to stand out from"
+        },
+        {
+          "id": "p4",
+          "left": "de loin le plus",
+          "right": "by far the most"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"The price doubled in ten years.\"",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Le"
+        },
+        {
+          "id": "t2",
+          "text": "prix"
+        },
+        {
+          "id": "t3",
+          "text": "a"
+        },
+        {
+          "id": "t4",
+          "text": "doublé"
+        },
+        {
+          "id": "t5",
+          "text": "en"
+        },
+        {
+          "id": "t6",
+          "text": "dix"
+        },
+        {
+          "id": "t7",
+          "text": "ans"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7"
+      ]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen to the statistics report. What do the figures say?",
+      "audio": "audio/b2.2/unit-08-comparison-society/listen-1.mp3",
+      "transcript": "Les ventes de journaux papier ont baissé de trente pour cent, tandis que la lecture en ligne a doublé.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Paper sales fell 30% while online reading doubled"
+        },
+        {
+          "id": "b",
+          "text": "Paper sales doubled while online reading fell"
+        },
+        {
+          "id": "c",
+          "text": "Both kinds of reading disappeared"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "baissé de 30 % + a doublé, contrasted with tandis que."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read this courrier des lecteurs letter (the DELF B2 task!) and answer both questions.",
+      "passageFr": "Madame, Monsieur, votre dossier « Générations connectées » m'a interpellée. À la différence de ce que vous affirmez, les jeunes lisent : nous lisons même deux fois plus d'articles que nos parents au même âge — mais de moins en moins sur papier. Plus l'information circule vite, plus le tri devient essentiel : voilà le vrai sujet. Les chiffres que vous citez (une baisse de 30 % des ventes) décrivent un support, pas une génération.",
+      "passageEn": "Dear Sir or Madam, your feature \"Connected generations\" struck me. Unlike what you claim, young people do read: we even read twice as many articles as our parents did at the same age — but less and less on paper. The faster information circulates, the more essential sorting becomes: that is the real subject. The figures you quote (a 30% fall in sales) describe a medium, not a generation.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "What is the writer's central correction?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Young people read more, just less on paper — the figures describe a medium, not a generation"
+            },
+            {
+              "id": "b",
+              "text": "Young people have stopped reading entirely"
+            },
+            {
+              "id": "c",
+              "text": "Paper sales have actually risen"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        },
+        {
+          "id": "q2",
+          "prompt": "« Plus l'information circule vite, plus le tri devient essentiel » uses…",
+          "options": [
+            {
+              "id": "a",
+              "text": "the plus…, plus… correlation"
+            },
+            {
+              "id": "b",
+              "text": "a metaphor"
+            },
+            {
+              "id": "c",
+              "text": "the passive voice"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex-mc-4",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Which of these is a French loanword FROM English?",
+      "options": [
+        {
+          "id": "a",
+          "text": "le week-end"
+        },
+        {
+          "id": "b",
+          "text": "le déjà-vu"
+        },
+        {
+          "id": "c",
+          "text": "le ballet"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Le week-end came from English; déjà-vu and ballet travelled the other way."
+    },
+    {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/b2.2/unit-08-comparison-society/example-ex-1.mp3",
+      "transcript": "On lit de moins en moins de journaux papier.",
+      "options": [
+        {
+          "id": "a",
+          "text": "People read fewer and fewer paper newspapers."
+        },
+        {
+          "id": "b",
+          "text": "The faster we get informed, the worse we get informed."
+        },
+        {
+          "id": "c",
+          "text": "Sales fell by thirty percent."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « une hausse » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "a rise / increase"
+        },
+        {
+          "id": "b",
+          "text": "a fall / decrease"
+        },
+        {
+          "id": "c",
+          "text": "to double"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "une hausse = a rise / increase."
+    },
+    {
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "Une {{b1}} de vingt pour cent.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "hausse"
+          ]
+        }
+      ],
+      "explanation": "« Une hausse de vingt pour cent. » — a rise / increase."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "de plus en plus (de)",
+          "right": "more and more"
+        },
+        {
+          "id": "p2",
+          "left": "de moins en moins (de)",
+          "right": "less and less"
+        },
+        {
+          "id": "p3",
+          "left": "plus…, plus…",
+          "right": "the more…, the more…"
+        },
+        {
+          "id": "p4",
+          "left": "le double / la moitié de",
+          "right": "double / half of"
+        }
+      ]
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "On lit de moins en moins de journaux papier.",
+      "targetEn": "People read fewer and fewer paper newspapers.",
+      "audio": "audio/b2.2/unit-08-comparison-society/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "Les ventes ont baissé de trente pour cent.",
+      "targetEn": "Sales fell by thirty percent.",
+      "audio": "audio/b2.2/unit-08-comparison-society/example-ex-3.mp3"
+    }
+  ]
+}

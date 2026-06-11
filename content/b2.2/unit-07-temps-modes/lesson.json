@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "b2.2/unit-07-temps-modes",
+  "level": "b2.2",
+  "unitNumber": 7,
+  "slug": "unit-07-temps-modes",
+  "title": "The Grand Synthesis: Times & Moods",
+  "titleFr": "Synthèse des temps et des modes",
+  "cefrDescriptors": [
+    "Can choose the right mood (indicatif / subjonctif / conditionnel / impératif) by reasoning, not memory.",
+    "Can describe how society changes across time (autrefois, de nos jours, à l'avenir)."
+  ],
+  "skills": ["reading", "listening", "writing", "speaking"],
+  "estimatedMinutes": 65,
+  "concept": "Dossier 9 looks backward and forward at society — and hands you the map of the whole French verb system. This is the synthesis the DELF B2 actually tests: not one rule, but choosing the right mode in two seconds.\n\nTHE FOUR-MOOD MAP — ask: how REAL is the action?\n  • INDICATIF — real or asserted: facts, certainties, espérer que, il est probable que, after sauf si / même si.\n  • SUBJONCTIF — virtual: wish (souhaiter, pourvu que), feeling (être navré que), doubt (douter, peu probable), obligation (il faut que), goal (pour que), concession (bien que), anteriority (avant que), restriction (le seul qui…).\n  • CONDITIONNEL — imagined or filtered: hypothesis results (si + imparfait → …rait), politeness, advice, rumours (la presse: serait), future-in-the-past, au cas où.\n  • IMPÉRATIF — action now: Vote ! N'attends pas !\n\nTHE TIME LADDER inside the indicative (your full collection): plus-que-parfait → passé composé/passé simple → imparfait (background) → présent → futur proche → futur simple → futur antérieur.\nThe four B1/B2 traps, one last time: espérer + INDICATIF · bien que + SUBJONCTIF · au cas où + CONDITIONNEL · après que + INDICATIF (yes, indicative!).\n\nTALKING ABOUT CHANGE — the society lexicon: un phénomène de société, une tendance (a trend), l'évolution, évoluer, un bouleversement (an upheaval), se transformer, autrefois (in the old days), de nos jours (nowadays), à l'avenir (in the future).\n\nPut it together like a magazine retrospective: « Autrefois, on écrivait des lettres ; de nos jours, tout a été bouleversé par le téléphone. Bien que certains le regrettent, il est probable que l'évolution continuera — et à l'avenir, qui sait ce que nous utiliserons, pourvu que nous parlions encore ! »\n\nYour turn: three sentences about one change in society — one autrefois + imparfait, one de nos jours + présent/passé composé, one à l'avenir with the future. Bonus: sneak in one subjunctive.",
+  "vocabulary": [
+    { "id": "phenomene", "fr": "un phénomène de société", "en": "a social phenomenon", "pos": "noun", "exampleFr": "Le télétravail est un phénomène de société.", "exampleEn": "Remote work is a social phenomenon.", "audio": "audio/b2.2/unit-07-temps-modes/vocab-phenomene.mp3", "voice": "denise" },
+    { "id": "tendance", "fr": "une tendance", "en": "a trend", "pos": "noun", "exampleFr": "La tendance s'inverse depuis peu.", "exampleEn": "The trend has recently reversed.", "audio": "audio/b2.2/unit-07-temps-modes/vocab-tendance.mp3", "voice": "henri" },
+    { "id": "evolution", "fr": "l'évolution (f.)", "en": "evolution / development", "pos": "noun", "exampleFr": "L'évolution des mœurs est rapide.", "exampleEn": "The evolution of customs is fast.", "audio": "audio/b2.2/unit-07-temps-modes/vocab-evolution.mp3", "voice": "denise" },
+    { "id": "evoluer", "fr": "évoluer", "en": "to evolve / change", "pos": "verb", "exampleFr": "Les mentalités évoluent lentement.", "exampleEn": "Mentalities evolve slowly.", "audio": "audio/b2.2/unit-07-temps-modes/vocab-evoluer.mp3", "voice": "henri" },
+    { "id": "bouleversement", "fr": "un bouleversement", "en": "an upheaval", "pos": "noun", "exampleFr": "Internet a provoqué un bouleversement.", "exampleEn": "The internet caused an upheaval.", "audio": "audio/b2.2/unit-07-temps-modes/vocab-bouleversement.mp3", "voice": "denise" },
+    { "id": "se-transformer", "fr": "se transformer", "en": "to transform / be transformed", "pos": "verb", "exampleFr": "La ville s'est transformée en dix ans.", "exampleEn": "The city transformed in ten years.", "audio": "audio/b2.2/unit-07-temps-modes/vocab-se-transformer.mp3", "voice": "henri" },
+    { "id": "autrefois", "fr": "autrefois", "en": "in the old days", "pos": "adverb", "exampleFr": "Autrefois, on voyageait en train de nuit.", "exampleEn": "In the old days, people took night trains.", "audio": "audio/b2.2/unit-07-temps-modes/vocab-autrefois.mp3", "voice": "denise" },
+    { "id": "de-nos-jours", "fr": "de nos jours", "en": "nowadays", "pos": "adverb", "exampleFr": "De nos jours, tout va plus vite.", "exampleEn": "Nowadays everything goes faster.", "audio": "audio/b2.2/unit-07-temps-modes/vocab-de-nos-jours.mp3", "voice": "henri" },
+    { "id": "a-l-avenir", "fr": "à l'avenir", "en": "in the future / from now on", "pos": "adverb", "exampleFr": "À l'avenir, soyez plus prudent.", "exampleEn": "In future, be more careful.", "audio": "audio/b2.2/unit-07-temps-modes/vocab-a-l-avenir.mp3", "voice": "denise" },
+    { "id": "moeurs", "fr": "les mœurs (f.)", "en": "customs / ways of life", "pos": "noun", "exampleFr": "Les mœurs ont changé en une génération.", "exampleEn": "Ways of life changed in a generation.", "audio": "audio/b2.2/unit-07-temps-modes/vocab-moeurs.mp3", "voice": "henri" },
+    { "id": "mode", "fr": "un mode (verbal)", "en": "a (grammatical) mood", "pos": "noun", "exampleFr": "Le subjonctif est un mode, pas un temps.", "exampleEn": "The subjunctive is a mood, not a tense.", "audio": "audio/b2.2/unit-07-temps-modes/vocab-mode.mp3", "voice": "denise" },
+    { "id": "apres-que", "fr": "après que (+ indicatif !)", "en": "after (the fact)", "pos": "conjunction", "exampleFr": "Après qu'il est parti, tout a changé.", "exampleEn": "After he left, everything changed.", "audio": "audio/b2.2/unit-07-temps-modes/vocab-apres-que.mp3", "voice": "henri" },
+    { "id": "s-adapter", "fr": "s'adapter à", "en": "to adapt to", "pos": "verb", "exampleFr": "Il faut s'adapter aux changements.", "exampleEn": "One must adapt to changes.", "audio": "audio/b2.2/unit-07-temps-modes/vocab-s-adapter.mp3", "voice": "denise" },
+    { "id": "qui-sait", "fr": "qui sait ?", "en": "who knows?", "pos": "expression", "exampleFr": "À l'avenir, qui sait ce qu'on inventera ?", "exampleEn": "In the future, who knows what we'll invent?", "audio": "audio/b2.2/unit-07-temps-modes/vocab-qui-sait.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "Autrefois, on écrivait des lettres ; de nos jours, on envoie des messages.", "en": "In the old days people wrote letters; nowadays we send messages.", "audio": "audio/b2.2/unit-07-temps-modes/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "Bien que certains le regrettent, l'évolution continuera.", "en": "Although some regret it, the evolution will continue.", "audio": "audio/b2.2/unit-07-temps-modes/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "Il est probable que les mœurs évolueront encore.", "en": "It's likely that customs will evolve further.", "audio": "audio/b2.2/unit-07-temps-modes/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "Après que la télévision est arrivée, les soirées se sont transformées.", "en": "After television arrived, evenings were transformed.", "audio": "audio/b2.2/unit-07-temps-modes/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "Au cas où la tendance s'inverserait, il faudrait s'adapter.", "en": "In case the trend reversed, we would have to adapt.", "audio": "audio/b2.2/unit-07-temps-modes/example-ex-5.mp3", "voice": "denise" },
+    { "id": "ex-6", "fr": "Pourvu que nous parlions encore dans cent ans !", "en": "Let's hope we're still talking in a hundred years!", "audio": "audio/b2.2/unit-07-temps-modes/example-ex-6.mp3", "voice": "henri" }
+  ]
+}

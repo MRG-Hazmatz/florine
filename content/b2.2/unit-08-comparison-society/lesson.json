@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "b2.2/unit-08-comparison-society",
+  "level": "b2.2",
+  "unitNumber": 8,
+  "slug": "unit-08-comparison-society",
+  "title": "Comparing Yesterday & Tomorrow",
+  "titleFr": "Les degrés de la comparaison ; faits et chiffres",
+  "cefrDescriptors": [
+    "Can compare facts and figures with the full B2 comparison toolkit.",
+    "Can express resemblance and difference precisely.",
+    "Can write the courrier-des-lecteurs letter that closes the DELF B2 loop."
+  ],
+  "skills": ["reading", "listening", "writing", "speaking"],
+  "estimatedMinutes": 65,
+  "concept": "The very last B2 unit — and it ends where the DELF B2 begins: comparing the world of yesterday with the world of tomorrow, numbers in hand.\n\nLES DEGRÉS DE LA COMPARAISON, the full ladder:\n  • the base: plus / moins / aussi + adj + que · plus de / moins de / autant de + nom\n  • progression: de plus en plus (de) / de moins en moins (de): On lit de moins en moins de journaux papier.\n  • correlation — the elegant one: PLUS on attend, PLUS c'est difficile. (the more…, the more…)\n  • proportions: le double de, la moitié de, trois fois plus que\n  • absolute superiority: de loin le plus important · l'un des plus grands\n\nCOMPARER DES FAITS ET DES CHIFFRES — the press kit for numbers:\n  une hausse / une baisse de 20 % (a rise / fall), augmenter, diminuer, doubler, tripler, passer de X à Y: Le temps d'écran est passé de deux à six heures.\n\nRESSEMBLANCE & DIFFÉRENCE — saying same and other like a B2:\n  • same: ressembler à, se ressembler, identique à, semblable à, pareil que (fam.), avoir en commun\n  • other: se distinguer de, différer de, à la différence de, contrairement à\n\nLES MOTS EMPRUNTÉS — a wink to finish: French borrowed le week-end, un steak, le jogging, le yoga, la pizza… and lent the world café, ballet, déjà-vu. Languages compare and exchange too.\n\nPut it together like the exam's courrier des lecteurs: « À la différence de mes parents, je lis deux fois plus d'articles — mais de moins en moins sur papier. Les chiffres parlent : les ventes ont baissé de 30 %. Plus on s'informe vite, moins on s'informe bien… ne vous y trompez pas. »\n\nYour turn — the LAST one of B2, bravo : two lines comparing your generation with your parents', using plus…plus or de plus en plus, one figure, and one à la différence de. Tu as fini le B2 — direction le DALF !",
+  "vocabulary": [
+    { "id": "hausse", "fr": "une hausse", "en": "a rise / increase", "pos": "noun", "exampleFr": "Une hausse de vingt pour cent.", "exampleEn": "A twenty percent rise.", "audio": "audio/b2.2/unit-08-comparison-society/vocab-hausse.mp3", "voice": "denise" },
+    { "id": "baisse", "fr": "une baisse", "en": "a fall / decrease", "pos": "noun", "exampleFr": "Les ventes sont en baisse.", "exampleEn": "Sales are falling.", "audio": "audio/b2.2/unit-08-comparison-society/vocab-baisse.mp3", "voice": "henri" },
+    { "id": "doubler", "fr": "doubler", "en": "to double", "pos": "verb", "exampleFr": "Le prix a doublé en dix ans.", "exampleEn": "The price doubled in ten years.", "audio": "audio/b2.2/unit-08-comparison-society/vocab-doubler.mp3", "voice": "denise" },
+    { "id": "passer-de-a", "fr": "passer de … à …", "en": "to go from … to …", "pos": "expression", "exampleFr": "Le temps d'écran est passé de deux à six heures.", "exampleEn": "Screen time went from two to six hours.", "audio": "audio/b2.2/unit-08-comparison-society/vocab-passer-de-a.mp3", "voice": "henri" },
+    { "id": "de-plus-en-plus", "fr": "de plus en plus (de)", "en": "more and more", "pos": "adverb", "exampleFr": "On voyage de plus en plus loin.", "exampleEn": "We travel further and further.", "audio": "audio/b2.2/unit-08-comparison-society/vocab-de-plus-en-plus.mp3", "voice": "denise" },
+    { "id": "de-moins-en-moins", "fr": "de moins en moins (de)", "en": "less and less", "pos": "adverb", "exampleFr": "On écrit de moins en moins à la main.", "exampleEn": "We write by hand less and less.", "audio": "audio/b2.2/unit-08-comparison-society/vocab-de-moins-en-moins.mp3", "voice": "henri" },
+    { "id": "plus-plus", "fr": "plus…, plus…", "en": "the more…, the more…", "pos": "expression", "exampleFr": "Plus on attend, plus c'est difficile.", "exampleEn": "The longer we wait, the harder it gets.", "audio": "audio/b2.2/unit-08-comparison-society/vocab-plus-plus.mp3", "voice": "denise" },
+    { "id": "le-double", "fr": "le double / la moitié de", "en": "double / half of", "pos": "expression", "exampleFr": "Il gagne le double de son frère.", "exampleEn": "He earns double what his brother does.", "audio": "audio/b2.2/unit-08-comparison-society/vocab-le-double.mp3", "voice": "henri" },
+    { "id": "de-loin", "fr": "de loin le plus…", "en": "by far the most…", "pos": "expression", "exampleFr": "C'est de loin le plus grand changement.", "exampleEn": "It's by far the biggest change.", "audio": "audio/b2.2/unit-08-comparison-society/vocab-de-loin.mp3", "voice": "denise" },
+    { "id": "ressembler", "fr": "ressembler à", "en": "to resemble", "pos": "verb", "exampleFr": "Cette époque ressemble à la nôtre.", "exampleEn": "That era resembles ours.", "audio": "audio/b2.2/unit-08-comparison-society/vocab-ressembler.mp3", "voice": "henri" },
+    { "id": "semblable", "fr": "semblable à / identique à", "en": "similar / identical to", "pos": "adjective", "exampleFr": "Des résultats semblables aux nôtres.", "exampleEn": "Results similar to ours.", "audio": "audio/b2.2/unit-08-comparison-society/vocab-semblable.mp3", "voice": "denise" },
+    { "id": "se-distinguer", "fr": "se distinguer de", "en": "to differ / stand out from", "pos": "verb", "exampleFr": "Notre génération se distingue par ses outils.", "exampleEn": "Our generation stands out by its tools.", "audio": "audio/b2.2/unit-08-comparison-society/vocab-se-distinguer.mp3", "voice": "henri" },
+    { "id": "a-la-difference", "fr": "à la différence de", "en": "unlike", "pos": "preposition", "exampleFr": "À la différence de mes parents, je travaille à distance.", "exampleEn": "Unlike my parents, I work remotely.", "audio": "audio/b2.2/unit-08-comparison-society/vocab-a-la-difference.mp3", "voice": "denise" },
+    { "id": "mot-emprunte", "fr": "un mot emprunté", "en": "a loanword", "pos": "noun", "exampleFr": "« Week-end » est un mot emprunté à l'anglais.", "exampleEn": "\"Week-end\" is a word borrowed from English.", "audio": "audio/b2.2/unit-08-comparison-society/vocab-mot-emprunte.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "On lit de moins en moins de journaux papier.", "en": "People read fewer and fewer paper newspapers.", "audio": "audio/b2.2/unit-08-comparison-society/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "Plus on s'informe vite, moins on s'informe bien.", "en": "The faster we get informed, the worse we get informed.", "audio": "audio/b2.2/unit-08-comparison-society/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "Les ventes ont baissé de trente pour cent.", "en": "Sales fell by thirty percent.", "audio": "audio/b2.2/unit-08-comparison-society/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "Le temps d'écran est passé de deux à six heures par jour.", "en": "Screen time went from two to six hours a day.", "audio": "audio/b2.2/unit-08-comparison-society/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "À la différence de mes parents, je lis deux fois plus d'articles.", "en": "Unlike my parents, I read twice as many articles.", "audio": "audio/b2.2/unit-08-comparison-society/example-ex-5.mp3", "voice": "denise" },
+    { "id": "ex-6", "fr": "C'est de loin le plus grand bouleversement du siècle.", "en": "It is by far the century's biggest upheaval.", "audio": "audio/b2.2/unit-08-comparison-society/example-ex-6.mp3", "voice": "henri" }
+  ]
+}

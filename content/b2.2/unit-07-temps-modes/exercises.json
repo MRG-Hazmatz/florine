@@ -1,0 +1,457 @@
+{
+  "schemaVersion": 1,
+  "unitId": "b2.2/unit-07-temps-modes",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Synthesis trap 1: « J'espère que tu ___ là demain. »",
+      "options": [
+        {
+          "id": "a",
+          "text": "seras"
+        },
+        {
+          "id": "b",
+          "text": "sois"
+        },
+        {
+          "id": "c",
+          "text": "serais"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Espérer + INDICATIF — the trap that never dies: j'espère que tu seras là."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Synthesis trap 2: « Bien que la ville ___ , le quartier garde son charme. »",
+      "options": [
+        {
+          "id": "a",
+          "text": "se soit transformée"
+        },
+        {
+          "id": "b",
+          "text": "s'est transformée"
+        },
+        {
+          "id": "c",
+          "text": "se transformera"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Bien que + subjonctif (here passé): bien qu'elle se soit transformée."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Synthesis trap 3 — which mood after « après que »?",
+      "inputMode": "dropdown",
+      "template": "Après que la télévision {{b1}}, les soirées ont changé.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "est arrivée"
+          ],
+          "options": [
+            "est arrivée",
+            "soit arrivée",
+            "arriverait"
+          ]
+        }
+      ],
+      "explanation": "Après que + INDICATIF (a real, accomplished fact) — unlike avant que."
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Time ladder: background or event?",
+      "inputMode": "dropdown",
+      "template": "Autrefois, on {{b1}} en train de nuit.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "voyageait"
+          ],
+          "options": [
+            "voyageait",
+            "a voyagé",
+            "voyagera"
+          ]
+        }
+      ],
+      "explanation": "Autrefois + habit = imparfait: on voyageait."
+    },
+    {
+      "id": "ex-mc-3",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Which mood expresses something IMAGINED or FILTERED (hypothesis, politeness, rumour)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "le conditionnel"
+        },
+        {
+          "id": "b",
+          "text": "l'indicatif"
+        },
+        {
+          "id": "c",
+          "text": "l'impératif"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "The conditional is the mood of the imagined: si-results, advice, press rumours, au cas où."
+    },
+    {
+      "id": "ex-fb-3",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Hypothesis chain (one word, conditional of « falloir »).",
+      "inputMode": "typed",
+      "template": "Si la tendance s'inversait, il {{b1}} s'adapter.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "faudrait"
+          ]
+        }
+      ],
+      "explanation": "Si + imparfait → conditionnel: il faudrait s'adapter."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each time word to its era.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "autrefois",
+          "right": "the old days"
+        },
+        {
+          "id": "p2",
+          "left": "de nos jours",
+          "right": "nowadays"
+        },
+        {
+          "id": "p3",
+          "left": "à l'avenir",
+          "right": "in the future"
+        },
+        {
+          "id": "p4",
+          "left": "un bouleversement",
+          "right": "an upheaval"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"Mentalities evolve slowly.\"",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Les"
+        },
+        {
+          "id": "t2",
+          "text": "mentalités"
+        },
+        {
+          "id": "t3",
+          "text": "évoluent"
+        },
+        {
+          "id": "t4",
+          "text": "lentement"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4"
+      ]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen to the retrospective. Which three eras does it cross?",
+      "audio": "audio/b2.2/unit-07-temps-modes/listen-1.mp3",
+      "transcript": "Autrefois, on écrivait des lettres ; de nos jours, on envoie des messages ; à l'avenir, qui sait ce que nous utiliserons ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Past (letters), present (messages), future (who knows)"
+        },
+        {
+          "id": "b",
+          "text": "Only the future of communication"
+        },
+        {
+          "id": "c",
+          "text": "Three kinds of letters"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "autrefois + imparfait / de nos jours + présent / à l'avenir + futur — the full timeline."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read the magazine extract and answer both questions.",
+      "passageFr": "LE REPAS DE FAMILLE, ESPÈCE MENACÉE ? Autrefois, trois générations se retrouvaient chaque dimanche autour d'un rôti qui avait cuit toute la matinée. De nos jours, bien que la tradition résiste dans certaines régions, les repas se sont raccourcis. Il est pourtant probable que le besoin de se retrouver survivra : au cas où les écrans nous lasseraient, la table sera toujours là.",
+      "passageEn": "THE FAMILY MEAL, ENDANGERED SPECIES? In the old days, three generations gathered every Sunday around a roast that had cooked all morning. Nowadays, although the tradition holds on in some regions, meals have grown shorter. Yet it is likely that the need to gather will survive: in case screens tire us, the table will still be there.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "« un rôti qui avait cuit toute la matinée » — which tense, and why?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Plus-que-parfait — the cooking happened before the gathering"
+            },
+            {
+              "id": "b",
+              "text": "Passé composé — a one-off event"
+            },
+            {
+              "id": "c",
+              "text": "Conditionnel — an unconfirmed rumour"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        },
+        {
+          "id": "q2",
+          "prompt": "Why « bien que la tradition RÉSISTE » (subjunctive)?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Bien que always takes the subjunctive (concession)"
+            },
+            {
+              "id": "b",
+              "text": "Because the tradition is dead"
+            },
+            {
+              "id": "c",
+              "text": "It's a spelling variant of the future"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex-mc-4",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "The two-second mood test: « Il faut que tu ___ » calls for…",
+      "options": [
+        {
+          "id": "a",
+          "text": "the subjunctive (viennes) — obligation is virtual"
+        },
+        {
+          "id": "b",
+          "text": "the indicative (viens) — obligation is a fact"
+        },
+        {
+          "id": "c",
+          "text": "the imperative (viens !) — orders only"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Il faut que + subjonctif: the action is required, not yet real → virtual → subjunctive."
+    },
+    {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/b2.2/unit-07-temps-modes/example-ex-1.mp3",
+      "transcript": "Autrefois, on écrivait des lettres ; de nos jours, on envoie des messages.",
+      "options": [
+        {
+          "id": "a",
+          "text": "In the old days people wrote letters; nowadays we send messages."
+        },
+        {
+          "id": "b",
+          "text": "Although some regret it, the evolution will continue."
+        },
+        {
+          "id": "c",
+          "text": "It's likely that customs will evolve further."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « un phénomène de société » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "a social phenomenon"
+        },
+        {
+          "id": "b",
+          "text": "a trend"
+        },
+        {
+          "id": "c",
+          "text": "evolution / development"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "un phénomène de société = a social phenomenon."
+    },
+    {
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "La {{b1}} s'inverse depuis peu.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "tendance"
+          ]
+        }
+      ],
+      "explanation": "« La tendance s'inverse depuis peu. » — a trend."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "un bouleversement",
+          "right": "an upheaval"
+        },
+        {
+          "id": "p2",
+          "left": "se transformer",
+          "right": "to transform / be transformed"
+        },
+        {
+          "id": "p3",
+          "left": "autrefois",
+          "right": "in the old days"
+        },
+        {
+          "id": "p4",
+          "left": "de nos jours",
+          "right": "nowadays"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “Although some regret it, the evolution will continue.”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Bien"
+        },
+        {
+          "id": "t2",
+          "text": "que"
+        },
+        {
+          "id": "t3",
+          "text": "certains"
+        },
+        {
+          "id": "t4",
+          "text": "le"
+        },
+        {
+          "id": "t5",
+          "text": "regrettent,"
+        },
+        {
+          "id": "t6",
+          "text": "l'évolution"
+        },
+        {
+          "id": "t7",
+          "text": "continuera"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7"
+      ]
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "Autrefois, on écrivait des lettres ; de nos jours, on envoie des messages.",
+      "targetEn": "In the old days people wrote letters; nowadays we send messages.",
+      "audio": "audio/b2.2/unit-07-temps-modes/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "Il est probable que les mœurs évolueront encore.",
+      "targetEn": "It's likely that customs will evolve further.",
+      "audio": "audio/b2.2/unit-07-temps-modes/example-ex-3.mp3"
+    }
+  ]
+}
