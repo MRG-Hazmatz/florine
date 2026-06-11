@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "b2.1/unit-06-city-passive",
+  "level": "b2.1",
+  "unitNumber": 6,
+  "slug": "unit-06-city-passive",
+  "title": "The City in Debate",
+  "titleFr": "La ville en débat : le passif approfondi",
+  "cefrDescriptors": [
+    "Can use the full B2 passive arsenal: classic passive, pronominal passive, se faire / se voir / se laisser + infinitive.",
+    "Can take part in a debate about urban change, heritage and modernity."
+  ],
+  "skills": ["reading", "listening", "writing", "speaking"],
+  "estimatedMinutes": 60,
+  "concept": "Second half of Domicile: the city itself — heritage versus modernity, towers versus rooftops. Urban news is written in the passive, and B2 expects you to command every form of it.\n\nTHE CLASSIC PASSIVE (rappel from B1): être + participe passé, agent with par/de:\n  Le vieux théâtre a été démoli malgré les protestations. · Un nouveau quartier sera inauguré en mai.\n\nLA FORME PRONOMINALE À SENS PASSIF — for general truths and market talk, no agent:\n  Ces appartements SE VENDENT comme des petits pains. (sell like hot cakes)\n  Le centre ancien SE VISITE à pied. · Ça ne SE FAIT pas ici.\n\nTHE B2 UPGRADE — passive with an attitude, built on infinitives:\n  • se faire + infinitif — the subject undergoes (often arranges) the action: Il s'est fait aider par un architecte. · Elle s'est fait construire une maison.\n  • se voir + infinitif — formal, administrative flavour: Les habitants se sont vu proposer un relogement. · Il s'est vu refuser le permis de construire.\n  • se laisser + infinitif — the subject lets it happen: Ils se sont laissé convaincre par le projet.\n  Agreement note: fait and laissé before an infinitive stay invariable (elle s'est fait construire…).\n\nTHE URBAN DEBATE KIT: le patrimoine (heritage), un permis de construire (building permit), démolir, un chantier (worksite), inaugurer, un gratte-ciel (skyscraper), un espace vert, la banlieue (suburbs), s'étendre (to spread), un urbaniste.\n\nPut it together like a town-hall argument: « Le quartier s'est vu imposer trois gratte-ciel. Les habitants se sont fait entendre : le patrimoine ne se brade pas ! Pourtant, le permis de construire a été accordé — et le chantier sera inauguré au printemps. »\n\nYour turn: one sentence FOR a new project and one AGAINST, each using a different passive form (se voir…, se faire…, or the pronominal).",
+  "vocabulary": [
+    { "id": "patrimoine", "fr": "le patrimoine", "en": "heritage", "pos": "noun", "exampleFr": "Il faut protéger le patrimoine.", "exampleEn": "Heritage must be protected.", "audio": "audio/b2.1/unit-06-city-passive/vocab-patrimoine.mp3", "voice": "denise" },
+    { "id": "permis", "fr": "un permis de construire", "en": "a building permit", "pos": "noun", "exampleFr": "Le permis de construire a été refusé.", "exampleEn": "The building permit was refused.", "audio": "audio/b2.1/unit-06-city-passive/vocab-permis.mp3", "voice": "henri" },
+    { "id": "demolir", "fr": "démolir", "en": "to demolish", "pos": "verb", "exampleFr": "On va démolir l'ancienne usine.", "exampleEn": "The old factory is going to be demolished.", "audio": "audio/b2.1/unit-06-city-passive/vocab-demolir.mp3", "voice": "denise" },
+    { "id": "chantier", "fr": "un chantier", "en": "a building site", "pos": "noun", "exampleFr": "Le chantier durera deux ans.", "exampleEn": "The worksite will last two years.", "audio": "audio/b2.1/unit-06-city-passive/vocab-chantier.mp3", "voice": "henri" },
+    { "id": "inaugurer", "fr": "inaugurer", "en": "to inaugurate / open", "pos": "verb", "exampleFr": "La médiathèque sera inaugurée en mai.", "exampleEn": "The media library will open in May.", "audio": "audio/b2.1/unit-06-city-passive/vocab-inaugurer.mp3", "voice": "denise" },
+    { "id": "gratte-ciel", "fr": "un gratte-ciel", "en": "a skyscraper", "pos": "noun", "exampleFr": "Un gratte-ciel de cinquante étages.", "exampleEn": "A fifty-storey skyscraper.", "audio": "audio/b2.1/unit-06-city-passive/vocab-gratte-ciel.mp3", "voice": "henri" },
+    { "id": "espace-vert", "fr": "un espace vert", "en": "a green space", "pos": "noun", "exampleFr": "Le quartier manque d'espaces verts.", "exampleEn": "The neighbourhood lacks green spaces.", "audio": "audio/b2.1/unit-06-city-passive/vocab-espace-vert.mp3", "voice": "denise" },
+    { "id": "banlieue", "fr": "la banlieue", "en": "the suburbs", "pos": "noun", "exampleFr": "Ils ont déménagé en banlieue.", "exampleEn": "They moved to the suburbs.", "audio": "audio/b2.1/unit-06-city-passive/vocab-banlieue.mp3", "voice": "henri" },
+    { "id": "s-etendre", "fr": "s'étendre", "en": "to spread / expand", "pos": "verb", "exampleFr": "La ville s'étend vers le sud.", "exampleEn": "The city is spreading southward.", "audio": "audio/b2.1/unit-06-city-passive/vocab-s-etendre.mp3", "voice": "denise" },
+    { "id": "urbaniste", "fr": "un/une urbaniste", "en": "an urban planner", "pos": "noun", "exampleFr": "L'urbaniste présente le projet.", "exampleEn": "The urban planner presents the project.", "audio": "audio/b2.1/unit-06-city-passive/vocab-urbaniste.mp3", "voice": "henri" },
+    { "id": "se-faire", "fr": "se faire + infinitif", "en": "to get (something done to one)", "pos": "expression", "exampleFr": "Il s'est fait aider par un voisin.", "exampleEn": "He got help from a neighbour.", "audio": "audio/b2.1/unit-06-city-passive/vocab-se-faire.mp3", "voice": "denise" },
+    { "id": "se-voir", "fr": "se voir + infinitif", "en": "to be (granted/refused…) — formal", "pos": "expression", "exampleFr": "Il s'est vu refuser le permis.", "exampleEn": "He was refused the permit.", "audio": "audio/b2.1/unit-06-city-passive/vocab-se-voir.mp3", "voice": "henri" },
+    { "id": "se-laisser", "fr": "se laisser + infinitif", "en": "to let oneself be…", "pos": "expression", "exampleFr": "Ils se sont laissé convaincre.", "exampleEn": "They let themselves be convinced.", "audio": "audio/b2.1/unit-06-city-passive/vocab-se-laisser.mp3", "voice": "denise" },
+    { "id": "relogement", "fr": "un relogement", "en": "rehousing", "pos": "noun", "exampleFr": "Un relogement a été proposé aux familles.", "exampleEn": "Rehousing was offered to the families.", "audio": "audio/b2.1/unit-06-city-passive/vocab-relogement.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "Ces appartements se vendent comme des petits pains.", "en": "These apartments are selling like hot cakes.", "audio": "audio/b2.1/unit-06-city-passive/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "Il s'est fait aider par un architecte.", "en": "He got help from an architect.", "audio": "audio/b2.1/unit-06-city-passive/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "Les habitants se sont vu proposer un relogement.", "en": "The residents were offered rehousing.", "audio": "audio/b2.1/unit-06-city-passive/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "Le vieux théâtre a été démoli malgré les protestations.", "en": "The old theatre was demolished despite the protests.", "audio": "audio/b2.1/unit-06-city-passive/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "Ils se sont laissé convaincre par le projet.", "en": "They let themselves be convinced by the project.", "audio": "audio/b2.1/unit-06-city-passive/example-ex-5.mp3", "voice": "denise" },
+    { "id": "ex-6", "fr": "La ville s'étend chaque année vers la banlieue.", "en": "The city spreads toward the suburbs every year.", "audio": "audio/b2.1/unit-06-city-passive/example-ex-6.mp3", "voice": "henri" }
+  ]
+}

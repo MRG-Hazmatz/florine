@@ -1,0 +1,427 @@
+{
+  "schemaVersion": 1,
+  "unitId": "b2.1/unit-06-city-passive",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Market talk: « Ces appartements ___ comme des petits pains. »",
+      "options": [
+        {
+          "id": "a",
+          "text": "se vendent"
+        },
+        {
+          "id": "b",
+          "text": "sont vendant"
+        },
+        {
+          "id": "c",
+          "text": "vendent"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Pronominal passive for general truths: ces appartements se vendent…"
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Formal/administrative passive: « Il s'est ___ refuser le permis de construire. »",
+      "options": [
+        {
+          "id": "a",
+          "text": "vu"
+        },
+        {
+          "id": "b",
+          "text": "fait"
+        },
+        {
+          "id": "c",
+          "text": "laissé"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Se voir + infinitive is the administrative flavour: il s'est vu refuser le permis."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Getting something done.",
+      "inputMode": "dropdown",
+      "template": "Elle s'est {{b1}} construire une maison en bois.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "fait"
+          ],
+          "options": [
+            "fait",
+            "faite",
+            "vue"
+          ]
+        }
+      ],
+      "explanation": "Se faire + infinitive (and fait stays invariable): elle s'est fait construire…"
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Letting it happen.",
+      "inputMode": "dropdown",
+      "template": "Ils se sont {{b1}} convaincre par l'urbaniste.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "laissé"
+          ],
+          "options": [
+            "laissé",
+            "laissés",
+            "vus"
+          ]
+        }
+      ],
+      "explanation": "Se laisser + infinitive — laissé invariable before the infinitive: ils se sont laissé convaincre."
+    },
+    {
+      "id": "ex-mc-3",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "« Les habitants se sont vu proposer un relogement » means…",
+      "options": [
+        {
+          "id": "a",
+          "text": "The residents were offered rehousing"
+        },
+        {
+          "id": "b",
+          "text": "The residents refused to move"
+        },
+        {
+          "id": "c",
+          "text": "The residents proposed rehousing to others"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Se voir + infinitive = a passive: they RECEIVED the offer."
+    },
+    {
+      "id": "ex-fb-3",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Classic passive with concession (one word).",
+      "inputMode": "typed",
+      "template": "Le théâtre a été démoli {{b1}} les protestations.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "malgré"
+          ]
+        }
+      ],
+      "explanation": "Malgré + noun (despite the protests) — concession meets the passive."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each urban word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "le patrimoine",
+          "right": "heritage"
+        },
+        {
+          "id": "p2",
+          "left": "un chantier",
+          "right": "a building site"
+        },
+        {
+          "id": "p3",
+          "left": "démolir",
+          "right": "to demolish"
+        },
+        {
+          "id": "p4",
+          "left": "la banlieue",
+          "right": "the suburbs"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"He got help from an architect.\"",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Il"
+        },
+        {
+          "id": "t2",
+          "text": "s'est"
+        },
+        {
+          "id": "t3",
+          "text": "fait"
+        },
+        {
+          "id": "t4",
+          "text": "aider"
+        },
+        {
+          "id": "t5",
+          "text": "par"
+        },
+        {
+          "id": "t6",
+          "text": "un"
+        },
+        {
+          "id": "t7",
+          "text": "architecte"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7"
+      ]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen to the news item. What happened to the neighbourhood?",
+      "audio": "audio/b2.1/unit-06-city-passive/listen-1.mp3",
+      "transcript": "Le quartier s'est vu imposer trois gratte-ciel, mais les habitants se sont fait entendre au conseil municipal.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Three skyscrapers were imposed on it, but residents made themselves heard"
+        },
+        {
+          "id": "b",
+          "text": "Residents built three skyscrapers themselves"
+        },
+        {
+          "id": "c",
+          "text": "The town council demolished three skyscrapers"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "s'est vu imposer (passive: imposed ON it) + se sont fait entendre (made themselves heard)."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read the local news article and answer both questions.",
+      "passageFr": "PATRIMOINE OU MODERNITÉ ? Le permis de construire de la tour Horizon a été accordé hier. Les familles de la rue Voltaire se sont vu proposer un relogement dans le nouveau quartier. « Nous ne nous laisserons pas faire », répond l'association du patrimoine, qui rappelle que le centre ancien se visite à pied et attire des milliers de touristes.",
+      "passageEn": "HERITAGE OR MODERNITY? The building permit for the Horizon tower was granted yesterday. The families of rue Voltaire have been offered rehousing in the new district. \"We won't let this happen to us,\" replies the heritage association, which points out that the old centre is visited on foot and attracts thousands of tourists.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "What were the rue Voltaire families offered?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Rehousing in the new district"
+            },
+            {
+              "id": "b",
+              "text": "Money to renovate their homes"
+            },
+            {
+              "id": "c",
+              "text": "Jobs on the building site"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        },
+        {
+          "id": "q2",
+          "prompt": "« Nous ne nous laisserons pas faire » expresses…",
+          "options": [
+            {
+              "id": "a",
+              "text": "Resistance — they won't let it happen to them"
+            },
+            {
+              "id": "b",
+              "text": "Agreement with the project"
+            },
+            {
+              "id": "c",
+              "text": "Indifference to the tower"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex-mc-4",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Which sentence uses the pronominal passive correctly?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le centre ancien se visite à pied."
+        },
+        {
+          "id": "b",
+          "text": "Le centre ancien est se visiter à pied."
+        },
+        {
+          "id": "c",
+          "text": "Le centre ancien visite à pied."
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "General truth, no agent → pronominal passive: le centre se visite à pied."
+    },
+    {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/b2.1/unit-06-city-passive/example-ex-1.mp3",
+      "transcript": "Ces appartements se vendent comme des petits pains.",
+      "options": [
+        {
+          "id": "a",
+          "text": "These apartments are selling like hot cakes."
+        },
+        {
+          "id": "b",
+          "text": "He got help from an architect."
+        },
+        {
+          "id": "c",
+          "text": "The residents were offered rehousing."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « le patrimoine » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "heritage"
+        },
+        {
+          "id": "b",
+          "text": "a building permit"
+        },
+        {
+          "id": "c",
+          "text": "to demolish"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "le patrimoine = heritage."
+    },
+    {
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "Il faut protéger le {{b1}}.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "patrimoine"
+          ]
+        }
+      ],
+      "explanation": "« Il faut protéger le patrimoine. » — heritage."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "inaugurer",
+          "right": "to inaugurate / open"
+        },
+        {
+          "id": "p2",
+          "left": "un gratte-ciel",
+          "right": "a skyscraper"
+        },
+        {
+          "id": "p3",
+          "left": "un espace vert",
+          "right": "a green space"
+        },
+        {
+          "id": "p4",
+          "left": "la banlieue",
+          "right": "the suburbs"
+        }
+      ]
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "Ces appartements se vendent comme des petits pains.",
+      "targetEn": "These apartments are selling like hot cakes.",
+      "audio": "audio/b2.1/unit-06-city-passive/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "Les habitants se sont vu proposer un relogement.",
+      "targetEn": "The residents were offered rehousing.",
+      "audio": "audio/b2.1/unit-06-city-passive/example-ex-3.mp3"
+    }
+  ]
+}

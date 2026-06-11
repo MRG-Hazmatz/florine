@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "b2.1/unit-05-qualification",
+  "level": "b2.1",
+  "unitNumber": 5,
+  "slug": "unit-05-qualification",
+  "title": "Describing Where You Live",
+  "titleFr": "Domicile : la qualification",
+  "cefrDescriptors": [
+    "Can describe a home, its rooms and objects with precise qualification.",
+    "Can choose à / de / en correctly in compound nouns (une boîte à outils, un sac en cuir).",
+    "Can deploy simple and compound relatives fluently in descriptions."
+  ],
+  "skills": ["reading", "listening", "writing", "speaking"],
+  "estimatedMinutes": 60,
+  "concept": "Dossier 3 is Domicile — the home, the neighbourhood, the city. Describing a place well is the art of LA QUALIFICATION: stacking precision onto a noun without sounding like a list.\n\nQUALIFICATION BY NOUN — French compounds run on three little prepositions, each with its own logic:\n  • à = PURPOSE, what it's for: une boîte à outils (toolbox), une salle à manger, une machine à laver, une tasse à café (a cup FOR coffee)\n  • de = CONTENT or function-category: une salle de bains, une salle de jeux, une tasse de café (a cup OF coffee — full!)\n  • en (or de) = MATERIAL: un sac en cuir, une table en bois, une maison de pierre\n  The classic exam trap: tasse à café (empty, designed for coffee) vs tasse de café (containing coffee).\n\nQUALIFICATION BY RELATIVE — your B1 system, now expected to flow:\n  • simple: C'est un appartement QUI donne sur la cour, QUE j'ai visité hier, OÙ tout est neuf, DONT je rêvais.\n  • compound after prepositions: le quartier DANS LEQUEL j'habite · la résidence À CÔTÉ DE LAQUELLE on construit · les voisins GRÂCE AUXQUELS tout est facile\n\nQUALIFICATION BY ADJECTIVE — the estate-agent's palette: lumineux (bright), spacieux, ancien, rénové, animé (lively, for a neighbourhood), calme, bien desservi (well served by transport).\n\nThe housing kit: un logement, un immeuble (a building), un locataire / un propriétaire (tenant / owner), le loyer (rent), les charges (utilities), aménager (to fit out), rénover, une pièce (a room).\n\nPut it together like a listing worth clicking: « Appartement lumineux et spacieux, dans un immeuble ancien entièrement rénové. Grande salle de bains, cuisine avec machine à laver. Quartier animé dans lequel tout se fait à pied — le logement dont vous rêviez. »\n\nYour turn: describe your dream home in three lines — one à/de/en compound, one relative (simple or compound), two adjectives.",
+  "vocabulary": [
+    { "id": "logement", "fr": "un logement", "en": "housing / a home", "pos": "noun", "exampleFr": "Ils cherchent un logement en ville.", "exampleEn": "They're looking for housing in town.", "audio": "audio/b2.1/unit-05-qualification/vocab-logement.mp3", "voice": "denise" },
+    { "id": "immeuble", "fr": "un immeuble", "en": "an apartment building", "pos": "noun", "exampleFr": "L'immeuble date des années 30.", "exampleEn": "The building dates from the 1930s.", "audio": "audio/b2.1/unit-05-qualification/vocab-immeuble.mp3", "voice": "henri" },
+    { "id": "locataire", "fr": "un/une locataire", "en": "a tenant", "pos": "noun", "exampleFr": "La locataire a signé le bail.", "exampleEn": "The tenant signed the lease.", "audio": "audio/b2.1/unit-05-qualification/vocab-locataire.mp3", "voice": "denise" },
+    { "id": "proprietaire", "fr": "un/une propriétaire", "en": "an owner / landlord", "pos": "noun", "exampleFr": "Le propriétaire refait la toiture.", "exampleEn": "The landlord is redoing the roof.", "audio": "audio/b2.1/unit-05-qualification/vocab-proprietaire.mp3", "voice": "henri" },
+    { "id": "loyer", "fr": "le loyer", "en": "the rent", "pos": "noun", "exampleFr": "Le loyer comprend les charges.", "exampleEn": "The rent includes utilities.", "audio": "audio/b2.1/unit-05-qualification/vocab-loyer.mp3", "voice": "denise" },
+    { "id": "amenager", "fr": "aménager", "en": "to fit out / convert (a space)", "pos": "verb", "exampleFr": "On a aménagé le grenier en bureau.", "exampleEn": "We converted the attic into an office.", "audio": "audio/b2.1/unit-05-qualification/vocab-amenager.mp3", "voice": "henri" },
+    { "id": "renover", "fr": "rénover", "en": "to renovate", "pos": "verb", "exampleFr": "La cuisine a été entièrement rénovée.", "exampleEn": "The kitchen has been fully renovated.", "audio": "audio/b2.1/unit-05-qualification/vocab-renover.mp3", "voice": "denise" },
+    { "id": "piece", "fr": "une pièce", "en": "a room", "pos": "noun", "exampleFr": "Un appartement de quatre pièces.", "exampleEn": "A four-room apartment.", "audio": "audio/b2.1/unit-05-qualification/vocab-piece.mp3", "voice": "henri" },
+    { "id": "lumineux", "fr": "lumineux / lumineuse", "en": "bright (full of light)", "pos": "adjective", "exampleFr": "Le salon est très lumineux.", "exampleEn": "The living room is very bright.", "audio": "audio/b2.1/unit-05-qualification/vocab-lumineux.mp3", "voice": "denise" },
+    { "id": "spacieux", "fr": "spacieux / spacieuse", "en": "spacious", "pos": "adjective", "exampleFr": "Une chambre spacieuse et calme.", "exampleEn": "A spacious, quiet bedroom.", "audio": "audio/b2.1/unit-05-qualification/vocab-spacieux.mp3", "voice": "henri" },
+    { "id": "anime", "fr": "animé(e)", "en": "lively (neighbourhood)", "pos": "adjective", "exampleFr": "On habite un quartier animé.", "exampleEn": "We live in a lively neighbourhood.", "audio": "audio/b2.1/unit-05-qualification/vocab-anime.mp3", "voice": "denise" },
+    { "id": "boite-a-outils", "fr": "une boîte à outils", "en": "a toolbox (à = purpose)", "pos": "noun", "exampleFr": "La boîte à outils est au garage.", "exampleEn": "The toolbox is in the garage.", "audio": "audio/b2.1/unit-05-qualification/vocab-boite-a-outils.mp3", "voice": "henri" },
+    { "id": "salle-de-bains", "fr": "une salle de bains", "en": "a bathroom (de = function)", "pos": "noun", "exampleFr": "La salle de bains vient d'être refaite.", "exampleEn": "The bathroom has just been redone.", "audio": "audio/b2.1/unit-05-qualification/vocab-salle-de-bains.mp3", "voice": "denise" },
+    { "id": "en-cuir", "fr": "en cuir / en bois", "en": "(made) of leather / of wood", "pos": "expression", "exampleFr": "Un canapé en cuir et une table en bois.", "exampleEn": "A leather sofa and a wooden table.", "audio": "audio/b2.1/unit-05-qualification/vocab-en-cuir.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "Nous avons aménagé une salle de jeux pour les enfants.", "en": "We fitted out a playroom for the children.", "audio": "audio/b2.1/unit-05-qualification/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "C'est l'appartement dont je rêvais depuis des années.", "en": "It's the apartment I had dreamed of for years.", "audio": "audio/b2.1/unit-05-qualification/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "Le quartier dans lequel j'habite est très animé.", "en": "The neighbourhood I live in is very lively.", "audio": "audio/b2.1/unit-05-qualification/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "J'ai acheté une table en bois et un canapé en cuir.", "en": "I bought a wooden table and a leather sofa.", "audio": "audio/b2.1/unit-05-qualification/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "Tu me prêtes ta tasse à café ? La mienne est cassée.", "en": "Can you lend me your coffee cup? Mine is broken.", "audio": "audio/b2.1/unit-05-qualification/example-ex-5.mp3", "voice": "denise" },
+    { "id": "ex-6", "fr": "Le loyer comprend les charges et le parking.", "en": "The rent includes utilities and parking.", "audio": "audio/b2.1/unit-05-qualification/example-ex-6.mp3", "voice": "henri" }
+  ]
+}

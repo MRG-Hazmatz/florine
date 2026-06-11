@@ -1,0 +1,427 @@
+{
+  "schemaVersion": 1,
+  "unitId": "b2.1/unit-05-qualification",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Purpose or content? \"An (empty) coffee cup\" is…",
+      "options": [
+        {
+          "id": "a",
+          "text": "une tasse à café"
+        },
+        {
+          "id": "b",
+          "text": "une tasse de café"
+        },
+        {
+          "id": "c",
+          "text": "une tasse en café"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "à = purpose (designed for coffee). Une tasse de café = a cup full of coffee."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Material: « un sac ___ cuir »",
+      "options": [
+        {
+          "id": "a",
+          "text": "en"
+        },
+        {
+          "id": "b",
+          "text": "à"
+        },
+        {
+          "id": "c",
+          "text": "pour"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Material → en: un sac en cuir, une table en bois."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Function compound.",
+      "inputMode": "dropdown",
+      "template": "La salle {{b1}} bains vient d'être rénovée.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "de"
+          ],
+          "options": [
+            "de",
+            "à",
+            "en"
+          ]
+        }
+      ],
+      "explanation": "Function-category compounds take de: salle de bains, salle de jeux."
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Compound relative after « dans ».",
+      "inputMode": "dropdown",
+      "template": "Le quartier dans {{b1}} j'habite est très animé.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "lequel"
+          ],
+          "options": [
+            "lequel",
+            "laquelle",
+            "qui"
+          ]
+        }
+      ],
+      "explanation": "Le quartier (masculine) + dans → dans lequel."
+    },
+    {
+      "id": "ex-mc-3",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Pick the right relative: « C'est l'appartement ___ je rêvais. »",
+      "options": [
+        {
+          "id": "a",
+          "text": "dont"
+        },
+        {
+          "id": "b",
+          "text": "que"
+        },
+        {
+          "id": "c",
+          "text": "qui"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Rêver DE quelque chose → dont: l'appartement dont je rêvais."
+    },
+    {
+      "id": "ex-fb-3",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Who pays the rent to whom? (one word)",
+      "inputMode": "typed",
+      "template": "Le locataire paie le {{b1}} au propriétaire chaque mois.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "loyer"
+          ]
+        }
+      ],
+      "explanation": "Le loyer = the rent."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each housing word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "un locataire",
+          "right": "a tenant"
+        },
+        {
+          "id": "p2",
+          "left": "le loyer",
+          "right": "the rent"
+        },
+        {
+          "id": "p3",
+          "left": "aménager",
+          "right": "to fit out"
+        },
+        {
+          "id": "p4",
+          "left": "lumineux",
+          "right": "bright"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"We converted the attic into an office.\"",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "On"
+        },
+        {
+          "id": "t2",
+          "text": "a"
+        },
+        {
+          "id": "t3",
+          "text": "aménagé"
+        },
+        {
+          "id": "t4",
+          "text": "le"
+        },
+        {
+          "id": "t5",
+          "text": "grenier"
+        },
+        {
+          "id": "t6",
+          "text": "en"
+        },
+        {
+          "id": "t7",
+          "text": "bureau"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7"
+      ]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen to the property visit. What is praised?",
+      "audio": "audio/b2.1/unit-05-qualification/listen-1.mp3",
+      "transcript": "Le salon est très lumineux, et la salle de bains, dont le carrelage est neuf, vient d'être rénovée.",
+      "options": [
+        {
+          "id": "a",
+          "text": "A bright living room and a newly renovated bathroom"
+        },
+        {
+          "id": "b",
+          "text": "A dark living room with old tiles"
+        },
+        {
+          "id": "c",
+          "text": "A spacious kitchen with a leather sofa"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "lumineux + salle de bains rénovée (dont le carrelage est neuf — relative with dont)."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read the listing and answer both questions.",
+      "passageFr": "À LOUER — Appartement de trois pièces, lumineux et spacieux, dans un immeuble ancien entièrement rénové. Cuisine équipée avec machine à laver, salle de bains neuve. Quartier animé dans lequel commerces et écoles se font à pied. Loyer : 980 € charges comprises. Les locataires actuels quittent le logement fin août.",
+      "passageEn": "FOR RENT — Three-room apartment, bright and spacious, in a fully renovated old building. Fitted kitchen with washing machine, brand-new bathroom. Lively neighbourhood where shops and schools are within walking distance. Rent: €980 including utilities. The current tenants leave at the end of August.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "What does the rent include?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Utilities (charges)"
+            },
+            {
+              "id": "b",
+              "text": "Furniture"
+            },
+            {
+              "id": "c",
+              "text": "Parking and a cellar"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        },
+        {
+          "id": "q2",
+          "prompt": "When do the current tenants leave?",
+          "options": [
+            {
+              "id": "a",
+              "text": "At the end of August"
+            },
+            {
+              "id": "b",
+              "text": "Immediately"
+            },
+            {
+              "id": "c",
+              "text": "The listing doesn't say"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex-mc-4",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Which compound is built correctly?",
+      "options": [
+        {
+          "id": "a",
+          "text": "une machine à laver"
+        },
+        {
+          "id": "b",
+          "text": "une machine de laver"
+        },
+        {
+          "id": "c",
+          "text": "une machine en laver"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Purpose + verb → à + infinitive: une machine à laver, une salle à manger."
+    },
+    {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/b2.1/unit-05-qualification/example-ex-1.mp3",
+      "transcript": "Nous avons aménagé une salle de jeux pour les enfants.",
+      "options": [
+        {
+          "id": "a",
+          "text": "We fitted out a playroom for the children."
+        },
+        {
+          "id": "b",
+          "text": "It's the apartment I had dreamed of for years."
+        },
+        {
+          "id": "c",
+          "text": "The neighbourhood I live in is very lively."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « un logement » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "housing / a home"
+        },
+        {
+          "id": "b",
+          "text": "an apartment building"
+        },
+        {
+          "id": "c",
+          "text": "a tenant"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "un logement = housing / a home."
+    },
+    {
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "Ils cherchent un {{b1}} en ville.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "logement"
+          ]
+        }
+      ],
+      "explanation": "« Ils cherchent un logement en ville. » — housing / a home."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "le loyer",
+          "right": "the rent"
+        },
+        {
+          "id": "p2",
+          "left": "aménager",
+          "right": "to fit out / convert"
+        },
+        {
+          "id": "p3",
+          "left": "rénover",
+          "right": "to renovate"
+        },
+        {
+          "id": "p4",
+          "left": "une pièce",
+          "right": "a room"
+        }
+      ]
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "Nous avons aménagé une salle de jeux pour les enfants.",
+      "targetEn": "We fitted out a playroom for the children.",
+      "audio": "audio/b2.1/unit-05-qualification/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "Le quartier dans lequel j'habite est très animé.",
+      "targetEn": "The neighbourhood I live in is very lively.",
+      "audio": "audio/b2.1/unit-05-qualification/example-ex-3.mp3"
+    }
+  ]
+}
