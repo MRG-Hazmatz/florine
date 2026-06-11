@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "unitId": "b1.2/unit-03-future",
+  "status": "pending_review",
+  "reviewers": [],
+  "approvedAt": null,
+  "sourceRefs": [
+    "DRAFT — built to the unit-03 template (objectif pragmatique + Point Langue grammar + thematic lexicon + DELF-format comprehension), then self-audited before commit. Covers le futur simple (rappel, irregular stems) + le futur antérieur (formation, anteriority with dès que/quand/une fois que/d'ici, agreement via auxiliary). Awaiting native-speaker review.",
+    "Progression blueprint: Alter Ego+ 3 (Hachette), Dossier 7 (écologie) (parler de l'avenir; le futur simple et le futur antérieur; thème: solutions durables, ville de demain). Content is original; the book is used only for scope/sequence, never copied."
+  ]
+}

@@ -1,0 +1,496 @@
+{
+  "schemaVersion": 1,
+  "unitId": "b1.2/unit-04-hypotheses",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Complete: « Si nous consommions moins, nous ___ l'eau. »",
+      "options": [
+        {
+          "id": "a",
+          "text": "conserverions"
+        },
+        {
+          "id": "b",
+          "text": "conserverons"
+        },
+        {
+          "id": "c",
+          "text": "conservions"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Si + imparfait → conditionnel présent: nous conserverions."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Express a regret: « J'___ écouter tes conseils. »",
+      "options": [
+        {
+          "id": "a",
+          "text": "aurais dû"
+        },
+        {
+          "id": "b",
+          "text": "devrais"
+        },
+        {
+          "id": "c",
+          "text": "ai dû"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Regret about the past → conditionnel passé: j'aurais dû (I should have)."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Advice with « à ta place »…",
+      "inputMode": "dropdown",
+      "template": "À ta place, je {{b1}} le train.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "prendrais"
+          ],
+          "options": [
+            "prendrais",
+            "prendrai",
+            "prends"
+          ]
+        }
+      ],
+      "explanation": "An imagined situation (if I were you) → conditionnel présent: je prendrais."
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Unconfirmed information in the press.",
+      "inputMode": "dropdown",
+      "template": "Selon la presse, la France {{b1}} bientôt 37 kg de déchets par jour.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "produirait"
+          ],
+          "options": [
+            "produirait",
+            "produira",
+            "produit"
+          ]
+        }
+      ],
+      "explanation": "Journalists use the conditional for unconfirmed claims: produirait = reportedly will produce."
+    },
+    {
+      "id": "ex-mc-3",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Complete: « Si ça continue comme ça, il n'y ___ plus de forêts. »",
+      "options": [
+        {
+          "id": "a",
+          "text": "aura"
+        },
+        {
+          "id": "b",
+          "text": "aurait"
+        },
+        {
+          "id": "c",
+          "text": "avait"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Si + présent → futur: si ça continue, il n'y aura plus… (Never future directly after si!)"
+    },
+    {
+      "id": "ex-fb-3",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Replace « à ce projet » with the right pronoun (one word).",
+      "inputMode": "typed",
+      "template": "— Tu crois à ce projet ? — Oui, j'{{b1}} crois.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "y"
+          ]
+        }
+      ],
+      "explanation": "Croire À quelque chose → y: j'y crois."
+    },
+    {
+      "id": "ex-mc-4",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Complete: « — Tu manges de la viande ? — Non, je n'___ mange jamais. »",
+      "options": [
+        {
+          "id": "a",
+          "text": "en"
+        },
+        {
+          "id": "b",
+          "text": "y"
+        },
+        {
+          "id": "c",
+          "text": "la"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "De la viande (partitive) → en: je n'en mange jamais."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each expression to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "tu devrais",
+          "right": "you should"
+        },
+        {
+          "id": "p2",
+          "left": "j'aurais dû",
+          "right": "I should have"
+        },
+        {
+          "id": "p3",
+          "left": "une espèce",
+          "right": "a species"
+        },
+        {
+          "id": "p4",
+          "left": "économiser",
+          "right": "to save"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"If I were you, I would take the bike.\"",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Si"
+        },
+        {
+          "id": "t2",
+          "text": "j'étais"
+        },
+        {
+          "id": "t3",
+          "text": "toi,"
+        },
+        {
+          "id": "t4",
+          "text": "je"
+        },
+        {
+          "id": "t5",
+          "text": "prendrais"
+        },
+        {
+          "id": "t6",
+          "text": "le"
+        },
+        {
+          "id": "t7",
+          "text": "vélo"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7"
+      ]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen to the hypothesis. What does it say?",
+      "audio": "audio/b1.2/unit-04-hypotheses/listen-1.mp3",
+      "transcript": "Si on plantait plus d'arbres, les villes seraient moins chaudes en été.",
+      "options": [
+        {
+          "id": "a",
+          "text": "If we planted more trees, cities would be cooler in summer"
+        },
+        {
+          "id": "b",
+          "text": "We planted trees, so cities are cooler now"
+        },
+        {
+          "id": "c",
+          "text": "Cities will plant trees next summer"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Si + imparfait (plantait) → conditionnel (seraient): an imagined situation, not a fact."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read the eco-debate exchange and answer both questions.",
+      "passageFr": "AMANDINE : Si on avait agi il y a dix ans, on aurait évité la disparition de plusieurs espèces. LÉO : Tu crois vraiment à ces programmes de protection ? Moi, j'en doute un peu. AMANDINE : Moi, j'y crois ! Et à ta place, je m'informerais avant de douter.",
+      "passageEn": "AMANDINE: If we had acted ten years ago, we would have avoided the extinction of several species. LÉO: Do you really believe in these protection programmes? I have my doubts. AMANDINE: I believe in them! And if I were you, I'd read up before doubting.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "What does Amandine say about acting ten years ago?",
+          "options": [
+            {
+              "id": "a",
+              "text": "It would have avoided the extinction of several species"
+            },
+            {
+              "id": "b",
+              "text": "It was impossible to act back then"
+            },
+            {
+              "id": "c",
+              "text": "Several species were saved ten years ago"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        },
+        {
+          "id": "q2",
+          "prompt": "What is Léo's attitude towards the protection programmes?",
+          "options": [
+            {
+              "id": "a",
+              "text": "He doubts them (« j'en doute »)"
+            },
+            {
+              "id": "b",
+              "text": "He believes in them completely"
+            },
+            {
+              "id": "c",
+              "text": "He runs one himself"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex-mc-5",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Hindsight hypothesis: « Si on avait agi plus tôt, on ___ la crise. »",
+      "options": [
+        {
+          "id": "a",
+          "text": "aurait évité"
+        },
+        {
+          "id": "b",
+          "text": "éviterait"
+        },
+        {
+          "id": "c",
+          "text": "avait évité"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Si + plus-que-parfait → conditionnel passé: on aurait évité."
+    },
+    {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/b1.2/unit-04-hypotheses/example-ex-1.mp3",
+      "transcript": "Si nous consommions moins, nous conserverions l'eau.",
+      "options": [
+        {
+          "id": "a",
+          "text": "If we consumed less, we would conserve water."
+        },
+        {
+          "id": "b",
+          "text": "If you don't believe me, read this article!"
+        },
+        {
+          "id": "c",
+          "text": "You should take your bike more often."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « une hypothèse » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "a hypothesis"
+        },
+        {
+          "id": "b",
+          "text": "to imagine"
+        },
+        {
+          "id": "c",
+          "text": "if I were you"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "une hypothèse = a hypothesis."
+    },
+    {
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "Faisons une {{b1}} simple.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "hypothèse"
+          ]
+        }
+      ],
+      "explanation": "« Faisons une hypothèse simple. » — a hypothesis."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "j'aurais dû",
+          "right": "I should have"
+        },
+        {
+          "id": "p2",
+          "left": "un regret",
+          "right": "a regret"
+        },
+        {
+          "id": "p3",
+          "left": "un reproche",
+          "right": "a reproach / criticism"
+        },
+        {
+          "id": "p4",
+          "left": "une espèce",
+          "right": "a species"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “If we consumed less, we would conserve water.”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Si"
+        },
+        {
+          "id": "t2",
+          "text": "nous"
+        },
+        {
+          "id": "t3",
+          "text": "consommions"
+        },
+        {
+          "id": "t4",
+          "text": "moins,"
+        },
+        {
+          "id": "t5",
+          "text": "nous"
+        },
+        {
+          "id": "t6",
+          "text": "conserverions"
+        },
+        {
+          "id": "t7",
+          "text": "l'eau"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7"
+      ]
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "Si nous consommions moins, nous conserverions l'eau.",
+      "targetEn": "If we consumed less, we would conserve water.",
+      "audio": "audio/b1.2/unit-04-hypotheses/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "Tu devrais prendre le vélo plus souvent.",
+      "targetEn": "You should take your bike more often.",
+      "audio": "audio/b1.2/unit-04-hypotheses/example-ex-3.mp3"
+    }
+  ]
+}

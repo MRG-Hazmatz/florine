@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "b1.2/unit-03-future",
+  "level": "b1.2",
+  "unitNumber": 3,
+  "slug": "unit-03-future",
+  "title": "Talking About the Future",
+  "titleFr": "Le futur simple et le futur antérieur",
+  "cefrDescriptors": [
+    "Can describe future plans and predictions about the environment.",
+    "Can use the futur antérieur for an action completed before another future action."
+  ],
+  "skills": ["reading", "listening", "writing", "speaking"],
+  "estimatedMinutes": 55,
+  "concept": "Dossier 7 looks forward — ecology, energy, the cities of 2030. Talking about tomorrow takes two future tenses, and the second one is the B1 upgrade.\n\nLE FUTUR SIMPLE (rappel) — infinitive + -ai, -as, -a, -ons, -ez, -ont (drop the -e of -re verbs):\n  je trierai · tu finiras · on produira · nous recyclerons\n  The usual irregular stems: être → ser- · avoir → aur- · aller → ir- · faire → fer- · pouvoir → pourr- · venir → viendr-\n\nLE FUTUR ANTÉRIEUR — the future's own past. For an action that will ALREADY BE FINISHED before another future action:\n  Formation: être or avoir in the futur simple + participe passé\n  Dès que tu auras fini, appelle-moi. (finish first, call second)\n  Quand j'aurai économisé assez, j'achèterai un vélo électrique.\n  D'ici 2030, on aura réussi à limiter la voiture en ville.\nIt loves these time markers: dès que (as soon as), quand, une fois que, d'ici (by [a future date]). Note the difference from English: after dès que / quand, French uses a FUTURE form where English says 'as soon as you HAVE finished'.\n\nAll the agreement rules you know follow the auxiliary: Elle sera partie. · Ils se seront inscrits.\n\nThe ecology kit: l'environnement, le réchauffement climatique (global warming), les déchets (waste), trier (to sort), recycler, une énergie renouvelable, épuiser les ressources (to exhaust resources), améliorer (to improve).\n\nPut it together like a city's eco-plan: « D'ici cinq ans, nous aurons installé des panneaux solaires partout. Dès que le tri sera devenu automatique, la ville recyclera 80 % de ses déchets. »\n\nYour turn: write two predictions for 2035 — one futur simple (what will happen) and one futur antérieur (what will already have been done by then).",
+  "vocabulary": [
+    { "id": "environnement", "fr": "l'environnement (m.)", "en": "the environment", "pos": "noun", "exampleFr": "Il faut protéger l'environnement.", "exampleEn": "We must protect the environment.", "audio": "audio/b1.2/unit-03-future/vocab-environnement.mp3", "voice": "denise" },
+    { "id": "rechauffement", "fr": "le réchauffement climatique", "en": "global warming", "pos": "noun", "exampleFr": "Le réchauffement climatique s'accélère.", "exampleEn": "Global warming is speeding up.", "audio": "audio/b1.2/unit-03-future/vocab-rechauffement.mp3", "voice": "henri" },
+    { "id": "dechets", "fr": "les déchets (m.)", "en": "waste / rubbish", "pos": "noun", "exampleFr": "On trie les déchets ici.", "exampleEn": "We sort the waste here.", "audio": "audio/b1.2/unit-03-future/vocab-dechets.mp3", "voice": "denise" },
+    { "id": "trier", "fr": "trier", "en": "to sort (waste)", "pos": "verb", "exampleFr": "Je trie le papier et le verre.", "exampleEn": "I sort paper and glass.", "audio": "audio/b1.2/unit-03-future/vocab-trier.mp3", "voice": "henri" },
+    { "id": "recycler", "fr": "recycler", "en": "to recycle", "pos": "verb", "exampleFr": "Cette ville recycle tout.", "exampleEn": "This city recycles everything.", "audio": "audio/b1.2/unit-03-future/vocab-recycler.mp3", "voice": "denise" },
+    { "id": "energie-renouvelable", "fr": "une énergie renouvelable", "en": "a renewable energy", "pos": "noun", "exampleFr": "Le solaire est une énergie renouvelable.", "exampleEn": "Solar is a renewable energy.", "audio": "audio/b1.2/unit-03-future/vocab-energie-renouvelable.mp3", "voice": "henri" },
+    { "id": "planete", "fr": "la planète", "en": "the planet", "pos": "noun", "exampleFr": "Sauvons la planète !", "exampleEn": "Let's save the planet!", "audio": "audio/b1.2/unit-03-future/vocab-planete.mp3", "voice": "denise" },
+    { "id": "polluer", "fr": "polluer", "en": "to pollute", "pos": "verb", "exampleFr": "Les voitures polluent l'air.", "exampleEn": "Cars pollute the air.", "audio": "audio/b1.2/unit-03-future/vocab-polluer.mp3", "voice": "henri" },
+    { "id": "des-que", "fr": "dès que", "en": "as soon as", "pos": "conjunction", "exampleFr": "Dès que tu arrives, appelle-moi.", "exampleEn": "As soon as you arrive, call me.", "audio": "audio/b1.2/unit-03-future/vocab-des-que.mp3", "voice": "denise" },
+    { "id": "d-ici", "fr": "d'ici", "en": "by (a future date)", "pos": "preposition", "exampleFr": "D'ici 2030, tout changera.", "exampleEn": "By 2030, everything will change.", "audio": "audio/b1.2/unit-03-future/vocab-d-ici.mp3", "voice": "henri" },
+    { "id": "epuiser", "fr": "épuiser", "en": "to use up / exhaust", "pos": "verb", "exampleFr": "Nous épuisons les ressources.", "exampleEn": "We are exhausting the resources.", "audio": "audio/b1.2/unit-03-future/vocab-epuiser.mp3", "voice": "denise" },
+    { "id": "ressources", "fr": "les ressources (f.)", "en": "resources", "pos": "noun", "exampleFr": "Les ressources ne sont pas infinies.", "exampleEn": "Resources are not infinite.", "audio": "audio/b1.2/unit-03-future/vocab-ressources.mp3", "voice": "henri" },
+    { "id": "ameliorer", "fr": "améliorer", "en": "to improve", "pos": "verb", "exampleFr": "On peut améliorer les transports.", "exampleEn": "We can improve transport.", "audio": "audio/b1.2/unit-03-future/vocab-ameliorer.mp3", "voice": "denise" },
+    { "id": "panneau-solaire", "fr": "un panneau solaire", "en": "a solar panel", "pos": "noun", "exampleFr": "Le toit a des panneaux solaires.", "exampleEn": "The roof has solar panels.", "audio": "audio/b1.2/unit-03-future/vocab-panneau-solaire.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "Demain, on triera tous nos déchets.", "en": "Tomorrow, we will sort all our waste.", "audio": "audio/b1.2/unit-03-future/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "Dès que tu auras fini, appelle-moi.", "en": "As soon as you've finished, call me.", "audio": "audio/b1.2/unit-03-future/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "D'ici 2030, on aura réussi à limiter la voiture en ville.", "en": "By 2030, we will have managed to limit cars in the city.", "audio": "audio/b1.2/unit-03-future/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "Quand j'aurai économisé assez, j'achèterai un vélo électrique.", "en": "When I've saved enough, I'll buy an electric bike.", "audio": "audio/b1.2/unit-03-future/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "Les ressources seront épuisées si on ne change rien.", "en": "Resources will be exhausted if we change nothing.", "audio": "audio/b1.2/unit-03-future/example-ex-5.mp3", "voice": "denise" },
+    { "id": "ex-6", "fr": "On produira bientôt notre énergie à partir de sources renouvelables.", "en": "We will soon produce our energy from renewable sources.", "audio": "audio/b1.2/unit-03-future/example-ex-6.mp3", "voice": "henri" }
+  ]
+}

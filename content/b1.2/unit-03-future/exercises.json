@@ -1,0 +1,457 @@
+{
+  "schemaVersion": 1,
+  "unitId": "b1.2/unit-03-future",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Which tense is for an action ALREADY FINISHED before another future action?",
+      "options": [
+        {
+          "id": "a",
+          "text": "le futur antérieur"
+        },
+        {
+          "id": "b",
+          "text": "le futur simple"
+        },
+        {
+          "id": "c",
+          "text": "le passé composé"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "The futur antérieur (être/avoir au futur + participe passé) is the future's own past."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Complete: « Dès que tu ___, appelle-moi. »",
+      "options": [
+        {
+          "id": "a",
+          "text": "auras fini"
+        },
+        {
+          "id": "b",
+          "text": "finiras"
+        },
+        {
+          "id": "c",
+          "text": "as fini"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "The finishing happens BEFORE the calling → futur antérieur after dès que: tu auras fini."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Choose the right future form.",
+      "inputMode": "dropdown",
+      "template": "Quand j'{{b1}} assez d'argent, j'achèterai un vélo électrique.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "aurai économisé"
+          ],
+          "options": [
+            "aurai économisé",
+            "économiserai",
+            "ai économisé"
+          ]
+        }
+      ],
+      "explanation": "Saving comes before buying → futur antérieur: quand j'aurai économisé."
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Irregular futur simple of « aller ».",
+      "inputMode": "dropdown",
+      "template": "Demain, nous {{b1}} au centre de tri.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "irons"
+          ],
+          "options": [
+            "irons",
+            "allerons",
+            "vont"
+          ]
+        }
+      ],
+      "explanation": "Aller has the irregular future stem ir-: nous irons."
+    },
+    {
+      "id": "ex-mc-3",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "How is the futur antérieur formed?",
+      "options": [
+        {
+          "id": "a",
+          "text": "être or avoir in the futur simple + participe passé"
+        },
+        {
+          "id": "b",
+          "text": "infinitive + -ai, -as, -a…"
+        },
+        {
+          "id": "c",
+          "text": "être or avoir in the present + participe passé"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Auxiliary in the future + past participle: j'aurai fini, elle sera partie."
+    },
+    {
+      "id": "ex-fb-3",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Complete the prediction (one word).",
+      "inputMode": "typed",
+      "template": "D'ici 2030, on {{b1}} réussi à réduire la pollution.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "aura"
+          ]
+        }
+      ],
+      "explanation": "By 2030 = already done by then → futur antérieur: on aura réussi."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each ecology word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "les déchets",
+          "right": "waste"
+        },
+        {
+          "id": "p2",
+          "left": "trier",
+          "right": "to sort"
+        },
+        {
+          "id": "p3",
+          "left": "le réchauffement climatique",
+          "right": "global warming"
+        },
+        {
+          "id": "p4",
+          "left": "épuiser",
+          "right": "to use up"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"As soon as you've finished, call me.\"",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Dès que"
+        },
+        {
+          "id": "t2",
+          "text": "tu"
+        },
+        {
+          "id": "t3",
+          "text": "auras"
+        },
+        {
+          "id": "t4",
+          "text": "fini,"
+        },
+        {
+          "id": "t5",
+          "text": "appelle-moi"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5"
+      ]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen to the announcement. What will happen, in what order?",
+      "audio": "audio/b1.2/unit-03-future/listen-1.mp3",
+      "transcript": "Dès que nous aurons installé les panneaux solaires, la maison produira sa propre énergie.",
+      "options": [
+        {
+          "id": "a",
+          "text": "First the solar panels get installed, then the house produces its own energy"
+        },
+        {
+          "id": "b",
+          "text": "The house already produces its own energy"
+        },
+        {
+          "id": "c",
+          "text": "The solar panels will be removed from the house"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Futur antérieur (aurons installé) = first; futur simple (produira) = second."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read the city's eco-plan and answer both questions.",
+      "passageFr": "PLAN VERT 2030 — D'ici cinq ans, la ville aura installé des panneaux solaires sur tous les bâtiments publics. Dès que le nouveau centre de tri aura ouvert, nous recyclerons 80 % de nos déchets. Les bus électriques, eux, arriveront l'année prochaine.",
+      "passageEn": "GREEN PLAN 2030 — Within five years, the city will have installed solar panels on all public buildings. As soon as the new sorting centre has opened, we will recycle 80% of our waste. Electric buses arrive next year.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "What will the city have done within five years?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Installed solar panels on all public buildings"
+            },
+            {
+              "id": "b",
+              "text": "Banned all cars from the centre"
+            },
+            {
+              "id": "c",
+              "text": "Built a new airport"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        },
+        {
+          "id": "q2",
+          "prompt": "When will the city recycle 80% of its waste?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Once the new sorting centre has opened"
+            },
+            {
+              "id": "b",
+              "text": "Next year, with the electric buses"
+            },
+            {
+              "id": "c",
+              "text": "It already does"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex-mc-4",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "« Quand on aura trié les déchets, on les recyclera. » — which happens FIRST?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The sorting (futur antérieur)"
+        },
+        {
+          "id": "b",
+          "text": "The recycling (futur simple)"
+        },
+        {
+          "id": "c",
+          "text": "They happen at the same time"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "The futur antérieur marks the earlier of the two future actions: sort first, recycle after."
+    },
+    {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/b1.2/unit-03-future/example-ex-1.mp3",
+      "transcript": "Demain, on triera tous nos déchets.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tomorrow, we will sort all our waste."
+        },
+        {
+          "id": "b",
+          "text": "As soon as you've finished, call me."
+        },
+        {
+          "id": "c",
+          "text": "By 2030, we will have managed to limit cars in the city."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « l'environnement (m.) » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "the environment"
+        },
+        {
+          "id": "b",
+          "text": "global warming"
+        },
+        {
+          "id": "c",
+          "text": "waste / rubbish"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "l'environnement (m.) = the environment."
+    },
+    {
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "Sauvons la {{b1}} !",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "planète"
+          ]
+        }
+      ],
+      "explanation": "« Sauvons la planète ! » — the planet."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "recycler",
+          "right": "to recycle"
+        },
+        {
+          "id": "p2",
+          "left": "une énergie renouvelable",
+          "right": "a renewable energy"
+        },
+        {
+          "id": "p3",
+          "left": "la planète",
+          "right": "the planet"
+        },
+        {
+          "id": "p4",
+          "left": "polluer",
+          "right": "to pollute"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “Tomorrow, we will sort all our waste.”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Demain,"
+        },
+        {
+          "id": "t2",
+          "text": "on"
+        },
+        {
+          "id": "t3",
+          "text": "triera"
+        },
+        {
+          "id": "t4",
+          "text": "tous"
+        },
+        {
+          "id": "t5",
+          "text": "nos"
+        },
+        {
+          "id": "t6",
+          "text": "déchets"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ]
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "Demain, on triera tous nos déchets.",
+      "targetEn": "Tomorrow, we will sort all our waste.",
+      "audio": "audio/b1.2/unit-03-future/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "D'ici 2030, on aura réussi à limiter la voiture en ville.",
+      "targetEn": "By 2030, we will have managed to limit cars in the city.",
+      "audio": "audio/b1.2/unit-03-future/example-ex-3.mp3"
+    }
+  ]
+}

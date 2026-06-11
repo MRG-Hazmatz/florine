@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "b1.2/unit-04-hypotheses",
+  "level": "b1.2",
+  "unitNumber": 4,
+  "slug": "unit-04-hypotheses",
+  "title": "Hypotheses & the Conditional",
+  "titleFr": "L'hypothèse et le conditionnel",
+  "cefrDescriptors": [
+    "Can make hypotheses with the three si-patterns.",
+    "Can use the conditionnel présent and passé for advice, polite requests, unconfirmed information, regret and reproach.",
+    "Can replace à- and de-complements with the pronouns y and en."
+  ],
+  "skills": ["reading", "listening", "writing", "speaking"],
+  "estimatedMinutes": 60,
+  "concept": "Still in Dossier 7's eco-debates: what WOULD happen if we consumed less? What SHOULD we have done years ago? That's conditional territory — the mood of the imagined.\n\nLE CONDITIONNEL PRÉSENT — future stem + imparfait endings: je trierais, tu pourrais, on devrait. Five jobs:\n  • polite request: Je voudrais un billet. · Pourriez-vous m'aider ?\n  • advice: Tu devrais prendre le vélo. · Tu ferais mieux de recycler.\n  • unconfirmed information (journalism!): La France produirait bientôt 37 kg de déchets par jour. (= reportedly)\n  • imagined situation: Ce serait la solution idéale.\n  • future-in-the-past (concordance, from unit 4!): Il a dit qu'on créerait un nouveau carburant.\n\nLE CONDITIONNEL PASSÉ — être/avoir au conditionnel + participe passé. The mood of hindsight:\n  • regret: J'aurais dû écouter tes conseils. (I should have…)\n  • reproach: Tu aurais pu me prévenir ! (You could have…)\n  • what would have been: On aurait pu éviter cette pollution.\n\nL'HYPOTHÈSE — the three si-patterns, one per timeline:\n  • si + présent → futur (or impératif): Si ça continue, il n'y aura plus de forêts. · Si tu ne me crois pas, lis cet article !\n  • si + imparfait → conditionnel présent: Si nous consommions moins, nous conserverions l'eau.\n  • si + plus-que-parfait → conditionnel passé: Si on avait agi plus tôt, on aurait évité la crise.\n  (Never a future or conditional directly after si!)\n\nLES PRONOMS Y ET EN — the debate's shorthand:\n  • y replaces à + thing/idea or a place: — Tu crois à ce projet ? — J'y crois ! · — Tu vas à la déchetterie ? — J'y vais.\n  • en replaces de + thing or a partitive/quantity: — Tu doutes de ce plan ? — J'en doute. · — Tu manges de la viande ? — Je n'en mange jamais.\n\nPut it together like an eco-debate: « Si on plantait plus d'arbres, les villes seraient moins chaudes. On aurait dû commencer il y a dix ans — tu en doutes ? Moi, j'y crois. »\n\nYour turn: one hypothesis about your town with si + imparfait, and one regret with j'aurais dû.",
+  "vocabulary": [
+    { "id": "hypothese", "fr": "une hypothèse", "en": "a hypothesis", "pos": "noun", "exampleFr": "Faisons une hypothèse simple.", "exampleEn": "Let's make a simple hypothesis.", "audio": "audio/b1.2/unit-04-hypotheses/vocab-hypothese.mp3", "voice": "denise" },
+    { "id": "imaginer", "fr": "imaginer", "en": "to imagine", "pos": "verb", "exampleFr": "Imagine une ville sans voitures.", "exampleEn": "Imagine a city without cars.", "audio": "audio/b1.2/unit-04-hypotheses/vocab-imaginer.mp3", "voice": "henri" },
+    { "id": "a-ta-place", "fr": "à ta place", "en": "if I were you", "pos": "expression", "exampleFr": "À ta place, je refuserais.", "exampleEn": "If I were you, I'd refuse.", "audio": "audio/b1.2/unit-04-hypotheses/vocab-a-ta-place.mp3", "voice": "denise" },
+    { "id": "tu-devrais", "fr": "tu devrais", "en": "you should", "pos": "expression", "exampleFr": "Tu devrais prendre le bus.", "exampleEn": "You should take the bus.", "audio": "audio/b1.2/unit-04-hypotheses/vocab-tu-devrais.mp3", "voice": "henri" },
+    { "id": "j-aurais-du", "fr": "j'aurais dû", "en": "I should have", "pos": "expression", "exampleFr": "J'aurais dû t'écouter.", "exampleEn": "I should have listened to you.", "audio": "audio/b1.2/unit-04-hypotheses/vocab-j-aurais-du.mp3", "voice": "denise" },
+    { "id": "regret", "fr": "un regret", "en": "a regret", "pos": "noun", "exampleFr": "Je n'ai aucun regret.", "exampleEn": "I have no regrets.", "audio": "audio/b1.2/unit-04-hypotheses/vocab-regret.mp3", "voice": "henri" },
+    { "id": "reproche", "fr": "un reproche", "en": "a reproach / criticism", "pos": "noun", "exampleFr": "Ce n'est pas un reproche !", "exampleEn": "It's not a criticism!", "audio": "audio/b1.2/unit-04-hypotheses/vocab-reproche.mp3", "voice": "denise" },
+    { "id": "espece", "fr": "une espèce", "en": "a species", "pos": "noun", "exampleFr": "Cette espèce est menacée.", "exampleEn": "This species is endangered.", "audio": "audio/b1.2/unit-04-hypotheses/vocab-espece.mp3", "voice": "henri" },
+    { "id": "disparaitre", "fr": "disparaître", "en": "to disappear / go extinct", "pos": "verb", "exampleFr": "Ces animaux risquent de disparaître.", "exampleEn": "These animals risk going extinct.", "audio": "audio/b1.2/unit-04-hypotheses/vocab-disparaitre.mp3", "voice": "denise" },
+    { "id": "consommer", "fr": "consommer", "en": "to consume", "pos": "verb", "exampleFr": "Nous consommons trop d'énergie.", "exampleEn": "We consume too much energy.", "audio": "audio/b1.2/unit-04-hypotheses/vocab-consommer.mp3", "voice": "henri" },
+    { "id": "economiser", "fr": "économiser", "en": "to save (energy, money)", "pos": "verb", "exampleFr": "Économisons l'eau !", "exampleEn": "Let's save water!", "audio": "audio/b1.2/unit-04-hypotheses/vocab-economiser.mp3", "voice": "denise" },
+    { "id": "y-croire", "fr": "y croire", "en": "to believe in it", "pos": "verb", "exampleFr": "Ce projet ? J'y crois !", "exampleEn": "This project? I believe in it!", "audio": "audio/b1.2/unit-04-hypotheses/vocab-y-croire.mp3", "voice": "henri" },
+    { "id": "en-douter", "fr": "en douter", "en": "to doubt it", "pos": "verb", "exampleFr": "Il réussira ? J'en doute.", "exampleEn": "He'll succeed? I doubt it.", "audio": "audio/b1.2/unit-04-hypotheses/vocab-en-douter.mp3", "voice": "denise" },
+    { "id": "planter", "fr": "planter", "en": "to plant", "pos": "verb", "exampleFr": "On plante des arbres en ville.", "exampleEn": "We're planting trees in the city.", "audio": "audio/b1.2/unit-04-hypotheses/vocab-planter.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "Si nous consommions moins, nous conserverions l'eau.", "en": "If we consumed less, we would conserve water.", "audio": "audio/b1.2/unit-04-hypotheses/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "Si tu ne me crois pas, lis cet article !", "en": "If you don't believe me, read this article!", "audio": "audio/b1.2/unit-04-hypotheses/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "Tu devrais prendre le vélo plus souvent.", "en": "You should take your bike more often.", "audio": "audio/b1.2/unit-04-hypotheses/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "On aurait pu éviter cette pollution.", "en": "We could have avoided this pollution.", "audio": "audio/b1.2/unit-04-hypotheses/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "Selon la presse, la ville construirait bientôt un tramway.", "en": "According to the press, the city will reportedly soon build a tramway.", "audio": "audio/b1.2/unit-04-hypotheses/example-ex-5.mp3", "voice": "denise" },
+    { "id": "ex-6", "fr": "Tu crois à ce projet ? Moi, j'y crois !", "en": "Do you believe in this project? I believe in it!", "audio": "audio/b1.2/unit-04-hypotheses/example-ex-6.mp3", "voice": "henri" }
+  ]
+}
