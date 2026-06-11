@@ -1,0 +1,457 @@
+{
+  "schemaVersion": 1,
+  "unitId": "b1.2/unit-06-pronouns-narration",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "« Tu as donné la lettre à Paul ? — Oui, je ___ ai donnée. »",
+      "options": [
+        {
+          "id": "a",
+          "text": "la lui"
+        },
+        {
+          "id": "b",
+          "text": "lui la"
+        },
+        {
+          "id": "c",
+          "text": "le lui"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "le/la/les come BEFORE lui/leur: je la lui ai donnée (la = la lettre, hence donnée agrees)."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "« Ces indemnités, il doit ___ payer. » (them, to me)",
+      "options": [
+        {
+          "id": "a",
+          "text": "me les"
+        },
+        {
+          "id": "b",
+          "text": "les me"
+        },
+        {
+          "id": "c",
+          "text": "me leur"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "me/te/nous/vous come BEFORE le/la/les: il doit me les payer."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "\"I had told him so!\" — stack the pronouns.",
+      "inputMode": "dropdown",
+      "template": "Je {{b1}} avais bien dit !",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "le lui"
+          ],
+          "options": [
+            "le lui",
+            "lui le",
+            "la lui"
+          ]
+        }
+      ],
+      "explanation": "Neutral le (= that idea) before lui: je le lui avais bien dit."
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Shift the time marker into a past narrative.",
+      "inputMode": "dropdown",
+      "template": "Dans son récit, « hier » devient {{b1}}.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "la veille"
+          ],
+          "options": [
+            "la veille",
+            "le lendemain",
+            "ce jour-là"
+          ]
+        }
+      ],
+      "explanation": "hier → la veille (the day before), just like in reported speech."
+    },
+    {
+      "id": "ex-mc-3",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "In a past narrative, « demain » becomes…",
+      "options": [
+        {
+          "id": "a",
+          "text": "le lendemain"
+        },
+        {
+          "id": "b",
+          "text": "la veille"
+        },
+        {
+          "id": "c",
+          "text": "aujourd'hui"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "demain → le lendemain (the next day); après-demain → le surlendemain."
+    },
+    {
+      "id": "ex-fb-3",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Complete the time marker (one word).",
+      "inputMode": "typed",
+      "template": "Trois jours plus {{b1}}, le procès a commencé.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "tard"
+          ]
+        }
+      ],
+      "explanation": "dans trois jours → trois jours plus tard in a past narrative."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each story-time word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "la veille",
+          "right": "the day before"
+        },
+        {
+          "id": "p2",
+          "left": "le lendemain",
+          "right": "the next day"
+        },
+        {
+          "id": "p3",
+          "left": "le surlendemain",
+          "right": "two days later"
+        },
+        {
+          "id": "p4",
+          "left": "l'année précédente",
+          "right": "the previous year"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"I had told him so.\"",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Je"
+        },
+        {
+          "id": "t2",
+          "text": "le"
+        },
+        {
+          "id": "t3",
+          "text": "lui"
+        },
+        {
+          "id": "t4",
+          "text": "avais"
+        },
+        {
+          "id": "t5",
+          "text": "bien"
+        },
+        {
+          "id": "t6",
+          "text": "dit"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen to the start of the story. What happened, in what order?",
+      "audio": "audio/b1.2/unit-06-pronouns-narration/listen-1.mp3",
+      "transcript": "La veille du procès, son avocate lui avait promis la victoire ; le lendemain, ils ont pourtant perdu.",
+      "options": [
+        {
+          "id": "a",
+          "text": "The lawyer promised victory the day before the trial — but they lost the day after"
+        },
+        {
+          "id": "b",
+          "text": "They won the trial thanks to the lawyer's promise"
+        },
+        {
+          "id": "c",
+          "text": "The trial was postponed by two days"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "la veille (promise) → le lendemain (loss, despite the promise — pourtant!)."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read this extract from a history programme and answer both questions.",
+      "passageFr": "Le procès de la reine a duré deux jours. La veille, ses avocats avaient enfin été désignés. Le lendemain de la condamnation, elle a été exécutée. Quelques années plus tard, ses accusateurs ont connu le même destin — l'Histoire le leur a fait payer.",
+      "passageEn": "The queen's trial lasted two days. The day before, her lawyers had finally been appointed. The day after the sentencing, she was executed. A few years later, her accusers met the same fate — History made them pay for it.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "When were the queen's lawyers appointed?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The day before the trial"
+            },
+            {
+              "id": "b",
+              "text": "The day after the sentencing"
+            },
+            {
+              "id": "c",
+              "text": "A few years later"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        },
+        {
+          "id": "q2",
+          "prompt": "What happened to the accusers a few years later?",
+          "options": [
+            {
+              "id": "a",
+              "text": "They met the same fate"
+            },
+            {
+              "id": "b",
+              "text": "They were pardoned"
+            },
+            {
+              "id": "c",
+              "text": "They left the country"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex-mc-4",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "An or année? « Ils ont vécu là pendant trois ___. »",
+      "options": [
+        {
+          "id": "a",
+          "text": "ans"
+        },
+        {
+          "id": "b",
+          "text": "années"
+        },
+        {
+          "id": "c",
+          "text": "an"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Exact count → ans (trois ans). Année is for imprecise amounts or with adjectives (quelques années, l'année suivante)."
+    },
+    {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/b1.2/unit-06-pronouns-narration/example-ex-1.mp3",
+      "transcript": "Je le lui avais bien dit !",
+      "options": [
+        {
+          "id": "a",
+          "text": "I had told him so!"
+        },
+        {
+          "id": "b",
+          "text": "He has to pay me them."
+        },
+        {
+          "id": "c",
+          "text": "She demanded it from him."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « la veille » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "the day before"
+        },
+        {
+          "id": "b",
+          "text": "two days before"
+        },
+        {
+          "id": "c",
+          "text": "the next day"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "la veille = the day before."
+    },
+    {
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "La {{b1}} du départ, il a plu.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "veille"
+          ]
+        }
+      ],
+      "explanation": "« La veille du départ, il a plu. » — the day before."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "ce jour-là",
+          "right": "that day"
+        },
+        {
+          "id": "p2",
+          "left": "plus tard",
+          "right": "later"
+        },
+        {
+          "id": "p3",
+          "left": "plus tôt",
+          "right": "earlier"
+        },
+        {
+          "id": "p4",
+          "left": "l'année suivante",
+          "right": "the following year"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “He has to pay me them.”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Il"
+        },
+        {
+          "id": "t2",
+          "text": "doit"
+        },
+        {
+          "id": "t3",
+          "text": "me"
+        },
+        {
+          "id": "t4",
+          "text": "les"
+        },
+        {
+          "id": "t5",
+          "text": "payer"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5"
+      ]
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "Je le lui avais bien dit !",
+      "targetEn": "I had told him so!",
+      "audio": "audio/b1.2/unit-06-pronouns-narration/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "Elle la lui a réclamée.",
+      "targetEn": "She demanded it from him.",
+      "audio": "audio/b1.2/unit-06-pronouns-narration/example-ex-3.mp3"
+    }
+  ]
+}

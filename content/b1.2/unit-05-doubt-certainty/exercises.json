@@ -1,0 +1,489 @@
+{
+  "schemaVersion": 1,
+  "unitId": "b1.2/unit-05-doubt-certainty",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Certainty: « Je pense que c'___ une bonne idée. »",
+      "options": [
+        {
+          "id": "a",
+          "text": "est"
+        },
+        {
+          "id": "b",
+          "text": "soit"
+        },
+        {
+          "id": "c",
+          "text": "serait forcément"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Penser que (affirmative) expresses opinion/certainty → indicative: c'est."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Doubt: « Je doute que ça ___ les aider. »",
+      "options": [
+        {
+          "id": "a",
+          "text": "puisse"
+        },
+        {
+          "id": "b",
+          "text": "peut"
+        },
+        {
+          "id": "c",
+          "text": "pourra"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Douter que → subjunctive: que ça puisse."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "The opinion verb is NEGATED — watch the mood.",
+      "inputMode": "dropdown",
+      "template": "Je ne crois pas qu'il {{b1}} raison.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "ait"
+          ],
+          "options": [
+            "ait",
+            "a"
+          ]
+        }
+      ],
+      "explanation": "Negative opinion → subjunctive: je ne crois pas qu'il ait raison."
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "« Il est probable » counts as certainty…",
+      "inputMode": "dropdown",
+      "template": "Il est probable qu'ils {{b1}} leur vie.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "ont refait"
+          ],
+          "options": [
+            "ont refait",
+            "aient refait"
+          ]
+        }
+      ],
+      "explanation": "Il est probable que → indicative (certainty side). Only PEU probable flips to the subjunctive."
+    },
+    {
+      "id": "ex-mc-3",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "« C'est peu probable que la chaîne n'___ pas demandé l'autorisation. »",
+      "options": [
+        {
+          "id": "a",
+          "text": "ait"
+        },
+        {
+          "id": "b",
+          "text": "a"
+        },
+        {
+          "id": "c",
+          "text": "aura"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "PEU probable = doubt → subjunctive (here subjonctif passé): n'ait pas demandé."
+    },
+    {
+      "id": "ex-mc-4",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "« Je ___ que tu viendrais — j'en étais presque sûr ! » Which verb fits?",
+      "options": [
+        {
+          "id": "a",
+          "text": "me doutais"
+        },
+        {
+          "id": "b",
+          "text": "doutais"
+        },
+        {
+          "id": "c",
+          "text": "douterais"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Se douter = to suspect / be pretty sure (+ indicative). Douter = to doubt — the opposite!"
+    },
+    {
+      "id": "ex-fb-3",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Inverted question — subjunctive of « être » (one word).",
+      "inputMode": "typed",
+      "template": "Croyez-vous que ce {{b1}} une bonne idée ?",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "soit"
+          ]
+        }
+      ],
+      "explanation": "Opinion verb in an inverted question → subjunctive: que ce soit."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each debate word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "le doute",
+          "right": "doubt"
+        },
+        {
+          "id": "p2",
+          "left": "une affaire",
+          "right": "a legal case"
+        },
+        {
+          "id": "p3",
+          "left": "un témoignage",
+          "right": "a testimony"
+        },
+        {
+          "id": "p4",
+          "left": "convaincre",
+          "right": "to convince"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"I doubt it's true.\"",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Je"
+        },
+        {
+          "id": "t2",
+          "text": "doute"
+        },
+        {
+          "id": "t3",
+          "text": "que"
+        },
+        {
+          "id": "t4",
+          "text": "ce"
+        },
+        {
+          "id": "t5",
+          "text": "soit"
+        },
+        {
+          "id": "t6",
+          "text": "vrai"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen to the forum contributor. What is her position?",
+      "audio": "audio/b1.2/unit-05-doubt-certainty/listen-1.mp3",
+      "transcript": "Je ne suis pas certaine que ça fasse plaisir à tout le monde.",
+      "options": [
+        {
+          "id": "a",
+          "text": "She doubts that everyone will be pleased"
+        },
+        {
+          "id": "b",
+          "text": "She is certain everyone will be pleased"
+        },
+        {
+          "id": "c",
+          "text": "She asks whether anyone is listening"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "« Je ne suis pas certaine que… fasse » — negated certainty + subjunctive = doubt."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read the forum debate about a TV crime show and answer both questions.",
+      "passageFr": "FRANÇOIS : Je trouve que c'est choquant. Je doute que ça puisse aider les personnes condamnées à se reconstruire. ALAIN : Moi, je pense que c'est très bien. Il est probable que les personnes concernées avaient donné leur accord. Je me doute que la chaîne a vérifié avant de diffuser.",
+      "passageEn": "FRANÇOIS: I find it shocking. I doubt it can help convicted people rebuild their lives. ALAIN: I think it's very good. It's likely that the people involved had given their consent. I suspect the channel checked before broadcasting.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "What does François doubt?",
+          "options": [
+            {
+              "id": "a",
+              "text": "That the show can help convicted people rebuild their lives"
+            },
+            {
+              "id": "b",
+              "text": "That the show is popular"
+            },
+            {
+              "id": "c",
+              "text": "That the channel exists"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        },
+        {
+          "id": "q2",
+          "prompt": "« Je me doute que la chaîne a vérifié » means Alain…",
+          "options": [
+            {
+              "id": "a",
+              "text": "is pretty sure the channel checked"
+            },
+            {
+              "id": "b",
+              "text": "doubts the channel checked"
+            },
+            {
+              "id": "c",
+              "text": "wants the channel to check"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex-mc-5",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Which pair is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Je crois qu'il PEUT venir. / Je ne crois pas qu'il PUISSE venir."
+        },
+        {
+          "id": "b",
+          "text": "Je crois qu'il PUISSE venir. / Je ne crois pas qu'il PEUT venir."
+        },
+        {
+          "id": "c",
+          "text": "Both halves take the subjunctive."
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Affirmative opinion → indicative; negated opinion → subjunctive. The mood tracks the certainty."
+    },
+    {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/b1.2/unit-05-doubt-certainty/example-ex-1.mp3",
+      "transcript": "Je suis sûr que ça permettra de comprendre.",
+      "options": [
+        {
+          "id": "a",
+          "text": "I'm sure it will help people understand."
+        },
+        {
+          "id": "b",
+          "text": "I doubt it can help them."
+        },
+        {
+          "id": "c",
+          "text": "I don't think he can come."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « le doute » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "doubt"
+        },
+        {
+          "id": "b",
+          "text": "to doubt that"
+        },
+        {
+          "id": "c",
+          "text": "to suspect"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "le doute = doubt."
+    },
+    {
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "Il n'y a aucun {{b1}}.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "doute"
+          ]
+        }
+      ],
+      "explanation": "« Il n'y a aucun doute. » — doubt."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "certain(e)",
+          "right": "certain / sure"
+        },
+        {
+          "id": "p2",
+          "left": "probable",
+          "right": "likely"
+        },
+        {
+          "id": "p3",
+          "left": "vraisemblable",
+          "right": "plausible / likely"
+        },
+        {
+          "id": "p4",
+          "left": "évident",
+          "right": "obvious"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “I doubt it can help them.”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Je"
+        },
+        {
+          "id": "t2",
+          "text": "doute"
+        },
+        {
+          "id": "t3",
+          "text": "que"
+        },
+        {
+          "id": "t4",
+          "text": "ça"
+        },
+        {
+          "id": "t5",
+          "text": "puisse"
+        },
+        {
+          "id": "t6",
+          "text": "les"
+        },
+        {
+          "id": "t7",
+          "text": "aider"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7"
+      ]
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "Je suis sûr que ça permettra de comprendre.",
+      "targetEn": "I'm sure it will help people understand.",
+      "audio": "audio/b1.2/unit-05-doubt-certainty/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "Je ne crois pas qu'il puisse venir.",
+      "targetEn": "I don't think he can come.",
+      "audio": "audio/b1.2/unit-05-doubt-certainty/example-ex-3.mp3"
+    }
+  ]
+}

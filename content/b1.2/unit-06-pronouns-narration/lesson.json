@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "b1.2/unit-06-pronouns-narration",
+  "level": "b1.2",
+  "unitNumber": 6,
+  "slug": "unit-06-pronouns-narration",
+  "title": "Double Pronouns & Story Time",
+  "titleFr": "La double pronominalisation et le récit au passé",
+  "cefrDescriptors": [
+    "Can combine two object pronouns in the right order.",
+    "Can situate events in a past narrative with shifted time markers (la veille, le lendemain…)."
+  ],
+  "skills": ["reading", "listening", "writing", "speaking"],
+  "estimatedMinutes": 55,
+  "concept": "Second half of Dossier 8: a lawyer retells a case, a historian retells a destiny. Retelling needs two tools — pronouns that stack, and time words that shift.\n\nLA DOUBLE PRONOMINALISATION — when a verb has both a direct and an indirect object, both pronouns go before the verb, in a fixed order:\n  me / te / nous / vous come BEFORE le / la / les: Il doit me les payer. · Je te le promets.\n  but le / la / les come BEFORE lui / leur: Je la lui ai réclamée. · Je les lui laisse.\n  (y and en always come last: Il m'en a parlé. · Je l'y ai vue.)\nThe neutral le can stand for a whole idea: Je le lui avais bien dit ! (= I told him SO). And in compound tenses the agreement still fires on a preceding direct object: Je la lui ai réclamée.\n\nLE RÉCIT AU PASSÉ — when you narrate from the past (like reported speech in unit b1.1-04!), 'today-words' shift to 'that-day-words':\n  • hier → la veille (the day before) · avant-hier → l'avant-veille\n  • aujourd'hui / en ce moment → ce jour-là / à ce moment-là\n  • demain → le lendemain · après-demain → le surlendemain\n  • dans trois jours → trois jours plus tard · il y a trois jours → trois jours plus tôt\n  • l'année prochaine → l'année suivante · l'année dernière → l'année précédente\n\nBonus precision the French love: an vs année. Use an for exact counts (trois ans, vingt-cinq ans); use année when imprecise or with an adjective (quelques années plus tard, l'année suivante, ses jeunes années).\n\nThe storyteller's kit: un récit (a narrative), raconter (to tell), un destin (a fate), un avocat (a lawyer), réclamer (to demand/claim).\n\nPut it together like a chronicle: « La veille du procès, son avocat lui avait promis la victoire. Ce jour-là, pourtant, tout a basculé. Trois ans plus tard, elle racontait encore cette affaire — je le lui avais bien dit ! »\n\nYour turn: retell something from your week as a past narrative — use la veille or le lendemain, and one stacked pronoun (je le lui ai dit / il me l'a donné…).",
+  "vocabulary": [
+    { "id": "veille", "fr": "la veille", "en": "the day before", "pos": "noun", "exampleFr": "La veille du départ, il a plu.", "exampleEn": "The day before the departure, it rained.", "audio": "audio/b1.2/unit-06-pronouns-narration/vocab-veille.mp3", "voice": "denise" },
+    { "id": "avant-veille", "fr": "l'avant-veille", "en": "two days before", "pos": "noun", "exampleFr": "Il était arrivé l'avant-veille.", "exampleEn": "He had arrived two days before.", "audio": "audio/b1.2/unit-06-pronouns-narration/vocab-avant-veille.mp3", "voice": "henri" },
+    { "id": "lendemain", "fr": "le lendemain", "en": "the next day", "pos": "noun", "exampleFr": "Le lendemain, tout a changé.", "exampleEn": "The next day, everything changed.", "audio": "audio/b1.2/unit-06-pronouns-narration/vocab-lendemain.mp3", "voice": "denise" },
+    { "id": "surlendemain", "fr": "le surlendemain", "en": "two days later", "pos": "noun", "exampleFr": "Elle est repartie le surlendemain.", "exampleEn": "She left again two days later.", "audio": "audio/b1.2/unit-06-pronouns-narration/vocab-surlendemain.mp3", "voice": "henri" },
+    { "id": "ce-jour-la", "fr": "ce jour-là", "en": "that day", "pos": "expression", "exampleFr": "Ce jour-là, il neigeait.", "exampleEn": "That day, it was snowing.", "audio": "audio/b1.2/unit-06-pronouns-narration/vocab-ce-jour-la.mp3", "voice": "denise" },
+    { "id": "plus-tard", "fr": "plus tard", "en": "later", "pos": "adverb", "exampleFr": "Deux ans plus tard, il est revenu.", "exampleEn": "Two years later, he came back.", "audio": "audio/b1.2/unit-06-pronouns-narration/vocab-plus-tard.mp3", "voice": "henri" },
+    { "id": "plus-tot", "fr": "plus tôt", "en": "earlier", "pos": "adverb", "exampleFr": "Elle était partie une heure plus tôt.", "exampleEn": "She had left an hour earlier.", "audio": "audio/b1.2/unit-06-pronouns-narration/vocab-plus-tot.mp3", "voice": "denise" },
+    { "id": "annee-suivante", "fr": "l'année suivante", "en": "the following year", "pos": "noun", "exampleFr": "L'année suivante, il a déménagé.", "exampleEn": "The following year, he moved.", "audio": "audio/b1.2/unit-06-pronouns-narration/vocab-annee-suivante.mp3", "voice": "henri" },
+    { "id": "annee-precedente", "fr": "l'année précédente", "en": "the previous year", "pos": "noun", "exampleFr": "Ils s'étaient rencontrés l'année précédente.", "exampleEn": "They had met the previous year.", "audio": "audio/b1.2/unit-06-pronouns-narration/vocab-annee-precedente.mp3", "voice": "denise" },
+    { "id": "recit", "fr": "un récit", "en": "a narrative / account", "pos": "noun", "exampleFr": "Son récit est passionnant.", "exampleEn": "Her account is gripping.", "audio": "audio/b1.2/unit-06-pronouns-narration/vocab-recit.mp3", "voice": "henri" },
+    { "id": "raconter", "fr": "raconter", "en": "to tell (a story)", "pos": "verb", "exampleFr": "Raconte-moi cette histoire.", "exampleEn": "Tell me that story.", "audio": "audio/b1.2/unit-06-pronouns-narration/vocab-raconter.mp3", "voice": "denise" },
+    { "id": "destin", "fr": "un destin", "en": "a fate / destiny", "pos": "noun", "exampleFr": "Elle a eu un destin tragique.", "exampleEn": "She had a tragic fate.", "audio": "audio/b1.2/unit-06-pronouns-narration/vocab-destin.mp3", "voice": "henri" },
+    { "id": "avocat", "fr": "un avocat / une avocate", "en": "a lawyer", "pos": "noun", "exampleFr": "Son avocate a bien parlé.", "exampleEn": "Her lawyer spoke well.", "audio": "audio/b1.2/unit-06-pronouns-narration/vocab-avocat.mp3", "voice": "denise" },
+    { "id": "reclamer", "fr": "réclamer", "en": "to demand / claim", "pos": "verb", "exampleFr": "Elle réclame une explication.", "exampleEn": "She demands an explanation.", "audio": "audio/b1.2/unit-06-pronouns-narration/vocab-reclamer.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "Je le lui avais bien dit !", "en": "I had told him so!", "audio": "audio/b1.2/unit-06-pronouns-narration/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "Il doit me les payer.", "en": "He has to pay me them.", "audio": "audio/b1.2/unit-06-pronouns-narration/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "Elle la lui a réclamée.", "en": "She demanded it from him.", "audio": "audio/b1.2/unit-06-pronouns-narration/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "La veille, elle avait reçu une lettre.", "en": "The day before, she had received a letter.", "audio": "audio/b1.2/unit-06-pronouns-narration/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "Le lendemain, le procès a commencé.", "en": "The next day, the trial began.", "audio": "audio/b1.2/unit-06-pronouns-narration/example-ex-5.mp3", "voice": "denise" },
+    { "id": "ex-6", "fr": "Trois ans plus tard, tout avait changé.", "en": "Three years later, everything had changed.", "audio": "audio/b1.2/unit-06-pronouns-narration/example-ex-6.mp3", "voice": "henri" }
+  ]
+}

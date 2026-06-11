@@ -38,8 +38,8 @@ Status: ✅ built · 🔨 in progress · ⬜ planned
 | 12 | Adverbs & relative + subjunctive | D6 *Je me cultive* | les adverbes en -ment; les relatives avec le subjonctif | ✅ b1.2/unit-02 |
 | 13 | The future | D7 (écologie) | le futur simple (rappel) + le futur antérieur | ✅ b1.2/unit-03 |
 | 14 | Hypotheses & the conditional | D7 (écologie) | le conditionnel présent et passé; l'hypothèse (si…); pronouns y / en | ✅ b1.2/unit-04 |
-| 15 | Doubt & certainty | D8 *Convaincre* (justice) | les expressions du doute et de la certitude (+ mood choice) | ⬜ |
-| 16 | Pronouns & narrating the past | D8 *Convaincre* | la double pronominalisation + les pronoms neutres; situer un événement dans un récit au passé | ⬜ |
+| 15 | Doubt & certainty | D8 *Convaincre* (justice) | les expressions du doute et de la certitude (+ mood choice) | ✅ b1.2/unit-05 |
+| 16 | Pronouns & narrating the past | D8 *Convaincre* | la double pronominalisation + les pronoms neutres; situer un événement dans un récit au passé | ✅ b1.2/unit-06 |
 | 17 | Indefinites & negation | D9 *Je voyage* | les indéfinis; les différentes phrases négatives | ⬜ |
 | 18 | Narration & recommendations | D9 *Je voyage* | les temps de la narration; recommandations / mises en garde au passé | ⬜ |
 

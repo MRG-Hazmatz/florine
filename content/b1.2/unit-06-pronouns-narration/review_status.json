@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "unitId": "b1.2/unit-06-pronouns-narration",
+  "status": "pending_review",
+  "reviewers": [],
+  "approvedAt": null,
+  "sourceRefs": [
+    "DRAFT — built to the unit-03 template (objectif pragmatique + Point Langue grammar + thematic lexicon + DELF-format comprehension), then self-audited before commit. Covers la double pronominalisation (me/te/nous/vous > le/la/les > lui/leur, y/en last, neutral le, agreement with preceding COD) and situer des événements dans un récit au passé (la veille/le lendemain/ce jour-là/plus tard/l'année suivante + an vs année). Awaiting native-speaker review.",
+    "Progression blueprint: Alter Ego+ 3 (Hachette), Dossier 8 'Convaincre' (utiliser des outils de substitution; situer des événements dans un récit au passé; thème: affaires judiciaires, Le Miroir de l'Histoire). Content is original; the book is used only for scope/sequence, never copied."
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "b1.2/unit-05-doubt-certainty",
+  "level": "b1.2",
+  "unitNumber": 5,
+  "slug": "unit-05-doubt-certainty",
+  "title": "Doubt & Certainty",
+  "titleFr": "Exprimer le doute et la certitude",
+  "cefrDescriptors": [
+    "Can take a position in a debate, expressing certainty with the indicative and doubt with the subjunctive.",
+    "Can handle the mood switch when opinion verbs turn negative or interrogative."
+  ],
+  "skills": ["reading", "listening", "writing", "speaking"],
+  "estimatedMinutes": 55,
+  "concept": "Dossier 8 is the courtroom and the TV debate: convincing, doubting, judging. In French, your degree of certainty is grammar, not just vocabulary — it decides the mood of the next verb.\n\nCERTAINTY → INDICATIF. Opinion and certainty verbs, and the impersonal expressions of likelihood, take the indicative:\n  Je pense / je trouve / je suis sûr(e) que c'EST une bonne idée.\n  Il est certain / évident / probable / vraisemblable que ça PERMET de comprendre.\n  Je suppose / j'imagine que les protagonistes VEULENT oublier. (near-certain → indicative)\n\nDOUBT → SUBJONCTIF. Doubt expressions flip the mood:\n  Je doute que ça PUISSE les aider. · Il est douteux que…\n  Je ne suis pas certaine que ça FASSE plaisir à tout le monde.\n  C'est peu probable / peu vraisemblable que la chaîne n'AIT pas demandé l'autorisation.\n\nTHE SWITCH — the same opinion verb changes mood when negated or inverted, because the certainty is gone:\n  Je crois qu'il PEUT venir. (indicative — I believe it)\n  Je ne crois pas qu'il PUISSE venir. (subjunctive — doubt)\n  Croyez-vous que ce SOIT une bonne idée ? (inverted question — subjunctive)\n\nOne French trap worth gold: douter ≠ se douter.\n  Je doute qu'on sache la vérité. = I DOUBT it (+ subjonctif)\n  Je me doutais que tout le monde le savait. = I SUSPECTED it, was pretty sure (+ indicatif!)\n\nThe debate kit: un débat, une affaire (a case), un témoignage (testimony), condamner (to convict), convaincre (to convince), le doute, la certitude, évident, vraisemblable (plausible).\n\nPut it together like a forum post: « Je trouve que c'est choquant. Je doute que ça aide les victimes, et je ne crois pas que ce soit utile — mais je me doute que l'émission a demandé leur accord. »\n\nYour turn: pick any debate you care about and write one certainty (je suis sûr que + indicatif) and one doubt (je doute que + subjonctif).",
+  "vocabulary": [
+    { "id": "doute", "fr": "le doute", "en": "doubt", "pos": "noun", "exampleFr": "Il n'y a aucun doute.", "exampleEn": "There is no doubt.", "audio": "audio/b1.2/unit-05-doubt-certainty/vocab-doute.mp3", "voice": "denise" },
+    { "id": "douter", "fr": "douter que", "en": "to doubt that (+ subjunctive)", "pos": "verb", "exampleFr": "Je doute que ce soit vrai.", "exampleEn": "I doubt it's true.", "audio": "audio/b1.2/unit-05-doubt-certainty/vocab-douter.mp3", "voice": "henri" },
+    { "id": "se-douter", "fr": "se douter que", "en": "to suspect (+ indicative!)", "pos": "verb", "exampleFr": "Je me doute que tu es fatigué.", "exampleEn": "I suspect you're tired.", "audio": "audio/b1.2/unit-05-doubt-certainty/vocab-se-douter.mp3", "voice": "denise" },
+    { "id": "certitude", "fr": "la certitude", "en": "certainty", "pos": "noun", "exampleFr": "Elle parle avec certitude.", "exampleEn": "She speaks with certainty.", "audio": "audio/b1.2/unit-05-doubt-certainty/vocab-certitude.mp3", "voice": "henri" },
+    { "id": "certain", "fr": "certain(e)", "en": "certain / sure", "pos": "adjective", "exampleFr": "Je suis certaine de sa réponse.", "exampleEn": "I'm certain of his answer.", "audio": "audio/b1.2/unit-05-doubt-certainty/vocab-certain.mp3", "voice": "denise" },
+    { "id": "probable", "fr": "probable", "en": "likely", "pos": "adjective", "exampleFr": "Il est probable qu'il viendra.", "exampleEn": "It's likely he'll come.", "audio": "audio/b1.2/unit-05-doubt-certainty/vocab-probable.mp3", "voice": "henri" },
+    { "id": "vraisemblable", "fr": "vraisemblable", "en": "plausible / likely", "pos": "adjective", "exampleFr": "Son histoire est vraisemblable.", "exampleEn": "His story is plausible.", "audio": "audio/b1.2/unit-05-doubt-certainty/vocab-vraisemblable.mp3", "voice": "denise" },
+    { "id": "evident", "fr": "évident", "en": "obvious", "pos": "adjective", "exampleFr": "C'est évident que c'est dur.", "exampleEn": "It's obvious that it's hard.", "audio": "audio/b1.2/unit-05-doubt-certainty/vocab-evident.mp3", "voice": "henri" },
+    { "id": "supposer", "fr": "supposer", "en": "to suppose", "pos": "verb", "exampleFr": "Je suppose qu'il est d'accord.", "exampleEn": "I suppose he agrees.", "audio": "audio/b1.2/unit-05-doubt-certainty/vocab-supposer.mp3", "voice": "denise" },
+    { "id": "debat", "fr": "un débat", "en": "a debate", "pos": "noun", "exampleFr": "Le débat commence ce soir.", "exampleEn": "The debate starts tonight.", "audio": "audio/b1.2/unit-05-doubt-certainty/vocab-debat.mp3", "voice": "henri" },
+    { "id": "affaire", "fr": "une affaire", "en": "a (legal) case / affair", "pos": "noun", "exampleFr": "Cette affaire est très connue.", "exampleEn": "This case is very well known.", "audio": "audio/b1.2/unit-05-doubt-certainty/vocab-affaire.mp3", "voice": "denise" },
+    { "id": "condamner", "fr": "condamner", "en": "to convict / sentence", "pos": "verb", "exampleFr": "Le tribunal l'a condamné.", "exampleEn": "The court convicted him.", "audio": "audio/b1.2/unit-05-doubt-certainty/vocab-condamner.mp3", "voice": "henri" },
+    { "id": "temoignage", "fr": "un témoignage", "en": "a testimony / account", "pos": "noun", "exampleFr": "Son témoignage est important.", "exampleEn": "Her testimony is important.", "audio": "audio/b1.2/unit-05-doubt-certainty/vocab-temoignage.mp3", "voice": "denise" },
+    { "id": "convaincre", "fr": "convaincre", "en": "to convince", "pos": "verb", "exampleFr": "Il essaie de convaincre le jury.", "exampleEn": "He's trying to convince the jury.", "audio": "audio/b1.2/unit-05-doubt-certainty/vocab-convaincre.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "Je suis sûr que ça permettra de comprendre.", "en": "I'm sure it will help people understand.", "audio": "audio/b1.2/unit-05-doubt-certainty/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "Je doute que ça puisse les aider.", "en": "I doubt it can help them.", "audio": "audio/b1.2/unit-05-doubt-certainty/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "Je ne crois pas qu'il puisse venir.", "en": "I don't think he can come.", "audio": "audio/b1.2/unit-05-doubt-certainty/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "Croyez-vous que ce soit une bonne idée ?", "en": "Do you think it's a good idea?", "audio": "audio/b1.2/unit-05-doubt-certainty/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "Il est probable qu'ils ont refait leur vie.", "en": "It's likely they have rebuilt their lives.", "audio": "audio/b1.2/unit-05-doubt-certainty/example-ex-5.mp3", "voice": "denise" },
+    { "id": "ex-6", "fr": "Je me doutais que tu le savais.", "en": "I suspected you knew.", "audio": "audio/b1.2/unit-05-doubt-certainty/example-ex-6.mp3", "voice": "henri" }
+  ]
+}
