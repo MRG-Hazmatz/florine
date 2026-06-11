@@ -1,0 +1,466 @@
+{
+  "schemaVersion": 1,
+  "unitId": "b2.2/unit-04-mise-en-relief",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Spotlight the object: « ___ nous voulons, c'est un vrai débat. »",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ce que"
+        },
+        {
+          "id": "b",
+          "text": "Ce qui"
+        },
+        {
+          "id": "c",
+          "text": "Ce dont"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Vouloir quelque chose (direct object) → ce que… c'est…"
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "De-verb spotlight: « ___ le pays a besoin, c'est de courage. »",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ce dont"
+        },
+        {
+          "id": "b",
+          "text": "Ce que"
+        },
+        {
+          "id": "c",
+          "text": "Ce qui"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Avoir besoin DE → ce dont… c'est…"
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Subject focus.",
+      "inputMode": "dropdown",
+      "template": "{{b1}} me choque, c'est le silence des médias.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "Ce qui"
+          ],
+          "options": [
+            "Ce qui",
+            "Ce que",
+            "C'est qui"
+          ]
+        }
+      ],
+      "explanation": "The thing IS the subject of choquer → ce qui… c'est…"
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Great or tall?",
+      "inputMode": "dropdown",
+      "template": "Victor Hugo était un {{b1}} : tout un pays l'a pleuré.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "grand homme"
+          ],
+          "options": [
+            "grand homme",
+            "homme grand"
+          ]
+        }
+      ],
+      "explanation": "Before the noun = figurative: un grand homme = a great man."
+    },
+    {
+      "id": "ex-mc-3",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "« Un ancien ministre » means…",
+      "options": [
+        {
+          "id": "a",
+          "text": "a former minister"
+        },
+        {
+          "id": "b",
+          "text": "a very old minister"
+        },
+        {
+          "id": "c",
+          "text": "a minister of antiques"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Before the noun, ancien = former. After (un bâtiment ancien) = old."
+    },
+    {
+      "id": "ex-fb-3",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "As for… (two words)",
+      "inputMode": "typed",
+      "template": "{{b1}} à moi, je préfère m'abstenir.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "Quant"
+          ]
+        }
+      ],
+      "explanation": "Quant à = as for: quant à moi…"
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each rhetoric word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "persuader",
+          "right": "to persuade"
+        },
+        {
+          "id": "p2",
+          "left": "prendre position",
+          "right": "to take a stand"
+        },
+        {
+          "id": "p3",
+          "left": "interpeller",
+          "right": "to challenge"
+        },
+        {
+          "id": "p4",
+          "left": "un discours",
+          "right": "a speech"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"It is this law that we refuse.\"",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "C'est"
+        },
+        {
+          "id": "t2",
+          "text": "cette"
+        },
+        {
+          "id": "t3",
+          "text": "loi"
+        },
+        {
+          "id": "t4",
+          "text": "que"
+        },
+        {
+          "id": "t5",
+          "text": "nous"
+        },
+        {
+          "id": "t6",
+          "text": "refusons"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen to the speech opener. What does the speaker spotlight?",
+      "audio": "audio/b2.2/unit-04-mise-en-relief/listen-1.mp3",
+      "transcript": "Ce qui nous rassemble ce soir, c'est une conviction ; ce dont nous avons besoin, c'est de courage.",
+      "options": [
+        {
+          "id": "a",
+          "text": "A shared conviction — and the need for courage"
+        },
+        {
+          "id": "b",
+          "text": "A new tax law and its budget"
+        },
+        {
+          "id": "c",
+          "text": "The size of the audience"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Two spotlights in a row: ce qui… c'est une conviction / ce dont… c'est de courage."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read the press review of a speech and answer both questions.",
+      "passageFr": "Hier soir, l'ancienne députée a pris position contre la réforme. « C'est notre propre avenir que l'on brade », a-t-elle lancé, interpellant un public déjà conquis. Un seul regret pour cette oratrice : que son pauvre micro, défaillant dès la dixième minute, ait transformé la fin du discours en mime.",
+      "passageEn": "Last night, the former MP took a stand against the reform. \"It is our own future being sold off,\" she declared, challenging an already-won-over audience. A single regret for this orator: that her poor (unfortunate) microphone, failing from the tenth minute, turned the end of the speech into mime.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "« L'ancienne députée » means…",
+          "options": [
+            {
+              "id": "a",
+              "text": "The former MP"
+            },
+            {
+              "id": "b",
+              "text": "The very old MP"
+            },
+            {
+              "id": "c",
+              "text": "The MP for antiques"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        },
+        {
+          "id": "q2",
+          "prompt": "« Son pauvre micro » — why does pauvre come BEFORE the noun?",
+          "options": [
+            {
+              "id": "a",
+              "text": "It means 'unfortunate', the figurative sense"
+            },
+            {
+              "id": "b",
+              "text": "It means the microphone was cheap"
+            },
+            {
+              "id": "c",
+              "text": "It's a printing error"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex-mc-4",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "\"My own room\" =",
+      "options": [
+        {
+          "id": "a",
+          "text": "ma propre chambre"
+        },
+        {
+          "id": "b",
+          "text": "ma chambre propre"
+        },
+        {
+          "id": "c",
+          "text": "ma chambre à propre"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Before the noun, propre = own; after, it means clean."
+    },
+    {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/b2.2/unit-04-mise-en-relief/example-ex-1.mp3",
+      "transcript": "Ce qui me choque, c'est le silence des médias.",
+      "options": [
+        {
+          "id": "a",
+          "text": "What shocks me is the silence of the media."
+        },
+        {
+          "id": "b",
+          "text": "It is this law that we refuse."
+        },
+        {
+          "id": "c",
+          "text": "What the country needs is courage."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « un argument » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "an argument"
+        },
+        {
+          "id": "b",
+          "text": "to persuade"
+        },
+        {
+          "id": "c",
+          "text": "to take a stand"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "un argument = an argument."
+    },
+    {
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "Son {{b1}} est imparable.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "argument"
+          ]
+        }
+      ],
+      "explanation": "« Son argument est imparable. » — an argument."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "un discours",
+          "right": "a speech"
+        },
+        {
+          "id": "p2",
+          "left": "interpeller",
+          "right": "to challenge / call out"
+        },
+        {
+          "id": "p3",
+          "left": "l'engagement (m.)",
+          "right": "commitment / engagement"
+        },
+        {
+          "id": "p4",
+          "left": "quant à",
+          "right": "as for"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “As for young people, they will vote online.”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Quant"
+        },
+        {
+          "id": "t2",
+          "text": "aux"
+        },
+        {
+          "id": "t3",
+          "text": "jeunes,"
+        },
+        {
+          "id": "t4",
+          "text": "ils"
+        },
+        {
+          "id": "t5",
+          "text": "voteront"
+        },
+        {
+          "id": "t6",
+          "text": "en"
+        },
+        {
+          "id": "t7",
+          "text": "ligne"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7"
+      ]
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "Ce qui me choque, c'est le silence des médias.",
+      "targetEn": "What shocks me is the silence of the media.",
+      "audio": "audio/b2.2/unit-04-mise-en-relief/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "Ce dont le pays a besoin, c'est de courage.",
+      "targetEn": "What the country needs is courage.",
+      "audio": "audio/b2.2/unit-04-mise-en-relief/example-ex-3.mp3"
+    }
+  ]
+}

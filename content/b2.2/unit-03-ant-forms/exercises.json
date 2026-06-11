@@ -1,0 +1,433 @@
+{
+  "schemaVersion": 1,
+  "unitId": "b2.2/unit-03-ant-forms",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "A cause that happened BEFORE: « ___ beaucoup hésité, il a choisi au dernier moment. »",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ayant"
+        },
+        {
+          "id": "b",
+          "text": "En ayant"
+        },
+        {
+          "id": "c",
+          "text": "Avoir"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Participe présent composé: ayant + participe passé = having hesitated."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Adjective or participle? « Une campagne ___ . »",
+      "options": [
+        {
+          "id": "a",
+          "text": "fatigante"
+        },
+        {
+          "id": "b",
+          "text": "fatiguante"
+        },
+        {
+          "id": "c",
+          "text": "fatiguant"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "True adjective (agrees, no object) → adjectif verbal spelling: fatigante (no u)."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Adjective or participle — pick the spelling.",
+      "inputMode": "dropdown",
+      "template": "Son discours {{b1}} a choqué la salle.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "provocant"
+          ],
+          "options": [
+            "provocant",
+            "provoquant",
+            "provoqué que"
+          ]
+        }
+      ],
+      "explanation": "Describes the noun, could take très → adjectif verbal: provocant (no qu)."
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Participle this time — it has an object!",
+      "inputMode": "dropdown",
+      "template": "{{b1}} la violence, le candidat a quitté le plateau.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "Provoquant"
+          ],
+          "options": [
+            "Provoquant",
+            "Provocant",
+            "Provoque"
+          ]
+        }
+      ],
+      "explanation": "It takes an object (la violence) → participle spelling: provoquant (with qu)."
+    },
+    {
+      "id": "ex-mc-3",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "The two-second test: which clue says ADJECTIVE (not participle)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "You can put « très » in front and it agrees"
+        },
+        {
+          "id": "b",
+          "text": "It is followed by a direct object"
+        },
+        {
+          "id": "c",
+          "text": "It comes right after « en »"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Très + agreement = adjective; an object or en = participle/gérondif."
+    },
+    {
+      "id": "ex-fb-3",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Perfect participle of « être » (one word).",
+      "inputMode": "typed",
+      "template": "{{b1}} arrivée en retard, elle a raté le discours.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "Étant",
+            "Etant"
+          ]
+        }
+      ],
+      "explanation": "Participe présent composé with être: étant arrivée."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each election word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "un électeur",
+          "right": "a voter"
+        },
+        {
+          "id": "p2",
+          "left": "adhérer à",
+          "right": "to join"
+        },
+        {
+          "id": "p3",
+          "left": "militer",
+          "right": "to campaign (activism)"
+        },
+        {
+          "id": "p4",
+          "left": "un parti",
+          "right": "a political party"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"He convinced the voters by speaking simply.\"",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Il"
+        },
+        {
+          "id": "t2",
+          "text": "a"
+        },
+        {
+          "id": "t3",
+          "text": "convaincu"
+        },
+        {
+          "id": "t4",
+          "text": "les"
+        },
+        {
+          "id": "t5",
+          "text": "électeurs"
+        },
+        {
+          "id": "t6",
+          "text": "en"
+        },
+        {
+          "id": "t7",
+          "text": "parlant"
+        },
+        {
+          "id": "t8",
+          "text": "simplement"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7",
+        "t8"
+      ]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen to election-night radio. Why did the candidate win over hesitant voters?",
+      "audio": "audio/b2.2/unit-03-ant-forms/listen-1.mp3",
+      "transcript": "Ayant longtemps milité dans l'ombre, la candidate a mené une campagne fatigante mais convaincante.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Having long campaigned in the shadows, she ran a tiring but convincing campaign"
+        },
+        {
+          "id": "b",
+          "text": "She gave up campaigning because it was tiring"
+        },
+        {
+          "id": "c",
+          "text": "She won without campaigning at all"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Ayant milité (prior cause) + fatigante/convaincante (verbal adjectives, agreeing)."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read the campaign diary and answer both questions.",
+      "passageFr": "Étant entrée en politique à vingt ans, Nadia connaît chaque rue de la ville. Sa méthode ? Convaincre en écoutant, jamais en provoquant. « Les électeurs négligents n'existent pas, dit-elle, seulement des programmes négligents. » L'élection précédente, elle l'avait perdue de cent voix ; cette fois, son équipe la dit confiante.",
+      "passageEn": "Having entered politics at twenty, Nadia knows every street in town. Her method? Convincing by listening, never by provoking. \"Careless voters don't exist,\" she says, \"only careless programmes.\" The previous election she had lost by a hundred votes; this time her team says she's confident.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "What is Nadia's method?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Convincing by listening, never provoking"
+            },
+            {
+              "id": "b",
+              "text": "Provoking debates on TV"
+            },
+            {
+              "id": "c",
+              "text": "Avoiding voters entirely"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        },
+        {
+          "id": "q2",
+          "prompt": "What happened at the previous election?",
+          "options": [
+            {
+              "id": "a",
+              "text": "She had lost by a hundred votes"
+            },
+            {
+              "id": "b",
+              "text": "She won easily"
+            },
+            {
+              "id": "c",
+              "text": "She didn't run"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex-mc-4",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Which sentence uses the PARTICIPLE spelling correctly?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Négligeant les sondages, il a continué sa campagne."
+        },
+        {
+          "id": "b",
+          "text": "Négligent les sondages, il a continué sa campagne."
+        },
+        {
+          "id": "c",
+          "text": "Il est très négligeant avec ses dossiers."
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "With an object (les sondages) → participle: négligeant. As an adjective it would be négligent."
+    },
+    {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/b2.2/unit-03-ant-forms/example-ex-1.mp3",
+      "transcript": "Ayant beaucoup hésité, il a choisi son candidat au dernier moment.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Having hesitated a lot, he chose his candidate at the last moment."
+        },
+        {
+          "id": "b",
+          "text": "Having arrived late, she missed the start of the speech."
+        },
+        {
+          "id": "c",
+          "text": "He convinced the voters by speaking simply."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « voter » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "to vote"
+        },
+        {
+          "id": "b",
+          "text": "an election"
+        },
+        {
+          "id": "c",
+          "text": "a candidate"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "voter = to vote."
+    },
+    {
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "Il a quitté son {{b1}}.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "parti"
+          ]
+        }
+      ],
+      "explanation": "« Il a quitté son parti. » — a party."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "adhérer à",
+          "right": "to join"
+        },
+        {
+          "id": "p2",
+          "left": "militer pour",
+          "right": "to campaign / be an activist for"
+        },
+        {
+          "id": "p3",
+          "left": "une campagne électorale",
+          "right": "an election campaign"
+        },
+        {
+          "id": "p4",
+          "left": "un électeur / une électrice",
+          "right": "a voter"
+        }
+      ]
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "Ayant beaucoup hésité, il a choisi son candidat au dernier moment.",
+      "targetEn": "Having hesitated a lot, he chose his candidate at the last moment.",
+      "audio": "audio/b2.2/unit-03-ant-forms/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "Il a convaincu les électeurs en parlant simplement.",
+      "targetEn": "He convinced the voters by speaking simply.",
+      "audio": "audio/b2.2/unit-03-ant-forms/example-ex-3.mp3"
+    }
+  ]
+}

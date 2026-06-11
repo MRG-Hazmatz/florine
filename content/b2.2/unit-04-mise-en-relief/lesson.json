@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "b2.2/unit-04-mise-en-relief",
+  "level": "b2.2",
+  "unitNumber": 4,
+  "slug": "unit-04-mise-en-relief",
+  "title": "Spotlighting & the Moving Adjective",
+  "titleFr": "La mise en relief ; la place des adjectifs",
+  "cefrDescriptors": [
+    "Can put the spotlight on any element of a sentence (c'est… qui, ce qui…, quant à…).",
+    "Can handle adjectives whose meaning changes with their position (un grand homme / un homme grand)."
+  ],
+  "skills": ["reading", "listening", "writing", "speaking"],
+  "estimatedMinutes": 60,
+  "concept": "Second half of Convictions: the rhetoric machine. To defend a cause you must control where the listener's eye lands — French does it with la mise en relief and with the adjective's seat.\n\nLA MISE EN RELIEF — five spotlights, from simple to orator-grade:\n  • c'est … qui / que: C'est cette loi QUE nous refusons. · C'est elle QUI a raison.\n  • ce qui … , c'est …: Ce qui me choque, c'est le silence. (subject focus)\n  • ce que … , c'est …: Ce que nous voulons, c'est un débat. (object focus)\n  • ce dont … , c'est …: Ce dont le pays a besoin, c'est de courage. (de-verbs)\n  • quant à / en ce qui concerne (as for): Quant aux jeunes, ils voteront en ligne.\n\nLA PLACE DE L'ADJECTIF — some adjectives change MEANING when they change seats. Before the noun = figurative; after = literal:\n  • un GRAND homme (a great man) vs un homme GRAND (a tall man)\n  • un ANCIEN ministre (a former minister) vs un bâtiment ANCIEN (an old building)\n  • ma PROPRE voiture (my own car) vs une voiture PROPRE (a clean car)\n  • un PAUVRE candidat (an unfortunate one) vs un candidat PAUVRE (a poor one, no money)\n  • un SEUL argument (only one) vs un argument SEUL (standing alone)\n  • un CURIEUX discours (a strange speech) vs un public CURIEUX (a curious audience)\n\nTHE CONVICTION KIT: un argument, persuader, prendre position (to take a stand), défendre une cause, un discours, interpeller (to challenge/call out), l'engagement.\n\nPut it together like a speech that lands: « Ce qui nous rassemble, c'est une conviction. Ce dont nous avons besoin, c'est d'un seul argument — le bon. Quant à nos adversaires, ce sont d'anciens alliés : c'est leur silence que je veux interpeller. »\n\nYour turn: take a cause you care about and write two spotlight lines (ce qui…, c'est… / c'est… que…) and one position-changing adjective used both ways.",
+  "vocabulary": [
+    { "id": "argument", "fr": "un argument", "en": "an argument (a point)", "pos": "noun", "exampleFr": "Son argument est imparable.", "exampleEn": "Her argument is unanswerable.", "audio": "audio/b2.2/unit-04-mise-en-relief/vocab-argument.mp3", "voice": "denise" },
+    { "id": "persuader", "fr": "persuader", "en": "to persuade", "pos": "verb", "exampleFr": "Il a persuadé la salle entière.", "exampleEn": "He persuaded the whole room.", "audio": "audio/b2.2/unit-04-mise-en-relief/vocab-persuader.mp3", "voice": "henri" },
+    { "id": "prendre-position", "fr": "prendre position", "en": "to take a stand", "pos": "expression", "exampleFr": "Le journal a pris position contre la loi.", "exampleEn": "The paper took a stand against the law.", "audio": "audio/b2.2/unit-04-mise-en-relief/vocab-prendre-position.mp3", "voice": "denise" },
+    { "id": "defendre", "fr": "défendre une cause", "en": "to defend a cause", "pos": "expression", "exampleFr": "Elle défend cette cause depuis dix ans.", "exampleEn": "She has defended this cause for ten years.", "audio": "audio/b2.2/unit-04-mise-en-relief/vocab-defendre.mp3", "voice": "henri" },
+    { "id": "discours", "fr": "un discours", "en": "a speech", "pos": "noun", "exampleFr": "Son discours a duré vingt minutes.", "exampleEn": "Her speech lasted twenty minutes.", "audio": "audio/b2.2/unit-04-mise-en-relief/vocab-discours.mp3", "voice": "denise" },
+    { "id": "interpeller", "fr": "interpeller", "en": "to challenge / call out", "pos": "verb", "exampleFr": "Cette image interpelle le public.", "exampleEn": "This image challenges the public.", "audio": "audio/b2.2/unit-04-mise-en-relief/vocab-interpeller.mp3", "voice": "henri" },
+    { "id": "engagement", "fr": "l'engagement (m.)", "en": "commitment / engagement", "pos": "noun", "exampleFr": "Son engagement force le respect.", "exampleEn": "Her commitment commands respect.", "audio": "audio/b2.2/unit-04-mise-en-relief/vocab-engagement.mp3", "voice": "denise" },
+    { "id": "quant-a", "fr": "quant à", "en": "as for", "pos": "preposition", "exampleFr": "Quant à moi, je m'abstiens.", "exampleEn": "As for me, I'm abstaining.", "audio": "audio/b2.2/unit-04-mise-en-relief/vocab-quant-a.mp3", "voice": "henri" },
+    { "id": "en-ce-qui-concerne", "fr": "en ce qui concerne", "en": "regarding / as far as … is concerned", "pos": "expression", "exampleFr": "En ce qui concerne le budget, rien n'est décidé.", "exampleEn": "Regarding the budget, nothing is decided.", "audio": "audio/b2.2/unit-04-mise-en-relief/vocab-en-ce-qui-concerne.mp3", "voice": "denise" },
+    { "id": "grand-homme", "fr": "un grand homme ≠ un homme grand", "en": "a great man ≠ a tall man", "pos": "expression", "exampleFr": "De Gaulle était un grand homme.", "exampleEn": "De Gaulle was a great man.", "audio": "audio/b2.2/unit-04-mise-en-relief/vocab-grand-homme.mp3", "voice": "henri" },
+    { "id": "ancien", "fr": "ancien (avant ≠ après le nom)", "en": "former ≠ old", "pos": "adjective", "exampleFr": "Un ancien ministre habite ce bâtiment ancien.", "exampleEn": "A former minister lives in this old building.", "audio": "audio/b2.2/unit-04-mise-en-relief/vocab-ancien.mp3", "voice": "denise" },
+    { "id": "propre", "fr": "propre (avant ≠ après le nom)", "en": "own ≠ clean", "pos": "adjective", "exampleFr": "Ma propre chambre n'est pas une chambre propre.", "exampleEn": "My own room is not a clean room.", "audio": "audio/b2.2/unit-04-mise-en-relief/vocab-propre.mp3", "voice": "henri" },
+    { "id": "seul", "fr": "seul (avant ≠ après le nom)", "en": "only ≠ alone", "pos": "adjective", "exampleFr": "Un seul argument suffit.", "exampleEn": "A single argument is enough.", "audio": "audio/b2.2/unit-04-mise-en-relief/vocab-seul.mp3", "voice": "denise" },
+    { "id": "pauvre", "fr": "pauvre (avant ≠ après le nom)", "en": "unfortunate ≠ penniless", "pos": "adjective", "exampleFr": "Ce pauvre homme n'est pas un homme pauvre.", "exampleEn": "That poor (unlucky) man is not a poor (penniless) man.", "audio": "audio/b2.2/unit-04-mise-en-relief/vocab-pauvre.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "Ce qui me choque, c'est le silence des médias.", "en": "What shocks me is the silence of the media.", "audio": "audio/b2.2/unit-04-mise-en-relief/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "C'est cette loi que nous refusons.", "en": "It is this law that we refuse.", "audio": "audio/b2.2/unit-04-mise-en-relief/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "Ce dont le pays a besoin, c'est de courage.", "en": "What the country needs is courage.", "audio": "audio/b2.2/unit-04-mise-en-relief/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "Quant aux jeunes, ils voteront en ligne.", "en": "As for young people, they will vote online.", "audio": "audio/b2.2/unit-04-mise-en-relief/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "Un ancien ministre a visité ce bâtiment ancien.", "en": "A former minister visited this old building.", "audio": "audio/b2.2/unit-04-mise-en-relief/example-ex-5.mp3", "voice": "denise" },
+    { "id": "ex-6", "fr": "De Gaulle était un grand homme, et aussi un homme grand.", "en": "De Gaulle was a great man — and a tall one too.", "audio": "audio/b2.2/unit-04-mise-en-relief/example-ex-6.mp3", "voice": "henri" }
+  ]
+}

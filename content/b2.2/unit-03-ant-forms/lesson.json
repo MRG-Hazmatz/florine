@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "b2.2/unit-03-ant-forms",
+  "level": "b2.2",
+  "unitNumber": 3,
+  "slug": "unit-03-ant-forms",
+  "title": "Convictions: -ant Forms Mastery",
+  "titleFr": "Gérondif, participe présent et adjectif verbal",
+  "cefrDescriptors": [
+    "Can use the participe présent composé for a prior cause (ayant hésité…).",
+    "Can distinguish the verbal adjective from the present participle, including the spelling pairs (fatigant/fatiguant).",
+    "Can talk about elections, parties and civic engagement."
+  ],
+  "skills": ["reading", "listening", "writing", "speaking"],
+  "estimatedMinutes": 60,
+  "concept": "Dossier 7 is Convictions — elections, campaigns, the things we stand for. Its grammar is the full -ant family, including the two members B1 never told you about.\n\nTHE FAMILY YOU KNOW (b1.1 spiral):\n  • gérondif (en + -ant, same subject): Il a convaincu les électeurs EN PARLANT simplement.\n  • participe présent (cause, or replacing qui + verb): les citoyens SOUHAITANT voter…\n\nNEW MEMBER 1 — LE PARTICIPE PRÉSENT COMPOSÉ (ayant / étant + participe passé), for a cause that happened BEFORE:\n  AYANT beaucoup HÉSITÉ, il a choisi son candidat au dernier moment. (= because he had hesitated)\n  ÉTANT ARRIVÉE en retard, elle a raté le début du discours.\n\nNEW MEMBER 2 — L'ADJECTIF VERBAL: the -ant form turned into a true adjective. It AGREES — and often changes spelling:\n  • fatigant (adj: une campagne fatigante) vs fatiguant (participle: se fatiguant vite…)\n  • provocant (adj) vs provoquant (participle) · négligent vs négligeant · précédent vs précédant · adhérent vs adhérant\n  The two-second test: can you put 'très' in front, does it agree? → adjective (spelling may change). Does it have an object or 'en'? → participle (keeps the verb spelling).\n\nL'ÉLECTION — the civic lexicon: voter, une élection, un candidat / une candidate, un parti, adhérer à (to join), un militant, militer pour (to campaign for), une campagne électorale, un électeur, un programme.\n\nPut it together like election-night radio: « Ayant longtemps milité dans l'ombre, la candidate a mené une campagne fatigante mais convaincante. En adhérant aux idées simples, elle a parlé aux électeurs hésitants. »\n\nYour turn: one sentence with a participe présent composé (Ayant + participe…), one with a verbal adjective from the tricky pairs.",
+  "vocabulary": [
+    { "id": "voter", "fr": "voter", "en": "to vote", "pos": "verb", "exampleFr": "Elle vote pour la première fois.", "exampleEn": "She's voting for the first time.", "audio": "audio/b2.2/unit-03-ant-forms/vocab-voter.mp3", "voice": "denise" },
+    { "id": "election", "fr": "une élection", "en": "an election", "pos": "noun", "exampleFr": "L'élection a lieu dimanche.", "exampleEn": "The election takes place on Sunday.", "audio": "audio/b2.2/unit-03-ant-forms/vocab-election.mp3", "voice": "henri" },
+    { "id": "candidat", "fr": "un candidat / une candidate", "en": "a candidate", "pos": "noun", "exampleFr": "Trois candidats se présentent.", "exampleEn": "Three candidates are running.", "audio": "audio/b2.2/unit-03-ant-forms/vocab-candidat.mp3", "voice": "denise" },
+    { "id": "parti", "fr": "un parti", "en": "a (political) party", "pos": "noun", "exampleFr": "Il a quitté son parti.", "exampleEn": "He left his party.", "audio": "audio/b2.2/unit-03-ant-forms/vocab-parti.mp3", "voice": "henri" },
+    { "id": "adherer", "fr": "adhérer à", "en": "to join (a party, group)", "pos": "verb", "exampleFr": "Elle adhère à une association.", "exampleEn": "She's joining an association.", "audio": "audio/b2.2/unit-03-ant-forms/vocab-adherer.mp3", "voice": "denise" },
+    { "id": "militer", "fr": "militer pour", "en": "to campaign / be an activist for", "pos": "verb", "exampleFr": "Ils militent pour le climat.", "exampleEn": "They campaign for the climate.", "audio": "audio/b2.2/unit-03-ant-forms/vocab-militer.mp3", "voice": "henri" },
+    { "id": "campagne-electorale", "fr": "une campagne électorale", "en": "an election campaign", "pos": "noun", "exampleFr": "La campagne électorale commence.", "exampleEn": "The election campaign is starting.", "audio": "audio/b2.2/unit-03-ant-forms/vocab-campagne-electorale.mp3", "voice": "denise" },
+    { "id": "electeur", "fr": "un électeur / une électrice", "en": "a voter", "pos": "noun", "exampleFr": "Les électeurs sont indécis.", "exampleEn": "The voters are undecided.", "audio": "audio/b2.2/unit-03-ant-forms/vocab-electeur.mp3", "voice": "henri" },
+    { "id": "programme", "fr": "un programme", "en": "a (political) programme", "pos": "noun", "exampleFr": "Lisez leur programme avant de voter.", "exampleEn": "Read their programme before voting.", "audio": "audio/b2.2/unit-03-ant-forms/vocab-programme.mp3", "voice": "denise" },
+    { "id": "fatigant", "fr": "fatigant(e) (adj.) / fatiguant (part.)", "en": "tiring — the spelling pair", "pos": "adjective", "exampleFr": "Une campagne fatigante.", "exampleEn": "A tiring campaign.", "audio": "audio/b2.2/unit-03-ant-forms/vocab-fatigant.mp3", "voice": "henri" },
+    { "id": "provocant", "fr": "provocant(e) (adj.) / provoquant (part.)", "en": "provocative — the spelling pair", "pos": "adjective", "exampleFr": "Un discours provocant.", "exampleEn": "A provocative speech.", "audio": "audio/b2.2/unit-03-ant-forms/vocab-provocant.mp3", "voice": "denise" },
+    { "id": "negligent", "fr": "négligent(e) (adj.) / négligeant (part.)", "en": "careless — the spelling pair", "pos": "adjective", "exampleFr": "Un électeur négligent oublie de s'inscrire.", "exampleEn": "A careless voter forgets to register.", "audio": "audio/b2.2/unit-03-ant-forms/vocab-negligent.mp3", "voice": "henri" },
+    { "id": "precedent", "fr": "précédent(e) (adj.) / précédant (part.)", "en": "previous — the spelling pair", "pos": "adjective", "exampleFr": "L'élection précédente date de cinq ans.", "exampleEn": "The previous election was five years ago.", "audio": "audio/b2.2/unit-03-ant-forms/vocab-precedent.mp3", "voice": "denise" },
+    { "id": "convaincant", "fr": "convaincant(e)", "en": "convincing (adjectif verbal)", "pos": "adjective", "exampleFr": "Son argument est convaincant.", "exampleEn": "Her argument is convincing.", "audio": "audio/b2.2/unit-03-ant-forms/vocab-convaincant.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "Ayant beaucoup hésité, il a choisi son candidat au dernier moment.", "en": "Having hesitated a lot, he chose his candidate at the last moment.", "audio": "audio/b2.2/unit-03-ant-forms/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "Étant arrivée en retard, elle a raté le début du discours.", "en": "Having arrived late, she missed the start of the speech.", "audio": "audio/b2.2/unit-03-ant-forms/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "Il a convaincu les électeurs en parlant simplement.", "en": "He convinced the voters by speaking simply.", "audio": "audio/b2.2/unit-03-ant-forms/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "La campagne était fatigante, mais le résultat est convaincant.", "en": "The campaign was tiring, but the result is convincing.", "audio": "audio/b2.2/unit-03-ant-forms/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "Les citoyens souhaitant voter doivent s'inscrire avant mai.", "en": "Citizens wishing to vote must register before May.", "audio": "audio/b2.2/unit-03-ant-forms/example-ex-5.mp3", "voice": "denise" },
+    { "id": "ex-6", "fr": "Elle milite pour ce parti depuis ses vingt ans.", "en": "She has campaigned for this party since she was twenty.", "audio": "audio/b2.2/unit-03-ant-forms/example-ex-6.mp3", "voice": "henri" }
+  ]
+}
