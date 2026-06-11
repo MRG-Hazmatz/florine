@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "unitId": "b1.2/unit-08-narration-recommendations",
+  "status": "pending_review",
+  "reviewers": [],
+  "approvedAt": null,
+  "sourceRefs": [
+    "DRAFT — built to the unit-03 template (objectif pragmatique + Point Langue grammar + thematic lexicon + DELF-format comprehension), then self-audited before commit. Final B1 unit: les temps de la narration (imparfait/passé composé/plus-que-parfait/conditionnel as future-in-the-past — explicit synthesis of b1.1 units 4-5) + recommandations et mises en garde (imperatives, il est conseillé/préconisé de, éviter de, attention à). Awaiting native-speaker review.",
+    "Progression blueprint: Alter Ego+ 3 (Hachette), Dossier 9 'Je voyage' (faire une narration au passé — Stendhal, Mémoires d'un touriste; faire des recommandations — brochures touristiques). Content is original; the book is used only for scope/sequence, never copied."
+  ]
+}

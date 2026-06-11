@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "b1.2/unit-07-indefinites-negation",
+  "level": "b1.2",
+  "unitNumber": 7,
+  "slug": "unit-07-indefinites-negation",
+  "title": "Indefinites & Negation",
+  "titleFr": "Les indéfinis et la négation",
+  "cefrDescriptors": [
+    "Can speak about people, places and things without naming them precisely (chacun, certains, partout…).",
+    "Can build every negative pattern, including combined and double negations."
+  ],
+  "skills": ["reading", "listening", "writing", "speaking"],
+  "estimatedMinutes": 55,
+  "concept": "Dossier 9 packs the suitcase — travel guides and travel disasters. Guides speak in indefinites (everyone, somewhere, most…); disaster stories speak in negations (nobody, nothing, never again!).\n\nLES INDÉFINIS — designating without naming, organised by quantity:\n  • zero: aucun(e) (none), personne (nobody), rien (nothing), nulle part (nowhere)\n  • some, singular: on, quelqu'un (someone), quelque chose (something), quelque part (somewhere), chacun(e) / chaque (each)\n  • some, plural: plusieurs (several), quelques-un(e)s, certains… d'autres (some… others), la plupart (most)\n  • all: tout / tous / toutes, partout (everywhere)\nGuide-book music: « Chacun a sa propre idée du Maroc. Partout, vous rencontrez des traditions. Certains aiment les souks, d'autres préfèrent les plages. »\n\nLA NÉGATION — the full toolbox, with its placement rules:\n  • with an infinitive, BOTH parts go before the verb: J'ai décidé de NE PLUS bouger.\n  • in compound tenses, the negation frames the auxiliary: Je N'avais PAS pris leur numéro.\n  • rien and personne can be subject or object: Personne ne répondait. · Je n'ai vu personne.\n  • ne… que = seulement (a restriction, not a true negation): Je ne suis arrivé que deux heures plus tard.\n  • they combine: plus jamais, plus rien, jamais personne → Je n'ai plus rien fait, plus aucun voyage, plus jamais !\n  • ne… ni… ni for a double no: Je n'aime ni la chaleur ni les moustiques.\n\nThe traveller's kit: une coutume (a custom), un préjugé (a preconception), un séjour, un imprévu (a hitch / the unexpected), rater (to miss [a flight…]).\n\nPut it together like a ruined-trip rant: « On n'a rien visité. Personne ne parlait anglais, il n'y avait aucun bus, et je n'ai trouvé ni hôtel ni restaurant ouvert. Je n'y retournerai plus jamais ! »\n\nYour turn: describe a (real or invented) travel disaster in three negations — one personne/rien, one ne… que, one ne… ni… ni.",
+  "vocabulary": [
+    { "id": "chacun", "fr": "chacun(e)", "en": "each one / everyone", "pos": "pronoun", "exampleFr": "Chacun a son avis.", "exampleEn": "Everyone has their own opinion.", "audio": "audio/b1.2/unit-07-indefinites-negation/vocab-chacun.mp3", "voice": "denise" },
+    { "id": "quelqu-un", "fr": "quelqu'un", "en": "someone", "pos": "pronoun", "exampleFr": "Quelqu'un a appelé pour toi.", "exampleEn": "Someone called for you.", "audio": "audio/b1.2/unit-07-indefinites-negation/vocab-quelqu-un.mp3", "voice": "henri" },
+    { "id": "quelque-chose", "fr": "quelque chose", "en": "something", "pos": "pronoun", "exampleFr": "J'ai acheté quelque chose au souk.", "exampleEn": "I bought something at the souk.", "audio": "audio/b1.2/unit-07-indefinites-negation/vocab-quelque-chose.mp3", "voice": "denise" },
+    { "id": "quelque-part", "fr": "quelque part", "en": "somewhere", "pos": "adverb", "exampleFr": "On s'est déjà vus quelque part ?", "exampleEn": "Have we met somewhere before?", "audio": "audio/b1.2/unit-07-indefinites-negation/vocab-quelque-part.mp3", "voice": "henri" },
+    { "id": "partout", "fr": "partout", "en": "everywhere", "pos": "adverb", "exampleFr": "Il y a des marchés partout.", "exampleEn": "There are markets everywhere.", "audio": "audio/b1.2/unit-07-indefinites-negation/vocab-partout.mp3", "voice": "denise" },
+    { "id": "nulle-part", "fr": "nulle part", "en": "nowhere", "pos": "adverb", "exampleFr": "Je ne trouve mon passeport nulle part.", "exampleEn": "I can't find my passport anywhere.", "audio": "audio/b1.2/unit-07-indefinites-negation/vocab-nulle-part.mp3", "voice": "henri" },
+    { "id": "aucun", "fr": "aucun(e)", "en": "none / not any", "pos": "pronoun", "exampleFr": "Il n'y avait aucun bus.", "exampleEn": "There was no bus at all.", "audio": "audio/b1.2/unit-07-indefinites-negation/vocab-aucun.mp3", "voice": "denise" },
+    { "id": "plusieurs", "fr": "plusieurs", "en": "several", "pos": "pronoun", "exampleFr": "Plusieurs touristes attendaient.", "exampleEn": "Several tourists were waiting.", "audio": "audio/b1.2/unit-07-indefinites-negation/vocab-plusieurs.mp3", "voice": "henri" },
+    { "id": "la-plupart", "fr": "la plupart", "en": "most (of them)", "pos": "pronoun", "exampleFr": "La plupart des visiteurs adorent.", "exampleEn": "Most visitors love it.", "audio": "audio/b1.2/unit-07-indefinites-negation/vocab-la-plupart.mp3", "voice": "denise" },
+    { "id": "certains-d-autres", "fr": "certains… d'autres", "en": "some… others", "pos": "pronoun", "exampleFr": "Certains partent, d'autres restent.", "exampleEn": "Some leave, others stay.", "audio": "audio/b1.2/unit-07-indefinites-negation/vocab-certains-d-autres.mp3", "voice": "henri" },
+    { "id": "ne-que", "fr": "ne… que", "en": "only (restriction)", "pos": "expression", "exampleFr": "Je n'ai que dix euros.", "exampleEn": "I only have ten euros.", "audio": "audio/b1.2/unit-07-indefinites-negation/vocab-ne-que.mp3", "voice": "denise" },
+    { "id": "ne-ni-ni", "fr": "ne… ni… ni", "en": "neither… nor", "pos": "expression", "exampleFr": "Je n'ai ni carte ni guide.", "exampleEn": "I have neither a map nor a guide.", "audio": "audio/b1.2/unit-07-indefinites-negation/vocab-ne-ni-ni.mp3", "voice": "henri" },
+    { "id": "coutume", "fr": "une coutume", "en": "a custom", "pos": "noun", "exampleFr": "C'est une coutume locale.", "exampleEn": "It's a local custom.", "audio": "audio/b1.2/unit-07-indefinites-negation/vocab-coutume.mp3", "voice": "denise" },
+    { "id": "imprevu", "fr": "un imprévu", "en": "a hitch / something unexpected", "pos": "noun", "exampleFr": "Il y a eu un imprévu au départ.", "exampleEn": "There was a hitch at departure.", "audio": "audio/b1.2/unit-07-indefinites-negation/vocab-imprevu.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "Chacun a sa propre idée du Maroc.", "en": "Everyone has their own idea of Morocco.", "audio": "audio/b1.2/unit-07-indefinites-negation/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "Certains aiment la mer, d'autres préfèrent la montagne.", "en": "Some like the sea, others prefer the mountains.", "audio": "audio/b1.2/unit-07-indefinites-negation/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "Je n'ai vu personne, je n'ai parlé à personne.", "en": "I saw nobody, I spoke to nobody.", "audio": "audio/b1.2/unit-07-indefinites-negation/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "Je ne suis arrivé que deux heures plus tard.", "en": "I only arrived two hours later.", "audio": "audio/b1.2/unit-07-indefinites-negation/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "Je n'aime ni la chaleur ni les moustiques.", "en": "I like neither the heat nor the mosquitoes.", "audio": "audio/b1.2/unit-07-indefinites-negation/example-ex-5.mp3", "voice": "denise" },
+    { "id": "ex-6", "fr": "Personne ne répondait au téléphone.", "en": "Nobody was answering the phone.", "audio": "audio/b1.2/unit-07-indefinites-negation/example-ex-6.mp3", "voice": "henri" }
+  ]
+}

@@ -1,0 +1,457 @@
+{
+  "schemaVersion": 1,
+  "unitId": "b1.2/unit-08-narration-recommendations",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "In a past narrative, which tense paints the background scenery?",
+      "options": [
+        {
+          "id": "a",
+          "text": "l'imparfait"
+        },
+        {
+          "id": "b",
+          "text": "le passé composé"
+        },
+        {
+          "id": "c",
+          "text": "le conditionnel"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Imparfait = background; passé composé = events; plus-que-parfait = before; conditionnel = future-in-the-past."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Future seen from the past: « Ce café ___ plus tard mon lieu préféré. »",
+      "options": [
+        {
+          "id": "a",
+          "text": "deviendrait"
+        },
+        {
+          "id": "b",
+          "text": "deviendra"
+        },
+        {
+          "id": "c",
+          "text": "devenait"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "In a past narrative, the future is expressed by the conditional: deviendrait."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Impersonal advice — which preposition?",
+      "inputMode": "dropdown",
+      "template": "Il est conseillé {{b1}} se renseigner avant de partir.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "de"
+          ],
+          "options": [
+            "de",
+            "à",
+            "pour"
+          ]
+        }
+      ],
+      "explanation": "Il est conseillé DE + infinitive."
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Brochure imperative.",
+      "inputMode": "dropdown",
+      "template": "{{b1}} pas la vieille ville !",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "Ne manquez"
+          ],
+          "options": [
+            "Ne manquez",
+            "Manquez",
+            "Ne manquer"
+          ]
+        }
+      ],
+      "explanation": "Negative imperative for recommendations: Ne manquez pas… !"
+    },
+    {
+      "id": "ex-mc-3",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Warning: « Évitez ___ nager ici. »",
+      "options": [
+        {
+          "id": "a",
+          "text": "de"
+        },
+        {
+          "id": "b",
+          "text": "à"
+        },
+        {
+          "id": "c",
+          "text": "pour"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Éviter DE + infinitive: évitez de nager ici."
+    },
+    {
+      "id": "ex-fb-3",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "What had happened BEFORE — complete the auxiliary (one word).",
+      "inputMode": "typed",
+      "template": "Les peintres {{b1}} immortalisé la ville bien avant mon arrivée.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "avaient"
+          ]
+        }
+      ],
+      "explanation": "Anteriority in a narrative → plus-que-parfait: avaient immortalisé."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each travel word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "flâner",
+          "right": "to stroll"
+        },
+        {
+          "id": "p2",
+          "left": "se renseigner",
+          "right": "to get information"
+        },
+        {
+          "id": "p3",
+          "left": "marchander",
+          "right": "to haggle"
+        },
+        {
+          "id": "p4",
+          "left": "incontournable",
+          "right": "not to be missed"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"It's advisable to check beforehand.\"",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Il"
+        },
+        {
+          "id": "t2",
+          "text": "est"
+        },
+        {
+          "id": "t3",
+          "text": "conseillé"
+        },
+        {
+          "id": "t4",
+          "text": "de"
+        },
+        {
+          "id": "t5",
+          "text": "se renseigner"
+        },
+        {
+          "id": "t6",
+          "text": "avant"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen to the guide. What's the recommendation, and what's the warning?",
+      "audio": "audio/b1.2/unit-08-narration-recommendations/listen-1.mp3",
+      "transcript": "Ne manquez pas le marché, mais évitez d'y aller à midi : il y a trop de monde.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Don't miss the market — but avoid going at noon, it's too crowded"
+        },
+        {
+          "id": "b",
+          "text": "Avoid the market — it's only open at noon"
+        },
+        {
+          "id": "c",
+          "text": "Go to the market at noon, when it's busiest"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Recommendation: ne manquez pas le marché. Warning: évitez d'y aller à midi."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read this page from a travel diary and answer both questions.",
+      "passageFr": "Ce matin-là, je flânais dans le souk quand un marchand m'a appelé. Il avait préparé du thé à la menthe pour ses visiteurs. Nous avons parlé pendant une heure. Ce thé, je ne le savais pas encore, deviendrait mon meilleur souvenir du voyage.",
+      "passageEn": "That morning, I was strolling in the souk when a merchant called out to me. He had prepared mint tea for his visitors. We talked for an hour. That tea — I didn't know it yet — would become my best memory of the trip.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "What had the merchant done BEFORE calling out (plus-que-parfait)?",
+          "options": [
+            {
+              "id": "a",
+              "text": "He had prepared mint tea"
+            },
+            {
+              "id": "b",
+              "text": "He had closed his shop"
+            },
+            {
+              "id": "c",
+              "text": "He had visited France"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        },
+        {
+          "id": "q2",
+          "prompt": "« Ce thé deviendrait mon meilleur souvenir » — why the conditional?",
+          "options": [
+            {
+              "id": "a",
+              "text": "It's the future seen from a past moment"
+            },
+            {
+              "id": "b",
+              "text": "The writer is being polite"
+            },
+            {
+              "id": "c",
+              "text": "The information is unconfirmed"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex-mc-4",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "« Je flânais dans le souk quand un marchand m'a appelé. » — which is the EVENT?",
+      "options": [
+        {
+          "id": "a",
+          "text": "m'a appelé (passé composé)"
+        },
+        {
+          "id": "b",
+          "text": "je flânais (imparfait)"
+        },
+        {
+          "id": "c",
+          "text": "Both are events"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "The imparfait (flânais) is the ongoing background; the passé composé (a appelé) is the event that cuts in."
+    },
+    {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/b1.2/unit-08-narration-recommendations/example-ex-1.mp3",
+      "transcript": "Ne manquez pas le cœur historique de la ville.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Don't miss the historic heart of the city."
+        },
+        {
+          "id": "b",
+          "text": "It's advisable to check before diving."
+        },
+        {
+          "id": "c",
+          "text": "Avoid travelling during the rainy season."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « un carnet de voyage » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "a travel diary"
+        },
+        {
+          "id": "b",
+          "text": "a brochure"
+        },
+        {
+          "id": "c",
+          "text": "to recommend"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "un carnet de voyage = a travel diary."
+    },
+    {
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "La {{b1}} présente la région.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "brochure"
+          ]
+        }
+      ],
+      "explanation": "« La brochure présente la région. » — a brochure."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "éviter de",
+          "right": "to avoid"
+        },
+        {
+          "id": "p2",
+          "left": "ne manquez pas",
+          "right": "don't miss"
+        },
+        {
+          "id": "p3",
+          "left": "une mise en garde",
+          "right": "a warning"
+        },
+        {
+          "id": "p4",
+          "left": "se renseigner",
+          "right": "to find out / get information"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “Let the souks tempt you.”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Laissez-vous"
+        },
+        {
+          "id": "t2",
+          "text": "tenter"
+        },
+        {
+          "id": "t3",
+          "text": "par"
+        },
+        {
+          "id": "t4",
+          "text": "les"
+        },
+        {
+          "id": "t5",
+          "text": "souks"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5"
+      ]
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "Ne manquez pas le cœur historique de la ville.",
+      "targetEn": "Don't miss the historic heart of the city.",
+      "audio": "audio/b1.2/unit-08-narration-recommendations/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "Évitez de voyager pendant la saison des pluies.",
+      "targetEn": "Avoid travelling during the rainy season.",
+      "audio": "audio/b1.2/unit-08-narration-recommendations/example-ex-3.mp3"
+    }
+  ]
+}

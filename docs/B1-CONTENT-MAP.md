@@ -17,6 +17,8 @@ unit-03 quality bar with a self-audit before commit.
 
 Status: ✅ built · 🔨 in progress · ⬜ planned
 
+**ALL 18 UNITS BUILT (2026-06-11).** B1 content-complete; native review of all 53 units remains the outstanding gate before any 'reviewed' badge flips.
+
 ## b1.1 — Dossiers 1–5
 | # | Module | Alter Ego+ 3 | Grammar focus | Status |
 |---|---|---|---|---|
@@ -40,8 +42,8 @@ Status: ✅ built · 🔨 in progress · ⬜ planned
 | 14 | Hypotheses & the conditional | D7 (écologie) | le conditionnel présent et passé; l'hypothèse (si…); pronouns y / en | ✅ b1.2/unit-04 |
 | 15 | Doubt & certainty | D8 *Convaincre* (justice) | les expressions du doute et de la certitude (+ mood choice) | ✅ b1.2/unit-05 |
 | 16 | Pronouns & narrating the past | D8 *Convaincre* | la double pronominalisation + les pronoms neutres; situer un événement dans un récit au passé | ✅ b1.2/unit-06 |
-| 17 | Indefinites & negation | D9 *Je voyage* | les indéfinis; les différentes phrases négatives | ⬜ |
-| 18 | Narration & recommendations | D9 *Je voyage* | les temps de la narration; recommandations / mises en garde au passé | ⬜ |
+| 17 | Indefinites & negation | D9 *Je voyage* | les indéfinis; les différentes phrases négatives | ✅ b1.2/unit-07 |
+| 18 | Narration & recommendations | D9 *Je voyage* | les temps de la narration; recommandations / mises en garde au passé | ✅ b1.2/unit-08 |
 
 ## Notes
 - **Size/reality:** B1 is the biggest, densest level — 18 units, each harder than

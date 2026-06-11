@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "b1.2/unit-08-narration-recommendations",
+  "level": "b1.2",
+  "unitNumber": 8,
+  "slug": "unit-08-narration-recommendations",
+  "title": "Narration & Recommendations",
+  "titleFr": "Les temps de la narration et les recommandations",
+  "cefrDescriptors": [
+    "Can narrate a journey combining all four narrative tenses.",
+    "Can give travel recommendations and warnings (DELF B1 writing staples)."
+  ],
+  "skills": ["reading", "listening", "writing", "speaking"],
+  "estimatedMinutes": 60,
+  "concept": "The last unit of B1 — and fittingly, it's the synthesis. A travel diary uses every past tense you've learned; a travel brochure uses every way of recommending. Master both and you're writing at DELF B1 level.\n\nLES TEMPS DE LA NARRATION — four tenses, four jobs, one story:\n  • imparfait — the scenery, the background: J'étais alors à Bruges…\n  • passé composé — the events that move the story: …et j'ai suivi les traces des peintres.\n  • plus-que-parfait — what had happened before: …des peintres qui avaient immortalisé la ville.\n  • conditionnel — the future seen from the past: Ce café deviendrait plus tard mon lieu préféré.\nThat one Bruges sentence-chain is the whole B1 past system working together — units 5, 4 and this one shaking hands.\n\nLES RECOMMANDATIONS — brochure and guide language:\n  • direct imperatives: Ne manquez pas la vieille ville ! · Laissez-vous tenter par les souks. · N'oubliez pas votre passeport.\n  • impersonal advice: Il est conseillé de se renseigner avant de plonger. · Il est préconisé de réserver.\n  • warnings (les mises en garde): Attention aux pickpockets ! · Évitez de voyager pendant la saison des pluies. · Méfiez-vous des taxis sans compteur.\n\nThe travel-writer's kit: un carnet de voyage (a travel diary), une brochure, flâner (to stroll), se renseigner (to find out), marchander (to haggle), incontournable (not-to-be-missed), une découverte, se laisser tenter (to give in to temptation).\n\nPut it together — diary first, brochure after: « Ce matin-là, je flânais dans le souk quand un marchand m'a appelé. Il avait préparé du thé ; ce thé deviendrait mon meilleur souvenir. » → « Ne manquez pas les souks ! Il est conseillé de marchander, mais évitez d'y aller à midi. »\n\nYour turn — your DELF send-off: write a four-line travel memory using all four narrative tenses, then one recommendation and one warning for the next visitor. That's the whole level in six lines. Bravo — tu as fini le B1 !",
+  "vocabulary": [
+    { "id": "carnet", "fr": "un carnet de voyage", "en": "a travel diary", "pos": "noun", "exampleFr": "Elle écrit son carnet de voyage.", "exampleEn": "She's writing her travel diary.", "audio": "audio/b1.2/unit-08-narration-recommendations/vocab-carnet.mp3", "voice": "denise" },
+    { "id": "brochure", "fr": "une brochure", "en": "a brochure", "pos": "noun", "exampleFr": "La brochure présente la région.", "exampleEn": "The brochure presents the region.", "audio": "audio/b1.2/unit-08-narration-recommendations/vocab-brochure.mp3", "voice": "henri" },
+    { "id": "recommander", "fr": "recommander", "en": "to recommend", "pos": "verb", "exampleFr": "Je vous recommande ce restaurant.", "exampleEn": "I recommend this restaurant to you.", "audio": "audio/b1.2/unit-08-narration-recommendations/vocab-recommander.mp3", "voice": "denise" },
+    { "id": "il-est-conseille", "fr": "il est conseillé de", "en": "it is advisable to", "pos": "expression", "exampleFr": "Il est conseillé de réserver tôt.", "exampleEn": "It's advisable to book early.", "audio": "audio/b1.2/unit-08-narration-recommendations/vocab-il-est-conseille.mp3", "voice": "henri" },
+    { "id": "eviter-de", "fr": "éviter de", "en": "to avoid (doing)", "pos": "verb", "exampleFr": "Évitez de sortir seul la nuit.", "exampleEn": "Avoid going out alone at night.", "audio": "audio/b1.2/unit-08-narration-recommendations/vocab-eviter-de.mp3", "voice": "denise" },
+    { "id": "ne-manquez-pas", "fr": "ne manquez pas", "en": "don't miss", "pos": "expression", "exampleFr": "Ne manquez pas le festival !", "exampleEn": "Don't miss the festival!", "audio": "audio/b1.2/unit-08-narration-recommendations/vocab-ne-manquez-pas.mp3", "voice": "henri" },
+    { "id": "mise-en-garde", "fr": "une mise en garde", "en": "a warning", "pos": "noun", "exampleFr": "Le guide donne une mise en garde.", "exampleEn": "The guide gives a warning.", "audio": "audio/b1.2/unit-08-narration-recommendations/vocab-mise-en-garde.mp3", "voice": "denise" },
+    { "id": "se-renseigner", "fr": "se renseigner", "en": "to find out / get information", "pos": "verb", "exampleFr": "Renseigne-toi avant de partir.", "exampleEn": "Find out before you leave.", "audio": "audio/b1.2/unit-08-narration-recommendations/vocab-se-renseigner.mp3", "voice": "henri" },
+    { "id": "flaner", "fr": "flâner", "en": "to stroll", "pos": "verb", "exampleFr": "On a flâné dans les ruelles.", "exampleEn": "We strolled through the alleys.", "audio": "audio/b1.2/unit-08-narration-recommendations/vocab-flaner.mp3", "voice": "denise" },
+    { "id": "paysage", "fr": "un paysage", "en": "a landscape", "pos": "noun", "exampleFr": "Le paysage était magnifique.", "exampleEn": "The landscape was magnificent.", "audio": "audio/b1.2/unit-08-narration-recommendations/vocab-paysage.mp3", "voice": "henri" },
+    { "id": "decouverte", "fr": "une découverte", "en": "a discovery", "pos": "noun", "exampleFr": "Ce village est une belle découverte.", "exampleEn": "This village is a lovely discovery.", "audio": "audio/b1.2/unit-08-narration-recommendations/vocab-decouverte.mp3", "voice": "denise" },
+    { "id": "se-laisser-tenter", "fr": "se laisser tenter", "en": "to give in to temptation", "pos": "verb", "exampleFr": "Laissez-vous tenter par les souks.", "exampleEn": "Let the souks tempt you.", "audio": "audio/b1.2/unit-08-narration-recommendations/vocab-se-laisser-tenter.mp3", "voice": "henri" },
+    { "id": "marchander", "fr": "marchander", "en": "to haggle", "pos": "verb", "exampleFr": "Ici, tout le monde marchande.", "exampleEn": "Here, everyone haggles.", "audio": "audio/b1.2/unit-08-narration-recommendations/vocab-marchander.mp3", "voice": "denise" },
+    { "id": "incontournable", "fr": "incontournable", "en": "not-to-be-missed", "pos": "adjective", "exampleFr": "Ce musée est incontournable.", "exampleEn": "This museum is not to be missed.", "audio": "audio/b1.2/unit-08-narration-recommendations/vocab-incontournable.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "Ne manquez pas le cœur historique de la ville.", "en": "Don't miss the historic heart of the city.", "audio": "audio/b1.2/unit-08-narration-recommendations/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "Il est conseillé de se renseigner avant de plonger.", "en": "It's advisable to check before diving.", "audio": "audio/b1.2/unit-08-narration-recommendations/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "Évitez de voyager pendant la saison des pluies.", "en": "Avoid travelling during the rainy season.", "audio": "audio/b1.2/unit-08-narration-recommendations/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "J'étais à Bruges et j'ai suivi les traces des peintres.", "en": "I was in Bruges and I followed the painters' footsteps.", "audio": "audio/b1.2/unit-08-narration-recommendations/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "Ce café deviendrait plus tard mon lieu préféré.", "en": "This café would later become my favourite place.", "audio": "audio/b1.2/unit-08-narration-recommendations/example-ex-5.mp3", "voice": "denise" },
+    { "id": "ex-6", "fr": "Laissez-vous tenter par les souks.", "en": "Let the souks tempt you.", "audio": "audio/b1.2/unit-08-narration-recommendations/example-ex-6.mp3", "voice": "henri" }
+  ]
+}
