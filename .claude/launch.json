@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "florine-dev",
+      "runtimeExecutable": "C:\\Users\\hrith\\florine-dev.cmd",
+      "runtimeArgs": [],
+      "port": 5173
+    }
+  ]
+}
