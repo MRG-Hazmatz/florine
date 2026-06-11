@@ -28,8 +28,8 @@ Status: ✅ built · 🔨 in progress · ⬜ planned
 | 6 | Opposition & concession | D3 *J'apprends* | exprimer l'opposition et la concession (mais, pourtant, bien que…) | ✅ b1.1/unit-06 |
 | 7 | News & the passive | D4 *Je m'informe* | la forme passive; la phrase nominale (press headlines) | ✅ b1.1/unit-07 |
 | 8 | Cause & consequence | D4 *Je m'informe* | exprimer la cause et la conséquence | ✅ b1.1/unit-08 |
-| 9 | Gérondif & participe présent | D5 *J'agis* (solidarité) | le participe présent et le gérondif | ⬜ |
-| 10 | Purpose & duration | D5 *J'agis* | exprimer le but (pour que, afin de…); les expressions de durée | ⬜ |
+| 9 | Gérondif & participe présent | D5 *J'agis* (solidarité) | le participe présent et le gérondif | ✅ b1.1/unit-09 |
+| 10 | Purpose & duration | D5 *J'agis* | exprimer le but (pour que, afin de…); les expressions de durée | ✅ b1.1/unit-10 |
 
 ## b1.2 — Dossiers 6–9
 | # | Module | Alter Ego+ 3 | Grammar focus | Status |

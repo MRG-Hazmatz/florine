@@ -1,0 +1,467 @@
+{
+  "schemaVersion": 1,
+  "unitId": "b1.1/unit-10-purpose-duration",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Different subjects: « Il parle fort ___ tout le monde entende. »",
+      "options": [
+        {
+          "id": "a",
+          "text": "pour que"
+        },
+        {
+          "id": "b",
+          "text": "pour"
+        },
+        {
+          "id": "c",
+          "text": "afin de"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "He speaks, everyone hears — different subjects → pour que + subjonctif."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Same subject: « Je fais du sport ___ rester en forme. »",
+      "options": [
+        {
+          "id": "a",
+          "text": "pour"
+        },
+        {
+          "id": "b",
+          "text": "pour que"
+        },
+        {
+          "id": "c",
+          "text": "afin que"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "I exercise, I stay fit — same subject → pour + infinitif."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Still true today — choose the time word.",
+      "inputMode": "dropdown",
+      "template": "J'habite ici {{b1}} 2019.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "depuis"
+          ],
+          "options": [
+            "depuis",
+            "pendant",
+            "il y a"
+          ]
+        }
+      ],
+      "explanation": "Started in 2019 and still true → depuis."
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "A finished period — choose the time word.",
+      "inputMode": "dropdown",
+      "template": "J'ai vécu à Lyon {{b1}} deux ans.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "pendant"
+          ],
+          "options": [
+            "pendant",
+            "depuis",
+            "dans"
+          ]
+        }
+      ],
+      "explanation": "A closed, finished period (passé composé, it's over) → pendant."
+    },
+    {
+      "id": "ex-mc-3",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Time it took: « J'ai fini l'exercice ___ dix minutes. »",
+      "options": [
+        {
+          "id": "a",
+          "text": "en"
+        },
+        {
+          "id": "b",
+          "text": "dans"
+        },
+        {
+          "id": "c",
+          "text": "depuis"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "The time needed to complete something → en dix minutes."
+    },
+    {
+      "id": "ex-fb-3",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Complete « ago » in French (one word).",
+      "inputMode": "typed",
+      "template": "Nous sommes arrivés il y {{b1}} trois jours.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "a"
+          ]
+        }
+      ],
+      "explanation": "Il y a + duration = ago: il y a trois jours."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each time word to its job.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "depuis",
+          "right": "since / for (still ongoing)"
+        },
+        {
+          "id": "p2",
+          "left": "pendant",
+          "right": "for (a closed period)"
+        },
+        {
+          "id": "p3",
+          "left": "dans",
+          "right": "in (from now, future)"
+        },
+        {
+          "id": "p4",
+          "left": "il y a",
+          "right": "ago"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"I've been working here for six years.\"",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Ça"
+        },
+        {
+          "id": "t2",
+          "text": "fait"
+        },
+        {
+          "id": "t3",
+          "text": "six"
+        },
+        {
+          "id": "t4",
+          "text": "ans"
+        },
+        {
+          "id": "t5",
+          "text": "que"
+        },
+        {
+          "id": "t6",
+          "text": "je"
+        },
+        {
+          "id": "t7",
+          "text": "travaille"
+        },
+        {
+          "id": "t8",
+          "text": "ici"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7",
+        "t8"
+      ]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen to the volunteer. How long has she volunteered, and when does she leave?",
+      "audio": "audio/b1.1/unit-10-purpose-duration/listen-1.mp3",
+      "transcript": "Je suis bénévole depuis trois ans ; je pars au Sénégal dans deux semaines pour une mission de six mois.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Volunteer for three years — leaving in two weeks for a six-month mission"
+        },
+        {
+          "id": "b",
+          "text": "Volunteer for two weeks — leaving in three years"
+        },
+        {
+          "id": "c",
+          "text": "Volunteer for six months — leaving in three days"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "depuis trois ans (ongoing) · dans deux semaines (future) · pour une mission de six mois (planned duration)."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read the association's page and answer both questions.",
+      "passageFr": "L'association Mains Ouvertes existe depuis 1995. Pendant ses dix premières années, elle aidait seulement les familles du quartier. Aujourd'hui, elle récolte des fonds dans toute la France afin que chaque enfant puisse manger à l'école. Sa prochaine campagne commence dans un mois.",
+      "passageEn": "The charity Mains Ouvertes has existed since 1995. During its first ten years, it only helped families in the neighbourhood. Today it raises funds across France so that every child can eat at school. Its next campaign starts in a month.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "What is the charity's GOAL today (« afin que… ») ?",
+          "options": [
+            {
+              "id": "a",
+              "text": "That every child can eat at school"
+            },
+            {
+              "id": "b",
+              "text": "To help only neighbourhood families"
+            },
+            {
+              "id": "c",
+              "text": "To open a new school in a month"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        },
+        {
+          "id": "q2",
+          "prompt": "When does the next campaign start?",
+          "options": [
+            {
+              "id": "a",
+              "text": "In a month"
+            },
+            {
+              "id": "b",
+              "text": "It started a month ago"
+            },
+            {
+              "id": "c",
+              "text": "In 1995"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex-mc-4",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "After « pour que », the verb is in the…",
+      "options": [
+        {
+          "id": "a",
+          "text": "subjonctif — pour que tout le monde comprenne"
+        },
+        {
+          "id": "b",
+          "text": "indicatif — pour que tout le monde comprend"
+        },
+        {
+          "id": "c",
+          "text": "infinitif — pour que comprendre"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Pour que / afin que always take the subjunctive: …pour que tout le monde comprenne."
+    },
+    {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/b1.1/unit-10-purpose-duration/example-ex-1.mp3",
+      "transcript": "Je pars pour trois mois.",
+      "options": [
+        {
+          "id": "a",
+          "text": "I'm leaving for three months."
+        },
+        {
+          "id": "b",
+          "text": "She has been working here since 2020."
+        },
+        {
+          "id": "c",
+          "text": "I did the journey in two hours."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « le but » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "the goal / aim"
+        },
+        {
+          "id": "b",
+          "text": "an objective"
+        },
+        {
+          "id": "c",
+          "text": "to reach"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "le but = the goal / aim."
+    },
+    {
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "Mon {{b1}} est de réussir.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "but"
+          ]
+        }
+      ],
+      "explanation": "« Mon but est de réussir. » — the goal / aim."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "afin de",
+          "right": "in order to"
+        },
+        {
+          "id": "p2",
+          "left": "depuis",
+          "right": "since / for"
+        },
+        {
+          "id": "p3",
+          "left": "pendant",
+          "right": "for / during"
+        },
+        {
+          "id": "p4",
+          "left": "il y a (+ durée)",
+          "right": "ago"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “I'm leaving for three months.”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Je"
+        },
+        {
+          "id": "t2",
+          "text": "pars"
+        },
+        {
+          "id": "t3",
+          "text": "pour"
+        },
+        {
+          "id": "t4",
+          "text": "trois"
+        },
+        {
+          "id": "t5",
+          "text": "mois"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5"
+      ]
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "Je pars pour trois mois.",
+      "targetEn": "I'm leaving for three months.",
+      "audio": "audio/b1.1/unit-10-purpose-duration/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "J'ai fait le trajet en deux heures.",
+      "targetEn": "I did the journey in two hours.",
+      "audio": "audio/b1.1/unit-10-purpose-duration/example-ex-3.mp3"
+    }
+  ]
+}

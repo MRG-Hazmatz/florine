@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "b1.1/unit-09-gerondif",
+  "level": "b1.1",
+  "unitNumber": 9,
+  "slug": "unit-09-gerondif",
+  "title": "Gérondif & Participe Présent",
+  "titleFr": "Le gérondif et le participe présent",
+  "cefrDescriptors": [
+    "Can express how, when or why something happens using the gérondif (en + -ant).",
+    "Can use the participe présent to give a cause or replace a relative clause.",
+    "Can talk about volunteering and solidarity campaigns."
+  ],
+  "skills": ["reading", "listening", "writing", "speaking"],
+  "estimatedMinutes": 55,
+  "concept": "Dossier 5 is about taking action — charities, volunteers, solidarity campaigns. And the grammar of action is the -ant family: two forms built the same way that do very different jobs.\n\nThe shared formation: take the nous-form of the present, drop -ons, add -ant:\n  nous faisons → faisant · nous finissons → finissant · nous mangeons → mangeant\n  Only three irregulars: avoir → ayant · être → étant · savoir → sachant\n\nLE PARTICIPE PRÉSENT — a verbal adjective-of-sorts (but invariable!) that hangs onto a noun or opens a sentence:\n  • cause: Étant très âgée, Mme Lemoine a besoin d'aide. (= because she is very old)\n  • replaces qui + verb: Nous aidons les personnes ayant peu de ressources. (= qui ont peu de ressources)\n  Its subject can differ from the main clause: Les dons étant insuffisants, l'association fait de la publicité.\n\nLE GÉRONDIF — en + participe présent, the Swiss-army adverb. It answers HOW / WHEN / WHY about the main verb, and its subject must be the SAME:\n  • simultaneity: Il travaille en chantant. (often tout en: Elle lit tout en marchant.)\n  • manner / means: L'association s'est fait connaître en passant à la télé.\n  • time: En arrivant à Paris, appelle-moi. (= when you arrive)\n  • condition: En étant plus généreux, on sauverait plus de vies. (= if we were…)\n\nThe key contrast, side by side: les personnes ayant peu de ressources (participe présent — describes the noun) vs Vous aidez en donnant un euro (gérondif — describes how you help).\n\nThe solidarity kit: une association (a charity), un bénévole (a volunteer), s'engager (to commit), un don (a donation), récolter (to collect), soigner (to care for), l'entraide (mutual aid).\n\nPut it together like a campaign poster: « En donnant deux heures par semaine, vous changez des vies. Rejoignez les bénévoles soutenant les personnes en danger ! »\n\nYour turn: write one sentence with a gérondif of manner (how you learn French?) — for example, J'apprends le français en écoutant…",
+  "vocabulary": [
+    { "id": "association", "fr": "une association", "en": "a charity / association", "pos": "noun", "exampleFr": "Cette association aide les enfants.", "exampleEn": "This charity helps children.", "audio": "audio/b1.1/unit-09-gerondif/vocab-association.mp3", "voice": "denise" },
+    { "id": "benevole", "fr": "un bénévole", "en": "a volunteer", "pos": "noun", "exampleFr": "Les bénévoles servent les repas.", "exampleEn": "The volunteers serve the meals.", "audio": "audio/b1.1/unit-09-gerondif/vocab-benevole.mp3", "voice": "henri" },
+    { "id": "entraide", "fr": "l'entraide (f.)", "en": "mutual aid", "pos": "noun", "exampleFr": "L'entraide est essentielle ici.", "exampleEn": "Mutual aid is essential here.", "audio": "audio/b1.1/unit-09-gerondif/vocab-entraide.mp3", "voice": "denise" },
+    { "id": "s-engager", "fr": "s'engager", "en": "to commit / get involved", "pos": "verb", "exampleFr": "Elle s'engage pour le climat.", "exampleEn": "She's getting involved for the climate.", "audio": "audio/b1.1/unit-09-gerondif/vocab-s-engager.mp3", "voice": "henri" },
+    { "id": "don", "fr": "un don", "en": "a donation", "pos": "noun", "exampleFr": "Chaque don compte.", "exampleEn": "Every donation counts.", "audio": "audio/b1.1/unit-09-gerondif/vocab-don.mp3", "voice": "denise" },
+    { "id": "soutenir", "fr": "soutenir", "en": "to support", "pos": "verb", "exampleFr": "Nous soutenons ce projet.", "exampleEn": "We support this project.", "audio": "audio/b1.1/unit-09-gerondif/vocab-soutenir.mp3", "voice": "henri" },
+    { "id": "participer", "fr": "participer à", "en": "to take part in", "pos": "verb", "exampleFr": "Je participe à la collecte.", "exampleEn": "I'm taking part in the collection.", "audio": "audio/b1.1/unit-09-gerondif/vocab-participer.mp3", "voice": "denise" },
+    { "id": "sauver", "fr": "sauver", "en": "to save", "pos": "verb", "exampleFr": "Ce don peut sauver une vie.", "exampleEn": "This donation can save a life.", "audio": "audio/b1.1/unit-09-gerondif/vocab-sauver.mp3", "voice": "henri" },
+    { "id": "soigner", "fr": "soigner", "en": "to treat / care for", "pos": "verb", "exampleFr": "Les médecins soignent les blessés.", "exampleEn": "The doctors treat the injured.", "audio": "audio/b1.1/unit-09-gerondif/vocab-soigner.mp3", "voice": "denise" },
+    { "id": "recolter", "fr": "récolter", "en": "to collect / raise (funds)", "pos": "verb", "exampleFr": "On récolte des fonds pour l'école.", "exampleEn": "We're raising funds for the school.", "audio": "audio/b1.1/unit-09-gerondif/vocab-recolter.mp3", "voice": "henri" },
+    { "id": "campagne", "fr": "une campagne", "en": "a campaign", "pos": "noun", "exampleFr": "La campagne commence lundi.", "exampleEn": "The campaign starts on Monday.", "audio": "audio/b1.1/unit-09-gerondif/vocab-campagne.mp3", "voice": "denise" },
+    { "id": "en-danger", "fr": "en danger", "en": "in danger", "pos": "adjective", "exampleFr": "Ces populations sont en danger.", "exampleEn": "These populations are in danger.", "audio": "audio/b1.1/unit-09-gerondif/vocab-en-danger.mp3", "voice": "henri" },
+    { "id": "utile", "fr": "utile", "en": "useful", "pos": "adjective", "exampleFr": "Je me sens utile ici.", "exampleEn": "I feel useful here.", "audio": "audio/b1.1/unit-09-gerondif/vocab-utile.mp3", "voice": "denise" },
+    { "id": "rejoindre", "fr": "rejoindre", "en": "to join", "pos": "verb", "exampleFr": "Rejoignez notre équipe !", "exampleEn": "Join our team!", "audio": "audio/b1.1/unit-09-gerondif/vocab-rejoindre.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "Il travaille en chantant.", "en": "He works while singing.", "audio": "audio/b1.1/unit-09-gerondif/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "En donnant quelques euros, vous sauverez des vies.", "en": "By giving a few euros, you will save lives.", "audio": "audio/b1.1/unit-09-gerondif/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "Étant très âgée, elle a besoin d'aide à domicile.", "en": "Being very old, she needs help at home.", "audio": "audio/b1.1/unit-09-gerondif/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "Nous aidons les personnes ayant peu de ressources.", "en": "We help people who have few resources.", "audio": "audio/b1.1/unit-09-gerondif/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "En arrivant à Paris, appelle-moi.", "en": "When you arrive in Paris, call me.", "audio": "audio/b1.1/unit-09-gerondif/example-ex-5.mp3", "voice": "denise" },
+    { "id": "ex-6", "fr": "Elle lit tout en marchant.", "en": "She reads while walking.", "audio": "audio/b1.1/unit-09-gerondif/example-ex-6.mp3", "voice": "henri" }
+  ]
+}

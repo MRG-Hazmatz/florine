@@ -1,0 +1,447 @@
+{
+  "schemaVersion": 1,
+  "unitId": "b1.1/unit-09-gerondif",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "What is the gérondif of « faire »?",
+      "options": [
+        {
+          "id": "a",
+          "text": "en faisant"
+        },
+        {
+          "id": "b",
+          "text": "en fait"
+        },
+        {
+          "id": "c",
+          "text": "en font"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Nous faisons → drop -ons, add -ant → en faisant."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "« Savoir » has an irregular participe présent. Which is it?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sachant"
+        },
+        {
+          "id": "b",
+          "text": "savant"
+        },
+        {
+          "id": "c",
+          "text": "sait"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Three irregulars only: ayant (avoir), étant (être), sachant (savoir)."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Complete the charity slogan.",
+      "inputMode": "dropdown",
+      "template": "{{b1}} quelques euros, vous sauverez une vie.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "En donnant"
+          ],
+          "options": [
+            "En donnant",
+            "Donner",
+            "Donné"
+          ]
+        }
+      ],
+      "explanation": "By giving = means → gérondif: en donnant."
+    },
+    {
+      "id": "ex-mc-3",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "« Il travaille en chantant. » — what does the gérondif express here?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Two actions at the same time"
+        },
+        {
+          "id": "b",
+          "text": "A condition"
+        },
+        {
+          "id": "c",
+          "text": "A cause"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "He works AND sings at once — simultaneity (often reinforced with tout en chantant)."
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Replace « qui ont » with the right -ant form.",
+      "inputMode": "dropdown",
+      "template": "Nous aidons les personnes {{b1}} peu de ressources.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "ayant"
+          ],
+          "options": [
+            "ayant",
+            "en ayant",
+            "ont"
+          ]
+        }
+      ],
+      "explanation": "Describing the noun (= qui ont) → participe présent alone: ayant. The gérondif (en ayant) would describe the main verb instead."
+    },
+    {
+      "id": "ex-fb-3",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Gérondif of « être » (one word).",
+      "inputMode": "typed",
+      "template": "En {{b1}} plus généreux, on sauverait plus de vies.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "étant"
+          ]
+        }
+      ],
+      "explanation": "Être → étant (irregular): en étant plus généreux = if we were more generous (condition)."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each solidarity word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "un bénévole",
+          "right": "a volunteer"
+        },
+        {
+          "id": "p2",
+          "left": "un don",
+          "right": "a donation"
+        },
+        {
+          "id": "p3",
+          "left": "l'entraide",
+          "right": "mutual aid"
+        },
+        {
+          "id": "p4",
+          "left": "soigner",
+          "right": "to treat / care for"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"She reads while walking.\"",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Elle"
+        },
+        {
+          "id": "t2",
+          "text": "lit"
+        },
+        {
+          "id": "t3",
+          "text": "tout"
+        },
+        {
+          "id": "t4",
+          "text": "en"
+        },
+        {
+          "id": "t5",
+          "text": "marchant"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5"
+      ]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen to the radio appeal. What is it asking for?",
+      "audio": "audio/b1.1/unit-09-gerondif/listen-1.mp3",
+      "transcript": "Devenez bénévole : en donnant deux heures par semaine, vous changez des vies.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Become a volunteer by giving two hours a week"
+        },
+        {
+          "id": "b",
+          "text": "Donate two euros a week to change lives"
+        },
+        {
+          "id": "c",
+          "text": "Sign a petition within two weeks"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "« en donnant deux heures par semaine » — by giving two HOURS (your time), you change lives."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read the volunteer's story and answer both questions.",
+      "passageFr": "Léo s'est engagé comme bénévole il y a deux ans. En servant des repas chaque samedi, il a rencontré des personnes ayant des parcours très différents. « Tout en étudiant, je trouve le temps d'aider. En écoutant les gens, on apprend énormément », explique-t-il.",
+      "passageEn": "Léo got involved as a volunteer two years ago. By serving meals every Saturday, he has met people with very different life paths. \"While studying, I find the time to help. By listening to people, you learn a huge amount,\" he explains.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "HOW did Léo meet people with different life paths?",
+          "options": [
+            {
+              "id": "a",
+              "text": "By serving meals every Saturday"
+            },
+            {
+              "id": "b",
+              "text": "By donating money every month"
+            },
+            {
+              "id": "c",
+              "text": "By organising a campaign"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        },
+        {
+          "id": "q2",
+          "prompt": "« Tout en étudiant, je trouve le temps d'aider » means…",
+          "options": [
+            {
+              "id": "a",
+              "text": "He helps at the same time as studying"
+            },
+            {
+              "id": "b",
+              "text": "He stopped studying to help"
+            },
+            {
+              "id": "c",
+              "text": "He helps students with their studies"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex-mc-4",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "The gérondif can only be used when…",
+      "options": [
+        {
+          "id": "a",
+          "text": "both actions have the SAME subject"
+        },
+        {
+          "id": "b",
+          "text": "the two actions have different subjects"
+        },
+        {
+          "id": "c",
+          "text": "the main verb is in the past"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Same subject required: Il travaille en chantant = HE works and HE sings. (The participe présent can take its own subject.)"
+    },
+    {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/b1.1/unit-09-gerondif/example-ex-1.mp3",
+      "transcript": "Il travaille en chantant.",
+      "options": [
+        {
+          "id": "a",
+          "text": "He works while singing."
+        },
+        {
+          "id": "b",
+          "text": "By giving a few euros, you will save lives."
+        },
+        {
+          "id": "c",
+          "text": "Being very old, she needs help at home."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « une association » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "a charity / association"
+        },
+        {
+          "id": "b",
+          "text": "a volunteer"
+        },
+        {
+          "id": "c",
+          "text": "mutual aid"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "une association = a charity / association."
+    },
+    {
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "Cette {{b1}} aide les enfants.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "association"
+          ]
+        }
+      ],
+      "explanation": "« Cette association aide les enfants. » — a charity / association."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "un don",
+          "right": "a donation"
+        },
+        {
+          "id": "p2",
+          "left": "soutenir",
+          "right": "to support"
+        },
+        {
+          "id": "p3",
+          "left": "participer à",
+          "right": "to take part in"
+        },
+        {
+          "id": "p4",
+          "left": "sauver",
+          "right": "to save"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “He works while singing.”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Il"
+        },
+        {
+          "id": "t2",
+          "text": "travaille"
+        },
+        {
+          "id": "t3",
+          "text": "en"
+        },
+        {
+          "id": "t4",
+          "text": "chantant"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4"
+      ]
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "Il travaille en chantant.",
+      "targetEn": "He works while singing.",
+      "audio": "audio/b1.1/unit-09-gerondif/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "Étant très âgée, elle a besoin d'aide à domicile.",
+      "targetEn": "Being very old, she needs help at home.",
+      "audio": "audio/b1.1/unit-09-gerondif/example-ex-3.mp3"
+    }
+  ]
+}

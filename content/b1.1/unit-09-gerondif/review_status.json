@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "unitId": "b1.1/unit-09-gerondif",
+  "status": "pending_review",
+  "reviewers": [],
+  "approvedAt": null,
+  "sourceRefs": [
+    "DRAFT — built to the unit-03 template (objectif pragmatique + Point Langue grammar + thematic lexicon + DELF-format comprehension), then self-audited before commit. Covers le participe présent (formation from nous-stem + -ant, irregulars ayant/étant/sachant, cause & relative-replacement, own subject allowed) and le gérondif (en + p.p., same subject, values: simultaneity/tout en, manner-means, time, condition). Awaiting native-speaker review.",
+    "Progression blueprint: Alter Ego+ 3 (Hachette), Dossier 5 'J'agis' (promouvoir une action de solidarité; le participe présent et le gérondif; thème: associations, bénévolat). Content is original; the book is used only for scope/sequence, never copied."
+  ]
+}

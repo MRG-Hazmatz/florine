@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "b1.1/unit-10-purpose-duration",
+  "level": "b1.1",
+  "unitNumber": 10,
+  "slug": "unit-10-purpose-duration",
+  "title": "Purpose & Duration",
+  "titleFr": "Exprimer le but et la durée",
+  "cefrDescriptors": [
+    "Can express a goal, choosing infinitive or subjunctive depending on the subjects.",
+    "Can situate actions in time precisely with depuis, pendant, en, dans, il y a, pour."
+  ],
+  "skills": ["reading", "listening", "writing", "speaking"],
+  "estimatedMinutes": 55,
+  "concept": "Closing Dossier 5: volunteers don't just act — they act FOR something (le but) and FOR some time (la durée). These two systems finish b1.1.\n\nLE BUT — why you do it. The rule is the same one you learned with feelings: same subject → infinitive; different subjects → que + subjonctif:\n  • pour + infinitif: Je fais du sport pour rester en forme. (I do it, I stay fit)\n  • pour que + subjonctif: Il parle lentement pour que tout le monde comprenne. (he speaks, everyone understands)\n  • afin de + infinitif / afin que + subjonctif — same pair, more formal\n  • negative goal: pour ne pas + infinitif: Je pars tôt pour ne pas rater le train.\n  Goal words: un but, un objectif, atteindre un objectif (to reach a goal), dans le but de (with the aim of).\n\nLA DURÉE — six little words that English speakers mix up, each with one precise job:\n  • depuis — started in the past, STILL true: Elle travaille ici depuis 2020. · Depuis que je suis bénévole, je me sens utile. (spoken variants: il y a six ans que… / ça fait six ans que…)\n  • pendant — a closed, limited period: J'ai vécu à Lyon pendant deux ans. (it's over)\n  • pour — a PLANNED duration: Je pars pour trois mois. (the plan, not the elapsed time)\n  • en — the time something TAKES: J'ai fait le trajet en deux heures.\n  • dans — a moment in the FUTURE: Nous partons dans deux jours. (two days from now)\n  • il y a — a moment in the PAST: J'ai signé mon contrat il y a trois ans. (= ago)\n\nThe killer contrast: J'habite ici depuis deux ans (still here) vs J'ai habité ici pendant deux ans (not anymore) vs Je serai là dans deux ans (future). One idea — three different timelines.\n\nPut it together like a volunteer's bio: « Je suis bénévole depuis trois ans. Je pars au Sénégal dans deux semaines, pour une mission de six mois, afin d'aider une école à se construire. »\n\nYour turn: write your own three-line bio — one depuis, one dans, one pour/afin de goal.",
+  "vocabulary": [
+    { "id": "but", "fr": "le but", "en": "the goal / aim", "pos": "noun", "exampleFr": "Mon but est de réussir.", "exampleEn": "My goal is to succeed.", "audio": "audio/b1.1/unit-10-purpose-duration/vocab-but.mp3", "voice": "denise" },
+    { "id": "objectif", "fr": "un objectif", "en": "an objective", "pos": "noun", "exampleFr": "L'objectif est atteint.", "exampleEn": "The objective has been reached.", "audio": "audio/b1.1/unit-10-purpose-duration/vocab-objectif.mp3", "voice": "henri" },
+    { "id": "atteindre", "fr": "atteindre", "en": "to reach (a goal)", "pos": "verb", "exampleFr": "Elle veut atteindre son objectif.", "exampleEn": "She wants to reach her objective.", "audio": "audio/b1.1/unit-10-purpose-duration/vocab-atteindre.mp3", "voice": "denise" },
+    { "id": "pour-que", "fr": "pour que", "en": "so that (+ subjunctive)", "pos": "conjunction", "exampleFr": "Je répète pour que tu comprennes.", "exampleEn": "I repeat so that you understand.", "audio": "audio/b1.1/unit-10-purpose-duration/vocab-pour-que.mp3", "voice": "henri" },
+    { "id": "afin-de", "fr": "afin de", "en": "in order to (formal)", "pos": "preposition", "exampleFr": "Il épargne afin de voyager.", "exampleEn": "He saves up in order to travel.", "audio": "audio/b1.1/unit-10-purpose-duration/vocab-afin-de.mp3", "voice": "denise" },
+    { "id": "depuis", "fr": "depuis", "en": "since / for (still ongoing)", "pos": "preposition", "exampleFr": "Elle travaille ici depuis 2020.", "exampleEn": "She has worked here since 2020.", "audio": "audio/b1.1/unit-10-purpose-duration/vocab-depuis.mp3", "voice": "henri" },
+    { "id": "pendant", "fr": "pendant", "en": "for / during (a closed period)", "pos": "preposition", "exampleFr": "J'ai dormi pendant dix heures.", "exampleEn": "I slept for ten hours.", "audio": "audio/b1.1/unit-10-purpose-duration/vocab-pendant.mp3", "voice": "denise" },
+    { "id": "il-y-a", "fr": "il y a (+ durée)", "en": "ago", "pos": "preposition", "exampleFr": "Je l'ai vu il y a deux jours.", "exampleEn": "I saw him two days ago.", "audio": "audio/b1.1/unit-10-purpose-duration/vocab-il-y-a.mp3", "voice": "henri" },
+    { "id": "dans", "fr": "dans (+ durée)", "en": "in (from now)", "pos": "preposition", "exampleFr": "On part dans une heure.", "exampleEn": "We leave in an hour.", "audio": "audio/b1.1/unit-10-purpose-duration/vocab-dans.mp3", "voice": "denise" },
+    { "id": "en-duree", "fr": "en (+ durée)", "en": "in (time needed)", "pos": "preposition", "exampleFr": "Il a tout fini en une heure.", "exampleEn": "He finished everything in one hour.", "audio": "audio/b1.1/unit-10-purpose-duration/vocab-en-duree.mp3", "voice": "henri" },
+    { "id": "ca-fait-que", "fr": "ça fait… que", "en": "it's been… that (spoken)", "pos": "expression", "exampleFr": "Ça fait six ans que j'habite ici.", "exampleEn": "I've been living here for six years.", "audio": "audio/b1.1/unit-10-purpose-duration/vocab-ca-fait-que.mp3", "voice": "denise" },
+    { "id": "durer", "fr": "durer", "en": "to last", "pos": "verb", "exampleFr": "Le film dure deux heures.", "exampleEn": "The film lasts two hours.", "audio": "audio/b1.1/unit-10-purpose-duration/vocab-durer.mp3", "voice": "henri" },
+    { "id": "duree", "fr": "la durée", "en": "duration / length", "pos": "noun", "exampleFr": "Quelle est la durée du stage ?", "exampleEn": "How long is the internship?", "audio": "audio/b1.1/unit-10-purpose-duration/vocab-duree.mp3", "voice": "denise" },
+    { "id": "mission", "fr": "une mission", "en": "a mission / assignment", "pos": "noun", "exampleFr": "Sa mission dure six mois.", "exampleEn": "Her assignment lasts six months.", "audio": "audio/b1.1/unit-10-purpose-duration/vocab-mission.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "Je pars pour trois mois.", "en": "I'm leaving for three months.", "audio": "audio/b1.1/unit-10-purpose-duration/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "Elle travaille ici depuis 2020.", "en": "She has been working here since 2020.", "audio": "audio/b1.1/unit-10-purpose-duration/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "J'ai fait le trajet en deux heures.", "en": "I did the journey in two hours.", "audio": "audio/b1.1/unit-10-purpose-duration/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "Nous partons dans deux jours.", "en": "We're leaving in two days.", "audio": "audio/b1.1/unit-10-purpose-duration/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "Il parle lentement pour que tout le monde comprenne.", "en": "He speaks slowly so that everyone understands.", "audio": "audio/b1.1/unit-10-purpose-duration/example-ex-5.mp3", "voice": "denise" },
+    { "id": "ex-6", "fr": "Ça fait six ans que je travaille ici.", "en": "I've been working here for six years.", "audio": "audio/b1.1/unit-10-purpose-duration/example-ex-6.mp3", "voice": "henri" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "unitId": "b1.1/unit-10-purpose-duration",
+  "status": "pending_review",
+  "reviewers": [],
+  "approvedAt": null,
+  "sourceRefs": [
+    "DRAFT — built to the unit-03 template (objectif pragmatique + Point Langue grammar + thematic lexicon + DELF-format comprehension), then self-audited before commit. Covers le but (pour/afin de + inf. same subject; pour que/afin que + subj. different subjects; pour ne pas) and la durée (depuis/depuis que, pendant, pour, en, dans, il y a, ça fait…que / il y a…que). Completes b1.1. Awaiting native-speaker review.",
+    "Progression blueprint: Alter Ego+ 3 (Hachette), Dossier 5 'J'agis' (exprimer le but; exprimer la durée; thème: Médecins du Monde-style engagement humanitaire). Content is original; the book is used only for scope/sequence, never copied."
+  ]
+}
