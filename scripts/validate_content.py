@@ -20,7 +20,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 CONTENT_DIR = ROOT / "content"
 
-CEFR_LEVELS = {"a1.1", "a1.2", "a2.1", "a2.2", "b1.1", "b1.2", "b2.1", "b2.2"}
+CEFR_LEVELS = {"a1.1", "a1.2", "a2.1", "a2.2", "b1.1", "b1.2", "b2.1", "b2.2", "c1.1", "c1.2", "c2.1", "c2.2"}
 SKILLS = {"reading", "listening", "writing", "speaking"}
 REVIEW_STATUSES = {"draft", "pending_review", "approved", "needs_changes"}
 EXERCISE_TYPES = {"multiple-choice", "fill-blank", "reorder", "match-pairs", "listen", "read", "speak"}

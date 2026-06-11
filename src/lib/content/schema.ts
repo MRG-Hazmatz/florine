@@ -26,6 +26,10 @@ export const cefrLevelSchema = z.enum([
   "b1.2",
   "b2.1",
   "b2.2",
+  "c1.1",
+  "c1.2",
+  "c2.1",
+  "c2.2",
 ]);
 export const CEFR_LEVELS = cefrLevelSchema.options;
 export type CefrLevel = z.infer<typeof cefrLevelSchema>;

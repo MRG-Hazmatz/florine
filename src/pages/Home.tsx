@@ -66,7 +66,7 @@ export default function Home() {
         <p className="max-w-prose text-lg text-ink/70">
           Glad you're here. Florine is a calmer way to learn French: clear grammar
           explained in plain English, real practice in French, and every exercise
-          built like a question from the actual DELF exam.
+          built like a question from the actual DELF and DALF exams.
         </p>
       </div>
 

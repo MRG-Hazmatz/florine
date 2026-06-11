@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { getLevelSummaries } from "../lib/content/load";
-import { CEFR_LABELS, DELF_FOR_LEVEL } from "../lib/cefr";
+import { CEFR_LABELS, EXAM_FOR_LEVEL } from "../lib/cefr";
 
 export default function LevelSelect() {
   const summaries = getLevelSummaries();
@@ -21,8 +21,8 @@ export default function LevelSelect() {
             >
               <div className="flex items-center justify-between gap-2">
                 <span className="font-semibold">{CEFR_LABELS[s.level]}</span>
-                {DELF_FOR_LEVEL[s.level] && (
-                  <span className="text-xs text-rouge">{DELF_FOR_LEVEL[s.level]}</span>
+                {EXAM_FOR_LEVEL[s.level] && (
+                  <span className="text-xs text-rouge">{EXAM_FOR_LEVEL[s.level]}</span>
                 )}
               </div>
               <p className="mt-2 text-sm text-ink/60">
