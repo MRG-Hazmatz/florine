@@ -1,0 +1,445 @@
+{
+  "schemaVersion": 1,
+  "unitId": "b2.1/unit-07-savoir-connaitre",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Skill: « Je ___ jouer du piano. »",
+      "options": [
+        {
+          "id": "a",
+          "text": "sais"
+        },
+        {
+          "id": "b",
+          "text": "connais"
+        },
+        {
+          "id": "c",
+          "text": "ignore"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "A skill (+ infinitive) → savoir: je sais jouer."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Familiarity: « Tu ___ ce professeur ? »",
+      "options": [
+        {
+          "id": "a",
+          "text": "connais"
+        },
+        {
+          "id": "b",
+          "text": "sais"
+        },
+        {
+          "id": "c",
+          "text": "es conscient"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "A person/noun → connaître: tu connais ce professeur."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "The faux ami.",
+      "inputMode": "dropdown",
+      "template": "J'{{b1}} à quelle heure commence le cours.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "ignore"
+          ],
+          "options": [
+            "ignore",
+            "évite",
+            "oublie de"
+          ]
+        }
+      ],
+      "explanation": "Ignorer = to NOT know (not 'to ignore'): j'ignore à quelle heure…"
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Gifted at…",
+      "inputMode": "dropdown",
+      "template": "Elle est douée {{b1}} les langues.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "pour"
+          ],
+          "options": [
+            "pour",
+            "à",
+            "dans"
+          ]
+        }
+      ],
+      "explanation": "Être doué EN maths / POUR les langues — pour before a field of activity."
+    },
+    {
+      "id": "ex-mc-3",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "« Il a la bosse des maths » means…",
+      "options": [
+        {
+          "id": "a",
+          "text": "He has a real head for figures"
+        },
+        {
+          "id": "b",
+          "text": "He failed his maths exam"
+        },
+        {
+          "id": "c",
+          "text": "He hurt his head in maths class"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Avoir la bosse des maths = to be naturally gifted at maths."
+    },
+    {
+      "id": "ex-fb-3",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Which 'know' fits a FACT? (one word)",
+      "inputMode": "typed",
+      "template": "Je {{b1}} que l'examen est en juin.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "sais"
+          ]
+        }
+      ],
+      "explanation": "Facts (que-clauses) take savoir: je sais que…"
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each talent idiom to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "doué en",
+          "right": "gifted at"
+        },
+        {
+          "id": "p2",
+          "left": "habile de ses mains",
+          "right": "good with one's hands"
+        },
+        {
+          "id": "p3",
+          "left": "l'oreille musicale",
+          "right": "a musical ear"
+        },
+        {
+          "id": "p4",
+          "left": "être au courant",
+          "right": "to be in the know"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"She underestimates her own talent.\"",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Elle"
+        },
+        {
+          "id": "t2",
+          "text": "méconnaît"
+        },
+        {
+          "id": "t3",
+          "text": "son"
+        },
+        {
+          "id": "t4",
+          "text": "propre"
+        },
+        {
+          "id": "t5",
+          "text": "talent"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5"
+      ]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen to the teacher. What does she say about Léa?",
+      "audio": "audio/b2.1/unit-07-savoir-connaitre/listen-1.mp3",
+      "transcript": "Léa a des facilités en langues et sait déjà lire des partitions — elle a l'oreille musicale.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Languages come easily to her and she has a musical ear"
+        },
+        {
+          "id": "b",
+          "text": "She struggles with languages but loves music"
+        },
+        {
+          "id": "c",
+          "text": "She knows the music teacher personally"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "des facilités en langues + l'oreille musicale — two talent idioms in one report."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read the school report extract and answer both questions.",
+      "passageFr": "Thomas est habile de ses mains et fait preuve d'une grande capacité de concentration en atelier. En revanche, il méconnaît ses aptitudes en expression écrite : il ignore qu'il a de réelles dispositions. Nous sommes conscients de son potentiel et souhaitons qu'il en prenne conscience lui aussi.",
+      "passageEn": "Thomas is good with his hands and shows great concentration in the workshop. On the other hand, he underestimates his aptitude for writing: he doesn't know that he has real ability. We are aware of his potential and hope he becomes aware of it too.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "What is Thomas's confirmed strength?",
+          "options": [
+            {
+              "id": "a",
+              "text": "He is good with his hands and focused in the workshop"
+            },
+            {
+              "id": "b",
+              "text": "He is the best writer in class"
+            },
+            {
+              "id": "c",
+              "text": "He has a musical ear"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        },
+        {
+          "id": "q2",
+          "prompt": "« Il ignore qu'il a de réelles dispositions » means…",
+          "options": [
+            {
+              "id": "a",
+              "text": "He doesn't know he has real ability"
+            },
+            {
+              "id": "b",
+              "text": "He ignores his teachers on purpose"
+            },
+            {
+              "id": "c",
+              "text": "He refuses to write"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex-mc-4",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Which sentence is WRONG?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Je connais que tu as raison."
+        },
+        {
+          "id": "b",
+          "text": "Je sais que tu as raison."
+        },
+        {
+          "id": "c",
+          "text": "Je connais ton quartier."
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "« Connaître que » doesn't exist — facts take savoir: je sais que…"
+    },
+    {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/b2.1/unit-07-savoir-connaitre/example-ex-1.mp3",
+      "transcript": "Je sais conduire, mais je ne connais pas cette route.",
+      "options": [
+        {
+          "id": "a",
+          "text": "I know how to drive, but I don't know this road."
+        },
+        {
+          "id": "b",
+          "text": "Have you heard about the high-school reform?"
+        },
+        {
+          "id": "c",
+          "text": "I don't know what time the lecture starts."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « savoir » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "to know"
+        },
+        {
+          "id": "b",
+          "text": "to not know"
+        },
+        {
+          "id": "c",
+          "text": "to be in the know about"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "savoir = to know."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "être conscient de",
+          "right": "to be aware of"
+        },
+        {
+          "id": "p2",
+          "left": "méconnaître",
+          "right": "to misjudge / fail to appreciate"
+        },
+        {
+          "id": "p3",
+          "left": "doué(e) en / pour",
+          "right": "gifted at"
+        },
+        {
+          "id": "p4",
+          "left": "avoir la bosse des maths",
+          "right": "to have a head for figures"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “I don't know what time the lecture starts.”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "J'ignore"
+        },
+        {
+          "id": "t2",
+          "text": "à"
+        },
+        {
+          "id": "t3",
+          "text": "quelle"
+        },
+        {
+          "id": "t4",
+          "text": "heure"
+        },
+        {
+          "id": "t5",
+          "text": "commence"
+        },
+        {
+          "id": "t6",
+          "text": "la"
+        },
+        {
+          "id": "t7",
+          "text": "conférence"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7"
+      ]
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "Je sais conduire, mais je ne connais pas cette route.",
+      "targetEn": "I know how to drive, but I don't know this road.",
+      "audio": "audio/b2.1/unit-07-savoir-connaitre/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "J'ignore à quelle heure commence la conférence.",
+      "targetEn": "I don't know what time the lecture starts.",
+      "audio": "audio/b2.1/unit-07-savoir-connaitre/example-ex-3.mp3"
+    }
+  ]
+}

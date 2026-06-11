@@ -1,0 +1,457 @@
+{
+  "schemaVersion": 1,
+  "unitId": "b2.1/unit-08-wishes",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "The golden trap: « J'espère que tu ___ . »",
+      "options": [
+        {
+          "id": "a",
+          "text": "réussiras"
+        },
+        {
+          "id": "b",
+          "text": "réussisses"
+        },
+        {
+          "id": "c",
+          "text": "aies réussi"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Espérer que takes the INDICATIF (often future): j'espère que tu réussiras."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "« Je souhaite que chacun ___ sa voie. »",
+      "options": [
+        {
+          "id": "a",
+          "text": "trouve"
+        },
+        {
+          "id": "b",
+          "text": "trouvera"
+        },
+        {
+          "id": "c",
+          "text": "a trouvé"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Souhaiter que → subjonctif: que chacun trouve."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fingers crossed!",
+      "inputMode": "dropdown",
+      "template": "Pourvu qu'il {{b1}} beau pour la cérémonie !",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "fasse"
+          ],
+          "options": [
+            "fasse",
+            "fait",
+            "fera"
+          ]
+        }
+      ],
+      "explanation": "Pourvu que + subjonctif: pourvu qu'il fasse beau."
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Formal essay register.",
+      "inputMode": "dropdown",
+      "template": "Il serait souhaitable que les écoles {{b1}} davantage.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "coopèrent"
+          ],
+          "options": [
+            "coopèrent",
+            "coopéreront",
+            "ont coopéré"
+          ]
+        }
+      ],
+      "explanation": "Il serait souhaitable que → subjonctif: que les écoles coopèrent."
+    },
+    {
+      "id": "ex-mc-3",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "« Vivement que les vacances arrivent ! » expresses…",
+      "options": [
+        {
+          "id": "a",
+          "text": "Impatience — can't wait for them"
+        },
+        {
+          "id": "b",
+          "text": "Fear of the holidays"
+        },
+        {
+          "id": "c",
+          "text": "Regret that they're over"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Vivement que + subjonctif = eager impatience: roll on the holidays!"
+    },
+    {
+      "id": "ex-fb-3",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Same subject — no « que » needed (one word).",
+      "inputMode": "typed",
+      "template": "Je souhaite {{b1}} un an à l'étranger.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "partir"
+          ]
+        }
+      ],
+      "explanation": "Same subject → infinitive: je souhaite partir."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each mobility word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "un échange",
+          "right": "an exchange"
+        },
+        {
+          "id": "p2",
+          "left": "s'épanouir",
+          "right": "to flourish"
+        },
+        {
+          "id": "p3",
+          "left": "enrichissant",
+          "right": "enriching"
+        },
+        {
+          "id": "p4",
+          "left": "exigeant",
+          "right": "demanding"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"Travelling broadens horizons.\"",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Voyager"
+        },
+        {
+          "id": "t2",
+          "text": "élargit"
+        },
+        {
+          "id": "t3",
+          "text": "les"
+        },
+        {
+          "id": "t4",
+          "text": "horizons"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4"
+      ]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen to the student. What does she say about her exchange?",
+      "audio": "audio/b2.1/unit-08-wishes/listen-1.mp3",
+      "transcript": "Mon séjour d'études à Lisbonne a été une expérience enrichissante ; j'espère que mon frère partira aussi.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Her study stay was enriching, and she hopes her brother will go too"
+        },
+        {
+          "id": "b",
+          "text": "Her stay was disappointing, and she warns her brother against it"
+        },
+        {
+          "id": "c",
+          "text": "She never managed to leave for Lisbon"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "« une expérience enrichissante » + « j'espère que mon frère partira » (indicatif after espérer!)."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read the Erasmus testimonial and answer both questions.",
+      "passageFr": "Avant de partir, je souhaitais simplement que mon niveau d'espagnol s'améliore. Mais mon année à Madrid m'a fait m'épanouir bien au-delà : j'ai élargi mes horizons, appris à vivre seul, rencontré des amis de dix pays. Il serait souhaitable que chaque étudiant ait cette chance — pourvu que les bourses suivent !",
+      "passageEn": "Before leaving, I simply wished for my Spanish to improve. But my year in Madrid made me flourish far beyond that: I broadened my horizons, learned to live alone, met friends from ten countries. It would be desirable for every student to have this chance — provided the grants keep up!",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "What was his only wish BEFORE leaving?",
+          "options": [
+            {
+              "id": "a",
+              "text": "That his Spanish would improve"
+            },
+            {
+              "id": "b",
+              "text": "To meet friends from ten countries"
+            },
+            {
+              "id": "c",
+              "text": "To live alone"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        },
+        {
+          "id": "q2",
+          "prompt": "What concern does « pourvu que les bourses suivent ! » express?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Hoping the grants keep up so everyone can go"
+            },
+            {
+              "id": "b",
+              "text": "Certainty that grants will be cancelled"
+            },
+            {
+              "id": "c",
+              "text": "That grants are useless"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex-mc-4",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Which pair is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Je souhaite qu'il VIENNE. / J'espère qu'il VIENDRA."
+        },
+        {
+          "id": "b",
+          "text": "Je souhaite qu'il VIENDRA. / J'espère qu'il VIENNE."
+        },
+        {
+          "id": "c",
+          "text": "Both verbs take the subjunctive."
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Souhaiter → subjonctif; espérer → indicatif. Same wish, opposite moods — the B2 classic."
+    },
+    {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/b2.1/unit-08-wishes/example-ex-1.mp3",
+      "transcript": "Je souhaite que chacun trouve sa voie.",
+      "options": [
+        {
+          "id": "a",
+          "text": "I wish for everyone to find their path."
+        },
+        {
+          "id": "b",
+          "text": "Let's hope he passes the exam!"
+        },
+        {
+          "id": "c",
+          "text": "I can't wait for the holidays!"
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « souhaiter » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "to wish"
+        },
+        {
+          "id": "b",
+          "text": "a wish"
+        },
+        {
+          "id": "c",
+          "text": "to hope that"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "souhaiter = to wish."
+    },
+    {
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "Fais un {{b1}} !",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "souhait"
+          ]
+        }
+      ],
+      "explanation": "« Fais un souhait ! » — a wish."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "vivement que",
+          "right": "I can't wait for…"
+        },
+        {
+          "id": "p2",
+          "left": "il serait souhaitable que",
+          "right": "it would be desirable that"
+        },
+        {
+          "id": "p3",
+          "left": "un échange universitaire",
+          "right": "a university exchange"
+        },
+        {
+          "id": "p4",
+          "left": "la mobilité étudiante",
+          "right": "student mobility"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “I wish for everyone to find their path.”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Je"
+        },
+        {
+          "id": "t2",
+          "text": "souhaite"
+        },
+        {
+          "id": "t3",
+          "text": "que"
+        },
+        {
+          "id": "t4",
+          "text": "chacun"
+        },
+        {
+          "id": "t5",
+          "text": "trouve"
+        },
+        {
+          "id": "t6",
+          "text": "sa"
+        },
+        {
+          "id": "t7",
+          "text": "voie"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7"
+      ]
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "Je souhaite que chacun trouve sa voie.",
+      "targetEn": "I wish for everyone to find their path.",
+      "audio": "audio/b2.1/unit-08-wishes/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "Vivement que les vacances arrivent !",
+      "targetEn": "I can't wait for the holidays!",
+      "audio": "audio/b2.1/unit-08-wishes/example-ex-3.mp3"
+    }
+  ]
+}

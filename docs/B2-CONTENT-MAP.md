@@ -25,8 +25,8 @@ Status: ✅ built · 🔨 in progress · ⬜ planned
 | 4 | Health, body & opinions | D2 *Privé* | certitude/doute (approfondissement); lexique du corps, de la douleur; donner son avis | ✅ b2.1/unit-04 |
 | 5 | Describing where you live | D3 *Domicile* | la qualification (relatives simples & composées, nom, adjectif); lexique de l'habitat | ✅ b2.1/unit-05 |
 | 6 | The city in debate | D3 *Domicile* | passive & impersonal constructions in argument; débattre des transformations urbaines | ✅ b2.1/unit-06 |
-| 7 | Learning & knowing | D4 *Grandir* | souhait/volonté + modes; savoir vs connaître; objectifs et capacités | ⬜ |
-| 8 | Growing up & looking back | D4 *Grandir* | l'enfance racontée: temps du récit (approfondissement); comparaisons interculturelles | ⬜ |
+| 7 | Learning & knowing | D4 *Grandir* | souhait/volonté + modes; savoir vs connaître; objectifs et capacités | ✅ b2.1/unit-07 |
+| 8 | Growing up & looking back | D4 *Grandir* | l'enfance racontée: temps du récit (approfondissement); comparaisons interculturelles | ✅ b2.1/unit-08 (souhaits + mobilité Erasmus) |
 | 9 | The world of work | D5 *Professionnel* | expressions temporelles; le contrat et les conditions de travail; pronoms (synthèse) | ⬜ |
 | 10 | Workplace rights & negotiation | D5 *Professionnel* | les adjectifs et expressions de la négociation; revendiquer, argumenter au travail | ⬜ |
 

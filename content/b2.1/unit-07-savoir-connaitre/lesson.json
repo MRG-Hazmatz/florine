@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "b2.1/unit-07-savoir-connaitre",
+  "level": "b2.1",
+  "unitNumber": 7,
+  "slug": "unit-07-savoir-connaitre",
+  "title": "Knowing & Being Good At",
+  "titleFr": "Connaissances et savoirs",
+  "cefrDescriptors": [
+    "Can distinguish savoir, connaître, ignorer and their B2 cousins precisely.",
+    "Can describe talents and aptitudes with idiomatic expressions."
+  ],
+  "skills": ["reading", "listening", "writing", "speaking"],
+  "estimatedMinutes": 60,
+  "concept": "Dossier 4 is Grandir — growing up, school, what we learn and what we're good at. French splits 'to know' in two, and B2 adds a whole family around them.\n\nSAVOIR vs CONNAÎTRE — the rule, sharpened:\n  • savoir + infinitive = a skill: Je sais conduire. · savoir + clause = a fact: Je sais qu'il vient. · Je sais où c'est.\n  • connaître + NOUN = familiarity: Je connais cette route, ce quartier, son œuvre.\n  Never « connaître que » — facts belong to savoir.\n\nThe B2 family portrait:\n  • ignorer = NOT to know (the faux ami!): J'ignore à quelle heure commence la conférence.\n  • être au courant de = to be in the know: Tu es au courant de la réforme ?\n  • être informé de (formal) · être conscient de = to be aware of · méconnaître = to misjudge/underestimate\n\nLES CAPACITÉS — how the French talk about talent (the school-report lexicon):\n  • être doué en maths / pour les langues (gifted)\n  • avoir la bosse des maths (a head for figures — literally 'the maths bump'!)\n  • avoir l'oreille musicale · être habile de ses mains (good with one's hands)\n  • avoir des facilités en langues · avoir le sens du rythme · avoir de la mémoire\n  • la capacité de se concentrer · des aptitudes, des dispositions\n\nPut it together like a school report: « Léa sait déjà lire des partitions — elle a l'oreille musicale et des facilités en langues. Elle ignore encore ses points forts : elle méconnaît sa propre créativité, mais nous sommes conscients de son potentiel. »\n\nYour turn: three lines about yourself — one savoir (skill), one connaître (familiarity), one talent idiom (doué en…, la bosse de…, habile de…).",
+  "vocabulary": [
+    { "id": "savoir", "fr": "savoir", "en": "to know (facts, skills)", "pos": "verb", "exampleFr": "Je sais conduire une moto.", "exampleEn": "I know how to ride a motorbike.", "audio": "audio/b2.1/unit-07-savoir-connaitre/vocab-savoir.mp3", "voice": "denise" },
+    { "id": "connaitre", "fr": "connaître", "en": "to know (be familiar with)", "pos": "verb", "exampleFr": "Je connais bien ce quartier.", "exampleEn": "I know this neighbourhood well.", "audio": "audio/b2.1/unit-07-savoir-connaitre/vocab-connaitre.mp3", "voice": "henri" },
+    { "id": "ignorer", "fr": "ignorer", "en": "to not know (faux ami!)", "pos": "verb", "exampleFr": "J'ignore son adresse.", "exampleEn": "I don't know his address.", "audio": "audio/b2.1/unit-07-savoir-connaitre/vocab-ignorer.mp3", "voice": "denise" },
+    { "id": "au-courant", "fr": "être au courant de", "en": "to be in the know about", "pos": "expression", "exampleFr": "Tu es au courant de la nouvelle ?", "exampleEn": "Have you heard the news?", "audio": "audio/b2.1/unit-07-savoir-connaitre/vocab-au-courant.mp3", "voice": "henri" },
+    { "id": "conscient", "fr": "être conscient de", "en": "to be aware of", "pos": "expression", "exampleFr": "Elle est consciente du problème.", "exampleEn": "She is aware of the problem.", "audio": "audio/b2.1/unit-07-savoir-connaitre/vocab-conscient.mp3", "voice": "denise" },
+    { "id": "meconnaitre", "fr": "méconnaître", "en": "to misjudge / fail to appreciate", "pos": "verb", "exampleFr": "Il méconnaît son propre talent.", "exampleEn": "He fails to appreciate his own talent.", "audio": "audio/b2.1/unit-07-savoir-connaitre/vocab-meconnaitre.mp3", "voice": "henri" },
+    { "id": "doue", "fr": "doué(e) en / pour", "en": "gifted at", "pos": "adjective", "exampleFr": "Elle est douée pour les langues.", "exampleEn": "She is gifted at languages.", "audio": "audio/b2.1/unit-07-savoir-connaitre/vocab-doue.mp3", "voice": "denise" },
+    { "id": "bosse", "fr": "avoir la bosse des maths", "en": "to have a head for figures", "pos": "expression", "exampleFr": "Mon frère a la bosse des maths.", "exampleEn": "My brother has a head for figures.", "audio": "audio/b2.1/unit-07-savoir-connaitre/vocab-bosse.mp3", "voice": "henri" },
+    { "id": "oreille", "fr": "avoir l'oreille musicale", "en": "to have a musical ear", "pos": "expression", "exampleFr": "Elle a l'oreille musicale.", "exampleEn": "She has a musical ear.", "audio": "audio/b2.1/unit-07-savoir-connaitre/vocab-oreille.mp3", "voice": "denise" },
+    { "id": "habile", "fr": "être habile de ses mains", "en": "to be good with one's hands", "pos": "expression", "exampleFr": "Le menuisier est habile de ses mains.", "exampleEn": "The carpenter is good with his hands.", "audio": "audio/b2.1/unit-07-savoir-connaitre/vocab-habile.mp3", "voice": "henri" },
+    { "id": "facilites", "fr": "avoir des facilités en", "en": "to find (a subject) easy", "pos": "expression", "exampleFr": "Elle a des facilités en langues.", "exampleEn": "Languages come easily to her.", "audio": "audio/b2.1/unit-07-savoir-connaitre/vocab-facilites.mp3", "voice": "denise" },
+    { "id": "memoire", "fr": "avoir de la mémoire", "en": "to have a good memory", "pos": "expression", "exampleFr": "Il a une mémoire d'éléphant.", "exampleEn": "He has a memory like an elephant.", "audio": "audio/b2.1/unit-07-savoir-connaitre/vocab-memoire.mp3", "voice": "henri" },
+    { "id": "se-concentrer", "fr": "se concentrer", "en": "to concentrate", "pos": "verb", "exampleFr": "J'ai du mal à me concentrer ici.", "exampleEn": "I find it hard to concentrate here.", "audio": "audio/b2.1/unit-07-savoir-connaitre/vocab-se-concentrer.mp3", "voice": "denise" },
+    { "id": "aptitude", "fr": "une aptitude", "en": "an aptitude", "pos": "noun", "exampleFr": "Ce test mesure vos aptitudes.", "exampleEn": "This test measures your aptitudes.", "audio": "audio/b2.1/unit-07-savoir-connaitre/vocab-aptitude.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "Je sais conduire, mais je ne connais pas cette route.", "en": "I know how to drive, but I don't know this road.", "audio": "audio/b2.1/unit-07-savoir-connaitre/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "Tu es au courant de la réforme du lycée ?", "en": "Have you heard about the high-school reform?", "audio": "audio/b2.1/unit-07-savoir-connaitre/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "J'ignore à quelle heure commence la conférence.", "en": "I don't know what time the lecture starts.", "audio": "audio/b2.1/unit-07-savoir-connaitre/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "Elle est douée pour les langues et a une excellente mémoire.", "en": "She is gifted at languages and has an excellent memory.", "audio": "audio/b2.1/unit-07-savoir-connaitre/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "Il a la bosse des maths, comme son père.", "en": "He has a head for figures, like his father.", "audio": "audio/b2.1/unit-07-savoir-connaitre/example-ex-5.mp3", "voice": "denise" },
+    { "id": "ex-6", "fr": "Elle méconnaît sa propre créativité.", "en": "She underestimates her own creativity.", "audio": "audio/b2.1/unit-07-savoir-connaitre/example-ex-6.mp3", "voice": "henri" }
+  ]
+}

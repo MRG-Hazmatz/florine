@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "b2.1/unit-08-wishes",
+  "level": "b2.1",
+  "unitNumber": 8,
+  "slug": "unit-08-wishes",
+  "title": "Wishes for the Future",
+  "titleFr": "Exprimer des souhaits",
+  "cefrDescriptors": [
+    "Can express wishes and hopes with the right mood for each expression.",
+    "Can talk about studying abroad and educational change."
+  ],
+  "skills": ["reading", "listening", "writing", "speaking"],
+  "estimatedMinutes": 60,
+  "concept": "Closing Dossier 4: what we wish for school, for our children, for ourselves — and the Erasmus dream of studying abroad. French wish-grammar has one golden trap at its centre.\n\nTHE WISH FAMILY → SUBJONCTIF:\n  • souhaiter que: Je souhaite que chacun trouve sa voie.\n  • aimer (conditionnel) que: J'aimerais que l'école s'adapte à chaque élève.\n  • il serait souhaitable que (formal, for essays!): Il serait souhaitable que les universités coopèrent davantage.\n  • pourvu que — fingers crossed: Pourvu qu'il soit reçu à l'examen !\n  • vivement que — can't wait: Vivement que les vacances arrivent !\n\nTHE GOLDEN TRAP → ESPÉRER takes the INDICATIF:\n  J'espère que tu RÉUSSIRAS. (never « que tu réussisses »)\n  Logic: hoping treats the outcome as real-and-coming; wishing keeps it virtual. Same meaning territory, opposite grammar — examiners adore this one.\n\nSame-subject shortcut, as always: Je souhaite PARTIR un an à l'étranger. (infinitive, no que)\n\nTHE MOBILITY KIT — the Erasmus lexicon: un échange universitaire, partir en échange, la mobilité étudiante, un séjour d'études, élargir ses horizons (to broaden one's horizons), une expérience enrichissante, s'épanouir (to flourish), exigeant (demanding), une réforme, un système éducatif.\n\nPut it together like an Erasmus testimonial: « Je souhaitais que mon année à Lisbonne me change — pourvu que tout le monde ait cette chance un jour ! J'espère que mon petit frère partira aussi : une telle expérience vous fait vous épanouir. Vivement qu'il ait dix-huit ans ! »\n\nYour turn: three wishes — one souhaiter que + subjonctif, one espérer que + indicatif (mind the trap!), one pourvu que.",
+  "vocabulary": [
+    { "id": "souhaiter", "fr": "souhaiter", "en": "to wish", "pos": "verb", "exampleFr": "Je souhaite que tout aille bien.", "exampleEn": "I wish everything to go well.", "audio": "audio/b2.1/unit-08-wishes/vocab-souhaiter.mp3", "voice": "denise" },
+    { "id": "souhait", "fr": "un souhait", "en": "a wish", "pos": "noun", "exampleFr": "Fais un souhait !", "exampleEn": "Make a wish!", "audio": "audio/b2.1/unit-08-wishes/vocab-souhait.mp3", "voice": "henri" },
+    { "id": "esperer", "fr": "espérer que (+ indicatif !)", "en": "to hope that", "pos": "verb", "exampleFr": "J'espère que tu viendras.", "exampleEn": "I hope you'll come.", "audio": "audio/b2.1/unit-08-wishes/vocab-esperer.mp3", "voice": "denise" },
+    { "id": "pourvu-que", "fr": "pourvu que", "en": "let's hope that (fingers crossed)", "pos": "conjunction", "exampleFr": "Pourvu qu'il fasse beau !", "exampleEn": "Let's hope the weather's good!", "audio": "audio/b2.1/unit-08-wishes/vocab-pourvu-que.mp3", "voice": "henri" },
+    { "id": "vivement-que", "fr": "vivement que", "en": "I can't wait for…", "pos": "expression", "exampleFr": "Vivement que ce soit fini !", "exampleEn": "I can't wait for this to be over!", "audio": "audio/b2.1/unit-08-wishes/vocab-vivement-que.mp3", "voice": "denise" },
+    { "id": "souhaitable", "fr": "il serait souhaitable que", "en": "it would be desirable that (formal)", "pos": "expression", "exampleFr": "Il serait souhaitable que chacun participe.", "exampleEn": "It would be desirable for everyone to take part.", "audio": "audio/b2.1/unit-08-wishes/vocab-souhaitable.mp3", "voice": "henri" },
+    { "id": "echange", "fr": "un échange universitaire", "en": "a university exchange", "pos": "noun", "exampleFr": "Elle part en échange à Madrid.", "exampleEn": "She's going on exchange to Madrid.", "audio": "audio/b2.1/unit-08-wishes/vocab-echange.mp3", "voice": "denise" },
+    { "id": "mobilite", "fr": "la mobilité étudiante", "en": "student mobility", "pos": "noun", "exampleFr": "L'Europe encourage la mobilité étudiante.", "exampleEn": "Europe encourages student mobility.", "audio": "audio/b2.1/unit-08-wishes/vocab-mobilite.mp3", "voice": "henri" },
+    { "id": "sejour-etudes", "fr": "un séjour d'études", "en": "a study stay", "pos": "noun", "exampleFr": "Un séjour d'études de six mois.", "exampleEn": "A six-month study stay.", "audio": "audio/b2.1/unit-08-wishes/vocab-sejour-etudes.mp3", "voice": "denise" },
+    { "id": "horizons", "fr": "élargir ses horizons", "en": "to broaden one's horizons", "pos": "expression", "exampleFr": "Voyager élargit les horizons.", "exampleEn": "Travelling broadens horizons.", "audio": "audio/b2.1/unit-08-wishes/vocab-horizons.mp3", "voice": "henri" },
+    { "id": "enrichissant", "fr": "enrichissant(e)", "en": "enriching / rewarding", "pos": "adjective", "exampleFr": "C'était une expérience enrichissante.", "exampleEn": "It was an enriching experience.", "audio": "audio/b2.1/unit-08-wishes/vocab-enrichissant.mp3", "voice": "denise" },
+    { "id": "s-epanouir", "fr": "s'épanouir", "en": "to flourish / blossom", "pos": "verb", "exampleFr": "Elle s'épanouit dans ses études.", "exampleEn": "She is flourishing in her studies.", "audio": "audio/b2.1/unit-08-wishes/vocab-s-epanouir.mp3", "voice": "henri" },
+    { "id": "exigeant", "fr": "exigeant(e)", "en": "demanding", "pos": "adjective", "exampleFr": "Ce professeur est exigeant mais juste.", "exampleEn": "This teacher is demanding but fair.", "audio": "audio/b2.1/unit-08-wishes/vocab-exigeant.mp3", "voice": "denise" },
+    { "id": "reforme", "fr": "une réforme", "en": "a reform", "pos": "noun", "exampleFr": "Une réforme du système éducatif.", "exampleEn": "A reform of the education system.", "audio": "audio/b2.1/unit-08-wishes/vocab-reforme.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "Je souhaite que chacun trouve sa voie.", "en": "I wish for everyone to find their path.", "audio": "audio/b2.1/unit-08-wishes/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "Pourvu qu'il soit reçu à l'examen !", "en": "Let's hope he passes the exam!", "audio": "audio/b2.1/unit-08-wishes/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "Vivement que les vacances arrivent !", "en": "I can't wait for the holidays!", "audio": "audio/b2.1/unit-08-wishes/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "J'espère que tu réussiras ton année à l'étranger.", "en": "I hope you'll make a success of your year abroad.", "audio": "audio/b2.1/unit-08-wishes/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "Il serait souhaitable que les universités coopèrent davantage.", "en": "It would be desirable for universities to cooperate more.", "audio": "audio/b2.1/unit-08-wishes/example-ex-5.mp3", "voice": "denise" },
+    { "id": "ex-6", "fr": "Son échange à Lisbonne a été une expérience enrichissante.", "en": "Her exchange in Lisbon was an enriching experience.", "audio": "audio/b2.1/unit-08-wishes/example-ex-6.mp3", "voice": "henri" }
+  ]
+}
