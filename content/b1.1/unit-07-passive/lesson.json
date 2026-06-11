@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "b1.1/unit-07-passive",
+  "level": "b1.1",
+  "unitNumber": 7,
+  "slug": "unit-07-passive",
+  "title": "News & the Passive",
+  "titleFr": "La forme passive et les titres de presse",
+  "cefrDescriptors": [
+    "Can understand the main points of news articles and headlines.",
+    "Can use the passive voice to report events, choosing the right agent preposition.",
+    "Can turn verbs into nouns to write headline-style phrases."
+  ],
+  "skills": ["reading", "listening", "writing", "speaking"],
+  "estimatedMinutes": 55,
+  "concept": "Dossier 4 opens the newspaper. News French has two signature tools: the passive voice (the event matters more than who did it) and the noun-style headline.\n\nLA FORME PASSIVE — the subject undergoes the action:\n  Formation: être (conjugated) + participe passé — the tense lives on être, and the participle agrees with the subject:\n  • La police a arrêté le voleur. → Le voleur a été arrêté.\n  • On construira un musée. → Un musée sera construit.\n  • La tour Eiffel a été construite en 1889. (construite agrees with la tour)\n\nThe agent (the doer) is mentioned only when it matters, introduced by:\n  • par — most verbs: Le voleur a été arrêté par la police.\n  • de — verbs of feeling/state (être connu, aimé, apprécié, entouré, rempli…): Ce chanteur est connu de tous.\nFrench also loves the pronominal passive for general truths (no agent, rarely with people): Ce produit se vend partout. · Le vin blanc se boit frais.\n\nLA PHRASE NOMINALE — headlines compress a sentence into a noun phrase, la nominalisation:\n  • from a verb: L'usine a fermé. → Fermeture de l'usine.\n  • from an adjective: Les électeurs sont inquiets. → Inquiétude des électeurs.\n  Gender shortcuts: -tion and -ure nouns are feminine (la création, la fermeture); -age and -ment nouns are masculine (le blocage, le changement).\n\nThe press kit: la une (the front page), un titre (a headline), une rubrique (a section: société, faits divers, sport…), un quotidien (a daily), un fait divers (a minor news story).\n\nPut it together like a journalist: « Ouverture d'un nouveau musée : le bâtiment a été construit en deux ans et sera inauguré samedi par la ministre. »\n\nYour turn: take one event from your week and write it twice — once as a full passive sentence, once compressed into a two-or-three-word headline.",
+  "vocabulary": [
+    { "id": "titre", "fr": "un titre", "en": "a headline / title", "pos": "noun", "exampleFr": "Le titre annonce la nouvelle.", "exampleEn": "The headline announces the news.", "audio": "audio/b1.1/unit-07-passive/vocab-titre.mp3", "voice": "denise" },
+    { "id": "une", "fr": "la une", "en": "the front page", "pos": "noun", "exampleFr": "La photo est à la une.", "exampleEn": "The photo is on the front page.", "audio": "audio/b1.1/unit-07-passive/vocab-une.mp3", "voice": "henri" },
+    { "id": "rubrique", "fr": "une rubrique", "en": "a (news) section", "pos": "noun", "exampleFr": "Je lis la rubrique sport.", "exampleEn": "I read the sports section.", "audio": "audio/b1.1/unit-07-passive/vocab-rubrique.mp3", "voice": "denise" },
+    { "id": "fait-divers", "fr": "un fait divers", "en": "a minor news story", "pos": "noun", "exampleFr": "Ce fait divers est étonnant.", "exampleEn": "This little news story is surprising.", "audio": "audio/b1.1/unit-07-passive/vocab-fait-divers.mp3", "voice": "henri" },
+    { "id": "quotidien", "fr": "un quotidien", "en": "a daily (newspaper)", "pos": "noun", "exampleFr": "Ce quotidien paraît le matin.", "exampleEn": "This daily comes out in the morning.", "audio": "audio/b1.1/unit-07-passive/vocab-quotidien.mp3", "voice": "denise" },
+    { "id": "evenement", "fr": "un événement", "en": "an event", "pos": "noun", "exampleFr": "C'est l'événement de l'année.", "exampleEn": "It's the event of the year.", "audio": "audio/b1.1/unit-07-passive/vocab-evenement.mp3", "voice": "henri" },
+    { "id": "se-derouler", "fr": "se dérouler", "en": "to take place", "pos": "verb", "exampleFr": "Le festival se déroule en mai.", "exampleEn": "The festival takes place in May.", "audio": "audio/b1.1/unit-07-passive/vocab-se-derouler.mp3", "voice": "denise" },
+    { "id": "temoin", "fr": "un témoin", "en": "a witness", "pos": "noun", "exampleFr": "Le témoin raconte la scène.", "exampleEn": "The witness describes the scene.", "audio": "audio/b1.1/unit-07-passive/vocab-temoin.mp3", "voice": "henri" },
+    { "id": "annoncer", "fr": "annoncer", "en": "to announce", "pos": "verb", "exampleFr": "On annonce une grande nouvelle.", "exampleEn": "Big news is being announced.", "audio": "audio/b1.1/unit-07-passive/vocab-annoncer.mp3", "voice": "denise" },
+    { "id": "construire", "fr": "construire", "en": "to build", "pos": "verb", "exampleFr": "On construit un pont ici.", "exampleEn": "A bridge is being built here.", "audio": "audio/b1.1/unit-07-passive/vocab-construire.mp3", "voice": "henri" },
+    { "id": "detruire", "fr": "détruire", "en": "to destroy", "pos": "verb", "exampleFr": "L'orage a détruit le toit.", "exampleEn": "The storm destroyed the roof.", "audio": "audio/b1.1/unit-07-passive/vocab-detruire.mp3", "voice": "denise" },
+    { "id": "fermeture", "fr": "la fermeture", "en": "closure / closing", "pos": "noun", "exampleFr": "La fermeture du magasin est annoncée.", "exampleEn": "The store's closure is announced.", "audio": "audio/b1.1/unit-07-passive/vocab-fermeture.mp3", "voice": "henri" },
+    { "id": "ouverture", "fr": "l'ouverture (f.)", "en": "opening", "pos": "noun", "exampleFr": "L'ouverture aura lieu samedi.", "exampleEn": "The opening will take place on Saturday.", "audio": "audio/b1.1/unit-07-passive/vocab-ouverture.mp3", "voice": "denise" },
+    { "id": "creation", "fr": "la création", "en": "creation (of jobs, works…)", "pos": "noun", "exampleFr": "On annonce la création de cent emplois.", "exampleEn": "The creation of a hundred jobs is announced.", "audio": "audio/b1.1/unit-07-passive/vocab-creation.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "Le voleur a été arrêté par la police.", "en": "The thief was arrested by the police.", "audio": "audio/b1.1/unit-07-passive/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "Ce chanteur est connu de tous les Français.", "en": "This singer is known to all French people.", "audio": "audio/b1.1/unit-07-passive/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "Un nouveau musée sera construit en 2027.", "en": "A new museum will be built in 2027.", "audio": "audio/b1.1/unit-07-passive/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "La tour Eiffel a été construite en 1889.", "en": "The Eiffel Tower was built in 1889.", "audio": "audio/b1.1/unit-07-passive/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "Fermeture de l'usine : deux cents emplois supprimés.", "en": "Factory closure: two hundred jobs cut.", "audio": "audio/b1.1/unit-07-passive/example-ex-5.mp3", "voice": "denise" },
+    { "id": "ex-6", "fr": "Ce produit se vend partout en France.", "en": "This product sells everywhere in France.", "audio": "audio/b1.1/unit-07-passive/example-ex-6.mp3", "voice": "henri" }
+  ]
+}

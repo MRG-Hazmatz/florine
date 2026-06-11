@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "b1.1/unit-08-cause-consequence",
+  "level": "b1.1",
+  "unitNumber": 8,
+  "slug": "unit-08-cause-consequence",
+  "title": "Cause & Consequence",
+  "titleFr": "Exprimer la cause et la conséquence",
+  "cefrDescriptors": [
+    "Can explain why something happened, choosing the connector that fits the structure and the nuance.",
+    "Can express a consequence, including with intensity structures (si… que, tellement… que)."
+  ],
+  "skills": ["reading", "listening", "writing", "speaking"],
+  "estimatedMinutes": 55,
+  "concept": "Still in the newspaper — and every news story answers two questions: why did it happen (la cause) and what did it lead to (la conséquence). B1 is where you stop saying parce que for everything.\n\nLA CAUSE — each connector has its own grammar AND its own nuance:\n  • parce que + clause — the all-purpose 'because' (answers a question)\n  • comme + clause — cause known first, ALWAYS opens the sentence: Comme il pleuvait, le match a été annulé.\n  • puisque + clause — a cause both speakers already know: Puisque tu es là, aide-moi !\n  • étant donné que + clause — formal, 'given that'\n  • à cause de + NOUN — negative cause: à cause de la neige\n  • grâce à + NOUN — positive cause only: grâce à ton aide\n  • en raison de + NOUN — neutral, formal (signs, news): en raison d'un accident\n\nLA CONSÉQUENCE — from cause to result:\n  • linking words: donc, alors, c'est pourquoi, par conséquent (formal), du coup (spoken)\n  • intensity + que: si + adjective/adverb + que → Il roulait si lentement qu'un bouchon s'est formé.\n  • tellement de + noun + que → Il y avait tellement de monde que nous sommes partis.\n  • verb + tellement que → Il pleut tellement que la route est inondée.\n  • au point de + infinitive → Il utilise son téléphone au point d'avoir mal au pouce.\n  • verbs that carry the link: provoquer, entraîner, causer → L'accident a provoqué un embouteillage.\n\nTwo traps: grâce à is ONLY for happy causes (✗ grâce à l'accident), and with adjectives it's si…que, not tellement…que first reflex — tellement goes with verbs and nouns.\n\nPut it together like a reporter: « En raison des travaux, la ligne 4 est fermée. Comme les bus étaient pleins, beaucoup de voyageurs ont marché ; du coup, les magasins du quartier ont vu plus de clients. »\n\nYour turn: describe one chain from your week — a cause (comme… or grâce à…) and its consequence (donc / si… que).",
+  "vocabulary": [
+    { "id": "parce-que", "fr": "parce que", "en": "because", "pos": "conjunction", "exampleFr": "Je reste parce que je suis fatigué.", "exampleEn": "I'm staying because I'm tired.", "audio": "audio/b1.1/unit-08-cause-consequence/vocab-parce-que.mp3", "voice": "denise" },
+    { "id": "comme", "fr": "comme", "en": "as / since (sentence-initial)", "pos": "conjunction", "exampleFr": "Comme il pleut, on reste ici.", "exampleEn": "As it's raining, we're staying here.", "audio": "audio/b1.1/unit-08-cause-consequence/vocab-comme.mp3", "voice": "henri" },
+    { "id": "puisque", "fr": "puisque", "en": "since (a known cause)", "pos": "conjunction", "exampleFr": "Puisque tu es là, aide-moi !", "exampleEn": "Since you're here, help me!", "audio": "audio/b1.1/unit-08-cause-consequence/vocab-puisque.mp3", "voice": "denise" },
+    { "id": "etant-donne-que", "fr": "étant donné que", "en": "given that (formal)", "pos": "conjunction", "exampleFr": "Étant donné qu'il est tard, partons.", "exampleEn": "Given that it's late, let's leave.", "audio": "audio/b1.1/unit-08-cause-consequence/vocab-etant-donne-que.mp3", "voice": "henri" },
+    { "id": "a-cause-de", "fr": "à cause de", "en": "because of (negative)", "pos": "preposition", "exampleFr": "On est en retard à cause du trafic.", "exampleEn": "We're late because of the traffic.", "audio": "audio/b1.1/unit-08-cause-consequence/vocab-a-cause-de.mp3", "voice": "denise" },
+    { "id": "grace-a", "fr": "grâce à", "en": "thanks to (positive)", "pos": "preposition", "exampleFr": "J'ai réussi grâce à toi.", "exampleEn": "I succeeded thanks to you.", "audio": "audio/b1.1/unit-08-cause-consequence/vocab-grace-a.mp3", "voice": "henri" },
+    { "id": "en-raison-de", "fr": "en raison de", "en": "due to (formal, neutral)", "pos": "preposition", "exampleFr": "Le vol est annulé en raison du vent.", "exampleEn": "The flight is cancelled due to the wind.", "audio": "audio/b1.1/unit-08-cause-consequence/vocab-en-raison-de.mp3", "voice": "denise" },
+    { "id": "donc", "fr": "donc", "en": "so / therefore", "pos": "adverb", "exampleFr": "Je pense, donc je suis.", "exampleEn": "I think, therefore I am.", "audio": "audio/b1.1/unit-08-cause-consequence/vocab-donc.mp3", "voice": "henri" },
+    { "id": "c-est-pourquoi", "fr": "c'est pourquoi", "en": "that's why", "pos": "adverb", "exampleFr": "Il neige ; c'est pourquoi je reste.", "exampleEn": "It's snowing; that's why I'm staying.", "audio": "audio/b1.1/unit-08-cause-consequence/vocab-c-est-pourquoi.mp3", "voice": "denise" },
+    { "id": "par-consequent", "fr": "par conséquent", "en": "consequently (formal)", "pos": "adverb", "exampleFr": "La route est fermée ; par conséquent, prenez le métro.", "exampleEn": "The road is closed; consequently, take the metro.", "audio": "audio/b1.1/unit-08-cause-consequence/vocab-par-consequent.mp3", "voice": "henri" },
+    { "id": "du-coup", "fr": "du coup", "en": "as a result (spoken)", "pos": "adverb", "exampleFr": "Il pleuvait, du coup on est rentrés.", "exampleEn": "It was raining, so we went home.", "audio": "audio/b1.1/unit-08-cause-consequence/vocab-du-coup.mp3", "voice": "denise" },
+    { "id": "provoquer", "fr": "provoquer", "en": "to cause / trigger", "pos": "verb", "exampleFr": "L'orage a provoqué une panne.", "exampleEn": "The storm caused a power cut.", "audio": "audio/b1.1/unit-08-cause-consequence/vocab-provoquer.mp3", "voice": "henri" },
+    { "id": "entrainer", "fr": "entraîner", "en": "to lead to", "pos": "verb", "exampleFr": "La grève entraîne des retards.", "exampleEn": "The strike is leading to delays.", "audio": "audio/b1.1/unit-08-cause-consequence/vocab-entrainer.mp3", "voice": "denise" },
+    { "id": "bouchon", "fr": "un bouchon", "en": "a traffic jam", "pos": "noun", "exampleFr": "Il y a un bouchon sur l'autoroute.", "exampleEn": "There's a traffic jam on the highway.", "audio": "audio/b1.1/unit-08-cause-consequence/vocab-bouchon.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "Comme il pleuvait, le match a été annulé.", "en": "As it was raining, the match was cancelled.", "audio": "audio/b1.1/unit-08-cause-consequence/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "L'autoroute est bloquée en raison d'un accident.", "en": "The highway is blocked due to an accident.", "audio": "audio/b1.1/unit-08-cause-consequence/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "Grâce à ses efforts, elle a réussi son concours.", "en": "Thanks to her efforts, she passed her entrance exam.", "audio": "audio/b1.1/unit-08-cause-consequence/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "Il roulait si lentement qu'un bouchon s'est formé.", "en": "He was driving so slowly that a traffic jam formed.", "audio": "audio/b1.1/unit-08-cause-consequence/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "Il y avait tellement de monde que nous sommes partis.", "en": "There were so many people that we left.", "audio": "audio/b1.1/unit-08-cause-consequence/example-ex-5.mp3", "voice": "denise" },
+    { "id": "ex-6", "fr": "Je n'avais plus d'argent, du coup je suis rentré.", "en": "I had no money left, so I went home.", "audio": "audio/b1.1/unit-08-cause-consequence/example-ex-6.mp3", "voice": "henri" }
+  ]
+}

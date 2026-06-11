@@ -1,0 +1,471 @@
+{
+  "schemaVersion": 1,
+  "unitId": "b1.1/unit-07-passive",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Turn into the passive: « La police a arrêté le voleur. »",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le voleur a été arrêté par la police."
+        },
+        {
+          "id": "b",
+          "text": "Le voleur est arrêté par la police."
+        },
+        {
+          "id": "c",
+          "text": "Le voleur avait arrêté la police."
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Passé composé active → passé composé passive: a arrêté → a été arrêté. The tense stays, carried by être."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "« Un nouveau stade sera construit. » — what tense is this passive in?",
+      "options": [
+        {
+          "id": "a",
+          "text": "futur simple"
+        },
+        {
+          "id": "b",
+          "text": "passé composé"
+        },
+        {
+          "id": "c",
+          "text": "présent"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "The tense of a passive lives on être: sera = futur simple → 'will be built'."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Make the participle agree.",
+      "inputMode": "dropdown",
+      "template": "La tour Eiffel a été {{b1}} en 1889.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "construite"
+          ],
+          "options": [
+            "construite",
+            "construit",
+            "construits"
+          ]
+        }
+      ],
+      "explanation": "In the passive the participle agrees with the subject: la tour (feminine singular) → construite."
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Par or de? Choose the agent preposition.",
+      "inputMode": "dropdown",
+      "template": "Cette chanteuse est connue {{b1}} tous les Français.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "de"
+          ],
+          "options": [
+            "de",
+            "par"
+          ]
+        }
+      ],
+      "explanation": "Verbs of feeling/state (être connu, aimé, apprécié, entouré…) introduce the agent with de."
+    },
+    {
+      "id": "ex-mc-3",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Headline style! « L'usine a fermé. » becomes:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Fermeture de l'usine"
+        },
+        {
+          "id": "b",
+          "text": "Fermer l'usine"
+        },
+        {
+          "id": "c",
+          "text": "L'usine fermée"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "La nominalisation: the verb fermer becomes the noun la fermeture — that's how headlines compress events."
+    },
+    {
+      "id": "ex-mc-4",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Gender shortcut: nouns ending in -tion and -ure (création, fermeture) are…",
+      "options": [
+        {
+          "id": "a",
+          "text": "feminine"
+        },
+        {
+          "id": "b",
+          "text": "masculine"
+        },
+        {
+          "id": "c",
+          "text": "either, at random"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "-tion and -ure → feminine; -age and -ment → masculine (le blocage, le changement)."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each press word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "la une",
+          "right": "the front page"
+        },
+        {
+          "id": "p2",
+          "left": "une rubrique",
+          "right": "a news section"
+        },
+        {
+          "id": "p3",
+          "left": "un fait divers",
+          "right": "a minor news story"
+        },
+        {
+          "id": "p4",
+          "left": "un quotidien",
+          "right": "a daily paper"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"A new museum will be built in 2027.\"",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Un"
+        },
+        {
+          "id": "t2",
+          "text": "nouveau"
+        },
+        {
+          "id": "t3",
+          "text": "musée"
+        },
+        {
+          "id": "t4",
+          "text": "sera"
+        },
+        {
+          "id": "t5",
+          "text": "construit"
+        },
+        {
+          "id": "t6",
+          "text": "en"
+        },
+        {
+          "id": "t7",
+          "text": "2027"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7"
+      ]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen to the radio news flash. What happened?",
+      "audio": "audio/b1.1/unit-07-passive/listen-1.mp3",
+      "transcript": "Deux personnes ont été blessées ce matin dans un accident sur l'autoroute A6.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Two people were injured in a highway accident"
+        },
+        {
+          "id": "b",
+          "text": "Two people caused an accident on purpose"
+        },
+        {
+          "id": "c",
+          "text": "The highway was closed for construction"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "« ont été blessées » — passive: two people WERE injured in the accident."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read the short article and answer both questions.",
+      "passageFr": "OUVERTURE D'UN JARDIN GÉANT — Dimanche, les Champs-Élysées ont été transformés en jardin par des agriculteurs. Des milliers de plantes avaient été installées pendant la nuit. Les fruits et légumes seront donnés à une association à la fin de l'événement.",
+      "passageEn": "GIANT GARDEN OPENS — On Sunday, the Champs-Élysées was transformed into a garden by farmers. Thousands of plants had been set up during the night. The fruit and vegetables will be given to a charity at the end of the event.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "Who transformed the avenue into a garden?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Farmers"
+            },
+            {
+              "id": "b",
+              "text": "A charity"
+            },
+            {
+              "id": "c",
+              "text": "The city government"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        },
+        {
+          "id": "q2",
+          "prompt": "What will happen to the fruit and vegetables?",
+          "options": [
+            {
+              "id": "a",
+              "text": "They will be given to a charity"
+            },
+            {
+              "id": "b",
+              "text": "They will be sold at a market"
+            },
+            {
+              "id": "c",
+              "text": "They will be replanted"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex-fb-3",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Complete the passive in the passé composé (one word).",
+      "inputMode": "typed",
+      "template": "Le match {{b1}} été annulé à cause de la pluie.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "a"
+          ]
+        }
+      ],
+      "explanation": "Passé composé passive = avoir + été + participle: le match a été annulé."
+    },
+    {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/b1.1/unit-07-passive/example-ex-1.mp3",
+      "transcript": "Le voleur a été arrêté par la police.",
+      "options": [
+        {
+          "id": "a",
+          "text": "The thief was arrested by the police."
+        },
+        {
+          "id": "b",
+          "text": "This singer is known to all French people."
+        },
+        {
+          "id": "c",
+          "text": "A new museum will be built in 2027."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « un titre » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "a headline / title"
+        },
+        {
+          "id": "b",
+          "text": "the front page"
+        },
+        {
+          "id": "c",
+          "text": "a section"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "un titre = a headline / title."
+    },
+    {
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "Le {{b1}} annonce la nouvelle.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "titre"
+          ]
+        }
+      ],
+      "explanation": "« Le titre annonce la nouvelle. » — a headline / title."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "un quotidien",
+          "right": "a daily"
+        },
+        {
+          "id": "p2",
+          "left": "un événement",
+          "right": "an event"
+        },
+        {
+          "id": "p3",
+          "left": "se dérouler",
+          "right": "to take place"
+        },
+        {
+          "id": "p4",
+          "left": "un témoin",
+          "right": "a witness"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “This product sells everywhere in France.”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Ce"
+        },
+        {
+          "id": "t2",
+          "text": "produit"
+        },
+        {
+          "id": "t3",
+          "text": "se"
+        },
+        {
+          "id": "t4",
+          "text": "vend"
+        },
+        {
+          "id": "t5",
+          "text": "partout"
+        },
+        {
+          "id": "t6",
+          "text": "en"
+        },
+        {
+          "id": "t7",
+          "text": "France"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7"
+      ]
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "Le voleur a été arrêté par la police.",
+      "targetEn": "The thief was arrested by the police.",
+      "audio": "audio/b1.1/unit-07-passive/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "Un nouveau musée sera construit en 2027.",
+      "targetEn": "A new museum will be built in 2027.",
+      "audio": "audio/b1.1/unit-07-passive/example-ex-3.mp3"
+    }
+  ]
+}

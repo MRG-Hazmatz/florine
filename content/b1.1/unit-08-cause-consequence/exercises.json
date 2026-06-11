@@ -1,0 +1,467 @@
+{
+  "schemaVersion": 1,
+  "unitId": "b1.1/unit-08-cause-consequence",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Complete: « ___ il pleuvait, le match a été annulé. » (cause given first)",
+      "options": [
+        {
+          "id": "a",
+          "text": "Comme"
+        },
+        {
+          "id": "b",
+          "text": "Donc"
+        },
+        {
+          "id": "c",
+          "text": "Pourtant"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Comme introduces a cause and always opens the sentence: Comme il pleuvait, …"
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Negative cause + noun — choose the connector.",
+      "inputMode": "dropdown",
+      "template": "L'école est fermée {{b1}} la neige.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "à cause de"
+          ],
+          "options": [
+            "à cause de",
+            "parce que",
+            "grâce à"
+          ]
+        }
+      ],
+      "explanation": "A noun follows → à cause de (negative cause). Parce que needs a clause; grâce à is for positive causes."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Positive cause: « ___ ton aide, j'ai fini à temps. »",
+      "options": [
+        {
+          "id": "a",
+          "text": "Grâce à"
+        },
+        {
+          "id": "b",
+          "text": "À cause de"
+        },
+        {
+          "id": "c",
+          "text": "Puisque"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "A happy outcome → grâce à. À cause de is negative; puisque needs a clause."
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Intensity before an adverb — si or tellement de?",
+      "inputMode": "dropdown",
+      "template": "Il parle {{b1}} vite qu'on ne comprend rien.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "si"
+          ],
+          "options": [
+            "si",
+            "tellement de",
+            "donc"
+          ]
+        }
+      ],
+      "explanation": "Before an adjective or adverb: si + adverbe + que. (Tellement de goes with nouns.)"
+    },
+    {
+      "id": "ex-mc-3",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Complete: « Il y avait ___ monde que nous sommes partis. »",
+      "options": [
+        {
+          "id": "a",
+          "text": "tellement de"
+        },
+        {
+          "id": "b",
+          "text": "si"
+        },
+        {
+          "id": "c",
+          "text": "très"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Before a noun: tellement de + nom + que — so many people that…"
+    },
+    {
+      "id": "ex-fb-3",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Complete the consequence link (one word).",
+      "inputMode": "typed",
+      "template": "Il a plu toute la nuit ; c'est {{b1}} la route est inondée.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "pourquoi"
+          ]
+        }
+      ],
+      "explanation": "C'est pourquoi = that's why — a consequence connector."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each connector to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "grâce à",
+          "right": "thanks to"
+        },
+        {
+          "id": "p2",
+          "left": "à cause de",
+          "right": "because of"
+        },
+        {
+          "id": "p3",
+          "left": "donc",
+          "right": "therefore"
+        },
+        {
+          "id": "p4",
+          "left": "du coup",
+          "right": "as a result (spoken)"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"Thanks to her efforts, she succeeded.\"",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Grâce à"
+        },
+        {
+          "id": "t2",
+          "text": "ses"
+        },
+        {
+          "id": "t3",
+          "text": "efforts,"
+        },
+        {
+          "id": "t4",
+          "text": "elle"
+        },
+        {
+          "id": "t5",
+          "text": "a"
+        },
+        {
+          "id": "t6",
+          "text": "réussi"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen to the traffic announcement. Why is the road blocked, and what should you do?",
+      "audio": "audio/b1.1/unit-08-cause-consequence/listen-1.mp3",
+      "transcript": "La route est bloquée en raison d'un accident ; par conséquent, prenez le métro.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Blocked due to an accident — take the metro"
+        },
+        {
+          "id": "b",
+          "text": "Blocked due to snow — take the bus"
+        },
+        {
+          "id": "c",
+          "text": "Blocked due to a demonstration — wait an hour"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "« en raison d'un accident » (cause) … « par conséquent, prenez le métro » (consequence)."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read the health article and answer both questions.",
+      "passageFr": "De plus en plus de jeunes ont mal au cou à cause de leur téléphone. Comme ils regardent l'écran pendant des heures, les muscles fatiguent. Certains utilisent tellement leur pouce qu'ils ne peuvent plus écrire pendant des semaines. Les médecins conseillent donc de faire des pauses régulières.",
+      "passageEn": "More and more young people have neck pain because of their phones. As they look at the screen for hours, the muscles tire. Some use their thumb so much that they can't write for weeks. Doctors therefore advise taking regular breaks.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "What is the CAUSE of the neck pain?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Looking at phone screens for hours"
+            },
+            {
+              "id": "b",
+              "text": "Writing for weeks"
+            },
+            {
+              "id": "c",
+              "text": "Taking too many breaks"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        },
+        {
+          "id": "q2",
+          "prompt": "What CONSEQUENCE do doctors draw (« donc »)?",
+          "options": [
+            {
+              "id": "a",
+              "text": "They advise taking regular breaks"
+            },
+            {
+              "id": "b",
+              "text": "They ban phones for teenagers"
+            },
+            {
+              "id": "c",
+              "text": "They prescribe medicine for the thumb"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex-mc-4",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Which sentence uses « grâce à » correctly?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Grâce à son travail, elle a eu son diplôme."
+        },
+        {
+          "id": "b",
+          "text": "Grâce à l'accident, je suis arrivé en retard."
+        },
+        {
+          "id": "c",
+          "text": "Grâce à la grève, le train est annulé."
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Grâce à only introduces a POSITIVE cause. For bad outcomes, use à cause de."
+    },
+    {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/b1.1/unit-08-cause-consequence/example-ex-1.mp3",
+      "transcript": "Comme il pleuvait, le match a été annulé.",
+      "options": [
+        {
+          "id": "a",
+          "text": "As it was raining, the match was cancelled."
+        },
+        {
+          "id": "b",
+          "text": "The highway is blocked due to an accident."
+        },
+        {
+          "id": "c",
+          "text": "Thanks to her efforts, she passed her entrance exam."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « parce que » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "because"
+        },
+        {
+          "id": "b",
+          "text": "as / since"
+        },
+        {
+          "id": "c",
+          "text": "since"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "parce que = because."
+    },
+    {
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "Je pense, {{b1}} je suis.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "donc"
+          ]
+        }
+      ],
+      "explanation": "« Je pense, donc je suis. » — so / therefore."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "à cause de",
+          "right": "because of"
+        },
+        {
+          "id": "p2",
+          "left": "grâce à",
+          "right": "thanks to"
+        },
+        {
+          "id": "p3",
+          "left": "en raison de",
+          "right": "due to"
+        },
+        {
+          "id": "p4",
+          "left": "donc",
+          "right": "so / therefore"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “The highway is blocked due to an accident.”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "L'autoroute"
+        },
+        {
+          "id": "t2",
+          "text": "est"
+        },
+        {
+          "id": "t3",
+          "text": "bloquée"
+        },
+        {
+          "id": "t4",
+          "text": "en"
+        },
+        {
+          "id": "t5",
+          "text": "raison"
+        },
+        {
+          "id": "t6",
+          "text": "d'un"
+        },
+        {
+          "id": "t7",
+          "text": "accident"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7"
+      ]
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "Comme il pleuvait, le match a été annulé.",
+      "targetEn": "As it was raining, the match was cancelled.",
+      "audio": "audio/b1.1/unit-08-cause-consequence/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "Grâce à ses efforts, elle a réussi son concours.",
+      "targetEn": "Thanks to her efforts, she passed her entrance exam.",
+      "audio": "audio/b1.1/unit-08-cause-consequence/example-ex-3.mp3"
+    }
+  ]
+}

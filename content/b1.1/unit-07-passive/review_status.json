@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "unitId": "b1.1/unit-07-passive",
+  "status": "pending_review",
+  "reviewers": [],
+  "approvedAt": null,
+  "sourceRefs": [
+    "DRAFT — built to the unit-03 template (objectif pragmatique + Point Langue grammar + thematic lexicon + DELF-format comprehension), then self-audited before commit. Covers la forme passive (formation, tense on être, participle agreement, agent par/de, pronominal passive) and la phrase nominale (nominalisation + gender rules). Awaiting native-speaker review.",
+    "Progression blueprint: Alter Ego+ 3 (Hachette), Dossier 4 'Je m'informe' (comprendre des titres d'actualité, la phrase nominale; relater un événement, la forme passive; thème: la presse). Content is original; the book is used only for scope/sequence, never copied."
+  ]
+}
