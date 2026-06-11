@@ -1,0 +1,467 @@
+{
+  "schemaVersion": 1,
+  "unitId": "b2.1/unit-04-body-opinions",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Certainty verb — pick the mood: « Vous êtes certains qu'il ___ . »",
+      "options": [
+        {
+          "id": "a",
+          "text": "viendra"
+        },
+        {
+          "id": "b",
+          "text": "vienne"
+        },
+        {
+          "id": "c",
+          "text": "soit venu"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Être certain que = certainty → INDICATIF: qu'il viendra."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Judgment expression — pick the mood: « Je ne comprends pas qu'on ___ mentir. »",
+      "options": [
+        {
+          "id": "a",
+          "text": "puisse"
+        },
+        {
+          "id": "b",
+          "text": "peut"
+        },
+        {
+          "id": "c",
+          "text": "pourra"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Ne pas comprendre que = judgment/incomprehension → SUBJONCTIF: qu'on puisse."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Gratitude takes a mood too.",
+      "inputMode": "dropdown",
+      "template": "Je suis reconnaissante que tu {{b1}} là.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "sois"
+          ],
+          "options": [
+            "sois",
+            "es",
+            "seras"
+          ]
+        }
+      ],
+      "explanation": "Être reconnaissant que (feeling) → subjonctif: que tu sois là."
+    },
+    {
+      "id": "ex-mc-3",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Which reply REFUSES the request?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tu peux toujours courir !"
+        },
+        {
+          "id": "b",
+          "text": "À ta guise."
+        },
+        {
+          "id": "c",
+          "text": "Je te donne carte blanche."
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Tu peux toujours courir ! = spoken, ironic refusal. The other two grant permission."
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "At the doctor's.",
+      "inputMode": "dropdown",
+      "template": "Le médecin m'a fait une {{b1}} pour des antibiotiques.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "ordonnance"
+          ],
+          "options": [
+            "ordonnance",
+            "douleur",
+            "cheville"
+          ]
+        }
+      ],
+      "explanation": "Une ordonnance = a prescription."
+    },
+    {
+      "id": "ex-fb-3",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Where does it hurt? (one word)",
+      "inputMode": "typed",
+      "template": "J'ai {{b1}} au dos depuis trois jours.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "mal"
+          ]
+        }
+      ],
+      "explanation": "Avoir mal à + body part: j'ai mal au dos."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each expression to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "soulager",
+          "right": "to relieve"
+        },
+        {
+          "id": "p2",
+          "left": "guérir",
+          "right": "to recover"
+        },
+        {
+          "id": "p3",
+          "left": "carte blanche",
+          "right": "free rein"
+        },
+        {
+          "id": "p4",
+          "left": "hors de question",
+          "right": "out of the question"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"He sprained his ankle playing football.\"",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Il"
+        },
+        {
+          "id": "t2",
+          "text": "s'est"
+        },
+        {
+          "id": "t3",
+          "text": "foulé"
+        },
+        {
+          "id": "t4",
+          "text": "la"
+        },
+        {
+          "id": "t5",
+          "text": "cheville"
+        },
+        {
+          "id": "t6",
+          "text": "au"
+        },
+        {
+          "id": "t7",
+          "text": "foot"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7"
+      ]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen to the consultation. What does the doctor say?",
+      "audio": "audio/b2.1/unit-04-body-opinions/listen-1.mp3",
+      "transcript": "Je vous prescris un traitement ; je suis certain que ça vous soulagera, mais c'est hors de question de reprendre le sport avant un mois.",
+      "options": [
+        {
+          "id": "a",
+          "text": "The treatment will bring relief, but sport is off-limits for a month"
+        },
+        {
+          "id": "b",
+          "text": "Sport will relieve the pain, starting this week"
+        },
+        {
+          "id": "c",
+          "text": "There is no treatment for this pain"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "« ça vous soulagera » + « hors de question de reprendre le sport avant un mois »."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read the exchange between flatmates and answer both questions.",
+      "passageFr": "LÉA : Je voudrais repeindre le salon en violet. Tu me laisses faire ?\nSAM : Pour les couleurs, je te fais entièrement confiance — carte blanche ! Mais toucher à ma bibliothèque, c'est hors de question.\nLÉA : Et si on déplaçait juste le canapé ?\nSAM : À ta guise. Je n'y tiens pas particulièrement, mais fais comme tu veux.",
+      "passageEn": "LÉA: I'd like to repaint the living room purple. Will you let me?\nSAM: For colours, I trust you completely — free rein! But touching my bookshelf is out of the question.\nLÉA: What if we just moved the sofa?\nSAM: As you wish. I'm not particularly keen, but do as you like.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "What does Sam refuse outright?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Touching his bookshelf"
+            },
+            {
+              "id": "b",
+              "text": "Repainting the living room"
+            },
+            {
+              "id": "c",
+              "text": "Moving the sofa"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        },
+        {
+          "id": "q2",
+          "prompt": "« À ta guise » means…",
+          "options": [
+            {
+              "id": "a",
+              "text": "As you wish"
+            },
+            {
+              "id": "b",
+              "text": "Absolutely not"
+            },
+            {
+              "id": "c",
+              "text": "I insist on it"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex-mc-4",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "The false-friend pair — which sentence is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Je suis sûr que c'est vrai. / C'est dommage que ce soit vrai."
+        },
+        {
+          "id": "b",
+          "text": "Je suis sûr que ce soit vrai. / C'est dommage que c'est vrai."
+        },
+        {
+          "id": "c",
+          "text": "Both take the subjunctive."
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Être sûr que → indicatif (certainty); c'est dommage que → subjonctif (judgment)."
+    },
+    {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/b2.1/unit-04-body-opinions/example-ex-1.mp3",
+      "transcript": "J'ai une douleur aiguë à l'épaule.",
+      "options": [
+        {
+          "id": "a",
+          "text": "I have a sharp pain in my shoulder."
+        },
+        {
+          "id": "b",
+          "text": "This treatment will relieve the pain."
+        },
+        {
+          "id": "c",
+          "text": "I'm giving you free rein to organise the trip."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « avoir mal à » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "to have pain in / hurt"
+        },
+        {
+          "id": "b",
+          "text": "a pain"
+        },
+        {
+          "id": "c",
+          "text": "a symptom"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "avoir mal à = to have pain in / hurt."
+    },
+    {
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "Une {{b1}} aiguë au genou.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "douleur"
+          ]
+        }
+      ],
+      "explanation": "« Une douleur aiguë au genou. » — a pain."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "une ordonnance",
+          "right": "a prescription"
+        },
+        {
+          "id": "p2",
+          "left": "soulager",
+          "right": "to relieve"
+        },
+        {
+          "id": "p3",
+          "left": "guérir",
+          "right": "to heal / recover"
+        },
+        {
+          "id": "p4",
+          "left": "être en pleine forme",
+          "right": "to be in great shape"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “I have a sharp pain in my shoulder.”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "J'ai"
+        },
+        {
+          "id": "t2",
+          "text": "une"
+        },
+        {
+          "id": "t3",
+          "text": "douleur"
+        },
+        {
+          "id": "t4",
+          "text": "aiguë"
+        },
+        {
+          "id": "t5",
+          "text": "à"
+        },
+        {
+          "id": "t6",
+          "text": "l'épaule"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ]
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "J'ai une douleur aiguë à l'épaule.",
+      "targetEn": "I have a sharp pain in my shoulder.",
+      "audio": "audio/b2.1/unit-04-body-opinions/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "Je te donne carte blanche pour organiser le voyage.",
+      "targetEn": "I'm giving you free rein to organise the trip.",
+      "audio": "audio/b2.1/unit-04-body-opinions/example-ex-3.mp3"
+    }
+  ]
+}

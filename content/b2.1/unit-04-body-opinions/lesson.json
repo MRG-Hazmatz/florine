@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "b2.1/unit-04-body-opinions",
+  "level": "b2.1",
+  "unitNumber": 4,
+  "slug": "unit-04-body-opinions",
+  "title": "Body, Health & Giving Your Opinion",
+  "titleFr": "De la tête aux pieds ; donner son avis",
+  "cefrDescriptors": [
+    "Can describe symptoms and health problems precisely.",
+    "Can give, grant and refuse consent with idiomatic B2 expressions.",
+    "Can pick the right mood after opinion and judgment expressions."
+  ],
+  "skills": ["reading", "listening", "writing", "speaking"],
+  "estimatedMinutes": 60,
+  "concept": "Second half of Privé: the body and the will. Describing what hurts, and saying yes, no, or 'do as you please' like a native.\n\nDE LA TÊTE AUX PIEDS — the health consultation kit:\n  • describing pain: avoir mal à (j'ai mal au dos), une douleur (aiguë / sourde — sharp / dull), un symptôme, souffrir de\n  • at the doctor's: décrire ses symptômes, une ordonnance (a prescription), prescrire un traitement\n  • getting better: soulager (to relieve), le soulagement, guérir (to heal/recover), être en pleine forme\n  • small accidents: se blesser, se fouler la cheville (to sprain an ankle)\n\nDONNER SON AVIS, ACCORDER OU REFUSER — the consent spectrum, from yes to never:\n  • full trust: Je te fais entièrement confiance. · Je te donne carte blanche.\n  • easy-going: À ta guise. (as you wish) · Tu es seul juge.\n  • reluctance: Je n'y tiens pas. (I'd rather not)\n  • refusal: C'est hors de question. · (spoken, ironic) Tu peux toujours courir ! (you can whistle for it)\n\nINDICATIF OU SUBJONCTIF ? — the B2 referee call. The trap: it's not the topic, it's the CERTAINTY:\n  • certainty/perception verbs → INDICATIF: Vous êtes certains qu'il VIENDRA. · Je suis persuadé que c'EST vrai.\n  • feeling/judgment expressions → SUBJONCTIF: Je suis reconnaissant que tu SOIS là. · C'est dommage qu'il PARTE. · Nous sommes fiers que tu AIES guéri. · Je ne comprends pas qu'on PUISSE mentir.\n  Watch the false friend: être sûr/certain que (indicatif) vs il est dommage/honteux que (subjonctif) — both look like opinions, but only one doubts.\n\nPut it together at the doctor's: « J'ai une douleur aiguë à l'épaule. — Je vous prescris un traitement ; je suis certain que ça vous SOULAGERA. Mais c'est hors de question de reprendre le sport avant un mois — je suis ravi que vous AYEZ enfin consulté ! »\n\nYour turn: write a two-line dialogue — one symptom with avoir mal / une douleur, one consent or refusal idiom.",
+  "vocabulary": [
+    { "id": "avoir-mal", "fr": "avoir mal à", "en": "to have pain in / hurt", "pos": "verb", "exampleFr": "J'ai mal au dos depuis hier.", "exampleEn": "My back has hurt since yesterday.", "audio": "audio/b2.1/unit-04-body-opinions/vocab-avoir-mal.mp3", "voice": "denise" },
+    { "id": "douleur", "fr": "une douleur", "en": "a pain", "pos": "noun", "exampleFr": "Une douleur aiguë au genou.", "exampleEn": "A sharp pain in the knee.", "audio": "audio/b2.1/unit-04-body-opinions/vocab-douleur.mp3", "voice": "henri" },
+    { "id": "symptome", "fr": "un symptôme", "en": "a symptom", "pos": "noun", "exampleFr": "Décrivez vos symptômes.", "exampleEn": "Describe your symptoms.", "audio": "audio/b2.1/unit-04-body-opinions/vocab-symptome.mp3", "voice": "denise" },
+    { "id": "souffrir", "fr": "souffrir de", "en": "to suffer from", "pos": "verb", "exampleFr": "Il souffre de migraines.", "exampleEn": "He suffers from migraines.", "audio": "audio/b2.1/unit-04-body-opinions/vocab-souffrir.mp3", "voice": "henri" },
+    { "id": "ordonnance", "fr": "une ordonnance", "en": "a prescription", "pos": "noun", "exampleFr": "Le médecin m'a fait une ordonnance.", "exampleEn": "The doctor wrote me a prescription.", "audio": "audio/b2.1/unit-04-body-opinions/vocab-ordonnance.mp3", "voice": "denise" },
+    { "id": "soulager", "fr": "soulager", "en": "to relieve (pain)", "pos": "verb", "exampleFr": "Ce médicament soulage la douleur.", "exampleEn": "This medicine relieves the pain.", "audio": "audio/b2.1/unit-04-body-opinions/vocab-soulager.mp3", "voice": "henri" },
+    { "id": "guerir", "fr": "guérir", "en": "to heal / recover", "pos": "verb", "exampleFr": "Elle a guéri en deux semaines.", "exampleEn": "She recovered in two weeks.", "audio": "audio/b2.1/unit-04-body-opinions/vocab-guerir.mp3", "voice": "denise" },
+    { "id": "pleine-forme", "fr": "être en pleine forme", "en": "to be in great shape", "pos": "expression", "exampleFr": "Après les vacances, je suis en pleine forme.", "exampleEn": "After the holidays, I'm in great shape.", "audio": "audio/b2.1/unit-04-body-opinions/vocab-pleine-forme.mp3", "voice": "henri" },
+    { "id": "se-fouler", "fr": "se fouler la cheville", "en": "to sprain one's ankle", "pos": "verb", "exampleFr": "Il s'est foulé la cheville au foot.", "exampleEn": "He sprained his ankle playing football.", "audio": "audio/b2.1/unit-04-body-opinions/vocab-se-fouler.mp3", "voice": "denise" },
+    { "id": "faire-confiance", "fr": "faire confiance à", "en": "to trust", "pos": "verb", "exampleFr": "Je te fais entièrement confiance.", "exampleEn": "I trust you completely.", "audio": "audio/b2.1/unit-04-body-opinions/vocab-faire-confiance.mp3", "voice": "henri" },
+    { "id": "carte-blanche", "fr": "donner carte blanche", "en": "to give free rein", "pos": "expression", "exampleFr": "On te donne carte blanche pour la fête.", "exampleEn": "You have free rein for the party.", "audio": "audio/b2.1/unit-04-body-opinions/vocab-carte-blanche.mp3", "voice": "denise" },
+    { "id": "a-ta-guise", "fr": "à ta guise", "en": "as you wish", "pos": "expression", "exampleFr": "Reste ou pars, à ta guise.", "exampleEn": "Stay or leave, as you wish.", "audio": "audio/b2.1/unit-04-body-opinions/vocab-a-ta-guise.mp3", "voice": "henri" },
+    { "id": "hors-de-question", "fr": "c'est hors de question", "en": "it's out of the question", "pos": "expression", "exampleFr": "Sortir ce soir ? C'est hors de question.", "exampleEn": "Going out tonight? Out of the question.", "audio": "audio/b2.1/unit-04-body-opinions/vocab-hors-de-question.mp3", "voice": "denise" },
+    { "id": "y-tenir", "fr": "ne pas y tenir", "en": "to not be keen on it", "pos": "expression", "exampleFr": "Invite-le si tu veux, je n'y tiens pas.", "exampleEn": "Invite him if you want; I'm not keen.", "audio": "audio/b2.1/unit-04-body-opinions/vocab-y-tenir.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "J'ai une douleur aiguë à l'épaule.", "en": "I have a sharp pain in my shoulder.", "audio": "audio/b2.1/unit-04-body-opinions/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "Ce traitement soulagera la douleur.", "en": "This treatment will relieve the pain.", "audio": "audio/b2.1/unit-04-body-opinions/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "Je te donne carte blanche pour organiser le voyage.", "en": "I'm giving you free rein to organise the trip.", "audio": "audio/b2.1/unit-04-body-opinions/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "C'est hors de question, je n'y tiens pas du tout !", "en": "It's out of the question — I'm really not keen!", "audio": "audio/b2.1/unit-04-body-opinions/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "Nous sommes fiers que tu aies guéri si vite.", "en": "We're proud that you recovered so quickly.", "audio": "audio/b2.1/unit-04-body-opinions/example-ex-5.mp3", "voice": "denise" },
+    { "id": "ex-6", "fr": "Je suis persuadé que c'est la bonne décision.", "en": "I'm convinced it's the right decision.", "audio": "audio/b2.1/unit-04-body-opinions/example-ex-6.mp3", "voice": "henri" }
+  ]
+}

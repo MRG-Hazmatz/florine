@@ -1,0 +1,481 @@
+{
+  "schemaVersion": 1,
+  "unitId": "b2.1/unit-03-feelings-b2",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Same subject, already happened: « Il est navré ___ votre rendez-vous. »",
+      "options": [
+        {
+          "id": "a",
+          "text": "d'avoir manqué"
+        },
+        {
+          "id": "b",
+          "text": "qu'il ait manqué"
+        },
+        {
+          "id": "c",
+          "text": "de manquer hier"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Same subject + past event → de + infinitif passé: navré d'avoir manqué."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Different subjects, already happened: « Elle est indignée que personne ___ . »",
+      "options": [
+        {
+          "id": "a",
+          "text": "n'ait réagi"
+        },
+        {
+          "id": "b",
+          "text": "n'a réagi"
+        },
+        {
+          "id": "c",
+          "text": "ne réagira"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Different subjects + past event → que + subjonctif passé: que personne n'ait réagi."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Impersonal judgment — choose the mood.",
+      "inputMode": "dropdown",
+      "template": "Il est inadmissible que l'on {{b1}} les gens ainsi.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "traite"
+          ],
+          "options": [
+            "traite",
+            "traitera",
+            "a traité"
+          ]
+        }
+      ],
+      "explanation": "Il est + judgment adjective + que → subjonctif: que l'on traite."
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Spoken disbelief.",
+      "inputMode": "dropdown",
+      "template": "Je n'en reviens pas qu'il {{b1}} déjà parti !",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "soit"
+          ],
+          "options": [
+            "soit",
+            "est",
+            "sera"
+          ]
+        }
+      ],
+      "explanation": "Ne pas en revenir que → subjonctif (here passé: qu'il soit parti)."
+    },
+    {
+      "id": "ex-mc-3",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Which expression is SPOKEN register (fine with friends, not in a formal letter)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "je raffole de"
+        },
+        {
+          "id": "b",
+          "text": "nous déplorons"
+        },
+        {
+          "id": "c",
+          "text": "je suis au regret de"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Raffoler de is conversational; déplorer and être au regret de are formal."
+    },
+    {
+      "id": "ex-mc-4",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "« Elle est atterrée » means she is…",
+      "options": [
+        {
+          "id": "a",
+          "text": "appalled / dismayed"
+        },
+        {
+          "id": "b",
+          "text": "delighted"
+        },
+        {
+          "id": "c",
+          "text": "exhausted"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Atterré(e) = knocked flat by bad news — appalled, dismayed."
+    },
+    {
+      "id": "ex-fb-3",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Past infinitive after a feeling (one word).",
+      "inputMode": "typed",
+      "template": "Je suis fière d'{{b1}} terminé ce projet.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "avoir"
+          ]
+        }
+      ],
+      "explanation": "De + infinitif passé: fière d'avoir terminé."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each feeling expression to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "raffoler de",
+          "right": "to be crazy about"
+        },
+        {
+          "id": "p2",
+          "left": "atterré",
+          "right": "appalled"
+        },
+        {
+          "id": "p3",
+          "left": "navrant",
+          "right": "distressing"
+        },
+        {
+          "id": "p4",
+          "left": "émouvant",
+          "right": "moving"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"I can't get over it!\"",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Je"
+        },
+        {
+          "id": "t2",
+          "text": "n'en"
+        },
+        {
+          "id": "t3",
+          "text": "reviens"
+        },
+        {
+          "id": "t4",
+          "text": "pas"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4"
+      ]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen to the friend venting. How does she feel?",
+      "audio": "audio/b2.1/unit-03-feelings-b2/listen-1.mp3",
+      "transcript": "Je suis atterrée qu'il ait oublié notre anniversaire — lui qui raffole des grandes occasions !",
+      "options": [
+        {
+          "id": "a",
+          "text": "Appalled that he forgot their anniversary — he usually loves big occasions"
+        },
+        {
+          "id": "b",
+          "text": "Thrilled that he organised a big anniversary party"
+        },
+        {
+          "id": "c",
+          "text": "Indifferent — anniversaries bore her"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "atterrée qu'il ait oublié (subjonctif passé) + raffole des grandes occasions — outrage plus irony."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read the two reactions to a play and answer both questions.",
+      "passageFr": "ÉLODIE : « Je suis emballée ! La première partie est émouvante, et je n'en reviens pas que les acteurs aient répété seulement trois semaines. »\nMARC : « Moi, je déplore le choix de la mise en scène. Il est inconcevable qu'on ait coupé la scène finale — c'est navrant. »",
+      "passageEn": "ÉLODIE: \"I'm thrilled! The first half is moving, and I can't get over the fact that the actors only rehearsed for three weeks.\"\nMARC: \"I deplore the staging choices. It's inconceivable that the final scene was cut — it's heartbreaking.\"",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "What can't Élodie get over?",
+          "options": [
+            {
+              "id": "a",
+              "text": "That the actors rehearsed only three weeks"
+            },
+            {
+              "id": "b",
+              "text": "That the play lasted three hours"
+            },
+            {
+              "id": "c",
+              "text": "That the tickets were so expensive"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        },
+        {
+          "id": "q2",
+          "prompt": "What does Marc find inconceivable?",
+          "options": [
+            {
+              "id": "a",
+              "text": "That the final scene was cut"
+            },
+            {
+              "id": "b",
+              "text": "That the actors were amateurs"
+            },
+            {
+              "id": "c",
+              "text": "That the play was moving"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex-mc-5",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Pick the correctly built sentence.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nous sommes fiers que tu aies réussi."
+        },
+        {
+          "id": "b",
+          "text": "Nous sommes fiers que tu as réussi."
+        },
+        {
+          "id": "c",
+          "text": "Nous sommes fiers d'avoir tu réussi."
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Feeling + different subject + past event → que + subjonctif passé: que tu aies réussi."
+    },
+    {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/b2.1/unit-03-feelings-b2/example-ex-1.mp3",
+      "transcript": "Je raffole de la cuisine de ma grand-mère.",
+      "options": [
+        {
+          "id": "a",
+          "text": "I'm crazy about my grandmother's cooking."
+        },
+        {
+          "id": "b",
+          "text": "He is terribly sorry to have missed your appointment."
+        },
+        {
+          "id": "c",
+          "text": "She is outraged that nobody reacted."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « raffoler de » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "to be crazy about"
+        },
+        {
+          "id": "b",
+          "text": "to have a soft spot for"
+        },
+        {
+          "id": "c",
+          "text": "to be thrilled by"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "raffoler de = to be crazy about."
+    },
+    {
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "Ce retard est {{b1}}.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "inadmissible"
+          ]
+        }
+      ],
+      "explanation": "« Ce retard est inadmissible. » — unacceptable."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "navré(e)",
+          "right": "terribly sorry"
+        },
+        {
+          "id": "p2",
+          "left": "atterré(e)",
+          "right": "appalled / dismayed"
+        },
+        {
+          "id": "p3",
+          "left": "ça me répugne",
+          "right": "it disgusts me"
+        },
+        {
+          "id": "p4",
+          "left": "ne pas en revenir",
+          "right": "to not get over it"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “He is terribly sorry to have missed your appointment.”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Il"
+        },
+        {
+          "id": "t2",
+          "text": "est"
+        },
+        {
+          "id": "t3",
+          "text": "navré"
+        },
+        {
+          "id": "t4",
+          "text": "d'avoir"
+        },
+        {
+          "id": "t5",
+          "text": "manqué"
+        },
+        {
+          "id": "t6",
+          "text": "votre"
+        },
+        {
+          "id": "t7",
+          "text": "rendez-vous"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7"
+      ]
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "Je raffole de la cuisine de ma grand-mère.",
+      "targetEn": "I'm crazy about my grandmother's cooking.",
+      "audio": "audio/b2.1/unit-03-feelings-b2/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "Elle est indignée que personne n'ait réagi.",
+      "targetEn": "She is outraged that nobody reacted.",
+      "audio": "audio/b2.1/unit-03-feelings-b2/example-ex-3.mp3"
+    }
+  ]
+}

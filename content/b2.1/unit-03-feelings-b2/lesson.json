@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "b2.1/unit-03-feelings-b2",
+  "level": "b2.1",
+  "unitNumber": 3,
+  "slug": "unit-03-feelings-b2",
+  "title": "Feelings at Full Range",
+  "titleFr": "Exprimer des sentiments (registre B2)",
+  "cefrDescriptors": [
+    "Can express feelings with B2-register precision, from enthusiasm to outrage.",
+    "Can choose between de + infinitive (present or past) and que + subjunctive (present or past) after feeling expressions."
+  ],
+  "skills": ["reading", "listening", "writing", "speaking"],
+  "estimatedMinutes": 60,
+  "concept": "Dossier 2 is Privé — love, family, the heart. At B1 you learned « je suis content que tu viennes ». B2 upgrades both the WORDS (precise, expressive, sometimes informal) and the STRUCTURES (past forms on both sides).\n\nThe B2 feelings bank, by temperature:\n  • enthusiasm: raffoler de (to be crazy about), avoir un faible pour (a soft spot), être emballé par (to be thrilled by)\n  • shock & disbelief: je n'en reviens pas (I can't get over it), être atterré (appalled), être déconcerté (disconcerted), ça m'horrifie\n  • sorrow & disapproval: déplorer (to deplore), être navré (terribly sorry), être indigné (outraged), ça me répugne, je ne supporte pas\n\nThe structure rule you know — now with its full tense system:\n  • SAME subject → de + infinitif: Il est navré de manquer la fête. (now)\n  → de + infinitif PASSÉ for what already happened: Il est navré d'AVOIR MANQUÉ votre rendez-vous.\n  • DIFFERENT subjects → que + subjonctif: Elle est indignée que personne ne réagisse. (now)\n  → que + subjonctif PASSÉ for what already happened: Elle est indignée que personne n'AIT RÉAGI.\n\nImpersonal judgments work the same way: il est / c'est + adjective + que + subjonctif:\n  Il est inadmissible que l'on traite les gens ainsi. · C'est dommage que tu sois parti.\n  Judgment adjectives worth owning: émouvant (moving), navrant (distressing), honteux (shameful), inadmissible, inconcevable, réconfortant, troublant.\n\nOne register flag: raffoler de and je n'en reviens pas are spoken French — perfect in conversation, out of place in a formal letter. Déplorer is the opposite: formal.\n\nPut it together like a friend venting: « Je n'en reviens pas qu'il ait oublié notre anniversaire ! Je suis atterrée. Lui qui raffole des grandes occasions… C'est navrant qu'il n'ait rien organisé. »\n\nYour turn: one enthusiasm and one outrage about your week — each with a PAST structure (d'avoir… / que … ait…).",
+  "vocabulary": [
+    { "id": "raffoler", "fr": "raffoler de", "en": "to be crazy about (spoken)", "pos": "verb", "exampleFr": "Je raffole de la cuisine italienne.", "exampleEn": "I'm crazy about Italian food.", "audio": "audio/b2.1/unit-03-feelings-b2/vocab-raffoler.mp3", "voice": "denise" },
+    { "id": "faible", "fr": "avoir un faible pour", "en": "to have a soft spot for", "pos": "verb", "exampleFr": "Elle a un faible pour les vieux films.", "exampleEn": "She has a soft spot for old films.", "audio": "audio/b2.1/unit-03-feelings-b2/vocab-faible.mp3", "voice": "henri" },
+    { "id": "emballe", "fr": "être emballé par", "en": "to be thrilled by", "pos": "verb", "exampleFr": "Je suis emballé par ce projet.", "exampleEn": "I'm thrilled by this project.", "audio": "audio/b2.1/unit-03-feelings-b2/vocab-emballe.mp3", "voice": "denise" },
+    { "id": "deplorer", "fr": "déplorer", "en": "to deplore (formal)", "pos": "verb", "exampleFr": "Nous déplorons cette décision.", "exampleEn": "We deplore this decision.", "audio": "audio/b2.1/unit-03-feelings-b2/vocab-deplorer.mp3", "voice": "henri" },
+    { "id": "navre", "fr": "navré(e)", "en": "terribly sorry", "pos": "adjective", "exampleFr": "Je suis navré du malentendu.", "exampleEn": "I'm terribly sorry about the misunderstanding.", "audio": "audio/b2.1/unit-03-feelings-b2/vocab-navre.mp3", "voice": "denise" },
+    { "id": "atterre", "fr": "atterré(e)", "en": "appalled / dismayed", "pos": "adjective", "exampleFr": "Elle est atterrée par la nouvelle.", "exampleEn": "She is appalled by the news.", "audio": "audio/b2.1/unit-03-feelings-b2/vocab-atterre.mp3", "voice": "henri" },
+    { "id": "repugner", "fr": "ça me répugne", "en": "it disgusts me", "pos": "expression", "exampleFr": "Mentir, ça me répugne.", "exampleEn": "Lying disgusts me.", "audio": "audio/b2.1/unit-03-feelings-b2/vocab-repugner.mp3", "voice": "denise" },
+    { "id": "en-revenir", "fr": "ne pas en revenir", "en": "to not get over it (spoken)", "pos": "expression", "exampleFr": "Je n'en reviens pas !", "exampleEn": "I can't get over it!", "audio": "audio/b2.1/unit-03-feelings-b2/vocab-en-revenir.mp3", "voice": "henri" },
+    { "id": "indigne", "fr": "indigné(e)", "en": "outraged", "pos": "adjective", "exampleFr": "Les lecteurs sont indignés.", "exampleEn": "The readers are outraged.", "audio": "audio/b2.1/unit-03-feelings-b2/vocab-indigne.mp3", "voice": "denise" },
+    { "id": "emouvant", "fr": "émouvant(e)", "en": "moving / touching", "pos": "adjective", "exampleFr": "C'est un témoignage émouvant.", "exampleEn": "It's a moving testimony.", "audio": "audio/b2.1/unit-03-feelings-b2/vocab-emouvant.mp3", "voice": "henri" },
+    { "id": "navrant", "fr": "navrant(e)", "en": "distressing / sad", "pos": "adjective", "exampleFr": "La fin du film est navrante.", "exampleEn": "The end of the film is distressing.", "audio": "audio/b2.1/unit-03-feelings-b2/vocab-navrant.mp3", "voice": "denise" },
+    { "id": "honteux", "fr": "honteux / honteuse", "en": "shameful", "pos": "adjective", "exampleFr": "C'est une attitude honteuse.", "exampleEn": "It's a shameful attitude.", "audio": "audio/b2.1/unit-03-feelings-b2/vocab-honteux.mp3", "voice": "henri" },
+    { "id": "inadmissible", "fr": "inadmissible", "en": "unacceptable", "pos": "adjective", "exampleFr": "Ce retard est inadmissible.", "exampleEn": "This delay is unacceptable.", "audio": "audio/b2.1/unit-03-feelings-b2/vocab-inadmissible.mp3", "voice": "denise" },
+    { "id": "deconcertant", "fr": "déconcertant(e)", "en": "disconcerting", "pos": "adjective", "exampleFr": "Sa réponse est déconcertante.", "exampleEn": "His answer is disconcerting.", "audio": "audio/b2.1/unit-03-feelings-b2/vocab-deconcertant.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "Je raffole de la cuisine de ma grand-mère.", "en": "I'm crazy about my grandmother's cooking.", "audio": "audio/b2.1/unit-03-feelings-b2/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "Il est navré d'avoir manqué votre rendez-vous.", "en": "He is terribly sorry to have missed your appointment.", "audio": "audio/b2.1/unit-03-feelings-b2/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "Elle est indignée que personne n'ait réagi.", "en": "She is outraged that nobody reacted.", "audio": "audio/b2.1/unit-03-feelings-b2/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "Je n'en reviens pas qu'il soit déjà parti.", "en": "I can't get over the fact that he's already left.", "audio": "audio/b2.1/unit-03-feelings-b2/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "Il est inadmissible que l'on traite les gens ainsi.", "en": "It is unacceptable to treat people this way.", "audio": "audio/b2.1/unit-03-feelings-b2/example-ex-5.mp3", "voice": "denise" },
+    { "id": "ex-6", "fr": "J'ai un faible pour les chansons des années 80.", "en": "I have a soft spot for 80s songs.", "audio": "audio/b2.1/unit-03-feelings-b2/example-ex-6.mp3", "voice": "henri" }
+  ]
+}
