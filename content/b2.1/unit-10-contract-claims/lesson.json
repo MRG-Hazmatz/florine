@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "b2.1/unit-10-contract-claims",
+  "level": "b2.1",
+  "unitNumber": 10,
+  "slug": "unit-10-contract-claims",
+  "title": "Contracts & Claims",
+  "titleFr": "Touche pas à mon contrat !",
+  "cefrDescriptors": [
+    "Can navigate work-contract vocabulary (CDI, CDD, embaucher, licencier…).",
+    "Can make demands and negotiate, stacking object pronouns correctly — including in the imperative."
+  ],
+  "skills": ["reading", "listening", "writing", "speaking"],
+  "estimatedMinutes": 60,
+  "concept": "The b2.1 finale: Touche pas à mon contrat ! — contracts, rights, and the art of the workplace claim. The grammar centrepiece is the pronoun system under pressure: stacked pronouns in demands and orders.\n\nLE CONTRAT — the survival lexicon of French working life:\n  • un CDI (contrat à durée indéterminée — permanent) vs un CDD (à durée déterminée — fixed-term)\n  • embaucher (to hire) ↔ licencier (to lay off) · démissionner (to resign)\n  • un syndicat (a union), une grève (a strike), revendiquer (to demand/claim), négocier\n  • une indemnité (compensation), un préavis (notice period)\n\nLES PRONOMS EN ACTION (rappel b1.2 + the B2 step). Declaratives, the order you know:\n  Je vous le confirme par écrit. · Le contrat ? On me l'a envoyé hier. · Des congés ? Ils m'en doivent cinq.\n\nThe B2 step — the IMPERATIVE flips the order (pronouns AFTER the verb, hyphenated, direct before indirect):\n  Rends-LE-MOI. (give it back to me) · Confirmez-LE-NOUS par écrit. · Parlez-LUI-EN. · Donnez-M'EN deux.\n  Negative imperative flips back to normal order: NE me LE rends pas. · NE lui EN parlez pas.\n  And moi/toi become m'/t' before en: Donne-m'en !\n\nFaire des revendications — the negotiator's phrasebook: Nous demandons que… (+ subjonctif) · Nous tenons à ce que… · Il est inacceptable que… · Nous exigeons le paiement des heures supplémentaires.\n\nPut it together like a staff meeting: « Le nouveau contrat ? La direction nous l'a présenté hier. Des garanties ? Exigez-les ! Le préavis ? Parlons-en. Et la prime promise — donnez-la-nous par écrit, sinon c'est la grève. »\n\nYour turn (and that's b2.1 done — bravo !): one workplace demand with a stacked imperative (confirmez-le-moi / parlez-lui-en…) and one with nous exigeons que + subjonctif.",
+  "vocabulary": [
+    { "id": "cdi", "fr": "un CDI", "en": "a permanent contract", "pos": "noun", "exampleFr": "Elle a signé un CDI.", "exampleEn": "She signed a permanent contract.", "audio": "audio/b2.1/unit-10-contract-claims/vocab-cdi.mp3", "voice": "denise" },
+    { "id": "cdd", "fr": "un CDD", "en": "a fixed-term contract", "pos": "noun", "exampleFr": "Un CDD de six mois.", "exampleEn": "A six-month fixed-term contract.", "audio": "audio/b2.1/unit-10-contract-claims/vocab-cdd.mp3", "voice": "henri" },
+    { "id": "embaucher", "fr": "embaucher", "en": "to hire", "pos": "verb", "exampleFr": "L'usine embauche dix ouvriers.", "exampleEn": "The factory is hiring ten workers.", "audio": "audio/b2.1/unit-10-contract-claims/vocab-embaucher.mp3", "voice": "denise" },
+    { "id": "licencier", "fr": "licencier", "en": "to lay off / dismiss", "pos": "verb", "exampleFr": "Trois salariés ont été licenciés.", "exampleEn": "Three employees were laid off.", "audio": "audio/b2.1/unit-10-contract-claims/vocab-licencier.mp3", "voice": "henri" },
+    { "id": "demissionner", "fr": "démissionner", "en": "to resign", "pos": "verb", "exampleFr": "Il a démissionné hier.", "exampleEn": "He resigned yesterday.", "audio": "audio/b2.1/unit-10-contract-claims/vocab-demissionner.mp3", "voice": "denise" },
+    { "id": "syndicat", "fr": "un syndicat", "en": "a (trade) union", "pos": "noun", "exampleFr": "Le syndicat négocie avec la direction.", "exampleEn": "The union is negotiating with management.", "audio": "audio/b2.1/unit-10-contract-claims/vocab-syndicat.mp3", "voice": "henri" },
+    { "id": "greve", "fr": "une grève", "en": "a strike", "pos": "noun", "exampleFr": "La grève a duré trois jours.", "exampleEn": "The strike lasted three days.", "audio": "audio/b2.1/unit-10-contract-claims/vocab-greve.mp3", "voice": "denise" },
+    { "id": "revendiquer", "fr": "revendiquer", "en": "to demand / claim", "pos": "verb", "exampleFr": "Ils revendiquent de meilleures conditions.", "exampleEn": "They are demanding better conditions.", "audio": "audio/b2.1/unit-10-contract-claims/vocab-revendiquer.mp3", "voice": "henri" },
+    { "id": "negocier", "fr": "négocier", "en": "to negotiate", "pos": "verb", "exampleFr": "On négocie les horaires.", "exampleEn": "We're negotiating the hours.", "audio": "audio/b2.1/unit-10-contract-claims/vocab-negocier.mp3", "voice": "denise" },
+    { "id": "indemnite", "fr": "une indemnité", "en": "compensation / an allowance", "pos": "noun", "exampleFr": "Une indemnité de licenciement.", "exampleEn": "Severance pay.", "audio": "audio/b2.1/unit-10-contract-claims/vocab-indemnite.mp3", "voice": "henri" },
+    { "id": "preavis", "fr": "un préavis", "en": "a notice period", "pos": "noun", "exampleFr": "Le préavis est de deux mois.", "exampleEn": "The notice period is two months.", "audio": "audio/b2.1/unit-10-contract-claims/vocab-preavis.mp3", "voice": "denise" },
+    { "id": "exiger", "fr": "exiger que (+ subjonctif)", "en": "to demand that", "pos": "verb", "exampleFr": "Nous exigeons que le contrat soit respecté.", "exampleEn": "We demand that the contract be honoured.", "audio": "audio/b2.1/unit-10-contract-claims/vocab-exiger.mp3", "voice": "henri" },
+    { "id": "tenir-a-ce-que", "fr": "tenir à ce que", "en": "to insist that", "pos": "expression", "exampleFr": "Je tiens à ce que tout soit écrit.", "exampleEn": "I insist that everything be in writing.", "audio": "audio/b2.1/unit-10-contract-claims/vocab-tenir-a-ce-que.mp3", "voice": "denise" },
+    { "id": "heures-sup", "fr": "les heures supplémentaires", "en": "overtime", "pos": "noun", "exampleFr": "Les heures supplémentaires sont payées double.", "exampleEn": "Overtime is paid double.", "audio": "audio/b2.1/unit-10-contract-claims/vocab-heures-sup.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "Le contrat ? On me l'a envoyé hier.", "en": "The contract? It was sent to me yesterday.", "audio": "audio/b2.1/unit-10-contract-claims/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "Confirmez-le-nous par écrit, s'il vous plaît.", "en": "Confirm it to us in writing, please.", "audio": "audio/b2.1/unit-10-contract-claims/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "Des congés ? Donnez-m'en deux semaines.", "en": "Holidays? Give me two weeks of them.", "audio": "audio/b2.1/unit-10-contract-claims/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "Ne lui en parlez pas avant la réunion.", "en": "Don't talk to him about it before the meeting.", "audio": "audio/b2.1/unit-10-contract-claims/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "Nous exigeons que les heures supplémentaires soient payées.", "en": "We demand that overtime be paid.", "audio": "audio/b2.1/unit-10-contract-claims/example-ex-5.mp3", "voice": "denise" },
+    { "id": "ex-6", "fr": "Le syndicat a obtenu une indemnité pour les salariés licenciés.", "en": "The union obtained compensation for the laid-off employees.", "audio": "audio/b2.1/unit-10-contract-claims/example-ex-6.mp3", "voice": "henri" }
+  ]
+}

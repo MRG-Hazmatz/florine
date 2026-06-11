@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "b2.1/unit-09-work-conditional",
+  "level": "b2.1",
+  "unitNumber": 9,
+  "slug": "unit-09-work-conditional",
+  "title": "Work & Pay: the Conditional at the Office",
+  "titleFr": "Professionnel : rémunérations et conditionnel",
+  "cefrDescriptors": [
+    "Can name how different professions are paid, in the right register.",
+    "Can read the conditional's value in workplace messages: advice, reproach, polite demand, unconfirmed news."
+  ],
+  "skills": ["reading", "listening", "writing", "speaking"],
+  "estimatedMinutes": 60,
+  "concept": "Dossier 5 is Professionnel — the world of work, from pay slips to strikes. Two systems here: how the French name MONEY earned, and how the conditional runs the office.\n\nLES RÉMUNÉRATIONS — every profession has its own word for pay (using the wrong one marks you instantly):\n  • un salarié earns un salaire (+ une prime, a bonus)\n  • un serveur counts les pourboires (tips) · un vendeur touche une commission\n  • un médecin or un avocat (professions libérales) charge des honoraires (fees)\n  • un écrivain lives on les droits d'auteur (royalties) · un chef d'entreprise on les bénéfices (profits)\n  • un demandeur d'emploi (job-seeker) receives des allocations (benefits)\n  And 'work' itself climbs the register ladder: le boulot, le taf (slang) → le travail, le job → la tâche, le labeur (formal/literary).\n\nLE CONDITIONNEL AT WORK — one tense, five office jobs. Reading the value is a B2 exam skill:\n  • polite demand: J'aimerais développer mes compétences. · Pourriez-vous me confirmer… ?\n  • advice: Il vaudrait mieux attendre la signature du contrat.\n  • reproach: Vous auriez dû rappeler le client ! (conditionnel passé)\n  • regret: J'aurais aimé partir plus tôt.\n  • unconfirmed news (the journalist's conditional, here in work rumours): Une grève serait prévue lundi. · La direction aurait promis une prime.\n\nThe two-second test: conditionnel PASSÉ + devoir/pouvoir = reproach or regret; conditionnel présent + valoir mieux/devoir = advice; serait/aurait + news = rumour.\n\nPut it together like office small talk: « Tu aurais dû demander une prime ! Il vaudrait mieux en parler au chef — d'ailleurs, une augmentation serait prévue pour mars, d'après Sophie. »\n\nYour turn: write three one-line messages — one polite demand to your boss, one piece of advice to a colleague, one office rumour with the conditional.",
+  "vocabulary": [
+    { "id": "salaire", "fr": "un salaire", "en": "a salary", "pos": "noun", "exampleFr": "Son salaire a augmenté en janvier.", "exampleEn": "Her salary went up in January.", "audio": "audio/b2.1/unit-09-work-conditional/vocab-salaire.mp3", "voice": "denise" },
+    { "id": "prime", "fr": "une prime", "en": "a bonus", "pos": "noun", "exampleFr": "Une prime de fin d'année.", "exampleEn": "An end-of-year bonus.", "audio": "audio/b2.1/unit-09-work-conditional/vocab-prime.mp3", "voice": "henri" },
+    { "id": "pourboire", "fr": "un pourboire", "en": "a tip", "pos": "noun", "exampleFr": "Les serveurs comptent leurs pourboires.", "exampleEn": "The waiters count their tips.", "audio": "audio/b2.1/unit-09-work-conditional/vocab-pourboire.mp3", "voice": "denise" },
+    { "id": "honoraires", "fr": "les honoraires (m.)", "en": "fees (doctor, lawyer)", "pos": "noun", "exampleFr": "Les honoraires de l'avocate sont élevés.", "exampleEn": "The lawyer's fees are high.", "audio": "audio/b2.1/unit-09-work-conditional/vocab-honoraires.mp3", "voice": "henri" },
+    { "id": "droits-auteur", "fr": "les droits d'auteur (m.)", "en": "royalties", "pos": "noun", "exampleFr": "L'écrivaine vit de ses droits d'auteur.", "exampleEn": "The writer lives on her royalties.", "audio": "audio/b2.1/unit-09-work-conditional/vocab-droits-auteur.mp3", "voice": "denise" },
+    { "id": "benefices", "fr": "les bénéfices (m.)", "en": "profits", "pos": "noun", "exampleFr": "L'entreprise partage ses bénéfices.", "exampleEn": "The company shares its profits.", "audio": "audio/b2.1/unit-09-work-conditional/vocab-benefices.mp3", "voice": "henri" },
+    { "id": "allocations", "fr": "les allocations (f.)", "en": "benefits / allowances", "pos": "noun", "exampleFr": "Il touche des allocations chômage.", "exampleEn": "He receives unemployment benefits.", "audio": "audio/b2.1/unit-09-work-conditional/vocab-allocations.mp3", "voice": "denise" },
+    { "id": "commission", "fr": "une commission", "en": "a commission (sales)", "pos": "noun", "exampleFr": "La vendeuse touche une commission.", "exampleEn": "The saleswoman earns a commission.", "audio": "audio/b2.1/unit-09-work-conditional/vocab-commission.mp3", "voice": "henri" },
+    { "id": "boulot", "fr": "le boulot", "en": "work (slang)", "pos": "noun", "exampleFr": "Je vais au boulot à vélo.", "exampleEn": "I bike to work.", "audio": "audio/b2.1/unit-09-work-conditional/vocab-boulot.mp3", "voice": "denise" },
+    { "id": "taf", "fr": "le taf", "en": "work (very informal)", "pos": "noun", "exampleFr": "J'ai trop de taf cette semaine.", "exampleEn": "I've got too much work this week.", "audio": "audio/b2.1/unit-09-work-conditional/vocab-taf.mp3", "voice": "henri" },
+    { "id": "labeur", "fr": "le labeur", "en": "toil (formal/literary)", "pos": "noun", "exampleFr": "Des années de labeur acharné.", "exampleEn": "Years of relentless toil.", "audio": "audio/b2.1/unit-09-work-conditional/vocab-labeur.mp3", "voice": "denise" },
+    { "id": "demandeur", "fr": "un demandeur d'emploi", "en": "a job-seeker", "pos": "noun", "exampleFr": "Les demandeurs d'emploi sont reçus ici.", "exampleEn": "Job-seekers are received here.", "audio": "audio/b2.1/unit-09-work-conditional/vocab-demandeur.mp3", "voice": "henri" },
+    { "id": "augmentation", "fr": "une augmentation", "en": "a pay rise", "pos": "noun", "exampleFr": "Elle a demandé une augmentation.", "exampleEn": "She asked for a pay rise.", "audio": "audio/b2.1/unit-09-work-conditional/vocab-augmentation.mp3", "voice": "denise" },
+    { "id": "valoir-mieux", "fr": "il vaudrait mieux", "en": "it would be better to", "pos": "expression", "exampleFr": "Il vaudrait mieux attendre la réponse.", "exampleEn": "It would be better to wait for the answer.", "audio": "audio/b2.1/unit-09-work-conditional/vocab-valoir-mieux.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "Vous auriez dû rappeler le client hier.", "en": "You should have called the client back yesterday.", "audio": "audio/b2.1/unit-09-work-conditional/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "Il vaudrait mieux attendre la signature du contrat.", "en": "It would be better to wait for the contract to be signed.", "audio": "audio/b2.1/unit-09-work-conditional/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "J'aimerais développer mes compétences en équipe.", "en": "I would like to develop my team skills.", "audio": "audio/b2.1/unit-09-work-conditional/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "Une grève serait prévue pour lundi prochain.", "en": "A strike is reportedly planned for next Monday.", "audio": "audio/b2.1/unit-09-work-conditional/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "L'avocate facture des honoraires, le serveur compte ses pourboires.", "en": "The lawyer bills fees; the waiter counts his tips.", "audio": "audio/b2.1/unit-09-work-conditional/example-ex-5.mp3", "voice": "denise" },
+    { "id": "ex-6", "fr": "J'ai trop de boulot — j'aurais aimé partir plus tôt.", "en": "I've got too much work — I'd have liked to leave earlier.", "audio": "audio/b2.1/unit-09-work-conditional/example-ex-6.mp3", "voice": "henri" }
+  ]
+}

@@ -1,0 +1,462 @@
+{
+  "schemaVersion": 1,
+  "unitId": "b2.1/unit-09-work-conditional",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "« Vous auriez dû rappeler le client ! » — what does the conditional express?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A reproach"
+        },
+        {
+          "id": "b",
+          "text": "A polite demand"
+        },
+        {
+          "id": "c",
+          "text": "Unconfirmed news"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Conditionnel passé + devoir = reproach: you should have…"
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "« Une grève serait prévue lundi. » — what does the conditional express?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Unconfirmed information (a rumour)"
+        },
+        {
+          "id": "b",
+          "text": "A regret"
+        },
+        {
+          "id": "c",
+          "text": "A piece of advice"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Serait + reported fact = the journalistic conditional: reportedly planned."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Advice to a colleague.",
+      "inputMode": "dropdown",
+      "template": "Il {{b1}} mieux en parler directement au chef.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "vaudrait"
+          ],
+          "options": [
+            "vaudrait",
+            "vaut",
+            "a valu"
+          ]
+        }
+      ],
+      "explanation": "Advice → conditionnel: il vaudrait mieux…"
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Who earns what? The lawyer's pay:",
+      "inputMode": "dropdown",
+      "template": "L'avocate facture des {{b1}} à ses clients.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "honoraires"
+          ],
+          "options": [
+            "honoraires",
+            "pourboires",
+            "allocations"
+          ]
+        }
+      ],
+      "explanation": "Professions libérales (avocat, médecin) charge des honoraires."
+    },
+    {
+      "id": "ex-mc-3",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "A novelist's income is called…",
+      "options": [
+        {
+          "id": "a",
+          "text": "les droits d'auteur"
+        },
+        {
+          "id": "b",
+          "text": "les bénéfices"
+        },
+        {
+          "id": "c",
+          "text": "la commission"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Writers and composers live on les droits d'auteur (royalties)."
+    },
+    {
+      "id": "ex-fb-3",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Reproach in the past conditional (one word).",
+      "inputMode": "typed",
+      "template": "Tu {{b1}} dû demander une augmentation !",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "aurais"
+          ]
+        }
+      ],
+      "explanation": "Reproach → conditionnel passé: tu aurais dû demander."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each worker to their pay.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "le serveur",
+          "right": "les pourboires"
+        },
+        {
+          "id": "p2",
+          "left": "l'écrivain",
+          "right": "les droits d'auteur"
+        },
+        {
+          "id": "p3",
+          "left": "le chef d'entreprise",
+          "right": "les bénéfices"
+        },
+        {
+          "id": "p4",
+          "left": "le demandeur d'emploi",
+          "right": "les allocations"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"She asked for a pay rise.\"",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Elle"
+        },
+        {
+          "id": "t2",
+          "text": "a"
+        },
+        {
+          "id": "t3",
+          "text": "demandé"
+        },
+        {
+          "id": "t4",
+          "text": "une"
+        },
+        {
+          "id": "t5",
+          "text": "augmentation"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5"
+      ]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen to the office chat. What's the rumour?",
+      "audio": "audio/b2.1/unit-09-work-conditional/listen-1.mp3",
+      "transcript": "D'après Sophie, une augmentation serait prévue pour mars — tu aurais dû la demander plus tôt !",
+      "options": [
+        {
+          "id": "a",
+          "text": "A pay rise is reportedly planned for March"
+        },
+        {
+          "id": "b",
+          "text": "Sophie was fired in March"
+        },
+        {
+          "id": "c",
+          "text": "Salaries will definitely be cut in March"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "« serait prévue » — the conditional flags it as a rumour, not a confirmed fact."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read the internal memo and answer both questions.",
+      "passageFr": "NOTE DE SERVICE — Selon la presse, notre concurrent verserait des primes deux fois par an. La direction tient à rassurer les équipes : une prime exceptionnelle sera versée en juin, et il vaudrait mieux ignorer les rumeurs. Les salariés qui auraient des questions sur leur salaire peuvent contacter les ressources humaines.",
+      "passageEn": "MEMO — According to the press, our competitor reportedly pays bonuses twice a year. Management wishes to reassure the teams: an exceptional bonus WILL be paid in June, and it would be better to ignore the rumours. Employees who may have questions about their salary can contact human resources.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "« Le concurrent verserait des primes » — why the conditional?",
+          "options": [
+            {
+              "id": "a",
+              "text": "It's unconfirmed press information"
+            },
+            {
+              "id": "b",
+              "text": "It's a reproach to the competitor"
+            },
+            {
+              "id": "c",
+              "text": "It's a polite request"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        },
+        {
+          "id": "q2",
+          "prompt": "What is CONFIRMED in the memo?",
+          "options": [
+            {
+              "id": "a",
+              "text": "An exceptional bonus will be paid in June"
+            },
+            {
+              "id": "b",
+              "text": "Salaries will double"
+            },
+            {
+              "id": "c",
+              "text": "The competitor pays better"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex-mc-4",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Register check: which word for 'work' belongs in a formal letter?",
+      "options": [
+        {
+          "id": "a",
+          "text": "le travail"
+        },
+        {
+          "id": "b",
+          "text": "le taf"
+        },
+        {
+          "id": "c",
+          "text": "le boulot"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Le taf and le boulot are spoken slang; le travail is the neutral/formal term."
+    },
+    {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/b2.1/unit-09-work-conditional/example-ex-1.mp3",
+      "transcript": "Vous auriez dû rappeler le client hier.",
+      "options": [
+        {
+          "id": "a",
+          "text": "You should have called the client back yesterday."
+        },
+        {
+          "id": "b",
+          "text": "It would be better to wait for the contract to be signed."
+        },
+        {
+          "id": "c",
+          "text": "I would like to develop my team skills."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « un salaire » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "a salary"
+        },
+        {
+          "id": "b",
+          "text": "a bonus"
+        },
+        {
+          "id": "c",
+          "text": "a tip"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "un salaire = a salary."
+    },
+    {
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "Son {{b1}} a augmenté en janvier.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "salaire"
+          ]
+        }
+      ],
+      "explanation": "« Son salaire a augmenté en janvier. » — a salary."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "les droits d'auteur (m.)",
+          "right": "royalties"
+        },
+        {
+          "id": "p2",
+          "left": "les bénéfices (m.)",
+          "right": "profits"
+        },
+        {
+          "id": "p3",
+          "left": "les allocations (f.)",
+          "right": "benefits / allowances"
+        },
+        {
+          "id": "p4",
+          "left": "une commission",
+          "right": "a commission"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “You should have called the client back yesterday.”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Vous"
+        },
+        {
+          "id": "t2",
+          "text": "auriez"
+        },
+        {
+          "id": "t3",
+          "text": "dû"
+        },
+        {
+          "id": "t4",
+          "text": "rappeler"
+        },
+        {
+          "id": "t5",
+          "text": "le"
+        },
+        {
+          "id": "t6",
+          "text": "client"
+        },
+        {
+          "id": "t7",
+          "text": "hier"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7"
+      ]
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "Vous auriez dû rappeler le client hier.",
+      "targetEn": "You should have called the client back yesterday.",
+      "audio": "audio/b2.1/unit-09-work-conditional/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "J'aimerais développer mes compétences en équipe.",
+      "targetEn": "I would like to develop my team skills.",
+      "audio": "audio/b2.1/unit-09-work-conditional/example-ex-3.mp3"
+    }
+  ]
+}

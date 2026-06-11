@@ -1,0 +1,457 @@
+{
+  "schemaVersion": 1,
+  "unitId": "b2.1/unit-10-contract-claims",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Imperative + two pronouns: \"Give it back to me\" =",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rends-le-moi."
+        },
+        {
+          "id": "b",
+          "text": "Rends-moi-le."
+        },
+        {
+          "id": "c",
+          "text": "Me le rends."
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Affirmative imperative: verb + direct + indirect, hyphenated: rends-le-moi."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Negative imperative: \"Don't talk to him about it\" =",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ne lui en parlez pas."
+        },
+        {
+          "id": "b",
+          "text": "Ne parlez-lui-en pas."
+        },
+        {
+          "id": "c",
+          "text": "Parlez-ne-lui-en pas."
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Negative imperative goes back to normal order: ne lui en parlez pas."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Give me some!",
+      "inputMode": "dropdown",
+      "template": "Des congés ? Donnez-{{b1}} deux semaines !",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "m'en"
+          ],
+          "options": [
+            "m'en",
+            "moi-en",
+            "moi en"
+          ]
+        }
+      ],
+      "explanation": "Moi becomes m' before en: donnez-m'en."
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Union demand — watch the mood.",
+      "inputMode": "dropdown",
+      "template": "Nous exigeons que le contrat {{b1}} respecté.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "soit"
+          ],
+          "options": [
+            "soit",
+            "est",
+            "sera"
+          ]
+        }
+      ],
+      "explanation": "Exiger que → subjonctif: que le contrat soit respecté."
+    },
+    {
+      "id": "ex-mc-3",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Which contract is PERMANENT?",
+      "options": [
+        {
+          "id": "a",
+          "text": "un CDI"
+        },
+        {
+          "id": "b",
+          "text": "un CDD"
+        },
+        {
+          "id": "c",
+          "text": "un stage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "CDI = contrat à durée indéterminée (permanent); CDD = fixed-term."
+    },
+    {
+      "id": "ex-fb-3",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "The opposite of « embaucher » (one word).",
+      "inputMode": "typed",
+      "template": "L'entreprise embauche en été et {{b1}} en hiver.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "licencie"
+          ]
+        }
+      ],
+      "explanation": "Embaucher (to hire) ↔ licencier (to lay off)."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each work word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "un syndicat",
+          "right": "a union"
+        },
+        {
+          "id": "p2",
+          "left": "démissionner",
+          "right": "to resign"
+        },
+        {
+          "id": "p3",
+          "left": "un préavis",
+          "right": "a notice period"
+        },
+        {
+          "id": "p4",
+          "left": "revendiquer",
+          "right": "to demand"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"Confirm it to us in writing.\"",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Confirmez"
+        },
+        {
+          "id": "t2",
+          "text": "-le"
+        },
+        {
+          "id": "t3",
+          "text": "-nous"
+        },
+        {
+          "id": "t4",
+          "text": "par"
+        },
+        {
+          "id": "t5",
+          "text": "écrit"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5"
+      ]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen to the union rep. What are they demanding?",
+      "audio": "audio/b2.1/unit-10-contract-claims/listen-1.mp3",
+      "transcript": "Nous exigeons que les heures supplémentaires soient payées ; sinon, la grève commencera lundi.",
+      "options": [
+        {
+          "id": "a",
+          "text": "That overtime be paid — otherwise a strike starts Monday"
+        },
+        {
+          "id": "b",
+          "text": "That the strike end on Monday"
+        },
+        {
+          "id": "c",
+          "text": "That salaries be reduced"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "« Nous exigeons que… soient payées » + the strike ultimatum."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read the staff-meeting account and answer both questions.",
+      "passageFr": "La direction nous a présenté le nouveau contrat hier. Le syndicat tient à ce que les indemnités soient garanties par écrit : « Promettre ne suffit pas. Donnez-les-nous noir sur blanc », a déclaré la déléguée. En cas de refus, les salariés voteront la grève — le préavis serait déjà déposé, selon certains.",
+      "passageEn": "Management presented the new contract to us yesterday. The union insists that the compensation be guaranteed in writing: \"Promising isn't enough. Give it to us in black and white,\" declared the rep. If refused, the employees will vote to strike — notice has reportedly already been filed, according to some.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "What does the union insist on?",
+          "options": [
+            {
+              "id": "a",
+              "text": "That compensation be guaranteed in writing"
+            },
+            {
+              "id": "b",
+              "text": "That the contract be cancelled entirely"
+            },
+            {
+              "id": "c",
+              "text": "That management resign"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        },
+        {
+          "id": "q2",
+          "prompt": "« Le préavis serait déjà déposé » — why the conditional?",
+          "options": [
+            {
+              "id": "a",
+              "text": "It's an unconfirmed rumour"
+            },
+            {
+              "id": "b",
+              "text": "It's a polite request"
+            },
+            {
+              "id": "c",
+              "text": "It's a regret"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex-mc-4",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Pick the correct stacked imperative for \"Talk to her about it\":",
+      "options": [
+        {
+          "id": "a",
+          "text": "Parlez-lui-en."
+        },
+        {
+          "id": "b",
+          "text": "Parlez-en-lui."
+        },
+        {
+          "id": "c",
+          "text": "Lui en parlez."
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Imperative order: verb + lui + en → parlez-lui-en."
+    },
+    {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/b2.1/unit-10-contract-claims/example-ex-1.mp3",
+      "transcript": "Le contrat ? On me l'a envoyé hier.",
+      "options": [
+        {
+          "id": "a",
+          "text": "The contract? It was sent to me yesterday."
+        },
+        {
+          "id": "b",
+          "text": "Confirm it to us in writing, please."
+        },
+        {
+          "id": "c",
+          "text": "Holidays? Give me two weeks of them."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « un CDI » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "a permanent contract"
+        },
+        {
+          "id": "b",
+          "text": "a fixed-term contract"
+        },
+        {
+          "id": "c",
+          "text": "to hire"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "un CDI = a permanent contract."
+    },
+    {
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "Elle a signé un {{b1}}.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "CDI"
+          ]
+        }
+      ],
+      "explanation": "« Elle a signé un CDI. » — a permanent contract."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "démissionner",
+          "right": "to resign"
+        },
+        {
+          "id": "p2",
+          "left": "un syndicat",
+          "right": "a union"
+        },
+        {
+          "id": "p3",
+          "left": "une grève",
+          "right": "a strike"
+        },
+        {
+          "id": "p4",
+          "left": "revendiquer",
+          "right": "to demand / claim"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “Confirm it to us in writing, please.”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Confirmez-le-nous"
+        },
+        {
+          "id": "t2",
+          "text": "par"
+        },
+        {
+          "id": "t3",
+          "text": "écrit,"
+        },
+        {
+          "id": "t4",
+          "text": "s'il"
+        },
+        {
+          "id": "t5",
+          "text": "vous"
+        },
+        {
+          "id": "t6",
+          "text": "plaît"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ]
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "Le contrat ? On me l'a envoyé hier.",
+      "targetEn": "The contract? It was sent to me yesterday.",
+      "audio": "audio/b2.1/unit-10-contract-claims/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "Des congés ? Donnez-m'en deux semaines.",
+      "targetEn": "Holidays? Give me two weeks of them.",
+      "audio": "audio/b2.1/unit-10-contract-claims/example-ex-3.mp3"
+    }
+  ]
+}

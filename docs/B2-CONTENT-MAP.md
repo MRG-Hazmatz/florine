@@ -27,8 +27,8 @@ Status: ✅ built · 🔨 in progress · ⬜ planned
 | 6 | The city in debate | D3 *Domicile* | passive & impersonal constructions in argument; débattre des transformations urbaines | ✅ b2.1/unit-06 |
 | 7 | Learning & knowing | D4 *Grandir* | souhait/volonté + modes; savoir vs connaître; objectifs et capacités | ✅ b2.1/unit-07 |
 | 8 | Growing up & looking back | D4 *Grandir* | l'enfance racontée: temps du récit (approfondissement); comparaisons interculturelles | ✅ b2.1/unit-08 (souhaits + mobilité Erasmus) |
-| 9 | The world of work | D5 *Professionnel* | expressions temporelles; le contrat et les conditions de travail; pronoms (synthèse) | ⬜ |
-| 10 | Workplace rights & negotiation | D5 *Professionnel* | les adjectifs et expressions de la négociation; revendiquer, argumenter au travail | ⬜ |
+| 9 | The world of work | D5 *Professionnel* | expressions temporelles; le contrat et les conditions de travail; pronoms (synthèse) | ✅ b2.1/unit-09 (rémunérations + conditionnel) |
+| 10 | Workplace rights & negotiation | D5 *Professionnel* | les adjectifs et expressions de la négociation; revendiquer, argumenter au travail | ✅ b2.1/unit-10 (contrats + pronoms impératif) |
 
 ## b2.2 — Dossiers 6–9
 | # | Module | Alter Ego B2 | Grammar / discourse focus | Status |
