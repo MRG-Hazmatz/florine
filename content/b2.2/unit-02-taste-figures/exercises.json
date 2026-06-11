@@ -1,0 +1,457 @@
+{
+  "schemaVersion": 1,
+  "unitId": "b2.2/unit-02-taste-figures",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "« Ce dessert est un nuage. » — which figure of style?",
+      "options": [
+        {
+          "id": "a",
+          "text": "une métaphore"
+        },
+        {
+          "id": "b",
+          "text": "une comparaison"
+        },
+        {
+          "id": "c",
+          "text": "une négation"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "No bridge-word (comme) — the image IS the thing: a metaphor."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "« Ce gâteau fond comme la neige au soleil. » — which figure?",
+      "options": [
+        {
+          "id": "a",
+          "text": "une comparaison"
+        },
+        {
+          "id": "b",
+          "text": "une métaphore"
+        },
+        {
+          "id": "c",
+          "text": "une exagération sans image"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "The bridge-word comme is present → comparison (simile)."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Generality — which article?",
+      "inputMode": "dropdown",
+      "template": "J'adore {{b1}} chocolat noir.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "le"
+          ],
+          "options": [
+            "le",
+            "du",
+            "un"
+          ]
+        }
+      ],
+      "explanation": "Loves and generalities take the definite article: j'adore le chocolat."
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "An unmeasured amount — which article?",
+      "inputMode": "dropdown",
+      "template": "Tu veux {{b1}} sauce avec le poisson ?",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "de la"
+          ],
+          "options": [
+            "de la",
+            "la",
+            "une"
+          ]
+        }
+      ],
+      "explanation": "Some, unmeasured → partitive: de la sauce."
+    },
+    {
+      "id": "ex-mc-3",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "The negation trap: « Je ne veux pas ___ sucre. »",
+      "options": [
+        {
+          "id": "a",
+          "text": "de"
+        },
+        {
+          "id": "b",
+          "text": "du"
+        },
+        {
+          "id": "c",
+          "text": "le"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "After pas, the partitive collapses to de: pas de sucre."
+    },
+    {
+      "id": "ex-fb-3",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Build the comparison (one word).",
+      "inputMode": "typed",
+      "template": "Cette crème est légère {{b1}} un nuage.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "comme"
+          ]
+        }
+      ],
+      "explanation": "Comparison = with the bridge-word: légère comme un nuage."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each flavour or texture to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "amer",
+          "right": "bitter"
+        },
+        {
+          "id": "p2",
+          "left": "acide",
+          "right": "sour"
+        },
+        {
+          "id": "p3",
+          "left": "croustillant",
+          "right": "crispy"
+        },
+        {
+          "id": "p4",
+          "left": "fondant",
+          "right": "melting"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"We feasted: everything was exquisite.\"",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "On"
+        },
+        {
+          "id": "t2",
+          "text": "s'est"
+        },
+        {
+          "id": "t3",
+          "text": "régalés :"
+        },
+        {
+          "id": "t4",
+          "text": "tout"
+        },
+        {
+          "id": "t5",
+          "text": "était"
+        },
+        {
+          "id": "t6",
+          "text": "exquis"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen to the food critic. What image does she use?",
+      "audio": "audio/b2.2/unit-02-taste-figures/listen-1.mp3",
+      "transcript": "La tarte au citron est une merveille : une pâte croustillante, une crème à peine acide — un petit nuage.",
+      "options": [
+        {
+          "id": "a",
+          "text": "The lemon tart is 'a little cloud' — crispy pastry, slightly tart cream"
+        },
+        {
+          "id": "b",
+          "text": "The tart is heavy as a stone and too sweet"
+        },
+        {
+          "id": "c",
+          "text": "She refuses to taste the dessert"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "« un petit nuage » — a metaphor crowning the praise."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read this Proust-style memory and answer both questions.",
+      "passageFr": "Le premier croissant de la boulangerie Garnier était une fête. La pâte, dorée comme un matin d'été, croustillait puis fondait — et chaque bouchée évoquait les dimanches de mon enfance, quand mon grand-père m'attendait devant la vitrine. J'adore les croissants ; mais celui-là n'était pas un croissant. C'était une madeleine de Proust.",
+      "passageEn": "The first croissant from the Garnier bakery was a celebration. The pastry, golden like a summer morning, crackled then melted — and every bite evoked the Sundays of my childhood, when my grandfather waited for me by the window. I love croissants; but that one wasn't a croissant. It was a Proustian madeleine.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "« Dorée comme un matin d'été » is…",
+          "options": [
+            {
+              "id": "a",
+              "text": "a comparison (simile)"
+            },
+            {
+              "id": "b",
+              "text": "a metaphor"
+            },
+            {
+              "id": "c",
+              "text": "a negation"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        },
+        {
+          "id": "q2",
+          "prompt": "What did each bite evoke?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Childhood Sundays with his grandfather"
+            },
+            {
+              "id": "b",
+              "text": "His first day of school"
+            },
+            {
+              "id": "c",
+              "text": "A trip to the seaside"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex-mc-4",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "One piece, please: « Prends ___ chocolat dans la boîte. »",
+      "options": [
+        {
+          "id": "a",
+          "text": "un"
+        },
+        {
+          "id": "b",
+          "text": "du"
+        },
+        {
+          "id": "c",
+          "text": "le"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "One countable unit → un chocolat (a single chocolate from the box)."
+    },
+    {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/b2.2/unit-02-taste-figures/example-ex-1.mp3",
+      "transcript": "Ce gâteau fond comme la neige au soleil.",
+      "options": [
+        {
+          "id": "a",
+          "text": "This cake melts like snow in the sun."
+        },
+        {
+          "id": "b",
+          "text": "This dessert is a cloud."
+        },
+        {
+          "id": "c",
+          "text": "This smell evokes my childhood summers."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « une saveur » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "a flavour"
+        },
+        {
+          "id": "b",
+          "text": "sweet"
+        },
+        {
+          "id": "c",
+          "text": "salty / savoury"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "une saveur = a flavour."
+    },
+    {
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "Le citron est trop {{b1}} pour lui.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "acide"
+          ]
+        }
+      ],
+      "explanation": "« Le citron est trop acide pour lui. » — sour / tart."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "acide",
+          "right": "sour / tart"
+        },
+        {
+          "id": "p2",
+          "left": "épicé(e)",
+          "right": "spicy"
+        },
+        {
+          "id": "p3",
+          "left": "fondant(e)",
+          "right": "melting"
+        },
+        {
+          "id": "p4",
+          "left": "croustillant(e)",
+          "right": "crispy"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “This dessert is a cloud.”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Ce"
+        },
+        {
+          "id": "t2",
+          "text": "dessert"
+        },
+        {
+          "id": "t3",
+          "text": "est"
+        },
+        {
+          "id": "t4",
+          "text": "un"
+        },
+        {
+          "id": "t5",
+          "text": "nuage"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5"
+      ]
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "Ce gâteau fond comme la neige au soleil.",
+      "targetEn": "This cake melts like snow in the sun.",
+      "audio": "audio/b2.2/unit-02-taste-figures/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "Cette odeur évoque les étés de mon enfance.",
+      "targetEn": "This smell evokes my childhood summers.",
+      "audio": "audio/b2.2/unit-02-taste-figures/example-ex-3.mp3"
+    }
+  ]
+}

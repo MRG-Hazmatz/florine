@@ -33,8 +33,8 @@ Status: ✅ built · 🔨 in progress · ⬜ planned
 ## b2.2 — Dossiers 6–9
 | # | Module | Alter Ego B2 | Grammar / discourse focus | Status |
 |---|---|---|---|---|
-| 11 | Taste & criticism | D6 *Plaisirs* | condition & hypothèse (synthèse, à moins que + ne explétif); critique gastronomique | ⬜ |
-| 12 | Style & the senses | D6 *Plaisirs* | synthèse des articles; figures de style (métaphore, comparaison); lexique du goût | ⬜ |
+| 11 | Taste & criticism | D6 *Plaisirs* | condition & hypothèse (synthèse, à moins que + ne explétif); critique gastronomique | ✅ b2.2/unit-01 |
+| 12 | Style & the senses | D6 *Plaisirs* | synthèse des articles; figures de style (métaphore, comparaison); lexique du goût | ✅ b2.2/unit-02 |
 | 13 | Convictions & campaigns | D7 *Convictions* | la mise en relief (approfondissement); lexique de l'élection et de l'engagement | ⬜ |
 | 14 | Verbal adjectives & nuance | D7 *Convictions* | gérondif / participe présent / adjectif verbal; place et sens des adjectifs | ⬜ |
 | 15 | Claims & disagreement | D8 *Singularités* | pronoms indéfinis (synthèse); lexique revendication/désaccord; registres de langue | ⬜ |

@@ -1,0 +1,427 @@
+{
+  "schemaVersion": 1,
+  "unitId": "b2.2/unit-01-condition",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "The special one: « Au cas où la sauce ___ trop épaisse, ajoutez du lait. »",
+      "options": [
+        {
+          "id": "a",
+          "text": "serait"
+        },
+        {
+          "id": "b",
+          "text": "soit"
+        },
+        {
+          "id": "c",
+          "text": "est"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Au cas où is the structure that takes the CONDITIONNEL directly: au cas où elle serait…"
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "« Nous sortirons, à moins qu'il ne ___ . »",
+      "options": [
+        {
+          "id": "a",
+          "text": "pleuve"
+        },
+        {
+          "id": "b",
+          "text": "pleut"
+        },
+        {
+          "id": "c",
+          "text": "pleuvra"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "À moins que + subjonctif: à moins qu'il ne pleuve."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Same subject — which form?",
+      "inputMode": "dropdown",
+      "template": "Tu peux reprendre du gâteau, à condition {{b1}} laisser aux autres.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "d'en"
+          ],
+          "options": [
+            "d'en",
+            "que tu en",
+            "à en"
+          ]
+        }
+      ],
+      "explanation": "Same subject → à condition de + infinitive: à condition d'en laisser."
+    },
+    {
+      "id": "ex-mc-3",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "In « à moins qu'il ne pleuve », the « ne »…",
+      "options": [
+        {
+          "id": "a",
+          "text": "is NOT a negation — it's the formal ne explétif"
+        },
+        {
+          "id": "b",
+          "text": "means it will definitely not rain"
+        },
+        {
+          "id": "c",
+          "text": "is a spelling mistake"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "The ne explétif adds polish, not negation: à moins qu'il ne pleuve = unless it rains."
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Except if…",
+      "inputMode": "dropdown",
+      "template": "Je viendrai dîner, {{b1}} le train est annulé.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "sauf si"
+          ],
+          "options": [
+            "sauf si",
+            "à moins que",
+            "au cas où"
+          ]
+        }
+      ],
+      "explanation": "Sauf si + indicatif: sauf si le train est annulé."
+    },
+    {
+      "id": "ex-fb-3",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Insert the formal little word (one word).",
+      "inputMode": "typed",
+      "template": "Nous mangerons dehors, à moins que vous {{b1}} préfériez la salle.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "ne"
+          ]
+        }
+      ],
+      "explanation": "À moins que + ne explétif: à moins que vous ne préfériez…"
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each kitchen word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "assaisonner",
+          "right": "to season"
+        },
+        {
+          "id": "p2",
+          "left": "fade",
+          "right": "bland"
+        },
+        {
+          "id": "p3",
+          "left": "savoureux",
+          "right": "tasty"
+        },
+        {
+          "id": "p4",
+          "left": "épais",
+          "right": "thick"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"Taste the sauce, otherwise it will be bland.\"",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Goûte"
+        },
+        {
+          "id": "t2",
+          "text": "la"
+        },
+        {
+          "id": "t3",
+          "text": "sauce,"
+        },
+        {
+          "id": "t4",
+          "text": "sinon"
+        },
+        {
+          "id": "t5",
+          "text": "elle"
+        },
+        {
+          "id": "t6",
+          "text": "sera"
+        },
+        {
+          "id": "t7",
+          "text": "fade"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7"
+      ]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen to the chef's advice. What should you do, and when?",
+      "audio": "audio/b2.2/unit-01-condition/listen-1.mp3",
+      "transcript": "Servez le plat bien chaud ; au cas où il serait trop fade, assaisonnez davantage.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Serve it hot, and season more in case it's too bland"
+        },
+        {
+          "id": "b",
+          "text": "Serve it cold, unless it's too salty"
+        },
+        {
+          "id": "c",
+          "text": "Never season the dish after cooking"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "« au cas où il serait trop fade, assaisonnez davantage » — in-case advice with the conditional."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read the restaurant plan and answer both questions.",
+      "passageFr": "On dînera en terrasse samedi, à moins qu'il ne fasse trop froid. J'ai réservé pour vingt heures — autrement, avec la fête du quartier, nous aurions attendu une heure. Tu peux inviter ta sœur, à condition qu'elle prévienne avant vendredi. Sauf si tu préfères, bien sûr, qu'on reste tous à la maison !",
+      "passageEn": "We'll dine on the terrace on Saturday, unless it's too cold. I booked for 8 p.m. — otherwise, with the neighbourhood festival, we'd have waited an hour. You can invite your sister, provided she lets us know before Friday. Except if you'd rather we all stayed home, of course!",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "Under what condition can the sister come?",
+          "options": [
+            {
+              "id": "a",
+              "text": "She must let them know before Friday"
+            },
+            {
+              "id": "b",
+              "text": "She must book the table herself"
+            },
+            {
+              "id": "c",
+              "text": "She must bring a dessert"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        },
+        {
+          "id": "q2",
+          "prompt": "Why did the writer book for 8 p.m.?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Otherwise they would have waited an hour because of the festival"
+            },
+            {
+              "id": "b",
+              "text": "Because the terrace closes at 9"
+            },
+            {
+              "id": "c",
+              "text": "Because the sister works late"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex-mc-4",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Which sentence is built correctly?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Prends ton manteau au cas où il ferait froid."
+        },
+        {
+          "id": "b",
+          "text": "Prends ton manteau au cas où il fasse froid."
+        },
+        {
+          "id": "c",
+          "text": "Prends ton manteau au cas où il fera froid."
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Au cas où + conditionnel: au cas où il ferait froid."
+    },
+    {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/b2.2/unit-01-condition/example-ex-1.mp3",
+      "transcript": "Au cas où la sauce serait trop épaisse, ajoutez du lait.",
+      "options": [
+        {
+          "id": "a",
+          "text": "In case the sauce is too thick, add some milk."
+        },
+        {
+          "id": "b",
+          "text": "We'll dine on the terrace, unless it rains."
+        },
+        {
+          "id": "c",
+          "text": "Have more cake, provided you leave some for the others."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « au cas où (+ conditionnel) » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "in case"
+        },
+        {
+          "id": "b",
+          "text": "unless"
+        },
+        {
+          "id": "c",
+          "text": "provided that"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "au cas où (+ conditionnel) = in case."
+    },
+    {
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "Goûte la sauce, {{b1}} elle sera fade.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "sinon"
+          ]
+        }
+      ],
+      "explanation": "« Goûte la sauce, sinon elle sera fade. » — otherwise / or else."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "sinon",
+          "right": "otherwise / or else"
+        },
+        {
+          "id": "p2",
+          "left": "autrement",
+          "right": "otherwise"
+        },
+        {
+          "id": "p3",
+          "left": "une recette",
+          "right": "a recipe"
+        },
+        {
+          "id": "p4",
+          "left": "une sauce",
+          "right": "a sauce"
+        }
+      ]
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "Au cas où la sauce serait trop épaisse, ajoutez du lait.",
+      "targetEn": "In case the sauce is too thick, add some milk.",
+      "audio": "audio/b2.2/unit-01-condition/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "Reprends du gâteau, à condition d'en laisser aux autres.",
+      "targetEn": "Have more cake, provided you leave some for the others.",
+      "audio": "audio/b2.2/unit-01-condition/example-ex-3.mp3"
+    }
+  ]
+}

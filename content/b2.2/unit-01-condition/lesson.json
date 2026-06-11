@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "b2.2/unit-01-condition",
+  "level": "b2.2",
+  "unitNumber": 1,
+  "slug": "unit-01-condition",
+  "title": "Condition: Beyond Si",
+  "titleFr": "L'expression de la condition et de l'hypothèse",
+  "cefrDescriptors": [
+    "Can express conditions with the full B2 toolkit (au cas où, à moins que, à condition que, sauf si, sinon).",
+    "Can recognise and produce the ne explétif.",
+    "Can follow and give cooking instructions."
+  ],
+  "skills": ["reading", "listening", "writing", "speaking"],
+  "estimatedMinutes": 60,
+  "concept": "Welcome to b2.2 — Dossier 6 is Plaisirs, and it opens in the kitchen. Recipes and restaurant plans run on conditions, and B2 finally frees you from building every condition with si.\n\nTHE CONDITION TOOLKIT — each tool with its own grammar:\n  • au cas où + CONDITIONNEL (in case): Au cas où la sauce serait trop épaisse, ajoutez du lait. (The one French structure where the conditional follows directly!)\n  • à moins que + SUBJONCTIF (unless): Nous dînerons dehors, à moins qu'il ne pleuve. — same subject? à moins de + infinitif: à moins d'avoir réservé.\n  • à condition que + SUBJONCTIF (provided that): Tu peux venir à condition que tes devoirs soient finis. — same subject? à condition de + infinitif: à condition d'en laisser aux autres.\n  • sauf si + INDICATIF (except if): Le plat est réussi, sauf si on oublie le sel.\n  • sinon / autrement (otherwise) — the condition compressed into one word: Goûte la sauce, sinon elle sera fade.\n\nLE NE EXPLÉTIF — the little ne that ISN'T a negation. After à moins que (and avant que, craindre que), polished French slips in a ne with no negative meaning:\n  à moins qu'il NE pleuve = unless it rains (it is NOT 'unless it doesn't rain'!)\n  It's optional and formal — recognise it always, produce it to shine at the exam.\n\nTHE KITCHEN KIT: une recette (a recipe), assaisonner (to season), goûter (to taste), une sauce épaisse (thick), un plat savoureux (tasty) vs fade (bland).\n\nPut it together like a chef's note: « Servez le plat bien chaud, sinon il perd tout. Au cas où il serait trop fade, assaisonnez davantage — et goûtez toujours avant, à moins que vous ne fassiez entièrement confiance à la recette ! »\n\nYour turn: write a two-line kitchen tip — one au cas où + conditionnel, one à moins que + ne + subjonctif.",
+  "vocabulary": [
+    { "id": "au-cas-ou", "fr": "au cas où (+ conditionnel)", "en": "in case", "pos": "conjunction", "exampleFr": "Prends un parapluie au cas où il pleuvrait.", "exampleEn": "Take an umbrella in case it rains.", "audio": "audio/b2.2/unit-01-condition/vocab-au-cas-ou.mp3", "voice": "denise" },
+    { "id": "a-moins-que", "fr": "à moins que (+ ne + subjonctif)", "en": "unless", "pos": "conjunction", "exampleFr": "On sort, à moins qu'il ne pleuve.", "exampleEn": "We're going out, unless it rains.", "audio": "audio/b2.2/unit-01-condition/vocab-a-moins-que.mp3", "voice": "henri" },
+    { "id": "a-condition-que", "fr": "à condition que (+ subjonctif)", "en": "provided that", "pos": "conjunction", "exampleFr": "Viens, à condition que tu sois à l'heure.", "exampleEn": "Come, provided you're on time.", "audio": "audio/b2.2/unit-01-condition/vocab-a-condition-que.mp3", "voice": "denise" },
+    { "id": "sauf-si", "fr": "sauf si (+ indicatif)", "en": "except if", "pos": "conjunction", "exampleFr": "Je viendrai, sauf si le train est annulé.", "exampleEn": "I'll come, except if the train is cancelled.", "audio": "audio/b2.2/unit-01-condition/vocab-sauf-si.mp3", "voice": "henri" },
+    { "id": "sinon", "fr": "sinon", "en": "otherwise / or else", "pos": "adverb", "exampleFr": "Goûte la sauce, sinon elle sera fade.", "exampleEn": "Taste the sauce, otherwise it'll be bland.", "audio": "audio/b2.2/unit-01-condition/vocab-sinon.mp3", "voice": "denise" },
+    { "id": "autrement", "fr": "autrement", "en": "otherwise", "pos": "adverb", "exampleFr": "Réserve, autrement on attendra une heure.", "exampleEn": "Book ahead; otherwise we'll wait an hour.", "audio": "audio/b2.2/unit-01-condition/vocab-autrement.mp3", "voice": "henri" },
+    { "id": "recette", "fr": "une recette", "en": "a recipe", "pos": "noun", "exampleFr": "C'est la recette de ma grand-mère.", "exampleEn": "It's my grandmother's recipe.", "audio": "audio/b2.2/unit-01-condition/vocab-recette.mp3", "voice": "denise" },
+    { "id": "sauce", "fr": "une sauce", "en": "a sauce", "pos": "noun", "exampleFr": "La sauce accompagne le poisson.", "exampleEn": "The sauce goes with the fish.", "audio": "audio/b2.2/unit-01-condition/vocab-sauce.mp3", "voice": "henri" },
+    { "id": "epais", "fr": "épais / épaisse", "en": "thick", "pos": "adjective", "exampleFr": "Une sauce trop épaisse.", "exampleEn": "A sauce that's too thick.", "audio": "audio/b2.2/unit-01-condition/vocab-epais.mp3", "voice": "denise" },
+    { "id": "assaisonner", "fr": "assaisonner", "en": "to season", "pos": "verb", "exampleFr": "Assaisonnez avec sel et poivre.", "exampleEn": "Season with salt and pepper.", "audio": "audio/b2.2/unit-01-condition/vocab-assaisonner.mp3", "voice": "henri" },
+    { "id": "gouter", "fr": "goûter", "en": "to taste", "pos": "verb", "exampleFr": "Goûte avant de servir !", "exampleEn": "Taste before serving!", "audio": "audio/b2.2/unit-01-condition/vocab-gouter.mp3", "voice": "denise" },
+    { "id": "savoureux", "fr": "savoureux / savoureuse", "en": "tasty / flavoursome", "pos": "adjective", "exampleFr": "Un plat simple mais savoureux.", "exampleEn": "A simple but flavoursome dish.", "audio": "audio/b2.2/unit-01-condition/vocab-savoureux.mp3", "voice": "henri" },
+    { "id": "fade", "fr": "fade", "en": "bland", "pos": "adjective", "exampleFr": "Sans épices, c'est fade.", "exampleEn": "Without spices, it's bland.", "audio": "audio/b2.2/unit-01-condition/vocab-fade.mp3", "voice": "denise" },
+    { "id": "plat", "fr": "un plat", "en": "a dish", "pos": "noun", "exampleFr": "Le plat du jour est délicieux.", "exampleEn": "The dish of the day is delicious.", "audio": "audio/b2.2/unit-01-condition/vocab-plat.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "Au cas où la sauce serait trop épaisse, ajoutez du lait.", "en": "In case the sauce is too thick, add some milk.", "audio": "audio/b2.2/unit-01-condition/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "Nous dînerons en terrasse, à moins qu'il ne pleuve.", "en": "We'll dine on the terrace, unless it rains.", "audio": "audio/b2.2/unit-01-condition/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "Reprends du gâteau, à condition d'en laisser aux autres.", "en": "Have more cake, provided you leave some for the others.", "audio": "audio/b2.2/unit-01-condition/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "Le plat est réussi, sauf si on oublie de l'assaisonner.", "en": "The dish works, except if you forget to season it.", "audio": "audio/b2.2/unit-01-condition/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "Goûte la sauce, sinon elle sera trop fade.", "en": "Taste the sauce; otherwise it'll be too bland.", "audio": "audio/b2.2/unit-01-condition/example-ex-5.mp3", "voice": "denise" },
+    { "id": "ex-6", "fr": "Réserve une table, autrement nous attendrons une heure.", "en": "Book a table; otherwise we'll wait an hour.", "audio": "audio/b2.2/unit-01-condition/example-ex-6.mp3", "voice": "henri" }
+  ]
+}

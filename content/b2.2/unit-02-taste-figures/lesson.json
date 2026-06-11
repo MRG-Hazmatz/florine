@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "b2.2/unit-02-taste-figures",
+  "level": "b2.2",
+  "unitNumber": 2,
+  "slug": "unit-02-taste-figures",
+  "title": "Taste & the Music of Words",
+  "titleFr": "Saveurs et figures de style",
+  "cefrDescriptors": [
+    "Can describe tastes and textures with a gourmet's precision.",
+    "Can recognise and craft comparisons and metaphors.",
+    "Can choose the right article (le / du / un) in food talk."
+  ],
+  "skills": ["reading", "listening", "writing", "speaking"],
+  "estimatedMinutes": 60,
+  "concept": "Second half of Plaisirs: how the French WRITE pleasure. From Proust's madeleine to a restaurant review, sensory writing runs on three machines: the taste lexicon, the figures of style, and — surprisingly — the humble article.\n\nLA PALETTE DES SAVEURS — the four bases and their textures:\n  • sucré (sweet), salé (salty), amer / amère (bitter), acide (sour) — plus épicé (spicy)\n  • textures: fondant (melting), croustillant (crispy), moelleux (soft and tender)\n  • the verdicts: exquis (exquisite), se régaler (to have a feast): On s'est régalés !\n\nLES FIGURES DE STYLE — the two every B2 reader must tell apart:\n  • la comparaison keeps the bridge-word (comme, tel que, pareil à, on dirait): Ce gâteau fond COMME la neige au soleil.\n  • la métaphore burns the bridge — the image IS the thing: Ce dessert est un nuage. · Une symphonie de saveurs.\n  Writers use them to faire appel aux sens (appeal to the senses) and évoquer (to evoke) memories — Proust's madeleine evokes his whole childhood.\n\nLES ARTICLES, the gourmet synthesis — three ways to say chocolate, three meanings:\n  • LE chocolat — the category, loves and generalities: J'adore le chocolat.\n  • DU chocolat — an unmeasured amount: Je voudrais du chocolat chaud. (de la sauce, des épices)\n  • UN chocolat — one unit: Prends un chocolat dans la boîte.\n  And the negation trap: après pas, du/de la/des → DE: Je ne veux pas DE sucre.\n\nPut it together like a critic worth reading: « LA tarte au citron est UNE merveille : une pâte croustillante, une crème fondante, à peine acide — un petit nuage. On s'est régalés, même s'il n'y avait plus DE café. »\n\nYour turn: describe your favourite dish in two lines — one comparison or metaphor, and all three articles used correctly.",
+  "vocabulary": [
+    { "id": "saveur", "fr": "une saveur", "en": "a flavour", "pos": "noun", "exampleFr": "Ce plat mêle plusieurs saveurs.", "exampleEn": "This dish blends several flavours.", "audio": "audio/b2.2/unit-02-taste-figures/vocab-saveur.mp3", "voice": "denise" },
+    { "id": "sucre", "fr": "sucré(e)", "en": "sweet", "pos": "adjective", "exampleFr": "Un dessert très sucré.", "exampleEn": "A very sweet dessert.", "audio": "audio/b2.2/unit-02-taste-figures/vocab-sucre.mp3", "voice": "henri" },
+    { "id": "sale", "fr": "salé(e)", "en": "salty / savoury", "pos": "adjective", "exampleFr": "Je préfère le salé au sucré.", "exampleEn": "I prefer savoury to sweet.", "audio": "audio/b2.2/unit-02-taste-figures/vocab-sale.mp3", "voice": "denise" },
+    { "id": "amer", "fr": "amer / amère", "en": "bitter", "pos": "adjective", "exampleFr": "Le café noir est amer.", "exampleEn": "Black coffee is bitter.", "audio": "audio/b2.2/unit-02-taste-figures/vocab-amer.mp3", "voice": "henri" },
+    { "id": "acide", "fr": "acide", "en": "sour / tart", "pos": "adjective", "exampleFr": "Le citron est trop acide pour lui.", "exampleEn": "Lemon is too sour for him.", "audio": "audio/b2.2/unit-02-taste-figures/vocab-acide.mp3", "voice": "denise" },
+    { "id": "epice", "fr": "épicé(e)", "en": "spicy", "pos": "adjective", "exampleFr": "Une cuisine épicée mais fine.", "exampleEn": "Spicy but refined cooking.", "audio": "audio/b2.2/unit-02-taste-figures/vocab-epice.mp3", "voice": "henri" },
+    { "id": "fondant", "fr": "fondant(e)", "en": "melting (texture)", "pos": "adjective", "exampleFr": "Un chocolat fondant à cœur.", "exampleEn": "Chocolate with a melting centre.", "audio": "audio/b2.2/unit-02-taste-figures/vocab-fondant.mp3", "voice": "denise" },
+    { "id": "croustillant", "fr": "croustillant(e)", "en": "crispy", "pos": "adjective", "exampleFr": "Une baguette bien croustillante.", "exampleEn": "A nice crispy baguette.", "audio": "audio/b2.2/unit-02-taste-figures/vocab-croustillant.mp3", "voice": "henri" },
+    { "id": "se-regaler", "fr": "se régaler", "en": "to have a feast / love it", "pos": "verb", "exampleFr": "On s'est régalés hier soir !", "exampleEn": "We had a feast last night!", "audio": "audio/b2.2/unit-02-taste-figures/vocab-se-regaler.mp3", "voice": "denise" },
+    { "id": "exquis", "fr": "exquis(e)", "en": "exquisite", "pos": "adjective", "exampleFr": "Le dessert était exquis.", "exampleEn": "The dessert was exquisite.", "audio": "audio/b2.2/unit-02-taste-figures/vocab-exquis.mp3", "voice": "henri" },
+    { "id": "comparaison", "fr": "une comparaison", "en": "a comparison (simile)", "pos": "noun", "exampleFr": "« Fond comme neige » est une comparaison.", "exampleEn": "\"Melts like snow\" is a comparison.", "audio": "audio/b2.2/unit-02-taste-figures/vocab-comparaison.mp3", "voice": "denise" },
+    { "id": "metaphore", "fr": "une métaphore", "en": "a metaphor", "pos": "noun", "exampleFr": "« Ce dessert est un nuage » : une métaphore.", "exampleEn": "\"This dessert is a cloud\": a metaphor.", "audio": "audio/b2.2/unit-02-taste-figures/vocab-metaphore.mp3", "voice": "henri" },
+    { "id": "evoquer", "fr": "évoquer", "en": "to evoke", "pos": "verb", "exampleFr": "Ce parfum évoque mon enfance.", "exampleEn": "This scent evokes my childhood.", "audio": "audio/b2.2/unit-02-taste-figures/vocab-evoquer.mp3", "voice": "denise" },
+    { "id": "moelleux", "fr": "moelleux / moelleuse", "en": "soft / tender (texture)", "pos": "adjective", "exampleFr": "Un gâteau moelleux au centre.", "exampleEn": "A cake soft in the middle.", "audio": "audio/b2.2/unit-02-taste-figures/vocab-moelleux.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "Ce gâteau fond comme la neige au soleil.", "en": "This cake melts like snow in the sun.", "audio": "audio/b2.2/unit-02-taste-figures/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "Ce dessert est un nuage.", "en": "This dessert is a cloud.", "audio": "audio/b2.2/unit-02-taste-figures/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "Cette odeur évoque les étés de mon enfance.", "en": "This smell evokes my childhood summers.", "audio": "audio/b2.2/unit-02-taste-figures/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "J'adore le chocolat, mais ce soir je voudrais du chocolat chaud.", "en": "I love chocolate, but tonight I'd like some hot chocolate.", "audio": "audio/b2.2/unit-02-taste-figures/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "La pâte est croustillante et la crème à peine acide.", "en": "The pastry is crispy and the cream just slightly tart.", "audio": "audio/b2.2/unit-02-taste-figures/example-ex-5.mp3", "voice": "denise" },
+    { "id": "ex-6", "fr": "On s'est régalés : tout était exquis.", "en": "We feasted: everything was exquisite.", "audio": "audio/b2.2/unit-02-taste-figures/example-ex-6.mp3", "voice": "henri" }
+  ]
+}
