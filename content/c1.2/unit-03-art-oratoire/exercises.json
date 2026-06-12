@@ -1,0 +1,457 @@
+{
+  "schemaVersion": 1,
+  "unitId": "c1.2/unit-03-art-oratoire",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "« Moi président, je… Moi président, je… » — which device?",
+      "options": [
+        {
+          "id": "a",
+          "text": "une anaphore"
+        },
+        {
+          "id": "b",
+          "text": "une litote"
+        },
+        {
+          "id": "c",
+          "text": "une gradation"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "The same opening hammered — anaphora, fifteen times in the famous 2012 debate."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "« Liberté, Égalité, Fraternité » owes part of its power to…",
+      "options": [
+        {
+          "id": "a",
+          "text": "le rythme ternaire — three feels true to French ears"
+        },
+        {
+          "id": "b",
+          "text": "its rhyme scheme"
+        },
+        {
+          "id": "c",
+          "text": "being a question"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "The rule of three: two feels short, four feels long, three lands."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "A question that is an answer.",
+      "inputMode": "dropdown",
+      "template": "« Allons-nous rester les bras croisés ? » est une question {{b1}}.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "rhétorique"
+          ],
+          "options": [
+            "rhétorique",
+            "indiscrète",
+            "fermée"
+          ]
+        }
+      ],
+      "explanation": "Nobody is expected to answer; everybody is expected to agree."
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Climbing intensity.",
+      "inputMode": "dropdown",
+      "template": "« C'est un abus, c'est une faute, c'est un crime » : une {{b1}}.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "gradation"
+          ],
+          "options": [
+            "gradation",
+            "litote",
+            "digression"
+          ]
+        }
+      ],
+      "explanation": "Each step harder than the last — gradation."
+    },
+    {
+      "id": "ex-mc-3",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "The C1 analysis grid for any device:",
+      "options": [
+        {
+          "id": "a",
+          "text": "device + effect + intention"
+        },
+        {
+          "id": "b",
+          "text": "device + page number"
+        },
+        {
+          "id": "c",
+          "text": "effect + applause volume"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Name it, say what it does, say why the orator wants that."
+    },
+    {
+      "id": "ex-fb-3",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Hammer the word (one verb, infinitive).",
+      "inputMode": "typed",
+      "template": "L'oratrice ne cesse de {{b1}} le mot « justice ».",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "marteler"
+          ]
+        }
+      ],
+      "explanation": "Marteler = to hammer home, the orator's percussion."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each device to its signature example.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "l'anaphore",
+          "right": "« Moi président… moi président… »"
+        },
+        {
+          "id": "p2",
+          "left": "l'apostrophe",
+          "right": "« Mes chers compatriotes… »"
+        },
+        {
+          "id": "p3",
+          "left": "le rythme ternaire",
+          "right": "« Liberté, égalité, fraternité »"
+        },
+        {
+          "id": "p4",
+          "left": "la gradation",
+          "right": "« un abus, une faute, un crime »"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"Her words galvanised the crowd.\"",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Ses"
+        },
+        {
+          "id": "t2",
+          "text": "mots"
+        },
+        {
+          "id": "t3",
+          "text": "ont"
+        },
+        {
+          "id": "t4",
+          "text": "galvanisé"
+        },
+        {
+          "id": "t5",
+          "text": "la"
+        },
+        {
+          "id": "t6",
+          "text": "foule"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen to the speech fragment. Which two devices stack?",
+      "audio": "audio/c1.2/unit-03-art-oratoire/listen-1.mp3",
+      "transcript": "Nous avons attendu, nous avons espéré, nous avons agi.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Anaphora (nous avons…) carried by ternary rhythm (three clauses)"
+        },
+        {
+          "id": "b",
+          "text": "A litote inside a euphemism"
+        },
+        {
+          "id": "c",
+          "text": "Two rhetorical questions"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Three identical openings — anaphora and the rule of three working together."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read this speech-analysis paragraph and answer both questions.",
+      "passageFr": "Le discours s'ouvre sur une apostrophe — « Vous, les invisibles » — qui fait exister son public avant de le défendre. Suit une anaphore en « on nous a dit », martelée quatre fois : l'orateur installe la litanie des promesses trahies. La chute, elle, tient en trois mots — « plus jamais ça » — où le rythme ternaire transforme la colère en mot d'ordre.",
+      "passageEn": "The speech opens with an apostrophe — \"You, the invisible ones\" — which brings its audience into existence before defending it. Then comes an anaphora on \"we were told\", hammered four times: the orator sets up the litany of betrayed promises. The closing line holds in three words — \"never again\" — where ternary rhythm turns anger into a rallying cry.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "What does the opening apostrophe DO (effect + intention)?",
+          "options": [
+            {
+              "id": "a",
+              "text": "It brings the audience into existence before defending it"
+            },
+            {
+              "id": "b",
+              "text": "It apologises for the speech's length"
+            },
+            {
+              "id": "c",
+              "text": "It quotes a famous poem"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        },
+        {
+          "id": "q2",
+          "prompt": "What does the anaphora « on nous a dit » install?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The litany of betrayed promises"
+            },
+            {
+              "id": "b",
+              "text": "A list of thanks"
+            },
+            {
+              "id": "c",
+              "text": "The speaker's biography"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex-mc-4",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What no transcript shows, but every great orator uses:",
+      "options": [
+        {
+          "id": "a",
+          "text": "le silence — the pause that lands the blow"
+        },
+        {
+          "id": "b",
+          "text": "footnotes"
+        },
+        {
+          "id": "c",
+          "text": "smaller font sizes"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Delivery is half the art: the pause, the hammered word, the eye on the room."
+    },
+    {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/c1.2/unit-03-art-oratoire/example-ex-1.mp3",
+      "transcript": "Moi présidente, je protégerai ; moi présidente, j'écouterai.",
+      "options": [
+        {
+          "id": "a",
+          "text": "As president, I will protect; as president, I will listen."
+        },
+        {
+          "id": "b",
+          "text": "Are we going to stand idly by?"
+        },
+        {
+          "id": "c",
+          "text": "It is an abuse, it is a fault, it is a crime."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « l'art oratoire (m.) » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "oratory / public speaking"
+        },
+        {
+          "id": "b",
+          "text": "an orator"
+        },
+        {
+          "id": "c",
+          "text": "anaphora"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "l'art oratoire (m.) = oratory / public speaking."
+    },
+    {
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "« Mes chers compatriotes » est une {{b1}}.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "apostrophe"
+          ]
+        }
+      ],
+      "explanation": "« « Mes chers compatriotes » est une apostrophe. » — an apostrophe."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "le rythme ternaire",
+          "right": "ternary rhythm"
+        },
+        {
+          "id": "p2",
+          "left": "une apostrophe",
+          "right": "an apostrophe"
+        },
+        {
+          "id": "p3",
+          "left": "une gradation",
+          "right": "gradation"
+        },
+        {
+          "id": "p4",
+          "left": "marteler",
+          "right": "to hammer home"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “Are we going to stand idly by?”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Allons-nous"
+        },
+        {
+          "id": "t2",
+          "text": "rester"
+        },
+        {
+          "id": "t3",
+          "text": "les"
+        },
+        {
+          "id": "t4",
+          "text": "bras"
+        },
+        {
+          "id": "t5",
+          "text": "croisés"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5"
+      ]
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "Moi présidente, je protégerai ; moi présidente, j'écouterai.",
+      "targetEn": "As president, I will protect; as president, I will listen.",
+      "audio": "audio/c1.2/unit-03-art-oratoire/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "C'est un abus, c'est une faute, c'est un crime.",
+      "targetEn": "It is an abuse, it is a fault, it is a crime.",
+      "audio": "audio/c1.2/unit-03-art-oratoire/example-ex-3.mp3"
+    }
+  ]
+}

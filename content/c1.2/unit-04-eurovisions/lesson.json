@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "c1.2/unit-04-eurovisions",
+  "level": "c1.2",
+  "unitNumber": 4,
+  "slug": "unit-04-eurovisions",
+  "title": "Eurovisions",
+  "titleFr": "L'Europe : institutions, langues, sentiment",
+  "cefrDescriptors": [
+    "Can discuss the European project with its proper lexicon (traité, directive, souveraineté, adhésion).",
+    "Can decode legislative formulations and the rhetoric of European belonging."
+  ],
+  "skills": ["reading", "listening", "writing", "speaking"],
+  "estimatedMinutes": 70,
+  "concept": "Dossier 6's theme: l'Europe — its institutions, its twenty-four official languages, and the feeling (or doubt) of belonging. C1 texts about Europe assume you know the machine room.\n\nTHE MACHINE ROOM — la construction européenne in ten words:\n  • un État membre joins by l'adhésion, after signing un traité (Lisbonne, Rome…)\n  • le Parlement européen siège à Strasbourg (siéger = to sit, institutionally)\n  • une directive must be transposed into national law — the word behind half of French political quarrels\n  • le compromis — Europe's native genre: nobody wins, everybody signs\n  • la souveraineté — what eurosceptics fear losing; supranational — what they fear becoming\n  • l'euroscepticisme — doubt as a political family\n\nDECODING LEGISLATIVE FORMULATIONS — the dossier's reading skill. Treaty language hedges by design:\n  « Les États membres s'efforcent de promouvoir… » (s'efforcer — our old escape hatch, now at treaty scale!)\n  « le cas échéant » (where applicable) · « dans le respect des compétences nationales » (the sovereignty disclaimer)\n  The C1 move: spot what the formulation OBLIGES vs what it merely ENCOURAGES — devoir vs s'efforcer is a continent of difference.\n\nTHE MULTILINGUALISM ANGLE: l'UE a 24 langues officielles ; le multilinguisme is policy, interpretation its daily miracle. And French, langue de travail, fights its corner — a theme dear to every DALF jury.\n\nPut it together like a seminar opener: « L'Union est née d'un compromis et vit de directives. Quand un traité écrit que les États « s'efforcent » d'agir, le juriste lit : rien n'oblige. Entre adhésion des peuples et adhésion des États, la construction européenne cherche encore sa langue — elle en a pourtant vingt-quatre. »\n\nYour turn: write one treaty-style sentence with an escape hatch, then its binding version (s'efforcer de → devoir).",
+  "vocabulary": [
+    { "id": "construction-euro", "fr": "la construction européenne", "en": "European integration", "pos": "noun", "exampleFr": "La construction européenne avance par crises.", "exampleEn": "European integration advances through crises.", "audio": "audio/c1.2/unit-04-eurovisions/vocab-construction-euro.mp3", "voice": "denise" },
+    { "id": "etat-membre", "fr": "un État membre", "en": "a member state", "pos": "noun", "exampleFr": "Vingt-sept États membres siègent au Conseil.", "exampleEn": "Twenty-seven member states sit on the Council.", "audio": "audio/c1.2/unit-04-eurovisions/vocab-etat-membre.mp3", "voice": "henri" },
+    { "id": "traite", "fr": "un traité", "en": "a treaty", "pos": "noun", "exampleFr": "Le traité de Lisbonne date de 2007.", "exampleEn": "The Lisbon Treaty dates from 2007.", "audio": "audio/c1.2/unit-04-eurovisions/vocab-traite.mp3", "voice": "denise" },
+    { "id": "directive", "fr": "une directive", "en": "a directive (EU law)", "pos": "noun", "exampleFr": "La directive doit être transposée en droit national.", "exampleEn": "The directive must be transposed into national law.", "audio": "audio/c1.2/unit-04-eurovisions/vocab-directive.mp3", "voice": "henri" },
+    { "id": "souverainete", "fr": "la souveraineté", "en": "sovereignty", "pos": "noun", "exampleFr": "Le débat porte sur la souveraineté partagée.", "exampleEn": "The debate is about shared sovereignty.", "audio": "audio/c1.2/unit-04-eurovisions/vocab-souverainete.mp3", "voice": "denise" },
+    { "id": "adhesion", "fr": "l'adhésion (f.)", "en": "accession / joining", "pos": "noun", "exampleFr": "L'adhésion a demandé dix ans de négociations.", "exampleEn": "Accession took ten years of negotiations.", "audio": "audio/c1.2/unit-04-eurovisions/vocab-adhesion.mp3", "voice": "henri" },
+    { "id": "sieger", "fr": "siéger", "en": "to sit (institutionally)", "pos": "verb", "exampleFr": "Le Parlement siège à Strasbourg.", "exampleEn": "Parliament sits in Strasbourg.", "audio": "audio/c1.2/unit-04-eurovisions/vocab-sieger.mp3", "voice": "denise" },
+    { "id": "compromis", "fr": "un compromis", "en": "a compromise", "pos": "noun", "exampleFr": "L'Europe est l'art du compromis.", "exampleEn": "Europe is the art of compromise.", "audio": "audio/c1.2/unit-04-eurovisions/vocab-compromis.mp3", "voice": "henri" },
+    { "id": "multilinguisme", "fr": "le multilinguisme", "en": "multilingualism", "pos": "noun", "exampleFr": "Le multilinguisme est inscrit dans les traités.", "exampleEn": "Multilingualism is written into the treaties.", "audio": "audio/c1.2/unit-04-eurovisions/vocab-multilinguisme.mp3", "voice": "denise" },
+    { "id": "euroscepticisme", "fr": "l'euroscepticisme (m.)", "en": "euroscepticism", "pos": "noun", "exampleFr": "L'euroscepticisme progresse par vagues.", "exampleEn": "Euroscepticism advances in waves.", "audio": "audio/c1.2/unit-04-eurovisions/vocab-euroscepticisme.mp3", "voice": "henri" },
+    { "id": "supranational", "fr": "supranational(e)", "en": "supranational", "pos": "adjective", "exampleFr": "Une autorité supranationale inquiète certains.", "exampleEn": "A supranational authority worries some.", "audio": "audio/c1.2/unit-04-eurovisions/vocab-supranational.mp3", "voice": "denise" },
+    { "id": "le-cas-echeant", "fr": "le cas échéant", "en": "where applicable", "pos": "expression", "exampleFr": "Le cas échéant, l'État adapte sa législation.", "exampleEn": "Where applicable, the state adapts its legislation.", "audio": "audio/c1.2/unit-04-eurovisions/vocab-le-cas-echeant.mp3", "voice": "henri" },
+    { "id": "transposer", "fr": "transposer", "en": "to transpose (EU law)", "pos": "verb", "exampleFr": "La France a deux ans pour transposer le texte.", "exampleEn": "France has two years to transpose the text.", "audio": "audio/c1.2/unit-04-eurovisions/vocab-transposer.mp3", "voice": "denise" },
+    { "id": "langue-de-travail", "fr": "une langue de travail", "en": "a working language", "pos": "noun", "exampleFr": "Le français reste une langue de travail de l'UE.", "exampleEn": "French remains an EU working language.", "audio": "audio/c1.2/unit-04-eurovisions/vocab-langue-de-travail.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "La directive doit être transposée avant deux ans.", "en": "The directive must be transposed within two years.", "audio": "audio/c1.2/unit-04-eurovisions/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "Les États membres s'efforcent de promouvoir le multilinguisme.", "en": "Member states shall endeavour to promote multilingualism.", "audio": "audio/c1.2/unit-04-eurovisions/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "Le Parlement européen siège à Strasbourg.", "en": "The European Parliament sits in Strasbourg.", "audio": "audio/c1.2/unit-04-eurovisions/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "L'Europe est l'art du compromis : personne ne gagne, tout le monde signe.", "en": "Europe is the art of compromise: nobody wins, everybody signs.", "audio": "audio/c1.2/unit-04-eurovisions/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "Entre devoir et s'efforcer, il y a un continent de différence.", "en": "Between 'must' and 'shall endeavour' lies a continent of difference.", "audio": "audio/c1.2/unit-04-eurovisions/example-ex-5.mp3", "voice": "denise" },
+    { "id": "ex-6", "fr": "L'Union cherche encore sa langue — elle en a pourtant vingt-quatre.", "en": "The Union is still searching for its language — yet it has twenty-four.", "audio": "audio/c1.2/unit-04-eurovisions/example-ex-6.mp3", "voice": "henri" }
+  ]
+}

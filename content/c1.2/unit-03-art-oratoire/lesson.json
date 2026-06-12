@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "c1.2/unit-03-art-oratoire",
+  "level": "c1.2",
+  "unitNumber": 3,
+  "slug": "unit-03-art-oratoire",
+  "title": "L'Art Oratoire",
+  "titleFr": "Les procédés du discours",
+  "cefrDescriptors": [
+    "Can identify and deploy the orator's devices: anaphore, rhetorical question, ternary rhythm, apostrophe, gradation.",
+    "Can analyse what makes a great speech move a crowd."
+  ],
+  "skills": ["reading", "listening", "writing", "speaking"],
+  "estimatedMinutes": 70,
+  "concept": "Dossier 6 opens the orator's toolbox — the devices that turn sentences into speeches. France grades its public figures on l'art oratoire; the DALF quietly does too.\n\nTHE DEVICES — five to name on sight and use on purpose:\n  • L'ANAPHORE — the same opening, hammered: « Moi président, je… Moi président, je… » (15 times in one famous debate). Repetition is rhythm; rhythm is memory.\n  • LA QUESTION RHÉTORIQUE — a question that is an answer: « Allons-nous rester les bras croisés ? » Nobody is expected to reply; everybody is expected to agree.\n  • LE RYTHME TERNAIRE — French ears love threes: « Liberté, Égalité, Fraternité. » Two feels short, four feels long; three feels true.\n  • L'APOSTROPHE — naming the audience to bind it: « Mes chers compatriotes… » · « Vous, les jeunes… »\n  • LA GRADATION — climbing intensity: « C'est un abus, c'est une faute, c'est un crime. »\n\nDELIVERY — what no transcript shows: le silence (the pause that lands the blow), marteler (to hammer the key word), l'envolée (the lyrical take-off), and the eye that galvanise (galvaniser) rather than reads.\n\nANALYSING A SPEECH at C1 — the grid: device + effect + intention. Never just « il y a une anaphore » ; always « l'anaphore martèle l'engagement et installe un rythme de promesse ».\n\nPut it together — a 15-second speech using all five: « Mes chers amis (apostrophe), allons-nous nous taire ? (question rhétorique) Nous avons attendu, nous avons espéré, nous avons supplié (anaphore + gradation). Ce soir, trois mots suffisent : assez, debout, ensemble (rythme ternaire). »\n\nYour turn: take any cause and write ONE sentence with an anaphora — three « Nous… » clauses. Read it aloud; hear the drum.",
+  "vocabulary": [
+    { "id": "art-oratoire", "fr": "l'art oratoire (m.)", "en": "oratory / public speaking", "pos": "noun", "exampleFr": "L'art oratoire s'apprend.", "exampleEn": "Oratory can be learned.", "audio": "audio/c1.2/unit-03-art-oratoire/vocab-art-oratoire.mp3", "voice": "denise" },
+    { "id": "orateur", "fr": "un orateur / une oratrice", "en": "an orator", "pos": "noun", "exampleFr": "L'oratrice a captivé la salle.", "exampleEn": "The orator captivated the room.", "audio": "audio/c1.2/unit-03-art-oratoire/vocab-orateur.mp3", "voice": "henri" },
+    { "id": "anaphore", "fr": "une anaphore", "en": "anaphora (repeated opening)", "pos": "noun", "exampleFr": "« Moi président… » : l'anaphore célèbre.", "exampleEn": "\"Moi président…\": the famous anaphora.", "audio": "audio/c1.2/unit-03-art-oratoire/vocab-anaphore.mp3", "voice": "denise" },
+    { "id": "question-rhetorique", "fr": "une question rhétorique", "en": "a rhetorical question", "pos": "noun", "exampleFr": "Sa question rhétorique n'attendait personne.", "exampleEn": "His rhetorical question awaited no one.", "audio": "audio/c1.2/unit-03-art-oratoire/vocab-question-rhetorique.mp3", "voice": "henri" },
+    { "id": "rythme-ternaire", "fr": "le rythme ternaire", "en": "ternary rhythm (rule of three)", "pos": "noun", "exampleFr": "Liberté, égalité, fraternité : rythme ternaire.", "exampleEn": "Liberty, equality, fraternity: ternary rhythm.", "audio": "audio/c1.2/unit-03-art-oratoire/vocab-rythme-ternaire.mp3", "voice": "denise" },
+    { "id": "apostrophe-rh", "fr": "une apostrophe", "en": "an apostrophe (addressing the crowd)", "pos": "noun", "exampleFr": "« Mes chers compatriotes » est une apostrophe.", "exampleEn": "\"My dear compatriots\" is an apostrophe.", "audio": "audio/c1.2/unit-03-art-oratoire/vocab-apostrophe-rh.mp3", "voice": "henri" },
+    { "id": "gradation", "fr": "une gradation", "en": "gradation (climbing intensity)", "pos": "noun", "exampleFr": "Un abus, une faute, un crime : gradation.", "exampleEn": "An abuse, a fault, a crime: gradation.", "audio": "audio/c1.2/unit-03-art-oratoire/vocab-gradation.mp3", "voice": "denise" },
+    { "id": "marteler", "fr": "marteler", "en": "to hammer home", "pos": "verb", "exampleFr": "Elle martèle le même mot : justice.", "exampleEn": "She hammers the same word: justice.", "audio": "audio/c1.2/unit-03-art-oratoire/vocab-marteler.mp3", "voice": "henri" },
+    { "id": "envolee", "fr": "une envolée (lyrique)", "en": "a (lyrical) flight of oratory", "pos": "noun", "exampleFr": "Le discours s'achève sur une envolée.", "exampleEn": "The speech ends on a lyrical flight.", "audio": "audio/c1.2/unit-03-art-oratoire/vocab-envolee.mp3", "voice": "denise" },
+    { "id": "captiver", "fr": "captiver", "en": "to captivate", "pos": "verb", "exampleFr": "Un bon silence captive mieux qu'un cri.", "exampleEn": "A good pause captivates better than a shout.", "audio": "audio/c1.2/unit-03-art-oratoire/vocab-captiver.mp3", "voice": "henri" },
+    { "id": "galvaniser", "fr": "galvaniser", "en": "to galvanise", "pos": "verb", "exampleFr": "Ses mots ont galvanisé la foule.", "exampleEn": "Her words galvanised the crowd.", "audio": "audio/c1.2/unit-03-art-oratoire/vocab-galvaniser.mp3", "voice": "denise" },
+    { "id": "tribune", "fr": "une tribune", "en": "a rostrum / opinion piece", "pos": "noun", "exampleFr": "Il monte à la tribune sans notes.", "exampleEn": "He takes the rostrum without notes.", "audio": "audio/c1.2/unit-03-art-oratoire/vocab-tribune.mp3", "voice": "henri" },
+    { "id": "eloquence", "fr": "l'éloquence (f.)", "en": "eloquence", "pos": "noun", "exampleFr": "Les concours d'éloquence reviennent en force.", "exampleEn": "Eloquence contests are back in force.", "audio": "audio/c1.2/unit-03-art-oratoire/vocab-eloquence.mp3", "voice": "denise" },
+    { "id": "porter", "fr": "porter (une voix)", "en": "to carry (a voice)", "pos": "verb", "exampleFr": "Sa voix porte jusqu'au dernier rang.", "exampleEn": "Her voice carries to the last row.", "audio": "audio/c1.2/unit-03-art-oratoire/vocab-porter.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "Moi présidente, je protégerai ; moi présidente, j'écouterai.", "en": "As president, I will protect; as president, I will listen.", "audio": "audio/c1.2/unit-03-art-oratoire/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "Allons-nous rester les bras croisés ?", "en": "Are we going to stand idly by?", "audio": "audio/c1.2/unit-03-art-oratoire/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "C'est un abus, c'est une faute, c'est un crime.", "en": "It is an abuse, it is a fault, it is a crime.", "audio": "audio/c1.2/unit-03-art-oratoire/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "Mes chers compatriotes, l'heure est venue.", "en": "My dear compatriots, the hour has come.", "audio": "audio/c1.2/unit-03-art-oratoire/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "Elle martèle un seul mot, puis laisse le silence travailler.", "en": "She hammers one single word, then lets the silence work.", "audio": "audio/c1.2/unit-03-art-oratoire/example-ex-5.mp3", "voice": "denise" },
+    { "id": "ex-6", "fr": "L'anaphore installe un rythme de promesse.", "en": "Anaphora sets up a rhythm of promise.", "audio": "audio/c1.2/unit-03-art-oratoire/example-ex-6.mp3", "voice": "henri" }
+  ]
+}

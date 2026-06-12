@@ -1,0 +1,458 @@
+{
+  "schemaVersion": 1,
+  "unitId": "c1.2/unit-04-eurovisions",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Treaty language: « Les États s'efforcent de promouvoir… » obliges them to…",
+      "options": [
+        {
+          "id": "a",
+          "text": "nothing binding — only to try (the escape hatch at treaty scale)"
+        },
+        {
+          "id": "b",
+          "text": "achieve the result within two years"
+        },
+        {
+          "id": "c",
+          "text": "pay a fine if they fail"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "S'efforcer ≠ devoir: the jurist reads 'encouraged', not 'obliged'."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Une directive européenne…",
+      "options": [
+        {
+          "id": "a",
+          "text": "must be transposed into national law"
+        },
+        {
+          "id": "b",
+          "text": "applies only in Brussels"
+        },
+        {
+          "id": "c",
+          "text": "is a TV programme"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Directives set goals; each state transposes them — hence half of French political quarrels."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Joining the club.",
+      "inputMode": "dropdown",
+      "template": "L'{{b1}} du pays à l'Union a demandé dix ans.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "adhésion"
+          ],
+          "options": [
+            "adhésion",
+            "addition",
+            "adoption"
+          ]
+        }
+      ],
+      "explanation": "L'adhésion = accession to the Union."
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Institutional seating.",
+      "inputMode": "dropdown",
+      "template": "Le Parlement européen {{b1}} à Strasbourg.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "siège"
+          ],
+          "options": [
+            "siège",
+            "s'assoit",
+            "campe"
+          ]
+        }
+      ],
+      "explanation": "Siéger — the institutional verb for sitting."
+    },
+    {
+      "id": "ex-mc-3",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "« Le cas échéant » means…",
+      "options": [
+        {
+          "id": "a",
+          "text": "where applicable / if the case arises"
+        },
+        {
+          "id": "b",
+          "text": "the fallen case"
+        },
+        {
+          "id": "c",
+          "text": "in any case, always"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Treaty hedging 101: it applies only if the situation occurs."
+    },
+    {
+      "id": "ex-fb-3",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "What eurosceptics fear losing (one word).",
+      "inputMode": "typed",
+      "template": "Le débat porte, comme toujours, sur la {{b1}} nationale.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "souveraineté",
+            "souverainete"
+          ]
+        }
+      ],
+      "explanation": "La souveraineté — the heart of every European argument."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each Europe word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "un traité",
+          "right": "a treaty"
+        },
+        {
+          "id": "p2",
+          "left": "une directive",
+          "right": "an EU law to transpose"
+        },
+        {
+          "id": "p3",
+          "left": "supranational",
+          "right": "above the nation"
+        },
+        {
+          "id": "p4",
+          "left": "le compromis",
+          "right": "the compromise"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"Europe is the art of compromise.\"",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "L'Europe"
+        },
+        {
+          "id": "t2",
+          "text": "est"
+        },
+        {
+          "id": "t3",
+          "text": "l'art"
+        },
+        {
+          "id": "t4",
+          "text": "du"
+        },
+        {
+          "id": "t5",
+          "text": "compromis"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5"
+      ]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen to the jurist. What distinction does she draw?",
+      "audio": "audio/c1.2/unit-04-eurovisions/listen-1.mp3",
+      "transcript": "Quand le traité dit « devoir », l'État est lié ; quand il dit « s'efforcer », il est seulement encouragé.",
+      "options": [
+        {
+          "id": "a",
+          "text": "« Devoir » binds the state; « s'efforcer » merely encourages it"
+        },
+        {
+          "id": "b",
+          "text": "Both verbs mean exactly the same thing"
+        },
+        {
+          "id": "c",
+          "text": "Treaties never use verbs"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "The binding-vs-hortatory distinction — a continent of difference in one verb."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read this column on EU multilingualism and answer both questions.",
+      "passageFr": "Vingt-quatre langues officielles, des centaines d'interprètes, et pourtant : dans les couloirs de Bruxelles, une seule langue circule vraiment. Le français, jadis langue des traités, défend sa place de langue de travail — les textes fondateurs furent rédigés dans la langue de Molière, rappellent ses défenseurs. Le multilinguisme reste inscrit dans les traités ; le cas échéant, on s'en souvient.",
+      "passageEn": "Twenty-four official languages, hundreds of interpreters, and yet: in the corridors of Brussels, only one language really circulates. French, once the language of treaties, defends its place as a working language — the founding texts were drafted in the language of Molière, its defenders recall. Multilingualism remains written into the treaties; where applicable, it gets remembered.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "What is the column's ironic observation?",
+          "options": [
+            {
+              "id": "a",
+              "text": "24 official languages, but one dominates the corridors in practice"
+            },
+            {
+              "id": "b",
+              "text": "Brussels has banned interpretation"
+            },
+            {
+              "id": "c",
+              "text": "French was never used in the EU"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        },
+        {
+          "id": "q2",
+          "prompt": "The final « le cas échéant, on s'en souvient » is…",
+          "options": [
+            {
+              "id": "a",
+              "text": "irony: the principle is remembered only when convenient"
+            },
+            {
+              "id": "b",
+              "text": "a legal obligation to remember"
+            },
+            {
+              "id": "c",
+              "text": "praise for perfect multilingualism"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex-mc-4",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "How does the column refer to French?",
+      "options": [
+        {
+          "id": "a",
+          "text": "« la langue de Molière » — the classic periphrasis"
+        },
+        {
+          "id": "b",
+          "text": "« la langue de Shakespeare »"
+        },
+        {
+          "id": "c",
+          "text": "« la langue de Goethe »"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Periphrases by author: Molière = French, Shakespeare = English, Goethe = German."
+    },
+    {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/c1.2/unit-04-eurovisions/example-ex-1.mp3",
+      "transcript": "La directive doit être transposée avant deux ans.",
+      "options": [
+        {
+          "id": "a",
+          "text": "The directive must be transposed within two years."
+        },
+        {
+          "id": "b",
+          "text": "Member states shall endeavour to promote multilingualism."
+        },
+        {
+          "id": "c",
+          "text": "The European Parliament sits in Strasbourg."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « la construction européenne » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "European integration"
+        },
+        {
+          "id": "b",
+          "text": "a member state"
+        },
+        {
+          "id": "c",
+          "text": "a treaty"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "la construction européenne = European integration."
+    },
+    {
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "Le {{b1}} de Lisbonne date de 2007.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "traité"
+          ]
+        }
+      ],
+      "explanation": "« Le traité de Lisbonne date de 2007. » — a treaty."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "la souveraineté",
+          "right": "sovereignty"
+        },
+        {
+          "id": "p2",
+          "left": "l'adhésion (f.)",
+          "right": "accession / joining"
+        },
+        {
+          "id": "p3",
+          "left": "siéger",
+          "right": "to sit"
+        },
+        {
+          "id": "p4",
+          "left": "un compromis",
+          "right": "a compromise"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “The European Parliament sits in Strasbourg.”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Le"
+        },
+        {
+          "id": "t2",
+          "text": "Parlement"
+        },
+        {
+          "id": "t3",
+          "text": "européen"
+        },
+        {
+          "id": "t4",
+          "text": "siège"
+        },
+        {
+          "id": "t5",
+          "text": "à"
+        },
+        {
+          "id": "t6",
+          "text": "Strasbourg"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ]
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "La directive doit être transposée avant deux ans.",
+      "targetEn": "The directive must be transposed within two years.",
+      "audio": "audio/c1.2/unit-04-eurovisions/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "Le Parlement européen siège à Strasbourg.",
+      "targetEn": "The European Parliament sits in Strasbourg.",
+      "audio": "audio/c1.2/unit-04-eurovisions/example-ex-3.mp3"
+    }
+  ]
+}
