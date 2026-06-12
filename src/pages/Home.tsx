@@ -25,7 +25,7 @@ function Stat({ label, value, icon }: { label: string; value: string; icon?: str
     <div className="rounded-lg border border-ink/10 bg-card p-3 text-center">
       <p className="flex items-center justify-center gap-1.5 font-display text-2xl font-bold text-marine">
         {value}
-        {icon && <img src={icon} alt="" className="h-[1.85rem] w-[1.85rem] object-contain" />}
+        {icon && <img src={icon} alt="" className="h-9 w-9 object-contain" />}
       </p>
       <p className="text-xs uppercase tracking-wide text-ink/50">{label}</p>
     </div>
