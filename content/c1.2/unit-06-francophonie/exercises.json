@@ -1,0 +1,463 @@
+{
+  "schemaVersion": 1,
+  "unitId": "c1.2/unit-06-francophonie",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "A communiqué reports « des discussions franches ». What actually happened?",
+      "options": [
+        {
+          "id": "a",
+          "text": "They disagreed sharply — that's the diplomatic code for it"
+        },
+        {
+          "id": "b",
+          "text": "Everyone agreed warmly"
+        },
+        {
+          "id": "c",
+          "text": "The meeting was cancelled"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Diplomacy is the antiphrase's day job: « franches » = it got tense."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "« Nous suivons la situation avec attention » usually announces…",
+      "options": [
+        {
+          "id": "a",
+          "text": "nothing — no action is coming"
+        },
+        {
+          "id": "b",
+          "text": "an immediate intervention"
+        },
+        {
+          "id": "c",
+          "text": "new sanctions tomorrow"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Watching closely is what you say when you intend to do exactly nothing."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "The untranslatable key word of French cultural influence.",
+      "inputMode": "dropdown",
+      "template": "Le {{b1}} d'une langue se cultive, dit l'ambassadrice.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "rayonnement"
+          ],
+          "options": [
+            "rayonnement",
+            "rangement",
+            "ravitaillement"
+          ]
+        }
+      ],
+      "explanation": "Le rayonnement — influence as radiance. Le rangement is tidying-up; le ravitaillement is resupply."
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "The noble verb for working toward something.",
+      "inputMode": "dropdown",
+      "template": "L'OIF {{b1}} pour le dialogue des cultures.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "œuvre"
+          ],
+          "options": [
+            "œuvre",
+            "bosse",
+            "bricole"
+          ]
+        }
+      ],
+      "explanation": "Œuvrer pour — register matters: bosser (slang) and bricoler (to tinker) would sink the allocution."
+    },
+    {
+      "id": "ex-mc-3",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Why do francophonie speeches keep invoking les Lumières?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The Enlightenment made French the language of ideas — the historic credential"
+        },
+        {
+          "id": "b",
+          "text": "It refers to the stage lighting at the summit"
+        },
+        {
+          "id": "c",
+          "text": "It is a legal requirement of the OIF"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Voltaire and Diderot crossed every border; every rayonnement speech quotes that century, openly or not."
+    },
+    {
+      "id": "ex-fb-3",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "The geopolitical term for a rising country (two words: puissance + adjective).",
+      "inputMode": "typed",
+      "template": "L'Inde est souvent décrite comme une puissance {{b1}}.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "émergente",
+            "emergente"
+          ]
+        }
+      ],
+      "explanation": "Une puissance émergente — the standard label for a rising power."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Decode the diplomatic formulas.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "des discussions franches",
+          "right": "we disagreed sharply"
+        },
+        {
+          "id": "p2",
+          "left": "un échange de vues approfondi",
+          "right": "nobody moved an inch"
+        },
+        {
+          "id": "p3",
+          "left": "suivre avec attention",
+          "right": "to do nothing"
+        },
+        {
+          "id": "p4",
+          "left": "saluer les efforts",
+          "right": "the efforts failed politely"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"The ambassador works for cooperation.\"",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "L'ambassadeur"
+        },
+        {
+          "id": "t2",
+          "text": "œuvre"
+        },
+        {
+          "id": "t3",
+          "text": "pour"
+        },
+        {
+          "id": "t4",
+          "text": "la"
+        },
+        {
+          "id": "t5",
+          "text": "coopération"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5"
+      ]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen to this line from an allocution. What is the speaker actually saying?",
+      "audio": "audio/c1.2/unit-06-francophonie/listen-1.mp3",
+      "transcript": "Nos deux pays ont eu un échange de vues approfondi sur la question, et nous saluons les efforts accomplis.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Decoded: nobody moved an inch, and the efforts failed politely"
+        },
+        {
+          "id": "b",
+          "text": "A historic agreement was signed"
+        },
+        {
+          "id": "c",
+          "text": "The two countries broke off relations"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Two formulas back to back: « échange de vues approfondi » + « saluer les efforts » = stalemate, in white gloves."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read this column on a francophonie summit and answer both questions.",
+      "passageFr": "Au sommet, l'ambassadrice a prononcé une allocution impeccable : la francophonie comme partenariat, le rayonnement comme œuvre commune, les Lumières citées deux fois. Puis le communiqué final a évoqué « des discussions franches » sur les échanges commerciaux — et chacun a compris que les 300 millions de locuteurs partagent une langue, mais pas encore un tarif douanier. La diplomatie parle à voix basse ; les chiffres, eux, parlent fort.",
+      "passageEn": "At the summit, the ambassador delivered an impeccable address: the francophonie as partnership, le rayonnement as a shared endeavour, the Enlightenment quoted twice. Then the final communiqué mentioned 'frank discussions' on trade — and everyone understood that the 300 million speakers share a language, but not yet a customs tariff. Diplomacy speaks in a low voice; the numbers speak loudly.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "What does « des discussions franches » reveal about the trade talks?",
+          "options": [
+            {
+              "id": "a",
+              "text": "They clashed — the formula politely encodes sharp disagreement"
+            },
+            {
+              "id": "b",
+              "text": "A trade deal was concluded"
+            },
+            {
+              "id": "c",
+              "text": "Trade was not discussed"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        },
+        {
+          "id": "q2",
+          "prompt": "« Une langue, mais pas encore un tarif douanier » draws what contrast?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Cultural unity is real; economic agreement still isn't"
+            },
+            {
+              "id": "b",
+              "text": "The summit banned customs tariffs"
+            },
+            {
+              "id": "c",
+              "text": "French is no longer spoken at summits"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex-mc-4",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Une allocution is…",
+      "options": [
+        {
+          "id": "a",
+          "text": "a formal address — short, ceremonial, weighed to the word"
+        },
+        {
+          "id": "b",
+          "text": "a casual chat over coffee"
+        },
+        {
+          "id": "c",
+          "text": "a written treaty annex"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Seven minutes exactly, every word vetted — that's the genre."
+    },
+    {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/c1.2/unit-06-francophonie/example-ex-1.mp3",
+      "transcript": "La francophonie est un partenariat avant d'être une nostalgie.",
+      "options": [
+        {
+          "id": "a",
+          "text": "The francophonie is a partnership before being a nostalgia."
+        },
+        {
+          "id": "b",
+          "text": "'Frank discussions': translation — we disagreed on everything."
+        },
+        {
+          "id": "c",
+          "text": "The ambassador works for the dialogue of cultures."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « la francophonie » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "the French-speaking world"
+        },
+        {
+          "id": "b",
+          "text": "the Enlightenment"
+        },
+        {
+          "id": "c",
+          "text": "cultural influence / radiance"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "la francophonie = the French-speaking world."
+    },
+    {
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "La {{b1}} compte 300 millions de locuteurs.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "francophonie"
+          ]
+        }
+      ],
+      "explanation": "« La francophonie compte 300 millions de locuteurs. » — the French-speaking world."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "un partenariat",
+          "right": "a partnership"
+        },
+        {
+          "id": "p2",
+          "left": "la diplomatie",
+          "right": "diplomacy"
+        },
+        {
+          "id": "p3",
+          "left": "un ambassadeur / une ambassadrice",
+          "right": "an ambassador"
+        },
+        {
+          "id": "p4",
+          "left": "une allocution",
+          "right": "a formal address"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “The ambassador works for the dialogue of cultures.”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "L'ambassadrice"
+        },
+        {
+          "id": "t2",
+          "text": "œuvre"
+        },
+        {
+          "id": "t3",
+          "text": "pour"
+        },
+        {
+          "id": "t4",
+          "text": "le"
+        },
+        {
+          "id": "t5",
+          "text": "dialogue"
+        },
+        {
+          "id": "t6",
+          "text": "des"
+        },
+        {
+          "id": "t7",
+          "text": "cultures"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7"
+      ]
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "La francophonie est un partenariat avant d'être une nostalgie.",
+      "targetEn": "The francophonie is a partnership before being a nostalgia.",
+      "audio": "audio/c1.2/unit-06-francophonie/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "L'ambassadrice œuvre pour le dialogue des cultures.",
+      "targetEn": "The ambassador works for the dialogue of cultures.",
+      "audio": "audio/c1.2/unit-06-francophonie/example-ex-3.mp3"
+    }
+  ]
+}

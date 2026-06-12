@@ -1,0 +1,482 @@
+{
+  "schemaVersion": 1,
+  "unitId": "c1.2/unit-05-dissertation",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "A problématique is found when…",
+      "options": [
+        {
+          "id": "a",
+          "text": "two honest answers to the question are defensible"
+        },
+        {
+          "id": "b",
+          "text": "only one answer is obviously right"
+        },
+        {
+          "id": "c",
+          "text": "the subject contains a quotation"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "If only one answer is defensible, you haven't found the real tension yet."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "The antithèse should contain…",
+      "options": [
+        {
+          "id": "a",
+          "text": "the BEST objections, argued as if you believed them"
+        },
+        {
+          "id": "b",
+          "text": "a quick strawman to knock down"
+        },
+        {
+          "id": "c",
+          "text": "your personal anecdotes only"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Real weight on both pans — a weak antithesis ruins the whole machine."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "What the synthèse must do with the opposition.",
+      "inputMode": "dropdown",
+      "template": "La synthèse ne choisit pas un camp : elle {{b1}} l'opposition.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "dépasse"
+          ],
+          "options": [
+            "dépasse",
+            "ignore",
+            "répète"
+          ]
+        }
+      ],
+      "explanation": "Dépasser: find the higher ground where the tension transforms."
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "The introduction's three gestures, in order.",
+      "inputMode": "dropdown",
+      "template": "{{b1}} le sujet, poser la problématique, annoncer le plan.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "Amener"
+          ],
+          "options": [
+            "Amener",
+            "Trancher",
+            "Élaguer"
+          ]
+        }
+      ],
+      "explanation": "Amener le sujet — approach it via a fact, quote or paradox before posing the question."
+    },
+    {
+      "id": "ex-mc-3",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "« Both sides have a point » as a conclusion is…",
+      "options": [
+        {
+          "id": "a",
+          "text": "a shrug — the conclusion must trancher, then open"
+        },
+        {
+          "id": "b",
+          "text": "the ideal synthesis"
+        },
+        {
+          "id": "c",
+          "text": "required by the exam rules"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Commit: settle the question (trancher), then offer the ouverture."
+    },
+    {
+      "id": "ex-fb-3",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Back it with evidence (two words: à l'…).",
+      "inputMode": "typed",
+      "template": "Chiffres à l'{{b1}}, elle démontre sa thèse.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "appui"
+          ]
+        }
+      ],
+      "explanation": "À l'appui = in support — every argument wants its evidence."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each dissertation beat to its job.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "la thèse",
+          "right": "the honest case for"
+        },
+        {
+          "id": "p2",
+          "left": "l'antithèse",
+          "right": "the best objections"
+        },
+        {
+          "id": "p3",
+          "left": "la synthèse",
+          "right": "the higher ground"
+        },
+        {
+          "id": "p4",
+          "left": "trancher",
+          "right": "to settle the question"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"Weigh the pros and cons before settling.\"",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Pesez"
+        },
+        {
+          "id": "t2",
+          "text": "le"
+        },
+        {
+          "id": "t3",
+          "text": "pour"
+        },
+        {
+          "id": "t4",
+          "text": "et"
+        },
+        {
+          "id": "t5",
+          "text": "le"
+        },
+        {
+          "id": "t6",
+          "text": "contre"
+        },
+        {
+          "id": "t7",
+          "text": "avant"
+        },
+        {
+          "id": "t8",
+          "text": "de"
+        },
+        {
+          "id": "t9",
+          "text": "trancher"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7",
+        "t8",
+        "t9"
+      ]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen to this synthèse move. How does it escape the dilemma?",
+      "audio": "audio/c1.2/unit-05-dissertation/listen-1.mp3",
+      "transcript": "L'alternative est trompeuse : c'est précisément l'échange qui produit la différence.",
+      "options": [
+        {
+          "id": "a",
+          "text": "It declares the dilemma false and reframes the question"
+        },
+        {
+          "id": "b",
+          "text": "It picks the first option"
+        },
+        {
+          "id": "c",
+          "text": "It refuses to answer"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "« L'alternative est trompeuse » — the classic dépassement: the question was badly posed."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read this grader's comment sheet and answer both questions.",
+      "passageFr": "Copie 27 — Introduction réussie : le sujet est amené par un paradoxe, la problématique est réelle (deux réponses défendables). Thèse solide, exemples à l'appui. En revanche, l'antithèse est un homme de paille : une seule objection, vite balayée. La synthèse, du coup, n'a rien à dépasser — elle tranche sans avoir pesé. Le raisonnement perd ce que la plume avait gagné.",
+      "passageEn": "Paper 27 — Successful introduction: the subject is led in by a paradox, the problématique is real (two defensible answers). Solid thesis, examples in support. However, the antithesis is a strawman: a single objection, quickly swept aside. The synthesis therefore has nothing to transcend — it settles without having weighed. The reasoning loses what the pen had won.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "What is the paper's fatal flaw?",
+          "options": [
+            {
+              "id": "a",
+              "text": "A strawman antithesis — so the synthesis has nothing to transcend"
+            },
+            {
+              "id": "b",
+              "text": "A missing introduction"
+            },
+            {
+              "id": "c",
+              "text": "Too many examples in the thesis"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        },
+        {
+          "id": "q2",
+          "prompt": "« Elle tranche sans avoir pesé » means the conclusion…",
+          "options": [
+            {
+              "id": "a",
+              "text": "settles the question without having truly weighed both sides"
+            },
+            {
+              "id": "b",
+              "text": "is too long"
+            },
+            {
+              "id": "c",
+              "text": "refuses to take a position"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex-mc-4",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What do graders weight most in a dissertation?",
+      "options": [
+        {
+          "id": "a",
+          "text": "La rigueur: one idea per paragraph, backed arguments, audible logic"
+        },
+        {
+          "id": "b",
+          "text": "Length above all"
+        },
+        {
+          "id": "c",
+          "text": "Rare vocabulary, regardless of structure"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Rigour outweighs eloquence: a reasoning that survives cross-examination."
+    },
+    {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/c1.2/unit-05-dissertation/example-ex-1.mp3",
+      "transcript": "Une bonne problématique admet deux réponses défendables.",
+      "options": [
+        {
+          "id": "a",
+          "text": "A good problématique admits two defensible answers."
+        },
+        {
+          "id": "b",
+          "text": "The antithesis carries the objections as if you believed them."
+        },
+        {
+          "id": "c",
+          "text": "The synthesis is not a compromise: it goes beyond the opposition."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « une dissertation » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "a essay"
+        },
+        {
+          "id": "b",
+          "text": "an subject / prompt"
+        },
+        {
+          "id": "c",
+          "text": "the thesis"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "une dissertation = a essay."
+    },
+    {
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "La {{b1}} suit un plan en trois temps.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "dissertation"
+          ]
+        }
+      ],
+      "explanation": "« La dissertation suit un plan en trois temps. » — a essay."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "la synthèse (dialectique)",
+          "right": "the synthesis"
+        },
+        {
+          "id": "p2",
+          "left": "dialectique",
+          "right": "dialectical"
+        },
+        {
+          "id": "p3",
+          "left": "amener le sujet",
+          "right": "to lead into the subject"
+        },
+        {
+          "id": "p4",
+          "left": "peser le pour et le contre",
+          "right": "to weigh pros and cons"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “A good problématique admits two defensible answers.”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Une"
+        },
+        {
+          "id": "t2",
+          "text": "bonne"
+        },
+        {
+          "id": "t3",
+          "text": "problématique"
+        },
+        {
+          "id": "t4",
+          "text": "admet"
+        },
+        {
+          "id": "t5",
+          "text": "deux"
+        },
+        {
+          "id": "t6",
+          "text": "réponses"
+        },
+        {
+          "id": "t7",
+          "text": "défendables"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7"
+      ]
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "Une bonne problématique admet deux réponses défendables.",
+      "targetEn": "A good problématique admits two defensible answers.",
+      "audio": "audio/c1.2/unit-05-dissertation/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "La synthèse n'est pas un compromis : elle dépasse l'opposition.",
+      "targetEn": "The synthesis is not a compromise: it goes beyond the opposition.",
+      "audio": "audio/c1.2/unit-05-dissertation/example-ex-3.mp3"
+    }
+  ]
+}

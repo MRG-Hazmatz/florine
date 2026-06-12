@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "c1.2/unit-05-dissertation",
+  "level": "c1.2",
+  "unitNumber": 5,
+  "slug": "unit-05-dissertation",
+  "title": "La Dissertation",
+  "titleFr": "Thèse, antithèse, synthèse",
+  "cefrDescriptors": [
+    "Can build a dialectical essay: thèse, antithèse, synthèse.",
+    "Can turn an exam subject into a problématique and an announced plan."
+  ],
+  "skills": ["reading", "listening", "writing", "speaking"],
+  "estimatedMinutes": 75,
+  "concept": "Dossier 7's technique is the queen of French academic writing: la dissertation. Every French student has bled over one; the DALF essai argumenté is its travel-sized version. Learn the machine and both genres open.\n\nFROM SUJET TO PROBLÉMATIQUE — the exam gives you a sentence (often a quote); you give it back as a tension:\n  Sujet: « Les échanges culturels uniformisent-ils le monde ? » → Problématique: the question behind the question — what's actually at stake, formulated so that two honest answers exist.\n  If only one answer is defensible, you haven't found the problématique yet.\n\nLE PLAN DIALECTIQUE — the three-beat engine:\n  • LA THÈSE — the strongest honest case FOR. Arguments + exemples à l'appui (supporting examples). Never a strawman: peser le pour et le contre starts with real weight on both pans.\n  • L'ANTITHÈSE — not « some disagree », but the best objections, argued as if you believed them.\n  • LA SYNTHÈSE — the C1 move: neither « both sides have a point » (that's a shrug) nor a mechanical compromise. DÉPASSER l'opposition: find the higher ground where the tension dissolves or transforms. Often: the question was badly posed; here is the better question.\n\nL'INTRODUCTION, in three gestures: amener le sujet (approach it — a fact, a quote, a paradox), poser la problématique, annoncer le plan. LA CONCLUSION: trancher (settle it — yes, commit!) puis ouvrir.\n\nLA RIGUEUR — what graders weight: one idea per paragraph, each argument backed (à l'appui), audible logic (your whole B-level connector arsenal), and a raisonnement that could survive cross-examination.\n\nPut it together — a synthèse move in two lines: « Faut-il donc choisir entre l'uniformisation et la fermeture ? L'alternative est trompeuse : c'est précisément l'échange qui produit la différence — la question n'est pas de protéger les cultures DES autres, mais PAR les autres. »\n\nYour turn: take any yes/no question you've debated this month and write its problématique — the version where both answers are defensible.",
+  "vocabulary": [
+    { "id": "dissertation", "fr": "une dissertation", "en": "a (dialectical) essay", "pos": "noun", "exampleFr": "La dissertation suit un plan en trois temps.", "exampleEn": "The dissertation follows a three-beat plan.", "audio": "audio/c1.2/unit-05-dissertation/vocab-dissertation.mp3", "voice": "denise" },
+    { "id": "sujet", "fr": "un sujet", "en": "an (exam) subject / prompt", "pos": "noun", "exampleFr": "Lisez le sujet deux fois avant d'écrire.", "exampleEn": "Read the prompt twice before writing.", "audio": "audio/c1.2/unit-05-dissertation/vocab-sujet.mp3", "voice": "henri" },
+    { "id": "these-diss", "fr": "la thèse", "en": "the thesis (case for)", "pos": "noun", "exampleFr": "La thèse défend le pour, honnêtement.", "exampleEn": "The thesis argues the case for, honestly.", "audio": "audio/c1.2/unit-05-dissertation/vocab-these-diss.mp3", "voice": "denise" },
+    { "id": "antithese", "fr": "l'antithèse (f.)", "en": "the antithesis (case against)", "pos": "noun", "exampleFr": "L'antithèse porte les meilleures objections.", "exampleEn": "The antithesis carries the best objections.", "audio": "audio/c1.2/unit-05-dissertation/vocab-antithese.mp3", "voice": "henri" },
+    { "id": "synthese-diss", "fr": "la synthèse (dialectique)", "en": "the synthesis (going beyond)", "pos": "noun", "exampleFr": "La synthèse dépasse l'opposition.", "exampleEn": "The synthesis goes beyond the opposition.", "audio": "audio/c1.2/unit-05-dissertation/vocab-synthese-diss.mp3", "voice": "denise" },
+    { "id": "dialectique", "fr": "dialectique", "en": "dialectical", "pos": "adjective", "exampleFr": "Le plan dialectique structure le débat.", "exampleEn": "The dialectical plan structures the debate.", "audio": "audio/c1.2/unit-05-dissertation/vocab-dialectique.mp3", "voice": "henri" },
+    { "id": "amener", "fr": "amener le sujet", "en": "to lead into the subject", "pos": "expression", "exampleFr": "Un paradoxe amène élégamment le sujet.", "exampleEn": "A paradox leads into the subject elegantly.", "audio": "audio/c1.2/unit-05-dissertation/vocab-amener.mp3", "voice": "denise" },
+    { "id": "peser", "fr": "peser le pour et le contre", "en": "to weigh pros and cons", "pos": "expression", "exampleFr": "Pesez le pour et le contre avant de trancher.", "exampleEn": "Weigh pros and cons before settling.", "audio": "audio/c1.2/unit-05-dissertation/vocab-peser.mp3", "voice": "henri" },
+    { "id": "raisonnement", "fr": "un raisonnement", "en": "a line of reasoning", "pos": "noun", "exampleFr": "Son raisonnement résiste à l'examen.", "exampleEn": "Her reasoning withstands scrutiny.", "audio": "audio/c1.2/unit-05-dissertation/vocab-raisonnement.mp3", "voice": "denise" },
+    { "id": "objection", "fr": "une objection", "en": "an objection", "pos": "noun", "exampleFr": "Traitez l'objection la plus forte d'abord.", "exampleEn": "Address the strongest objection first.", "audio": "audio/c1.2/unit-05-dissertation/vocab-objection.mp3", "voice": "henri" },
+    { "id": "depasser", "fr": "dépasser (une opposition)", "en": "to go beyond / transcend", "pos": "verb", "exampleFr": "La synthèse dépasse le simple compromis.", "exampleEn": "The synthesis goes beyond mere compromise.", "audio": "audio/c1.2/unit-05-dissertation/vocab-depasser.mp3", "voice": "denise" },
+    { "id": "trancher", "fr": "trancher", "en": "to settle (a question)", "pos": "verb", "exampleFr": "La conclusion doit trancher, puis ouvrir.", "exampleEn": "The conclusion must settle, then open.", "audio": "audio/c1.2/unit-05-dissertation/vocab-trancher.mp3", "voice": "henri" },
+    { "id": "a-l-appui", "fr": "à l'appui", "en": "in support (of a claim)", "pos": "expression", "exampleFr": "Chiffres à l'appui, elle démontre sa thèse.", "exampleEn": "Figures in support, she proves her thesis.", "audio": "audio/c1.2/unit-05-dissertation/vocab-a-l-appui.mp3", "voice": "denise" },
+    { "id": "rigueur", "fr": "la rigueur", "en": "rigour", "pos": "noun", "exampleFr": "La rigueur vaut plus que l'éloquence ici.", "exampleEn": "Rigour outweighs eloquence here.", "audio": "audio/c1.2/unit-05-dissertation/vocab-rigueur.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "Une bonne problématique admet deux réponses défendables.", "en": "A good problématique admits two defensible answers.", "audio": "audio/c1.2/unit-05-dissertation/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "L'antithèse porte les objections comme si vous y croyiez.", "en": "The antithesis carries the objections as if you believed them.", "audio": "audio/c1.2/unit-05-dissertation/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "La synthèse n'est pas un compromis : elle dépasse l'opposition.", "en": "The synthesis is not a compromise: it goes beyond the opposition.", "audio": "audio/c1.2/unit-05-dissertation/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "Amenez le sujet, posez la problématique, annoncez le plan.", "en": "Lead into the subject, pose the problématique, announce the plan.", "audio": "audio/c1.2/unit-05-dissertation/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "Chiffres à l'appui, le raisonnement résiste à l'examen.", "en": "Figures in support, the reasoning withstands scrutiny.", "audio": "audio/c1.2/unit-05-dissertation/example-ex-5.mp3", "voice": "denise" },
+    { "id": "ex-6", "fr": "La conclusion tranche, puis ouvre une dernière question.", "en": "The conclusion settles, then opens one last question.", "audio": "audio/c1.2/unit-05-dissertation/example-ex-6.mp3", "voice": "henri" }
+  ]
+}

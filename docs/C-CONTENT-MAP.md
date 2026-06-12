@@ -44,8 +44,8 @@ Status: ✅ built · 🔨 in progress · ⬜ planned
 | 10 | Equality & discrimination | D5 | analyser un discours politique contemporain | ✅ c1.2/unit-02 |
 | 11 | Europe: l'art oratoire | D6 *Eurovisions* | procédés de l'art oratoire; formulations législatives | ✅ c1.2/unit-03 |
 | 12 | Speeches & manifestos | D6 | ressorts d'un propos militant; écrire une analyse | ✅ c1.2/unit-04 (Europe) |
-| 13 | Exchanges: la dissertation | D7 *Échanges* | faire une dissertation; raisonnement hypothétique | ⬜ |
-| 14 | Diplomacy & francophonie | D7 | discours diplomatique; synthétiser une conférence | ⬜ |
+| 13 | Exchanges: la dissertation | D7 *Échanges* | faire une dissertation; raisonnement hypothétique | ✅ c1.2/unit-05 |
+| 14 | Diplomacy & francophonie | D7 | discours diplomatique; synthétiser une conférence | ✅ c1.2/unit-06 |
 | 15 | Energy: l'éditorial | D8 *Énergies* | rédiger un éditorial; synthèse de documents écrits | ⬜ |
 | 16 | Ecology debates at C level | D8 | textes provocateurs; défendre un projet | ⬜ |
 
