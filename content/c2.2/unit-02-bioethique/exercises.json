@@ -1,0 +1,477 @@
+{
+  "schemaVersion": 1,
+  "unitId": "c2.2/unit-02-bioethique",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "The first rule of arguing a scientific controversy:",
+      "options": [
+        {
+          "id": "a",
+          "text": "separate the fact (science's) from the value (society's)"
+        },
+        {
+          "id": "b",
+          "text": "trust whoever has the most diplomas"
+        },
+        {
+          "id": "c",
+          "text": "avoid taking any position"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "« C'est possible » has never meant « c'est souhaitable » — don't let anyone smuggle one into the other."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Le principe de précaution says…",
+      "options": [
+        {
+          "id": "a",
+          "text": "when in doubt about grave risk, abstain — it's in the environmental charter"
+        },
+        {
+          "id": "b",
+          "text": "all new technology must be banned"
+        },
+        {
+          "id": "c",
+          "text": "science needs no oversight"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Dans le doute, s'abstenir — constitutional rank since 2005."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "The safeguard word — literally a 'madness-guard'.",
+      "inputMode": "dropdown",
+      "template": "Le comité n'est pas un frein, c'est un {{b1}}.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "garde-fou"
+          ],
+          "options": [
+            "garde-fou",
+            "garde-robe",
+            "garde-manger"
+          ]
+        }
+      ],
+      "explanation": "Un garde-fou — a railing/safeguard. The wardrobe and the pantry guard other things."
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "What every technique risks sliding into.",
+      "inputMode": "dropdown",
+      "template": "Toute technique a sa {{b1}} ; nommez-la d'avance.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "dérive"
+          ],
+          "options": [
+            "dérive",
+            "dérivée",
+            "déroute"
+          ]
+        }
+      ],
+      "explanation": "Une dérive — the drift toward misuse. La dérivée belongs to your maths class."
+    },
+    {
+      "id": "ex-mc-3",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "« Soigner, améliorer, sélectionner » distinguishes…",
+      "options": [
+        {
+          "id": "a",
+          "text": "three finalités one technique can serve — and the debate lives between them"
+        },
+        {
+          "id": "b",
+          "text": "three unrelated medical specialties"
+        },
+        {
+          "id": "c",
+          "text": "three stages of a clinical trial"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Same tool, three masters: healing, enhancing, selecting. Name which one is on the table."
+    },
+    {
+      "id": "ex-fb-3",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "What « possible » has never meant (adjective).",
+      "inputMode": "typed",
+      "template": "« Possible » n'a jamais signifié « {{b1}} ».",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "souhaitable"
+          ]
+        }
+      ],
+      "explanation": "Souhaitable — desirable. The gap between the two words is where ethics lives."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each bioethics term to its meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "légiférer",
+          "right": "to legislate"
+        },
+        {
+          "id": "p2",
+          "left": "un comité d'éthique",
+          "right": "issues opinions, not verdicts"
+        },
+        {
+          "id": "p3",
+          "left": "l'homme augmenté",
+          "right": "the enhanced human"
+        },
+        {
+          "id": "p4",
+          "left": "le vivant",
+          "right": "the living, as a domain"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"Who benefits, who decides, who pays?\"",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Qui"
+        },
+        {
+          "id": "t2",
+          "text": "en"
+        },
+        {
+          "id": "t3",
+          "text": "bénéficie,"
+        },
+        {
+          "id": "t4",
+          "text": "qui"
+        },
+        {
+          "id": "t5",
+          "text": "décide,"
+        },
+        {
+          "id": "t6",
+          "text": "qui"
+        },
+        {
+          "id": "t7",
+          "text": "paie"
+        },
+        {
+          "id": "t8",
+          "text": "?"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7",
+        "t8"
+      ]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen to the debater. Which controversy move is this?",
+      "audio": "audio/c2.2/unit-02-bioethique/listen-1.mp3",
+      "transcript": "Oui, la technique est sûre — les essais le montrent. Et oui, la question éthique reste entière : ce ne sont pas les mêmes questions.",
+      "options": [
+        {
+          "id": "a",
+          "text": "The double concession: science to the worried, the worry to the scientists"
+        },
+        {
+          "id": "b",
+          "text": "A refusal to debate"
+        },
+        {
+          "id": "c",
+          "text": "An appeal to authority"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Concede both sides their truth, THEN argue — the controversy's noblest move."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read this column on the enhanced human and answer both questions.",
+      "passageFr": "La prothèse qui rend la main ne fait débat nulle part : c'est la médecine dans son lit. Mais la même équipe annonce une main qui dépasse la main — plus forte, infatigable. Le fait est acquis ; la valeur, elle, se discute. Soigner devient améliorer sans changer d'outil, et le marché, lui, a déjà choisi sa finalité préférée. Avant d'applaudir ou de s'indigner, posons les trois questions : qui en bénéficiera — le blessé ou le mieux assuré ? qui décide — le comité ou le catalogue ? qui paie — et en quelle monnaie ?",
+      "passageEn": "The prosthesis that gives back the hand is debated nowhere: that's medicine in its own bed. But the same team announces a hand that exceeds the hand — stronger, tireless. The fact is established; the value is up for discussion. Healing becomes enhancing without a change of tool, and the market has already chosen its favourite purpose. Before applauding or protesting, ask the three questions: who will benefit — the injured, or the better-insured? who decides — the committee or the catalogue? who pays — and in what currency?",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "Where does the column locate the debate's starting line?",
+          "options": [
+            {
+              "id": "a",
+              "text": "At the slide from soigner to améliorer — same tool, new purpose"
+            },
+            {
+              "id": "b",
+              "text": "At the invention of any prosthesis"
+            },
+            {
+              "id": "c",
+              "text": "There is no debate at all"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        },
+        {
+          "id": "q2",
+          "prompt": "« Qui décide — le comité ou le catalogue ? » opposes…",
+          "options": [
+            {
+              "id": "a",
+              "text": "ethical oversight versus the market deciding by what it sells"
+            },
+            {
+              "id": "b",
+              "text": "two rival ethics committees"
+            },
+            {
+              "id": "c",
+              "text": "doctors versus patients"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex-mc-4",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "An ethics committee « rend un avis, pas un verdict » means…",
+      "options": [
+        {
+          "id": "a",
+          "text": "it advises; the law and society still do the deciding"
+        },
+        {
+          "id": "b",
+          "text": "its decisions are legally binding"
+        },
+        {
+          "id": "c",
+          "text": "it never reaches conclusions"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Un avis — an opinion. Légiférer remains the legislator's job; the committee holds the lantern."
+    },
+    {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/c2.2/unit-02-bioethique/example-ex-1.mp3",
+      "transcript": "Le fait est à la science ; la valeur est à la société.",
+      "options": [
+        {
+          "id": "a",
+          "text": "The fact belongs to science; the value belongs to society."
+        },
+        {
+          "id": "b",
+          "text": "The prosthesis gives back the hand; the debate starts when it gives back more."
+        },
+        {
+          "id": "c",
+          "text": "Who benefits, who decides, who pays?"
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « la bioéthique » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "bioethics"
+        },
+        {
+          "id": "b",
+          "text": "to legislate"
+        },
+        {
+          "id": "c",
+          "text": "genetic engineering"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "la bioéthique = bioethics."
+    },
+    {
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "La {{b1}} encadre ce qu'on peut faire du vivant.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "bioéthique"
+          ]
+        }
+      ],
+      "explanation": "« La bioéthique encadre ce qu'on peut faire du vivant. » — bioethics."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "le clonage",
+          "right": "cloning"
+        },
+        {
+          "id": "p2",
+          "left": "l'homme augmenté",
+          "right": "the enhanced human"
+        },
+        {
+          "id": "p3",
+          "left": "l'expérimentation (f.)",
+          "right": "experimentation"
+        },
+        {
+          "id": "p4",
+          "left": "un comité d'éthique",
+          "right": "an ethics committee"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “Who benefits, who decides, who pays?”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Qui"
+        },
+        {
+          "id": "t2",
+          "text": "en"
+        },
+        {
+          "id": "t3",
+          "text": "bénéficie,"
+        },
+        {
+          "id": "t4",
+          "text": "qui"
+        },
+        {
+          "id": "t5",
+          "text": "décide,"
+        },
+        {
+          "id": "t6",
+          "text": "qui"
+        },
+        {
+          "id": "t7",
+          "text": "paie"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7"
+      ]
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "Le fait est à la science ; la valeur est à la société.",
+      "targetEn": "The fact belongs to science; the value belongs to society.",
+      "audio": "audio/c2.2/unit-02-bioethique/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "Qui en bénéficie, qui décide, qui paie ?",
+      "targetEn": "Who benefits, who decides, who pays?",
+      "audio": "audio/c2.2/unit-02-bioethique/example-ex-3.mp3"
+    }
+  ]
+}

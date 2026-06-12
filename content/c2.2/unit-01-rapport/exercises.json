@@ -1,0 +1,427 @@
+{
+  "schemaVersion": 1,
+  "unitId": "c2.2/unit-01-rapport",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "The professional sentence length the book prescribes:",
+      "options": [
+        {
+          "id": "a",
+          "text": "fifteen to twenty words on average"
+        },
+        {
+          "id": "b",
+          "text": "as long as possible, to show mastery"
+        },
+        {
+          "id": "c",
+          "text": "five words maximum"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Short enough to stay clear, long enough to carry an analysis."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Which verbs does the professional style BAN?",
+      "options": [
+        {
+          "id": "a",
+          "text": "the generic ones — être, avoir, faire, mettre"
+        },
+        {
+          "id": "b",
+          "text": "all verbs in the past tense"
+        },
+        {
+          "id": "c",
+          "text": "reflexive verbs"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Generic verbs say nothing; viser le mot juste — concevoir, fabriquer, distribuer."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "What every analysis needs.",
+      "inputMode": "dropdown",
+      "template": "{{b1}} chaque analyse d'une source référencée.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "Étayez"
+          ],
+          "options": [
+            "Étayez",
+            "Étalez",
+            "Évitez"
+          ]
+        }
+      ],
+      "explanation": "Étayer — to shore up. Étaler is to spread out (croissants, not arguments)."
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "The reckoning section of the rapport.",
+      "inputMode": "dropdown",
+      "template": "Le {{b1}} récapitule les acquis et les compétences.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "bilan"
+          ],
+          "options": [
+            "bilan",
+            "billard",
+            "bulletin"
+          ]
+        }
+      ],
+      "explanation": "Le bilan — the assessment; le billard is the pool table down the hall."
+    },
+    {
+      "id": "ex-mc-3",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "La culture d'entreprise covers…",
+      "options": [
+        {
+          "id": "a",
+          "text": "shared values, working methods, hierarchy — the unwritten part"
+        },
+        {
+          "id": "b",
+          "text": "the company's art collection"
+        },
+        {
+          "id": "c",
+          "text": "the cafeteria menu"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "It isn't posted on the door; the rapport's first part proves you inferred it."
+    },
+    {
+      "id": "ex-fb-3",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "The golden attitude of the conclusion (critique mais…).",
+      "inputMode": "typed",
+      "template": "Soyez critique mais {{b1}} : analyser, jamais régler ses comptes.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "positif"
+          ]
+        }
+      ],
+      "explanation": "Critical but constructive — the rapport is read by the people it describes."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each rapport part to its job.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "le sommaire",
+          "right": "table of contents"
+        },
+        {
+          "id": "p2",
+          "left": "une mission",
+          "right": "task entrusted to you"
+        },
+        {
+          "id": "p3",
+          "left": "les acquis",
+          "right": "what you gained"
+        },
+        {
+          "id": "p4",
+          "left": "une annexe",
+          "right": "captioned, dated exhibit"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"Let the text breathe: graphics, paragraphs, space.\"",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Aérez"
+        },
+        {
+          "id": "t2",
+          "text": "le"
+        },
+        {
+          "id": "t3",
+          "text": "texte"
+        },
+        {
+          "id": "t4",
+          "text": ":"
+        },
+        {
+          "id": "t5",
+          "text": "graphiques,"
+        },
+        {
+          "id": "t6",
+          "text": "paragraphes,"
+        },
+        {
+          "id": "t7",
+          "text": "espace"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7"
+      ]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen to the tutor's feedback. What rule was broken?",
+      "audio": "audio/c2.2/unit-01-rapport/listen-1.mp3",
+      "transcript": "Votre phrase fait soixante-deux mots, contient trois « faire », et j'ignore toujours ce que vous avez accompli.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Both style rules at once: sentence far too long, generic verbs everywhere"
+        },
+        {
+          "id": "b",
+          "text": "The report lacked a cover page"
+        },
+        {
+          "id": "c",
+          "text": "The annexes were missing dates"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Sixty-two words and three « faire »: the two style sins in a single sentence."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read this extract from a stage report's conclusion and answer both questions.",
+      "passageFr": "Ce stage m'a apporté trois acquis durables. J'ai maîtrisé le logiciel de gestion des stocks, jusqu'aux états de synthèse. J'ai appris à désamorcer un désaccord entre services — l'annexe 4 détaille le cas du mois de mars. Enfin, j'ai confirmé mon choix d'orientation vers la logistique. Un point reste à améliorer : ma prise de parole en réunion, encore hésitante. L'équipe m'a confié des missions réelles ; je conclus que ce stage est une réussite, et j'envisage d'y postuler à l'issue de mes études.",
+      "passageEn": "This internship brought me three lasting gains. I mastered the inventory-management software, up to its summary reports. I learned to defuse a disagreement between departments — appendix 4 details the March case. Finally, I confirmed my career direction toward logistics. One point remains to improve: my speaking-up in meetings, still hesitant. The team entrusted me with real missions; I conclude that this internship is a success, and I plan to apply there after my studies.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "How does the writer apply « étayer »?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The conflict claim is backed by appendix 4 — a referenced exhibit"
+            },
+            {
+              "id": "b",
+              "text": "By quoting a philosopher"
+            },
+            {
+              "id": "c",
+              "text": "She doesn't back anything"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        },
+        {
+          "id": "q2",
+          "prompt": "Where is « critique mais positif » visible?",
+          "options": [
+            {
+              "id": "a",
+              "text": "One weakness admitted (speaking up), inside an overall success"
+            },
+            {
+              "id": "b",
+              "text": "The conclusion lists only failures"
+            },
+            {
+              "id": "c",
+              "text": "The writer blames the team"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex-mc-4",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Why does presentation (pagination, sommaire, captions) matter so much?",
+      "options": [
+        {
+          "id": "a",
+          "text": "In French professional writing, form IS a competence — it's graded"
+        },
+        {
+          "id": "b",
+          "text": "It hides weak content"
+        },
+        {
+          "id": "c",
+          "text": "It's optional decoration"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "A rapport that can't paginate itself won't be trusted to organise a warehouse."
+    },
+    {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/c2.2/unit-01-rapport/example-ex-1.mp3",
+      "transcript": "Des phrases courtes : quinze à vingt mots en moyenne.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Short sentences: fifteen to twenty words on average."
+        },
+        {
+          "id": "b",
+          "text": "The company doesn't 'do' tools: it designs, manufactures and distributes them."
+        },
+        {
+          "id": "c",
+          "text": "In France, form is a competence: contents page, pagination, captions."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « un rapport (de stage) » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "an report"
+        },
+        {
+          "id": "b",
+          "text": "the cover page"
+        },
+        {
+          "id": "c",
+          "text": "the table of contents"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "un rapport (de stage) = an report."
+    },
+    {
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "Le {{b1}} renvoie aux parties numérotées.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "sommaire"
+          ]
+        }
+      ],
+      "explanation": "« Le sommaire renvoie aux parties numérotées. » — the table of contents."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "le bilan",
+          "right": "the assessment / reckoning"
+        },
+        {
+          "id": "p2",
+          "left": "les acquis (m.)",
+          "right": "what was gained / learned"
+        },
+        {
+          "id": "p3",
+          "left": "une compétence",
+          "right": "a skill / competence"
+        },
+        {
+          "id": "p4",
+          "left": "la culture d'entreprise",
+          "right": "company culture"
+        }
+      ]
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "Des phrases courtes : quinze à vingt mots en moyenne.",
+      "targetEn": "Short sentences: fifteen to twenty words on average.",
+      "audio": "audio/c2.2/unit-01-rapport/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "En France, la forme est une compétence : sommaire, pagination, légendes.",
+      "targetEn": "In France, form is a competence: contents page, pagination, captions.",
+      "audio": "audio/c2.2/unit-01-rapport/example-ex-3.mp3"
+    }
+  ]
+}

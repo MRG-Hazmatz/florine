@@ -1,0 +1,427 @@
+{
+  "schemaVersion": 1,
+  "unitId": "c2.2/unit-04-utopies",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Etymologically, « utopie » means…",
+      "options": [
+        {
+          "id": "a",
+          "text": "the place that is nowhere (ou-topos, coined by More in 1516)"
+        },
+        {
+          "id": "b",
+          "text": "the perfect place"
+        },
+        {
+          "id": "c",
+          "text": "the city of the future"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Nowhere — the word confesses its own impossibility. The question mark was built in from 1516."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Compare any two utopias on which three axes?",
+      "options": [
+        {
+          "id": "a",
+          "text": "le travail, la propriété, la décision"
+        },
+        {
+          "id": "b",
+          "text": "the climate, the cuisine, the flag"
+        },
+        {
+          "id": "c",
+          "text": "size, age, location"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Work, property, decision — every model society answers all three, openly or not."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "The cooperative's voting rule.",
+      "inputMode": "dropdown",
+      "template": "À la coopérative, un membre vaut une {{b1}}.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "voix"
+          ],
+          "options": [
+            "voix",
+            "action",
+            "fortune"
+          ]
+        }
+      ],
+      "explanation": "Une voix — one vote. Capital doesn't outvote people; that's the whole thesis."
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "A utopia that locked the exits.",
+      "inputMode": "dropdown",
+      "template": "La {{b1}} est une utopie qui a fermé les sorties.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "dystopie"
+          ],
+          "options": [
+            "dystopie",
+            "dynastie",
+            "diapositive"
+          ]
+        }
+      ],
+      "explanation": "Une dystopie — judge any perfect society by the room it leaves for dissent."
+    },
+    {
+      "id": "ex-mc-3",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "In a réflexion personnelle, definitions are…",
+      "options": [
+        {
+          "id": "a",
+          "text": "your opening move — distinguish bonheur, bien-être, épanouissement first"
+        },
+        {
+          "id": "b",
+          "text": "your conclusion"
+        },
+        {
+          "id": "c",
+          "text": "unnecessary at C2"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Define first, argue after: a state, an indicator, a process — three different debates."
+    },
+    {
+      "id": "ex-fb-3",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "What microcredit bets about the poor (adjective).",
+      "inputMode": "typed",
+      "template": "Le microcrédit parie que les pauvres sont {{b1}}.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "solvables"
+          ]
+        }
+      ],
+      "explanation": "Solvables — creditworthy. A tiny loan carrying a large thesis about trust."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each term to its meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "l'altermondialisme",
+          "right": "another world is possible"
+        },
+        {
+          "id": "p2",
+          "left": "le bien commun",
+          "right": "what belongs to everyone"
+        },
+        {
+          "id": "p3",
+          "left": "l'épanouissement",
+          "right": "flourishing, as a process"
+        },
+        {
+          "id": "p4",
+          "left": "la dissidence",
+          "right": "the disagreement a society permits"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"An ideal serves as a heading, not an address.\"",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Un"
+        },
+        {
+          "id": "t2",
+          "text": "idéal"
+        },
+        {
+          "id": "t3",
+          "text": "sert"
+        },
+        {
+          "id": "t4",
+          "text": "de"
+        },
+        {
+          "id": "t5",
+          "text": "cap,"
+        },
+        {
+          "id": "t6",
+          "text": "pas"
+        },
+        {
+          "id": "t7",
+          "text": "d'adresse"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7"
+      ]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen to this conclusion of a réflexion personnelle. Which moves does it chain?",
+      "audio": "audio/c2.2/unit-04-utopies/listen-1.mp3",
+      "transcript": "Je tranche : la société ne peut pas fournir le bonheur — elle peut seulement cesser de l'empêcher. Reste une question : qui décidera de ce qui l'empêche ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Trancher puis ouvrir — a verdict, then one last door"
+        },
+        {
+          "id": "b",
+          "text": "Refusing to answer the question"
+        },
+        {
+          "id": "c",
+          "text": "Summarising both sides without choosing"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "The conclusion you've trained since B2: commit, then open. The DALF rewards the courage AND the door."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read this comparison of two model communities and answer both questions.",
+      "passageFr": "Le village A a mis la propriété en commun ; le village B l'a gardée privée mais a plafonné les écarts. Au travail, A décrète l'égalité des tâches ; B laisse chacun choisir, et constate que personne ne choisit la plomberie. À la décision, A vote tout en assemblée, jusqu'à la couleur des volets ; B élit un conseil et s'en plaint, ce qui est aussi une institution. Aucun des deux n'a résolu la troisième question — celle qu'on pose toujours trop tard : que fait-on de celui qui veut partir ? A l'appelle un traître. B lui paie le car. C'est, à ce jour, la différence la plus instructive.",
+      "passageEn": "Village A pooled property; village B kept it private but capped the gaps. At work, A decrees equal chores; B lets everyone choose, and observes that nobody chooses plumbing. For decisions, A votes everything in assembly, down to the colour of the shutters; B elects a council and complains about it, which is also an institution. Neither has solved the third question — the one always asked too late: what do you do with the person who wants to leave? A calls him a traitor. B pays for his bus. That is, to date, the most instructive difference.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "On which axis does the passage find the decisive difference?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The treatment of dissent — the one who wants to leave"
+            },
+            {
+              "id": "b",
+              "text": "The colour of the shutters"
+            },
+            {
+              "id": "c",
+              "text": "The price of property"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        },
+        {
+          "id": "q2",
+          "prompt": "« Personne ne choisit la plomberie » quietly objects that…",
+          "options": [
+            {
+              "id": "a",
+              "text": "free choice of work leaves necessary tasks undone — utopias must answer for the pipes"
+            },
+            {
+              "id": "b",
+              "text": "plumbing is forbidden in village B"
+            },
+            {
+              "id": "c",
+              "text": "everyone in A is a plumber"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex-mc-4",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "The full C2 réflexion machine, in order:",
+      "options": [
+        {
+          "id": "a",
+          "text": "définir → confronter (thèse/antithèse) → illustrer (chiffres à l'appui) → trancher puis ouvrir"
+        },
+        {
+          "id": "b",
+          "text": "illustrer → trancher → définir → confronter"
+        },
+        {
+          "id": "c",
+          "text": "trancher d'abord, définir si le temps le permet"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Everything converges here: definitions, your dissertation training, your project defenses, and the conclusion that commits. Fin du programme — la suite vous appartient."
+    },
+    {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/c2.2/unit-04-utopies/example-ex-1.mp3",
+      "transcript": "L'utopie indique l'écart entre la société qu'on a et celle qu'on n'ose pas demander.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Utopia measures the gap between the society we have and the one we dare not ask for."
+        },
+        {
+          "id": "b",
+          "text": "Every utopia answers three questions: work, property, decision."
+        },
+        {
+          "id": "c",
+          "text": "A perfect society with no exit is a different genre of book."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « une utopie » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "a utopia"
+        },
+        {
+          "id": "b",
+          "text": "alter-globalism"
+        },
+        {
+          "id": "c",
+          "text": "microcredit"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "une utopie = a utopia."
+    },
+    {
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "Le {{b1}} parie que les pauvres sont solvables.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "microcrédit"
+          ]
+        }
+      ],
+      "explanation": "« Le microcrédit parie que les pauvres sont solvables. » — microcredit."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "les nouvelles solidarités",
+          "right": "new forms of solidarity"
+        },
+        {
+          "id": "p2",
+          "left": "le bien commun",
+          "right": "the common good"
+        },
+        {
+          "id": "p3",
+          "left": "le bonheur",
+          "right": "happiness"
+        },
+        {
+          "id": "p4",
+          "left": "le bien-être",
+          "right": "well-being"
+        }
+      ]
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "L'utopie indique l'écart entre la société qu'on a et celle qu'on n'ose pas demander.",
+      "targetEn": "Utopia measures the gap between the society we have and the one we dare not ask for.",
+      "audio": "audio/c2.2/unit-04-utopies/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "Une société parfaite sans porte de sortie est un autre genre de livre.",
+      "targetEn": "A perfect society with no exit is a different genre of book.",
+      "audio": "audio/c2.2/unit-04-utopies/example-ex-3.mp3"
+    }
+  ]
+}

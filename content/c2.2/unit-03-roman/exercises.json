@@ -1,0 +1,427 @@
+{
+  "schemaVersion": 1,
+  "unitId": "c2.2/unit-03-roman",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "The incipit's three jobs:",
+      "options": [
+        {
+          "id": "a",
+          "text": "hook the reader, plant the initial situation, hide the seed of trouble"
+        },
+        {
+          "id": "b",
+          "text": "summarise the plot, name the author, thank the publisher"
+        },
+        {
+          "id": "c",
+          "text": "describe the weather in detail"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Happer, planter, promettre — three jobs, often in one sentence."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Proust's seven-word opening proves that a hook…",
+      "options": [
+        {
+          "id": "a",
+          "text": "can be a question the sentence refuses to answer — no explosion needed"
+        },
+        {
+          "id": "b",
+          "text": "must start with an action scene"
+        },
+        {
+          "id": "c",
+          "text": "needs at least a paragraph"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "A man goes to bed early. Why « longtemps »? Why tell us? You're already reading on."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "What a good first sentence does to the reader.",
+      "inputMode": "dropdown",
+      "template": "Une bonne première phrase {{b1}} sans expliquer.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "happe"
+          ],
+          "options": [
+            "happe",
+            "harpe",
+            "happe-ning"
+          ]
+        }
+      ],
+      "explanation": "Happer — to snatch, to hook. La harpe is for the orchestra pit."
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "What tips the initial situation over.",
+      "inputMode": "dropdown",
+      "template": "L'élément {{b1}} fait basculer la situation initiale.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "perturbateur"
+          ],
+          "options": [
+            "perturbateur",
+            "décorateur",
+            "modérateur"
+          ]
+        }
+      ],
+      "explanation": "L'élément perturbateur — the inciting incident; the decorator only moves furniture."
+    },
+    {
+      "id": "ex-mc-3",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "The « indice de perturbation » technique presents…",
+      "options": [
+        {
+          "id": "a",
+          "text": "a stable life with one detail promising the stability won't last"
+        },
+        {
+          "id": "b",
+          "text": "total chaos from the first line"
+        },
+        {
+          "id": "c",
+          "text": "a list of all future plot twists"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Maupassant's clerk's wife « souffre » of her modest home — the necklace tragedy coiled in one verb."
+    },
+    {
+      "id": "ex-fb-3",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "The first-person narrator is intimate but… (adjective: one-eyed).",
+      "inputMode": "typed",
+      "template": "Le narrateur en « je » est intime mais {{b1}}.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "borgne"
+          ]
+        }
+      ],
+      "explanation": "Borgne — one-eyed: the « je » sees only what one head can see. The price of intimacy."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each narrative term to its meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "l'incipit",
+          "right": "the novel's opening"
+        },
+        {
+          "id": "p2",
+          "left": "les péripéties",
+          "right": "the twists and turns"
+        },
+        {
+          "id": "p3",
+          "left": "le dénouement",
+          "right": "the untying of the knot"
+        },
+        {
+          "id": "p4",
+          "left": "la rétention d'information",
+          "right": "the narrator knows, the page doesn't say"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"Stability plus crack equals a reader who stays.\"",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Stabilité"
+        },
+        {
+          "id": "t2",
+          "text": "plus"
+        },
+        {
+          "id": "t3",
+          "text": "fissure"
+        },
+        {
+          "id": "t4",
+          "text": "égale"
+        },
+        {
+          "id": "t5",
+          "text": "lecteur"
+        },
+        {
+          "id": "t6",
+          "text": "qui"
+        },
+        {
+          "id": "t7",
+          "text": "reste"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7"
+      ]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen to this incipit. Which technique is doing the work?",
+      "audio": "audio/c2.2/unit-03-roman/listen-1.mp3",
+      "transcript": "Or Madame Vey ne lavait jamais sa vitrine le mardi.",
+      "options": [
+        {
+          "id": "a",
+          "text": "The hidden clue — one broken habit promising the stability will crack"
+        },
+        {
+          "id": "b",
+          "text": "A dramatic explosion"
+        },
+        {
+          "id": "c",
+          "text": "A flashback"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "A washed window doing the work of a thunderclap: l'indice de perturbation."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read this examiner's note on two student incipits and answer both questions.",
+      "passageFr": "Copie A ouvre sur une explosion : immeuble en flammes, cris, sirènes. Tout est donné, rien n'est promis — au deuxième paragraphe, le lecteur n'a plus de question. Copie B ouvre sur un facteur qui, pour la première fois en vingt ans, dépasse la maison numéro 9 sans s'arrêter. C'est tout. Et c'est exactement assez : une habitude posée, une habitude rompue. La copie B a compris que l'incipit ne crie pas — il retient. Le lecteur tournera la page pour savoir ce que le facteur sait.",
+      "passageEn": "Paper A opens on an explosion: building in flames, screams, sirens. Everything is given, nothing is promised — by the second paragraph the reader has no question left. Paper B opens on a postman who, for the first time in twenty years, walks past house number 9 without stopping. That's all. And it's exactly enough: a habit set, a habit broken. Paper B understood that the incipit doesn't shout — it withholds. The reader will turn the page to learn what the postman knows.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "Why does paper A's explosive opening fail?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Everything is given, nothing promised — the reader runs out of questions"
+            },
+            {
+              "id": "b",
+              "text": "Fires are forbidden in fiction"
+            },
+            {
+              "id": "c",
+              "text": "It is too short"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        },
+        {
+          "id": "q2",
+          "prompt": "What makes paper B's postman work?",
+          "options": [
+            {
+              "id": "a",
+              "text": "A twenty-year habit broken once — stability with a crack, and withheld knowledge"
+            },
+            {
+              "id": "b",
+              "text": "The detailed description of his uniform"
+            },
+            {
+              "id": "c",
+              "text": "The reader learns immediately what's in the mail"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex-mc-4",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Flaubert dating his opening to the morning of 15 September 1840 shows…",
+      "options": [
+        {
+          "id": "a",
+          "text": "ancrer dans une époque — a precise date welds a destiny to History"
+        },
+        {
+          "id": "b",
+          "text": "that novels require footnotes"
+        },
+        {
+          "id": "c",
+          "text": "that the author lacked imagination"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "The era is a character: anchor your hero to a date and History starts working for your plot."
+    },
+    {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/c2.2/unit-03-roman/example-ex-1.mp3",
+      "transcript": "Proust ouvre sur un homme qui se couche tôt : sept mots, aucune action, intrigue totale.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Proust opens on a man going to bed early: seven words, no action, total intrigue."
+        },
+        {
+          "id": "b",
+          "text": "The hook isn't an explosion: it's a question the sentence refuses to answer."
+        },
+        {
+          "id": "c",
+          "text": "Stability plus crack equals a reader who stays."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « un roman » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "a novel"
+        },
+        {
+          "id": "b",
+          "text": "the opening"
+        },
+        {
+          "id": "c",
+          "text": "a plot"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "un roman = a novel."
+    },
+    {
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "Le {{b1}} s'est imposé en Europe au XVIIIe siècle.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "roman"
+          ]
+        }
+      ],
+      "explanation": "« Le roman s'est imposé en Europe au XVIIIe siècle. » — a novel."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "un personnage",
+          "right": "a character"
+        },
+        {
+          "id": "p2",
+          "left": "la situation initiale",
+          "right": "the initial situation"
+        },
+        {
+          "id": "p3",
+          "left": "l'élément perturbateur",
+          "right": "the inciting incident"
+        },
+        {
+          "id": "p4",
+          "left": "un indice",
+          "right": "a clue / hint"
+        }
+      ]
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "Proust ouvre sur un homme qui se couche tôt : sept mots, aucune action, intrigue totale.",
+      "targetEn": "Proust opens on a man going to bed early: seven words, no action, total intrigue.",
+      "audio": "audio/c2.2/unit-03-roman/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "Stabilité plus fissure égale lecteur qui reste.",
+      "targetEn": "Stability plus crack equals a reader who stays.",
+      "audio": "audio/c2.2/unit-03-roman/example-ex-3.mp3"
+    }
+  ]
+}
