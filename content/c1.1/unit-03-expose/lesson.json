@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "c1.1/unit-03-expose",
+  "level": "c1.1",
+  "unitNumber": 3,
+  "slug": "unit-03-expose",
+  "title": "L'Exposé",
+  "titleFr": "Faire un exposé à partir de documents écrits",
+  "cefrDescriptors": [
+    "Can build and deliver a structured oral presentation from written documents — the DALF C1 speaking task.",
+    "Can guide a listener through parts and transitions with the oral phrases-outils."
+  ],
+  "skills": ["reading", "listening", "writing", "speaking"],
+  "estimatedMinutes": 70,
+  "concept": "Dossier 2's technique is the DALF C1 oral itself: l'exposé — you receive written documents, prepare for an hour, then speak for about ten minutes before the examiners join in for the entretien. The synthèse's twin, but standing up: same rigour, plus a voice.\n\nLA PRÉPARATION (the silent hour):\n  1. Read the documents the synthèse way: theme, then problématique.\n  2. Select the load-bearing ideas — and ADD YOUR OWN: unlike the synthèse, the exposé wants your position and your examples.\n  3. Build the plan: introduction / two (or three) parts / conclusion. Write NOTES, never a script — examiners can hear reading.\n\nL'EXPOSÉ (the speaking ten minutes), piece by piece:\n  • L'ACCROCHE — a hook before anything else: a striking fact, a question, a tiny scene. Never start with « Alors, donc, le sujet… ».\n  • L'annonce du plan: « J'aborderai d'abord… avant d'examiner… »\n  • Le développement, stitched with AUDIBLE transitions — the listener has no headings, your connectors are the headings:\n  « Je commencerai par évoquer… » · « Venons-en maintenant à… » · « Cela m'amène à mon second point. » · « Après avoir vu X, examinons Y. »\n  • La conclusion: a one-breath bilan, then une ouverture — a door left open: « Reste une question : … »\n\nDELIVERY — what graders actually note: eye contact over notes; a steady pace (nerves accelerate everyone); and signposting so clear that a distracted examiner could reconstruct your plan from the connectors alone.\n\nPut it together — a 20-second exposé skeleton: « Un chiffre d'abord : huit jeunes sur dix vivent encore chez leurs parents à 20 ans. Ce constat soulève une question : l'indépendance a-t-elle changé d'âge ? J'aborderai d'abord les causes économiques, avant d'examiner les mutations familiales. … Pour conclure, l'indépendance ne disparaît pas — elle se réinvente. Reste une question : à quel prix ? »\n\nYour turn: pick any topic you know well and say (out loud!) an accroche + an annonce du plan in French. Twenty seconds. Examiner-you is listening.",
+  "vocabulary": [
+    { "id": "expose", "fr": "un exposé", "en": "an oral presentation", "pos": "noun", "exampleFr": "Son exposé a duré dix minutes.", "exampleEn": "Her presentation lasted ten minutes.", "audio": "audio/c1.1/unit-03-expose/vocab-expose.mp3", "voice": "denise" },
+    { "id": "accroche", "fr": "une accroche", "en": "a hook (opening)", "pos": "noun", "exampleFr": "Commencez par une accroche forte.", "exampleEn": "Start with a strong hook.", "audio": "audio/c1.1/unit-03-expose/vocab-accroche.mp3", "voice": "henri" },
+    { "id": "annonce-plan", "fr": "annoncer le plan", "en": "to announce the outline", "pos": "expression", "exampleFr": "Annoncez le plan dès l'introduction.", "exampleEn": "Announce the outline in the introduction.", "audio": "audio/c1.1/unit-03-expose/vocab-annonce-plan.mp3", "voice": "denise" },
+    { "id": "partie", "fr": "une partie", "en": "a part / section", "pos": "noun", "exampleFr": "Mon exposé comporte deux parties.", "exampleEn": "My presentation has two parts.", "audio": "audio/c1.1/unit-03-expose/vocab-partie.mp3", "voice": "henri" },
+    { "id": "transition", "fr": "une transition", "en": "a transition", "pos": "noun", "exampleFr": "Soignez les transitions entre les parties.", "exampleEn": "Polish the transitions between parts.", "audio": "audio/c1.1/unit-03-expose/vocab-transition.mp3", "voice": "denise" },
+    { "id": "bilan", "fr": "un bilan", "en": "a summing-up", "pos": "noun", "exampleFr": "La conclusion dresse un bilan rapide.", "exampleEn": "The conclusion draws a quick summing-up.", "audio": "audio/c1.1/unit-03-expose/vocab-bilan.mp3", "voice": "henri" },
+    { "id": "ouverture", "fr": "une ouverture", "en": "a closing opening-out", "pos": "noun", "exampleFr": "Terminez par une ouverture.", "exampleEn": "End by opening the question outward.", "audio": "audio/c1.1/unit-03-expose/vocab-ouverture.mp3", "voice": "denise" },
+    { "id": "je-commencerai", "fr": "je commencerai par…", "en": "I shall begin with…", "pos": "expression", "exampleFr": "Je commencerai par un constat simple.", "exampleEn": "I shall begin with a simple observation.", "audio": "audio/c1.1/unit-03-expose/vocab-je-commencerai.mp3", "voice": "henri" },
+    { "id": "venons-en", "fr": "venons-en à…", "en": "let us turn to…", "pos": "expression", "exampleFr": "Venons-en maintenant aux causes.", "exampleEn": "Let us now turn to the causes.", "audio": "audio/c1.1/unit-03-expose/vocab-venons-en.mp3", "voice": "denise" },
+    { "id": "cela-m-amene", "fr": "cela m'amène à…", "en": "this brings me to…", "pos": "expression", "exampleFr": "Cela m'amène à mon second point.", "exampleEn": "This brings me to my second point.", "audio": "audio/c1.1/unit-03-expose/vocab-cela-m-amene.mp3", "voice": "henri" },
+    { "id": "pour-conclure", "fr": "pour conclure", "en": "to conclude", "pos": "expression", "exampleFr": "Pour conclure, rappelons l'essentiel.", "exampleEn": "To conclude, let us recall the essentials.", "audio": "audio/c1.1/unit-03-expose/vocab-pour-conclure.mp3", "voice": "denise" },
+    { "id": "auditoire", "fr": "un auditoire", "en": "an audience", "pos": "noun", "exampleFr": "Regardez votre auditoire, pas vos notes.", "exampleEn": "Look at your audience, not your notes.", "audio": "audio/c1.1/unit-03-expose/vocab-auditoire.mp3", "voice": "henri" },
+    { "id": "entretien-c1", "fr": "l'entretien (m.)", "en": "the follow-up discussion", "pos": "noun", "exampleFr": "L'exposé est suivi d'un entretien.", "exampleEn": "The presentation is followed by a discussion.", "audio": "audio/c1.1/unit-03-expose/vocab-entretien-c1.mp3", "voice": "denise" },
+    { "id": "constat", "fr": "un constat", "en": "an observation / finding", "pos": "noun", "exampleFr": "Partons d'un constat chiffré.", "exampleEn": "Let's start from a numbered finding.", "audio": "audio/c1.1/unit-03-expose/vocab-constat.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "J'aborderai d'abord les causes, avant d'examiner les conséquences.", "en": "I shall tackle the causes first, before examining the consequences.", "audio": "audio/c1.1/unit-03-expose/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "Venons-en maintenant au cœur du problème.", "en": "Let us now come to the heart of the problem.", "audio": "audio/c1.1/unit-03-expose/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "Cela m'amène à mon second point.", "en": "This brings me to my second point.", "audio": "audio/c1.1/unit-03-expose/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "Un chiffre d'abord : huit jeunes sur dix vivent encore chez leurs parents.", "en": "A figure first: eight in ten young people still live with their parents.", "audio": "audio/c1.1/unit-03-expose/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "Pour conclure, ce constat n'est pas une fatalité.", "en": "To conclude, this situation is not inevitable.", "audio": "audio/c1.1/unit-03-expose/example-ex-5.mp3", "voice": "denise" },
+    { "id": "ex-6", "fr": "Reste une question : à quel prix ?", "en": "One question remains: at what cost?", "audio": "audio/c1.1/unit-03-expose/example-ex-6.mp3", "voice": "henri" }
+  ]
+}

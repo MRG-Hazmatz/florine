@@ -280,16 +280,16 @@
       "skill": "writing",
       "prompt": "Fill in the missing word (from this unit's vocabulary).",
       "inputMode": "typed",
-      "template": "{{b1}} café",
+      "template": "Il fait {{b1}} degré ce matin.",
       "blanks": [
         {
           "id": "b1",
           "accept": [
-            "un"
+            "zéro"
           ]
         }
       ],
-      "explanation": "« un café » — one."
+      "explanation": "« Il fait zéro degré ce matin. » — zero."
     },
     {
       "id": "ex-mp-pool-1",

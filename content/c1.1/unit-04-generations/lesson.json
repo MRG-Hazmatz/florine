@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "c1.1/unit-04-generations",
+  "level": "c1.1",
+  "unitNumber": 4,
+  "slug": "unit-04-generations",
+  "title": "Générations",
+  "titleFr": "Famille, héritage et textes polémiques",
+  "cefrDescriptors": [
+    "Can discuss generational change with C1 vocabulary (fossé, léguer, remettre en cause…).",
+    "Can decode a polemical text: where the provocation ends and the argument begins."
+  ],
+  "skills": ["reading", "listening", "writing", "speaking"],
+  "estimatedMinutes": 70,
+  "concept": "Dossier 2's theme: the family across generations — from Molière's misers to the soixante-huitards (the 1968 generation) to today's screens-at-the-table debates. C1 texts on this theme are often POLEMICAL, and your job is to read them with gloves on.\n\nTHE GENERATIONS LEXICON:\n  • le fossé générationnel (the generation gap) — which se creuse (widens) or se comble (closes)\n  • léguer (to bequeath): On lègue un patrimoine, mais aussi des valeurs. · hériter de (to inherit)\n  • un repère (a bearing/reference point): une jeunesse en quête de repères\n  • l'émancipation (f.) · remettre en cause (to call into question): Chaque génération remet en cause la précédente.\n  • un soixante-huitard — a 68er; après eux, le déluge ? (after them, the flood?)\n  • les aînés (elders) · la querelle des générations — a debate as old as Molière's L'Avare.\n\nDECODING A POLEMICAL TEXT — the C1 reading skill. A polemic wants a reaction; you give it analysis instead:\n  • Spot the PROVOCATION: absolutes (tous, jamais, aucun), loaded words, irony, rhetorical questions. « Les jeunes n'ont plus aucun repère » — the aucun is doing the shouting.\n  • Find the ARGUMENT underneath: what claim survives once the heat is removed?\n  • Name the intention: informer ? convaincre ? provoquer pour vendre ?\n  The exam move: « L'auteur force le trait pour interpeller, mais son constat de fond est que… » — acknowledge the rhetoric, extract the substance.\n\nPut it together like a C1 answer: « Ce texte au ton volontiers polémique accuse les soixante-huitards d'avoir tout légué sauf des repères. Derrière la provocation, un constat plus mesuré : le fossé générationnel s'est creusé moins entre les personnes qu'entre leurs rythmes de vie. »\n\nYour turn: write one deliberately polemical sentence about your generation — then the calm sentence hiding inside it.",
+  "vocabulary": [
+    { "id": "fosse", "fr": "le fossé générationnel", "en": "the generation gap", "pos": "noun", "exampleFr": "Le fossé générationnel se creuse.", "exampleEn": "The generation gap is widening.", "audio": "audio/c1.1/unit-04-generations/vocab-fosse.mp3", "voice": "denise" },
+    { "id": "se-creuser", "fr": "se creuser", "en": "to widen / deepen", "pos": "verb", "exampleFr": "L'écart se creuse entre les âges.", "exampleEn": "The gap between ages is widening.", "audio": "audio/c1.1/unit-04-generations/vocab-se-creuser.mp3", "voice": "henri" },
+    { "id": "leguer", "fr": "léguer", "en": "to bequeath / pass down", "pos": "verb", "exampleFr": "Que léguerons-nous à nos enfants ?", "exampleEn": "What will we bequeath to our children?", "audio": "audio/c1.1/unit-04-generations/vocab-leguer.mp3", "voice": "denise" },
+    { "id": "heriter", "fr": "hériter de", "en": "to inherit", "pos": "verb", "exampleFr": "Nous héritons de leurs combats.", "exampleEn": "We inherit their battles.", "audio": "audio/c1.1/unit-04-generations/vocab-heriter.mp3", "voice": "henri" },
+    { "id": "repere", "fr": "un repère", "en": "a bearing / reference point", "pos": "noun", "exampleFr": "Une jeunesse en quête de repères.", "exampleEn": "A youth in search of bearings.", "audio": "audio/c1.1/unit-04-generations/vocab-repere.mp3", "voice": "denise" },
+    { "id": "emancipation", "fr": "l'émancipation (f.)", "en": "emancipation", "pos": "noun", "exampleFr": "Mai 68 fut une vague d'émancipation.", "exampleEn": "May 68 was a wave of emancipation.", "audio": "audio/c1.1/unit-04-generations/vocab-emancipation.mp3", "voice": "henri" },
+    { "id": "remettre-en-cause", "fr": "remettre en cause", "en": "to call into question", "pos": "expression", "exampleFr": "Chaque génération remet en cause la précédente.", "exampleEn": "Each generation calls the previous one into question.", "audio": "audio/c1.1/unit-04-generations/vocab-remettre-en-cause.mp3", "voice": "denise" },
+    { "id": "soixante-huitard", "fr": "un soixante-huitard", "en": "a 68er (May 1968 generation)", "pos": "noun", "exampleFr": "Les soixante-huitards rêvaient de tout changer.", "exampleEn": "The 68ers dreamed of changing everything.", "audio": "audio/c1.1/unit-04-generations/vocab-soixante-huitard.mp3", "voice": "henri" },
+    { "id": "aines", "fr": "les aînés (m.)", "en": "elders", "pos": "noun", "exampleFr": "Le regard des aînés a changé.", "exampleEn": "The elders' outlook has changed.", "audio": "audio/c1.1/unit-04-generations/vocab-aines.mp3", "voice": "denise" },
+    { "id": "querelle", "fr": "une querelle", "en": "a quarrel / feud", "pos": "noun", "exampleFr": "La querelle des générations est éternelle.", "exampleEn": "The quarrel of the generations is eternal.", "audio": "audio/c1.1/unit-04-generations/vocab-querelle.mp3", "voice": "henri" },
+    { "id": "polemique", "fr": "polémique", "en": "polemical / controversial", "pos": "adjective", "exampleFr": "Un éditorial au ton polémique.", "exampleEn": "An editorial with a polemical tone.", "audio": "audio/c1.1/unit-04-generations/vocab-polemique.mp3", "voice": "denise" },
+    { "id": "forcer-le-trait", "fr": "forcer le trait", "en": "to overstate deliberately", "pos": "expression", "exampleFr": "L'auteur force le trait pour interpeller.", "exampleEn": "The author overstates to grab attention.", "audio": "audio/c1.1/unit-04-generations/vocab-forcer-le-trait.mp3", "voice": "henri" },
+    { "id": "en-quete-de", "fr": "en quête de", "en": "in search of", "pos": "expression", "exampleFr": "Des lecteurs en quête de sens.", "exampleEn": "Readers in search of meaning.", "audio": "audio/c1.1/unit-04-generations/vocab-en-quete-de.mp3", "voice": "denise" },
+    { "id": "de-fond", "fr": "un constat de fond", "en": "an underlying finding", "pos": "expression", "exampleFr": "Derrière la provocation, un constat de fond.", "exampleEn": "Behind the provocation, an underlying finding.", "audio": "audio/c1.1/unit-04-generations/vocab-de-fond.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "Le fossé générationnel se creuse moins qu'on ne le croit.", "en": "The generation gap is widening less than people think.", "audio": "audio/c1.1/unit-04-generations/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "Que léguerons-nous, sinon nos questions ?", "en": "What will we bequeath, if not our questions?", "audio": "audio/c1.1/unit-04-generations/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "Chaque génération remet en cause les repères de la précédente.", "en": "Each generation questions the bearings of the one before.", "audio": "audio/c1.1/unit-04-generations/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "Les soixante-huitards, après eux le déluge ?", "en": "The 68ers — after them, the flood?", "audio": "audio/c1.1/unit-04-generations/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "L'auteur force le trait pour interpeller son lecteur.", "en": "The author overstates to challenge the reader.", "audio": "audio/c1.1/unit-04-generations/example-ex-5.mp3", "voice": "denise" },
+    { "id": "ex-6", "fr": "Derrière la provocation se cache un constat plus mesuré.", "en": "Behind the provocation hides a more measured finding.", "audio": "audio/c1.1/unit-04-generations/example-ex-6.mp3", "voice": "henri" }
+  ]
+}

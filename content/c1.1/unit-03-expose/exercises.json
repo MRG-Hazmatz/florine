@@ -1,0 +1,462 @@
+{
+  "schemaVersion": 1,
+  "unitId": "c1.1/unit-03-expose",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "How does a strong exposé begin?",
+      "options": [
+        {
+          "id": "a",
+          "text": "With an accroche — a striking fact, question or scene"
+        },
+        {
+          "id": "b",
+          "text": "With « Alors, donc, le sujet est… »"
+        },
+        {
+          "id": "c",
+          "text": "With the conclusion, to save time"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "The hook comes first; examiners hear a hundred « alors donc » openings a day."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Unlike the synthèse, the exposé…",
+      "options": [
+        {
+          "id": "a",
+          "text": "welcomes your own position and examples"
+        },
+        {
+          "id": "b",
+          "text": "forbids any personal opinion"
+        },
+        {
+          "id": "c",
+          "text": "must be read aloud word for word"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "The synthèse is objective; the exposé wants you to take position and argue it."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Announce the outline.",
+      "inputMode": "dropdown",
+      "template": "J'{{b1}} d'abord les causes, avant d'examiner les conséquences.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "aborderai"
+          ],
+          "options": [
+            "aborderai",
+            "ai abordé",
+            "abordais"
+          ]
+        }
+      ],
+      "explanation": "The plan is announced in the future: j'aborderai d'abord… avant d'examiner…"
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "The audible transition.",
+      "inputMode": "dropdown",
+      "template": "{{b1}} maintenant au cœur du problème.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "Venons-en"
+          ],
+          "options": [
+            "Venons-en",
+            "Allons-y",
+            "Partons-en"
+          ]
+        }
+      ],
+      "explanation": "Venons-en à… = let us turn to… — the classic spoken transition."
+    },
+    {
+      "id": "ex-mc-3",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Why write notes rather than a full script?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Examiners can hear reading — notes keep you speaking, not reciting"
+        },
+        {
+          "id": "b",
+          "text": "Scripts are forbidden in the exam room"
+        },
+        {
+          "id": "c",
+          "text": "Notes are easier to photocopy"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Delivery counts: eye contact and natural speech beat a perfectly read script."
+    },
+    {
+      "id": "ex-fb-3",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Close with a door left open (one word).",
+      "inputMode": "typed",
+      "template": "Reste une {{b1}} : à quel prix ?",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "question"
+          ]
+        }
+      ],
+      "explanation": "L'ouverture: end on a question that extends the topic — reste une question…"
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each exposé element to its role.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "l'accroche",
+          "right": "the opening hook"
+        },
+        {
+          "id": "p2",
+          "left": "la transition",
+          "right": "the audible signpost"
+        },
+        {
+          "id": "p3",
+          "left": "le bilan",
+          "right": "the summing-up"
+        },
+        {
+          "id": "p4",
+          "left": "l'ouverture",
+          "right": "the door left open"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"This brings me to my second point.\"",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Cela"
+        },
+        {
+          "id": "t2",
+          "text": "m'amène"
+        },
+        {
+          "id": "t3",
+          "text": "à"
+        },
+        {
+          "id": "t4",
+          "text": "mon"
+        },
+        {
+          "id": "t5",
+          "text": "second"
+        },
+        {
+          "id": "t6",
+          "text": "point"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen to this exposé opening. Which two elements do you hear?",
+      "audio": "audio/c1.1/unit-03-expose/listen-1.mp3",
+      "transcript": "Un chiffre d'abord : huit jeunes sur dix vivent encore chez leurs parents à vingt ans. J'aborderai d'abord les causes économiques, avant d'examiner les mutations familiales.",
+      "options": [
+        {
+          "id": "a",
+          "text": "An accroche (the striking figure) and the announced plan"
+        },
+        {
+          "id": "b",
+          "text": "A conclusion and an apology"
+        },
+        {
+          "id": "c",
+          "text": "Two unrelated anecdotes"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Hook (un chiffre d'abord) + plan (j'aborderai… avant d'examiner…) — a model start."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read these examiner notes and answer both questions.",
+      "passageFr": "Candidat 14 — Accroche efficace (anecdote personnelle). Plan annoncé puis respecté ; transitions audibles (« venons-en à », « cela m'amène à »). Bémol : la conclusion ne dresse aucun bilan et s'arrête net, sans ouverture. Lecture des notes trop fréquente dans la deuxième partie.",
+      "passageEn": "Candidate 14 — Effective hook (personal anecdote). Outline announced then followed; audible transitions ('venons-en à', 'cela m'amène à'). Weak point: the conclusion draws no summing-up and stops dead, with no opening-out. Read from notes too often in part two.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "What did the candidate do well?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Hook, announced plan, audible transitions"
+            },
+            {
+              "id": "b",
+              "text": "A perfect conclusion"
+            },
+            {
+              "id": "c",
+              "text": "Speaking without any notes"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        },
+        {
+          "id": "q2",
+          "prompt": "What was the conclusion missing?",
+          "options": [
+            {
+              "id": "a",
+              "text": "A bilan and an ouverture"
+            },
+            {
+              "id": "b",
+              "text": "A second accroche"
+            },
+            {
+              "id": "c",
+              "text": "More reading from notes"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex-mc-4",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Why must transitions be AUDIBLE in an exposé?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The listener has no headings — your connectors are the headings"
+        },
+        {
+          "id": "b",
+          "text": "Examiners are usually far from the candidate"
+        },
+        {
+          "id": "c",
+          "text": "It fills time when you forget content"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Spoken structure must be heard: clear connectors let the listener rebuild your plan."
+    },
+    {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/c1.1/unit-03-expose/example-ex-1.mp3",
+      "transcript": "J'aborderai d'abord les causes, avant d'examiner les conséquences.",
+      "options": [
+        {
+          "id": "a",
+          "text": "I shall tackle the causes first, before examining the consequences."
+        },
+        {
+          "id": "b",
+          "text": "Let us now come to the heart of the problem."
+        },
+        {
+          "id": "c",
+          "text": "This brings me to my second point."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « un exposé » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "an oral presentation"
+        },
+        {
+          "id": "b",
+          "text": "a hook"
+        },
+        {
+          "id": "c",
+          "text": "to announce the outline"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "un exposé = an oral presentation."
+    },
+    {
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "Son {{b1}} a duré dix minutes.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "exposé"
+          ]
+        }
+      ],
+      "explanation": "« Son exposé a duré dix minutes. » — an oral presentation."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "une transition",
+          "right": "a transition"
+        },
+        {
+          "id": "p2",
+          "left": "un bilan",
+          "right": "a summing-up"
+        },
+        {
+          "id": "p3",
+          "left": "une ouverture",
+          "right": "a closing opening-out"
+        },
+        {
+          "id": "p4",
+          "left": "je commencerai par…",
+          "right": "I shall begin with…"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “Let us now come to the heart of the problem.”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Venons-en"
+        },
+        {
+          "id": "t2",
+          "text": "maintenant"
+        },
+        {
+          "id": "t3",
+          "text": "au"
+        },
+        {
+          "id": "t4",
+          "text": "cœur"
+        },
+        {
+          "id": "t5",
+          "text": "du"
+        },
+        {
+          "id": "t6",
+          "text": "problème"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ]
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "J'aborderai d'abord les causes, avant d'examiner les conséquences.",
+      "targetEn": "I shall tackle the causes first, before examining the consequences.",
+      "audio": "audio/c1.1/unit-03-expose/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "Cela m'amène à mon second point.",
+      "targetEn": "This brings me to my second point.",
+      "audio": "audio/c1.1/unit-03-expose/example-ex-3.mp3"
+    }
+  ]
+}

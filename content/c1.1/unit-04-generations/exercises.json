@@ -1,0 +1,457 @@
+{
+  "schemaVersion": 1,
+  "unitId": "c1.1/unit-04-generations",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "« Les jeunes n'ont plus AUCUN repère » — what marks this as provocation?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The absolute « aucun » — polemics speak in absolutes"
+        },
+        {
+          "id": "b",
+          "text": "The word « jeunes »"
+        },
+        {
+          "id": "c",
+          "text": "The present tense"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Tous, jamais, aucun — absolutes are the polemicist's drumbeat. Spot them, then look underneath."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "To pass things down across generations: « ___ un patrimoine, des valeurs. »",
+      "options": [
+        {
+          "id": "a",
+          "text": "Léguer"
+        },
+        {
+          "id": "b",
+          "text": "Larguer"
+        },
+        {
+          "id": "c",
+          "text": "Liguer"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Léguer = to bequeath. (Larguer = to dump — a very different family dynamic.)"
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "The gap widens.",
+      "inputMode": "dropdown",
+      "template": "Le fossé générationnel se {{b1}} d'année en année.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "creuse"
+          ],
+          "options": [
+            "creuse",
+            "comble",
+            "lègue"
+          ]
+        }
+      ],
+      "explanation": "Se creuser = to widen (its opposite: se combler, to close up)."
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "The C1 exam move on a polemic.",
+      "inputMode": "dropdown",
+      "template": "L'auteur {{b1}} pour interpeller, mais son constat de fond est mesuré.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "force le trait"
+          ],
+          "options": [
+            "force le trait",
+            "comble le fossé",
+            "remet la quête"
+          ]
+        }
+      ],
+      "explanation": "Forcer le trait = to deliberately overstate — name the rhetoric, then extract the substance."
+    },
+    {
+      "id": "ex-mc-3",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Reading a polemic at C1 means…",
+      "options": [
+        {
+          "id": "a",
+          "text": "separating the provocation from the underlying argument"
+        },
+        {
+          "id": "b",
+          "text": "agreeing with the strongest sentence"
+        },
+        {
+          "id": "c",
+          "text": "skipping the exaggerated parts entirely"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "A polemic wants a reaction; you answer with analysis: rhetoric named, claim extracted."
+    },
+    {
+      "id": "ex-fb-3",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "To question what came before (three words: remettre en …).",
+      "inputMode": "typed",
+      "template": "Chaque génération remet en {{b1}} la précédente.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "cause"
+          ]
+        }
+      ],
+      "explanation": "Remettre en cause = to call into question."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each generations word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "le fossé",
+          "right": "the gap"
+        },
+        {
+          "id": "p2",
+          "left": "hériter de",
+          "right": "to inherit"
+        },
+        {
+          "id": "p3",
+          "left": "un repère",
+          "right": "a bearing"
+        },
+        {
+          "id": "p4",
+          "left": "les aînés",
+          "right": "the elders"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"A youth in search of bearings.\"",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Une"
+        },
+        {
+          "id": "t2",
+          "text": "jeunesse"
+        },
+        {
+          "id": "t3",
+          "text": "en"
+        },
+        {
+          "id": "t4",
+          "text": "quête"
+        },
+        {
+          "id": "t5",
+          "text": "de"
+        },
+        {
+          "id": "t6",
+          "text": "repères"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen to the radio columnist. What is the measured claim under the heat?",
+      "audio": "audio/c1.1/unit-04-generations/listen-1.mp3",
+      "transcript": "On accuse les soixante-huitards d'avoir tout légué sauf des repères — derrière la provocation, le vrai constat : les rythmes de vie ont divergé.",
+      "options": [
+        {
+          "id": "a",
+          "text": "That generations' rhythms of life have diverged"
+        },
+        {
+          "id": "b",
+          "text": "That the 68ers truly left nothing at all"
+        },
+        {
+          "id": "c",
+          "text": "That young people refuse all inheritance"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "The provocation is the accusation; the constat de fond is the diverging rhythms."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read this (deliberately) polemical column and answer both questions.",
+      "passageFr": "« Les jeunes ne lisent plus, n'écoutent plus, ne respectent plus rien ! » Vraiment ? La même phrase se lit, mot pour mot, dans des chroniques de 1968, de 1925 — et, paraît-il, sur une tablette sumérienne. La querelle des générations est moins un constat qu'un rituel : chaque génération remet en cause la précédente, hérite malgré elle de ses repères, puis s'indigne à son tour. Le déluge n'arrive jamais ; il se transmet.",
+      "passageEn": "\"Young people no longer read, no longer listen, no longer respect anything!\" Really? The same sentence appears, word for word, in columns from 1968, from 1925 — and, reportedly, on a Sumerian tablet. The quarrel of generations is less a finding than a ritual: each generation questions the previous one, inherits its bearings despite itself, then takes its turn being indignant. The flood never comes; it gets handed down.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "What rhetorical device opens the column?",
+          "options": [
+            {
+              "id": "a",
+              "text": "A provocation in absolutes (ne…plus rien), immediately questioned"
+            },
+            {
+              "id": "b",
+              "text": "A scientific statistic"
+            },
+            {
+              "id": "c",
+              "text": "A neutral definition"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        },
+        {
+          "id": "q2",
+          "prompt": "What is the author's constat de fond?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The quarrel of generations is a recurring ritual, not a real decline"
+            },
+            {
+              "id": "b",
+              "text": "Young people have truly stopped reading"
+            },
+            {
+              "id": "c",
+              "text": "Sumerians invented newspapers"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex-mc-4",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "« Un soixante-huitard » is…",
+      "options": [
+        {
+          "id": "a",
+          "text": "someone from the May 1968 protest generation"
+        },
+        {
+          "id": "b",
+          "text": "a person who is sixty-eight years old"
+        },
+        {
+          "id": "c",
+          "text": "a resident of department 68"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "The soixante-huitards are the May 68 generation — cultural shorthand every C1 text assumes."
+    },
+    {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/c1.1/unit-04-generations/example-ex-1.mp3",
+      "transcript": "Le fossé générationnel se creuse moins qu'on ne le croit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "The generation gap is widening less than people think."
+        },
+        {
+          "id": "b",
+          "text": "What will we bequeath, if not our questions?"
+        },
+        {
+          "id": "c",
+          "text": "Each generation questions the bearings of the one before."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « le fossé générationnel » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "the generation gap"
+        },
+        {
+          "id": "b",
+          "text": "to widen / deepen"
+        },
+        {
+          "id": "c",
+          "text": "to bequeath / pass down"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "le fossé générationnel = the generation gap."
+    },
+    {
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "La {{b1}} des générations est éternelle.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "querelle"
+          ]
+        }
+      ],
+      "explanation": "« La querelle des générations est éternelle. » — a quarrel / feud."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "un repère",
+          "right": "a bearing / reference point"
+        },
+        {
+          "id": "p2",
+          "left": "l'émancipation (f.)",
+          "right": "emancipation"
+        },
+        {
+          "id": "p3",
+          "left": "remettre en cause",
+          "right": "to call into question"
+        },
+        {
+          "id": "p4",
+          "left": "un soixante-huitard",
+          "right": "a 68er"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “What will we bequeath, if not our questions?”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Que"
+        },
+        {
+          "id": "t2",
+          "text": "léguerons-nous,"
+        },
+        {
+          "id": "t3",
+          "text": "sinon"
+        },
+        {
+          "id": "t4",
+          "text": "nos"
+        },
+        {
+          "id": "t5",
+          "text": "questions"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5"
+      ]
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "Le fossé générationnel se creuse moins qu'on ne le croit.",
+      "targetEn": "The generation gap is widening less than people think.",
+      "audio": "audio/c1.1/unit-04-generations/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "Chaque génération remet en cause les repères de la précédente.",
+      "targetEn": "Each generation questions the bearings of the one before.",
+      "audio": "audio/c1.1/unit-04-generations/example-ex-3.mp3"
+    }
+  ]
+}
