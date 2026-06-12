@@ -30,7 +30,9 @@ export default function LevelSelect() {
               </div>
               <p className="mt-2 text-sm text-ink/60">
                 {enabled
-                  ? `${s.unitCount} unit${s.unitCount === 1 ? "" : "s"} · ${s.approvedCount} approved`
+                  ? `${s.unitCount} unit${s.unitCount === 1 ? "" : "s"}${
+                      s.approvedCount > 0 ? ` · ${s.approvedCount} approved` : ""
+                    }`
                   : "Coming soon"}
               </p>
             </div>

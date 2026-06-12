@@ -39,7 +39,7 @@ export default function Layout() {
             onClick={() => navigate(-1)}
             title="Back"
             aria-label="Go back to the previous page"
-            className="-mt-5 mb-2 inline-flex h-8 w-8 items-center justify-center rounded border border-ink/15 text-ink/60 transition-colors hover:border-marine/40 hover:text-marine"
+            className="-mt-7 mb-2 inline-flex h-8 w-8 items-center justify-center rounded border border-ink/15 text-ink/60 transition-colors hover:border-marine/40 hover:text-marine"
           >
             <svg
               viewBox="0 0 24 24"

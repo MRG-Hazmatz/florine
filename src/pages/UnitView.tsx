@@ -28,7 +28,6 @@ export default function UnitView() {
   }
 
   const { lesson, review } = unit;
-  const unreviewed = review.status !== "approved";
   const { prev, next } = getAdjacentUnits(unit);
 
   return (
@@ -40,14 +39,6 @@ export default function UnitView() {
         </div>
         {lesson.titleFr && <p className="italic text-ink/50">{lesson.titleFr}</p>}
       </header>
-
-      {unreviewed && (
-        <div className="rounded border border-amber-300 bg-amber-50 p-3 text-sm text-amber-900">
-          ⚠ This unit has not been approved by a native speaker yet. Per Florine's
-          content rule, unreviewed material is for development preview only and may
-          contain errors.
-        </div>
-      )}
 
       <GuideStranger seed={unit.id} caption="leçon" />
 

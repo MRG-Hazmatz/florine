@@ -8,6 +8,9 @@ const LABELS: Record<ReviewStatusValue, { text: string; cls: string }> = {
 };
 
 export default function ReviewBadge({ status }: { status: ReviewStatusValue }) {
+  // The whole catalogue is queued for one big native-review sitting; per-unit
+  // "pending" tags are noise until then. Approved/needs-changes still show.
+  if (status === "pending_review") return null;
   const { text, cls } = LABELS[status];
   return (
     <span className={`inline-block rounded px-2 py-0.5 text-xs font-medium ${cls}`}>

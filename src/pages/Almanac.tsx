@@ -49,6 +49,10 @@ export default function Almanac() {
               <span className="font-semibold">« {entry.word.fr} »</span>
               <span className="text-ink/60"> — {entry.word.en}</span>
             </p>
+            <p className="text-sm italic text-ink/70">
+              <span className="font-semibold not-italic text-marine">Motto:</span> «{" "}
+              {entry.motto.fr} » <span className="text-ink/50">— {entry.motto.en}</span>
+            </p>
             <p className="border-t border-ink/15 pt-3 text-sm leading-relaxed text-ink/80">
               {entry.bio}
             </p>
@@ -92,10 +96,6 @@ export default function Almanac() {
         ))}
       </ul>
 
-      <p className="text-center text-xs text-ink/45">
-        Portraits: “Strangers Vol. 1” by Francisco Lemos (lemos.itch.io), CC BY 4.0. The lives,
-        crimes and moustaches are Florine's own invention.
-      </p>
     </section>
   );
 }
