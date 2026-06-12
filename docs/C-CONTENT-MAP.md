@@ -30,8 +30,8 @@ Status: ✅ built · 🔨 in progress · ⬜ planned
 | 2 | Reading the media on tech | D1 | comparer des traitements médiatiques; lexique du numérique | ✅ c1.1/unit-02 |
 | 3 | Generations: l'exposé | D2 *Générations* | faire un exposé à partir de documents écrits | ✅ c1.1/unit-03 |
 | 4 | Family, education & polemic | D2 | analyser un texte polémique; comparaisons interculturelles | ✅ c1.1/unit-04 |
-| 5 | Work & social ladder: le résumé | D3 *Socialement vôtre* | faire un résumé de texte; allusions et implicites | ⬜ |
-| 6 | Money, class & irony | D3 | décoder l'implicite; argumentation socio-économique | ⬜ |
+| 5 | Work & social ladder: le résumé | D3 *Socialement vôtre* | faire un résumé de texte; allusions et implicites | ✅ c1.1/unit-05 |
+| 6 | Money, class & irony | D3 | décoder l'implicite; argumentation socio-économique | ✅ c1.1/unit-06 |
 | 7 | Borders: argumenter à l'oral | D4 *Nouvelles frontières* | argumenter à l'oral; points de vue contradictoires | ⬜ |
 | 8 | Mondialisation & enquête | D4 | l'enquête sociologique; pensée ethnologique | ⬜ |
 

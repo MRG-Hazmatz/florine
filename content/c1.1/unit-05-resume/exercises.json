@@ -1,0 +1,458 @@
+{
+  "schemaVersion": 1,
+  "unitId": "c1.1/unit-05-resume",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "The author writes « je pense que… ». In your résumé, you write…",
+      "options": [
+        {
+          "id": "a",
+          "text": "« je pense que… » — the summary keeps the author's voice"
+        },
+        {
+          "id": "b",
+          "text": "« l'auteur pense que… » — always report from outside"
+        },
+        {
+          "id": "c",
+          "text": "nothing — opinions are cut"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Unlike the synthèse, the résumé speaks AS the author: je stays je."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "What gets pruned FIRST when compressing?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The examples"
+        },
+        {
+          "id": "b",
+          "text": "The thesis"
+        },
+        {
+          "id": "c",
+          "text": "The connectors"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Examples die first, then redites and digressions. The thesis and the connectors survive."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "The compression tool you already know.",
+      "inputMode": "dropdown",
+      "template": "« Parce que les ventes ont baissé » se condense en « {{b1}} la baisse des ventes ».",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "du fait de"
+          ],
+          "options": [
+            "du fait de",
+            "au lieu de",
+            "à moins de"
+          ]
+        }
+      ],
+      "explanation": "Nominalisation + du fait de: a clause becomes a noun phrase — résumé gold."
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Prune like a gardener.",
+      "inputMode": "dropdown",
+      "template": "{{b1}} les digressions ; gardez le squelette.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "Élaguez"
+          ],
+          "options": [
+            "Élaguez",
+            "Arrosez",
+            "Plantez"
+          ]
+        }
+      ],
+      "explanation": "Élaguer = to prune — the résumé's favourite verb."
+    },
+    {
+      "id": "ex-mc-3",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Which is FORBIDDEN in a résumé?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Adding your own commentary on the text"
+        },
+        {
+          "id": "b",
+          "text": "Keeping the author's conclusion"
+        },
+        {
+          "id": "c",
+          "text": "Using sharper connectors than the original"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "No commentary, no remixing, no copying — compression only."
+    },
+    {
+      "id": "ex-fb-3",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "What always survives the cut? (one word)",
+      "inputMode": "typed",
+      "template": "Les exemples meurent, la {{b1}} survit toujours.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "thèse",
+            "these"
+          ]
+        }
+      ],
+      "explanation": "La thèse — the central claim — is the one thing a résumé can never lose."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each résumé term to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "élaguer",
+          "right": "to prune"
+        },
+        {
+          "id": "p2",
+          "left": "une redite",
+          "right": "a repetition"
+        },
+        {
+          "id": "p3",
+          "left": "fidèle",
+          "right": "faithful"
+        },
+        {
+          "id": "p4",
+          "left": "une consigne",
+          "right": "an instruction"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"Summarising is not betraying.\"",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Résumer"
+        },
+        {
+          "id": "t2",
+          "text": "n'est"
+        },
+        {
+          "id": "t3",
+          "text": "pas"
+        },
+        {
+          "id": "t4",
+          "text": "trahir"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4"
+      ]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen to the teacher's three commandments. Which list is right?",
+      "audio": "audio/c1.1/unit-05-resume/listen-1.mp3",
+      "transcript": "Trois règles : même voix, même ordre, un quart de la longueur — et comptez vos mots !",
+      "options": [
+        {
+          "id": "a",
+          "text": "Same voice, same order, a quarter of the length — count your words"
+        },
+        {
+          "id": "b",
+          "text": "New voice, new order, half the length"
+        },
+        {
+          "id": "c",
+          "text": "Any voice, any order, as short as possible"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "The résumé contract: voix, ordre, quota."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "An original and its résumé. Read both and answer the questions.",
+      "passageFr": "ORIGINAL (60 mots) : « Je crois, et les statistiques de plusieurs instituts le confirment d'ailleurs année après année, que la lecture sur écran, dont on annonçait qu'elle tuerait le livre — souvenez-vous des prophéties des années 2000 ! —, a en réalité créé de nouveaux lecteurs, plus jeunes, plus nombreux, et étonnamment plus fidèles. »\n\nRÉSUMÉ (20 mots) : « Je crois, statistiques à l'appui, que la lecture sur écran, loin de tuer le livre, a créé de nouveaux lecteurs fidèles. »",
+      "passageEn": "ORIGINAL (60 words): \"I believe — and several institutes' statistics confirm it year after year — that screen reading, which was supposed to kill the book (remember the prophecies of the 2000s!), has in fact created new readers: younger, more numerous, surprisingly more loyal.\"\n\nSUMMARY (20 words): \"I believe, statistics in hand, that screen reading, far from killing the book, has created loyal new readers.\"",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "What did the résumé prune?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The aside about the 2000s prophecies and the redundant details"
+            },
+            {
+              "id": "b",
+              "text": "The author's thesis"
+            },
+            {
+              "id": "c",
+              "text": "The first-person voice"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        },
+        {
+          "id": "q2",
+          "prompt": "Why does the résumé still say « je crois »?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Because the résumé keeps the author's voice and point of view"
+            },
+            {
+              "id": "b",
+              "text": "Because the summariser agrees with the author"
+            },
+            {
+              "id": "c",
+              "text": "It's a mistake — it should say « l'auteur croit »"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex-mc-4",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Your résumé is at 35% of the original length. You should…",
+      "options": [
+        {
+          "id": "a",
+          "text": "prune further — the quota is about a quarter (±10%)"
+        },
+        {
+          "id": "b",
+          "text": "submit it — longer is safer"
+        },
+        {
+          "id": "c",
+          "text": "add an example back for balance"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "The length instruction is part of the exercise: ~25% ±10%. Count your words."
+    },
+    {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/c1.1/unit-05-resume/example-ex-1.mp3",
+      "transcript": "Le résumé garde la thèse, l'ordre et la voix de l'auteur.",
+      "options": [
+        {
+          "id": "a",
+          "text": "The summary keeps the thesis, the order and the author's voice."
+        },
+        {
+          "id": "b",
+          "text": "Prune the examples first, then the repetitions."
+        },
+        {
+          "id": "c",
+          "text": "If the author says I, your summary says I."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « un résumé » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "a summary"
+        },
+        {
+          "id": "b",
+          "text": "to condense"
+        },
+        {
+          "id": "c",
+          "text": "to prune"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "un résumé = a summary."
+    },
+    {
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "Le {{b1}} fait un quart du texte.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "résumé"
+          ]
+        }
+      ],
+      "explanation": "« Le résumé fait un quart du texte. » — a summary."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "une digression",
+          "right": "a digression"
+        },
+        {
+          "id": "p2",
+          "left": "le squelette (d'un texte)",
+          "right": "the skeleton"
+        },
+        {
+          "id": "p3",
+          "left": "la thèse",
+          "right": "the thesis / central claim"
+        },
+        {
+          "id": "p4",
+          "left": "fidèle (au texte)",
+          "right": "faithful"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “Prune the examples first, then the repetitions.”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Élaguez"
+        },
+        {
+          "id": "t2",
+          "text": "d'abord"
+        },
+        {
+          "id": "t3",
+          "text": "les"
+        },
+        {
+          "id": "t4",
+          "text": "exemples,"
+        },
+        {
+          "id": "t5",
+          "text": "puis"
+        },
+        {
+          "id": "t6",
+          "text": "les"
+        },
+        {
+          "id": "t7",
+          "text": "redites"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7"
+      ]
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "Le résumé garde la thèse, l'ordre et la voix de l'auteur.",
+      "targetEn": "The summary keeps the thesis, the order and the author's voice.",
+      "audio": "audio/c1.1/unit-05-resume/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "Si l'auteur dit je, votre résumé dit je.",
+      "targetEn": "If the author says I, your summary says I.",
+      "audio": "audio/c1.1/unit-05-resume/example-ex-3.mp3"
+    }
+  ]
+}

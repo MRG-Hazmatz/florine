@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "c1.1/unit-05-resume",
+  "level": "c1.1",
+  "unitNumber": 5,
+  "slug": "unit-05-resume",
+  "title": "Le Résumé de Texte",
+  "titleFr": "Faire un résumé de texte",
+  "cefrDescriptors": [
+    "Can compress a long text to a quarter of its length without losing its argument.",
+    "Can prune examples, repetitions and digressions while keeping the author's voice and order."
+  ],
+  "skills": ["reading", "listening", "writing", "speaking"],
+  "estimatedMinutes": 70,
+  "concept": "Dossier 3's technique is the oldest discipline in French schooling: le résumé. Take a 800-word text, return ~200 words that ARE that text — same argument, same order, same point of view, a quarter of the size. It trains the exact muscle the DALF synthèse uses, on a single text.\n\nTHE RULES (stricter than you'd think):\n  • SAME VOICE — if the author says je, your résumé says je. You become the author, shorter. (This is the big difference from the synthèse, where you report from outside.)\n  • SAME ORDER — no remixing the argument.\n  • NO COMMENTARY — your opinion of the text doesn't exist.\n  • YOUR OWN WORDS — reformulate; copying strings of the original is penalised.\n  • THE QUOTA — typically a quarter of the length, ±10 %. Count your words.\n\nLA MÉTHODE — compression in three passes:\n  1. Dégager le squelette: thesis → arguments → (examples). Underline connectors; they are the joints.\n  2. ÉLAGUER (prune): examples go first, then redites (repetitions), digressions, rhetorical flourishes. An example survives only if the argument is unintelligible without it.\n  3. Reformuler dense: nominalisation is your best compression tool — « parce que les ventes ont baissé » → « du fait de la baisse des ventes ». One abstract noun can swallow a clause.\n\nWhat survives, always: la thèse, the argument chain, the connectors (or sharper ones), the conclusion's direction.\n\nPut it together — watch 42 words become 14: « De nombreuses études récentes, menées dans plusieurs pays européens sur des échantillons considérables, tendent à montrer que les salariés qui télétravaillent régulièrement se déclarent, dans l'ensemble, plutôt plus satisfaits de leur équilibre de vie » → « Selon plusieurs études européennes, les télétravailleurs réguliers se disent globalement plus satisfaits de leur équilibre de vie. »\n\nYour turn: take any paragraph you've written this week (any language) and cut it to a quarter, in French. Feel what refuses to die — that's the thesis.",
+  "vocabulary": [
+    { "id": "resume", "fr": "un résumé", "en": "a summary", "pos": "noun", "exampleFr": "Le résumé fait un quart du texte.", "exampleEn": "The summary is a quarter of the text.", "audio": "audio/c1.1/unit-05-resume/vocab-resume.mp3", "voice": "denise" },
+    { "id": "condenser", "fr": "condenser", "en": "to condense", "pos": "verb", "exampleFr": "Condensez sans trahir le texte.", "exampleEn": "Condense without betraying the text.", "audio": "audio/c1.1/unit-05-resume/vocab-condenser.mp3", "voice": "henri" },
+    { "id": "elaguer", "fr": "élaguer", "en": "to prune", "pos": "verb", "exampleFr": "Élaguez les exemples d'abord.", "exampleEn": "Prune the examples first.", "audio": "audio/c1.1/unit-05-resume/vocab-elaguer.mp3", "voice": "denise" },
+    { "id": "redite", "fr": "une redite", "en": "a repetition (of an idea)", "pos": "noun", "exampleFr": "Supprimez les redites.", "exampleEn": "Cut the repetitions.", "audio": "audio/c1.1/unit-05-resume/vocab-redite.mp3", "voice": "henri" },
+    { "id": "digression", "fr": "une digression", "en": "a digression", "pos": "noun", "exampleFr": "Cette digression n'apporte rien.", "exampleEn": "This digression adds nothing.", "audio": "audio/c1.1/unit-05-resume/vocab-digression.mp3", "voice": "denise" },
+    { "id": "squelette", "fr": "le squelette (d'un texte)", "en": "the skeleton (of a text)", "pos": "noun", "exampleFr": "Dégagez le squelette de l'argumentation.", "exampleEn": "Draw out the skeleton of the argument.", "audio": "audio/c1.1/unit-05-resume/vocab-squelette.mp3", "voice": "henri" },
+    { "id": "these", "fr": "la thèse", "en": "the thesis / central claim", "pos": "noun", "exampleFr": "La thèse survit toujours au résumé.", "exampleEn": "The thesis always survives the summary.", "audio": "audio/c1.1/unit-05-resume/vocab-these.mp3", "voice": "denise" },
+    { "id": "fidele", "fr": "fidèle (au texte)", "en": "faithful (to the text)", "pos": "adjective", "exampleFr": "Un résumé fidèle et dense.", "exampleEn": "A faithful, dense summary.", "audio": "audio/c1.1/unit-05-resume/vocab-fidele.mp3", "voice": "henri" },
+    { "id": "point-de-vue", "fr": "le point de vue", "en": "the point of view", "pos": "noun", "exampleFr": "Gardez le point de vue de l'auteur.", "exampleEn": "Keep the author's point of view.", "audio": "audio/c1.1/unit-05-resume/vocab-point-de-vue.mp3", "voice": "denise" },
+    { "id": "consigne", "fr": "une consigne", "en": "an instruction (exam)", "pos": "noun", "exampleFr": "Respectez la consigne de longueur.", "exampleEn": "Respect the length instruction.", "audio": "audio/c1.1/unit-05-resume/vocab-consigne.mp3", "voice": "henri" },
+    { "id": "quota", "fr": "un quart de la longueur", "en": "a quarter of the length", "pos": "expression", "exampleFr": "Visez un quart de la longueur, à dix pour cent près.", "exampleEn": "Aim for a quarter of the length, within ten percent.", "audio": "audio/c1.1/unit-05-resume/vocab-quota.mp3", "voice": "denise" },
+    { "id": "trahir", "fr": "trahir", "en": "to betray (the meaning)", "pos": "verb", "exampleFr": "Résumer n'est pas trahir.", "exampleEn": "Summarising is not betraying.", "audio": "audio/c1.1/unit-05-resume/vocab-trahir.mp3", "voice": "henri" },
+    { "id": "nominalisation", "fr": "la nominalisation", "en": "nominalisation (compression tool)", "pos": "noun", "exampleFr": "La nominalisation condense une proposition entière.", "exampleEn": "Nominalisation condenses a whole clause.", "audio": "audio/c1.1/unit-05-resume/vocab-nominalisation.mp3", "voice": "denise" },
+    { "id": "du-fait-de", "fr": "du fait de", "en": "owing to", "pos": "preposition", "exampleFr": "Du fait de la baisse des ventes…", "exampleEn": "Owing to the fall in sales…", "audio": "audio/c1.1/unit-05-resume/vocab-du-fait-de.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "Le résumé garde la thèse, l'ordre et la voix de l'auteur.", "en": "The summary keeps the thesis, the order and the author's voice.", "audio": "audio/c1.1/unit-05-resume/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "Élaguez d'abord les exemples, puis les redites.", "en": "Prune the examples first, then the repetitions.", "audio": "audio/c1.1/unit-05-resume/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "Si l'auteur dit je, votre résumé dit je.", "en": "If the author says I, your summary says I.", "audio": "audio/c1.1/unit-05-resume/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "Votre opinion sur le texte n'existe pas dans un résumé.", "en": "Your opinion of the text does not exist in a summary.", "audio": "audio/c1.1/unit-05-resume/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "Du fait de la baisse des ventes, le journal a fermé.", "en": "Owing to the fall in sales, the paper closed.", "audio": "audio/c1.1/unit-05-resume/example-ex-5.mp3", "voice": "denise" },
+    { "id": "ex-6", "fr": "Comptez vos mots : un quart de la longueur, pas plus.", "en": "Count your words: a quarter of the length, no more.", "audio": "audio/c1.1/unit-05-resume/example-ex-6.mp3", "voice": "henri" }
+  ]
+}

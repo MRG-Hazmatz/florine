@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "c1.1/unit-06-implicit",
+  "level": "c1.1",
+  "unitNumber": 6,
+  "slug": "unit-06-implicit",
+  "title": "Reading Between the Lines",
+  "titleFr": "Allusions, implicites et ironie",
+  "cefrDescriptors": [
+    "Can decode irony, antiphrase, litote and allusion — what C1 texts say without saying.",
+    "Can discuss work, class and social mobility with the right register."
+  ],
+  "skills": ["reading", "listening", "writing", "speaking"],
+  "estimatedMinutes": 70,
+  "concept": "Dossier 3's theme is work and social class — and its texts almost never say what they mean directly. An article titled « Des vertus de la paresse » (On the virtues of laziness) is not praising laziness… or is it? Welcome to l'implicite, the C1 reading examiners love most.\n\nTHE IMPLICIT TOOLKIT — four devices to name on sight:\n  • L'IRONIE — saying it with a raised eyebrow: « Trader, un métier d'avenir ? » The question mark is doing the criticising.\n  • L'ANTIPHRASE — saying the exact opposite: « Bravo, vraiment, quelle organisation ! » (= chaos). The praise IS the attack.\n  • LA LITOTE — saying less to mean more: « Ce n'est pas faux » (= you're right) · « Il n'est pas sot » (= he's sharp). France's favourite understatement since Le Cid.\n  • L'ALLUSION — leaning on shared culture: calling someone « un Gavroche » assumes you know your Hugo. C1 texts wink constantly; your job is to catch the wink.\n  How to answer in an exam: name the device, then translate it: « Par antiphrase, l'auteur suggère en réalité que… »\n\nTHE SOCIAL-LADDER LEXICON:\n  • l'ascension sociale (upward mobility) · gravir les échelons (to climb the rungs)\n  • la condition ouvrière (the worker's condition — Simone Weil's great subject) · une lutte sociale\n  • le travail au noir (undeclared work — literally 'work in the black')\n  • un écrivain public (a public letter-writer — still exists!) · la paresse (laziness, sometimes a virtue)\n\nPut it together like a C1 commentary: « Sous un titre faussement élogieux — ironie oblige —, l'auteur ne fait pas l'éloge de la paresse : par antiphrase, il dénonce le culte de la productivité. Ce n'est pas un hasard si Weil est citée : l'allusion replace le débat dans l'histoire de la condition ouvrière. »\n\nYour turn: write one litote about your week (« Ce n'était pas… ») and what it really means.",
+  "vocabulary": [
+    { "id": "implicite", "fr": "l'implicite (m.)", "en": "the implicit / unstated meaning", "pos": "noun", "exampleFr": "Tout le sens est dans l'implicite.", "exampleEn": "All the meaning is in what's unstated.", "audio": "audio/c1.1/unit-06-implicit/vocab-implicite.mp3", "voice": "denise" },
+    { "id": "sous-entendu", "fr": "un sous-entendu", "en": "an insinuation", "pos": "noun", "exampleFr": "Sa phrase est pleine de sous-entendus.", "exampleEn": "His sentence is full of insinuations.", "audio": "audio/c1.1/unit-06-implicit/vocab-sous-entendu.mp3", "voice": "henri" },
+    { "id": "allusion", "fr": "une allusion", "en": "an allusion", "pos": "noun", "exampleFr": "Une allusion à Victor Hugo.", "exampleEn": "An allusion to Victor Hugo.", "audio": "audio/c1.1/unit-06-implicit/vocab-allusion.mp3", "voice": "denise" },
+    { "id": "ironie", "fr": "l'ironie (f.)", "en": "irony", "pos": "noun", "exampleFr": "L'ironie perce dès le titre.", "exampleEn": "The irony shows from the title on.", "audio": "audio/c1.1/unit-06-implicit/vocab-ironie.mp3", "voice": "henri" },
+    { "id": "antiphrase", "fr": "une antiphrase", "en": "antiphrasis (saying the opposite)", "pos": "noun", "exampleFr": "« Quelle organisation ! » : une antiphrase.", "exampleEn": "\"What organisation!\": antiphrasis.", "audio": "audio/c1.1/unit-06-implicit/vocab-antiphrase.mp3", "voice": "denise" },
+    { "id": "litote", "fr": "une litote", "en": "litotes (understatement)", "pos": "noun", "exampleFr": "« Ce n'est pas faux » est une litote.", "exampleEn": "\"That's not wrong\" is litotes.", "audio": "audio/c1.1/unit-06-implicit/vocab-litote.mp3", "voice": "henri" },
+    { "id": "entre-les-lignes", "fr": "lire entre les lignes", "en": "to read between the lines", "pos": "expression", "exampleFr": "À ce niveau, on lit entre les lignes.", "exampleEn": "At this level, you read between the lines.", "audio": "audio/c1.1/unit-06-implicit/vocab-entre-les-lignes.mp3", "voice": "denise" },
+    { "id": "ascension", "fr": "l'ascension sociale", "en": "upward social mobility", "pos": "noun", "exampleFr": "Le roman raconte une ascension sociale.", "exampleEn": "The novel tells of a social rise.", "audio": "audio/c1.1/unit-06-implicit/vocab-ascension.mp3", "voice": "henri" },
+    { "id": "echelons", "fr": "gravir les échelons", "en": "to climb the ladder", "pos": "expression", "exampleFr": "Elle a gravi tous les échelons.", "exampleEn": "She climbed every rung.", "audio": "audio/c1.1/unit-06-implicit/vocab-echelons.mp3", "voice": "denise" },
+    { "id": "condition-ouvriere", "fr": "la condition ouvrière", "en": "the worker's condition", "pos": "noun", "exampleFr": "Simone Weil a décrit la condition ouvrière.", "exampleEn": "Simone Weil described the worker's condition.", "audio": "audio/c1.1/unit-06-implicit/vocab-condition-ouvriere.mp3", "voice": "henri" },
+    { "id": "lutte", "fr": "une lutte sociale", "en": "a social struggle", "pos": "noun", "exampleFr": "Les luttes sociales ont forgé nos droits.", "exampleEn": "Social struggles forged our rights.", "audio": "audio/c1.1/unit-06-implicit/vocab-lutte.mp3", "voice": "denise" },
+    { "id": "travail-au-noir", "fr": "le travail au noir", "en": "undeclared work", "pos": "noun", "exampleFr": "Le travail au noir prive de toute protection.", "exampleEn": "Undeclared work strips away all protection.", "audio": "audio/c1.1/unit-06-implicit/vocab-travail-au-noir.mp3", "voice": "henri" },
+    { "id": "paresse", "fr": "la paresse", "en": "laziness", "pos": "noun", "exampleFr": "« Des vertus de la paresse » — vraiment ?", "exampleEn": "\"On the virtues of laziness\" — really?", "audio": "audio/c1.1/unit-06-implicit/vocab-paresse.mp3", "voice": "denise" },
+    { "id": "ecrivain-public", "fr": "un écrivain public", "en": "a public letter-writer", "pos": "noun", "exampleFr": "L'écrivain public rédige pour les autres.", "exampleEn": "The public letter-writer writes for others.", "audio": "audio/c1.1/unit-06-implicit/vocab-ecrivain-public.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "« Ce n'est pas faux » : comprenez « vous avez raison ».", "en": "\"That's not wrong\": understand \"you're right\".", "audio": "audio/c1.1/unit-06-implicit/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "« Bravo, quelle organisation ! » — l'antiphrase dit le contraire.", "en": "\"Bravo, what organisation!\" — the antiphrasis means the opposite.", "audio": "audio/c1.1/unit-06-implicit/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "Par antiphrase, l'auteur dénonce en réalité le culte de la productivité.", "en": "Through antiphrasis, the author actually denounces the cult of productivity.", "audio": "audio/c1.1/unit-06-implicit/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "Elle a gravi tous les échelons, de stagiaire à directrice.", "en": "She climbed every rung, from intern to director.", "audio": "audio/c1.1/unit-06-implicit/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "L'allusion à Weil replace le débat dans l'histoire ouvrière.", "en": "The allusion to Weil puts the debate back into workers' history.", "audio": "audio/c1.1/unit-06-implicit/example-ex-5.mp3", "voice": "denise" },
+    { "id": "ex-6", "fr": "Le point d'interrogation du titre fait toute la critique.", "en": "The title's question mark does all the criticising.", "audio": "audio/c1.1/unit-06-implicit/example-ex-6.mp3", "voice": "henri" }
+  ]
+}

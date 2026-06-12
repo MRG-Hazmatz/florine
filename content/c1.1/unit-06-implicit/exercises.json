@@ -1,0 +1,422 @@
+{
+  "schemaVersion": 1,
+  "unitId": "c1.1/unit-06-implicit",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "« Ce n'est pas faux. » — which device, and what does it mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Litote — it means « vous avez raison »"
+        },
+        {
+          "id": "b",
+          "text": "Antiphrase — it means « c'est faux »"
+        },
+        {
+          "id": "c",
+          "text": "Allusion — it quotes a famous novel"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Litotes says less to mean more: not-wrong = right."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Your friend surveys a disastrous kitchen: « Bravo, vraiment, quelle organisation ! » Device?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Antiphrase — the praise is the attack"
+        },
+        {
+          "id": "b",
+          "text": "Litote — understatement"
+        },
+        {
+          "id": "c",
+          "text": "A sincere compliment"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Antiphrasis states the opposite of what's meant; the tone does the work."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "The exam move: name the device, translate it.",
+      "inputMode": "dropdown",
+      "template": "Par {{b1}}, l'auteur suggère en réalité le contraire de ce qu'il écrit.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "antiphrase"
+          ],
+          "options": [
+            "antiphrase",
+            "litote",
+            "nominalisation"
+          ]
+        }
+      ],
+      "explanation": "Antiphrase = the opposite-saying device. Name it, then give the real meaning."
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Climbing the ladder.",
+      "inputMode": "dropdown",
+      "template": "Partie de rien, elle a gravi tous les {{b1}}.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "échelons"
+          ],
+          "options": [
+            "échelons",
+            "escaliers",
+            "étages"
+          ]
+        }
+      ],
+      "explanation": "Gravir les échelons — the fixed idiom of social climbing."
+    },
+    {
+      "id": "ex-mc-3",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "« Trader, un métier d'avenir ? » — what is the question mark doing?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Carrying the irony: the title quietly doubts what it states"
+        },
+        {
+          "id": "b",
+          "text": "Asking readers to send in answers"
+        },
+        {
+          "id": "c",
+          "text": "Nothing — it's decorative"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "An ironic title states and doubts at once; punctuation is part of the argument."
+    },
+    {
+      "id": "ex-fb-3",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Where the real meaning lives (three words: entre les …).",
+      "inputMode": "typed",
+      "template": "À ce niveau, il faut lire entre les {{b1}}.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "lignes"
+          ]
+        }
+      ],
+      "explanation": "Lire entre les lignes = to read between the lines."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each device to its definition.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "l'antiphrase",
+          "right": "saying the opposite"
+        },
+        {
+          "id": "p2",
+          "left": "la litote",
+          "right": "saying less to mean more"
+        },
+        {
+          "id": "p3",
+          "left": "l'allusion",
+          "right": "leaning on shared culture"
+        },
+        {
+          "id": "p4",
+          "left": "le sous-entendu",
+          "right": "an insinuation"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"She climbed every rung.\"",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Elle"
+        },
+        {
+          "id": "t2",
+          "text": "a"
+        },
+        {
+          "id": "t3",
+          "text": "gravi"
+        },
+        {
+          "id": "t4",
+          "text": "tous"
+        },
+        {
+          "id": "t5",
+          "text": "les"
+        },
+        {
+          "id": "t6",
+          "text": "échelons"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen to the tone. What does the speaker really mean?",
+      "audio": "audio/c1.1/unit-06-implicit/listen-1.mp3",
+      "transcript": "Il n'est pas sot, votre nouveau collègue — ce n'est pas tous les jours qu'on gravit trois échelons en un an.",
+      "options": [
+        {
+          "id": "a",
+          "text": "High praise by litote: the colleague is sharp and rising fast"
+        },
+        {
+          "id": "b",
+          "text": "An insult: the colleague is foolish"
+        },
+        {
+          "id": "c",
+          "text": "Indifference about the colleague"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "« Il n'est pas sot » (litote = he's sharp) + the rare three-rung climb = admiration, understated."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read this column opening and answer both questions.",
+      "passageFr": "DES VERTUS DE LA PARESSE — Réjouissons-nous : nous avons enfin inventé le salarié parfait, joignable à minuit, fier de déjeuner devant son écran. Quel progrès ! Nos grands-parents, qui ont lutté pour les congés payés, seraient sans doute émus de voir l'usage que nous en faisons. La paresse, elle, attendra : il paraît que ce n'est pas rentable.",
+      "passageEn": "ON THE VIRTUES OF LAZINESS — Let us rejoice: we have finally invented the perfect employee, reachable at midnight, proud to lunch in front of a screen. What progress! Our grandparents, who fought for paid holidays, would no doubt be moved to see the use we make of them. As for laziness, it can wait: apparently it isn't profitable.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "« Réjouissons-nous… Quel progrès ! » — what is the author really doing?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Denouncing overwork by antiphrase — the celebration is the critique"
+            },
+            {
+              "id": "b",
+              "text": "Sincerely celebrating constant availability"
+            },
+            {
+              "id": "c",
+              "text": "Asking readers to work at midnight"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        },
+        {
+          "id": "q2",
+          "prompt": "The mention of grandparents and paid holidays is…",
+          "options": [
+            {
+              "id": "a",
+              "text": "an allusion to the social struggles (congés payés, 1936) that frames the irony"
+            },
+            {
+              "id": "b",
+              "text": "a recipe recommendation"
+            },
+            {
+              "id": "c",
+              "text": "proof the author dislikes holidays"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex-mc-4",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "« Le travail au noir » means…",
+      "options": [
+        {
+          "id": "a",
+          "text": "undeclared, off-the-books work"
+        },
+        {
+          "id": "b",
+          "text": "night-shift work"
+        },
+        {
+          "id": "c",
+          "text": "work in the coal industry"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Travailler au noir = to work undeclared — no contract, no protection."
+    },
+    {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/c1.1/unit-06-implicit/example-ex-1.mp3",
+      "transcript": "« Ce n'est pas faux » : comprenez « vous avez raison ».",
+      "options": [
+        {
+          "id": "a",
+          "text": "\"That's not wrong\": understand \"you're right\"."
+        },
+        {
+          "id": "b",
+          "text": "\"Bravo, what organisation!\" — the antiphrasis means the opposite."
+        },
+        {
+          "id": "c",
+          "text": "Through antiphrasis, the author actually denounces the cult of productivity."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « l'implicite (m.) » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "the implicit / unstated meaning"
+        },
+        {
+          "id": "b",
+          "text": "an insinuation"
+        },
+        {
+          "id": "c",
+          "text": "an allusion"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "l'implicite (m.) = the implicit / unstated meaning."
+    },
+    {
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "Une {{b1}} à Victor Hugo.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "allusion"
+          ]
+        }
+      ],
+      "explanation": "« Une allusion à Victor Hugo. » — an allusion."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "une antiphrase",
+          "right": "antiphrasis"
+        },
+        {
+          "id": "p2",
+          "left": "une litote",
+          "right": "litotes"
+        },
+        {
+          "id": "p3",
+          "left": "lire entre les lignes",
+          "right": "to read between the lines"
+        },
+        {
+          "id": "p4",
+          "left": "l'ascension sociale",
+          "right": "upward social mobility"
+        }
+      ]
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "« Ce n'est pas faux » : comprenez « vous avez raison ».",
+      "targetEn": "\"That's not wrong\": understand \"you're right\".",
+      "audio": "audio/c1.1/unit-06-implicit/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "Par antiphrase, l'auteur dénonce en réalité le culte de la productivité.",
+      "targetEn": "Through antiphrasis, the author actually denounces the cult of productivity.",
+      "audio": "audio/c1.1/unit-06-implicit/example-ex-3.mp3"
+    }
+  ]
+}
