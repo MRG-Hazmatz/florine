@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "c1.2/unit-02-elites",
+  "level": "c1.2",
+  "unitNumber": 2,
+  "slug": "unit-02-elites",
+  "title": "Élites & Égalité",
+  "titleFr": "Méritocratie, plafond de verre et discrimination positive",
+  "cefrDescriptors": [
+    "Can debate meritocracy, discrimination and equal opportunity with C1 precision.",
+    "Can analyse a contemporary political speech: promises, euphemisms, dog whistles."
+  ],
+  "skills": ["reading", "listening", "writing", "speaking"],
+  "estimatedMinutes": 70,
+  "concept": "Dossier 5's theme: who gets to the top in France, and why. The grandes écoles, the networks, the ceilings — and the vocabulary that fuels every débat de société on equality.\n\nTHE EQUALITY LEXICON — precision is the argument:\n  • la méritocratie — the official story: school sorts by merit. l'égalité des chances — its promise.\n  • le plafond de verre (the glass ceiling): invisible, mais on s'y cogne. · l'entre-soi — elites recruiting among themselves (the word every sociologist reaches for)\n  • un réseau (network) · la sélection · un quota · la mixité sociale\n  • the remedies on trial: la discrimination positive (affirmative action — note the French paradox in the name) · le CV anonyme (name-blind CVs) · favoriser / défavoriser\n\nANALYSING A POLITICAL SPEECH — the dossier's skill, three layers deep:\n  1. The PROMISES: spot the verbs of commitment — je m'engage à, nous garantirons — and their escape hatches (s'efforcer de = trying, not doing).\n  2. The EUPHEMISMS: « les quartiers sensibles », « les personnes en situation de… » — name what the soft wrapping covers.\n  3. The ABSENCES: what the speech never says. Qui n'est jamais nommé ? At C1, silence is data.\n\nThe analytical frame to reuse: « Le discours multiplie les promesses (granted), mais l'euphémisme X révèle une gêne, et le silence sur Y est éloquent. »\n\nPut it together like a seminar remark: « La méritocratie promet l'égalité des chances ; l'entre-soi des grandes écoles la dément. Entre les deux, des remèdes contestés — quotas, CV anonyme — dont chacun interroge le même plafond de verre. Le discours officiel, lui, préfère l'euphémisme. »\n\nYour turn: take any official speech you've heard recently and name, in French, one promise, one euphemism, one absence.",
+  "vocabulary": [
+    { "id": "meritocratie", "fr": "la méritocratie", "en": "meritocracy", "pos": "noun", "exampleFr": "La méritocratie est-elle un mythe ?", "exampleEn": "Is meritocracy a myth?", "audio": "audio/c1.2/unit-02-elites/vocab-meritocratie.mp3", "voice": "denise" },
+    { "id": "egalite-chances", "fr": "l'égalité des chances", "en": "equal opportunity", "pos": "noun", "exampleFr": "L'école promet l'égalité des chances.", "exampleEn": "School promises equal opportunity.", "audio": "audio/c1.2/unit-02-elites/vocab-egalite-chances.mp3", "voice": "henri" },
+    { "id": "plafond-verre", "fr": "le plafond de verre", "en": "the glass ceiling", "pos": "noun", "exampleFr": "Elle s'est heurtée au plafond de verre.", "exampleEn": "She hit the glass ceiling.", "audio": "audio/c1.2/unit-02-elites/vocab-plafond-verre.mp3", "voice": "denise" },
+    { "id": "entre-soi", "fr": "l'entre-soi (m.)", "en": "social self-segregation", "pos": "noun", "exampleFr": "L'entre-soi des élites se reproduit.", "exampleEn": "Elite self-segregation reproduces itself.", "audio": "audio/c1.2/unit-02-elites/vocab-entre-soi.mp3", "voice": "henri" },
+    { "id": "grande-ecole", "fr": "une grande école", "en": "an elite school (French system)", "pos": "noun", "exampleFr": "Les grandes écoles recrutent sur concours.", "exampleEn": "The grandes écoles recruit by competitive exam.", "audio": "audio/c1.2/unit-02-elites/vocab-grande-ecole.mp3", "voice": "denise" },
+    { "id": "reseau", "fr": "un réseau", "en": "a network (social)", "pos": "noun", "exampleFr": "Le réseau compte autant que le diplôme.", "exampleEn": "The network counts as much as the diploma.", "audio": "audio/c1.2/unit-02-elites/vocab-reseau.mp3", "voice": "henri" },
+    { "id": "discrimination-positive", "fr": "la discrimination positive", "en": "affirmative action", "pos": "noun", "exampleFr": "La discrimination positive divise l'opinion.", "exampleEn": "Affirmative action divides opinion.", "audio": "audio/c1.2/unit-02-elites/vocab-discrimination-positive.mp3", "voice": "denise" },
+    { "id": "cv-anonyme", "fr": "le CV anonyme", "en": "the name-blind CV", "pos": "noun", "exampleFr": "Le CV anonyme limite les biais à l'embauche.", "exampleEn": "The name-blind CV limits hiring bias.", "audio": "audio/c1.2/unit-02-elites/vocab-cv-anonyme.mp3", "voice": "henri" },
+    { "id": "quota", "fr": "un quota", "en": "a quota", "pos": "noun", "exampleFr": "Des quotas d'élèves boursiers ont été instaurés.", "exampleEn": "Quotas for scholarship students were introduced.", "audio": "audio/c1.2/unit-02-elites/vocab-quota.mp3", "voice": "denise" },
+    { "id": "mixite", "fr": "la mixité sociale", "en": "social mix", "pos": "noun", "exampleFr": "La carte scolaire vise la mixité sociale.", "exampleEn": "School zoning aims at social mix.", "audio": "audio/c1.2/unit-02-elites/vocab-mixite.mp3", "voice": "henri" },
+    { "id": "favoriser", "fr": "favoriser / défavoriser", "en": "to favour / disadvantage", "pos": "verb", "exampleFr": "Le système favorise les initiés.", "exampleEn": "The system favours insiders.", "audio": "audio/c1.2/unit-02-elites/vocab-favoriser.mp3", "voice": "denise" },
+    { "id": "s-engager-a", "fr": "s'engager à", "en": "to commit to (promise verb)", "pos": "verb", "exampleFr": "Le ministre s'engage à doubler les bourses.", "exampleEn": "The minister commits to doubling grants.", "audio": "audio/c1.2/unit-02-elites/vocab-s-engager-a.mp3", "voice": "henri" },
+    { "id": "euphemisme", "fr": "un euphémisme", "en": "a euphemism", "pos": "noun", "exampleFr": "« Quartier sensible » est un euphémisme.", "exampleEn": "\"Sensitive neighbourhood\" is a euphemism.", "audio": "audio/c1.2/unit-02-elites/vocab-euphemisme.mp3", "voice": "denise" },
+    { "id": "eloquent", "fr": "un silence éloquent", "en": "an eloquent silence", "pos": "expression", "exampleFr": "Sur ce point, le silence du discours est éloquent.", "exampleEn": "On this point, the speech's silence speaks volumes.", "audio": "audio/c1.2/unit-02-elites/vocab-eloquent.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "La méritocratie promet ; l'entre-soi dément.", "en": "Meritocracy promises; self-segregation contradicts.", "audio": "audio/c1.2/unit-02-elites/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "Elle s'est heurtée au plafond de verre à quarante ans.", "en": "She hit the glass ceiling at forty.", "audio": "audio/c1.2/unit-02-elites/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "Le CV anonyme limite les biais, sans les supprimer.", "en": "The name-blind CV limits biases without removing them.", "audio": "audio/c1.2/unit-02-elites/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "Le ministre s'engage à doubler les bourses — s'efforcera, du moins.", "en": "The minister commits to doubling grants — will strive to, at least.", "audio": "audio/c1.2/unit-02-elites/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "« Quartier sensible » : l'euphémisme dit la gêne.", "en": "\"Sensitive neighbourhood\": the euphemism betrays the unease.", "audio": "audio/c1.2/unit-02-elites/example-ex-5.mp3", "voice": "denise" },
+    { "id": "ex-6", "fr": "Sur les réseaux d'anciens élèves, le silence du discours est éloquent.", "en": "On alumni networks, the speech's silence speaks volumes.", "audio": "audio/c1.2/unit-02-elites/example-ex-6.mp3", "voice": "henri" }
+  ]
+}

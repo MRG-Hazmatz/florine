@@ -1,0 +1,458 @@
+{
+  "schemaVersion": 1,
+  "unitId": "c1.2/unit-02-elites",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "« Le plafond de verre » designates…",
+      "options": [
+        {
+          "id": "a",
+          "text": "the invisible barrier blocking careers above a certain level"
+        },
+        {
+          "id": "b",
+          "text": "a modern architectural style"
+        },
+        {
+          "id": "c",
+          "text": "a greenhouse technique"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Invisible mais on s'y cogne — the classic image for blocked advancement."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "« L'entre-soi » names…",
+      "options": [
+        {
+          "id": "a",
+          "text": "elites keeping to — and recruiting among — themselves"
+        },
+        {
+          "id": "b",
+          "text": "a private diary"
+        },
+        {
+          "id": "c",
+          "text": "a board game"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "The sociologist's word for closed circles reproducing themselves."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "The promise verb vs its escape hatch.",
+      "inputMode": "dropdown",
+      "template": "« Je m'engage à » promet ; « je {{b1}} de » se contente d'essayer.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "m'efforcerai"
+          ],
+          "options": [
+            "m'efforcerai",
+            "m'engagerai",
+            "garantirai"
+          ]
+        }
+      ],
+      "explanation": "S'efforcer de = to strive — the verb that promises effort, not results."
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "The contested remedy.",
+      "inputMode": "dropdown",
+      "template": "Le {{b1}} masque le nom du candidat pour limiter les biais.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "CV anonyme"
+          ],
+          "options": [
+            "CV anonyme",
+            "plafond de verre",
+            "réseau d'anciens"
+          ]
+        }
+      ],
+      "explanation": "Le CV anonyme = name-blind recruitment."
+    },
+    {
+      "id": "ex-mc-3",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "At C1, the ABSENCES in a political speech are…",
+      "options": [
+        {
+          "id": "a",
+          "text": "data — what is never named is part of the message"
+        },
+        {
+          "id": "b",
+          "text": "irrelevant — only the words count"
+        },
+        {
+          "id": "c",
+          "text": "proof the speech is short"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Qui n'est jamais nommé ? Le silence est éloquent — analyse it."
+    },
+    {
+      "id": "ex-fb-3",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "The soft wrapping (one word).",
+      "inputMode": "typed",
+      "template": "« Quartier sensible » est un {{b1}} : la douceur du mot dit la gêne.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "euphémisme",
+            "euphemisme"
+          ]
+        }
+      ],
+      "explanation": "Euphemism: the soft word that reveals what it tries to hide."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each equality term to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "la méritocratie",
+          "right": "meritocracy"
+        },
+        {
+          "id": "p2",
+          "left": "l'entre-soi",
+          "right": "self-segregation"
+        },
+        {
+          "id": "p3",
+          "left": "un quota",
+          "right": "a quota"
+        },
+        {
+          "id": "p4",
+          "left": "la mixité sociale",
+          "right": "social mix"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"The system favours insiders.\"",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Le"
+        },
+        {
+          "id": "t2",
+          "text": "système"
+        },
+        {
+          "id": "t3",
+          "text": "favorise"
+        },
+        {
+          "id": "t4",
+          "text": "les"
+        },
+        {
+          "id": "t5",
+          "text": "initiés"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5"
+      ]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen to the minister's sentence. Promise or escape hatch?",
+      "audio": "audio/c1.2/unit-02-elites/listen-1.mp3",
+      "transcript": "Nous nous efforcerons, dans la mesure du possible, d'ouvrir davantage les grandes écoles.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Escape hatch: s'efforcer + dans la mesure du possible = effort promised, not results"
+        },
+        {
+          "id": "b",
+          "text": "A firm, dated commitment"
+        },
+        {
+          "id": "c",
+          "text": "A refusal to open the schools"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Two hedges stacked — the C1 ear hears the difference between engagement and effort."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read the seminar handout and answer both questions.",
+      "passageFr": "Une étude sur 2 500 recrutements révèle qu'à diplôme égal, un candidat issu d'une grande école a trois fois plus de chances d'être convoqué — et cinq fois plus si le recruteur est lui-même un ancien de l'école. Les défenseurs du système y voient la méritocratie en action ; ses critiques, la définition même de l'entre-soi. Le CV anonyme, testé en 2010, réduisait l'écart — il n'a jamais été généralisé. Ce dernier silence institutionnel mérite, lui aussi, l'analyse.",
+      "passageEn": "A study of 2,500 hires reveals that with equal diplomas, a grande-école candidate is three times more likely to be called in — five times if the recruiter is an alumnus of the same school. The system's defenders see meritocracy at work; its critics, the very definition of l'entre-soi. The name-blind CV, tested in 2010, reduced the gap — it was never rolled out. That last institutional silence also deserves analysis.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "What does the alumni-recruiter figure (×5) illustrate?",
+          "options": [
+            {
+              "id": "a",
+              "text": "L'entre-soi: networks amplifying the advantage beyond the diploma"
+            },
+            {
+              "id": "b",
+              "text": "That diplomas don't matter at all"
+            },
+            {
+              "id": "c",
+              "text": "That recruiters dislike grandes écoles"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        },
+        {
+          "id": "q2",
+          "prompt": "Why does the text call the non-rollout of the CV anonyme a « silence institutionnel »?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The quiet abandonment of a remedy that worked is itself meaningful data"
+            },
+            {
+              "id": "b",
+              "text": "Because the law forbids discussing it"
+            },
+            {
+              "id": "c",
+              "text": "Because nobody ever tested it"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex-mc-4",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "The three-layer speech analysis, in order:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Promises → euphemisms → absences"
+        },
+        {
+          "id": "b",
+          "text": "Applause → length → font size"
+        },
+        {
+          "id": "c",
+          "text": "Title → date → signature"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Spot the commitment verbs, unwrap the soft words, then read the silences."
+    },
+    {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/c1.2/unit-02-elites/example-ex-1.mp3",
+      "transcript": "La méritocratie promet ; l'entre-soi dément.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Meritocracy promises; self-segregation contradicts."
+        },
+        {
+          "id": "b",
+          "text": "She hit the glass ceiling at forty."
+        },
+        {
+          "id": "c",
+          "text": "The name-blind CV limits biases without removing them."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « la méritocratie » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "meritocracy"
+        },
+        {
+          "id": "b",
+          "text": "equal opportunity"
+        },
+        {
+          "id": "c",
+          "text": "the glass ceiling"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "la méritocratie = meritocracy."
+    },
+    {
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "La {{b1}} est-elle un mythe ?",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "méritocratie"
+          ]
+        }
+      ],
+      "explanation": "« La méritocratie est-elle un mythe ? » — meritocracy."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "une grande école",
+          "right": "an elite school"
+        },
+        {
+          "id": "p2",
+          "left": "un réseau",
+          "right": "a network"
+        },
+        {
+          "id": "p3",
+          "left": "la discrimination positive",
+          "right": "affirmative action"
+        },
+        {
+          "id": "p4",
+          "left": "le CV anonyme",
+          "right": "the name-blind CV"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “Meritocracy promises; self-segregation contradicts.”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "La"
+        },
+        {
+          "id": "t2",
+          "text": "méritocratie"
+        },
+        {
+          "id": "t3",
+          "text": "promet"
+        },
+        {
+          "id": "t4",
+          "text": ";"
+        },
+        {
+          "id": "t5",
+          "text": "l'entre-soi"
+        },
+        {
+          "id": "t6",
+          "text": "dément"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ]
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "La méritocratie promet ; l'entre-soi dément.",
+      "targetEn": "Meritocracy promises; self-segregation contradicts.",
+      "audio": "audio/c1.2/unit-02-elites/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "Le CV anonyme limite les biais, sans les supprimer.",
+      "targetEn": "The name-blind CV limits biases without removing them.",
+      "audio": "audio/c1.2/unit-02-elites/example-ex-3.mp3"
+    }
+  ]
+}

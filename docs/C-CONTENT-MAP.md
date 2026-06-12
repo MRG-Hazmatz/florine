@@ -40,8 +40,8 @@ Status: ✅ built · 🔨 in progress · ⬜ planned
 ## c1.2 — Partie 2 *Nouveaux enjeux* (D5–8)
 | # | Module | Dossier | Technique / focus | Status |
 |---|---|---|---|---|
-| 9 | Elites: la lettre administrative | D5 *Élites* | rédiger une lettre administrative; exception française | ⬜ |
-| 10 | Equality & discrimination | D5 | analyser un discours politique contemporain | ⬜ |
+| 9 | Elites: la lettre administrative | D5 *Élites* | rédiger une lettre administrative; exception française | ✅ c1.2/unit-01 |
+| 10 | Equality & discrimination | D5 | analyser un discours politique contemporain | ✅ c1.2/unit-02 |
 | 11 | Europe: l'art oratoire | D6 *Eurovisions* | procédés de l'art oratoire; formulations législatives | ⬜ |
 | 12 | Speeches & manifestos | D6 | ressorts d'un propos militant; écrire une analyse | ⬜ |
 | 13 | Exchanges: la dissertation | D7 *Échanges* | faire une dissertation; raisonnement hypothétique | ⬜ |

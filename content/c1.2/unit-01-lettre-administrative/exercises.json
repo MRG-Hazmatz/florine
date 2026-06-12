@@ -1,0 +1,493 @@
+{
+  "schemaVersion": 1,
+  "unitId": "c1.2/unit-01-lettre-administrative",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "The formule d'appel to an unknown administration is…",
+      "options": [
+        {
+          "id": "a",
+          "text": "« Madame, Monsieur, »"
+        },
+        {
+          "id": "b",
+          "text": "« Chère administration, »"
+        },
+        {
+          "id": "c",
+          "text": "« Salut à tous, »"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Never Cher/Chère to an administration — plain « Madame, Monsieur, »."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "A proper Objet line is…",
+      "options": [
+        {
+          "id": "a",
+          "text": "nominalised: « Objet : demande de bourse d'études »"
+        },
+        {
+          "id": "b",
+          "text": "a full sentence: « Objet : je voudrais une bourse s'il vous plaît »"
+        },
+        {
+          "id": "c",
+          "text": "left empty for suspense"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "The Objet compresses the request into a noun phrase — nominalisation in action."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "The formal opening move.",
+      "inputMode": "dropdown",
+      "template": "Par la présente, j'ai l'honneur de {{b1}} un entretien.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "solliciter"
+          ],
+          "options": [
+            "solliciter",
+            "demander que",
+            "vouloir"
+          ]
+        }
+      ],
+      "explanation": "Solliciter = the administrative register's 'to request'."
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Enclosing documents.",
+      "inputMode": "dropdown",
+      "template": "Veuillez trouver {{b1}} la copie de mon diplôme.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "ci-joint"
+          ],
+          "options": [
+            "ci-joint",
+            "là-bas",
+            "y compris"
+          ]
+        }
+      ],
+      "explanation": "Veuillez trouver ci-joint… — the attachment formula."
+    },
+    {
+      "id": "ex-mc-3",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Which closing formula is correctly assembled?",
+      "options": [
+        {
+          "id": "a",
+          "text": "« Je vous prie d'agréer, Madame, Monsieur, l'expression de mes salutations distinguées. »"
+        },
+        {
+          "id": "b",
+          "text": "« Je vous prie d'agréer mes bisous distingués. »"
+        },
+        {
+          "id": "c",
+          "text": "« Agréez, cordialement, salut. »"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "The ritual: prier d'agréer + repeat the formule d'appel + salutations distinguées."
+    },
+    {
+      "id": "ex-fb-3",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Soften the want (conditional, one word).",
+      "inputMode": "typed",
+      "template": "Je {{b1}} obtenir un accusé de réception.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "souhaiterais",
+            "voudrais"
+          ]
+        }
+      ],
+      "explanation": "Never « je veux » in a formal letter — the conditional does the bowing: je souhaiterais."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each letter part to its role.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "l'objet",
+          "right": "the one-line subject"
+        },
+        {
+          "id": "p2",
+          "left": "P.J.",
+          "right": "the attachments list"
+        },
+        {
+          "id": "p3",
+          "left": "par la présente",
+          "right": "hereby"
+        },
+        {
+          "id": "p4",
+          "left": "la formule de politesse",
+          "right": "the ritual closing"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"Awaiting your reply, I remain at your disposal.\"",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Dans"
+        },
+        {
+          "id": "t2",
+          "text": "l'attente"
+        },
+        {
+          "id": "t3",
+          "text": "de"
+        },
+        {
+          "id": "t4",
+          "text": "votre"
+        },
+        {
+          "id": "t5",
+          "text": "réponse,"
+        },
+        {
+          "id": "t6",
+          "text": "je"
+        },
+        {
+          "id": "t7",
+          "text": "me"
+        },
+        {
+          "id": "t8",
+          "text": "tiens"
+        },
+        {
+          "id": "t9",
+          "text": "à"
+        },
+        {
+          "id": "t10",
+          "text": "votre"
+        },
+        {
+          "id": "t11",
+          "text": "disposition"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7",
+        "t8",
+        "t9",
+        "t10",
+        "t11"
+      ]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen to the dictated opening. What is being requested?",
+      "audio": "audio/c1.2/unit-01-lettre-administrative/listen-1.mp3",
+      "transcript": "Par la présente, j'ai l'honneur de solliciter le réexamen de mon dossier, déposé le trois mai.",
+      "options": [
+        {
+          "id": "a",
+          "text": "The re-examination of a file submitted on May 3rd"
+        },
+        {
+          "id": "b",
+          "text": "A job at the prefecture"
+        },
+        {
+          "id": "c",
+          "text": "An apology from the administration"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "« solliciter le réexamen de mon dossier, déposé le 3 mai » — request + reference, textbook."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read this letter (with one deliberate register error) and answer both questions.",
+      "passageFr": "Objet : contestation de la décision du 12 avril\n\nMadame, Monsieur,\n\nPar la présente, je conteste la décision susmentionnée. Mon dossier, complet, a été déposé dans les délais, comme l'atteste l'accusé de réception ci-joint. Franchement, c'est n'importe quoi. Je souhaiterais donc que ma demande soit réexaminée avant que la commission ne se réunisse.\n\nJe vous prie d'agréer, Madame, Monsieur, l'expression de mes salutations distinguées.",
+      "passageEn": "Subject: contestation of the April 12th decision\n\nMadam, Sir,\n\nI hereby contest the above-mentioned decision. My file, complete, was submitted on time, as attested by the enclosed acknowledgement of receipt. Frankly, this is nonsense. I would therefore like my request to be re-examined before the commission meets.\n\nPlease accept, Madam, Sir, the expression of my distinguished salutations.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "Which sentence breaks the register and must go?",
+          "options": [
+            {
+              "id": "a",
+              "text": "« Franchement, c'est n'importe quoi. »"
+            },
+            {
+              "id": "b",
+              "text": "« Par la présente, je conteste la décision susmentionnée. »"
+            },
+            {
+              "id": "c",
+              "text": "The closing formula"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        },
+        {
+          "id": "q2",
+          "prompt": "« avant que la commission ne se réunisse » — the « ne » is…",
+          "options": [
+            {
+              "id": "a",
+              "text": "the ne explétif — formal polish, not negation"
+            },
+            {
+              "id": "b",
+              "text": "a negation: the commission will not meet"
+            },
+            {
+              "id": "c",
+              "text": "a typo"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex-mc-4",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "When unsure about the closing formula, the always-safe choice is…",
+      "options": [
+        {
+          "id": "a",
+          "text": "« …l'expression de mes salutations distinguées. »"
+        },
+        {
+          "id": "b",
+          "text": "« …mes sentiments les plus tendres. »"
+        },
+        {
+          "id": "c",
+          "text": "« …à plus ! »"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Salutations distinguées offends no one; sentiments follow gender conventions — skip them when unsure."
+    },
+    {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/c1.2/unit-01-lettre-administrative/example-ex-1.mp3",
+      "transcript": "Objet : demande de réexamen de dossier.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Subject: request for file re-examination."
+        },
+        {
+          "id": "b",
+          "text": "I hereby have the honour of requesting a grant."
+        },
+        {
+          "id": "c",
+          "text": "Please find the required documents enclosed."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « une lettre administrative » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "an administrative letter"
+        },
+        {
+          "id": "b",
+          "text": "sender / addressee"
+        },
+        {
+          "id": "c",
+          "text": "the subject line"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "une lettre administrative = an administrative letter."
+    },
+    {
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "Veuillez trouver {{b1}} mon dossier.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "ci-joint"
+          ]
+        }
+      ],
+      "explanation": "« Veuillez trouver ci-joint mon dossier. » — enclosed / attached."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "ci-joint",
+          "right": "enclosed / attached"
+        },
+        {
+          "id": "p2",
+          "left": "par la présente",
+          "right": "by this letter / hereby"
+        },
+        {
+          "id": "p3",
+          "left": "solliciter",
+          "right": "to request"
+        },
+        {
+          "id": "p4",
+          "left": "j'ai l'honneur de",
+          "right": "I have the honour of"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “Subject: request for file re-examination.”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Objet"
+        },
+        {
+          "id": "t2",
+          "text": ":"
+        },
+        {
+          "id": "t3",
+          "text": "demande"
+        },
+        {
+          "id": "t4",
+          "text": "de"
+        },
+        {
+          "id": "t5",
+          "text": "réexamen"
+        },
+        {
+          "id": "t6",
+          "text": "de"
+        },
+        {
+          "id": "t7",
+          "text": "dossier"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7"
+      ]
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "Objet : demande de réexamen de dossier.",
+      "targetEn": "Subject: request for file re-examination.",
+      "audio": "audio/c1.2/unit-01-lettre-administrative/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "Veuillez trouver ci-joint les documents requis.",
+      "targetEn": "Please find the required documents enclosed.",
+      "audio": "audio/c1.2/unit-01-lettre-administrative/example-ex-3.mp3"
+    }
+  ]
+}
