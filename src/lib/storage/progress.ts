@@ -59,6 +59,10 @@ interface ProgressActions {
   addSkillXp: (skill: Skill, n: number) => void;
   touchStreak: () => void;
   reviewVocab: (key: string, rating: Rating) => void;
+  /** Add a card to the learner's personal review deck (due immediately). */
+  addVocabCard: (key: string) => void;
+  /** Remove a card from the review deck (it stops counting as due). */
+  removeVocabCard: (key: string) => void;
   resetAll: () => void;
 }
 
@@ -161,6 +165,17 @@ export const useProgress = create<ProgressState>()(
         set((s) => ({
           vocab: { ...s.vocab, [key]: review(s.vocab[key] ?? initialCard(), rating) },
         })),
+
+      addVocabCard: (key) =>
+        set((s) => (s.vocab[key] ? {} : { vocab: { ...s.vocab, [key]: initialCard() } })),
+
+      removeVocabCard: (key) =>
+        set((s) => {
+          if (!s.vocab[key]) return {};
+          const next = { ...s.vocab };
+          delete next[key];
+          return { vocab: next };
+        }),
 
       resetAll: () => set({ ...initialData }),
     }),

@@ -75,3 +75,13 @@ body::after {
   border-image-slice: 70 69 65 68;
   border-image-repeat: round;
 }
+
+/* Gentle reveal for flashcard answers & rating buttons - a soft rise, nothing
+   bouncy. The cards stay calm; only the new information breathes in. */
+@keyframes reveal-rise {
+  from { opacity: 0; transform: translateY(5px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.reveal-anim {
+  animation: reveal-rise 0.22s ease-out;
+}

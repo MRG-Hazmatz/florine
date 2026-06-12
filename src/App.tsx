@@ -6,6 +6,7 @@ import LevelUnits from "./pages/LevelUnits";
 import UnitView from "./pages/UnitView";
 import ExerciseView from "./pages/ExerciseView";
 import Review from "./pages/Review";
+import ReviewBrowse from "./pages/ReviewBrowse";
 import NotFound from "./pages/NotFound";
 
 export default function App() {
@@ -19,6 +20,7 @@ export default function App() {
           <Route path="unit/:level/:slug" element={<UnitView />} />
           <Route path="unit/:level/:slug/exercises" element={<ExerciseView />} />
           <Route path="review" element={<Review />} />
+          <Route path="review/browse" element={<ReviewBrowse />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>

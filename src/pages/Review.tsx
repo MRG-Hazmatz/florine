@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { getAllUnits } from "../lib/content/load";
 import { useProgress, vocabKey } from "../lib/storage/progress";
-import { isDue, initialCard, type Rating } from "../lib/srs/sm2";
+import { isDue, type Rating } from "../lib/srs/sm2";
 import { shuffle } from "../lib/util";
 import AudioButton from "../components/AudioButton";
 import type { VocabItem } from "../lib/content/schema";
@@ -12,11 +12,31 @@ interface Card {
   vocab: VocabItem;
 }
 
+/**
+ * Rating buttons, themed to the manuscript palette: each gets its own ink,
+ * a soft matching glow, and a gentle lift on hover.
+ */
 const RATINGS: { rating: Rating; label: string; cls: string }[] = [
-  { rating: "again", label: "Again", cls: "border-rouge/30 bg-rouge/10 text-rouge" },
-  { rating: "hard", label: "Hard", cls: "border-amber-300 bg-amber-100 text-amber-800" },
-  { rating: "good", label: "Good", cls: "border-marine/30 bg-marine/10 text-marine" },
-  { rating: "easy", label: "Easy", cls: "border-emerald-300 bg-emerald-100 text-emerald-800" },
+  {
+    rating: "again",
+    label: "Again",
+    cls: "border-rouge/40 bg-rouge/10 text-rouge shadow-[0_0_10px_-2px_rgba(124,21,23,0.45)] hover:shadow-[0_0_14px_-2px_rgba(124,21,23,0.65)]",
+  },
+  {
+    rating: "hard",
+    label: "Hard",
+    cls: "border-amber-700/40 bg-amber-700/10 text-amber-900 shadow-[0_0_10px_-2px_rgba(146,90,20,0.45)] hover:shadow-[0_0_14px_-2px_rgba(146,90,20,0.65)]",
+  },
+  {
+    rating: "good",
+    label: "Good",
+    cls: "border-bleu/50 bg-bleu/10 text-bleu shadow-[0_0_10px_-2px_rgba(63,90,99,0.5)] hover:shadow-[0_0_14px_-2px_rgba(63,90,99,0.7)]",
+  },
+  {
+    rating: "easy",
+    label: "Easy",
+    cls: "border-emerald-800/40 bg-emerald-800/10 text-emerald-900 shadow-[0_0_10px_-2px_rgba(6,78,59,0.4)] hover:shadow-[0_0_14px_-2px_rgba(6,78,59,0.6)]",
+  },
 ];
 
 export default function Review() {
@@ -28,9 +48,12 @@ export default function Review() {
   );
   const cardByKey = Object.fromEntries(allCards.map((c) => [c.key, c]));
 
-  // Active queue: starts with the cards due today, but can be refilled on demand.
+  // Due queue: ONLY cards in the learner's personal deck (cards they've
+  // actually reviewed or added) — never the whole 900+ collection.
   const [queue, setQueue] = useState<string[]>(() =>
-    allCards.filter((c) => isDue(vocabState[c.key] ?? initialCard())).map((c) => c.key),
+    shuffle(
+      Object.keys(vocabState).filter((k) => cardByKey[k] && isDue(vocabState[k])),
+    ),
   );
   const [index, setIndex] = useState(0);
   const [revealed, setRevealed] = useState(false);
@@ -57,9 +80,9 @@ export default function Review() {
         <p className="mx-auto max-w-sm text-ink/60">
           {reviewed > 0
             ? `You got through ${reviewed} card${reviewed === 1 ? "" : "s"}. Keep the momentum — practise as much as you like.`
-            : "Nothing is scheduled right now, but you never have to wait. Practise any time."}
+            : "Nothing is scheduled right now, but you never have to wait. Practise any time, or browse the collection and pick your next words."}
         </p>
-        <div className="flex justify-center gap-3">
+        <div className="flex flex-wrap justify-center gap-3">
           <button
             type="button"
             onClick={startPractice}
@@ -68,10 +91,10 @@ export default function Review() {
             Practice all words
           </button>
           <Link
-            to="/"
+            to="/review/browse"
             className="rounded border border-marine/30 px-5 py-2.5 font-medium text-marine hover:bg-marine/10"
           >
-            Home
+            Browse by module
           </Link>
         </div>
       </section>
@@ -93,9 +116,14 @@ export default function Review() {
           <img src="/icons/review.png" alt="" className="h-14 object-contain mix-blend-multiply" />
           <h1 className="font-display text-2xl font-bold text-ink">Vocabulary review</h1>
         </div>
-        <span className="text-sm text-ink/50">
-          {index + 1} / {queue.length}
-        </span>
+        <div className="flex items-center gap-4">
+          <Link to="/review/browse" className="text-sm text-marine underline-offset-2 hover:underline">
+            Browse by module
+          </Link>
+          <span className="text-sm text-ink/50">
+            {index + 1} / {queue.length}
+          </span>
+        </div>
       </div>
 
       {/* Tarot-style flashcard: thick outer frame + thin inner rule + hard offset shadow */}
@@ -113,11 +141,14 @@ export default function Review() {
 
             <div className="min-h-16 w-full">
               {revealed ? (
-                <div className="space-y-2">
+                <div className="reveal-anim space-y-2">
                   <div className="mx-auto h-px w-16 bg-ink/25" />
                   <p className="text-lg text-ink/80">{card.vocab.en}</p>
                   {card.vocab.exampleFr && (
-                    <p className="text-sm italic text-ink/50">{card.vocab.exampleFr}</p>
+                    <p className="text-sm italic text-ink/60">{card.vocab.exampleFr}</p>
+                  )}
+                  {card.vocab.exampleEn && (
+                    <p className="text-xs text-ink/40">{card.vocab.exampleEn}</p>
                   )}
                 </div>
               ) : (
@@ -137,13 +168,13 @@ export default function Review() {
       </div>
 
       {revealed && (
-        <div className="mx-auto grid max-w-sm grid-cols-4 gap-2">
+        <div className="reveal-anim mx-auto grid max-w-sm grid-cols-4 gap-2">
           {RATINGS.map((r) => (
             <button
               key={r.rating}
               type="button"
               onClick={() => rate(r.rating)}
-              className={`rounded-lg border px-2 py-2 text-sm font-medium ${r.cls}`}
+              className={`rounded-lg border px-2 py-2 text-sm font-medium transition-all duration-150 hover:scale-105 ${r.cls}`}
             >
               {r.label}
             </button>

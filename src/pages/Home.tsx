@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { getAllUnits, getLevelSummaries } from "../lib/content/load";
 import { useProgress, vocabKey } from "../lib/storage/progress";
-import { isDue, initialCard } from "../lib/srs/sm2";
+import { isDue } from "../lib/srs/sm2";
 import { SKILLS, type Skill } from "../lib/content/schema";
 import GuideStranger from "../components/GuideStranger";
 
@@ -25,7 +25,7 @@ function Stat({ label, value, icon }: { label: string; value: string; icon?: str
     <div className="rounded-lg border border-ink/10 bg-card p-3 text-center">
       <p className="flex items-center justify-center gap-1.5 font-display text-2xl font-bold text-marine">
         {value}
-        {icon && <img src={icon} alt="" className="h-7 w-7 object-contain" />}
+        {icon && <img src={icon} alt="" className="h-[1.85rem] w-[1.85rem] object-contain" />}
       </p>
       <p className="text-xs uppercase tracking-wide text-ink/50">{label}</p>
     </div>
@@ -44,16 +44,15 @@ export default function Home() {
   const completedCount = Object.values(unitProgress).filter((u) => u.status === "completed").length;
   const maxXp = Math.max(1, ...SKILLS.map((s) => skillXp[s]));
 
-  // Snapshot due-review count at mount.
+  // Snapshot due-review count at mount. Only cards in the learner's PERSONAL
+  // deck (reviewed at least once, or added from the collection) count as due —
+  // the untouched collection never piles onto this number.
   const [dueCount] = useState(() => {
     const vocab = useProgress.getState().vocab;
-    let n = 0;
-    for (const u of getAllUnits()) {
-      for (const v of u.lesson.vocabulary) {
-        if (isDue(vocab[vocabKey(u.id, v.id)] ?? initialCard())) n++;
-      }
-    }
-    return n;
+    const validKeys = new Set(
+      getAllUnits().flatMap((u) => u.lesson.vocabulary.map((v) => vocabKey(u.id, v.id))),
+    );
+    return Object.keys(vocab).filter((k) => validKeys.has(k) && isDue(vocab[k])).length;
   });
 
   return (
@@ -89,12 +88,19 @@ export default function Home() {
         >
           Start learning →
         </Link>
-        {dueCount > 0 && (
+        {dueCount > 0 ? (
           <Link
             to="/review"
             className="rounded border border-marine/30 px-5 py-2.5 font-medium text-marine hover:bg-marine/10"
           >
             Review {dueCount} word{dueCount === 1 ? "" : "s"}
+          </Link>
+        ) : (
+          <Link
+            to="/review/browse"
+            className="rounded border border-marine/30 px-5 py-2.5 font-medium text-marine hover:bg-marine/10"
+          >
+            Browse the card collection
           </Link>
         )}
       </div>

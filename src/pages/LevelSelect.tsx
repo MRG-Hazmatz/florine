@@ -7,7 +7,10 @@ export default function LevelSelect() {
 
   return (
     <section className="space-y-6">
-      <h1 className="font-display text-3xl font-bold">Choose your level</h1>
+      <h1 className="flex items-center gap-3 font-display text-3xl font-bold">
+        <img src="/icons/lock.png" alt="" className="h-12 object-contain mix-blend-multiply" />
+        Choose your level
+      </h1>
       <ul className="grid gap-3 sm:grid-cols-2">
         {summaries.map((s) => {
           const enabled = s.unitCount > 0;

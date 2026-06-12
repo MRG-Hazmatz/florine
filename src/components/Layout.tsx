@@ -1,4 +1,4 @@
-import { Link, NavLink, Outlet } from "react-router-dom";
+import { Link, NavLink, Outlet, useLocation } from "react-router-dom";
 
 const navClass = ({ isActive }: { isActive: boolean }) =>
   `px-3 py-1 rounded transition-colors ${
@@ -6,6 +6,7 @@ const navClass = ({ isActive }: { isActive: boolean }) =>
   }`;
 
 export default function Layout() {
+  const { pathname } = useLocation();
   return (
     <div className="min-h-full flex flex-col">
       <header className="sticky top-0 z-50 border-b border-ink/20 bg-parchment/90 backdrop-blur">
@@ -31,6 +32,15 @@ export default function Layout() {
       </header>
 
       <main className="mx-auto w-full max-w-4xl flex-1 border-x border-ink/15 bg-parchment/90 px-4 py-8 shadow-[0_0_60px_rgba(23,18,12,0.22)]">
+        {pathname !== "/" && (
+          <Link
+            to="/"
+            title="Back to the home screen"
+            className="mb-4 inline-flex items-center gap-1.5 rounded border border-ink/15 px-2.5 py-1 text-sm text-ink/60 transition-colors hover:border-marine/40 hover:text-marine"
+          >
+            ← Home
+          </Link>
+        )}
         <Outlet />
       </main>
 

@@ -9,44 +9,331 @@
   "cefrDescriptors": [
     "Can understand and use cardinal numbers 0–99 in everyday contexts (prices, ages, phone numbers)."
   ],
-  "skills": ["reading", "listening", "writing", "speaking"],
+  "skills": [
+    "reading",
+    "listening",
+    "writing",
+    "speaking"
+  ],
   "estimatedMinutes": 35,
   "concept": "Numbers come up constantly — prices, ages, phone numbers, times — so they're worth drilling cold.\n\n0–16 are single words to memorise: zéro, un, deux … seize. (un also means \"a/an\", with a feminine une.) Then 17–19 turn logical: dix-sept, dix-huit, dix-neuf (\"ten-seven…\").\n\nThe tens are vingt (20), trente (30), quarante (40), cinquante (50), soixante (60). Build the numbers in between with a hyphen — vingt-trois (23), trente-cinq (35) — and slip in \"et\" for 21/31/41…: vingt-et-un, trente-et-un.\n\nNow the famous French quirk, from 70 up: French goes base-20 (counting in twenties).\n  • 70 = soixante-dix, literally \"sixty-ten\". Keep adding: 71 = soixante et onze, 72 = soixante-douze … 79 = soixante-dix-neuf.\n  • 80 = quatre-vingts, literally \"four-twenties\" (4 × 20). Then 81 = quatre-vingt-un, 82 = quatre-vingt-deux … (quatre-vingts drops its -s as soon as another number follows).\n  • 90 = quatre-vingt-dix, \"four-twenties-ten\". Then 91 = quatre-vingt-onze … 99 = quatre-vingt-dix-neuf.\nIt feels odd at first, but it's just arithmetic out loud. (Belgium and Switzerland use the tidier septante / huitante / nonante — but France uses the base-20 forms, so those are the ones to learn.)\n\nPractise saying them out of order — prices and phone numbers never arrive politely counting upward. Use the audio buttons and notice the rhythm.\n\nSay your age, a phone number, and three prices out loud — you'll hit the 70–99 forms fast.",
   "vocabulary": [
-    { "id": "zero", "fr": "zéro", "en": "zero", "pos": "numeral", "audio": "audio/a1.1/unit-02-numbers/vocab-zero.mp3", "voice": "denise" },
-    { "id": "un", "fr": "un", "en": "one (also: a/an)", "pos": "numeral", "exampleFr": "un café", "exampleEn": "a coffee", "audio": "audio/a1.1/unit-02-numbers/vocab-un.mp3", "voice": "henri" },
-    { "id": "deux", "fr": "deux", "en": "two", "pos": "numeral", "audio": "audio/a1.1/unit-02-numbers/vocab-deux.mp3", "voice": "denise" },
-    { "id": "trois", "fr": "trois", "en": "three", "pos": "numeral", "audio": "audio/a1.1/unit-02-numbers/vocab-trois.mp3", "voice": "henri" },
-    { "id": "quatre", "fr": "quatre", "en": "four", "pos": "numeral", "audio": "audio/a1.1/unit-02-numbers/vocab-quatre.mp3", "voice": "denise" },
-    { "id": "cinq", "fr": "cinq", "en": "five", "pos": "numeral", "audio": "audio/a1.1/unit-02-numbers/vocab-cinq.mp3", "voice": "henri" },
-    { "id": "six", "fr": "six", "en": "six", "pos": "numeral", "audio": "audio/a1.1/unit-02-numbers/vocab-six.mp3", "voice": "denise" },
-    { "id": "sept", "fr": "sept", "en": "seven", "pos": "numeral", "audio": "audio/a1.1/unit-02-numbers/vocab-sept.mp3", "voice": "henri" },
-    { "id": "huit", "fr": "huit", "en": "eight", "pos": "numeral", "audio": "audio/a1.1/unit-02-numbers/vocab-huit.mp3", "voice": "denise" },
-    { "id": "neuf", "fr": "neuf", "en": "nine", "pos": "numeral", "audio": "audio/a1.1/unit-02-numbers/vocab-neuf.mp3", "voice": "henri" },
-    { "id": "dix", "fr": "dix", "en": "ten", "pos": "numeral", "audio": "audio/a1.1/unit-02-numbers/vocab-dix.mp3", "voice": "denise" },
-    { "id": "onze", "fr": "onze", "en": "eleven", "pos": "numeral", "audio": "audio/a1.1/unit-02-numbers/vocab-onze.mp3", "voice": "henri" },
-    { "id": "douze", "fr": "douze", "en": "twelve", "pos": "numeral", "audio": "audio/a1.1/unit-02-numbers/vocab-douze.mp3", "voice": "denise" },
-    { "id": "treize", "fr": "treize", "en": "thirteen", "pos": "numeral", "audio": "audio/a1.1/unit-02-numbers/vocab-treize.mp3", "voice": "henri" },
-    { "id": "quatorze", "fr": "quatorze", "en": "fourteen", "pos": "numeral", "audio": "audio/a1.1/unit-02-numbers/vocab-quatorze.mp3", "voice": "denise" },
-    { "id": "quinze", "fr": "quinze", "en": "fifteen", "pos": "numeral", "audio": "audio/a1.1/unit-02-numbers/vocab-quinze.mp3", "voice": "henri" },
-    { "id": "seize", "fr": "seize", "en": "sixteen", "pos": "numeral", "audio": "audio/a1.1/unit-02-numbers/vocab-seize.mp3", "voice": "denise" },
-    { "id": "dix-sept", "fr": "dix-sept", "en": "seventeen", "pos": "numeral", "audio": "audio/a1.1/unit-02-numbers/vocab-dix-sept.mp3", "voice": "henri" },
-    { "id": "dix-huit", "fr": "dix-huit", "en": "eighteen", "pos": "numeral", "audio": "audio/a1.1/unit-02-numbers/vocab-dix-huit.mp3", "voice": "denise" },
-    { "id": "dix-neuf", "fr": "dix-neuf", "en": "nineteen", "pos": "numeral", "audio": "audio/a1.1/unit-02-numbers/vocab-dix-neuf.mp3", "voice": "henri" },
-    { "id": "vingt", "fr": "vingt", "en": "twenty", "pos": "numeral", "audio": "audio/a1.1/unit-02-numbers/vocab-vingt.mp3", "voice": "denise" },
-    { "id": "trente", "fr": "trente", "en": "thirty", "pos": "numeral", "audio": "audio/a1.1/unit-02-numbers/vocab-trente.mp3", "voice": "henri" },
-    { "id": "quarante", "fr": "quarante", "en": "forty", "pos": "numeral", "audio": "audio/a1.1/unit-02-numbers/vocab-quarante.mp3", "voice": "denise" },
-    { "id": "cinquante", "fr": "cinquante", "en": "fifty", "pos": "numeral", "audio": "audio/a1.1/unit-02-numbers/vocab-cinquante.mp3", "voice": "henri" },
-    { "id": "soixante", "fr": "soixante", "en": "sixty", "pos": "numeral", "audio": "audio/a1.1/unit-02-numbers/vocab-soixante.mp3", "voice": "denise" },
-    { "id": "soixante-dix", "fr": "soixante-dix", "en": "seventy (60 + 10)", "pos": "numeral", "exampleFr": "soixante-quinze", "exampleEn": "seventy-five (75)", "audio": "audio/a1.1/unit-02-numbers/vocab-soixante-dix.mp3", "voice": "henri" },
-    { "id": "quatre-vingts", "fr": "quatre-vingts", "en": "eighty (4 × 20)", "pos": "numeral", "exampleFr": "quatre-vingt-deux", "exampleEn": "eighty-two (82)", "audio": "audio/a1.1/unit-02-numbers/vocab-quatre-vingts.mp3", "voice": "denise" },
-    { "id": "quatre-vingt-dix", "fr": "quatre-vingt-dix", "en": "ninety (80 + 10)", "pos": "numeral", "exampleFr": "quatre-vingt-onze", "exampleEn": "ninety-one (91)", "audio": "audio/a1.1/unit-02-numbers/vocab-quatre-vingt-dix.mp3", "voice": "henri" }
+    {
+      "id": "zero",
+      "fr": "zéro",
+      "en": "zero",
+      "pos": "numeral",
+      "audio": "audio/a1.1/unit-02-numbers/vocab-zero.mp3",
+      "voice": "denise",
+      "exampleFr": "Il fait zéro degré ce matin.",
+      "exampleEn": "It's zero degrees this morning."
+    },
+    {
+      "id": "un",
+      "fr": "un",
+      "en": "one (also: a/an)",
+      "pos": "numeral",
+      "exampleFr": "un café",
+      "exampleEn": "a coffee",
+      "audio": "audio/a1.1/unit-02-numbers/vocab-un.mp3",
+      "voice": "henri"
+    },
+    {
+      "id": "deux",
+      "fr": "deux",
+      "en": "two",
+      "pos": "numeral",
+      "audio": "audio/a1.1/unit-02-numbers/vocab-deux.mp3",
+      "voice": "denise",
+      "exampleFr": "Deux cafés, s'il vous plaît.",
+      "exampleEn": "Two coffees, please."
+    },
+    {
+      "id": "trois",
+      "fr": "trois",
+      "en": "three",
+      "pos": "numeral",
+      "audio": "audio/a1.1/unit-02-numbers/vocab-trois.mp3",
+      "voice": "henri",
+      "exampleFr": "Le concert dure trois heures.",
+      "exampleEn": "The concert lasts three hours."
+    },
+    {
+      "id": "quatre",
+      "fr": "quatre",
+      "en": "four",
+      "pos": "numeral",
+      "audio": "audio/a1.1/unit-02-numbers/vocab-quatre.mp3",
+      "voice": "denise",
+      "exampleFr": "Nous sommes quatre à table.",
+      "exampleEn": "There are four of us at the table."
+    },
+    {
+      "id": "cinq",
+      "fr": "cinq",
+      "en": "five",
+      "pos": "numeral",
+      "audio": "audio/a1.1/unit-02-numbers/vocab-cinq.mp3",
+      "voice": "henri",
+      "exampleFr": "La pause est à cinq heures.",
+      "exampleEn": "The break is at five o'clock."
+    },
+    {
+      "id": "six",
+      "fr": "six",
+      "en": "six",
+      "pos": "numeral",
+      "audio": "audio/a1.1/unit-02-numbers/vocab-six.mp3",
+      "voice": "denise",
+      "exampleFr": "Elle a six cousins.",
+      "exampleEn": "She has six cousins."
+    },
+    {
+      "id": "sept",
+      "fr": "sept",
+      "en": "seven",
+      "pos": "numeral",
+      "audio": "audio/a1.1/unit-02-numbers/vocab-sept.mp3",
+      "voice": "henri",
+      "exampleFr": "Il y a sept jours dans une semaine.",
+      "exampleEn": "There are seven days in a week."
+    },
+    {
+      "id": "huit",
+      "fr": "huit",
+      "en": "eight",
+      "pos": "numeral",
+      "audio": "audio/a1.1/unit-02-numbers/vocab-huit.mp3",
+      "voice": "denise",
+      "exampleFr": "Le magasin ouvre à huit heures.",
+      "exampleEn": "The shop opens at eight."
+    },
+    {
+      "id": "neuf",
+      "fr": "neuf",
+      "en": "nine",
+      "pos": "numeral",
+      "audio": "audio/a1.1/unit-02-numbers/vocab-neuf.mp3",
+      "voice": "henri",
+      "exampleFr": "Mon chat a neuf vies, paraît-il.",
+      "exampleEn": "My cat has nine lives, apparently."
+    },
+    {
+      "id": "dix",
+      "fr": "dix",
+      "en": "ten",
+      "pos": "numeral",
+      "audio": "audio/a1.1/unit-02-numbers/vocab-dix.mp3",
+      "voice": "denise",
+      "exampleFr": "Compte jusqu'à dix.",
+      "exampleEn": "Count to ten."
+    },
+    {
+      "id": "onze",
+      "fr": "onze",
+      "en": "eleven",
+      "pos": "numeral",
+      "audio": "audio/a1.1/unit-02-numbers/vocab-onze.mp3",
+      "voice": "henri",
+      "exampleFr": "L'équipe a onze joueurs.",
+      "exampleEn": "The team has eleven players."
+    },
+    {
+      "id": "douze",
+      "fr": "douze",
+      "en": "twelve",
+      "pos": "numeral",
+      "audio": "audio/a1.1/unit-02-numbers/vocab-douze.mp3",
+      "voice": "denise",
+      "exampleFr": "Une douzaine, c'est douze œufs.",
+      "exampleEn": "A dozen is twelve eggs."
+    },
+    {
+      "id": "treize",
+      "fr": "treize",
+      "en": "thirteen",
+      "pos": "numeral",
+      "audio": "audio/a1.1/unit-02-numbers/vocab-treize.mp3",
+      "voice": "henri",
+      "exampleFr": "Elle a treize ans.",
+      "exampleEn": "She is thirteen years old."
+    },
+    {
+      "id": "quatorze",
+      "fr": "quatorze",
+      "en": "fourteen",
+      "pos": "numeral",
+      "audio": "audio/a1.1/unit-02-numbers/vocab-quatorze.mp3",
+      "voice": "denise",
+      "exampleFr": "Le train part à quatorze heures.",
+      "exampleEn": "The train leaves at 2 p.m."
+    },
+    {
+      "id": "quinze",
+      "fr": "quinze",
+      "en": "fifteen",
+      "pos": "numeral",
+      "audio": "audio/a1.1/unit-02-numbers/vocab-quinze.mp3",
+      "voice": "henri",
+      "exampleFr": "On se voit dans quinze jours.",
+      "exampleEn": "See you in two weeks (fifteen days)."
+    },
+    {
+      "id": "seize",
+      "fr": "seize",
+      "en": "sixteen",
+      "pos": "numeral",
+      "audio": "audio/a1.1/unit-02-numbers/vocab-seize.mp3",
+      "voice": "denise",
+      "exampleFr": "Il habite au seize, rue Verte.",
+      "exampleEn": "He lives at 16, rue Verte."
+    },
+    {
+      "id": "dix-sept",
+      "fr": "dix-sept",
+      "en": "seventeen",
+      "pos": "numeral",
+      "audio": "audio/a1.1/unit-02-numbers/vocab-dix-sept.mp3",
+      "voice": "henri",
+      "exampleFr": "Mon frère a dix-sept ans.",
+      "exampleEn": "My brother is seventeen."
+    },
+    {
+      "id": "dix-huit",
+      "fr": "dix-huit",
+      "en": "eighteen",
+      "pos": "numeral",
+      "audio": "audio/a1.1/unit-02-numbers/vocab-dix-huit.mp3",
+      "voice": "denise",
+      "exampleFr": "On vote à dix-huit ans.",
+      "exampleEn": "You can vote at eighteen."
+    },
+    {
+      "id": "dix-neuf",
+      "fr": "dix-neuf",
+      "en": "nineteen",
+      "pos": "numeral",
+      "audio": "audio/a1.1/unit-02-numbers/vocab-dix-neuf.mp3",
+      "voice": "henri",
+      "exampleFr": "Le bus dix-neuf va au centre.",
+      "exampleEn": "The number 19 bus goes to the centre."
+    },
+    {
+      "id": "vingt",
+      "fr": "vingt",
+      "en": "twenty",
+      "pos": "numeral",
+      "audio": "audio/a1.1/unit-02-numbers/vocab-vingt.mp3",
+      "voice": "denise",
+      "exampleFr": "Le livre coûte vingt euros.",
+      "exampleEn": "The book costs twenty euros."
+    },
+    {
+      "id": "trente",
+      "fr": "trente",
+      "en": "thirty",
+      "pos": "numeral",
+      "audio": "audio/a1.1/unit-02-numbers/vocab-trente.mp3",
+      "voice": "henri",
+      "exampleFr": "Il y a trente élèves dans la classe.",
+      "exampleEn": "There are thirty pupils in the class."
+    },
+    {
+      "id": "quarante",
+      "fr": "quarante",
+      "en": "forty",
+      "pos": "numeral",
+      "audio": "audio/a1.1/unit-02-numbers/vocab-quarante.mp3",
+      "voice": "denise",
+      "exampleFr": "Ma mère a quarante ans.",
+      "exampleEn": "My mother is forty."
+    },
+    {
+      "id": "cinquante",
+      "fr": "cinquante",
+      "en": "fifty",
+      "pos": "numeral",
+      "audio": "audio/a1.1/unit-02-numbers/vocab-cinquante.mp3",
+      "voice": "henri",
+      "exampleFr": "Le billet coûte cinquante euros.",
+      "exampleEn": "The ticket costs fifty euros."
+    },
+    {
+      "id": "soixante",
+      "fr": "soixante",
+      "en": "sixty",
+      "pos": "numeral",
+      "audio": "audio/a1.1/unit-02-numbers/vocab-soixante.mp3",
+      "voice": "denise",
+      "exampleFr": "Une heure fait soixante minutes.",
+      "exampleEn": "An hour is sixty minutes."
+    },
+    {
+      "id": "soixante-dix",
+      "fr": "soixante-dix",
+      "en": "seventy (60 + 10)",
+      "pos": "numeral",
+      "exampleFr": "soixante-quinze",
+      "exampleEn": "seventy-five (75)",
+      "audio": "audio/a1.1/unit-02-numbers/vocab-soixante-dix.mp3",
+      "voice": "henri"
+    },
+    {
+      "id": "quatre-vingts",
+      "fr": "quatre-vingts",
+      "en": "eighty (4 × 20)",
+      "pos": "numeral",
+      "exampleFr": "quatre-vingt-deux",
+      "exampleEn": "eighty-two (82)",
+      "audio": "audio/a1.1/unit-02-numbers/vocab-quatre-vingts.mp3",
+      "voice": "denise"
+    },
+    {
+      "id": "quatre-vingt-dix",
+      "fr": "quatre-vingt-dix",
+      "en": "ninety (80 + 10)",
+      "pos": "numeral",
+      "exampleFr": "quatre-vingt-onze",
+      "exampleEn": "ninety-one (91)",
+      "audio": "audio/a1.1/unit-02-numbers/vocab-quatre-vingt-dix.mp3",
+      "voice": "henri"
+    }
   ],
   "examples": [
-    { "id": "ex-1", "fr": "Un, deux, trois !", "en": "One, two, three!", "audio": "audio/a1.1/unit-02-numbers/example-ex-1.mp3", "voice": "henri" },
-    { "id": "ex-2", "fr": "Elle a soixante-quinze ans.", "en": "She is seventy-five years old.", "audio": "audio/a1.1/unit-02-numbers/example-ex-2.mp3", "voice": "denise" },
-    { "id": "ex-3", "fr": "Ça coûte quatre-vingts euros.", "en": "It costs eighty euros.", "audio": "audio/a1.1/unit-02-numbers/example-ex-3.mp3", "voice": "henri" },
-    { "id": "ex-4", "fr": "Il y a quatre-vingt-dix élèves.", "en": "There are ninety students.", "audio": "audio/a1.1/unit-02-numbers/example-ex-4.mp3", "voice": "denise" },
-    { "id": "ex-5", "fr": "Trois cafés, s'il vous plaît.", "en": "Three coffees, please.", "audio": "audio/a1.1/unit-02-numbers/example-ex-5.mp3", "voice": "henri" }
+    {
+      "id": "ex-1",
+      "fr": "Un, deux, trois !",
+      "en": "One, two, three!",
+      "audio": "audio/a1.1/unit-02-numbers/example-ex-1.mp3",
+      "voice": "henri"
+    },
+    {
+      "id": "ex-2",
+      "fr": "Elle a soixante-quinze ans.",
+      "en": "She is seventy-five years old.",
+      "audio": "audio/a1.1/unit-02-numbers/example-ex-2.mp3",
+      "voice": "denise"
+    },
+    {
+      "id": "ex-3",
+      "fr": "Ça coûte quatre-vingts euros.",
+      "en": "It costs eighty euros.",
+      "audio": "audio/a1.1/unit-02-numbers/example-ex-3.mp3",
+      "voice": "henri"
+    },
+    {
+      "id": "ex-4",
+      "fr": "Il y a quatre-vingt-dix élèves.",
+      "en": "There are ninety students.",
+      "audio": "audio/a1.1/unit-02-numbers/example-ex-4.mp3",
+      "voice": "denise"
+    },
+    {
+      "id": "ex-5",
+      "fr": "Trois cafés, s'il vous plaît.",
+      "en": "Three coffees, please.",
+      "audio": "audio/a1.1/unit-02-numbers/example-ex-5.mp3",
+      "voice": "henri"
+    }
   ]
 }
