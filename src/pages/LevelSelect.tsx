@@ -8,7 +8,7 @@ export default function LevelSelect() {
   return (
     <section className="space-y-6">
       <h1 className="flex items-center gap-3 font-display text-3xl font-bold">
-        <img src="/icons/lock.png" alt="" className="h-12 object-contain mix-blend-multiply" />
+        <img src="/icons/levels.png" alt="" className="h-14 object-contain mix-blend-multiply" />
         Choose your level
       </h1>
       <ul className="grid gap-3 sm:grid-cols-2">

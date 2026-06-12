@@ -10,12 +10,17 @@ export function strangerUrl(n: number): string {
   return `/characters/strangers/Strangers_${String(i + 1).padStart(3, "0")}.png`;
 }
 
-/** Deterministically pick a face from a seed string (stable across renders). */
-export function faceFor(seed: string): string {
+/** Deterministically pick a face number (1-based) from a seed string. */
+export function faceIndexFor(seed: string): number {
   let h = 2166136261;
   for (let i = 0; i < seed.length; i++) {
     h ^= seed.charCodeAt(i);
     h = Math.imul(h, 16777619);
   }
-  return strangerUrl(((h >>> 0) % STRANGER_COUNT) + 1);
+  return ((h >>> 0) % STRANGER_COUNT) + 1;
+}
+
+/** Deterministically pick a face from a seed string (stable across renders). */
+export function faceFor(seed: string): string {
+  return strangerUrl(faceIndexFor(seed));
 }

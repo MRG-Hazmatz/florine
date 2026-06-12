@@ -39,16 +39,31 @@ export default function Layout() {
             onClick={() => navigate(-1)}
             title="Back"
             aria-label="Go back to the previous page"
-            className="-mt-3 mb-2 inline-flex h-8 w-8 items-center justify-center rounded border border-ink/15 text-base text-ink/60 transition-colors hover:border-marine/40 hover:text-marine"
+            className="-mt-5 mb-2 inline-flex h-8 w-8 items-center justify-center rounded border border-ink/15 text-ink/60 transition-colors hover:border-marine/40 hover:text-marine"
           >
-            ←
+            <svg
+              viewBox="0 0 24 24"
+              className="h-4 w-4"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2.2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <path d="M19 12H5" />
+              <path d="M11 18l-6-6 6-6" />
+            </svg>
           </button>
         )}
         <Outlet />
       </main>
 
       <footer className="py-4 text-center text-xs text-ink/55">
-        Florine — open-source DELF & DALF practice · Faces: Francisco Lemos (lemos.itch.io), CC BY 4.0
+        Florine — open-source DELF & DALF practice ·{" "}
+        <Link to="/almanac" className="underline decoration-ink/30 underline-offset-2 hover:text-marine">
+          l'Almanach des Inconnus
+        </Link>{" "}
+        · Faces: Francisco Lemos (lemos.itch.io), CC BY 4.0
       </footer>
     </div>
   );

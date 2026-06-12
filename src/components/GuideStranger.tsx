@@ -1,6 +1,8 @@
 import { useState } from "react";
 import type { ReactNode } from "react";
-import { faceFor, strangerUrl } from "../lib/characters";
+import { Link } from "react-router-dom";
+import { faceIndexFor, strangerUrl } from "../lib/characters";
+import { almanacEntry } from "../lib/almanac";
 import { SPLASHES } from "../lib/splashes";
 
 /**
@@ -22,7 +24,9 @@ export default function GuideStranger({
   children?: ReactNode;
   pinnedOdds?: number;
 }) {
-  const src = face !== undefined ? strangerUrl(face) : faceFor(seed ?? "florine");
+  const faceN = face !== undefined ? face : faceIndexFor(seed ?? "florine");
+  const src = strangerUrl(faceN);
+  const who = almanacEntry(faceN);
 
   // Roll once on mount so the text is stable across re-renders.
   const [text] = useState<ReactNode>(() => {
@@ -33,9 +37,14 @@ export default function GuideStranger({
   return (
     <div className="flex items-start gap-3">
       <figure className="shrink-0 -rotate-2">
-        <div className="h-20 w-20 overflow-hidden border border-ink/70 bg-parchment shadow-[3px_3px_0_rgba(23,18,12,0.45)]">
+        <Link
+          to="/almanac"
+          title={`${who.name} — ${who.title}. Open the almanac.`}
+          aria-label={`${who.name}. Open the strangers' almanac.`}
+          className="block h-20 w-20 overflow-hidden border border-ink/70 bg-parchment shadow-[3px_3px_0_rgba(23,18,12,0.45)]"
+        >
           <img src={src} alt="" className="h-full w-full object-contain mix-blend-multiply" />
-        </div>
+        </Link>
         {caption && (
           <figcaption className="mt-1 text-center text-[10px] uppercase tracking-[0.2em] text-ink/40">
             {caption}
