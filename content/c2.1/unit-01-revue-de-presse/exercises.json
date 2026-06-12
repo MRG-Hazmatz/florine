@@ -1,0 +1,432 @@
+{
+  "schemaVersion": 1,
+  "unitId": "c2.1/unit-01-revue-de-presse",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "A revue de presse THÉMATIQUE…",
+      "options": [
+        {
+          "id": "a",
+          "text": "compares how different papers treat the same one or two stories"
+        },
+        {
+          "id": "b",
+          "text": "lists every article in one newspaper"
+        },
+        {
+          "id": "c",
+          "text": "reviews only the sports pages"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Thématique = one story, many treatments. Du jour = many front pages, one morning."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Your revue uses « dit » three times in a row. The verdict:",
+      "options": [
+        {
+          "id": "a",
+          "text": "it's a shopping list — vary the reporting verbs"
+        },
+        {
+          "id": "b",
+          "text": "perfect economy of style"
+        },
+        {
+          "id": "c",
+          "text": "« dit » is forbidden in journalism"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Écrit, souligne, s'interroge, ironise, titre — the loom needs more than one thread."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "How a paper announces something on its front page.",
+      "inputMode": "dropdown",
+      "template": "« Douze jours pour rien », {{b1}} le quotidien en première page.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "titre"
+          ],
+          "options": [
+            "titre",
+            "chante",
+            "chuchote"
+          ]
+        }
+      ],
+      "explanation": "Titrer — to headline. Papers neither sing nor whisper; they headline."
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "A paper published once a week.",
+      "inputMode": "dropdown",
+      "template": "L'{{b1}} prend le recul que le quotidien n'a pas.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "hebdomadaire"
+          ],
+          "options": [
+            "hebdomadaire",
+            "horodateur",
+            "hélicoptère"
+          ]
+        }
+      ],
+      "explanation": "Un hebdomadaire — weekly; the daily sprints, the weekly thinks."
+    },
+    {
+      "id": "ex-mc-3",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "The classic way to OPEN a revue de presse:",
+      "options": [
+        {
+          "id": "a",
+          "text": "une citation percutante — a punchy quote that intrigues"
+        },
+        {
+          "id": "b",
+          "text": "the weather forecast"
+        },
+        {
+          "id": "c",
+          "text": "an alphabetical list of the papers consulted"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Intrigue first, inform second — the listener must want the next sentence."
+    },
+    {
+      "id": "ex-fb-3",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "What each paper does with its chosen angle (two words: mettre en…).",
+      "inputMode": "typed",
+      "template": "Chaque journal met en {{b1}} un angle différent.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "avant"
+          ]
+        }
+      ],
+      "explanation": "Mettre en avant — to put forward, to highlight."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each press word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "la périodicité",
+          "right": "publication frequency"
+        },
+        {
+          "id": "p2",
+          "left": "la zone de diffusion",
+          "right": "circulation area"
+        },
+        {
+          "id": "p3",
+          "left": "un verbe déclaratif",
+          "right": "a reporting verb"
+        },
+        {
+          "id": "p4",
+          "left": "la clôture",
+          "right": "the closing line"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"Each paper puts forward a different angle.\"",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Chaque"
+        },
+        {
+          "id": "t2",
+          "text": "journal"
+        },
+        {
+          "id": "t3",
+          "text": "met"
+        },
+        {
+          "id": "t4",
+          "text": "en"
+        },
+        {
+          "id": "t5",
+          "text": "avant"
+        },
+        {
+          "id": "t6",
+          "text": "un"
+        },
+        {
+          "id": "t7",
+          "text": "angle"
+        },
+        {
+          "id": "t8",
+          "text": "différent"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7",
+        "t8"
+      ]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen to this revue de presse fragment. What is the journalist doing?",
+      "audio": "audio/c2.1/unit-01-revue-de-presse/listen-1.mp3",
+      "transcript": "« Un succès diplomatique », écrit le quotidien national ; « douze jours pour rien », ironise son rival — même sommet, deux planètes.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Comparing two papers' treatments of the same event — the thematic move"
+        },
+        {
+          "id": "b",
+          "text": "Reading one article aloud in full"
+        },
+        {
+          "id": "c",
+          "text": "Giving his own opinion of the summit"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Two sources, two reporting verbs (écrit / ironise), one event: the revue thématique in one sentence."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read this account of a morning revue de presse and answer both questions.",
+      "passageFr": "Sept heures du matin. La chroniqueuse ouvre sur une citation percutante : « Nous avons vendu le ciel », s'indigne l'éditorialiste d'un grand quotidien à propos des données personnelles. Puis elle tisse : l'hebdomadaire économique, lui, met en avant les chiffres du secteur ; la presse régionale s'inquiète pour ses lecteurs ; un journal étranger ironise sur « le pays des droits de l'homme connecté ». Transition élégante, clôture en clin d'œil — elle rend l'antenne en ramenant l'auditeur au ciel vendu de la première phrase.",
+      "passageEn": "Seven a.m. The columnist opens with a punchy quote: 'We have sold the sky,' fumes the editorialist of a major daily about personal data. Then she weaves: the financial weekly puts forward the sector's figures; the regional press worries for its readers; a foreign paper quips about 'the land of the connected rights of man.' Elegant transition, closing wink — she hands back the mic by returning the listener to the sold sky of the first sentence.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "How does the columnist treat her four sources?",
+          "options": [
+            {
+              "id": "a",
+              "text": "She weaves them by their angles — indignation, figures, worry, irony"
+            },
+            {
+              "id": "b",
+              "text": "She reads each article in full, in order of length"
+            },
+            {
+              "id": "c",
+              "text": "She corrects each paper's mistakes"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        },
+        {
+          "id": "q2",
+          "prompt": "What makes her clôture work?",
+          "options": [
+            {
+              "id": "a",
+              "text": "It loops back to the punchy quote that opened the revue"
+            },
+            {
+              "id": "b",
+              "text": "It announces tomorrow's weather"
+            },
+            {
+              "id": "c",
+              "text": "It lists the papers alphabetically"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex-mc-4",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Why must the revue name each source's identity (daily/weekly, regional/national)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A regional daily and a financial weekly cannot read the same event the same way"
+        },
+        {
+          "id": "b",
+          "text": "It is required by copyright law"
+        },
+        {
+          "id": "c",
+          "text": "To prove the journalist owns many subscriptions"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "The source's nature is part of the analysis — who speaks shapes what is said."
+    },
+    {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/c2.1/unit-01-revue-de-presse/example-ex-1.mp3",
+      "transcript": "Même actualité, deux traitements : l'écart est l'information.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Same news, two treatments: the gap is the story."
+        },
+        {
+          "id": "b",
+          "text": "'A diplomatic success,' writes one; 'twelve days for nothing,' quips the other."
+        },
+        {
+          "id": "c",
+          "text": "A press review with three 'says' is a shopping list."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « une revue de presse » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "a press review"
+        },
+        {
+          "id": "b",
+          "text": "to group together"
+        },
+        {
+          "id": "c",
+          "text": "the handling"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "une revue de presse = a press review."
+    },
+    {
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "Quotidien ou mensuel : la {{b1}} change le regard.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "périodicité"
+          ]
+        }
+      ],
+      "explanation": "« Quotidien ou mensuel : la périodicité change le regard. » — publication frequency."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "un hebdomadaire",
+          "right": "a weekly"
+        },
+        {
+          "id": "p2",
+          "left": "la zone de diffusion",
+          "right": "circulation area"
+        },
+        {
+          "id": "p3",
+          "left": "un verbe déclaratif",
+          "right": "a reporting verb"
+        },
+        {
+          "id": "p4",
+          "left": "titrer",
+          "right": "to headline"
+        }
+      ]
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "Même actualité, deux traitements : l'écart est l'information.",
+      "targetEn": "Same news, two treatments: the gap is the story.",
+      "audio": "audio/c2.1/unit-01-revue-de-presse/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "Une revue de presse avec trois « dit » est une liste de courses.",
+      "targetEn": "A press review with three 'says' is a shopping list.",
+      "audio": "audio/c2.1/unit-01-revue-de-presse/example-ex-3.mp3"
+    }
+  ]
+}

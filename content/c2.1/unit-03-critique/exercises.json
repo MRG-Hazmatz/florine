@@ -1,0 +1,422 @@
+{
+  "schemaVersion": 1,
+  "unitId": "c2.1/unit-03-critique",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "The declared mission of a critique de spectacle:",
+      "options": [
+        {
+          "id": "a",
+          "text": "persuader ou dissuader the reader from going to see it"
+        },
+        {
+          "id": "b",
+          "text": "summarise the full plot, ending included"
+        },
+        {
+          "id": "c",
+          "text": "list ticket prices"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "A judgment with a purpose: send the reader to the box office, or save them the trip."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Le chapeau of a critique is…",
+      "options": [
+        {
+          "id": "a",
+          "text": "the standfirst under the title — circumstances, venue, company"
+        },
+        {
+          "id": "b",
+          "text": "the hat the critic wears at premieres"
+        },
+        {
+          "id": "c",
+          "text": "the final paragraph"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Press anatomy: titre, chapeau, then the body. The hat sits on top, naturally."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "On stage, this word — not « acteur ».",
+      "inputMode": "dropdown",
+      "template": "Les {{b1}} sont excellents, la pièce les mérite.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "comédiens"
+          ],
+          "options": [
+            "comédiens",
+            "acteurs",
+            "figurants"
+          ]
+        }
+      ],
+      "explanation": "Theatre says comédien; cinema says acteur; les figurants are the extras."
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "The executioner's verb for a savage review.",
+      "inputMode": "dropdown",
+      "template": "Le critique a {{b1}} la pièce en trois adjectifs.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "éreinté"
+          ],
+          "options": [
+            "éreinté",
+            "étrenné",
+            "éternué"
+          ]
+        }
+      ],
+      "explanation": "Éreinter — to pan, to break its back. Étrenner is to use for the first time; éternuer is to sneeze."
+    },
+    {
+      "id": "ex-mc-3",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "The narrative part of a critique should give…",
+      "options": [
+        {
+          "id": "a",
+          "text": "the opening situation in one image — never the whole machine"
+        },
+        {
+          "id": "b",
+          "text": "a full scene-by-scene synopsis"
+        },
+        {
+          "id": "c",
+          "text": "the ending, to save the reader time"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "One image whets; a synopsis spoils. The clearing, the van, the snow — and stop."
+    },
+    {
+      "id": "ex-fb-3",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "What makes a judgment credible (one word).",
+      "inputMode": "typed",
+      "template": "La {{b1}} — le défaut avoué dans le triomphe — rend le jugement crédible.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "nuance"
+          ]
+        }
+      ],
+      "explanation": "La nuance: only praise is publicity, only demolition is a tantrum."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match the critic's vocabulary to its meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "jouissif",
+          "right": "gleefully delicious"
+        },
+        {
+          "id": "p2",
+          "left": "roboratif",
+          "right": "bracing, fortifying"
+        },
+        {
+          "id": "p3",
+          "left": "éreinter",
+          "right": "to pan a work"
+        },
+        {
+          "id": "p4",
+          "left": "la mise en scène",
+          "right": "the staging"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"The smile wins over the whole house.\"",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Le"
+        },
+        {
+          "id": "t2",
+          "text": "sourire"
+        },
+        {
+          "id": "t3",
+          "text": "gagne"
+        },
+        {
+          "id": "t4",
+          "text": "toute"
+        },
+        {
+          "id": "t5",
+          "text": "la"
+        },
+        {
+          "id": "t6",
+          "text": "salle"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen to the radio critic. What is her overall verdict?",
+      "audio": "audio/c2.1/unit-03-critique/listen-1.mp3",
+      "transcript": "Mise en scène inventive, comédiens impeccables — et pourtant un deuxième acte qui s'essouffle. Allez-y pour le premier ; pardonnez le second.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nuanced praise: go for the strengths, forgive the weak second act"
+        },
+        {
+          "id": "b",
+          "text": "Total demolition — stay home"
+        },
+        {
+          "id": "c",
+          "text": "Pure advertising — no flaw admitted"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Persuader avec nuance: the admitted flaw makes the recommendation trustworthy."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read this short critique and answer both questions.",
+      "passageFr": "« Une horlogerie qui rit » — Au Théâtre du Passage, la jeune troupe reprend un vaudeville centenaire. Chapeau bas pour la mise en scène : un plateau nu, trois portes, un tempo d'horloger. Les comédiens jouent la mécanique sans jamais la montrer ; la salle, méfiante au lever du rideau, capitule à la deuxième porte qui claque. On chipotera sur un final un rien trop sage — Candide lui-même aurait demandé un dernier éclat. Mais on sort léger, roboratif effet garanti : courez-y.",
+      "passageEn": "'Clockwork that laughs' — At the Théâtre du Passage, a young company revives a hundred-year-old vaudeville. Hats off to the staging: a bare stage, three doors, a watchmaker's tempo. The actors play the mechanism without ever showing it; the house, wary at curtain-up, capitulates at the second slammed door. One could quibble over a slightly tame finale — Candide himself would have asked for one last burst. But you leave light, bracing effect guaranteed: run to it.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "Which elements form the critique's nuance?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Praise for staging and actors, plus one admitted flaw — the tame finale"
+            },
+            {
+              "id": "b",
+              "text": "It refuses to give any judgment"
+            },
+            {
+              "id": "c",
+              "text": "It pans everything except the venue"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        },
+        {
+          "id": "q2",
+          "prompt": "What role does the audience play in the argument?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Its arc — wary, then conquered — is itself evidence for the verdict"
+            },
+            {
+              "id": "b",
+              "text": "None; the house is never mentioned"
+            },
+            {
+              "id": "c",
+              "text": "The audience wrote the review"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex-mc-4",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Cultural references in a critique: the right dose is…",
+      "options": [
+        {
+          "id": "a",
+          "text": "one — it earns trust; five is showing off"
+        },
+        {
+          "id": "b",
+          "text": "as many as possible, to prove erudition"
+        },
+        {
+          "id": "c",
+          "text": "zero — references are forbidden"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "The secret handshake works once per review. After that it's juggling."
+    },
+    {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/c2.1/unit-03-critique/example-ex-1.mp3",
+      "transcript": "Le titre d'une critique est déjà un verdict en miniature.",
+      "options": [
+        {
+          "id": "a",
+          "text": "A review's title is already a verdict in miniature."
+        },
+        {
+          "id": "b",
+          "text": "On stage, a comédien; on screen, an actor."
+        },
+        {
+          "id": "c",
+          "text": "Tell the opening situation, never the whole machine."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « une critique » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "a review / critique"
+        },
+        {
+          "id": "b",
+          "text": "to pass judgment"
+        },
+        {
+          "id": "c",
+          "text": "nuanced"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "une critique = a review / critique."
+    },
+    {
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "Sa {{b1}} a rempli la salle en trois jours.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "critique"
+          ]
+        }
+      ],
+      "explanation": "« Sa critique a rempli la salle en trois jours. » — a review / critique."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "le chapeau",
+          "right": "the standfirst"
+        },
+        {
+          "id": "p2",
+          "left": "le metteur en scène",
+          "right": "the director"
+        },
+        {
+          "id": "p3",
+          "left": "la mise en scène",
+          "right": "the staging / direction"
+        },
+        {
+          "id": "p4",
+          "left": "un comédien / une comédienne",
+          "right": "a stage actor"
+        }
+      ]
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "Le titre d'une critique est déjà un verdict en miniature.",
+      "targetEn": "A review's title is already a verdict in miniature.",
+      "audio": "audio/c2.1/unit-03-critique/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "Racontez la situation de départ, jamais la machine entière.",
+      "targetEn": "Tell the opening situation, never the whole machine.",
+      "audio": "audio/c2.1/unit-03-critique/example-ex-3.mp3"
+    }
+  ]
+}

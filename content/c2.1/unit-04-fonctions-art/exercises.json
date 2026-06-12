@@ -1,0 +1,443 @@
+{
+  "schemaVersion": 1,
+  "unitId": "c2.1/unit-04-fonctions-art",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "« L'art pour l'art » claims that…",
+      "options": [
+        {
+          "id": "a",
+          "text": "art needs no use — its uselessness is the point"
+        },
+        {
+          "id": "b",
+          "text": "art must serve political causes"
+        },
+        {
+          "id": "c",
+          "text": "only artists may look at art"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "La gratuité du beau, gloriously assumed: beauty's oldest defence."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Reformulating a creator's thought goes wrong in two ways:",
+      "options": [
+        {
+          "id": "a",
+          "text": "flat paraphrase (idea minus its life) and overreading (your idea, their name)"
+        },
+        {
+          "id": "b",
+          "text": "writing too neatly and citing the date"
+        },
+        {
+          "id": "c",
+          "text": "using the present tense and quotation marks"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Keep the tension, lose the pose — betrayal has exactly two flavours."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "The moment the outsider is let in.",
+      "inputMode": "dropdown",
+      "template": "Le musée offre la {{b1}} — et pose ses conditions.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "consécration"
+          ],
+          "options": [
+            "consécration",
+            "consommation",
+            "consternation"
+          ]
+        }
+      ],
+      "explanation": "La consécration — official recognition. Not consumption, and ideally not consternation."
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Who has funded the gesture since Maecenas.",
+      "inputMode": "dropdown",
+      "template": "Le {{b1}} finance le geste et signe le mur.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "mécénat"
+          ],
+          "options": [
+            "mécénat",
+            "mécanicien",
+            "mécontentement"
+          ]
+        }
+      ],
+      "explanation": "Le mécénat — patronage, from Maecenas to the foundation with naming rights."
+    },
+    {
+      "id": "ex-mc-3",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Goya's war paintings serve mainly which function of art?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Témoigner — bearing witness to the era"
+        },
+        {
+          "id": "b",
+          "text": "Décorer — decorating the salon"
+        },
+        {
+          "id": "c",
+          "text": "Consoler — soothing the viewer"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Art as the era's record: Goya testifies; the history textbook confirms."
+    },
+    {
+      "id": "ex-fb-3",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "What arts education awakens (one word).",
+      "inputMode": "typed",
+      "template": "L'école peut éveiller la {{b1}} que la maison n'a pas le temps de voir.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "sensibilité",
+            "sensibilite"
+          ]
+        }
+      ],
+      "explanation": "Éveiller la sensibilité — cultivated like a language, and just as transferable."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each function of art to its verb.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "émouvoir",
+          "right": "to move emotionally"
+        },
+        {
+          "id": "p2",
+          "left": "témoigner",
+          "right": "to bear witness"
+        },
+        {
+          "id": "p3",
+          "left": "contester",
+          "right": "to protest"
+        },
+        {
+          "id": "p4",
+          "left": "la gratuité",
+          "right": "freedom from purpose"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"The wall was free; the ticket is not.\"",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Le"
+        },
+        {
+          "id": "t2",
+          "text": "mur"
+        },
+        {
+          "id": "t3",
+          "text": "était"
+        },
+        {
+          "id": "t4",
+          "text": "gratuit"
+        },
+        {
+          "id": "t5",
+          "text": ";"
+        },
+        {
+          "id": "t6",
+          "text": "le"
+        },
+        {
+          "id": "t7",
+          "text": "billet"
+        },
+        {
+          "id": "t8",
+          "text": "ne"
+        },
+        {
+          "id": "t9",
+          "text": "l'est"
+        },
+        {
+          "id": "t10",
+          "text": "pas"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7",
+        "t8",
+        "t9",
+        "t10"
+      ]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen to the curator. Which function is she actually defending?",
+      "audio": "audio/c2.1/unit-04-fonctions-art/listen-1.mp3",
+      "transcript": "Nous n'exposons pas pour plaire : cette salle dérange, et c'est précisément pour cela qu'elle existe.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Contester — art as challenge; disturbing IS the room's purpose"
+        },
+        {
+          "id": "b",
+          "text": "Décorer — pleasing the visitor's eye"
+        },
+        {
+          "id": "c",
+          "text": "Consoler — comforting the public"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "« Cette salle dérange, c'est pour cela qu'elle existe » — the avant-garde's job description."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read this column on street art's museum debut and answer both questions.",
+      "passageFr": "Le pochoir qui valait trois nuits de garde à vue vaut désormais six gardiens de salle. En entrant au musée, le street art gagne la climatisation, l'assurance et le catalogue — et perd la rue, c'est-à-dire son adresse et une partie de son verbe. Consécration, applaudit le marché ; domestication, grince l'ancien complice du peintre, qui note que l'œuvre contestait jadis le mur même où on l'encadre. La fonction a-t-elle survécu au déménagement ? Le billet d'entrée, lui, se porte très bien.",
+      "passageEn": "The stencil once worth three nights in custody is now worth six room attendants. By entering the museum, street art gains air conditioning, insurance and a catalogue — and loses the street, that is, its address and part of its verb. Consecration, applauds the market; domestication, grumbles the painter's old accomplice, who notes the work once protested the very wall it's now framed on. Did the function survive the move? The entrance ticket, for its part, is doing very well.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "What does street art lose by entering the museum, per the column?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The street itself — its address and part of its protest"
+            },
+            {
+              "id": "b",
+              "text": "Its colours, due to air conditioning"
+            },
+            {
+              "id": "c",
+              "text": "Nothing; the move is pure gain"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        },
+        {
+          "id": "q2",
+          "prompt": "The closing line about the ticket is…",
+          "options": [
+            {
+              "id": "a",
+              "text": "irony: whatever happened to the art's function, the business function thrives"
+            },
+            {
+              "id": "b",
+              "text": "a complaint that tickets are too cheap"
+            },
+            {
+              "id": "c",
+              "text": "proof the museum is failing"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex-mc-4",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Against « il y a déjà trop de matières », the C2 defence of art class is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "refuse the false ledger — art trains the attention the other subjects will use"
+        },
+        {
+          "id": "b",
+          "text": "concede that art is a luxury for later"
+        },
+        {
+          "id": "c",
+          "text": "propose removing mathematics instead"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Don't fight for a slot in the timetable; show the timetable depends on what art trains."
+    },
+    {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/c2.1/unit-04-fonctions-art/example-ex-1.mp3",
+      "transcript": "Le street art entre au musée : consécration ou domestication ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Street art enters the museum: consecration or taming?"
+        },
+        {
+          "id": "b",
+          "text": "The wall was free; the ticket is not."
+        },
+        {
+          "id": "c",
+          "text": "Reformulate the creator's thought: keep the tension, lose the pose."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « une œuvre (d'art) » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "a work"
+        },
+        {
+          "id": "b",
+          "text": "the approach"
+        },
+        {
+          "id": "c",
+          "text": "to move"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "une œuvre (d'art) = a work."
+    },
+    {
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "La {{b1}} du beau est sa plus vieille défense.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "gratuité"
+          ]
+        }
+      ],
+      "explanation": "« La gratuité du beau est sa plus vieille défense. » — uselessness / freedom from purpose."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "contester",
+          "right": "to protest / challenge"
+        },
+        {
+          "id": "p2",
+          "left": "l'art pour l'art",
+          "right": "art for art's sake"
+        },
+        {
+          "id": "p3",
+          "left": "la gratuité",
+          "right": "uselessness / freedom from purpose"
+        },
+        {
+          "id": "p4",
+          "left": "l'émotion esthétique",
+          "right": "aesthetic emotion"
+        }
+      ]
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "Le street art entre au musée : consécration ou domestication ?",
+      "targetEn": "Street art enters the museum: consecration or taming?",
+      "audio": "audio/c2.1/unit-04-fonctions-art/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "Reformulez la pensée du créateur : gardez la tension, perdez la pose.",
+      "targetEn": "Reformulate the creator's thought: keep the tension, lose the pose.",
+      "audio": "audio/c2.1/unit-04-fonctions-art/example-ex-3.mp3"
+    }
+  ]
+}

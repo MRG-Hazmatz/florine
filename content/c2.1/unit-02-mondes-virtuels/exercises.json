@@ -1,0 +1,473 @@
+{
+  "schemaVersion": 1,
+  "unitId": "c2.1/unit-02-mondes-virtuels",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Le bovarysme is…",
+      "options": [
+        {
+          "id": "a",
+          "text": "the chronic need to imagine yourself otherwise, elsewhere, more"
+        },
+        {
+          "id": "b",
+          "text": "a 19th-century farming technique"
+        },
+        {
+          "id": "c",
+          "text": "fear of novels"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Named after Emma Bovary — the first user to confuse the platform with the world."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "The three-stage psychological chain, in order:",
+      "options": [
+        {
+          "id": "a",
+          "text": "immersion → identification → emprise"
+        },
+        {
+          "id": "b",
+          "text": "emprise → immersion → identification"
+        },
+        {
+          "id": "c",
+          "text": "identification → connexion → déconnexion"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "The world closes over you; the avatar becomes a « je »; the elsewhere starts taxing the here."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "What games do to the real/virtual boundary.",
+      "inputMode": "dropdown",
+      "template": "Le jeu {{b1}} la frontière entre le réel et le virtuel.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "brouille"
+          ],
+          "options": [
+            "brouille",
+            "repasse",
+            "peint"
+          ]
+        }
+      ],
+      "explanation": "Brouiller la frontière — to blur the line. Repasser is ironing; leave the border unpressed."
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "The stage where the avatar stops being a pawn.",
+      "inputMode": "dropdown",
+      "template": "L'{{b1}} : le moment où l'avatar devient un « je ».",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "identification"
+          ],
+          "options": [
+            "identification",
+            "indentation",
+            "indemnisation"
+          ]
+        }
+      ],
+      "explanation": "L'identification — stage two of the process. Indentation is for code; indemnisation is for insurers."
+    },
+    {
+      "id": "ex-mc-3",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "In narrative analysis, « qui voit ? » asks about…",
+      "options": [
+        {
+          "id": "a",
+          "text": "the point of view — whose eyes filter the scene"
+        },
+        {
+          "id": "b",
+          "text": "the book's cover designer"
+        },
+        {
+          "id": "c",
+          "text": "the number of witnesses in the plot"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Qui raconte (narrator) vs qui voit (focalisation) — Flaubert tells, but Emma often sees."
+    },
+    {
+      "id": "ex-fb-3",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Logging off, as an act of will (verb, infinitive).",
+      "inputMode": "typed",
+      "template": "Se {{b1}} est devenu un acte de volonté.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "déconnecter",
+            "deconnecter"
+          ]
+        }
+      ],
+      "explanation": "Se déconnecter — the modern verb for surfacing."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each term to its meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "l'immersion",
+          "right": "the world closes over you"
+        },
+        {
+          "id": "p2",
+          "left": "l'emprise",
+          "right": "the grip on your real life"
+        },
+        {
+          "id": "p3",
+          "left": "le bovarysme",
+          "right": "dreaming yourself elsewhere"
+        },
+        {
+          "id": "p4",
+          "left": "une identité numérique",
+          "right": "your online self"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"The novel was the first immersive technology.\"",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Le"
+        },
+        {
+          "id": "t2",
+          "text": "roman"
+        },
+        {
+          "id": "t3",
+          "text": "fut"
+        },
+        {
+          "id": "t4",
+          "text": "la"
+        },
+        {
+          "id": "t5",
+          "text": "première"
+        },
+        {
+          "id": "t6",
+          "text": "technologie"
+        },
+        {
+          "id": "t7",
+          "text": "immersive"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7"
+      ]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen to the psychologist. Which stage is she describing?",
+      "audio": "audio/c2.1/unit-02-mondes-virtuels/listen-1.mp3",
+      "transcript": "Quand les amis réels attendent et que la guilde passe d'abord, l'ailleurs a commencé à taxer l'ici.",
+      "options": [
+        {
+          "id": "a",
+          "text": "L'emprise — the elsewhere is taxing the here"
+        },
+        {
+          "id": "b",
+          "text": "L'immersion — forgetting the screen"
+        },
+        {
+          "id": "c",
+          "text": "La déconnexion — logging off for good"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "The grip is measured by what the real world pays: waiting friends, skipped meals, the third stage."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read this analysis of a Bovary-style passage and answer both questions.",
+      "passageFr": "Dans la scène, Emma lit ; le narrateur glisse dans sa rêverie — bals, Paris, passions à la mesure des romans — puis une phrase sèche la ramène : la soupe refroidit. Qui raconte ? Flaubert. Qui voit ? Emma, tant que dure le rêve. L'ironie n'est pas dans un commentaire : elle loge dans le montage, dans l'écart entre les lustres imaginés et la cuillère réelle. Cent cinquante ans plus tard, remplacez les romans par un écran : le montage n'a pas pris une ride.",
+      "passageEn": "In the scene, Emma reads; the narrator slides into her reverie — balls, Paris, passions sized to fit novels — then one dry sentence brings her back: the soup is getting cold. Who tells? Flaubert. Who sees? Emma, as long as the dream lasts. The irony isn't in a comment: it lives in the editing, in the gap between the imagined chandeliers and the actual spoon. A hundred and fifty years later, swap the novels for a screen: the montage hasn't aged a day.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "Where does the passage locate Flaubert's irony?",
+          "options": [
+            {
+              "id": "a",
+              "text": "In the montage — the gap between imagined chandeliers and the actual spoon"
+            },
+            {
+              "id": "b",
+              "text": "In explicit mocking comments by the narrator"
+            },
+            {
+              "id": "c",
+              "text": "In Emma's witty dialogue"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        },
+        {
+          "id": "q2",
+          "prompt": "What does « le montage n'a pas pris une ride » claim?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The same dream-vs-real mechanism works unchanged with today's screens"
+            },
+            {
+              "id": "b",
+              "text": "Flaubert's novel has been forgotten"
+            },
+            {
+              "id": "c",
+              "text": "Films age faster than novels"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex-mc-4",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "« Le réseau social promet le lien et vend l'attention » — the sentence's edge is that…",
+      "options": [
+        {
+          "id": "a",
+          "text": "what's promised to you and what's sold by the platform are not the same thing"
+        },
+        {
+          "id": "b",
+          "text": "social networks are free of charge"
+        },
+        {
+          "id": "c",
+          "text": "attention cannot be measured"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "The economy of virtual worlds in one antithesis: you are the link; your attention is the product."
+    },
+    {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/c2.1/unit-02-mondes-virtuels/example-ex-1.mp3",
+      "transcript": "Emma Bovary scrollait déjà — dans des romans.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Emma Bovary was already scrolling — through novels."
+        },
+        {
+          "id": "b",
+          "text": "Immersion, identification, grip: three stages, one process."
+        },
+        {
+          "id": "c",
+          "text": "The novel was the first immersive technology."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « un monde virtuel » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "a virtual world"
+        },
+        {
+          "id": "b",
+          "text": "an avatar"
+        },
+        {
+          "id": "c",
+          "text": "a role-playing game"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "un monde virtuel = a virtual world."
+    },
+    {
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "Son {{b1}} est plus courageux qu'elle — pour l'instant.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "avatar"
+          ]
+        }
+      ],
+      "explanation": "« Son avatar est plus courageux qu'elle — pour l'instant. » — an avatar."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "l'identification (f.)",
+          "right": "identification"
+        },
+        {
+          "id": "p2",
+          "left": "l'emprise (f.)",
+          "right": "the grip / hold"
+        },
+        {
+          "id": "p3",
+          "left": "un réseau social",
+          "right": "a social network"
+        },
+        {
+          "id": "p4",
+          "left": "une identité numérique",
+          "right": "a digital identity"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “Her digital identity works while she sleeps.”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Son"
+        },
+        {
+          "id": "t2",
+          "text": "identité"
+        },
+        {
+          "id": "t3",
+          "text": "numérique"
+        },
+        {
+          "id": "t4",
+          "text": "travaille"
+        },
+        {
+          "id": "t5",
+          "text": "pendant"
+        },
+        {
+          "id": "t6",
+          "text": "qu'elle"
+        },
+        {
+          "id": "t7",
+          "text": "dort"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7"
+      ]
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "Emma Bovary scrollait déjà — dans des romans.",
+      "targetEn": "Emma Bovary was already scrolling — through novels.",
+      "audio": "audio/c2.1/unit-02-mondes-virtuels/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "Le roman fut la première technologie immersive.",
+      "targetEn": "The novel was the first immersive technology.",
+      "audio": "audio/c2.1/unit-02-mondes-virtuels/example-ex-3.mp3"
+    }
+  ]
+}
