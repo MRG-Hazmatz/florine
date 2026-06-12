@@ -1,0 +1,478 @@
+{
+  "schemaVersion": 1,
+  "unitId": "c1.2/unit-08-ecologie",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "La décroissance means…",
+      "options": [
+        {
+          "id": "a",
+          "text": "degrowth — deliberately shrinking the economy"
+        },
+        {
+          "id": "b",
+          "text": "slow economic growth"
+        },
+        {
+          "id": "c",
+          "text": "a drop in temperatures"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Not slower growth: the deliberate choice to produce and consume less. The word that splits every debate."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "The C1 response to a provocative text is to…",
+      "options": [
+        {
+          "id": "a",
+          "text": "concede what's defensible, refuse what isn't, stay calm"
+        },
+        {
+          "id": "b",
+          "text": "match its outrage with your own"
+        },
+        {
+          "id": "c",
+          "text": "ignore its arguments entirely"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Composure: « le doute fait partie de la science — pas du déni »."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "What non-binding summits produce.",
+      "inputMode": "dropdown",
+      "template": "Le sommet s'est conclu sur des {{b1}} non contraignants.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "engagements"
+          ],
+          "options": [
+            "engagements",
+            "applaudissements",
+            "déménagements"
+          ]
+        }
+      ],
+      "explanation": "Des engagements — commitments; non contraignants = nobody is bound (treaty-unit echo)."
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "The provocateur's favourite move against consensus.",
+      "inputMode": "dropdown",
+      "template": "Son article prend la pensée dominante à {{b1}}.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "contre-pied"
+          ],
+          "options": [
+            "contre-pied",
+            "contre-jour",
+            "contrecœur"
+          ]
+        }
+      ],
+      "explanation": "Prendre à contre-pied — to wrong-foot. À contre-jour is backlighting; à contrecœur is reluctantly."
+    },
+    {
+      "id": "ex-mc-3",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "« La culpabilité écologique se vend très bien » is provocative because it targets…",
+      "options": [
+        {
+          "id": "a",
+          "text": "the reader's own good conscience — your guilt as a marketing product"
+        },
+        {
+          "id": "b",
+          "text": "the price of solar panels"
+        },
+        {
+          "id": "c",
+          "text": "a specific politician"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "The sharpest provocations aim at the audience, not the opponent."
+    },
+    {
+      "id": "ex-fb-3",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "What a project without numbers is (one word).",
+      "inputMode": "typed",
+      "template": "Un projet sans chiffres est un {{b1}}.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "poème",
+            "poeme"
+          ]
+        }
+      ],
+      "explanation": "Chiffrer — defending a project means giving numbers, or it's poetry."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each energy word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "les gaz à effet de serre",
+          "right": "greenhouse gases"
+        },
+        {
+          "id": "p2",
+          "left": "l'empreinte carbone",
+          "right": "carbon footprint"
+        },
+        {
+          "id": "p3",
+          "left": "les combustibles fossiles",
+          "right": "fossil fuels"
+        },
+        {
+          "id": "p4",
+          "left": "la sobriété",
+          "right": "energy restraint"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"Renewables cover a third of the needs.\"",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Les"
+        },
+        {
+          "id": "t2",
+          "text": "énergies"
+        },
+        {
+          "id": "t3",
+          "text": "renouvelables"
+        },
+        {
+          "id": "t4",
+          "text": "couvrent"
+        },
+        {
+          "id": "t5",
+          "text": "un"
+        },
+        {
+          "id": "t6",
+          "text": "tiers"
+        },
+        {
+          "id": "t7",
+          "text": "des"
+        },
+        {
+          "id": "t8",
+          "text": "besoins"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7",
+        "t8"
+      ]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen to the project defense. Which moves does the speaker chain together?",
+      "audio": "audio/c1.2/unit-08-ecologie/listen-1.mp3",
+      "transcript": "On me dira que ce quartier sans voitures coûte cher — mais trois degrés de plus coûteront davantage que tous nos programmes de sobriété réunis.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Anticipating the objection, then answering it with a number"
+        },
+        {
+          "id": "b",
+          "text": "Insulting the opponents, then leaving"
+        },
+        {
+          "id": "c",
+          "text": "Listing sponsors, then thanking the mayor"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "« On me dira que… mais » + chiffrer: the two load-bearing moves of défendre un projet."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read this provocative column and answer both questions.",
+      "passageFr": "Osons le dire : le tri des déchets est le rosaire des temps modernes. Chaque pot de yaourt rincé achète une indulgence ; l'empreinte carbone du vol Paris-Bali, elle, est pardonnée d'avance. La culpabilité écologique est devenue une économie florissante — on vend l'absolution en vrac, et la pensée dominante applaudit. Que les chiffres soient têtus, c'est entendu : 80 % de l'empreinte d'un ménage ne passe ni par sa poubelle ni par son bac jaune. Mais qui veut d'un chiffre quand on peut avoir une bonne conscience ?",
+      "passageEn": "Let's dare to say it: sorting your rubbish is the rosary of modern times. Every rinsed yoghurt pot buys an indulgence; the carbon footprint of the Paris-Bali flight is forgiven in advance. Eco-guilt has become a flourishing economy — absolution is sold in bulk, and the dominant thinking applauds. That the figures are stubborn is well known: 80% of a household's footprint goes through neither its bin nor its recycling box. But who wants a figure when you can have a clear conscience?",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "What is the column's provocation strategy?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Religious metaphors (rosary, indulgences) that mock the reader's own rituals"
+            },
+            {
+              "id": "b",
+              "text": "A neutral list of recycling statistics"
+            },
+            {
+              "id": "c",
+              "text": "A personal attack on one named minister"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        },
+        {
+          "id": "q2",
+          "prompt": "What defensible point hides under the provocation?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Most of a household's footprint isn't addressed by sorting waste"
+            },
+            {
+              "id": "b",
+              "text": "Recycling is illegal in France"
+            },
+            {
+              "id": "c",
+              "text": "Flights to Bali have no emissions"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex-mc-4",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "« Le doute fait partie de la science — pas du déni » concedes and refuses what?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Concedes that doubt is scientifically healthy; refuses doubt as a cover for denial"
+        },
+        {
+          "id": "b",
+          "text": "Concedes nothing; refuses everything"
+        },
+        {
+          "id": "c",
+          "text": "Concedes that science is finished; refuses new research"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "The concede-refuse pattern: give the provocateur his defensible inch, not the mile."
+    },
+    {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/c1.2/unit-08-ecologie/example-ex-1.mp3",
+      "transcript": "Le sommet s'est conclu sur des engagements non contraignants.",
+      "options": [
+        {
+          "id": "a",
+          "text": "The summit ended with non-binding commitments."
+        },
+        {
+          "id": "b",
+          "text": "Degrowth? A religion for the well-fed, the provocateur throws out."
+        },
+        {
+          "id": "c",
+          "text": "Concede the doubt, refuse the denial, give a number."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « le réchauffement climatique » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "global warming"
+        },
+        {
+          "id": "b",
+          "text": "greenhouse gases"
+        },
+        {
+          "id": "c",
+          "text": "carbon footprint"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "le réchauffement climatique = global warming."
+    },
+    {
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "La {{b1}} divise jusqu'aux écologistes.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "décroissance"
+          ]
+        }
+      ],
+      "explanation": "« La décroissance divise jusqu'aux écologistes. » — degrowth."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "les combustibles fossiles",
+          "right": "fossil fuels"
+        },
+        {
+          "id": "p2",
+          "left": "le développement durable",
+          "right": "sustainable development"
+        },
+        {
+          "id": "p3",
+          "left": "la décroissance",
+          "right": "degrowth"
+        },
+        {
+          "id": "p4",
+          "left": "un sommet",
+          "right": "a summit"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: “A project without numbers is a poem.”",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Un"
+        },
+        {
+          "id": "t2",
+          "text": "projet"
+        },
+        {
+          "id": "t3",
+          "text": "sans"
+        },
+        {
+          "id": "t4",
+          "text": "chiffres"
+        },
+        {
+          "id": "t5",
+          "text": "est"
+        },
+        {
+          "id": "t6",
+          "text": "un"
+        },
+        {
+          "id": "t7",
+          "text": "poème"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7"
+      ]
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "Le sommet s'est conclu sur des engagements non contraignants.",
+      "targetEn": "The summit ended with non-binding commitments.",
+      "audio": "audio/c1.2/unit-08-ecologie/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "Concédez le doute, refusez le déni, donnez un chiffre.",
+      "targetEn": "Concede the doubt, refuse the denial, give a number.",
+      "audio": "audio/c1.2/unit-08-ecologie/example-ex-3.mp3"
+    }
+  ]
+}

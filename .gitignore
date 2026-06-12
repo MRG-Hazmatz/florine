@@ -41,3 +41,4 @@ venv/
 # their license is confirmed to allow redistribution.
 /assets-incoming/*
 !/assets-incoming/README.md
+tmp_pages/

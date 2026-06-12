@@ -23,7 +23,9 @@ and comprehension at C level.
 
 Status: ✅ built · 🔨 in progress · ⬜ planned
 
-**c1.1 COMPLETE (2026-06-12)** — 8 units, Partie 1 *Changements* done. Next: c1.2 (Partie 2).
+**c1.1 COMPLETE (2026-06-12)** — 8 units, Partie 1 *Changements* done.
+**c1.2 COMPLETE (2026-06-12)** — 8 units, Partie 2 *Nouveaux enjeux* done. **C1 LEVEL COMPLETE.**
+**c2.1 + c2.2 COMPLETE (2026-06-12)** — 8 units, Partie 3 *Rêves* done. **ALL 24 C-LEVEL UNITS BUILT — CURRICULUM COMPLETE (95 units, A1.1 → C2.2).** Next: mock-exam simulator (docs/MOCK-EXAMS-PLAN.md).
 
 ## c1.1 — Partie 1 *Changements* (D1–4)
 | # | Module | Dossier | Technique / focus | Status |
@@ -46,24 +48,24 @@ Status: ✅ built · 🔨 in progress · ⬜ planned
 | 12 | Speeches & manifestos | D6 | ressorts d'un propos militant; écrire une analyse | ✅ c1.2/unit-04 (Europe) |
 | 13 | Exchanges: la dissertation | D7 *Échanges* | faire une dissertation; raisonnement hypothétique | ✅ c1.2/unit-05 |
 | 14 | Diplomacy & francophonie | D7 | discours diplomatique; synthétiser une conférence | ✅ c1.2/unit-06 |
-| 15 | Energy: l'éditorial | D8 *Énergies* | rédiger un éditorial; synthèse de documents écrits | ⬜ |
-| 16 | Ecology debates at C level | D8 | textes provocateurs; défendre un projet | ⬜ |
+| 15 | Energy: l'éditorial | D8 *Énergies* | rédiger un éditorial; synthèse de documents écrits | ✅ c1.2/unit-07 |
+| 16 | Ecology debates at C level | D8 | textes provocateurs; défendre un projet | ✅ c1.2/unit-08 |
 
 ## c2.1 — Partie 3 *Rêves* (D9–10)
 | # | Module | Dossier | Technique / focus | Status |
 |---|---|---|---|---|
-| 17 | Virtual worlds: la revue de presse | D9 *Mondes virtuels* | faire une revue de presse; reformuler des explications | ⬜ |
-| 18 | The digital self | D9 | analyser un texte littéraire narratif; implications psychologiques | ⬜ |
-| 19 | Creations: la critique | D10 *Créations* | faire la critique d'un spectacle; fonctions de l'art | ⬜ |
-| 20 | Art, education & debate | D10 | reformuler la pensée d'un créateur; débattre de l'éducation artistique | ⬜ |
+| 17 | Virtual worlds: la revue de presse | D9 *Mondes virtuels* | faire une revue de presse; reformuler des explications | ✅ c2.1/unit-01 |
+| 18 | The digital self | D9 | analyser un texte littéraire narratif; implications psychologiques | ✅ c2.1/unit-02 |
+| 19 | Creations: la critique | D10 *Créations* | faire la critique d'un spectacle; fonctions de l'art | ✅ c2.1/unit-03 |
+| 20 | Art, education & debate | D10 | reformuler la pensée d'un créateur; débattre de l'éducation artistique | ✅ c2.1/unit-04 |
 
 ## c2.2 — Partie 3 *Rêves* (D11–12)
 | # | Module | Dossier | Technique / focus | Status |
 |---|---|---|---|---|
-| 21 | Body & soul: le rapport | D11 *Corps et âme* | rédiger un rapport; questions d'éthique, bioéthique | ⬜ |
-| 22 | Science & controversy | D11 | argumenter sur une controverse scientifique | ⬜ |
-| 23 | Utopias: écrire un roman | D12 *Utopies ?* | écriture créative longue; théories d'organisation sociale | ⬜ |
-| 24 | The good society — DALF capstone | D12 | réflexion personnelle structurée sur le bonheur/l'utopie | ⬜ |
+| 21 | Body & soul: le rapport | D11 *Corps et âme* | rédiger un rapport; questions d'éthique, bioéthique | ✅ c2.2/unit-01 |
+| 22 | Science & controversy | D11 | argumenter sur une controverse scientifique | ✅ c2.2/unit-02 |
+| 23 | Utopias: écrire un roman | D12 *Utopies ?* | écriture créative longue; théories d'organisation sociale | ✅ c2.2/unit-03 |
+| 24 | The good society — DALF capstone | D12 | réflexion personnelle structurée sur le bonheur/l'utopie | ✅ c2.2/unit-04 |
 
 ## Notes
 - DALF C1: synthèse + essai argumenté are THE exam tasks — units 1, 15 (synthèse)

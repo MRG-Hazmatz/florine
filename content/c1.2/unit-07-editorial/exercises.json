@@ -1,0 +1,428 @@
+{
+  "schemaVersion": 1,
+  "unitId": "c1.2/unit-07-editorial",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What makes an éditorial different from a news report?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It takes a stance with the paper's full authority"
+        },
+        {
+          "id": "b",
+          "text": "It only lists verified facts"
+        },
+        {
+          "id": "c",
+          "text": "It is always anonymous and neutral"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Un texte argumentatif signed by the house: the editorial IS the paper's opinion."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "In a DALF synthèse, your personal opinion…",
+      "options": [
+        {
+          "id": "a",
+          "text": "is worth zero points — objectivity is the rule"
+        },
+        {
+          "id": "b",
+          "text": "is the most important part"
+        },
+        {
+          "id": "c",
+          "text": "goes in the first paragraph"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "The synthèse stays silent; the essai next door is where you argue."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Where the big story lands.",
+      "inputMode": "dropdown",
+      "template": "Le sommet fait la {{b1}} de tous les quotidiens.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "une"
+          ],
+          "options": [
+            "une",
+            "page",
+            "marge"
+          ]
+        }
+      ],
+      "explanation": "Faire la une = to make the front page."
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "First step of the synthèse method.",
+      "inputMode": "dropdown",
+      "template": "{{b1}} d'abord l'idée générale de chaque document.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "Dégagez"
+          ],
+          "options": [
+            "Dégagez",
+            "Recopiez",
+            "Ignorez"
+          ]
+        }
+      ],
+      "explanation": "Dégager l'idée générale — one line per document. Recopier is the cardinal sin."
+    },
+    {
+      "id": "ex-mc-3",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "Two summaries stapled together instead of a dialogue between sources. The grader says…",
+      "options": [
+        {
+          "id": "a",
+          "text": "the documents were never confronted — that's not a synthèse"
+        },
+        {
+          "id": "b",
+          "text": "perfect, that's the expected format"
+        },
+        {
+          "id": "c",
+          "text": "too short, add a third summary"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Confronter: stage where the documents agree and where they collide."
+    },
+    {
+      "id": "ex-fb-3",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "The synthèse's golden rule (one word).",
+      "inputMode": "typed",
+      "template": "La règle d'or de la synthèse : l'{{b1}}.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "objectivité",
+            "objectivite"
+          ]
+        }
+      ],
+      "explanation": "L'objectivité — no stance, no « je », no verdict."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each synthèse step to its job.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "la nature",
+          "right": "what type of document it is"
+        },
+        {
+          "id": "p2",
+          "left": "dégager",
+          "right": "to draw out the main idea"
+        },
+        {
+          "id": "p3",
+          "left": "confronter",
+          "right": "to stage the disagreement"
+        },
+        {
+          "id": "p4",
+          "left": "reformuler",
+          "right": "to say it in your own words"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"The editorial was published on the occasion of the summit.\"",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "L'éditorial"
+        },
+        {
+          "id": "t2",
+          "text": "est"
+        },
+        {
+          "id": "t3",
+          "text": "paru"
+        },
+        {
+          "id": "t4",
+          "text": "à"
+        },
+        {
+          "id": "t5",
+          "text": "l'occasion"
+        },
+        {
+          "id": "t6",
+          "text": "du"
+        },
+        {
+          "id": "t7",
+          "text": "sommet"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7"
+      ]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen to the examiner's warning. What mistake is she describing?",
+      "audio": "audio/c1.2/unit-07-editorial/listen-1.mp3",
+      "transcript": "Vous avez écrit une excellente synthèse — malheureusement, le sujet demandait un essai : ici, votre opinion était la bienvenue.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Delivering one genre to the other's door: a synthèse where an essai was asked"
+        },
+        {
+          "id": "b",
+          "text": "Writing too many pages"
+        },
+        {
+          "id": "c",
+          "text": "Quoting the documents word for word"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "The two genres face each other: synthèse = no opinion, essai = your opinion. Read the sujet."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read this account of the 2009 editorial and answer both questions.",
+      "passageFr": "Le 7 décembre 2009, cinquante-six quotidiens de quarante-cinq pays ont publié à la une le même éditorial, paru à l'occasion du sommet de Copenhague : « douze jours pour changer notre monde ». Un « nous » planétaire prenait position pour l'action immédiate. Geste inédit dans l'histoire de la presse — et cas d'école pour l'analyse : l'occasion est datée, la position est explicite, et la question de savoir qui parle n'a jamais été aussi vertigineuse.",
+      "passageEn": "On 7 December 2009, fifty-six dailies from forty-five countries published the same editorial on their front pages, on the occasion of the Copenhagen summit: 'twelve days to change our world'. A planetary 'we' took a stance for immediate action. An unprecedented gesture in press history — and a textbook case for analysis: the occasion is dated, the position is explicit, and the question of who is speaking has never been so dizzying.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "What made this editorial unprecedented?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Fifty-six dailies published the same text on their front pages"
+            },
+            {
+              "id": "b",
+              "text": "It contained no opinion"
+            },
+            {
+              "id": "c",
+              "text": "It was never actually published"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        },
+        {
+          "id": "q2",
+          "prompt": "Why is « qui parle ? » called vertiginous here?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The editorial « nous » is usually one paper — here it claimed to be the planet"
+            },
+            {
+              "id": "b",
+              "text": "The authors were anonymous hackers"
+            },
+            {
+              "id": "c",
+              "text": "Nobody read the text"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex-mc-4",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "A good problématique for a synthèse pairing a pro-action editorial with a sceptic scientist's column:",
+      "options": [
+        {
+          "id": "a",
+          "text": "« Un consensus peut-il être mis en doute ? »"
+        },
+        {
+          "id": "b",
+          "text": "« Pourquoi le scientifique a-t-il tort ? »"
+        },
+        {
+          "id": "c",
+          "text": "« Quel document est le plus long ? »"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "The question both documents argue over — without deciding it for them."
+    },
+    {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/c1.2/unit-07-editorial/example-ex-1.mp3",
+      "transcript": "Cinquante-six quotidiens, une seule une : l'éditorial de Copenhague.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Fifty-six dailies, one front page: the Copenhagen editorial."
+        },
+        {
+          "id": "b",
+          "text": "An editorial takes a stance; a synthesis stays silent."
+        },
+        {
+          "id": "c",
+          "text": "Draw out the nature, the main idea, then the shared problématique."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « un éditorial » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "an editorial"
+        },
+        {
+          "id": "b",
+          "text": "the front page"
+        },
+        {
+          "id": "c",
+          "text": "a daily"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "un éditorial = an editorial."
+    },
+    {
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "L'affaire fait la {{b1}} des quotidiens.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "une"
+          ]
+        }
+      ],
+      "explanation": "« L'affaire fait la une des quotidiens. » — the front page."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "paraître",
+          "right": "to be published / appear"
+        },
+        {
+          "id": "p2",
+          "left": "à l'occasion de",
+          "right": "on the occasion of"
+        },
+        {
+          "id": "p3",
+          "left": "la synthèse de documents",
+          "right": "the document synthesis"
+        },
+        {
+          "id": "p4",
+          "left": "la nature d'un document",
+          "right": "a document's nature/type"
+        }
+      ]
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "Cinquante-six quotidiens, une seule une : l'éditorial de Copenhague.",
+      "targetEn": "Fifty-six dailies, one front page: the Copenhagen editorial.",
+      "audio": "audio/c1.2/unit-07-editorial/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "Dégagez la nature, l'idée générale, puis la problématique commune.",
+      "targetEn": "Draw out the nature, the main idea, then the shared problématique.",
+      "audio": "audio/c1.2/unit-07-editorial/example-ex-3.mp3"
+    }
+  ]
+}
