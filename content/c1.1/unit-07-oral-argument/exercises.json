@@ -1,0 +1,438 @@
+{
+  "schemaVersion": 1,
+  "unitId": "c1.1/unit-07-oral-argument",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "The C1 debate heartbeat is…",
+      "options": [
+        {
+          "id": "a",
+          "text": "concede, then counter: certes… mais"
+        },
+        {
+          "id": "b",
+          "text": "attack every point immediately"
+        },
+        {
+          "id": "c",
+          "text": "agree with everything politely"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Conceding first disarms; the counter lands harder. Pure attack sounds B2."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "writing",
+      "prompt": "« Admettons. ___ que trois villes l'ont déjà fait. »",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il n'en reste pas moins"
+        },
+        {
+          "id": "b",
+          "text": "Il n'y reste pas plus"
+        },
+        {
+          "id": "c",
+          "text": "Il en reste autant"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Il n'en reste pas moins que = the fact remains that — concession's counterpunch."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Partial agreement, elegant split.",
+      "inputMode": "dropdown",
+      "template": "Je vous {{b1}} sur le diagnostic ; en revanche, le remède me semble pire.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "rejoins"
+          ],
+          "options": [
+            "rejoins",
+            "quitte",
+            "réfute"
+          ]
+        }
+      ],
+      "explanation": "Je vous rejoins sur X = I'm with you on X — then pivot with en revanche."
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Mark where you part ways.",
+      "inputMode": "dropdown",
+      "template": "Là où je ne vous {{b1}} plus, c'est sur les chiffres.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "suis"
+          ],
+          "options": [
+            "suis",
+            "vois",
+            "entends"
+          ]
+        }
+      ],
+      "explanation": "Là où je ne vous suis plus = where you lose me (suivre, not être!)."
+    },
+    {
+      "id": "ex-mc-3",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "During the entretien, the examiner is still talking. You should…",
+      "options": [
+        {
+          "id": "a",
+          "text": "let them finish, then ask « Puis-je réagir ? »"
+        },
+        {
+          "id": "b",
+          "text": "cut in immediately — it shows passion"
+        },
+        {
+          "id": "c",
+          "text": "stay silent for the rest of the exam"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Ne coupez pas la parole; a polite re-entry earns composure points."
+    },
+    {
+      "id": "ex-fb-3",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Back it up (one word, infinitive).",
+      "inputMode": "typed",
+      "template": "Il faut {{b1}} votre position par des faits précis.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "étayer",
+            "etayer"
+          ]
+        }
+      ],
+      "explanation": "Étayer = to buttress, to support with evidence."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each debate move to its meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "certes… mais",
+          "right": "concede then counter"
+        },
+        {
+          "id": "p2",
+          "left": "nuancer",
+          "right": "to qualify"
+        },
+        {
+          "id": "p3",
+          "left": "réfuter",
+          "right": "to refute"
+        },
+        {
+          "id": "p4",
+          "left": "la mauvaise foi",
+          "right": "bad faith"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"I rely on facts, not on wishes.\"",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Je"
+        },
+        {
+          "id": "t2",
+          "text": "m'appuie"
+        },
+        {
+          "id": "t3",
+          "text": "sur"
+        },
+        {
+          "id": "t4",
+          "text": "des"
+        },
+        {
+          "id": "t5",
+          "text": "faits,"
+        },
+        {
+          "id": "t6",
+          "text": "non"
+        },
+        {
+          "id": "t7",
+          "text": "sur"
+        },
+        {
+          "id": "t8",
+          "text": "des"
+        },
+        {
+          "id": "t9",
+          "text": "vœux"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7",
+        "t8",
+        "t9"
+      ]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen to the candidate's reply. Which moves do you hear?",
+      "audio": "audio/c1.1/unit-07-oral-argument/listen-1.mp3",
+      "transcript": "Certes, le projet est ambitieux, j'en conviens ; il n'en reste pas moins que trois villes l'ont déjà mis en œuvre.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Double concession (certes, j'en conviens) then the factual counter"
+        },
+        {
+          "id": "b",
+          "text": "A flat refusal to engage"
+        },
+        {
+          "id": "c",
+          "text": "Total agreement with the examiner"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Concede twice, counter once with facts — textbook C1 composure."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read this entretien transcript extract and answer both questions.",
+      "passageFr": "EXAMINATEUR : Votre solution coûterait une fortune.\nCANDIDATE : J'en conviens, le budget est important. Il n'en reste pas moins que l'étude que je citais l'évalue à moins d'un euro par habitant et par mois. Là où je ne vous suis plus, c'est sur le mot « fortune » : c'est le prix d'un café par trimestre.\nEXAMINATEUR : Joli. C'est de bonne guerre.",
+      "passageEn": "EXAMINER: Your solution would cost a fortune.\nCANDIDATE: I grant you, the budget is significant. The fact remains that the study I cited puts it at under one euro per resident per month. Where you lose me is the word \"fortune\": it's the price of one coffee per quarter.\nEXAMINER: Nice. Fair play.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "How does the candidate handle the attack?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Concedes the budget, counters with cited figures, contests one word precisely"
+            },
+            {
+              "id": "b",
+              "text": "Denies any cost exists"
+            },
+            {
+              "id": "c",
+              "text": "Changes the subject to coffee"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        },
+        {
+          "id": "q2",
+          "prompt": "« C'est de bonne guerre » signals that the examiner…",
+          "options": [
+            {
+              "id": "a",
+              "text": "acknowledges the riposte as fair play"
+            },
+            {
+              "id": "b",
+              "text": "declares war on the candidate"
+            },
+            {
+              "id": "c",
+              "text": "rejects the answer as invalid"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex-mc-4",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Why does pure attack sound B2 while concede-then-counter sounds C1?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Concession shows you weighed the other view before dismantling it"
+        },
+        {
+          "id": "b",
+          "text": "Examiners dislike confident candidates"
+        },
+        {
+          "id": "c",
+          "text": "Attacking is grammatically incorrect"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "C1 argument is dialogic: integrate the objection, then go beyond it."
+    },
+    {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/c1.1/unit-07-oral-argument/example-ex-1.mp3",
+      "transcript": "Certes, le coût est élevé, mais l'inaction coûterait davantage.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Admittedly the cost is high, but inaction would cost more."
+        },
+        {
+          "id": "b",
+          "text": "I agree with your diagnosis; the remedy, however, seems worse to me."
+        },
+        {
+          "id": "c",
+          "text": "Granted. The fact remains that three cities have already done it."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « argumenter » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "to argue"
+        },
+        {
+          "id": "b",
+          "text": "admittedly… but"
+        },
+        {
+          "id": "c",
+          "text": "I grant you that"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "argumenter = to argue."
+    },
+    {
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "Permettez-moi de {{b1}} ce constat.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "nuancer"
+          ]
+        }
+      ],
+      "explanation": "« Permettez-moi de nuancer ce constat. » — to qualify / add nuance."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "nuancer",
+          "right": "to qualify / add nuance"
+        },
+        {
+          "id": "p2",
+          "left": "je vous rejoins sur…",
+          "right": "I agree with you on…"
+        },
+        {
+          "id": "p3",
+          "left": "là où je ne vous suis plus",
+          "right": "where you lose me"
+        },
+        {
+          "id": "p4",
+          "left": "réfuter",
+          "right": "to refute"
+        }
+      ]
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "Certes, le coût est élevé, mais l'inaction coûterait davantage.",
+      "targetEn": "Admittedly the cost is high, but inaction would cost more.",
+      "audio": "audio/c1.1/unit-07-oral-argument/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "Admettons. Il n'en reste pas moins que trois villes l'ont déjà fait.",
+      "targetEn": "Granted. The fact remains that three cities have already done it.",
+      "audio": "audio/c1.1/unit-07-oral-argument/example-ex-3.mp3"
+    }
+  ]
+}

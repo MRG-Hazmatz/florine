@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "c1.1/unit-07-oral-argument",
+  "level": "c1.1",
+  "unitNumber": 7,
+  "slug": "unit-07-oral-argument",
+  "title": "Argumenter à l'Oral",
+  "titleFr": "Débattre : concéder, nuancer, réfuter",
+  "cefrDescriptors": [
+    "Can hold a position in live debate: concede, qualify, refute — without losing the floor or the temper.",
+    "Can handle contradictory viewpoints with the entretien's key moves."
+  ],
+  "skills": ["reading", "listening", "writing", "speaking"],
+  "estimatedMinutes": 70,
+  "concept": "Dossier 4 trains the second half of the DALF oral: after your exposé comes l'entretien — examiners push back, and you argue live. The art is not winning; it's HOW you disagree.\n\nTHE GOLDEN MOVE — concede, then counter (la concession argumentative):\n  « CERTES, le coût est élevé. MAIS l'inaction coûterait davantage. »\n  Conceding first disarms; certes… mais is the heartbeat of French debate. Variants: « J'en conviens, … pourtant » · « Admettons. Il n'en reste pas moins que… » (granted — the fact remains that…)\n\nTHE DEBATER'S PHRASEBOOK:\n  • agreeing partially: « Je vous rejoins sur ce point, en revanche… »\n  • marking the split: « Là où je ne vous suis plus, c'est… » (where you lose me is…)\n  • qualifying: « Permettez-moi de nuancer. » · « Tout n'est pas si simple. »\n  • refuting: réfuter un argument, opposer un contre-argument: « Cet argument ne résiste pas aux faits. »\n  • backing up: s'appuyer sur des chiffres, étayer sa position (to buttress)\n  • calling the foul, elegantly: « C'est de bonne guerre » (fair play) vs « C'est un procès d'intention » / la mauvaise foi (bad faith)\n  • floor management: « Laissez-moi terminer. » · ne pas couper la parole (don't cut in) — though a polite « Puis-je réagir ? » earns points.\n\nWhat the jury grades: composure under contradiction, structure in improvisation, and that concession reflex — candidates who only attack sound B2; candidates who concede-then-counter sound C1.\n\nPut it together — an entretien exchange: « — Votre projet est utopique. — Certes, il est ambitieux, j'en conviens. Il n'en reste pas moins que trois villes l'ont déjà mis en œuvre : je m'appuie sur des faits, non sur des vœux. Là où je ne vous suis plus, c'est sur le mot utopique. »\n\nYour turn: someone attacks an idea you hold. Write your concede-then-counter reply: certes…, mais… — out loud.",
+  "vocabulary": [
+    { "id": "argumenter", "fr": "argumenter", "en": "to argue (a case)", "pos": "verb", "exampleFr": "Elle argumente avec calme.", "exampleEn": "She argues her case calmly.", "audio": "audio/c1.1/unit-07-oral-argument/vocab-argumenter.mp3", "voice": "denise" },
+    { "id": "certes-mais", "fr": "certes… mais", "en": "admittedly… but", "pos": "expression", "exampleFr": "Certes, c'est cher, mais c'est durable.", "exampleEn": "Admittedly it's expensive, but it lasts.", "audio": "audio/c1.1/unit-07-oral-argument/vocab-certes-mais.mp3", "voice": "henri" },
+    { "id": "en-convenir", "fr": "j'en conviens", "en": "I grant you that", "pos": "expression", "exampleFr": "Le plan est risqué, j'en conviens.", "exampleEn": "The plan is risky, I grant you.", "audio": "audio/c1.1/unit-07-oral-argument/vocab-en-convenir.mp3", "voice": "denise" },
+    { "id": "il-n-en-reste", "fr": "il n'en reste pas moins que", "en": "the fact remains that", "pos": "expression", "exampleFr": "Il n'en reste pas moins que les faits sont là.", "exampleEn": "The fact remains that the facts are there.", "audio": "audio/c1.1/unit-07-oral-argument/vocab-il-n-en-reste.mp3", "voice": "henri" },
+    { "id": "nuancer", "fr": "nuancer", "en": "to qualify / add nuance", "pos": "verb", "exampleFr": "Permettez-moi de nuancer ce constat.", "exampleEn": "Allow me to qualify that claim.", "audio": "audio/c1.1/unit-07-oral-argument/vocab-nuancer.mp3", "voice": "denise" },
+    { "id": "rejoindre", "fr": "je vous rejoins sur…", "en": "I agree with you on…", "pos": "expression", "exampleFr": "Je vous rejoins sur le diagnostic.", "exampleEn": "I agree with you on the diagnosis.", "audio": "audio/c1.1/unit-07-oral-argument/vocab-rejoindre.mp3", "voice": "henri" },
+    { "id": "ne-plus-suivre", "fr": "là où je ne vous suis plus", "en": "where you lose me", "pos": "expression", "exampleFr": "Là où je ne vous suis plus, c'est sur les chiffres.", "exampleEn": "Where you lose me is on the figures.", "audio": "audio/c1.1/unit-07-oral-argument/vocab-ne-plus-suivre.mp3", "voice": "denise" },
+    { "id": "refuter", "fr": "réfuter", "en": "to refute", "pos": "verb", "exampleFr": "Elle réfute l'argument point par point.", "exampleEn": "She refutes the argument point by point.", "audio": "audio/c1.1/unit-07-oral-argument/vocab-refuter.mp3", "voice": "henri" },
+    { "id": "contre-argument", "fr": "un contre-argument", "en": "a counter-argument", "pos": "noun", "exampleFr": "Préparez un contre-argument par objection.", "exampleEn": "Prepare one counter-argument per objection.", "audio": "audio/c1.1/unit-07-oral-argument/vocab-contre-argument.mp3", "voice": "denise" },
+    { "id": "etayer", "fr": "étayer", "en": "to back up / buttress", "pos": "verb", "exampleFr": "Étayez votre position par des faits.", "exampleEn": "Back your position with facts.", "audio": "audio/c1.1/unit-07-oral-argument/vocab-etayer.mp3", "voice": "henri" },
+    { "id": "s-appuyer", "fr": "s'appuyer sur", "en": "to rely on (evidence)", "pos": "verb", "exampleFr": "Je m'appuie sur trois études.", "exampleEn": "I rely on three studies.", "audio": "audio/c1.1/unit-07-oral-argument/vocab-s-appuyer.mp3", "voice": "denise" },
+    { "id": "mauvaise-foi", "fr": "la mauvaise foi", "en": "bad faith (arguing)", "pos": "noun", "exampleFr": "C'est de la mauvaise foi pure.", "exampleEn": "That's pure bad faith.", "audio": "audio/c1.1/unit-07-oral-argument/vocab-mauvaise-foi.mp3", "voice": "henri" },
+    { "id": "couper-la-parole", "fr": "couper la parole", "en": "to cut someone off", "pos": "expression", "exampleFr": "Ne coupez pas la parole au jury.", "exampleEn": "Don't cut the jury off.", "audio": "audio/c1.1/unit-07-oral-argument/vocab-couper-la-parole.mp3", "voice": "denise" },
+    { "id": "de-bonne-guerre", "fr": "c'est de bonne guerre", "en": "that's fair play", "pos": "expression", "exampleFr": "Votre objection ? C'est de bonne guerre.", "exampleEn": "Your objection? Fair play.", "audio": "audio/c1.1/unit-07-oral-argument/vocab-de-bonne-guerre.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "Certes, le coût est élevé, mais l'inaction coûterait davantage.", "en": "Admittedly the cost is high, but inaction would cost more.", "audio": "audio/c1.1/unit-07-oral-argument/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "Je vous rejoins sur le diagnostic ; en revanche, le remède me semble pire.", "en": "I agree with your diagnosis; the remedy, however, seems worse to me.", "audio": "audio/c1.1/unit-07-oral-argument/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "Admettons. Il n'en reste pas moins que trois villes l'ont déjà fait.", "en": "Granted. The fact remains that three cities have already done it.", "audio": "audio/c1.1/unit-07-oral-argument/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "Là où je ne vous suis plus, c'est sur le mot « utopique ».", "en": "Where you lose me is on the word \"utopian\".", "audio": "audio/c1.1/unit-07-oral-argument/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "Permettez-moi de nuancer : tout n'est pas si simple.", "en": "Allow me to qualify: it isn't that simple.", "audio": "audio/c1.1/unit-07-oral-argument/example-ex-5.mp3", "voice": "denise" },
+    { "id": "ex-6", "fr": "Je m'appuie sur des faits, non sur des vœux.", "en": "I rely on facts, not on wishes.", "audio": "audio/c1.1/unit-07-oral-argument/example-ex-6.mp3", "voice": "henri" }
+  ]
+}

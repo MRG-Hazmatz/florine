@@ -1,0 +1,412 @@
+{
+  "schemaVersion": 1,
+  "unitId": "c1.1/unit-08-mondialisation",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "The two poles of the globalisation debate, precisely named:",
+      "options": [
+        {
+          "id": "a",
+          "text": "l'uniformisation (the fear) vs le brassage (the hope)"
+        },
+        {
+          "id": "b",
+          "text": "le shopping vs le tourisme"
+        },
+        {
+          "id": "c",
+          "text": "le nord vs le sud, rien d'autre"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "C1 names the poles: homogenisation vs cultural mixing-and-fermenting."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "« Un échantillon de 50 personnes, toutes étudiantes à Paris » claims to represent France. Your C1 reflex?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Question its representativeness — small and homogeneous"
+        },
+        {
+          "id": "b",
+          "text": "Accept it — 50 is a big number"
+        },
+        {
+          "id": "c",
+          "text": "Reject all surveys on principle"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Sample size AND composition decide representativeness."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "What C1 speakers do to clichés.",
+      "inputMode": "dropdown",
+      "template": "L'étude {{b1}} une idée reçue tenace.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "déconstruit"
+          ],
+          "options": [
+            "déconstruit",
+            "construit",
+            "uniformise"
+          ]
+        }
+      ],
+      "explanation": "Déconstruire une idée reçue — dismantle it with evidence, don't just deny it."
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Where the ethnologist works.",
+      "inputMode": "dropdown",
+      "template": "L'ethnologue passe deux ans sur le {{b1}}.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "terrain"
+          ],
+          "options": [
+            "terrain",
+            "balcon",
+            "papier"
+          ]
+        }
+      ],
+      "explanation": "Le terrain = fieldwork — where sociology actually happens."
+    },
+    {
+      "id": "ex-mc-3",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Ice-cream sales and drownings rise together each summer. Therefore ice cream causes drowning?",
+      "options": [
+        {
+          "id": "a",
+          "text": "No — corrélation n'est pas causalité (summer causes both)"
+        },
+        {
+          "id": "b",
+          "text": "Yes — the numbers prove it"
+        },
+        {
+          "id": "c",
+          "text": "Yes, but only in July"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "The classic third-variable trap: correlation is not causation."
+    },
+    {
+      "id": "ex-fb-3",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "The ethnologist's trick (one word).",
+      "inputMode": "typed",
+      "template": "Voir sa propre culture avec le {{b1}} de l'autre.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "regard"
+          ]
+        }
+      ],
+      "explanation": "Le regard de l'autre — making the familiar strange."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each enquiry word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "un échantillon",
+          "right": "a sample"
+        },
+        {
+          "id": "p2",
+          "left": "le terrain",
+          "right": "fieldwork"
+        },
+        {
+          "id": "p3",
+          "left": "les idées reçues",
+          "right": "received ideas"
+        },
+        {
+          "id": "p4",
+          "left": "le brassage",
+          "right": "cultural mixing"
+        }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"The survey reveals a paradox.\"",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "L'enquête"
+        },
+        {
+          "id": "t2",
+          "text": "révèle"
+        },
+        {
+          "id": "t3",
+          "text": "un"
+        },
+        {
+          "id": "t4",
+          "text": "paradoxe"
+        }
+      ],
+      "correctOrder": [
+        "t1",
+        "t2",
+        "t3",
+        "t4"
+      ]
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen to the seminar intervention. What did the survey find?",
+      "audio": "audio/c1.1/unit-08-mondialisation/listen-1.mp3",
+      "transcript": "Loin d'uniformiser les goûts, la mondialisation a produit un brassage inédit — l'enquête le montre sur deux mille personnes.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Far from homogenising tastes, globalisation produced unprecedented mixing"
+        },
+        {
+          "id": "b",
+          "text": "Globalisation has made every taste identical"
+        },
+        {
+          "id": "c",
+          "text": "The survey could not reach anyone"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "« Loin d'uniformiser… un brassage inédit » — the counter-intuitive finding, sample cited."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read this ethnologist's notebook entry and answer both questions.",
+      "passageFr": "CARNET DE TERRAIN — Chaque matin, les indigènes de ce quartier accomplissent un rituel immuable : debout devant un comptoir d'étain, ils avalent un liquide noir et brûlant en moins de quatre minutes, échangent trois plaintes codifiées sur le temps qu'il fait, déposent une pièce, et repartent transformés. Aucun n'accepterait de s'asseoir : la position assise, m'explique-t-on, coûte un euro de plus.",
+      "passageEn": "FIELD NOTEBOOK — Every morning, the natives of this neighbourhood perform an unchanging ritual: standing at a tin counter, they swallow a black, burning liquid in under four minutes, exchange three codified complaints about the weather, leave a coin, and depart transformed. None would agree to sit down: the seated position, I am told, costs one euro more.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "What is the text actually describing?",
+          "options": [
+            {
+              "id": "a",
+              "text": "An ordinary French café counter, seen with the ethnologist's gaze"
+            },
+            {
+              "id": "b",
+              "text": "A remote village ceremony"
+            },
+            {
+              "id": "c",
+              "text": "A chemistry experiment"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        },
+        {
+          "id": "q2",
+          "prompt": "What makes the description ethnological?",
+          "options": [
+            {
+              "id": "a",
+              "text": "It makes the familiar strange — daily habits described as ritual"
+            },
+            {
+              "id": "b",
+              "text": "It uses statistics throughout"
+            },
+            {
+              "id": "c",
+              "text": "It criticises the price of coffee"
+            }
+          ],
+          "correct": [
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex-mc-4",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Why is « brassage » stronger than « mélange » for cultures?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Brassage implies fermentation — something NEW is brewed"
+        },
+        {
+          "id": "b",
+          "text": "Brassage is easier to spell"
+        },
+        {
+          "id": "c",
+          "text": "Mélange is not a French word"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "From brasser (to brew): cultures don't just sit mixed, they ferment into something new."
+    },
+    {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/c1.1/unit-08-mondialisation/example-ex-1.mp3",
+      "transcript": "La mondialisation uniformise-t-elle les cultures, ou les brasse-t-elle ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Does globalisation homogenise cultures, or mix them?"
+        },
+        {
+          "id": "b",
+          "text": "The survey, conducted on two thousand people, deconstructs a received idea."
+        },
+        {
+          "id": "c",
+          "text": "Is the sample representative? That's the first question."
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « la mondialisation » mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "globalisation"
+        },
+        {
+          "id": "b",
+          "text": "homogenisation"
+        },
+        {
+          "id": "c",
+          "text": "mixing"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "la mondialisation = globalisation."
+    },
+    {
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "La {{b1}} redessine les frontières.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": [
+            "mondialisation"
+          ]
+        }
+      ],
+      "explanation": "« La mondialisation redessine les frontières. » — globalisation."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each word to its English meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "les idées reçues (f.)",
+          "right": "received ideas / clichés"
+        },
+        {
+          "id": "p2",
+          "left": "déconstruire",
+          "right": "to deconstruct"
+        },
+        {
+          "id": "p3",
+          "left": "une enquête (sociologique)",
+          "right": "a survey / enquiry"
+        },
+        {
+          "id": "p4",
+          "left": "un échantillon",
+          "right": "a sample"
+        }
+      ]
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "La mondialisation uniformise-t-elle les cultures, ou les brasse-t-elle ?",
+      "targetEn": "Does globalisation homogenise cultures, or mix them?",
+      "audio": "audio/c1.1/unit-08-mondialisation/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "L'échantillon est-il représentatif ? Voilà la première question.",
+      "targetEn": "Is the sample representative? That's the first question.",
+      "audio": "audio/c1.1/unit-08-mondialisation/example-ex-3.mp3"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "c1.1/unit-08-mondialisation",
+  "level": "c1.1",
+  "unitNumber": 8,
+  "slug": "unit-08-mondialisation",
+  "title": "Nouvelles Frontières",
+  "titleFr": "Mondialisation, enquête et regard ethnologique",
+  "cefrDescriptors": [
+    "Can debate globalisation with C1 precision (uniformisation vs brassage).",
+    "Can read and discuss a sociological enquiry: sample, fieldwork, findings — and the ethnologist's gaze."
+  ],
+  "skills": ["reading", "listening", "writing", "speaking"],
+  "estimatedMinutes": 70,
+  "concept": "The c1.1 finale: Dossier 4 crosses borders — la mondialisation, migration, and the sociologist's toolbox for studying them. Two registers to master: the debate's vocabulary, and the enquiry's.\n\nTHE GLOBALISATION DEBATE — name the two poles precisely:\n  • the fear: l'uniformisation (everything becoming the same) — « La mondialisation uniformise-t-elle les cultures ? »\n  • the hope: le brassage culturel (cultural mixing) — richer than mélange; it implies fermentation.\n  • the toolkit: l'ouverture des frontières, un échange inégal, les idées reçues (received ideas) — which a C1 speaker DÉCONSTRUIT rather than just rejects.\n\nL'ENQUÊTE SOCIOLOGIQUE — reading studies like an insider:\n  • un échantillon (a sample): 1 000 personnes interrogées — représentatif ou non ?\n  • le terrain (fieldwork): l'ethnologue va sur le terrain · un entretien (an interview, the research kind)\n  • the findings: l'enquête révèle / fait apparaître que… · les résultats nuancent les idées reçues\n  Critical reflexes the exam rewards: who funded it? how big is the sample? corrélation n'est pas causalité.\n\nLE REGARD ETHNOLOGIQUE — the dossier's deepest idea: the ethnologist's trick is to make the familiar strange — regarder sa propre culture avec le regard de l'autre. Lévi-Strauss looking at a Parisian café the way he'd look at any village ritual. At C1, you can do this in French: describe your own habits as if you'd just arrived from elsewhere.\n\nPut it together like a seminar intervention: « L'enquête, menée sur un échantillon de deux mille personnes, déconstruit une idée reçue : loin d'uniformiser les goûts, la mondialisation a produit un brassage inédit. Reste à porter sur nos propres habitudes le regard de l'ethnologue — c'est peut-être là, la vraie frontière. »\n\nYour turn (and that's c1.1 done — chapeau !): describe one of YOUR daily rituals in two sentences, as an ethnologist freshly landed would.",
+  "vocabulary": [
+    { "id": "mondialisation", "fr": "la mondialisation", "en": "globalisation", "pos": "noun", "exampleFr": "La mondialisation redessine les frontières.", "exampleEn": "Globalisation redraws borders.", "audio": "audio/c1.1/unit-08-mondialisation/vocab-mondialisation.mp3", "voice": "denise" },
+    { "id": "uniformisation", "fr": "l'uniformisation (f.)", "en": "homogenisation", "pos": "noun", "exampleFr": "On redoute l'uniformisation des cultures.", "exampleEn": "People dread the homogenisation of cultures.", "audio": "audio/c1.1/unit-08-mondialisation/vocab-uniformisation.mp3", "voice": "henri" },
+    { "id": "brassage", "fr": "le brassage (culturel)", "en": "(cultural) mixing", "pos": "noun", "exampleFr": "Les ports vivent du brassage culturel.", "exampleEn": "Port cities live on cultural mixing.", "audio": "audio/c1.1/unit-08-mondialisation/vocab-brassage.mp3", "voice": "denise" },
+    { "id": "frontiere", "fr": "une frontière", "en": "a border / frontier", "pos": "noun", "exampleFr": "Certaines frontières sont invisibles.", "exampleEn": "Some borders are invisible.", "audio": "audio/c1.1/unit-08-mondialisation/vocab-frontiere.mp3", "voice": "henri" },
+    { "id": "idees-recues", "fr": "les idées reçues (f.)", "en": "received ideas / clichés", "pos": "noun", "exampleFr": "L'étude bouscule les idées reçues.", "exampleEn": "The study shakes up received ideas.", "audio": "audio/c1.1/unit-08-mondialisation/vocab-idees-recues.mp3", "voice": "denise" },
+    { "id": "deconstruire", "fr": "déconstruire", "en": "to deconstruct", "pos": "verb", "exampleFr": "Déconstruire un préjugé prend du temps.", "exampleEn": "Deconstructing a prejudice takes time.", "audio": "audio/c1.1/unit-08-mondialisation/vocab-deconstruire.mp3", "voice": "henri" },
+    { "id": "enquete", "fr": "une enquête (sociologique)", "en": "a (sociological) survey / enquiry", "pos": "noun", "exampleFr": "L'enquête a duré deux ans.", "exampleEn": "The enquiry lasted two years.", "audio": "audio/c1.1/unit-08-mondialisation/vocab-enquete.mp3", "voice": "denise" },
+    { "id": "echantillon", "fr": "un échantillon", "en": "a sample", "pos": "noun", "exampleFr": "Un échantillon de mille personnes.", "exampleEn": "A sample of a thousand people.", "audio": "audio/c1.1/unit-08-mondialisation/vocab-echantillon.mp3", "voice": "henri" },
+    { "id": "terrain", "fr": "le terrain", "en": "fieldwork / the field", "pos": "noun", "exampleFr": "L'ethnologue travaille sur le terrain.", "exampleEn": "The ethnologist works in the field.", "audio": "audio/c1.1/unit-08-mondialisation/vocab-terrain.mp3", "voice": "denise" },
+    { "id": "reveler", "fr": "révéler / faire apparaître", "en": "to reveal (findings)", "pos": "verb", "exampleFr": "L'enquête révèle un paradoxe.", "exampleEn": "The survey reveals a paradox.", "audio": "audio/c1.1/unit-08-mondialisation/vocab-reveler.mp3", "voice": "henri" },
+    { "id": "representatif", "fr": "représentatif / représentative", "en": "representative (sample)", "pos": "adjective", "exampleFr": "L'échantillon est-il représentatif ?", "exampleEn": "Is the sample representative?", "audio": "audio/c1.1/unit-08-mondialisation/vocab-representatif.mp3", "voice": "denise" },
+    { "id": "correlation", "fr": "corrélation n'est pas causalité", "en": "correlation is not causation", "pos": "expression", "exampleFr": "Prudence : corrélation n'est pas causalité.", "exampleEn": "Careful: correlation is not causation.", "audio": "audio/c1.1/unit-08-mondialisation/vocab-correlation.mp3", "voice": "henri" },
+    { "id": "regard", "fr": "le regard de l'autre", "en": "the other's gaze", "pos": "expression", "exampleFr": "Voir sa culture avec le regard de l'autre.", "exampleEn": "Seeing one's culture through the other's gaze.", "audio": "audio/c1.1/unit-08-mondialisation/vocab-regard.mp3", "voice": "denise" },
+    { "id": "ethnologue", "fr": "un/une ethnologue", "en": "an ethnologist", "pos": "noun", "exampleFr": "L'ethnologue rend l'ordinaire étrange.", "exampleEn": "The ethnologist makes the ordinary strange.", "audio": "audio/c1.1/unit-08-mondialisation/vocab-ethnologue.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "La mondialisation uniformise-t-elle les cultures, ou les brasse-t-elle ?", "en": "Does globalisation homogenise cultures, or mix them?", "audio": "audio/c1.1/unit-08-mondialisation/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "L'enquête, menée sur deux mille personnes, déconstruit une idée reçue.", "en": "The survey, conducted on two thousand people, deconstructs a received idea.", "audio": "audio/c1.1/unit-08-mondialisation/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "L'échantillon est-il représentatif ? Voilà la première question.", "en": "Is the sample representative? That's the first question.", "audio": "audio/c1.1/unit-08-mondialisation/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "Corrélation n'est pas causalité — prudence avec les chiffres.", "en": "Correlation is not causation — careful with figures.", "audio": "audio/c1.1/unit-08-mondialisation/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "L'ethnologue regarde le café parisien comme un rituel de village.", "en": "The ethnologist watches the Parisian café like a village ritual.", "audio": "audio/c1.1/unit-08-mondialisation/example-ex-5.mp3", "voice": "denise" },
+    { "id": "ex-6", "fr": "La vraie frontière est peut-être dans le regard.", "en": "The real border may be in the gaze.", "audio": "audio/c1.1/unit-08-mondialisation/example-ex-6.mp3", "voice": "henri" }
+  ]
+}

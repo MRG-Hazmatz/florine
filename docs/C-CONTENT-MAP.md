@@ -23,6 +23,8 @@ and comprehension at C level.
 
 Status: ✅ built · 🔨 in progress · ⬜ planned
 
+**c1.1 COMPLETE (2026-06-12)** — 8 units, Partie 1 *Changements* done. Next: c1.2 (Partie 2).
+
 ## c1.1 — Partie 1 *Changements* (D1–4)
 | # | Module | Dossier | Technique / focus | Status |
 |---|---|---|---|---|
@@ -32,8 +34,8 @@ Status: ✅ built · 🔨 in progress · ⬜ planned
 | 4 | Family, education & polemic | D2 | analyser un texte polémique; comparaisons interculturelles | ✅ c1.1/unit-04 |
 | 5 | Work & social ladder: le résumé | D3 *Socialement vôtre* | faire un résumé de texte; allusions et implicites | ✅ c1.1/unit-05 |
 | 6 | Money, class & irony | D3 | décoder l'implicite; argumentation socio-économique | ✅ c1.1/unit-06 |
-| 7 | Borders: argumenter à l'oral | D4 *Nouvelles frontières* | argumenter à l'oral; points de vue contradictoires | ⬜ |
-| 8 | Mondialisation & enquête | D4 | l'enquête sociologique; pensée ethnologique | ⬜ |
+| 7 | Borders: argumenter à l'oral | D4 *Nouvelles frontières* | argumenter à l'oral; points de vue contradictoires | ✅ c1.1/unit-07 |
+| 8 | Mondialisation & enquête | D4 | l'enquête sociologique; pensée ethnologique | ✅ c1.1/unit-08 |
 
 ## c1.2 — Partie 2 *Nouveaux enjeux* (D5–8)
 | # | Module | Dossier | Technique / focus | Status |
