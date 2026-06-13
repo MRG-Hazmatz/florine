@@ -1,0 +1,458 @@
+{
+  "schemaVersion": 1,
+  "id": "delf-a2-02",
+  "family": "DELF",
+  "examName": "DELF A2",
+  "levelKey": "a2",
+  "paper": 2,
+  "title": "Sujet blanc nº 2",
+  "description": "Examen blanc complet au format officiel : 4 épreuves, /100, admis à partir de 50/100. Note éliminatoire en dessous de 5/25 par épreuve.",
+  "passMark": 50,
+  "sections": [
+    {
+      "id": "co",
+      "skill": "listening",
+      "title": "Compréhension de l'oral",
+      "durationMinutes": 25,
+      "points": 25,
+      "eliminatoryBelow": 5,
+      "instructions": "Vous allez entendre quatre documents. Lisez les questions, écoutez, puis répondez. Vous entendez chaque document deux fois.",
+      "docs": [
+        {
+          "id": "co-doc1",
+          "title": "Document 1 — Annonce dans un magasin",
+          "audio": "audio/exams/delf-a2-02/co-doc1.mp3",
+          "voice": "henri",
+          "listens": 2,
+          "transcript": "Chers clients, le magasin fermera ses portes dans quinze minutes, à vingt heures. Les caisses ferment dans dix minutes. Profitez de nos promotions sur les vêtements d'hiver : moins trente pour cent. Merci de votre visite et à bientôt.",
+          "questions": [
+            {
+              "id": "co1-q1",
+              "prompt": "À quelle heure ferme le magasin ?",
+              "options": [
+                { "id": "a", "text": "À 20 h" },
+                { "id": "b", "text": "À 15 h" },
+                { "id": "c", "text": "À 19 h" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "co1-q2",
+              "prompt": "Sur quels articles y a-t-il une promotion ?",
+              "options": [
+                { "id": "a", "text": "Les vêtements d'hiver" },
+                { "id": "b", "text": "Les chaussures" },
+                { "id": "c", "text": "Les jouets" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            }
+          ]
+        },
+        {
+          "id": "co-doc2",
+          "title": "Document 2 — À la pharmacie",
+          "audio": "audio/exams/delf-a2-02/co-doc2.mp3",
+          "voice": "denise",
+          "listens": 2,
+          "transcript": "— Bonjour, j'ai mal à la gorge depuis hier. — Avez-vous de la fièvre ? — Non, juste mal à la gorge. — Je vous conseille ces pastilles. Prenez-en une trois fois par jour, après les repas. Et buvez beaucoup d'eau chaude avec du miel. — D'accord, merci beaucoup.",
+          "questions": [
+            {
+              "id": "co2-q1",
+              "prompt": "Quel est le problème du client ?",
+              "options": [
+                { "id": "a", "text": "Il a mal à la gorge" },
+                { "id": "b", "text": "Il a mal à la tête" },
+                { "id": "c", "text": "Il a mal au ventre" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            },
+            {
+              "id": "co2-q2",
+              "prompt": "Combien de fois par jour prendre les pastilles ?",
+              "options": [
+                { "id": "a", "text": "Trois fois" },
+                { "id": "b", "text": "Une fois" },
+                { "id": "c", "text": "Cinq fois" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            },
+            {
+              "id": "co2-q3",
+              "prompt": "Quel autre conseil donne le pharmacien ?",
+              "options": [
+                { "id": "a", "text": "Boire de l'eau chaude avec du miel" },
+                { "id": "b", "text": "Faire du sport" },
+                { "id": "c", "text": "Rester au lit une semaine" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            }
+          ]
+        },
+        {
+          "id": "co-doc3",
+          "title": "Document 3 — Demander son chemin",
+          "audio": "audio/exams/delf-a2-02/co-doc3.mp3",
+          "voice": "denise",
+          "listens": 2,
+          "transcript": "— Excusez-moi, je cherche la poste, s'il vous plaît. — La poste ? Continuez tout droit jusqu'au feu, puis tournez à gauche. C'est juste après la pharmacie. — C'est loin ? — Non, à cinq minutes à pied. — Merci beaucoup !",
+          "questions": [
+            {
+              "id": "co3-q1",
+              "prompt": "Que cherche la personne ?",
+              "options": [
+                { "id": "a", "text": "La poste" },
+                { "id": "b", "text": "La pharmacie" },
+                { "id": "c", "text": "La gare" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            },
+            {
+              "id": "co3-q2",
+              "prompt": "Où faut-il tourner ?",
+              "options": [
+                { "id": "a", "text": "À gauche, après le feu" },
+                { "id": "b", "text": "À droite, au carrefour" },
+                { "id": "c", "text": "Nulle part, c'est tout droit" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            },
+            {
+              "id": "co3-q3",
+              "prompt": "C'est à combien de temps à pied ?",
+              "options": [
+                { "id": "a", "text": "Cinq minutes" },
+                { "id": "b", "text": "Quinze minutes" },
+                { "id": "c", "text": "Une heure" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            }
+          ]
+        },
+        {
+          "id": "co-doc4",
+          "title": "Document 4 — Interview : une jeune nageuse",
+          "audio": "audio/exams/delf-a2-02/co-doc4.mp3",
+          "voice": "henri",
+          "listens": 2,
+          "transcript": "— Tu fais de la natation depuis longtemps ? — Oui, depuis l'âge de six ans. Je m'entraîne quatre fois par semaine. — Ce n'est pas trop difficile avec l'école ? — Si, c'est fatigant, mais j'adore ça. Le sport m'aide à être plus organisée. — Et quel est ton objectif ? — Participer aux championnats régionaux l'année prochaine.",
+          "questions": [
+            {
+              "id": "co4-q1",
+              "prompt": "Depuis quand fait-elle de la natation ?",
+              "options": [
+                { "id": "a", "text": "Depuis l'âge de six ans" },
+                { "id": "b", "text": "Depuis un an" },
+                { "id": "c", "text": "Depuis le collège" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "co4-q2",
+              "prompt": "Combien de fois par semaine s'entraîne-t-elle ?",
+              "options": [
+                { "id": "a", "text": "Quatre fois" },
+                { "id": "b", "text": "Tous les jours" },
+                { "id": "c", "text": "Deux fois" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            },
+            {
+              "id": "co4-q3",
+              "prompt": "Quel est son objectif ?",
+              "options": [
+                { "id": "a", "text": "Participer aux championnats régionaux" },
+                { "id": "b", "text": "Devenir professeur de sport" },
+                { "id": "c", "text": "Arrêter la natation" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            }
+          ]
+        }
+      ],
+      "texts": [],
+      "tasks": []
+    },
+    {
+      "id": "ce",
+      "skill": "reading",
+      "title": "Compréhension des écrits",
+      "durationMinutes": 30,
+      "points": 25,
+      "eliminatoryBelow": 5,
+      "instructions": "Vous allez lire quatre documents et répondre aux questions.",
+      "docs": [],
+      "texts": [
+        {
+          "id": "ce-text1",
+          "title": "Document 1 — Un déménagement",
+          "passageFr": "Salut Inès,\n\nÇa y est, on a déménagé ! Notre nouvel appartement est super : il y a trois chambres et un grand balcon. Il est un peu plus loin du centre, mais juste à côté d'un parc magnifique.\n\nLe seul problème, c'est qu'il n'y a pas encore internet. Viens nous voir bientôt !\n\nCamille",
+          "questions": [
+            {
+              "id": "ce1-q1",
+              "prompt": "Qu'annonce Camille ?",
+              "options": [
+                { "id": "a", "text": "Elle a déménagé" },
+                { "id": "b", "text": "Elle part en vacances" },
+                { "id": "c", "text": "Elle change d'école" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            },
+            {
+              "id": "ce1-q2",
+              "prompt": "Qu'y a-t-il à côté de l'appartement ?",
+              "options": [
+                { "id": "a", "text": "Un parc" },
+                { "id": "b", "text": "Une école" },
+                { "id": "c", "text": "Une piscine" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            },
+            {
+              "id": "ce1-q3",
+              "prompt": "Quel est le seul problème ?",
+              "options": [
+                { "id": "a", "text": "Il n'y a pas encore internet" },
+                { "id": "b", "text": "Il n'y a pas de chambre" },
+                { "id": "c", "text": "C'est trop petit" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            }
+          ]
+        },
+        {
+          "id": "ce-text2",
+          "title": "Document 2 — Tournoi de football",
+          "passageFr": "TOURNOI DE FOOTBALL DU COLLÈGE — SAMEDI 5 AVRIL\n\nMatchs de 9 h à 17 h, au stade municipal.\nInscription par équipe de 7 joueurs, avant le 1er avril.\nRécompenses pour les trois premières équipes.\nBuvette et restauration sur place.",
+          "questions": [
+            {
+              "id": "ce2-q1",
+              "prompt": "Quel jour a lieu le tournoi ?",
+              "options": [
+                { "id": "a", "text": "Samedi 5 avril" },
+                { "id": "b", "text": "Dimanche 5 avril" },
+                { "id": "c", "text": "Vendredi 1er avril" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            },
+            {
+              "id": "ce2-q2",
+              "prompt": "Combien de joueurs par équipe ?",
+              "options": [
+                { "id": "a", "text": "7 joueurs" },
+                { "id": "b", "text": "11 joueurs" },
+                { "id": "c", "text": "5 joueurs" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            },
+            {
+              "id": "ce2-q3",
+              "prompt": "Avant quelle date faut-il s'inscrire ?",
+              "options": [
+                { "id": "a", "text": "Avant le 1er avril" },
+                { "id": "b", "text": "Le 5 avril" },
+                { "id": "c", "text": "Il n'y a pas de date limite" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            }
+          ]
+        },
+        {
+          "id": "ce-text3",
+          "title": "Document 3 — Louer un vélo en libre-service",
+          "passageFr": "COMMENT LOUER UN VÉLO EN LIBRE-SERVICE\n\n1. Choisissez un vélo disponible (voyant vert).\n2. Passez votre carte sur la borne.\n3. La première demi-heure est gratuite.\n4. Rapportez le vélo à n'importe quelle station.\n\nAttention : vérifiez les freins avant de partir !",
+          "questions": [
+            {
+              "id": "ce3-q1",
+              "prompt": "Comment savoir qu'un vélo est disponible ?",
+              "options": [
+                { "id": "a", "text": "Le voyant est vert" },
+                { "id": "b", "text": "Le voyant est rouge" },
+                { "id": "c", "text": "Il n'a pas de cadenas" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            },
+            {
+              "id": "ce3-q2",
+              "prompt": "Combien coûte la première demi-heure ?",
+              "options": [
+                { "id": "a", "text": "Elle est gratuite" },
+                { "id": "b", "text": "1 euro" },
+                { "id": "c", "text": "5 euros" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            },
+            {
+              "id": "ce3-q3",
+              "prompt": "Que faut-il vérifier avant de partir ?",
+              "options": [
+                { "id": "a", "text": "Les freins" },
+                { "id": "b", "text": "Le panier" },
+                { "id": "c", "text": "La sonnette" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            }
+          ]
+        },
+        {
+          "id": "ce-text4",
+          "title": "Document 4 — Ville ou campagne ?",
+          "passageFr": "VILLE OU CAMPAGNE ?\n\nMartin a 15 ans. Il a déménagé de Paris à un petit village l'année dernière.\n\n« Au début, je trouvais la campagne ennuyeuse : pas de cinéma, pas de magasins. Mais maintenant, j'adore. L'air est plus pur, j'ai un grand jardin, et mes nouveaux amis sont géniaux. Le seul inconvénient, c'est qu'il faut prendre le bus pendant une heure pour aller au lycée. »",
+          "questions": [
+            {
+              "id": "ce4-q1",
+              "prompt": "D'où vient Martin ?",
+              "options": [
+                { "id": "a", "text": "De Paris" },
+                { "id": "b", "text": "De la campagne" },
+                { "id": "c", "text": "D'Espagne" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            },
+            {
+              "id": "ce4-q2",
+              "prompt": "Que pensait-il de la campagne au début ?",
+              "options": [
+                { "id": "a", "text": "Il la trouvait ennuyeuse" },
+                { "id": "b", "text": "Il l'adorait tout de suite" },
+                { "id": "c", "text": "Il en avait peur" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "ce4-q3",
+              "prompt": "Quel est l'inconvénient pour lui aujourd'hui ?",
+              "options": [
+                { "id": "a", "text": "Le trajet en bus d'une heure" },
+                { "id": "b", "text": "Le manque d'amis" },
+                { "id": "c", "text": "Le bruit de la ville" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            }
+          ]
+        }
+      ],
+      "tasks": []
+    },
+    {
+      "id": "pe",
+      "skill": "writing",
+      "title": "Production écrite",
+      "durationMinutes": 45,
+      "points": 25,
+      "eliminatoryBelow": 5,
+      "instructions": "L'épreuve comporte deux exercices : décrire un lieu, puis écrire une réclamation.",
+      "docs": [],
+      "texts": [],
+      "tasks": [
+        {
+          "id": "pe-task1",
+          "kind": "writing",
+          "title": "Exercice 1 — Décrire un endroit que vous aimez",
+          "consigne": "Vous avez visité une ville ou un endroit que vous avez beaucoup aimé. Vous écrivez à un(e) ami(e) pour décrire cet endroit, raconter ce que vous y avez fait, et expliquer pourquoi vous avez aimé. (60 mots minimum)",
+          "minWords": 60,
+          "points": 13,
+          "rubric": [
+            { "id": "r-consigne", "label": "Respect de la consigne (décrire, raconter, expliquer)", "points": 2 },
+            { "id": "r-decrire", "label": "Peut décrire et raconter de façon simple", "points": 4 },
+            { "id": "r-lex", "label": "Lexique adapté", "points": 3 },
+            { "id": "r-morpho", "label": "Morphosyntaxe (passé composé, accords)", "points": 4 }
+          ],
+          "modelAnswer": "Modèle (≈65 mots) :\n\nSalut Yanis,\n\nLe mois dernier, j'ai visité Annecy, une petite ville au bord d'un lac magnifique. L'eau était très bleue et les montagnes autour étaient superbes. J'ai fait du vélo autour du lac et j'ai mangé une glace au soleil. J'ai adoré parce que c'était calme et très beau. Tu devrais y aller !\n\nÀ bientôt, Noa\n\nPoints attendus : description du lieu ; activités au passé composé ; opinion personnelle."
+        },
+        {
+          "id": "pe-task2",
+          "kind": "writing",
+          "title": "Exercice 2 — Une réclamation",
+          "consigne": "Vous avez acheté un objet (un vêtement, un appareil…) sur internet, mais il ne fonctionne pas ou ne vous plaît pas. Vous écrivez un message au magasin : vous expliquez le problème et vous demandez un échange ou un remboursement. (60 mots minimum)",
+          "minWords": 60,
+          "points": 12,
+          "rubric": [
+            { "id": "r-consigne2", "label": "Respect de la consigne (expliquer le problème, demander)", "points": 2 },
+            { "id": "r-interagir", "label": "Capacité à interagir (registre poli, clarté)", "points": 4 },
+            { "id": "r-lex2", "label": "Lexique adapté", "points": 3 },
+            { "id": "r-morpho2", "label": "Morphosyntaxe", "points": 3 }
+          ],
+          "modelAnswer": "Modèle (≈65 mots) :\n\nBonjour,\n\nJ'ai commandé une paire de chaussures sur votre site le 3 mars (commande nº 4521). Malheureusement, j'ai reçu la mauvaise taille : j'avais demandé du 39, mais j'ai reçu du 42.\n\nJe souhaiterais échanger ces chaussures contre la bonne taille, ou être remboursé(e). Que dois-je faire pour vous les renvoyer ?\n\nMerci de votre réponse.\nCordialement, C. Bernard\n\nPoints attendus : objet de la réclamation ; problème clair ; demande (échange/remboursement) ; politesse."
+        }
+      ]
+    },
+    {
+      "id": "po",
+      "skill": "speaking",
+      "title": "Production orale",
+      "durationMinutes": 8,
+      "prepMinutes": 10,
+      "points": 25,
+      "eliminatoryBelow": 5,
+      "instructions": "L'épreuve comporte trois parties : un entretien dirigé, un monologue suivi, et un exercice en interaction.",
+      "docs": [],
+      "texts": [],
+      "tasks": [
+        {
+          "id": "po-task1",
+          "kind": "speaking",
+          "title": "Partie 1 — Entretien dirigé (sans préparation)",
+          "consigne": "Présentez-vous et répondez aux questions de l'examinateur : votre journée habituelle, vos repas, vos amis et vos projets pour le week-end. (1 à 2 minutes)",
+          "points": 6,
+          "rubric": [
+            { "id": "po1-soi", "label": "Peut parler de soi et de son quotidien", "points": 2 },
+            { "id": "po1-reagir", "label": "Peut réagir aux questions", "points": 2 },
+            { "id": "po-ens-lex1", "label": "Lexique — ensemble de l'épreuve", "points": 2 }
+          ],
+          "modelAnswer": "Points attendus : décrire sa journée habituelle ; parler de ses repas, de ses amis ; annoncer un projet de week-end ; répondre aux relances."
+        },
+        {
+          "id": "po-task2",
+          "kind": "speaking",
+          "title": "Partie 2 — Monologue suivi",
+          "consigne": "Sujet : « Préférez-vous vivre en ville ou à la campagne ? Donnez votre avis et expliquez pourquoi. » Parlez seul(e) pendant environ deux minutes.",
+          "documentFr": "Sujet : Préférez-vous vivre en ville ou à la campagne ?",
+          "points": 9,
+          "rubric": [
+            { "id": "po2-presenter", "label": "Peut présenter un avis de façon simple et organisée", "points": 3 },
+            { "id": "po2-relier", "label": "Peut relier ses idées (parce que, mais, aussi)", "points": 2 },
+            { "id": "po-ens-morpho2", "label": "Morphosyntaxe — ensemble de l'épreuve", "points": 2 },
+            { "id": "po-ens-phono2", "label": "Phonétique — ensemble de l'épreuve", "points": 2 }
+          ],
+          "modelAnswer": "Points attendus : annoncer sa préférence ; deux ou trois arguments avec « parce que » ; envisager l'autre côté (« mais ») ; conclure. Comparatifs simples (« plus calme », « moins de bruit »)."
+        },
+        {
+          "id": "po-task3",
+          "kind": "speaking",
+          "title": "Partie 3 — Exercice en interaction (jeu de rôle)",
+          "consigne": "Sujet : Vous voulez acheter un cadeau dans un magasin de vêtements. Vous demandez conseil, vous demandez la taille, la couleur et le prix, puis vous décidez. L'examinateur joue le vendeur. (3 minutes)",
+          "points": 10,
+          "rubric": [
+            { "id": "po3-situation", "label": "Peut faire face à la situation (choisir, demander conseil)", "points": 3 },
+            { "id": "po3-negocier", "label": "Peut demander et donner des informations", "points": 3 },
+            { "id": "po-ens-aisance3", "label": "Aisance et fluidité — ensemble de l'épreuve", "points": 4 }
+          ],
+          "modelAnswer": "Points attendus : expliquer ce que l'on cherche ; demander la taille, la couleur, le prix ; demander conseil ; décider et remercier. Vocabulaire des vêtements et politesse."
+        }
+      ]
+    }
+  ]
+}
