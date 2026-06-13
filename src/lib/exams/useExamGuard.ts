@@ -75,8 +75,14 @@ export function useExamGuard(active: boolean) {
     };
     const onCopy = block("copy-paste");
     const onContext = block("context-menu");
+    // Warn before a refresh/close wipes the live attempt (real-exam friction).
+    const onBeforeUnload = (e: BeforeUnloadEvent) => {
+      e.preventDefault();
+      e.returnValue = "";
+    };
 
     document.addEventListener("visibilitychange", onVisibility);
+    window.addEventListener("beforeunload", onBeforeUnload);
     window.addEventListener("blur", onBlur);
     document.addEventListener("fullscreenchange", onFullscreenChange);
     document.addEventListener("webkitfullscreenchange", onFullscreenChange);
@@ -89,6 +95,7 @@ export function useExamGuard(active: boolean) {
 
     return () => {
       document.removeEventListener("visibilitychange", onVisibility);
+      window.removeEventListener("beforeunload", onBeforeUnload);
       window.removeEventListener("blur", onBlur);
       document.removeEventListener("fullscreenchange", onFullscreenChange);
       document.removeEventListener("webkitfullscreenchange", onFullscreenChange);

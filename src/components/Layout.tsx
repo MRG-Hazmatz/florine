@@ -1,4 +1,5 @@
 import { Link, NavLink, Outlet, useLocation, useNavigate } from "react-router-dom";
+import { useExamSession } from "../lib/exams/session";
 
 const navClass = ({ isActive }: { isActive: boolean }) =>
   `px-3 py-1 rounded transition-colors ${
@@ -8,35 +9,43 @@ const navClass = ({ isActive }: { isActive: boolean }) =>
 export default function Layout() {
   const { pathname } = useLocation();
   const navigate = useNavigate();
+  // While a section's clock is live, the exam hall is sealed: no nav, no back.
+  const examLive = useExamSession((s) => s.live);
   return (
     <div className="min-h-full flex flex-col">
       <header className="sticky top-0 z-50 border-b border-ink/20 bg-parchment/90 backdrop-blur">
         <div className="mx-auto flex max-w-4xl items-center gap-4 px-4 py-3">
-          <Link to="/" className="font-display text-2xl font-bold text-rouge">
-            Florine
-          </Link>
+          {examLive ? (
+            <span className="font-display text-2xl font-bold text-rouge">Florine</span>
+          ) : (
+            <Link to="/" className="font-display text-2xl font-bold text-rouge">
+              Florine
+            </Link>
+          )}
           <span className="hidden text-sm text-ink/40 sm:inline">
-            apprendre le français
+            {examLive ? "examen en cours — salle fermée" : "apprendre le français"}
           </span>
-          <nav className="ml-auto flex gap-2 text-sm">
-            <NavLink to="/" end className={navClass}>
-              Home
-            </NavLink>
-            <NavLink to="/levels" className={navClass}>
-              Levels
-            </NavLink>
-            <NavLink to="/review" className={navClass}>
-              Review
-            </NavLink>
-            <NavLink to="/exams" className={navClass}>
-              Exams
-            </NavLink>
-          </nav>
+          {!examLive && (
+            <nav className="ml-auto flex gap-2 text-sm">
+              <NavLink to="/" end className={navClass}>
+                Home
+              </NavLink>
+              <NavLink to="/levels" className={navClass}>
+                Levels
+              </NavLink>
+              <NavLink to="/review" className={navClass}>
+                Review
+              </NavLink>
+              <NavLink to="/exams" className={navClass}>
+                Exams
+              </NavLink>
+            </nav>
+          )}
         </div>
       </header>
 
       <main className="mx-auto w-full max-w-4xl flex-1 border-x border-ink/15 bg-parchment/90 px-4 py-8 shadow-[0_0_60px_rgba(23,18,12,0.22)]">
-        {pathname !== "/" && (
+        {pathname !== "/" && !examLive && (
           <button
             type="button"
             onClick={() => navigate(-1)}

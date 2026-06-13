@@ -1,6 +1,7 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import type { Exam, ExamSection } from "../../lib/exams/schema";
+import { useExamSession } from "../../lib/exams/session";
 import { gradeExam, autoTotals, type AnswerMap } from "../../lib/exams/grade";
 import {
   useExamGuard,
@@ -38,6 +39,14 @@ export default function ExamRunner({ exam }: { exam: Exam }) {
 
   const guard = useExamGuard(phase === "running");
   const section = exam.sections[sectionIndex];
+
+  // Seal the exam hall (hide site nav) only while a section's clock is live.
+  const setLive = useExamSession((s) => s.setLive);
+  const hallSealed = phase === "running" && sectionLive;
+  useEffect(() => {
+    setLive(hallSealed);
+    return () => setLive(false);
+  }, [hallSealed, setLive]);
 
   const advance = () => {
     if (sectionIndex < exam.sections.length - 1) {
