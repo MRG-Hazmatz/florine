@@ -15,7 +15,10 @@ export default function ExamHub() {
   return (
     <section className="space-y-6">
       <header className="space-y-1">
-        <h1 className="font-display text-3xl font-bold">Salle d'examen</h1>
+        <h1 className="flex items-center gap-3 font-display text-3xl font-bold">
+          <img src="/icons/exams.png" alt="" className="h-14 object-contain mix-blend-multiply" />
+          Salle d'examen
+        </h1>
         <p className="text-sm text-ink/60">
           Full mock papers in the authentic DELF/DALF format — fullscreen, timed, invigilated. Sit
           one start to finish to rehearse the real thing.

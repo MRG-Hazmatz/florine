@@ -18,6 +18,7 @@ const UI_ICONS = [
   "/icons/hand.png",
   "/icons/lock.png",
   "/icons/levels.png",
+  "/icons/exams.png",
   "/icons/skill-listening.png",
   "/icons/skill-reading.png",
   "/icons/skill-speaking.png",
