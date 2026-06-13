@@ -1,0 +1,404 @@
+{
+  "schemaVersion": 1,
+  "id": "delf-b1-03",
+  "family": "DELF",
+  "examName": "DELF B1 Junior",
+  "levelKey": "b1",
+  "paper": 3,
+  "title": "Sujet blanc nº 3",
+  "description": "Examen blanc complet au format officiel : 4 épreuves, /100, admis à partir de 50/100. Note éliminatoire en dessous de 5/25 par épreuve.",
+  "passMark": 50,
+  "sections": [
+    {
+      "id": "co",
+      "skill": "listening",
+      "title": "Compréhension de l'oral",
+      "durationMinutes": 25,
+      "points": 25,
+      "eliminatoryBelow": 5,
+      "instructions": "Vous allez entendre trois documents. Lisez les questions, écoutez, puis répondez.",
+      "docs": [
+        {
+          "id": "co-doc1",
+          "title": "Document 1 — Message de l'entraîneur",
+          "audio": "audio/exams/delf-b1-03/co-doc1.mp3",
+          "voice": "henri",
+          "listens": 2,
+          "transcript": "Bonjour, c'est Thomas, ton entraîneur de basket. Petit rappel : le match de dimanche commence à dix heures, et non à onze heures comme d'habitude. Rendez-vous au gymnase à neuf heures trente pour l'échauffement. N'oublie pas ton maillot rouge et une bouteille d'eau. Bon match !",
+          "questions": [
+            {
+              "id": "co1-q1",
+              "prompt": "Qui laisse ce message ?",
+              "options": [
+                { "id": "a", "text": "L'entraîneur de basket" },
+                { "id": "b", "text": "Un professeur" },
+                { "id": "c", "text": "Un camarade de classe" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            },
+            {
+              "id": "co1-q2",
+              "prompt": "À quelle heure commence le match dimanche ?",
+              "options": [
+                { "id": "a", "text": "À 10 h" },
+                { "id": "b", "text": "À 11 h" },
+                { "id": "c", "text": "À 9 h 30" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            },
+            {
+              "id": "co1-q3",
+              "prompt": "Que faut-il apporter ?",
+              "options": [
+                { "id": "a", "text": "Le maillot rouge et une bouteille d'eau" },
+                { "id": "b", "text": "Des chaussures neuves" },
+                { "id": "c", "text": "Un ballon" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            }
+          ]
+        },
+        {
+          "id": "co-doc2",
+          "title": "Document 2 — Quelles études après le lycée ?",
+          "audio": "audio/exams/delf-b1-03/co-doc2.mp3",
+          "voice": "denise",
+          "listens": 2,
+          "transcript": "— Tu sais déjà ce que tu veux faire après le lycée ? — Pas vraiment. J'hésite entre des études de médecine et des études d'informatique. — Ah, c'est très différent ! — Oui, mais les deux m'intéressent. La médecine, c'est pour aider les gens. L'informatique, c'est parce que j'adore créer des programmes. — Et tes parents, qu'est-ce qu'ils en pensent ? — Ils me disent de choisir ce qui me rend heureuse.",
+          "questions": [
+            {
+              "id": "co2-q1",
+              "prompt": "Entre quelles études la personne hésite-t-elle ?",
+              "options": [
+                { "id": "a", "text": "Médecine et informatique" },
+                { "id": "b", "text": "Droit et commerce" },
+                { "id": "c", "text": "Art et sport" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            },
+            {
+              "id": "co2-q2",
+              "prompt": "Pourquoi l'informatique l'intéresse-t-elle ?",
+              "options": [
+                { "id": "a", "text": "Elle adore créer des programmes" },
+                { "id": "b", "text": "C'est très facile" },
+                { "id": "c", "text": "Ses amis en font" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            },
+            {
+              "id": "co2-q3",
+              "prompt": "Que conseillent ses parents ?",
+              "options": [
+                { "id": "a", "text": "De choisir ce qui la rend heureuse" },
+                { "id": "b", "text": "De faire absolument médecine" },
+                { "id": "c", "text": "D'arrêter ses études" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            }
+          ]
+        },
+        {
+          "id": "co-doc3",
+          "title": "Document 3 — Émission : les jeunes et le sommeil",
+          "audio": "audio/exams/delf-b1-03/co-doc3.mp3",
+          "voice": "denise",
+          "listens": 1,
+          "transcript": "Bonsoir à tous. Ce soir, nous parlons d'un sujet qui concerne tous les adolescents : le sommeil. Selon les médecins, les jeunes de votre âge ont besoin de huit à dix heures de sommeil par nuit. Pourtant, beaucoup dorment bien moins. La cause principale ? Les écrans. Regarder son téléphone tard le soir empêche le cerveau de se préparer au sommeil. Notre spécialiste, le docteur Morel, donne trois conseils simples. Premièrement, arrêtez les écrans au moins une heure avant de dormir. Deuxièmement, couchez-vous à la même heure chaque soir, même le week-end. Et troisièmement, faites du sport dans la journée, mais pas juste avant de dormir. Bien dormir, rappelle le médecin, c'est mieux apprendre, être de bonne humeur et tomber moins souvent malade. Alors ce soir, posez votre téléphone et fermez les yeux !",
+          "questions": [
+            {
+              "id": "co3-q1",
+              "prompt": "Quel est le sujet de l'émission ?",
+              "options": [
+                { "id": "a", "text": "Le sommeil des adolescents" },
+                { "id": "b", "text": "L'alimentation des sportifs" },
+                { "id": "c", "text": "Les jeux vidéo" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "co3-q2",
+              "prompt": "Quelle est la cause principale du manque de sommeil ?",
+              "options": [
+                { "id": "a", "text": "Les écrans" },
+                { "id": "b", "text": "Le sport" },
+                { "id": "c", "text": "Le bruit de la rue" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "co3-q3",
+              "prompt": "Quel est le premier conseil du médecin ?",
+              "options": [
+                { "id": "a", "text": "Arrêter les écrans une heure avant de dormir" },
+                { "id": "b", "text": "Faire du sport juste avant de dormir" },
+                { "id": "c", "text": "Boire un café le soir" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "co3-q4",
+              "prompt": "Que faut-il faire le week-end ?",
+              "options": [
+                { "id": "a", "text": "Se coucher à la même heure que les autres jours" },
+                { "id": "b", "text": "Dormir toute la journée" },
+                { "id": "c", "text": "Veiller très tard" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            },
+            {
+              "id": "co3-q5",
+              "prompt": "Selon le médecin, bien dormir permet de…",
+              "options": [
+                { "id": "a", "text": "mieux apprendre et être en forme" },
+                { "id": "b", "text": "grandir deux fois plus vite" },
+                { "id": "c", "text": "ne plus jamais être malade" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            }
+          ]
+        }
+      ],
+      "texts": [],
+      "tasks": []
+    },
+    {
+      "id": "ce",
+      "skill": "reading",
+      "title": "Compréhension des écrits",
+      "durationMinutes": 45,
+      "points": 25,
+      "eliminatoryBelow": 5,
+      "instructions": "Vous allez lire deux documents et répondre aux questions de compréhension.",
+      "docs": [],
+      "texts": [
+        {
+          "id": "ce-text1",
+          "title": "Document 1 — Stage de découverte en entreprise",
+          "passageFr": "STAGE DE DÉCOUVERTE EN ENTREPRISE\n\nTu es en classe de troisième et tu dois faire ton stage d'observation ? La société TechVert t'accueille !\n\nPendant une semaine, du 13 au 17 janvier, tu découvriras les métiers de l'environnement : comment on recycle, comment on économise l'énergie, comment on protège la nature.\n\nHoraires : de 9 h à 16 h, du lundi au vendredi. Le déjeuner est offert.\n\nLe stage est gratuit, mais les places sont limitées à cinq élèves.\n\nEnvoie ta lettre de motivation avant le 1er décembre à stage@techvert.fr.",
+          "questions": [
+            {
+              "id": "ce1-q1",
+              "prompt": "À qui s'adresse ce stage ?",
+              "options": [
+                { "id": "a", "text": "Aux élèves de troisième" },
+                { "id": "b", "text": "Aux étudiants de l'université" },
+                { "id": "c", "text": "Aux adultes en reconversion" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            },
+            {
+              "id": "ce1-q2",
+              "prompt": "Quels métiers va-t-on découvrir ?",
+              "options": [
+                { "id": "a", "text": "Les métiers de l'environnement" },
+                { "id": "b", "text": "Les métiers de la cuisine" },
+                { "id": "c", "text": "Les métiers du sport" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "ce1-q3",
+              "prompt": "Qu'est-ce qui est offert pendant le stage ?",
+              "options": [
+                { "id": "a", "text": "Le déjeuner" },
+                { "id": "b", "text": "Le transport" },
+                { "id": "c", "text": "Un téléphone" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            },
+            {
+              "id": "ce1-q4",
+              "prompt": "Combien de places sont disponibles ?",
+              "options": [
+                { "id": "a", "text": "Cinq" },
+                { "id": "b", "text": "Vingt" },
+                { "id": "c", "text": "Dix" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            },
+            {
+              "id": "ce1-q5",
+              "prompt": "Que faut-il envoyer avant le 1er décembre ?",
+              "options": [
+                { "id": "a", "text": "Une lettre de motivation" },
+                { "id": "b", "text": "Un certificat médical" },
+                { "id": "c", "text": "Un chèque" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            }
+          ]
+        },
+        {
+          "id": "ce-text2",
+          "title": "Document 2 — Faut-il supprimer les devoirs à la maison ?",
+          "passageFr": "FAUT-IL SUPPRIMER LES DEVOIRS À LA MAISON ?\n\nChaque soir, des millions d'élèves ouvrent leur cahier pour faire leurs devoirs. Mais certains pays, comme la Finlande, en donnent très peu. Faut-il faire pareil ?\n\nLes défenseurs des devoirs expliquent qu'ils permettent de revoir la leçon, de travailler seul et de prendre de bonnes habitudes. Selon eux, on apprend mieux en répétant chez soi ce qu'on a vu en classe.\n\nLes opposants, eux, soulignent que les devoirs créent des inégalités : certains élèves ont des parents qui peuvent les aider, d'autres non. De plus, après une longue journée de cours, les enfants ont besoin de se reposer et de jouer.\n\nPersonnellement, je crois que le problème n'est pas la quantité, mais la qualité. Mieux vaut un seul exercice utile que dix exercices ennuyeux.",
+          "questions": [
+            {
+              "id": "ce2-q1",
+              "prompt": "Quel est le sujet de l'article ?",
+              "options": [
+                { "id": "a", "text": "La suppression des devoirs à la maison" },
+                { "id": "b", "text": "L'achat de cahiers d'exercices" },
+                { "id": "c", "text": "La durée des cours" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "ce2-q2",
+              "prompt": "Quel argument donnent les défenseurs des devoirs ?",
+              "options": [
+                { "id": "a", "text": "Ils permettent de revoir la leçon" },
+                { "id": "b", "text": "Ils sont très amusants" },
+                { "id": "c", "text": "Ils sont obligatoires par la loi" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "ce2-q3",
+              "prompt": "Quel problème soulignent les opposants ?",
+              "options": [
+                { "id": "a", "text": "Les devoirs créent des inégalités" },
+                { "id": "b", "text": "Les devoirs coûtent trop cher" },
+                { "id": "c", "text": "Les devoirs sont trop faciles" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "ce2-q4",
+              "prompt": "Quel pays est donné en exemple ?",
+              "options": [
+                { "id": "a", "text": "La Finlande" },
+                { "id": "b", "text": "L'Espagne" },
+                { "id": "c", "text": "Le Japon" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            },
+            {
+              "id": "ce2-q5",
+              "prompt": "Selon l'auteur, le vrai problème est…",
+              "options": [
+                { "id": "a", "text": "la qualité des devoirs, pas la quantité" },
+                { "id": "b", "text": "le nombre d'élèves par classe" },
+                { "id": "c", "text": "la longueur des vacances" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            }
+          ]
+        }
+      ],
+      "tasks": []
+    },
+    {
+      "id": "pe",
+      "skill": "writing",
+      "title": "Production écrite",
+      "durationMinutes": 45,
+      "points": 25,
+      "eliminatoryBelow": 5,
+      "instructions": "Vous traitez le sujet suivant. Respectez le nombre de mots demandé et soignez la structure de votre texte.",
+      "docs": [],
+      "texts": [],
+      "tasks": [
+        {
+          "id": "pe-task1",
+          "kind": "writing",
+          "title": "Essai — un article d'idées",
+          "consigne": "Votre lycée organise un concours : « Comment rendre notre établissement plus écologique ? » Vous participez en écrivant un article pour le journal du lycée. Vous proposez des idées concrètes et vous expliquez pourquoi elles sont importantes. (160 mots minimum)",
+          "minWords": 160,
+          "points": 25,
+          "rubric": [
+            { "id": "r-consigne", "label": "Respect de la consigne", "points": 2 },
+            { "id": "r-faits", "label": "Capacité à présenter des faits", "points": 4 },
+            { "id": "r-pensee", "label": "Capacité à exprimer sa pensée", "points": 4 },
+            { "id": "r-coherence", "label": "Cohérence et cohésion", "points": 3 },
+            { "id": "r-lex-etendue", "label": "Étendue du vocabulaire", "points": 2 },
+            { "id": "r-lex-maitrise", "label": "Maîtrise du vocabulaire", "points": 2 },
+            { "id": "r-ortho", "label": "Maîtrise de l'orthographe lexicale", "points": 2 },
+            { "id": "r-phrases", "label": "Degré d'élaboration des phrases", "points": 2 },
+            { "id": "r-temps", "label": "Choix des temps et des modes", "points": 2 },
+            { "id": "r-morpho", "label": "Morphosyntaxe — orthographe grammaticale", "points": 2 }
+          ],
+          "modelAnswer": "Modèle (≈170 mots) :\n\nUN LYCÉE PLUS VERT, C'EST POSSIBLE !\n\nNotre lycée pourrait facilement devenir plus écologique, et chacun a un rôle à jouer.\n\nPremièrement, je propose d'installer des poubelles de tri dans chaque salle. Aujourd'hui, tout part à la même poubelle : c'est dommage. Avec le tri, nous pourrions recycler le papier et le plastique.\n\nDeuxièmement, la cantine gaspille beaucoup de nourriture. On pourrait demander aux élèves la veille s'ils mangent à la cantine, pour préparer la bonne quantité.\n\nEnfin, pourquoi ne pas créer un jardin potager ? Les élèves volontaires y cultiveraient des légumes, utilisés ensuite à la cantine. Ce serait à la fois écologique et éducatif.\n\nCes idées sont importantes car elles nous apprennent à respecter la nature dès le lycée. Et de petits gestes, multipliés par mille élèves, font une grande différence.\n\nÀ nous de jouer !\n\nPoints attendus : au moins deux propositions concrètes ; une justification pour chacune ; structure claire (titre, connecteurs) ; ton adapté à un article."
+        }
+      ]
+    },
+    {
+      "id": "po",
+      "skill": "speaking",
+      "title": "Production orale",
+      "durationMinutes": 15,
+      "prepMinutes": 10,
+      "points": 25,
+      "eliminatoryBelow": 5,
+      "instructions": "L'épreuve comporte trois parties : un entretien dirigé, un exercice en interaction, et un monologue suivi.",
+      "docs": [],
+      "texts": [],
+      "tasks": [
+        {
+          "id": "po-task1",
+          "kind": "speaking",
+          "title": "Partie 1 — Entretien dirigé (sans préparation)",
+          "consigne": "Présentez-vous : parlez de votre personnalité, de vos qualités et de vos défauts, de vos matières préférées et de la profession que vous aimeriez exercer plus tard. (2 à 3 minutes)",
+          "points": 9,
+          "rubric": [
+            { "id": "po1-soi", "label": "Peut parler de soi avec une certaine aisance", "points": 2 },
+            { "id": "po1-reagir", "label": "Peut répondre et réagir aux questions", "points": 2 },
+            { "id": "po-ens-lex", "label": "Lexique (étendue et maîtrise) — ensemble de l'épreuve", "points": 3 },
+            { "id": "po-ens-phono", "label": "Maîtrise du système phonologique — ensemble de l'épreuve", "points": 2 }
+          ],
+          "modelAnswer": "Points attendus : décrire sa personnalité (qualités, défauts) ; parler de ses matières préférées ; évoquer un métier souhaité avec une raison ; développer les réponses."
+        },
+        {
+          "id": "po-task2",
+          "kind": "speaking",
+          "title": "Partie 2 — Exercice en interaction (jeu de rôle)",
+          "consigne": "Sujet : Avec un(e) camarade (joué(e) par l'examinateur), vous devez organiser la fête de fin d'année de votre classe avec un petit budget. Vous discutez du lieu, de la nourriture et des activités, et vous vous mettez d'accord. (3 à 4 minutes)",
+          "points": 8,
+          "rubric": [
+            { "id": "po2-situation", "label": "Peut faire face à la situation proposée", "points": 2 },
+            { "id": "po2-negocier", "label": "Peut proposer, discuter et se mettre d'accord", "points": 2 },
+            { "id": "po-ens-morpho", "label": "Morphosyntaxe — ensemble de l'épreuve", "points": 2 },
+            { "id": "po-ens-coh", "label": "Cohérence et fluidité — ensemble de l'épreuve", "points": 2 }
+          ],
+          "modelAnswer": "Points attendus : faire des propositions (« on pourrait… », « et si on… ») ; tenir compte du budget ; réagir aux idées de l'autre ; arriver à une décision commune."
+        },
+        {
+          "id": "po-task3",
+          "kind": "speaking",
+          "title": "Partie 3 — Monologue suivi (à partir d'un document)",
+          "consigne": "Sujet : « Le sport devrait être obligatoire tous les jours à l'école. » Donnez votre opinion sur cette affirmation, en l'illustrant d'exemples. Présentez votre point de vue de façon construite. (3 minutes environ)",
+          "documentFr": "« Le sport devrait être obligatoire tous les jours à l'école. »",
+          "points": 8,
+          "rubric": [
+            { "id": "po3-pdv", "label": "Peut présenter et défendre un point de vue", "points": 3 },
+            { "id": "po3-relier", "label": "Peut relier ses idées de façon cohérente", "points": 2 },
+            { "id": "po-ens-lex2", "label": "Richesse et correction de la langue — ensemble de l'épreuve", "points": 3 }
+          ],
+          "modelAnswer": "Points attendus : annoncer sa position ; donner deux ou trois arguments illustrés (santé, concentration, fatigue) ; envisager l'avis contraire ; conclure. Connecteurs logiques variés."
+        }
+      ]
+    }
+  ]
+}

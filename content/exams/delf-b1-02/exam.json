@@ -1,0 +1,404 @@
+{
+  "schemaVersion": 1,
+  "id": "delf-b1-02",
+  "family": "DELF",
+  "examName": "DELF B1 Junior",
+  "levelKey": "b1",
+  "paper": 2,
+  "title": "Sujet blanc nº 2",
+  "description": "Examen blanc complet au format officiel : 4 épreuves, /100, admis à partir de 50/100. Note éliminatoire en dessous de 5/25 par épreuve.",
+  "passMark": 50,
+  "sections": [
+    {
+      "id": "co",
+      "skill": "listening",
+      "title": "Compréhension de l'oral",
+      "durationMinutes": 25,
+      "points": 25,
+      "eliminatoryBelow": 5,
+      "instructions": "Vous allez entendre trois documents. Lisez les questions, écoutez, puis répondez.",
+      "docs": [
+        {
+          "id": "co-doc1",
+          "title": "Document 1 — Message du club de théâtre",
+          "audio": "audio/exams/delf-b1-02/co-doc1.mp3",
+          "voice": "denise",
+          "listens": 2,
+          "transcript": "Bonjour, c'est Madame Garnier, du club de théâtre. Je vous appelle pour vous dire que la répétition de jeudi est avancée à mercredi, à la même heure, dix-huit heures. Apportez bien vos textes, on commence à travailler la scène finale. Et si vous connaissez quelqu'un qui veut nous rejoindre, c'est le moment ! À mercredi.",
+          "questions": [
+            {
+              "id": "co1-q1",
+              "prompt": "Qui laisse ce message ?",
+              "options": [
+                { "id": "a", "text": "La responsable du club de théâtre" },
+                { "id": "b", "text": "Une professeure de français" },
+                { "id": "c", "text": "Une amie de la classe" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            },
+            {
+              "id": "co1-q2",
+              "prompt": "Quel changement annonce-t-elle ?",
+              "options": [
+                { "id": "a", "text": "La répétition est avancée à mercredi" },
+                { "id": "b", "text": "La répétition est annulée" },
+                { "id": "c", "text": "La répétition est déplacée à vendredi" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            },
+            {
+              "id": "co1-q3",
+              "prompt": "Que faut-il apporter ?",
+              "options": [
+                { "id": "a", "text": "Les textes" },
+                { "id": "b", "text": "Des costumes" },
+                { "id": "c", "text": "De la nourriture" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            }
+          ]
+        },
+        {
+          "id": "co-doc2",
+          "title": "Document 2 — Un job d'été",
+          "audio": "audio/exams/delf-b1-02/co-doc2.mp3",
+          "voice": "henri",
+          "listens": 2,
+          "transcript": "— Alors, comment ça se passe, ton job d'été ? — Plutôt bien ! Je travaille dans une librairie, trois jours par semaine. — Et ça te plaît ? — Beaucoup ! J'adore conseiller des livres aux clients. Le seul problème, c'est que je dois me lever très tôt. — Et tu gagnes bien ? — C'est correct, et en plus j'ai une réduction sur tous les livres !",
+          "questions": [
+            {
+              "id": "co2-q1",
+              "prompt": "Où travaille la personne cet été ?",
+              "options": [
+                { "id": "a", "text": "Dans une librairie" },
+                { "id": "b", "text": "Dans un café" },
+                { "id": "c", "text": "Dans un magasin de sport" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            },
+            {
+              "id": "co2-q2",
+              "prompt": "Qu'est-ce qu'elle aime dans ce travail ?",
+              "options": [
+                { "id": "a", "text": "Conseiller des livres aux clients" },
+                { "id": "b", "text": "Ranger les rayons" },
+                { "id": "c", "text": "Travailler seule" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            },
+            {
+              "id": "co2-q3",
+              "prompt": "Quel est le seul inconvénient ?",
+              "options": [
+                { "id": "a", "text": "Devoir se lever très tôt" },
+                { "id": "b", "text": "Un salaire trop bas" },
+                { "id": "c", "text": "Des clients désagréables" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            }
+          ]
+        },
+        {
+          "id": "co-doc3",
+          "title": "Document 3 — Émission : la mode de seconde main",
+          "audio": "audio/exams/delf-b1-02/co-doc3.mp3",
+          "voice": "denise",
+          "listens": 1,
+          "transcript": "Bonjour à tous. Aujourd'hui, nous parlons d'une tendance qui grandit chez les jeunes : la seconde main. De plus en plus d'adolescents achètent leurs vêtements d'occasion, en ligne ou dans des friperies. Pourquoi ce succès ? D'abord, c'est moins cher : on peut s'habiller à la mode sans dépenser beaucoup. Ensuite, c'est plus écologique : acheter d'occasion, c'est éviter de produire de nouveaux vêtements. Notre invitée, Sarah, dix-sept ans, revend aussi ses propres vêtements sur une application. « Ça me permet de gagner un peu d'argent et de faire de la place dans mon armoire », explique-t-elle. Les spécialistes confirment : la seconde main n'est plus ringarde, elle est devenue tendance. Un seul conseil : vérifiez bien l'état des articles avant d'acheter.",
+          "questions": [
+            {
+              "id": "co3-q1",
+              "prompt": "Quel est le sujet de l'émission ?",
+              "options": [
+                { "id": "a", "text": "La mode de seconde main chez les jeunes" },
+                { "id": "b", "text": "L'ouverture de nouveaux magasins de luxe" },
+                { "id": "c", "text": "Le recyclage du plastique" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "co3-q2",
+              "prompt": "Quelle est la première raison du succès ?",
+              "options": [
+                { "id": "a", "text": "C'est moins cher" },
+                { "id": "b", "text": "C'est plus rapide" },
+                { "id": "c", "text": "C'est plus joli" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "co3-q3",
+              "prompt": "Pourquoi est-ce écologique ?",
+              "options": [
+                { "id": "a", "text": "Cela évite de produire de nouveaux vêtements" },
+                { "id": "b", "text": "Cela utilise moins d'eau" },
+                { "id": "c", "text": "Cela crée des emplois" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "co3-q4",
+              "prompt": "Que fait Sarah, l'invitée ?",
+              "options": [
+                { "id": "a", "text": "Elle revend ses vêtements sur une application" },
+                { "id": "b", "text": "Elle ouvre une boutique" },
+                { "id": "c", "text": "Elle fabrique ses vêtements" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            },
+            {
+              "id": "co3-q5",
+              "prompt": "Quel conseil donne-t-on à la fin ?",
+              "options": [
+                { "id": "a", "text": "Vérifier l'état des articles avant d'acheter" },
+                { "id": "b", "text": "Acheter en grande quantité" },
+                { "id": "c", "text": "Acheter seulement des vêtements neufs" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            }
+          ]
+        }
+      ],
+      "texts": [],
+      "tasks": []
+    },
+    {
+      "id": "ce",
+      "skill": "reading",
+      "title": "Compréhension des écrits",
+      "durationMinutes": 45,
+      "points": 25,
+      "eliminatoryBelow": 5,
+      "instructions": "Vous allez lire deux documents et répondre aux questions de compréhension.",
+      "docs": [],
+      "texts": [
+        {
+          "id": "ce-text1",
+          "title": "Document 1 — Chantier de jeunes bénévoles",
+          "passageFr": "CHANTIER DE JEUNES BÉNÉVOLES — CET ÉTÉ\n\nTu as entre 15 et 18 ans et tu veux être utile pendant les vacances ?\n\nRejoins notre chantier : pendant deux semaines, tu participeras à la rénovation d'un vieux château, avec d'autres jeunes venus de toute l'Europe.\n\nLogement et repas sont gratuits. Tu travailles le matin, de 8 h à 13 h, et tu es libre l'après-midi pour visiter la région.\n\nAucune expérience n'est nécessaire, juste de la motivation et l'envie de rencontrer du monde !\n\nInscriptions avant le 15 juin sur notre site.",
+          "questions": [
+            {
+              "id": "ce1-q1",
+              "prompt": "À qui s'adresse ce chantier ?",
+              "options": [
+                { "id": "a", "text": "Aux jeunes de 15 à 18 ans" },
+                { "id": "b", "text": "Aux adultes de plus de 30 ans" },
+                { "id": "c", "text": "Aux enfants de moins de 12 ans" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            },
+            {
+              "id": "ce1-q2",
+              "prompt": "Que vont faire les jeunes pendant le chantier ?",
+              "options": [
+                { "id": "a", "text": "Rénover un vieux château" },
+                { "id": "b", "text": "Planter des arbres en forêt" },
+                { "id": "c", "text": "S'occuper d'animaux" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "ce1-q3",
+              "prompt": "Qu'est-ce qui est gratuit ?",
+              "options": [
+                { "id": "a", "text": "Le logement et les repas" },
+                { "id": "b", "text": "Le transport jusqu'au château" },
+                { "id": "c", "text": "Les visites de la région" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            },
+            {
+              "id": "ce1-q4",
+              "prompt": "Quand les jeunes travaillent-ils ?",
+              "options": [
+                { "id": "a", "text": "Le matin" },
+                { "id": "b", "text": "L'après-midi" },
+                { "id": "c", "text": "Toute la journée" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            },
+            {
+              "id": "ce1-q5",
+              "prompt": "Que faut-il pour participer ?",
+              "options": [
+                { "id": "a", "text": "De la motivation, sans expérience nécessaire" },
+                { "id": "b", "text": "Un diplôme dans le bâtiment" },
+                { "id": "c", "text": "Plusieurs années d'expérience" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            }
+          ]
+        },
+        {
+          "id": "ce-text2",
+          "title": "Document 2 — Faut-il interdire les téléphones au collège ?",
+          "passageFr": "FAUT-IL INTERDIRE LES TÉLÉPHONES AU COLLÈGE ?\n\nDans de nombreux collèges, les téléphones portables sont déjà interdits pendant les cours. Certains voudraient aller plus loin et les interdire totalement, même pendant la récréation.\n\nLes partisans de cette interdiction avancent de bons arguments : sans téléphone, les élèves se parlent davantage, jouent ensemble, et sont moins distraits. Quelques études montrent même que les résultats s'améliorent.\n\nMais d'autres ne sont pas d'accord. Le téléphone, disent-ils, peut être utile : pour prévenir ses parents, pour chercher une information, ou simplement pour se détendre. De plus, interdire complètement quelque chose ne l'a jamais rendu moins attirant.\n\nÀ mon avis, la solution n'est pas l'interdiction totale, mais l'éducation. Apprenons aux jeunes à bien utiliser leur téléphone, plutôt que de le leur retirer complètement.",
+          "questions": [
+            {
+              "id": "ce2-q1",
+              "prompt": "Quel est le sujet de l'article ?",
+              "options": [
+                { "id": "a", "text": "L'interdiction des téléphones au collège" },
+                { "id": "b", "text": "L'achat de téléphones pour les élèves" },
+                { "id": "c", "text": "La réparation des téléphones" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "ce2-q2",
+              "prompt": "Quel argument donnent les partisans de l'interdiction ?",
+              "options": [
+                { "id": "a", "text": "Les élèves se parlent davantage" },
+                { "id": "b", "text": "Les téléphones coûtent trop cher" },
+                { "id": "c", "text": "Les professeurs sont contre" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "ce2-q3",
+              "prompt": "Quel argument donnent les opposants ?",
+              "options": [
+                { "id": "a", "text": "Le téléphone peut être utile" },
+                { "id": "b", "text": "Les élèves sont trop jeunes" },
+                { "id": "c", "text": "Le collège est trop grand" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "ce2-q4",
+              "prompt": "Quelle est l'opinion de l'auteur ?",
+              "options": [
+                { "id": "a", "text": "Éduquer plutôt qu'interdire totalement" },
+                { "id": "b", "text": "Interdire immédiatement et partout" },
+                { "id": "c", "text": "Ne rien changer du tout" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            },
+            {
+              "id": "ce2-q5",
+              "prompt": "« Interdire quelque chose ne l'a jamais rendu moins attirant » signifie que…",
+              "options": [
+                { "id": "a", "text": "l'interdiction peut augmenter l'envie" },
+                { "id": "b", "text": "l'interdiction fonctionne toujours" },
+                { "id": "c", "text": "les élèves obéissent toujours aux règles" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            }
+          ]
+        }
+      ],
+      "tasks": []
+    },
+    {
+      "id": "pe",
+      "skill": "writing",
+      "title": "Production écrite",
+      "durationMinutes": 45,
+      "points": 25,
+      "eliminatoryBelow": 5,
+      "instructions": "Vous traitez le sujet suivant. Respectez le nombre de mots demandé et soignez la structure de votre texte.",
+      "docs": [],
+      "texts": [],
+      "tasks": [
+        {
+          "id": "pe-task1",
+          "kind": "writing",
+          "title": "Essai — donner son opinion",
+          "consigne": "Votre ville veut construire un grand centre commercial à la place d'un parc. Vous écrivez une lettre au journal local pour donner votre opinion : êtes-vous pour ou contre ce projet ? Justifiez votre position avec des arguments et des exemples. (160 mots minimum)",
+          "minWords": 160,
+          "points": 25,
+          "rubric": [
+            { "id": "r-consigne", "label": "Respect de la consigne", "points": 2 },
+            { "id": "r-faits", "label": "Capacité à présenter des faits", "points": 4 },
+            { "id": "r-pensee", "label": "Capacité à exprimer sa pensée", "points": 4 },
+            { "id": "r-coherence", "label": "Cohérence et cohésion", "points": 3 },
+            { "id": "r-lex-etendue", "label": "Étendue du vocabulaire", "points": 2 },
+            { "id": "r-lex-maitrise", "label": "Maîtrise du vocabulaire", "points": 2 },
+            { "id": "r-ortho", "label": "Maîtrise de l'orthographe lexicale", "points": 2 },
+            { "id": "r-phrases", "label": "Degré d'élaboration des phrases", "points": 2 },
+            { "id": "r-temps", "label": "Choix des temps et des modes", "points": 2 },
+            { "id": "r-morpho", "label": "Morphosyntaxe — orthographe grammaticale", "points": 2 }
+          ],
+          "modelAnswer": "Modèle (≈175 mots) :\n\nMadame, Monsieur,\n\nJe vous écris au sujet du projet de centre commercial qui remplacerait le parc municipal. Je suis fermement opposé(e) à cette idée.\n\nTout d'abord, ce parc est l'un des rares espaces verts de notre ville. Les familles y promènent leurs enfants, les personnes âgées s'y reposent, et les jeunes y font du sport. Le supprimer, c'est priver tout le monde d'un lieu de calme et de nature.\n\nEnsuite, nous avons déjà deux centres commerciaux à proximité. Un troisième n'apporterait pas grand-chose, sauf encore plus de circulation et de bruit.\n\nBien sûr, on me dira qu'un centre commercial crée des emplois. C'est vrai, mais on pourrait construire ailleurs, sur un terrain inutilisé, sans détruire la nature.\n\nPour conclure, je pense qu'une ville agréable a besoin d'espaces verts autant que de magasins. Je demande donc à la mairie de renoncer à ce projet.\n\nJe vous remercie de votre attention.\n\nPoints attendus : position claire ; au moins deux arguments ; une objection envisagée puis réfutée ; connecteurs logiques ; formule de lettre."
+        }
+      ]
+    },
+    {
+      "id": "po",
+      "skill": "speaking",
+      "title": "Production orale",
+      "durationMinutes": 15,
+      "prepMinutes": 10,
+      "points": 25,
+      "eliminatoryBelow": 5,
+      "instructions": "L'épreuve comporte trois parties : un entretien dirigé, un exercice en interaction, et un monologue suivi.",
+      "docs": [],
+      "texts": [],
+      "tasks": [
+        {
+          "id": "po-task1",
+          "kind": "speaking",
+          "title": "Partie 1 — Entretien dirigé (sans préparation)",
+          "consigne": "Présentez-vous : parlez de vous, de votre famille, de vos projets pour l'avenir et de ce que vous aimez faire pendant votre temps libre. (2 à 3 minutes)",
+          "points": 9,
+          "rubric": [
+            { "id": "po1-soi", "label": "Peut parler de soi avec une certaine aisance", "points": 2 },
+            { "id": "po1-reagir", "label": "Peut répondre et réagir aux questions", "points": 2 },
+            { "id": "po-ens-lex", "label": "Lexique (étendue et maîtrise) — ensemble de l'épreuve", "points": 3 },
+            { "id": "po-ens-phono", "label": "Maîtrise du système phonologique — ensemble de l'épreuve", "points": 2 }
+          ],
+          "modelAnswer": "Points attendus : se présenter ; parler de sa famille et de ses loisirs ; évoquer un projet d'avenir (« plus tard, je voudrais… ») ; développer ses réponses."
+        },
+        {
+          "id": "po-task2",
+          "kind": "speaking",
+          "title": "Partie 2 — Exercice en interaction (jeu de rôle)",
+          "consigne": "Sujet : Vous voulez convaincre un(e) ami(e) de s'inscrire avec vous à une activité de bénévolat le week-end. Il/elle hésite (manque de temps, fatigue). Vous présentez vos arguments et vous trouvez ensemble une solution. (3 à 4 minutes)",
+          "points": 8,
+          "rubric": [
+            { "id": "po2-situation", "label": "Peut faire face à la situation proposée", "points": 2 },
+            { "id": "po2-negocier", "label": "Peut argumenter, convaincre et négocier", "points": 2 },
+            { "id": "po-ens-morpho", "label": "Morphosyntaxe — ensemble de l'épreuve", "points": 2 },
+            { "id": "po-ens-coh", "label": "Cohérence et fluidité — ensemble de l'épreuve", "points": 2 }
+          ],
+          "modelAnswer": "Points attendus : présenter au moins deux arguments pour le bénévolat ; écouter et répondre aux objections de l'ami ; proposer un compromis (« on commence par un seul samedi par mois »). Formules pour convaincre."
+        },
+        {
+          "id": "po-task3",
+          "kind": "speaking",
+          "title": "Partie 3 — Monologue suivi (à partir d'un document)",
+          "consigne": "Sujet : « Les réseaux sociaux rapprochent les gens autant qu'ils les éloignent. » Donnez votre opinion sur cette affirmation, en l'illustrant d'exemples. Présentez votre point de vue de façon construite. (3 minutes environ)",
+          "documentFr": "« Les réseaux sociaux rapprochent les gens autant qu'ils les éloignent. »",
+          "points": 8,
+          "rubric": [
+            { "id": "po3-pdv", "label": "Peut présenter et défendre un point de vue", "points": 3 },
+            { "id": "po3-relier", "label": "Peut relier ses idées de façon cohérente", "points": 2 },
+            { "id": "po-ens-lex2", "label": "Richesse et correction de la langue — ensemble de l'épreuve", "points": 3 }
+          ],
+          "modelAnswer": "Points attendus : annoncer sa position (nuancée de préférence) ; donner des arguments des deux côtés avec des exemples personnels ; conclure clairement. Connecteurs d'opposition (en revanche, cependant)."
+        }
+      ]
+    }
+  ]
+}
