@@ -10,6 +10,7 @@ import ReviewBrowse from "./pages/ReviewBrowse";
 import Almanac from "./pages/Almanac";
 import ExamHub from "./pages/ExamHub";
 import ExamView from "./pages/ExamView";
+import Grenouille from "./pages/Grenouille";
 import NotFound from "./pages/NotFound";
 
 export default function App() {
@@ -25,6 +26,7 @@ export default function App() {
           <Route path="review" element={<Review />} />
           <Route path="review/browse" element={<ReviewBrowse />} />
           <Route path="almanac" element={<Almanac />} />
+          <Route path="grenouille" element={<Grenouille />} />
           <Route path="exams" element={<ExamHub />} />
           <Route path="exams/:examId" element={<ExamView />} />
           <Route path="*" element={<NotFound />} />

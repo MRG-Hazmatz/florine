@@ -85,3 +85,66 @@ body::after {
 .reveal-anim {
   animation: reveal-rise 0.22s ease-out;
 }
+
+/* ---------------------------------------------------------------------------
+   "La Complainte de la Grenouille" — the hidden frog comic.
+--------------------------------------------------------------------------- */
+
+/* The page-turn. A 3D perspective stage; each panel turns in from its edge,
+   like a leaf of a book swinging toward you. Slow, cinematic ease. */
+.comic-stage {
+  perspective: 1800px;
+}
+@keyframes comic-turn-next {
+  from { transform: rotateY(-92deg); opacity: 0.15; }
+  60% { opacity: 1; }
+  to { transform: rotateY(0deg); opacity: 1; }
+}
+@keyframes comic-turn-prev {
+  from { transform: rotateY(92deg); opacity: 0.15; }
+  60% { opacity: 1; }
+  to { transform: rotateY(0deg); opacity: 1; }
+}
+.comic-page-next {
+  transform-origin: left center;
+  animation: comic-turn-next 0.7s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+.comic-page-prev {
+  transform-origin: right center;
+  animation: comic-turn-prev 0.7s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+/* a soft inner vignette on each scene, for the cinematic plate look */
+.comic-vignette {
+  background: radial-gradient(120% 100% at 50% 35%, transparent 60%, rgba(23, 18, 12, 0.22) 100%);
+}
+
+/* The hidden frogs: a little wobble + a rising "croâ" puff on click. */
+@keyframes frog-croak {
+  0% { transform: scale(1) rotate(0); }
+  30% { transform: scale(1.3) rotate(-8deg); }
+  60% { transform: scale(1.1) rotate(6deg); }
+  100% { transform: scale(1) rotate(0); }
+}
+.frog-croak {
+  animation: frog-croak 0.5s ease-in-out;
+}
+@keyframes frog-puff {
+  from { opacity: 0; transform: translate(-50%, 0) scale(0.8); }
+  30% { opacity: 1; }
+  to { opacity: 0; transform: translate(-50%, -14px) scale(1.1); }
+}
+.frog-puff {
+  animation: frog-puff 0.7s ease-out forwards;
+}
+
+/* Respect reduced-motion: swap the page-turn for a calm cross-fade. */
+@media (prefers-reduced-motion: reduce) {
+  .comic-page-next,
+  .comic-page-prev {
+    transform-origin: center;
+    animation: reveal-rise 0.25s ease-out both;
+  }
+  .frog-croak {
+    animation: none;
+  }
+}

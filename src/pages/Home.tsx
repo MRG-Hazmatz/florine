@@ -5,6 +5,7 @@ import { useProgress, vocabKey } from "../lib/storage/progress";
 import { isDue } from "../lib/srs/sm2";
 import { SKILLS, type Skill } from "../lib/content/schema";
 import GuideStranger from "../components/GuideStranger";
+import FrogSpot from "../components/FrogSpot";
 
 const SKILL_LABELS: Record<Skill, string> = {
   reading: "Reading",
@@ -128,8 +129,9 @@ export default function Home() {
         </ul>
       </div>
 
-      <p className="text-sm text-ink/50">
+      <p className="flex items-center gap-1 text-sm text-ink/50">
         {totalUnits} unit{totalUnits === 1 ? "" : "s"} of content loaded · Phase 2
+        <FrogSpot id="home" />
       </p>
     </section>
   );

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { ALMANAC, almanacEntry } from "../lib/almanac";
 import { strangerUrl } from "../lib/characters";
+import FrogSpot from "../components/FrogSpot";
 
 /**
  * L'Almanach des Inconnus — a suburban-almanac-style index of the app's guide
@@ -18,6 +19,7 @@ export default function Almanac() {
         <p className="mt-1 text-sm text-ink/60">
           The twenty strangers who watch over your lessons. Tap a face; everyone here has a
           story, a favourite word, and far too much time.
+          <FrogSpot id="almanac" className="ml-1 align-middle" />
         </p>
       </header>
 

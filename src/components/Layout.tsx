@@ -1,5 +1,8 @@
 import { Link, NavLink, Outlet, useLocation, useNavigate } from "react-router-dom";
 import { useExamSession } from "../lib/exams/session";
+import { useFrogLore } from "../lib/frogLore";
+import FrogComic from "./FrogComic";
+import Frog from "./frog/Frog";
 
 const navClass = ({ isActive }: { isActive: boolean }) =>
   `px-3 py-1 rounded transition-colors ${
@@ -11,6 +14,8 @@ export default function Layout() {
   const navigate = useNavigate();
   // While a section's clock is live, the exam hall is sealed: no nav, no back.
   const examLive = useExamSession((s) => s.live);
+  const frogUnlocked = useFrogLore((s) => s.unlocked);
+  const openComic = useFrogLore((s) => s.openComic);
   return (
     <div className="min-h-full flex flex-col">
       <header className="sticky top-0 z-50 border-b border-ink/20 bg-parchment/90 backdrop-blur">
@@ -70,13 +75,31 @@ export default function Layout() {
         <Outlet />
       </main>
 
-      <footer className="py-4 text-center text-xs text-ink/55">
-        Florine — open-source DELF & DALF practice ·{" "}
+      <footer className="flex flex-wrap items-center justify-center gap-x-2 gap-y-1 py-4 text-center text-xs text-ink/55">
+        <span>Florine — open-source DELF & DALF practice</span>
+        <span aria-hidden>·</span>
         <Link to="/almanac" className="underline decoration-ink/30 underline-offset-2 hover:text-marine">
           l'Almanach des Inconnus
-        </Link>{" "}
-        · Faces: Francisco Lemos (lemos.itch.io), CC BY 4.0
+        </Link>
+        {frogUnlocked && (
+          <>
+            <span aria-hidden>·</span>
+            <button
+              type="button"
+              onClick={openComic}
+              title="La Complainte de la Grenouille"
+              className="inline-flex items-center gap-1 text-bleu/70 underline decoration-ink/20 underline-offset-2 hover:text-bleu"
+            >
+              <Frog className="h-3.5 w-3.5" />
+              la grenouille
+            </button>
+          </>
+        )}
+        <span aria-hidden>·</span>
+        <span>Faces: Francisco Lemos (lemos.itch.io), CC BY 4.0</span>
       </footer>
+
+      <FrogComic />
     </div>
   );
 }
