@@ -40,6 +40,21 @@ const emptyUnit: UnitProgress = {
   lastVisitedISO: null,
 };
 
+/** Best result on a mock exam paper, keyed by exam id. */
+export interface ExamResult {
+  /** Auto-graded points earned (CO + CE) on the best attempt. */
+  autoPoints: number;
+  /** Total auto-gradable points available across CO + CE. */
+  autoMax: number;
+  /** Self-assessed production points (PE + PO) on the best attempt, or null. */
+  selfPoints: number | null;
+  /** Total /100 (auto + self) when production was self-graded, else null. */
+  total: number | null;
+  passed: boolean | null; // null until production self-graded
+  attempts: number;
+  lastAttemptISO: string;
+}
+
 interface ProgressData {
   version: number;
   unitProgress: Record<string, UnitProgress>; // keyed by unit id
@@ -48,6 +63,7 @@ interface ProgressData {
   streakDays: number;
   lastStudyDate: string | null; // ISO yyyy-mm-dd
   vocab: Record<string, SrsCard>; // SRS cards, keyed by vocabKey()
+  examResults: Record<string, ExamResult>; // best result per exam id
 }
 
 interface ProgressActions {
@@ -63,6 +79,8 @@ interface ProgressActions {
   addVocabCard: (key: string) => void;
   /** Remove a card from the review deck (it stops counting as due). */
   removeVocabCard: (key: string) => void;
+  /** Record a finished mock-exam attempt (keeps the best by total, else by auto). */
+  recordExamResult: (examId: string, r: Omit<ExamResult, "attempts" | "lastAttemptISO">) => void;
   resetAll: () => void;
 }
 
@@ -76,6 +94,7 @@ const initialData: ProgressData = {
   streakDays: 0,
   lastStudyDate: null,
   vocab: {},
+  examResults: {},
 };
 
 export const useProgress = create<ProgressState>()(
@@ -127,6 +146,7 @@ export const useProgress = create<ProgressState>()(
           streakDays: s.streakDays,
           lastStudyDate: s.lastStudyDate,
           vocab: s.vocab,
+          examResults: s.examResults,
         };
         return JSON.stringify(data, null, 2);
       },
@@ -142,6 +162,7 @@ export const useProgress = create<ProgressState>()(
             streakDays: data.streakDays ?? 0,
             lastStudyDate: data.lastStudyDate ?? null,
             vocab: data.vocab ?? {},
+            examResults: data.examResults ?? {},
           });
           return true;
         } catch {
@@ -175,6 +196,21 @@ export const useProgress = create<ProgressState>()(
           const next = { ...s.vocab };
           delete next[key];
           return { vocab: next };
+        }),
+
+      recordExamResult: (examId, r) =>
+        set((s) => {
+          const prev = s.examResults[examId];
+          const prevBest = prev?.total ?? prev?.autoPoints ?? -1;
+          const newBest = r.total ?? r.autoPoints;
+          const attempts = (prev?.attempts ?? 0) + 1;
+          const lastAttemptISO = new Date().toISOString();
+          // Keep the better attempt's scores, but always bump attempts/time.
+          const best: ExamResult =
+            newBest >= prevBest
+              ? { ...r, attempts, lastAttemptISO }
+              : { ...prev!, attempts, lastAttemptISO };
+          return { examResults: { ...s.examResults, [examId]: best } };
         }),
 
       resetAll: () => set({ ...initialData }),

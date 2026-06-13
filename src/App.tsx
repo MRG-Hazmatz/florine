@@ -8,6 +8,8 @@ import ExerciseView from "./pages/ExerciseView";
 import Review from "./pages/Review";
 import ReviewBrowse from "./pages/ReviewBrowse";
 import Almanac from "./pages/Almanac";
+import ExamHub from "./pages/ExamHub";
+import ExamView from "./pages/ExamView";
 import NotFound from "./pages/NotFound";
 
 export default function App() {
@@ -23,6 +25,8 @@ export default function App() {
           <Route path="review" element={<Review />} />
           <Route path="review/browse" element={<ReviewBrowse />} />
           <Route path="almanac" element={<Almanac />} />
+          <Route path="exams" element={<ExamHub />} />
+          <Route path="exams/:examId" element={<ExamView />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>

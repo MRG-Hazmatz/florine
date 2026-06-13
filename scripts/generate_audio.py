@@ -63,6 +63,17 @@ def collect_jobs(unit_filter: str | None) -> list[tuple[str, str, Path]]:
             for ex in _load(ex_path).get("exercises", []):
                 if ex.get("type") == "listen" and ex.get("audio") and ex.get("transcript"):
                     jobs.append((ex["transcript"], VOICES[DEFAULT_VOICE], PUBLIC_DIR / ex["audio"]))
+
+    # Exam papers: every listening document in content/exams/*/exam.json.
+    for exam_path in sorted((CONTENT_DIR / "exams").glob("*/exam.json")):
+        exam = _load(exam_path)
+        if unit_filter and exam.get("id") != unit_filter:
+            continue
+        for section in exam.get("sections", []):
+            for doc in section.get("docs", []):
+                if doc.get("audio") and doc.get("transcript"):
+                    voice = VOICES.get(doc.get("voice", DEFAULT_VOICE), VOICES[DEFAULT_VOICE])
+                    jobs.append((doc["transcript"], voice, PUBLIC_DIR / doc["audio"]))
     return jobs
 
 
