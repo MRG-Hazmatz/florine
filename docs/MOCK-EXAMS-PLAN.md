@@ -69,3 +69,21 @@ Section anatomy (new format):
 2. Remaining DELF B1 papers (×2 more), then B2 ×3, A2 ×2, A1 ×2.
 3. DALF C1 ×5, C2 ×5 (after C-level units exist, so the lexicon matches).
 4. Native review pass flagged for every paper (same `pending_review` discipline).
+
+## STATUS — COMPLETE (2026-06-13)
+All 20 papers built, validated (`scripts/validate_exams.py`, every paper /100)
+and committed: **DELF** A1×2, A2×2, B1×3, B2×3 + **DALF** C1×5, C2×5.
+Simulator built and browser-verified end to end:
+- `examSchema` + loader; `ExamRunner` state machine (intro → per-section
+  briefings → timed sections → correction).
+- Exam-hall enforcement: fullscreen + invigilation log (tab-blur,
+  fullscreen-exit, copy/paste/contextmenu blocked), per-section countdowns
+  that auto-advance, `beforeunload` guard, and a **sealed hall** (nav + back
+  button hidden while a section's clock runs, via `useExamSession`).
+- `/100` score sheet with per-épreuve eliminatory flags, invigilation-event
+  count, and self-grading sliders for PE/PO that recompute the total live;
+  best result persisted per exam id.
+- Exam hub credits delfdalf.fr as the format reference.
+Audio: all CO listening docs generated with edge-tts.
+Remaining (deferred, non-blocking): native-speaker review pass on the papers
+(Kim), same discipline as the units.
