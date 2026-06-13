@@ -1,0 +1,359 @@
+{
+  "schemaVersion": 1,
+  "id": "dalf-c1-04",
+  "family": "DALF",
+  "examName": "DALF C1",
+  "levelKey": "c1",
+  "paper": 4,
+  "title": "Sujet blanc nº 4",
+  "description": "Examen blanc complet au format officiel : 4 épreuves, /100, admis à partir de 50/100. Note éliminatoire en dessous de 5/25 par épreuve. La production écrite combine une synthèse et un essai argumenté.",
+  "passMark": 50,
+  "sections": [
+    {
+      "id": "co",
+      "skill": "listening",
+      "title": "Compréhension de l'oral",
+      "durationMinutes": 40,
+      "points": 25,
+      "eliminatoryBelow": 5,
+      "instructions": "Vous allez entendre deux documents. Le document long est diffusé deux fois ; le document court est diffusé une fois.",
+      "docs": [
+        {
+          "id": "co-doc1",
+          "title": "Document 1 — Conférence : l'égalité des chances à l'école",
+          "audio": "audio/exams/dalf-c1-04/co-doc1.mp3",
+          "voice": "denise",
+          "listens": 2,
+          "transcript": "Bonsoir. L'école de la République promet à chaque enfant les mêmes chances de réussir, quelle que soit son origine. Mais cette promesse est-elle tenue ? Les études sont malheureusement claires : en France, l'origine sociale reste l'un des facteurs qui pèsent le plus sur la réussite scolaire. Un enfant de cadre a beaucoup plus de chances d'obtenir un diplôme supérieur qu'un enfant d'ouvrier. Comment l'expliquer ? Les raisons sont multiples. D'abord, tout ne se joue pas à l'école : un enfant entouré de livres, à qui l'on parle beaucoup, arrive en classe avec une avance invisible mais bien réelle. Ensuite, le système lui-même peut creuser les écarts : les familles informées savent choisir les bons établissements, les bonnes options, là où d'autres ignorent ces stratégies. Faut-il pour autant baisser les bras ? Certainement pas. Des solutions existent et fonctionnent. Le soutien scolaire gratuit, le tutorat par des étudiants, l'ouverture culturelle, la mixité sociale dans les classes : autant de leviers qui réduisent les inégalités. Mais cela demande des moyens et, surtout, une volonté constante. Car l'égalité des chances n'est pas un état que l'on atteint une fois pour toutes ; c'est un combat de chaque instant. Et c'est peut-être la mission la plus importante de l'école : non pas reproduire la société telle qu'elle est, mais offrir à chacun la possibilité de la dépasser. Je vous remercie.",
+          "questions": [
+            {
+              "id": "co1-q1",
+              "prompt": "Que promet l'école de la République ?",
+              "options": [
+                { "id": "a", "text": "Les mêmes chances de réussir à chaque enfant" },
+                { "id": "b", "text": "La gratuité de toutes les fournitures" },
+                { "id": "c", "text": "Des vacances plus longues" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "co1-q2",
+              "prompt": "Que montrent les études en France ?",
+              "options": [
+                { "id": "a", "text": "L'origine sociale pèse fortement sur la réussite scolaire" },
+                { "id": "b", "text": "Tous les élèves réussissent de la même façon" },
+                { "id": "c", "text": "L'école ne sert à rien" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "co1-q3",
+              "prompt": "Quelle première raison l'orateur donne-t-il ?",
+              "options": [
+                { "id": "a", "text": "Un enfant entouré de livres arrive avec une avance" },
+                { "id": "b", "text": "Les professeurs sont mal formés" },
+                { "id": "c", "text": "Les écoles sont trop petites" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "co1-q4",
+              "prompt": "Quel levier contre les inégalités est cité ?",
+              "options": [
+                { "id": "a", "text": "Le tutorat et le soutien scolaire gratuit" },
+                { "id": "b", "text": "La suppression de toutes les notes" },
+                { "id": "c", "text": "L'allongement de la journée de cours" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "co1-q5",
+              "prompt": "Selon l'orateur, l'égalité des chances est…",
+              "options": [
+                { "id": "a", "text": "un combat de chaque instant" },
+                { "id": "b", "text": "un état atteint une fois pour toutes" },
+                { "id": "c", "text": "une utopie totalement impossible" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            }
+          ]
+        },
+        {
+          "id": "co-doc2",
+          "title": "Document 2 — Un programme de parrainage",
+          "audio": "audio/exams/dalf-c1-04/co-doc2.mp3",
+          "voice": "henri",
+          "listens": 1,
+          "transcript": "En bref, dans le domaine de l'éducation. Une association lance un programme original de parrainage : des professionnels en activité — ingénieurs, médecins, artisans, chefs d'entreprise — acceptent d'accompagner, pendant un an, des lycéens issus de quartiers défavorisés. Au programme : des rencontres, des visites d'entreprises, des conseils pour l'orientation. L'objectif n'est pas de faire le travail à la place des jeunes, mais de leur ouvrir des portes et de leur montrer des métiers auxquels ils n'auraient jamais pensé. Les premiers résultats sont encourageants : la plupart des lycéens accompagnés disent avoir gagné en confiance.",
+          "questions": [
+            {
+              "id": "co2-q1",
+              "prompt": "Que lance cette association ?",
+              "options": [
+                { "id": "a", "text": "Un programme de parrainage" },
+                { "id": "b", "text": "Un concours de mathématiques" },
+                { "id": "c", "text": "Une nouvelle école privée" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "co2-q2",
+              "prompt": "Qui accompagne les lycéens ?",
+              "options": [
+                { "id": "a", "text": "Des professionnels en activité" },
+                { "id": "b", "text": "D'autres lycéens du même âge" },
+                { "id": "c", "text": "Des programmes informatiques" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "co2-q3",
+              "prompt": "Quel est l'objectif principal ?",
+              "options": [
+                { "id": "a", "text": "Ouvrir des portes et montrer des métiers" },
+                { "id": "b", "text": "Faire le travail à la place des jeunes" },
+                { "id": "c", "text": "Les faire travailler gratuitement" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            },
+            {
+              "id": "co2-q4",
+              "prompt": "Quel premier résultat est observé ?",
+              "options": [
+                { "id": "a", "text": "Les lycéens ont gagné en confiance" },
+                { "id": "b", "text": "Leurs notes ont immédiatement explosé" },
+                { "id": "c", "text": "Rien n'a changé du tout" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            }
+          ]
+        }
+      ],
+      "texts": [],
+      "tasks": []
+    },
+    {
+      "id": "ce",
+      "skill": "reading",
+      "title": "Compréhension des écrits",
+      "durationMinutes": 50,
+      "points": 25,
+      "eliminatoryBelow": 5,
+      "instructions": "Vous allez lire deux textes longs et répondre aux questions de compréhension.",
+      "docs": [],
+      "texts": [
+        {
+          "id": "ce-text1",
+          "title": "Document 1 — Choisir son métier : la grande angoisse",
+          "passageFr": "CHOISIR SON MÉTIER : LA GRANDE ANGOISSE\n\nÀ quinze ou seize ans, on demande déjà aux adolescents de choisir leur voie, parfois pour toute leur vie. Pour beaucoup, ce choix est une source d'angoisse. Comment savoir ce que l'on veut faire alors qu'on connaît si peu le monde du travail ?\n\nLe problème est réel. Les jeunes choisissent souvent leur orientation à partir d'une information très partielle : quelques métiers connus, ceux de leurs parents, ceux que montre la télévision. Des centaines de professions passionnantes restent, elles, totalement invisibles.\n\nÀ cela s'ajoute la pression. Pression des notes, qui ferment certaines portes ; pression des familles, qui rêvent parfois pour leurs enfants d'un métier prestigieux ; pression de la société, qui valorise certaines voies et en méprise d'autres, souvent injustement.\n\nPourtant, une idée mériterait d'être rappelée aux jeunes : un premier choix n'est pas une condamnation à perpétuité. Aujourd'hui, on change plusieurs fois de métier au cours d'une vie. L'important n'est donc pas de trouver « le » métier parfait du premier coup, mais d'apprendre à se connaître, à rester curieux, et à savoir rebondir.",
+          "questions": [
+            {
+              "id": "ce1-q1",
+              "prompt": "Quel est le sujet de l'article ?",
+              "options": [
+                { "id": "a", "text": "Le choix de l'orientation et du métier" },
+                { "id": "b", "text": "Le coût des études supérieures" },
+                { "id": "c", "text": "L'organisation des vacances scolaires" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "ce1-q2",
+              "prompt": "Pourquoi les jeunes choisissent-ils mal, selon l'article ?",
+              "options": [
+                { "id": "a", "text": "Ils disposent d'une information très partielle" },
+                { "id": "b", "text": "Ils sont fondamentalement paresseux" },
+                { "id": "c", "text": "Ils n'écoutent jamais personne" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "ce1-q3",
+              "prompt": "Quelles pressions l'article mentionne-t-il ?",
+              "options": [
+                { "id": "a", "text": "Celles des notes, des familles et de la société" },
+                { "id": "b", "text": "Celles du climat et de la météo" },
+                { "id": "c", "text": "Celles des transports en commun" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "ce1-q4",
+              "prompt": "Quelle idée mériterait d'être rappelée aux jeunes ?",
+              "options": [
+                { "id": "a", "text": "Un premier choix n'est pas définitif" },
+                { "id": "b", "text": "Il faut choisir le plus vite possible" },
+                { "id": "c", "text": "Le métier des parents est toujours le meilleur" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            },
+            {
+              "id": "ce1-q5",
+              "prompt": "Quel est l'essentiel, selon l'auteur ?",
+              "options": [
+                { "id": "a", "text": "Apprendre à se connaître et savoir rebondir" },
+                { "id": "b", "text": "Gagner le plus d'argent possible" },
+                { "id": "c", "text": "Suivre la dernière mode" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            }
+          ]
+        },
+        {
+          "id": "ce-text2",
+          "title": "Document 2 — Et si on faisait classe dehors ?",
+          "passageFr": "ET SI ON FAISAIT CLASSE DEHORS ?\n\nDepuis quelques années, de plus en plus d'enseignants sortent de leur salle pour faire cours dans la nature : dans un parc, une forêt, un jardin. Cette pratique, appelée « classe dehors », séduit, mais surprend encore.\n\nSes défenseurs avancent de nombreux bénéfices. Apprendre dehors, c'est apprendre autrement : on observe les saisons, on touche, on mesure, on bouge. Les élèves les plus agités se concentrent parfois mieux, et tous redécouvrent un lien avec la nature que la vie moderne a distendu. Plusieurs études signalent aussi des effets positifs sur l'attention et le bien-être.\n\nMais la classe dehors n'est pas sans contraintes. Tout n'est pas enseignable dans un parc, la météo s'en mêle, et cette pratique demande aux enseignants une préparation et une énergie supplémentaires. Sans cadre précis, une sortie peut vite tourner à la simple récréation.\n\nLa classe dehors n'a donc pas vocation à remplacer la salle de classe, mais à la compléter. Quelques heures par semaine, au contact du vivant, suffisent peut-être à rappeler une évidence : on n'apprend pas seulement avec sa tête, mais avec tout son corps.",
+          "questions": [
+            {
+              "id": "ce2-q1",
+              "prompt": "Qu'est-ce que la « classe dehors » ?",
+              "options": [
+                { "id": "a", "text": "Faire cours dans la nature" },
+                { "id": "b", "text": "Étudier uniquement la météo" },
+                { "id": "c", "text": "Faire du sport à la place des cours" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "ce2-q2",
+              "prompt": "Quel bénéfice est avancé par ses défenseurs ?",
+              "options": [
+                { "id": "a", "text": "Les élèves agités se concentrent parfois mieux" },
+                { "id": "b", "text": "Les cours deviennent beaucoup plus courts" },
+                { "id": "c", "text": "On ne fait plus jamais d'exercices" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "ce2-q3",
+              "prompt": "Quelle contrainte est mentionnée ?",
+              "options": [
+                { "id": "a", "text": "La météo et une préparation supplémentaire" },
+                { "id": "b", "text": "Le prix d'entrée des parcs" },
+                { "id": "c", "text": "Le manque d'élèves volontaires" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "ce2-q4",
+              "prompt": "Quelle est la conclusion de l'auteur ?",
+              "options": [
+                { "id": "a", "text": "La classe dehors complète la salle, sans la remplacer" },
+                { "id": "b", "text": "Il faut supprimer toutes les salles de classe" },
+                { "id": "c", "text": "C'est une mode tout à fait inutile" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            }
+          ]
+        }
+      ],
+      "tasks": []
+    },
+    {
+      "id": "pe",
+      "skill": "writing",
+      "title": "Production écrite",
+      "durationMinutes": 150,
+      "points": 25,
+      "eliminatoryBelow": 5,
+      "instructions": "L'épreuve comporte deux exercices : une synthèse de documents, puis un essai argumenté.",
+      "docs": [],
+      "texts": [],
+      "tasks": [
+        {
+          "id": "pe-synthese",
+          "kind": "writing",
+          "title": "Exercice 1 — Synthèse de documents (≈ 220 mots)",
+          "consigne": "Vous ferez une synthèse des deux documents proposés, en 220 mots environ. Vous dégagerez les idées essentielles et vous les confronterez, SANS donner votre opinion personnelle et SANS recopier les textes. Donnez un titre à votre synthèse.",
+          "documentFr": "DOCUMENT 1\nPour ses défenseurs, le redoublement reste utile : il offre à un élève en difficulté une seconde chance, une année supplémentaire pour consolider des bases fragiles avant de poursuivre. Faire passer coûte que coûte un élève qui ne maîtrise pas l'essentiel, disent-ils, c'est l'envoyer vers de nouvelles difficultés, plus grandes encore.\n\nDOCUMENT 2\nMais de nombreuses études remettent en cause son efficacité. Refaire à l'identique une année déjà ratée décourage souvent l'élève plus qu'elle ne l'aide, et le sentiment d'échec peut le marquer durablement. D'autres pays préfèrent un accompagnement personnalisé tout au long de l'année, plutôt que de faire recommencer.",
+          "points": 13,
+          "rubric": [
+            { "id": "r-respect", "label": "Respect de la consigne (nature de la synthèse, longueur, titre)", "points": 2 },
+            { "id": "r-degager", "label": "Capacité à dégager et confronter les idées essentielles", "points": 4 },
+            { "id": "r-reformuler", "label": "Capacité à reformuler (pas de copie) et à structurer", "points": 4 },
+            { "id": "r-coherence", "label": "Cohérence et cohésion", "points": 1 },
+            { "id": "r-langue", "label": "Compétence linguistique (lexique, grammaire)", "points": 2 }
+          ],
+          "modelAnswer": "Points attendus : un titre ; une introduction dégageant le thème commun (l'efficacité du redoublement face à l'échec scolaire) ; un développement qui CONFRONTE l'argument de la seconde chance et la critique du découragement / des alternatives personnalisées ; aucune opinion personnelle ; aucune copie ; ≈ 220 mots ; connecteurs de confrontation."
+        },
+        {
+          "id": "pe-essai",
+          "kind": "writing",
+          "title": "Exercice 2 — Essai argumenté (≈ 250 mots)",
+          "consigne": "Dans un essai argumenté d'environ 250 mots, vous répondrez à la question suivante : « Le redoublement est-il une bonne solution face à l'échec scolaire ? » Vous prendrez position et défendrez votre point de vue de manière structurée et nuancée.",
+          "minWords": 250,
+          "points": 12,
+          "rubric": [
+            { "id": "r-consigne2", "label": "Respect de la consigne (essai argumenté, longueur)", "points": 2 },
+            { "id": "r-argumenter", "label": "Capacité à argumenter et à nuancer", "points": 4 },
+            { "id": "r-coherence2", "label": "Cohérence et cohésion (plan, connecteurs)", "points": 2 },
+            { "id": "r-lex", "label": "Compétence lexicale", "points": 2 },
+            { "id": "r-gram", "label": "Compétence grammaticale (morphosyntaxe)", "points": 2 }
+          ],
+          "modelAnswer": "Points attendus : introduction posant la problématique ; développement dialectique (le redoublement peut aider certains élèves bien accompagnés ; mais répété à l'identique, il décourage et stigmatise ; des alternatives existent) ; position personnelle nuancée ; conclusion qui tranche et ouvre. Opinion personnelle attendue."
+        }
+      ]
+    },
+    {
+      "id": "po",
+      "skill": "speaking",
+      "title": "Production orale",
+      "durationMinutes": 30,
+      "prepMinutes": 60,
+      "points": 25,
+      "eliminatoryBelow": 5,
+      "instructions": "Après une heure de préparation, vous présenterez un exposé à partir du dossier, puis vous débattrez avec l'examinateur.",
+      "docs": [],
+      "texts": [],
+      "tasks": [
+        {
+          "id": "po-expose",
+          "kind": "speaking",
+          "title": "Partie 1 — Exposé (monologue argumenté)",
+          "consigne": "À partir du dossier ci-dessous, dégagez la problématique, puis présentez un exposé structuré (environ 8 à 10 minutes) qui expose et défend votre point de vue.",
+          "documentFr": "DOSSIER — « Faut-il enseigner le code informatique dès l'école primaire ? »\n\nDocument A : Certains réclament que l'on enseigne la programmation informatique dès l'école primaire, au même titre que la lecture ou le calcul. À l'ère du numérique, comprendre comment fonctionne un programme serait, selon eux, une compétence aussi essentielle que les autres.\n\nDocument B : D'autres s'interrogent : faut-il vraiment ajouter une matière à des emplois du temps déjà chargés ? Et l'école n'a-t-elle pas pour mission première de transmettre des savoirs durables, plutôt que des outils techniques qui seront peut-être dépassés dans dix ans ?",
+          "points": 13,
+          "rubric": [
+            { "id": "po1-problematique", "label": "Peut dégager la problématique du dossier", "points": 3 },
+            { "id": "po1-expose", "label": "Peut présenter un exposé structuré et argumenté", "points": 5 },
+            { "id": "po-ens-lex", "label": "Étendue et maîtrise du lexique — ensemble de l'épreuve", "points": 3 },
+            { "id": "po-ens-phono", "label": "Maîtrise phonologique — ensemble de l'épreuve", "points": 2 }
+          ],
+          "modelAnswer": "Points attendus : reformuler la problématique (compétence essentielle du numérique vs surcharge et savoirs durables) ; annoncer un plan ; exposé organisé qui confronte les positions et défend un point de vue nuancé ; exemples ; discours fluide."
+        },
+        {
+          "id": "po-debat",
+          "kind": "speaking",
+          "title": "Partie 2 — Débat / entretien avec l'examinateur",
+          "consigne": "L'examinateur vous posera des questions, demandera des précisions et défendra parfois un point de vue opposé. Défendez et nuancez votre position. (environ 10 minutes)",
+          "points": 12,
+          "rubric": [
+            { "id": "po2-defendre", "label": "Peut défendre et nuancer son point de vue face aux objections", "points": 4 },
+            { "id": "po2-interagir", "label": "Peut interagir, relancer et réagir spontanément", "points": 3 },
+            { "id": "po-ens-morpho", "label": "Morphosyntaxe — ensemble de l'épreuve", "points": 3 },
+            { "id": "po-ens-aisance", "label": "Aisance et fluidité — ensemble de l'épreuve", "points": 2 }
+          ],
+          "modelAnswer": "Points attendus : répondre aux objections avec précision ; concéder puis rebondir ; nuancer ; relancer ; lexique riche et syntaxe complexe."
+        }
+      ]
+    }
+  ]
+}

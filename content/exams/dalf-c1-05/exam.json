@@ -1,0 +1,359 @@
+{
+  "schemaVersion": 1,
+  "id": "dalf-c1-05",
+  "family": "DALF",
+  "examName": "DALF C1",
+  "levelKey": "c1",
+  "paper": 5,
+  "title": "Sujet blanc nº 5",
+  "description": "Examen blanc complet au format officiel : 4 épreuves, /100, admis à partir de 50/100. Note éliminatoire en dessous de 5/25 par épreuve. La production écrite combine une synthèse et un essai argumenté.",
+  "passMark": 50,
+  "sections": [
+    {
+      "id": "co",
+      "skill": "listening",
+      "title": "Compréhension de l'oral",
+      "durationMinutes": 40,
+      "points": 25,
+      "eliminatoryBelow": 5,
+      "instructions": "Vous allez entendre deux documents. Le document long est diffusé deux fois ; le document court est diffusé une fois.",
+      "docs": [
+        {
+          "id": "co-doc1",
+          "title": "Document 1 — Conférence : le sucre caché",
+          "audio": "audio/exams/dalf-c1-05/co-doc1.mp3",
+          "voice": "denise",
+          "listens": 2,
+          "transcript": "Bonsoir. Ce soir, parlons de quelque chose que nous consommons tous, souvent sans le savoir : le sucre. Pas seulement celui que l'on met dans son café, mais le sucre caché dans les aliments industriels. Saviez-vous qu'on en trouve dans les plats salés, les sauces, le pain de mie, et bien sûr dans les boissons ? Pourquoi tant de sucre ? Pour une raison simple : il plaît. Le sucre flatte notre goût, nous procure un plaisir immédiat, et l'industrie l'a bien compris : plus un produit est sucré, plus il se vend. Le problème, c'est que cette surconsommation a des effets sérieux sur la santé : surpoids, diabète, maladies du cœur. Et le plus inquiétant, c'est que nous nous y habituons : à force de manger sucré, notre palais réclame toujours plus de sucre pour ressentir le même plaisir. Faut-il pour autant culpabiliser ? Non. La culpabilité individuelle est une fausse piste. Le vrai levier est collectif : informer clairement les consommateurs, par exemple avec des étiquettes simples et lisibles ; encourager l'industrie à réduire le sucre dans ses recettes ; et apprendre, dès l'école, à cuisiner et à lire les étiquettes. Manger est un plaisir, et doit le rester. L'enjeu n'est pas d'interdire le sucre, mais de retrouver la liberté de choisir en connaissance de cause. Je vous remercie.",
+          "questions": [
+            {
+              "id": "co1-q1",
+              "prompt": "De quoi parle la conférence ?",
+              "options": [
+                { "id": "a", "text": "Du sucre caché dans les aliments industriels" },
+                { "id": "b", "text": "Du sel dans la cuisine" },
+                { "id": "c", "text": "Des matières grasses uniquement" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "co1-q2",
+              "prompt": "Pourquoi l'industrie met-elle autant de sucre ?",
+              "options": [
+                { "id": "a", "text": "Parce qu'il plaît et fait vendre" },
+                { "id": "b", "text": "Parce qu'il coûte très cher" },
+                { "id": "c", "text": "Parce que la loi l'oblige" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "co1-q3",
+              "prompt": "Quel effet inquiétant l'orateur souligne-t-il ?",
+              "options": [
+                { "id": "a", "text": "On s'habitue et on réclame toujours plus de sucre" },
+                { "id": "b", "text": "On dort beaucoup moins" },
+                { "id": "c", "text": "On mange beaucoup plus lentement" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "co1-q4",
+              "prompt": "Que pense l'orateur de la culpabilité individuelle ?",
+              "options": [
+                { "id": "a", "text": "C'est une fausse piste" },
+                { "id": "b", "text": "C'est la meilleure solution" },
+                { "id": "c", "text": "C'est absolument nécessaire" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "co1-q5",
+              "prompt": "Quel levier collectif l'orateur propose-t-il ?",
+              "options": [
+                { "id": "a", "text": "Informer avec des étiquettes claires et lisibles" },
+                { "id": "b", "text": "Augmenter le prix des fruits" },
+                { "id": "c", "text": "Fermer les supermarchés" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            }
+          ]
+        },
+        {
+          "id": "co-doc2",
+          "title": "Document 2 — Le sport sur ordonnance",
+          "audio": "audio/exams/dalf-c1-05/co-doc2.mp3",
+          "voice": "henri",
+          "listens": 1,
+          "transcript": "En bref, du côté de la santé. De plus en plus de médecins peuvent désormais prescrire… du sport. Sur ordonnance, comme un médicament. L'idée part d'un constat : l'activité physique régulière aide à prévenir et à soigner de nombreuses maladies, parfois aussi efficacement que certains traitements. Dans plusieurs villes, des patients atteints de diabète ou de maladies chroniques bénéficient de séances encadrées par des professionnels, parfois prises en charge par la commune. Les retours sont très positifs : non seulement la santé s'améliore, mais le moral aussi. Le sport, rappelle un médecin, n'est pas réservé aux sportifs : c'est d'abord un soin.",
+          "questions": [
+            {
+              "id": "co2-q1",
+              "prompt": "Que peuvent désormais prescrire certains médecins ?",
+              "options": [
+                { "id": "a", "text": "Du sport, sur ordonnance" },
+                { "id": "b", "text": "Des vacances à la mer" },
+                { "id": "c", "text": "De tout nouveaux médicaments" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "co2-q2",
+              "prompt": "Sur quel constat repose cette idée ?",
+              "options": [
+                { "id": "a", "text": "L'activité physique aide à prévenir et à soigner des maladies" },
+                { "id": "b", "text": "Le sport coûte trop cher" },
+                { "id": "c", "text": "Les médicaments sont tous inutiles" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "co2-q3",
+              "prompt": "Qui en bénéficie ?",
+              "options": [
+                { "id": "a", "text": "Des patients atteints de maladies chroniques" },
+                { "id": "b", "text": "Uniquement les sportifs de haut niveau" },
+                { "id": "c", "text": "Seulement les jeunes enfants" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            },
+            {
+              "id": "co2-q4",
+              "prompt": "Quel autre effet positif est observé ?",
+              "options": [
+                { "id": "a", "text": "Le moral s'améliore aussi" },
+                { "id": "b", "text": "Les patients dépensent moins d'argent" },
+                { "id": "c", "text": "Le sommeil disparaît complètement" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            }
+          ]
+        }
+      ],
+      "texts": [],
+      "tasks": []
+    },
+    {
+      "id": "ce",
+      "skill": "reading",
+      "title": "Compréhension des écrits",
+      "durationMinutes": 50,
+      "points": 25,
+      "eliminatoryBelow": 5,
+      "instructions": "Vous allez lire deux textes longs et répondre aux questions de compréhension.",
+      "docs": [],
+      "texts": [
+        {
+          "id": "ce-text1",
+          "title": "Document 1 — Trop d'informations tue l'information",
+          "passageFr": "TROP D'INFORMATIONS TUE L'INFORMATION\n\nNous n'avons jamais eu accès à autant d'informations. À toute heure, sur nos téléphones, les nouvelles affluent : alertes, notifications, fils d'actualité sans fin. Paradoxalement, ce flot permanent ne nous rend pas mieux informés. Il nous épuise.\n\nLes spécialistes parlent de « fatigue informationnelle ». À force d'être bombardé de nouvelles, souvent négatives et anxiogènes, le cerveau sature. On lit tout, on ne retient rien. Pire : on finit parfois par se détourner complètement de l'information, par lassitude ou par découragement.\n\nÀ cela s'ajoute une difficulté : comment distinguer, dans ce flot, l'essentiel de l'accessoire, le vrai du faux ? Tout est présenté avec la même urgence, le même ton dramatique, qu'il s'agisse d'un événement majeur ou d'un fait divers sans importance.\n\nFace à cela, certains choisissent de ralentir. Plutôt que de suivre l'actualité en continu, ils s'informent une fois par jour, à partir de quelques sources fiables, et coupent les notifications. Une démarche qui ressemble à une hygiène de vie : pour rester bien informé, il faut peut-être, d'abord, apprendre à se déconnecter.",
+          "questions": [
+            {
+              "id": "ce1-q1",
+              "prompt": "Quel paradoxe l'article souligne-t-il ?",
+              "options": [
+                { "id": "a", "text": "Avoir accès à plus d'informations ne nous rend pas mieux informés" },
+                { "id": "b", "text": "Les journaux papier ont tous disparu" },
+                { "id": "c", "text": "L'information est devenue trop chère" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "ce1-q2",
+              "prompt": "Qu'est-ce que la « fatigue informationnelle » ?",
+              "options": [
+                { "id": "a", "text": "Le cerveau sature à force d'être bombardé de nouvelles" },
+                { "id": "b", "text": "Une maladie des yeux due aux écrans" },
+                { "id": "c", "text": "Un manque total d'informations" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "ce1-q3",
+              "prompt": "Quelle conséquence extrême est citée ?",
+              "options": [
+                { "id": "a", "text": "Se détourner complètement de l'information" },
+                { "id": "b", "text": "Lire uniquement des romans" },
+                { "id": "c", "text": "Acheter beaucoup plus de journaux" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            },
+            {
+              "id": "ce1-q4",
+              "prompt": "Quelle difficulté supplémentaire est mentionnée ?",
+              "options": [
+                { "id": "a", "text": "Distinguer l'essentiel de l'accessoire et le vrai du faux" },
+                { "id": "b", "text": "Payer son abonnement à temps" },
+                { "id": "c", "text": "Comprendre les langues étrangères" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "ce1-q5",
+              "prompt": "Quelle solution certains adoptent-ils ?",
+              "options": [
+                { "id": "a", "text": "S'informer une fois par jour à partir de sources fiables" },
+                { "id": "b", "text": "Ne plus jamais s'informer" },
+                { "id": "c", "text": "Croire absolument tout ce qu'ils lisent" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            }
+          ]
+        },
+        {
+          "id": "ce-text2",
+          "title": "Document 2 — L'automédication : pratique anodine ?",
+          "passageFr": "L'AUTOMÉDICATION : PRATIQUE ANODINE ?\n\nPrendre un médicament sans consulter de médecin : c'est ce que l'on appelle l'automédication. Pour un simple mal de tête ou un rhume, la pratique est courante, et souvent sans danger. Mais elle n'est pas sans risques.\n\nSes partisans soulignent ses avantages. Elle responsabilise le patient, lui fait gagner du temps et évite d'encombrer les cabinets médicaux pour des maux bénins. Bien utilisée, elle soulage rapidement de petits problèmes du quotidien.\n\nMais les médecins appellent à la prudence. Un médicament n'est jamais totalement anodin : mal employé, à la mauvaise dose ou en mauvaise association, il peut être inefficace, voire dangereux. Surtout, se soigner seul peut conduire à ignorer un symptôme grave : un mal de ventre que l'on calme avec un comprimé peut parfois cacher une maladie sérieuse.\n\nL'automédication n'est donc ni à diaboliser, ni à pratiquer à la légère. La règle d'or est simple : se limiter à des maux bénins et passagers, respecter scrupuleusement les doses, et, au moindre doute ou en cas de symptômes qui durent, consulter un professionnel.",
+          "questions": [
+            {
+              "id": "ce2-q1",
+              "prompt": "Qu'est-ce que l'automédication ?",
+              "options": [
+                { "id": "a", "text": "Prendre un médicament sans consulter de médecin" },
+                { "id": "b", "text": "Refuser tout médicament" },
+                { "id": "c", "text": "Fabriquer soi-même ses médicaments" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "ce2-q2",
+              "prompt": "Quel avantage ses partisans soulignent-ils ?",
+              "options": [
+                { "id": "a", "text": "Elle responsabilise le patient et fait gagner du temps" },
+                { "id": "b", "text": "Elle guérit toutes les maladies graves" },
+                { "id": "c", "text": "Elle est obligatoire pour tous" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "ce2-q3",
+              "prompt": "À quoi les médecins appellent-ils ?",
+              "options": [
+                { "id": "a", "text": "À la prudence" },
+                { "id": "b", "text": "À l'interdiction totale" },
+                { "id": "c", "text": "À l'indifférence complète" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "ce2-q4",
+              "prompt": "Quelle est la règle d'or, selon l'article ?",
+              "options": [
+                { "id": "a", "text": "Se limiter aux maux bénins et consulter au moindre doute" },
+                { "id": "b", "text": "Tout soigner soi-même, quoi qu'il arrive" },
+                { "id": "c", "text": "Ne jamais prendre aucun médicament" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            }
+          ]
+        }
+      ],
+      "tasks": []
+    },
+    {
+      "id": "pe",
+      "skill": "writing",
+      "title": "Production écrite",
+      "durationMinutes": 150,
+      "points": 25,
+      "eliminatoryBelow": 5,
+      "instructions": "L'épreuve comporte deux exercices : une synthèse de documents, puis un essai argumenté.",
+      "docs": [],
+      "texts": [],
+      "tasks": [
+        {
+          "id": "pe-synthese",
+          "kind": "writing",
+          "title": "Exercice 1 — Synthèse de documents (≈ 220 mots)",
+          "consigne": "Vous ferez une synthèse des deux documents proposés, en 220 mots environ. Vous dégagerez les idées essentielles et vous les confronterez, SANS donner votre opinion personnelle et SANS recopier les textes. Donnez un titre à votre synthèse.",
+          "documentFr": "DOCUMENT 1\nPour beaucoup de jeunes, les réseaux sociaux sont devenus la principale source d'information. On y apprend l'actualité plus vite que partout ailleurs, on y découvre des points de vue variés, et chacun peut s'y exprimer. Jamais l'information n'a été aussi accessible, ni aussi rapide.\n\nDOCUMENT 2\nMais s'informer par les réseaux sociaux comporte de réels dangers. Les fausses nouvelles y circulent aussi vite que les vraies, et les algorithmes ont tendance à nous enfermer dans nos opinions, en ne nous montrant que ce qui nous plaît. Sans vérification ni recul, le risque est grand de confondre rumeur et information.",
+          "points": 13,
+          "rubric": [
+            { "id": "r-respect", "label": "Respect de la consigne (nature de la synthèse, longueur, titre)", "points": 2 },
+            { "id": "r-degager", "label": "Capacité à dégager et confronter les idées essentielles", "points": 4 },
+            { "id": "r-reformuler", "label": "Capacité à reformuler (pas de copie) et à structurer", "points": 4 },
+            { "id": "r-coherence", "label": "Cohérence et cohésion", "points": 1 },
+            { "id": "r-langue", "label": "Compétence linguistique (lexique, grammaire)", "points": 2 }
+          ],
+          "modelAnswer": "Points attendus : un titre ; une introduction dégageant le thème commun (les réseaux sociaux comme source d'information) et la tension entre accessibilité/rapidité et fiabilité ; un développement qui CONFRONTE les deux documents ; aucune opinion personnelle ; aucune copie ; ≈ 220 mots ; connecteurs de confrontation."
+        },
+        {
+          "id": "pe-essai",
+          "kind": "writing",
+          "title": "Exercice 2 — Essai argumenté (≈ 250 mots)",
+          "consigne": "Dans un essai argumenté d'environ 250 mots, vous répondrez à la question suivante : « Les réseaux sociaux sont-ils un bon moyen de s'informer ? » Vous prendrez position et défendrez votre point de vue de manière structurée et nuancée.",
+          "minWords": 250,
+          "points": 12,
+          "rubric": [
+            { "id": "r-consigne2", "label": "Respect de la consigne (essai argumenté, longueur)", "points": 2 },
+            { "id": "r-argumenter", "label": "Capacité à argumenter et à nuancer", "points": 4 },
+            { "id": "r-coherence2", "label": "Cohérence et cohésion (plan, connecteurs)", "points": 2 },
+            { "id": "r-lex", "label": "Compétence lexicale", "points": 2 },
+            { "id": "r-gram", "label": "Compétence grammaticale (morphosyntaxe)", "points": 2 }
+          ],
+          "modelAnswer": "Points attendus : introduction posant la problématique ; développement dialectique (atouts : accès, rapidité, pluralité, participation ; dangers : infox, bulles de filtres, absence de recul) ; position personnelle nuancée (par exemple : un bon point de départ, à condition de croiser les sources) ; conclusion. Opinion personnelle attendue."
+        }
+      ]
+    },
+    {
+      "id": "po",
+      "skill": "speaking",
+      "title": "Production orale",
+      "durationMinutes": 30,
+      "prepMinutes": 60,
+      "points": 25,
+      "eliminatoryBelow": 5,
+      "instructions": "Après une heure de préparation, vous présenterez un exposé à partir du dossier, puis vous débattrez avec l'examinateur.",
+      "docs": [],
+      "texts": [],
+      "tasks": [
+        {
+          "id": "po-expose",
+          "kind": "speaking",
+          "title": "Partie 1 — Exposé (monologue argumenté)",
+          "consigne": "À partir du dossier ci-dessous, dégagez la problématique, puis présentez un exposé structuré (environ 8 à 10 minutes) qui expose et défend votre point de vue.",
+          "documentFr": "DOSSIER — « Faut-il afficher les calories partout ? »\n\nDocument A : Pour lutter contre la malbouffe, certains proposent d'afficher clairement, sur chaque produit et jusque dans les restaurants, le nombre de calories et la quantité de sucre ou de sel. L'idée : permettre à chacun de choisir en toute connaissance de cause.\n\nDocument B : Mais cette mesure fait débat. Réduire un aliment à un chiffre de calories n'a-t-il pas quelque chose d'absurde ? Et n'est-ce pas culpabiliser le consommateur, alors que bien manger dépend aussi de son budget et de son temps ? Certains craignent même que cet affichage permanent nourrisse l'obsession du contrôle alimentaire.",
+          "points": 13,
+          "rubric": [
+            { "id": "po1-problematique", "label": "Peut dégager la problématique du dossier", "points": 3 },
+            { "id": "po1-expose", "label": "Peut présenter un exposé structuré et argumenté", "points": 5 },
+            { "id": "po-ens-lex", "label": "Étendue et maîtrise du lexique — ensemble de l'épreuve", "points": 3 },
+            { "id": "po-ens-phono", "label": "Maîtrise phonologique — ensemble de l'épreuve", "points": 2 }
+          ],
+          "modelAnswer": "Points attendus : reformuler la problématique (informer pour mieux choisir vs réduction, culpabilisation et obsession) ; annoncer un plan ; exposé organisé confrontant les positions et défendant un point de vue nuancé ; exemples ; discours fluide."
+        },
+        {
+          "id": "po-debat",
+          "kind": "speaking",
+          "title": "Partie 2 — Débat / entretien avec l'examinateur",
+          "consigne": "L'examinateur vous posera des questions, demandera des précisions et défendra parfois un point de vue opposé. Défendez et nuancez votre position. (environ 10 minutes)",
+          "points": 12,
+          "rubric": [
+            { "id": "po2-defendre", "label": "Peut défendre et nuancer son point de vue face aux objections", "points": 4 },
+            { "id": "po2-interagir", "label": "Peut interagir, relancer et réagir spontanément", "points": 3 },
+            { "id": "po-ens-morpho", "label": "Morphosyntaxe — ensemble de l'épreuve", "points": 3 },
+            { "id": "po-ens-aisance", "label": "Aisance et fluidité — ensemble de l'épreuve", "points": 2 }
+          ],
+          "modelAnswer": "Points attendus : répondre aux objections avec précision ; concéder puis rebondir ; nuancer ; relancer ; lexique riche et syntaxe complexe."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,359 @@
+{
+  "schemaVersion": 1,
+  "id": "dalf-c1-03",
+  "family": "DALF",
+  "examName": "DALF C1",
+  "levelKey": "c1",
+  "paper": 3,
+  "title": "Sujet blanc nº 3",
+  "description": "Examen blanc complet au format officiel : 4 épreuves, /100, admis à partir de 50/100. Note éliminatoire en dessous de 5/25 par épreuve. La production écrite combine une synthèse et un essai argumenté.",
+  "passMark": 50,
+  "sections": [
+    {
+      "id": "co",
+      "skill": "listening",
+      "title": "Compréhension de l'oral",
+      "durationMinutes": 40,
+      "points": 25,
+      "eliminatoryBelow": 5,
+      "instructions": "Vous allez entendre deux documents. Le document long est diffusé deux fois ; le document court est diffusé une fois.",
+      "docs": [
+        {
+          "id": "co-doc1",
+          "title": "Document 1 — Conférence : l'obsolescence programmée",
+          "audio": "audio/exams/dalf-c1-03/co-doc1.mp3",
+          "voice": "denise",
+          "listens": 2,
+          "transcript": "Bonsoir. Avez-vous déjà remarqué que vos appareils tombent en panne juste après la fin de la garantie ? Ce n'est pas toujours un hasard. Ce soir, parlons de l'obsolescence programmée. De quoi s'agit-il ? C'est l'ensemble des techniques par lesquelles un fabricant réduit volontairement la durée de vie d'un produit, pour pousser le consommateur à en racheter un neuf plus vite. Cela peut prendre plusieurs formes. La plus connue, c'est l'obsolescence technique : une pièce fragile, une batterie qu'on ne peut pas remplacer, un appareil impossible à réparer. Mais il existe aussi une obsolescence psychologique, sans doute la plus puissante : la mode, la publicité, les nouveautés permanentes nous donnent le sentiment que notre téléphone, pourtant parfaitement fonctionnel, est déjà dépassé. Quelles conséquences ? D'abord écologiques : produire toujours plus, c'est épuiser les ressources et accumuler les déchets. Ensuite économiques : c'est le portefeuille du consommateur qui paie. Que faire, alors ? Les solutions existent. Certains pays imposent désormais un indice de réparabilité sur les produits, pour informer l'acheteur. Des associations militent pour le droit à la réparation. Et chacun de nous peut agir : réparer plutôt que jeter, acheter d'occasion, résister à la tentation du toujours neuf. Car au fond, la meilleure réponse à l'obsolescence programmée, c'est peut-être une autre idée du progrès : non plus posséder le dernier modèle, mais faire durer ce que l'on a. Je vous remercie.",
+          "questions": [
+            {
+              "id": "co1-q1",
+              "prompt": "De quoi parle la conférence ?",
+              "options": [
+                { "id": "a", "text": "De l'obsolescence programmée" },
+                { "id": "b", "text": "De la publicité à la télévision" },
+                { "id": "c", "text": "Des périodes de soldes" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "co1-q2",
+              "prompt": "Qu'est-ce que l'obsolescence programmée ?",
+              "options": [
+                { "id": "a", "text": "Réduire volontairement la durée de vie d'un produit" },
+                { "id": "b", "text": "Améliorer sans cesse les produits" },
+                { "id": "c", "text": "Baisser régulièrement les prix" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "co1-q3",
+              "prompt": "Quelle est, selon l'orateur, l'obsolescence la plus puissante ?",
+              "options": [
+                { "id": "a", "text": "L'obsolescence psychologique" },
+                { "id": "b", "text": "L'obsolescence technique" },
+                { "id": "c", "text": "L'obsolescence légale" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "co1-q4",
+              "prompt": "Quelle conséquence écologique est citée ?",
+              "options": [
+                { "id": "a", "text": "Épuiser les ressources et accumuler les déchets" },
+                { "id": "b", "text": "Polluer uniquement l'eau des rivières" },
+                { "id": "c", "text": "Réchauffer les océans" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "co1-q5",
+              "prompt": "Quelle solution l'orateur mentionne-t-il ?",
+              "options": [
+                { "id": "a", "text": "Un indice de réparabilité sur les produits" },
+                { "id": "b", "text": "L'interdiction totale des téléphones" },
+                { "id": "c", "text": "Une hausse générale des impôts" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            }
+          ]
+        },
+        {
+          "id": "co-doc2",
+          "title": "Document 2 — Les repair cafés",
+          "audio": "audio/exams/dalf-c1-03/co-doc2.mp3",
+          "voice": "henri",
+          "listens": 1,
+          "transcript": "En bref. Le mouvement des repair cafés continue de s'étendre. Le principe : une fois par mois, des bénévoles, souvent retraités et bricoleurs, aident gratuitement les habitants à réparer leurs objets cassés — grille-pain, lampes, vélos, vêtements. Au-delà de l'aspect écologique, ces lieux créent du lien entre les générations et transmettent des savoir-faire qui se perdaient. Dans notre ville, le dernier repair café a permis de sauver, en une seule après-midi, plus de quarante objets de la poubelle.",
+          "questions": [
+            {
+              "id": "co2-q1",
+              "prompt": "Qu'est-ce qu'un repair café ?",
+              "options": [
+                { "id": "a", "text": "Un lieu où des bénévoles aident à réparer des objets" },
+                { "id": "b", "text": "Un café qui sert des produits écologiques" },
+                { "id": "c", "text": "Un magasin d'objets d'occasion" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "co2-q2",
+              "prompt": "Qui sont souvent ces bénévoles ?",
+              "options": [
+                { "id": "a", "text": "Des retraités bricoleurs" },
+                { "id": "b", "text": "Des professionnels bien payés" },
+                { "id": "c", "text": "Des étudiants en stage" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "co2-q3",
+              "prompt": "Quel bénéfice social est mentionné ?",
+              "options": [
+                { "id": "a", "text": "Créer du lien entre les générations" },
+                { "id": "b", "text": "Vendre des objets neufs" },
+                { "id": "c", "text": "Faire beaucoup de profit" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            },
+            {
+              "id": "co2-q4",
+              "prompt": "Combien d'objets le dernier repair café a-t-il sauvés ?",
+              "options": [
+                { "id": "a", "text": "Plus de quarante" },
+                { "id": "b", "text": "Plus de cent" },
+                { "id": "c", "text": "Une dizaine seulement" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            }
+          ]
+        }
+      ],
+      "texts": [],
+      "tasks": []
+    },
+    {
+      "id": "ce",
+      "skill": "reading",
+      "title": "Compréhension des écrits",
+      "durationMinutes": 50,
+      "points": 25,
+      "eliminatoryBelow": 5,
+      "instructions": "Vous allez lire deux textes longs et répondre aux questions de compréhension.",
+      "docs": [],
+      "texts": [
+        {
+          "id": "ce-text1",
+          "title": "Document 1 — La mode jetable en question",
+          "passageFr": "LA MODE JETABLE EN QUESTION\n\nJamais l'on n'a acheté autant de vêtements, et jamais on ne les a gardés aussi peu de temps. C'est le règne de la mode jetable : des collections renouvelées chaque semaine, des prix très bas, des habits portés quelques fois puis abandonnés.\n\nLes raisons de ce succès sont compréhensibles. Pour un petit budget, on peut suivre la mode et changer de style sans cesse. Les marques l'ont bien compris et produisent toujours plus vite, toujours moins cher.\n\nMais le coût caché est immense. Sur le plan écologique, l'industrie textile est l'une des plus polluantes au monde : elle consomme énormément d'eau et rejette des produits chimiques. Sur le plan humain, ces prix très bas ne sont possibles que parce que des ouvriers, souvent à l'autre bout du monde, travaillent dans des conditions très dures pour des salaires misérables.\n\nFace à ce constat, une autre mode émerge : acheter moins mais mieux, choisir des vêtements solides, les réparer, les revendre ou les échanger. Une chose est sûre : le vêtement le plus écologique, c'est celui que l'on possède déjà.",
+          "questions": [
+            {
+              "id": "ce1-q1",
+              "prompt": "Qu'est-ce que la « mode jetable » ?",
+              "options": [
+                { "id": "a", "text": "Des vêtements bon marché, vite achetés et vite abandonnés" },
+                { "id": "b", "text": "Des vêtements de grand luxe" },
+                { "id": "c", "text": "Des uniformes scolaires" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "ce1-q2",
+              "prompt": "Pourquoi ce succès est-il compréhensible ?",
+              "options": [
+                { "id": "a", "text": "On peut suivre la mode pour un petit budget" },
+                { "id": "b", "text": "Les vêtements durent très longtemps" },
+                { "id": "c", "text": "Ils sont tous fabriqués localement" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            },
+            {
+              "id": "ce1-q3",
+              "prompt": "Quel coût écologique est cité ?",
+              "options": [
+                { "id": "a", "text": "L'industrie textile est l'une des plus polluantes au monde" },
+                { "id": "b", "text": "Les magasins gaspillent l'électricité" },
+                { "id": "c", "text": "Les vêtements prennent trop de place chez soi" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "ce1-q4",
+              "prompt": "Quel coût humain est mentionné ?",
+              "options": [
+                { "id": "a", "text": "Des ouvriers travaillent dans des conditions dures pour des salaires misérables" },
+                { "id": "b", "text": "Les vendeurs sont mal payés" },
+                { "id": "c", "text": "Les clients sont systématiquement trompés" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "ce1-q5",
+              "prompt": "Quelle autre mode émerge, selon l'article ?",
+              "options": [
+                { "id": "a", "text": "Acheter moins mais mieux" },
+                { "id": "b", "text": "Acheter encore plus vite" },
+                { "id": "c", "text": "Ne plus s'habiller du tout" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            }
+          ]
+        },
+        {
+          "id": "ce-text2",
+          "title": "Document 2 — Manger local : effet de mode ou vraie solution ?",
+          "passageFr": "MANGER LOCAL : EFFET DE MODE OU VRAIE SOLUTION ?\n\nAcheter ses légumes directement au producteur, s'abonner à un panier de saison, fréquenter les marchés : manger local séduit de plus en plus de Français. Mais ce choix est-il vraiment meilleur ?\n\nLes arguments en faveur des circuits courts sont nombreux. On soutient les agriculteurs de sa région, on consomme des produits frais et de saison, et l'on réduit, en théorie, les transports et donc la pollution. Sans intermédiaire, le producteur est aussi mieux rémunéré.\n\nLa réalité est cependant plus nuancée. Manger local ne veut pas toujours dire manger écologique : une tomate cultivée sous serre chauffée en hiver, même près de chez soi, peut polluer davantage qu'une tomate venue d'un pays chaud. De plus, ces produits sont parfois plus chers, ce qui les réserve à ceux qui en ont les moyens.\n\nManger local n'est donc pas une formule magique, mais une bonne habitude parmi d'autres. L'essentiel reste sans doute de manger des produits de saison, en quantité raisonnable, et de gaspiller le moins possible.",
+          "questions": [
+            {
+              "id": "ce2-q1",
+              "prompt": "Quel est le sujet de l'article ?",
+              "options": [
+                { "id": "a", "text": "Le fait de manger local" },
+                { "id": "b", "text": "Le végétarisme strict" },
+                { "id": "c", "text": "Les grands supermarchés" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "ce2-q2",
+              "prompt": "Quel argument en faveur des circuits courts est donné ?",
+              "options": [
+                { "id": "a", "text": "On soutient les agriculteurs de sa région" },
+                { "id": "b", "text": "On mange moins cher partout et toujours" },
+                { "id": "c", "text": "On évite complètement de cuisiner" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "ce2-q3",
+              "prompt": "Quelle nuance l'article apporte-t-il ?",
+              "options": [
+                { "id": "a", "text": "Manger local n'est pas toujours écologique" },
+                { "id": "b", "text": "Les produits locaux sont toujours moins bons" },
+                { "id": "c", "text": "Manger local est désormais interdit" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "ce2-q4",
+              "prompt": "Quelle est la conclusion de l'auteur ?",
+              "options": [
+                { "id": "a", "text": "Manger local est une bonne habitude parmi d'autres" },
+                { "id": "b", "text": "C'est une formule magique et suffisante" },
+                { "id": "c", "text": "C'est totalement inutile" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            }
+          ]
+        }
+      ],
+      "tasks": []
+    },
+    {
+      "id": "pe",
+      "skill": "writing",
+      "title": "Production écrite",
+      "durationMinutes": 150,
+      "points": 25,
+      "eliminatoryBelow": 5,
+      "instructions": "L'épreuve comporte deux exercices : une synthèse de documents, puis un essai argumenté.",
+      "docs": [],
+      "texts": [],
+      "tasks": [
+        {
+          "id": "pe-synthese",
+          "kind": "writing",
+          "title": "Exercice 1 — Synthèse de documents (≈ 220 mots)",
+          "consigne": "Vous ferez une synthèse des deux documents proposés, en 220 mots environ. Vous dégagerez les idées essentielles et vous les confronterez, SANS donner votre opinion personnelle et SANS recopier les textes. Donnez un titre à votre synthèse.",
+          "documentFr": "DOCUMENT 1\nLa voiture reste, pour des millions de personnes, irremplaçable. À la campagne et en banlieue, là où les transports en commun sont rares, elle est souvent le seul moyen d'aller travailler, de conduire ses enfants à l'école ou de faire ses courses. La supprimer reviendrait à isoler ceux qui en dépendent le plus.\n\nDOCUMENT 2\nPourtant, dans les centres-villes, la voiture est de plus en plus contestée. Elle occupe l'espace public, pollue l'air, fait du bruit et provoque des embouteillages. De nombreuses villes réduisent désormais sa place au profit des piétons, des vélos et des terrasses, et leurs habitants déclarent y respirer mieux.",
+          "points": 13,
+          "rubric": [
+            { "id": "r-respect", "label": "Respect de la consigne (nature de la synthèse, longueur, titre)", "points": 2 },
+            { "id": "r-degager", "label": "Capacité à dégager et confronter les idées essentielles", "points": 4 },
+            { "id": "r-reformuler", "label": "Capacité à reformuler (pas de copie) et à structurer", "points": 4 },
+            { "id": "r-coherence", "label": "Cohérence et cohésion", "points": 1 },
+            { "id": "r-langue", "label": "Compétence linguistique (lexique, grammaire)", "points": 2 }
+          ],
+          "modelAnswer": "Points attendus : un titre ; une introduction qui dégage le thème commun (la place de la voiture selon les territoires) et la tension entre les deux documents ; un développement qui CONFRONTE la dépendance à la voiture hors des villes et sa contestation dans les centres urbains ; aucune opinion personnelle ; aucune copie ; ≈ 220 mots ; connecteurs de confrontation."
+        },
+        {
+          "id": "pe-essai",
+          "kind": "writing",
+          "title": "Exercice 2 — Essai argumenté (≈ 250 mots)",
+          "consigne": "Dans un essai argumenté d'environ 250 mots, vous répondrez à la question suivante : « Faut-il réduire la place de la voiture dans nos villes ? » Vous prendrez position et défendrez votre point de vue de manière structurée et nuancée.",
+          "minWords": 250,
+          "points": 12,
+          "rubric": [
+            { "id": "r-consigne2", "label": "Respect de la consigne (essai argumenté, longueur)", "points": 2 },
+            { "id": "r-argumenter", "label": "Capacité à argumenter et à nuancer", "points": 4 },
+            { "id": "r-coherence2", "label": "Cohérence et cohésion (plan, connecteurs)", "points": 2 },
+            { "id": "r-lex", "label": "Compétence lexicale", "points": 2 },
+            { "id": "r-gram", "label": "Compétence grammaticale (morphosyntaxe)", "points": 2 }
+          ],
+          "modelAnswer": "Points attendus : introduction qui pose la problématique ; développement dialectique (réduire : air, bruit, espace, sécurité ; mais attention aux personnes dépendantes de la voiture et aux zones mal desservies) ; position personnelle nuancée (par exemple : oui en centre-ville, à condition de développer d'abord les alternatives) ; conclusion. Opinion personnelle attendue."
+        }
+      ]
+    },
+    {
+      "id": "po",
+      "skill": "speaking",
+      "title": "Production orale",
+      "durationMinutes": 30,
+      "prepMinutes": 60,
+      "points": 25,
+      "eliminatoryBelow": 5,
+      "instructions": "Après une heure de préparation, vous présenterez un exposé à partir du dossier, puis vous débattrez avec l'examinateur.",
+      "docs": [],
+      "texts": [],
+      "tasks": [
+        {
+          "id": "po-expose",
+          "kind": "speaking",
+          "title": "Partie 1 — Exposé (monologue argumenté)",
+          "consigne": "À partir du dossier ci-dessous, dégagez la problématique, puis présentez un exposé structuré (environ 8 à 10 minutes) qui expose et défend votre point de vue.",
+          "documentFr": "DOSSIER — « La publicité destinée aux enfants »\n\nDocument A : Les enfants sont exposés chaque jour à des centaines de publicités, à la télévision comme sur internet. Certains pays envisagent d'encadrer, voire d'interdire, la publicité qui leur est destinée, afin de les protéger d'une pression commerciale qu'ils ne comprennent pas toujours.\n\nDocument B : Mais une telle interdiction soulève des questions : où s'arrête la publicité « pour enfants » ? Et n'est-ce pas d'abord aux parents d'éduquer leurs enfants à la consommation ? Les annonceurs rappellent par ailleurs que la publicité finance de nombreux programmes et contenus gratuits.",
+          "points": 13,
+          "rubric": [
+            { "id": "po1-problematique", "label": "Peut dégager la problématique du dossier", "points": 3 },
+            { "id": "po1-expose", "label": "Peut présenter un exposé structuré et argumenté", "points": 5 },
+            { "id": "po-ens-lex", "label": "Étendue et maîtrise du lexique — ensemble de l'épreuve", "points": 3 },
+            { "id": "po-ens-phono", "label": "Maîtrise phonologique — ensemble de l'épreuve", "points": 2 }
+          ],
+          "modelAnswer": "Points attendus : reformuler la problématique (protéger les enfants vs liberté/responsabilité parentale et financement) ; annoncer un plan ; exposé organisé qui confronte les positions et défend un point de vue nuancé, illustré ; transitions soignées ; discours fluide."
+        },
+        {
+          "id": "po-debat",
+          "kind": "speaking",
+          "title": "Partie 2 — Débat / entretien avec l'examinateur",
+          "consigne": "L'examinateur vous posera des questions, demandera des précisions et défendra parfois un point de vue opposé. Défendez et nuancez votre position. (environ 10 minutes)",
+          "points": 12,
+          "rubric": [
+            { "id": "po2-defendre", "label": "Peut défendre et nuancer son point de vue face aux objections", "points": 4 },
+            { "id": "po2-interagir", "label": "Peut interagir, relancer et réagir spontanément", "points": 3 },
+            { "id": "po-ens-morpho", "label": "Morphosyntaxe — ensemble de l'épreuve", "points": 3 },
+            { "id": "po-ens-aisance", "label": "Aisance et fluidité — ensemble de l'épreuve", "points": 2 }
+          ],
+          "modelAnswer": "Points attendus : répondre précisément aux objections ; concéder puis rebondir ; nuancer sans se contredire ; relancer par des questions ; lexique riche et syntaxe complexe."
+        }
+      ]
+    }
+  ]
+}

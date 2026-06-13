@@ -1,0 +1,359 @@
+{
+  "schemaVersion": 1,
+  "id": "dalf-c1-01",
+  "family": "DALF",
+  "examName": "DALF C1",
+  "levelKey": "c1",
+  "paper": 1,
+  "title": "Sujet blanc nº 1",
+  "description": "Examen blanc complet au format officiel : 4 épreuves, /100, admis à partir de 50/100. Note éliminatoire en dessous de 5/25 par épreuve. La production écrite combine une synthèse et un essai argumenté.",
+  "passMark": 50,
+  "sections": [
+    {
+      "id": "co",
+      "skill": "listening",
+      "title": "Compréhension de l'oral",
+      "durationMinutes": 40,
+      "points": 25,
+      "eliminatoryBelow": 5,
+      "instructions": "Vous allez entendre deux documents. Le document long est diffusé deux fois ; le document court est diffusé une fois.",
+      "docs": [
+        {
+          "id": "co-doc1",
+          "title": "Document 1 — Conférence : l'intelligence artificielle et l'emploi",
+          "audio": "audio/exams/dalf-c1-01/co-doc1.mp3",
+          "voice": "denise",
+          "listens": 2,
+          "transcript": "Mesdames et messieurs, bonsoir. Le sujet de notre conférence est l'intelligence artificielle et son impact sur l'emploi. On entend tout et son contraire : l'IA va détruire des millions d'emplois, ou au contraire en créer autant. Où est la vérité ? La première chose à comprendre, c'est que l'automatisation n'est pas nouvelle. Depuis deux siècles, les machines remplacent certaines tâches humaines, et pourtant le chômage de masse permanent ne s'est jamais installé. Ce qui change aujourd'hui, c'est la vitesse et la nature des tâches concernées. Jusqu'ici, les machines remplaçaient surtout le travail physique. Désormais, l'IA s'attaque aussi à des tâches intellectuelles : rédiger un texte, analyser un document juridique, poser un premier diagnostic médical. Faut-il s'en inquiéter ? Oui et non. Oui, parce que certains métiers vont effectivement disparaître ou se transformer profondément. Non, parce que l'histoire montre que de nouveaux métiers apparaissent, souvent imprévisibles : il y a trente ans, personne n'imaginait le métier de développeur d'applications. Le vrai enjeu, selon moi, n'est pas technologique mais politique : comment accompagner cette transition ? Comment former les travailleurs aux compétences de demain ? Et surtout, comment répartir les gains de productivité ? Car si l'IA crée énormément de richesses mais que celles-ci ne profitent qu'à une minorité, alors le problème ne sera pas le chômage, mais l'inégalité. En résumé, l'intelligence artificielle n'est ni une catastrophe ni un miracle : c'est un outil puissant, dont les effets dépendront entièrement des choix de société que nous ferons. Je vous remercie.",
+          "questions": [
+            {
+              "id": "co1-q1",
+              "prompt": "Quel est le sujet de la conférence ?",
+              "options": [
+                { "id": "a", "text": "L'intelligence artificielle et son impact sur l'emploi" },
+                { "id": "b", "text": "L'histoire des révolutions industrielles" },
+                { "id": "c", "text": "La fiscalité des entreprises numériques" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "co1-q2",
+              "prompt": "Selon l'oratrice, qu'est-ce qui n'est pas nouveau ?",
+              "options": [
+                { "id": "a", "text": "L'automatisation de certaines tâches" },
+                { "id": "b", "text": "L'intelligence artificielle" },
+                { "id": "c", "text": "Le chômage de masse permanent" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "co1-q3",
+              "prompt": "Qu'est-ce qui change aujourd'hui ?",
+              "options": [
+                { "id": "a", "text": "L'IA s'attaque aussi à des tâches intellectuelles" },
+                { "id": "b", "text": "Les machines coûtent beaucoup moins cher" },
+                { "id": "c", "text": "Les usines ferment toutes" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "co1-q4",
+              "prompt": "Pourquoi ne faut-il pas seulement s'inquiéter ?",
+              "options": [
+                { "id": "a", "text": "De nouveaux métiers, souvent imprévisibles, apparaissent" },
+                { "id": "b", "text": "Les machines tombent souvent en panne" },
+                { "id": "c", "text": "L'IA est interdite dans la plupart des pays" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "co1-q5",
+              "prompt": "Quel est, selon l'oratrice, le véritable enjeu ?",
+              "options": [
+                { "id": "a", "text": "Un enjeu politique : accompagner la transition et répartir les gains" },
+                { "id": "b", "text": "Un enjeu uniquement technique" },
+                { "id": "c", "text": "Aucun enjeu : tout se réglera seul" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            }
+          ]
+        },
+        {
+          "id": "co-doc2",
+          "title": "Document 2 — Actualité : la semaine de quatre jours",
+          "audio": "audio/exams/dalf-c1-01/co-doc2.mp3",
+          "voice": "henri",
+          "listens": 1,
+          "transcript": "Et maintenant, l'actualité économique. Une entreprise française du secteur informatique vient de tester la semaine de quatre jours pendant six mois. Le principe : les salariés travaillent un jour de moins, mais sont payés autant. Résultat de l'expérience ? Selon la direction, la productivité n'a pas baissé ; elle aurait même légèrement augmenté. Les employés se disent moins stressés et plus concentrés. Seul bémol : l'organisation a demandé un gros effort, car il a fallu repenser complètement les réunions et la répartition des tâches. L'entreprise a décidé de prolonger l'expérience un an de plus avant de trancher définitivement.",
+          "questions": [
+            {
+              "id": "co2-q1",
+              "prompt": "Qu'a testé cette entreprise ?",
+              "options": [
+                { "id": "a", "text": "La semaine de quatre jours" },
+                { "id": "b", "text": "Le télétravail total" },
+                { "id": "c", "text": "La retraite à soixante ans" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "co2-q2",
+              "prompt": "Quel a été l'effet sur la productivité ?",
+              "options": [
+                { "id": "a", "text": "Elle n'a pas baissé, voire a légèrement augmenté" },
+                { "id": "b", "text": "Elle a fortement chuté" },
+                { "id": "c", "text": "Elle n'a pas pu être mesurée" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "co2-q3",
+              "prompt": "Comment se sentent les employés ?",
+              "options": [
+                { "id": "a", "text": "Moins stressés et plus concentrés" },
+                { "id": "b", "text": "Beaucoup plus fatigués" },
+                { "id": "c", "text": "Totalement indifférents" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            },
+            {
+              "id": "co2-q4",
+              "prompt": "Quel a été le seul point négatif ?",
+              "options": [
+                { "id": "a", "text": "Un gros effort de réorganisation" },
+                { "id": "b", "text": "Une baisse des salaires" },
+                { "id": "c", "text": "De nombreux départs de salariés" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            }
+          ]
+        }
+      ],
+      "texts": [],
+      "tasks": []
+    },
+    {
+      "id": "ce",
+      "skill": "reading",
+      "title": "Compréhension des écrits",
+      "durationMinutes": 50,
+      "points": 25,
+      "eliminatoryBelow": 5,
+      "instructions": "Vous allez lire deux textes longs et répondre aux questions de compréhension.",
+      "docs": [],
+      "texts": [
+        {
+          "id": "ce-text1",
+          "title": "Document 1 — Le grand retour du train de nuit",
+          "passageFr": "LE GRAND RETOUR DU TRAIN DE NUIT\n\nLongtemps abandonnés, les trains de nuit connaissent en Europe un retour spectaculaire. Dans les années 2000, beaucoup de lignes avaient été supprimées, jugées trop coûteuses face à l'avion low-cost. Mais la prise de conscience écologique a tout changé.\n\nVoyager de nuit présente en effet de nombreux avantages. D'abord, on se déplace en dormant : on s'endort à Paris et l'on se réveille à Vienne ou à Venise, sans perdre une journée. Ensuite, le bilan carbone est sans commune mesure avec celui de l'avion. Enfin, le train de nuit possède un charme particulier, presque romanesque, que les voyageurs redécouvrent avec plaisir.\n\nCe renouveau n'est pourtant pas sans difficultés. Relancer une ligne demande d'énormes investissements : il faut des wagons adaptés, du personnel, et des accords entre plusieurs pays. Les billets, par ailleurs, restent souvent plus chers qu'un vol low-cost, ce qui freine certains voyageurs. Mais les défenseurs du train de nuit rappellent que le prix de l'avion ne reflète pas son véritable coût pour la planète.\n\nReste une inconnue : ce retour est-il une mode passagère ou une tendance durable ? Tout dépendra de la volonté politique des États et de la capacité des compagnies à proposer des trajets à la fois confortables et abordables. Une chose est sûre : pour une génération soucieuse du climat, le train de nuit n'est plus un souvenir du passé, mais peut-être un transport d'avenir.",
+          "questions": [
+            {
+              "id": "ce1-q1",
+              "prompt": "Pourquoi de nombreuses lignes avaient-elles été supprimées dans les années 2000 ?",
+              "options": [
+                { "id": "a", "text": "Elles étaient jugées trop coûteuses face à l'avion low-cost" },
+                { "id": "b", "text": "Elles étaient considérées comme dangereuses" },
+                { "id": "c", "text": "Plus personne ne voulait voyager la nuit" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "ce1-q2",
+              "prompt": "Qu'est-ce qui a relancé l'intérêt pour le train de nuit ?",
+              "options": [
+                { "id": "a", "text": "La prise de conscience écologique" },
+                { "id": "b", "text": "L'invention de trains entièrement nouveaux" },
+                { "id": "c", "text": "La fermeture des aéroports" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "ce1-q3",
+              "prompt": "Quel avantage pratique le texte met-il en avant ?",
+              "options": [
+                { "id": "a", "text": "On voyage en dormant, sans perdre une journée" },
+                { "id": "b", "text": "On voyage entièrement gratuitement" },
+                { "id": "c", "text": "On évite tout contrôle d'identité" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            },
+            {
+              "id": "ce1-q4",
+              "prompt": "Quelle difficulté freine certains voyageurs ?",
+              "options": [
+                { "id": "a", "text": "Les billets restent souvent plus chers qu'un vol low-cost" },
+                { "id": "b", "text": "Les trains de nuit sont toujours en retard" },
+                { "id": "c", "text": "Il n'y a jamais de places disponibles" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "ce1-q5",
+              "prompt": "Quelle inconnue le texte soulève-t-il à la fin ?",
+              "options": [
+                { "id": "a", "text": "Si ce retour est durable ou seulement une mode passagère" },
+                { "id": "b", "text": "Si les trains de jour vont disparaître" },
+                { "id": "c", "text": "Si l'avion sera bientôt interdit partout" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            }
+          ]
+        },
+        {
+          "id": "ce-text2",
+          "title": "Document 2 — Le droit à la déconnexion",
+          "passageFr": "LE DROIT À LA DÉCONNEXION\n\nDepuis 2017, la loi française reconnaît aux salariés un « droit à la déconnexion » : celui de ne pas répondre aux courriels ou aux messages professionnels en dehors des heures de travail. À l'ère du télétravail et du smartphone, cette question est devenue centrale.\n\nLe constat de départ est simple : grâce aux outils numériques, le travail peut désormais nous suivre partout, à toute heure. Un courriel reçu à vingt-deux heures, un message du supérieur le dimanche… La frontière entre vie professionnelle et vie privée s'efface. Or, ne jamais vraiment s'arrêter de travailler conduit à l'épuisement, voire au burn-out.\n\nMais appliquer ce droit n'est pas si simple. Comment l'imposer dans une petite entreprise où chacun se sent obligé de répondre vite ? Et que faire des salariés qui, eux-mêmes, n'arrivent pas à décrocher ? La loi pose un principe, mais c'est surtout une question de culture d'entreprise et de comportement individuel.\n\nAu fond, le droit à la déconnexion nous rappelle une évidence parfois oubliée : pour bien travailler, il faut aussi savoir s'arrêter.",
+          "questions": [
+            {
+              "id": "ce2-q1",
+              "prompt": "Que reconnaît la loi française depuis 2017 ?",
+              "options": [
+                { "id": "a", "text": "Le droit à la déconnexion" },
+                { "id": "b", "text": "Le droit au télétravail pour tous" },
+                { "id": "c", "text": "Le droit à la retraite anticipée" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "ce2-q2",
+              "prompt": "Quel est le constat de départ ?",
+              "options": [
+                { "id": "a", "text": "Le travail peut désormais nous suivre partout, à toute heure" },
+                { "id": "b", "text": "Les salariés travaillent de moins en moins" },
+                { "id": "c", "text": "Les entreprises ferment le week-end" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "ce2-q3",
+              "prompt": "À quoi conduit le fait de ne jamais s'arrêter ?",
+              "options": [
+                { "id": "a", "text": "À l'épuisement, voire au burn-out" },
+                { "id": "b", "text": "À une augmentation automatique de salaire" },
+                { "id": "c", "text": "À davantage de jours de vacances" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "ce2-q4",
+              "prompt": "De quoi cela dépend-il surtout, selon l'article ?",
+              "options": [
+                { "id": "a", "text": "De la culture d'entreprise et du comportement individuel" },
+                { "id": "b", "text": "De la taille des bureaux" },
+                { "id": "c", "text": "Du type d'ordinateur utilisé" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            }
+          ]
+        }
+      ],
+      "tasks": []
+    },
+    {
+      "id": "pe",
+      "skill": "writing",
+      "title": "Production écrite",
+      "durationMinutes": 150,
+      "points": 25,
+      "eliminatoryBelow": 5,
+      "instructions": "L'épreuve comporte deux exercices : une synthèse de documents, puis un essai argumenté.",
+      "docs": [],
+      "texts": [],
+      "tasks": [
+        {
+          "id": "pe-synthese",
+          "kind": "writing",
+          "title": "Exercice 1 — Synthèse de documents (≈ 220 mots)",
+          "consigne": "Vous ferez une synthèse des deux documents proposés, en 220 mots environ. Vous dégagerez les idées et les informations essentielles, vous les confronterez, SANS donner votre opinion personnelle et SANS recopier les textes. Donnez un titre à votre synthèse.",
+          "documentFr": "DOCUMENT 1\nLe tourisme représente près d'un emploi sur dix dans le monde. Dans de nombreuses villes, il fait vivre des quartiers entiers : hôtels, restaurants, musées, artisans. Pour certaines régions, c'est la principale source de revenus, et parfois la seule alternative à l'exode des jeunes vers les grandes métropoles. Sans les visiteurs, des sites entiers tomberaient à l'abandon.\n\nDOCUMENT 2\nMais à Venise, à Barcelone ou à Dubrovnik, les habitants n'en peuvent plus. La foule permanente, la hausse des loyers, la transformation des commerces de proximité en boutiques de souvenirs : le tourisme de masse rend parfois les villes invivables pour ceux qui y résident. Certaines municipalités limitent désormais le nombre de visiteurs, ou taxent les bateaux de croisière, pour préserver la vie locale.",
+          "points": 13,
+          "rubric": [
+            { "id": "r-respect", "label": "Respect de la consigne (nature de la synthèse, longueur, titre)", "points": 2 },
+            { "id": "r-degager", "label": "Capacité à dégager et confronter les idées essentielles", "points": 4 },
+            { "id": "r-reformuler", "label": "Capacité à reformuler (pas de copie) et à structurer", "points": 4 },
+            { "id": "r-coherence", "label": "Cohérence et cohésion", "points": 1 },
+            { "id": "r-langue", "label": "Compétence linguistique (lexique, grammaire)", "points": 2 }
+          ],
+          "modelAnswer": "Points attendus : un titre ; une brève introduction qui dégage le thème commun (les effets ambivalents du tourisme sur les villes) et la problématique ; un développement qui CONFRONTE les deux documents (atout économique majeur d'un côté ; nuisances pour les habitants de l'autre) ; aucune opinion personnelle ; aucune phrase recopiée ; environ 220 mots ; connecteurs de confrontation (alors que, en revanche, tandis que). Le piège classique à éviter : résumer les deux textes l'un après l'autre au lieu de les croiser."
+        },
+        {
+          "id": "pe-essai",
+          "kind": "writing",
+          "title": "Exercice 2 — Essai argumenté (≈ 250 mots)",
+          "consigne": "Dans un essai argumenté d'environ 250 mots, vous répondrez à la question suivante : « Le tourisme est-il, pour une ville, une chance ou une menace ? » Vous prendrez position et défendrez votre point de vue de manière structurée et nuancée.",
+          "minWords": 250,
+          "points": 12,
+          "rubric": [
+            { "id": "r-consigne2", "label": "Respect de la consigne (essai argumenté, longueur)", "points": 2 },
+            { "id": "r-argumenter", "label": "Capacité à argumenter et à nuancer", "points": 4 },
+            { "id": "r-coherence2", "label": "Cohérence et cohésion (plan, connecteurs)", "points": 2 },
+            { "id": "r-lex", "label": "Compétence lexicale", "points": 2 },
+            { "id": "r-gram", "label": "Compétence grammaticale (morphosyntaxe)", "points": 2 }
+          ],
+          "modelAnswer": "Points attendus : introduction qui pose la problématique et annonce le plan ; un développement dialectique (chance : emplois, rayonnement, sauvegarde du patrimoine ; menace : surfréquentation, hausse des loyers, perte de l'âme locale) ; une synthèse personnelle qui dépasse l'opposition (par exemple : le tourisme est une chance à condition d'être régulé) ; conclusion qui tranche et ouvre. Différence essentielle avec la synthèse : ici, l'opinion personnelle est NON seulement permise mais attendue."
+        }
+      ]
+    },
+    {
+      "id": "po",
+      "skill": "speaking",
+      "title": "Production orale",
+      "durationMinutes": 30,
+      "prepMinutes": 60,
+      "points": 25,
+      "eliminatoryBelow": 5,
+      "instructions": "Après une heure de préparation, vous présenterez un exposé à partir du dossier, puis vous débattrez avec l'examinateur.",
+      "docs": [],
+      "texts": [],
+      "tasks": [
+        {
+          "id": "po-expose",
+          "kind": "speaking",
+          "title": "Partie 1 — Exposé (monologue argumenté)",
+          "consigne": "À partir du dossier ci-dessous, dégagez la problématique, puis présentez un exposé structuré (environ 8 à 10 minutes) qui expose et défend votre point de vue.",
+          "documentFr": "DOSSIER — « Végétaliser la ville »\n\nDocument A : Plusieurs grandes villes « végétalisent » leurs rues : arbres, jardins, façades et toits couverts de plantes. Objectif : lutter contre la chaleur, améliorer la qualité de l'air et offrir aux habitants des espaces apaisants.\n\nDocument B : Mais ces aménagements coûtent cher et réduisent parfois la place de la voiture et du stationnement, ce qui ne fait pas l'unanimité. Certains commerçants craignent une baisse de leur clientèle, et l'entretien des plantations pèse sur le budget des municipalités.",
+          "points": 13,
+          "rubric": [
+            { "id": "po1-problematique", "label": "Peut dégager la problématique du dossier", "points": 3 },
+            { "id": "po1-expose", "label": "Peut présenter un exposé structuré et argumenté", "points": 5 },
+            { "id": "po-ens-lex", "label": "Étendue et maîtrise du lexique — ensemble de l'épreuve", "points": 3 },
+            { "id": "po-ens-phono", "label": "Maîtrise phonologique — ensemble de l'épreuve", "points": 2 }
+          ],
+          "modelAnswer": "Points attendus : reformuler la problématique (les bénéfices de la végétalisation face à ses coûts et contraintes) ; annoncer un plan clair ; exposé organisé qui confronte les arguments et défend un point de vue nuancé, avec des exemples ; transitions soignées ; discours fluide d'environ 8 à 10 minutes."
+        },
+        {
+          "id": "po-debat",
+          "kind": "speaking",
+          "title": "Partie 2 — Débat / entretien avec l'examinateur",
+          "consigne": "L'examinateur vous posera des questions, demandera des précisions et défendra parfois un point de vue opposé. Défendez et nuancez votre position. (environ 10 minutes)",
+          "points": 12,
+          "rubric": [
+            { "id": "po2-defendre", "label": "Peut défendre et nuancer son point de vue face aux objections", "points": 4 },
+            { "id": "po2-interagir", "label": "Peut interagir, relancer et réagir spontanément", "points": 3 },
+            { "id": "po-ens-morpho", "label": "Morphosyntaxe — ensemble de l'épreuve", "points": 3 },
+            { "id": "po-ens-aisance", "label": "Aisance et fluidité — ensemble de l'épreuve", "points": 2 }
+          ],
+          "modelAnswer": "Points attendus : répondre précisément aux objections ; concéder puis rebondir ; nuancer sans se contredire ; relancer par des questions ; mobiliser un lexique riche et une syntaxe complexe (subordonnées, hypothèses, concessions)."
+        }
+      ]
+    }
+  ]
+}
