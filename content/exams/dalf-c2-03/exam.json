@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 1,
+  "id": "dalf-c2-03",
+  "family": "DALF",
+  "examName": "DALF C2",
+  "levelKey": "c2",
+  "paper": 3,
+  "title": "Sujet blanc nº 3",
+  "description": "Examen blanc au format officiel C2 : deux épreuves notées sur 50, total /100, admis à partir de 50/100. L'épreuve orale combine compréhension et production ; l'épreuve écrite combine compréhension et production.",
+  "passMark": 50,
+  "sections": [
+    {
+      "id": "orale",
+      "skill": "speaking",
+      "title": "Épreuve orale — compréhension et production",
+      "durationMinutes": 30,
+      "prepMinutes": 60,
+      "points": 50,
+      "eliminatoryBelow": 0,
+      "instructions": "Vous écoutez un document, puis, après préparation, vous en faites un compte rendu objectif, vous développez un point de vue argumenté, et vous débattez avec l'examinateur.",
+      "docs": [
+        {
+          "id": "or-doc1",
+          "title": "Document à écouter — « Sommes-nous notre métier ? »",
+          "audio": "audio/exams/dalf-c2-03/or-doc1.mp3",
+          "voice": "denise",
+          "listens": 2,
+          "transcript": "Quand on rencontre quelqu'un pour la première fois, quelle est, presque toujours, la première question qu'on lui pose ? « Qu'est-ce que vous faites dans la vie ? » Autrement dit : quel est votre métier ? Comme si notre travail disait, à lui seul, qui nous sommes. Cette idée mérite qu'on s'y arrête. D'un côté, il est vrai que le travail occupe une place immense dans nos existences : il structure nos journées, il nous procure un revenu, un statut, parfois une fierté, et le sentiment d'être utile aux autres. Perdre son emploi, ce n'est pas seulement perdre un salaire ; c'est souvent perdre une part de soi, une raison de se lever le matin. De l'autre côté, réduire une personne à son métier, n'est-ce pas terriblement injuste ? Un être humain est infiniment plus que sa fonction : il est aussi un parent, un ami, un citoyen, un passionné, un rêveur. Combien de gens exercent un travail qui ne leur ressemble pas, simplement pour vivre ? Les définir par là serait une trahison. La vérité se situe sans doute dans un équilibre. Le travail compte, profondément ; mais il ne devrait pas tout absorber. Une société qui ne valoriserait les individus qu'à travers leur productivité oublierait l'essentiel : que la valeur d'une vie ne se mesure pas seulement à ce qu'elle produit. Peut-être faudrait-il apprendre à poser, parfois, une autre question : non pas « que faites-vous ? », mais « qu'est-ce qui vous fait vivre ? » Je vous remercie.",
+          "questions": [
+            {
+              "id": "or1-q1",
+              "prompt": "Quelle première question pose-t-on souvent, selon l'orateur ?",
+              "options": [
+                { "id": "a", "text": "Quel est votre métier ?" },
+                { "id": "b", "text": "D'où venez-vous ?" },
+                { "id": "c", "text": "Quel âge avez-vous ?" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "or1-q2",
+              "prompt": "Quel rôle du travail l'orateur reconnaît-il ?",
+              "options": [
+                { "id": "a", "text": "Il structure nos vies et donne un sentiment d'utilité" },
+                { "id": "b", "text": "Il n'a aucune importance" },
+                { "id": "c", "text": "Il nuit toujours à l'individu" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "or1-q3",
+              "prompt": "Pourquoi réduire une personne à son métier serait-il injuste ?",
+              "options": [
+                { "id": "a", "text": "Parce qu'un être humain est bien plus que sa fonction" },
+                { "id": "b", "text": "Parce que le métier doit rester secret" },
+                { "id": "c", "text": "Parce que le travail est rare" }
+              ],
+              "correct": ["a"],
+              "points": 4
+            },
+            {
+              "id": "or1-q4",
+              "prompt": "Que risque une société qui ne valorise que la productivité ?",
+              "options": [
+                { "id": "a", "text": "D'oublier que la valeur d'une vie ne s'y réduit pas" },
+                { "id": "b", "text": "De devenir trop riche" },
+                { "id": "c", "text": "De manquer de main-d'œuvre" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "or1-q5",
+              "prompt": "Quelle autre question l'orateur propose-t-il de poser ?",
+              "options": [
+                { "id": "a", "text": "« Qu'est-ce qui vous fait vivre ? »" },
+                { "id": "b", "text": "« Combien gagnez-vous ? »" },
+                { "id": "c", "text": "« Où habitez-vous ? »" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            }
+          ]
+        }
+      ],
+      "texts": [],
+      "tasks": [
+        {
+          "id": "or-compte-rendu",
+          "kind": "speaking",
+          "title": "Partie 1 — Compte rendu du document",
+          "consigne": "Vous ferez un compte rendu objectif du document que vous venez d'entendre : vous en restituerez fidèlement le propos, la structure et les principales idées, sans le commenter ni donner votre avis. (environ 5 minutes)",
+          "points": 12,
+          "rubric": [
+            { "id": "cr-fidelite", "label": "Fidélité et exhaustivité du compte rendu", "points": 5 },
+            { "id": "cr-structure", "label": "Clarté et structuration de la restitution", "points": 4 },
+            { "id": "cr-langue", "label": "Correction et richesse de la langue (compte rendu)", "points": 3 }
+          ],
+          "modelAnswer": "Points attendus : restituer la thèse (le travail compte mais ne définit pas entièrement l'individu) ; suivre la structure dialectique (la question rituelle, le rôle structurant du travail, l'injustice de la réduction, le plaidoyer pour l'équilibre, la question alternative) ; aucune opinion ; reformulation fidèle."
+        },
+        {
+          "id": "or-point-de-vue",
+          "kind": "speaking",
+          "title": "Partie 2 — Point de vue argumenté et débat",
+          "consigne": "Vous développerez ensuite un point de vue personnel, nuancé et argumenté sur la question : « Le travail doit-il rester au centre de nos vies ? » Vous le défendrez dans un débat avec l'examinateur. (environ 15 minutes)",
+          "points": 22,
+          "rubric": [
+            { "id": "pv-developpe", "label": "Point de vue personnel développé et argumenté", "points": 6 },
+            { "id": "pv-defendre", "label": "Capacité à défendre, nuancer et réagir dans le débat", "points": 6 },
+            { "id": "pv-langue", "label": "Richesse et précision de la langue", "points": 6 },
+            { "id": "pv-aisance", "label": "Aisance, fluidité et interaction", "points": 4 }
+          ],
+          "modelAnswer": "Points attendus : position nuancée illustrée d'exemples (sens du travail, place du temps libre, transformations de l'emploi) ; argumentation qui dépasse l'opposition ; concessions et relances dans le débat ; lexique abstrait précis, syntaxe complexe, fluidité."
+        }
+      ]
+    },
+    {
+      "id": "ecrite",
+      "skill": "writing",
+      "title": "Épreuve écrite — compréhension et production",
+      "durationMinutes": 210,
+      "points": 50,
+      "eliminatoryBelow": 0,
+      "instructions": "Vous lisez un dossier, vous répondez aux questions de compréhension, puis vous rédigez un texte long, structuré et argumenté à partir du dossier.",
+      "docs": [],
+      "texts": [
+        {
+          "id": "ec-dossier",
+          "title": "Dossier — Le revenu universel",
+          "passageFr": "DOCUMENT 1\nEt si l'on versait à chaque citoyen, de sa naissance à sa mort, une somme d'argent suffisante pour vivre, sans aucune condition ? C'est l'idée du revenu universel. Ses défenseurs y voient une réponse à un monde où le travail se raréfie et se précarise : un filet de sécurité qui libérerait chacun de la peur du lendemain, et permettrait de choisir ses activités plus librement.\n\nDOCUMENT 2\nMais les objections sont nombreuses. Un tel revenu coûterait des sommes colossales : qui paierait ? Certains craignent aussi qu'il décourage le travail, ou qu'il serve de prétexte à démanteler les autres protections sociales. Surtout, une question demeure : une société peut-elle tenir si le lien entre revenu et travail est rompu ?",
+          "questions": [
+            {
+              "id": "ec-q1",
+              "prompt": "Qu'est-ce que le revenu universel, selon le document 1 ?",
+              "options": [
+                { "id": "a", "text": "Une somme versée à chaque citoyen sans condition" },
+                { "id": "b", "text": "Une aide réservée aux seuls chômeurs" },
+                { "id": "c", "text": "Un nouvel impôt sur les riches" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "ec-q2",
+              "prompt": "Que verraient ses défenseurs dans cette idée ?",
+              "options": [
+                { "id": "a", "text": "Un filet de sécurité face à un travail qui se raréfie" },
+                { "id": "b", "text": "Un moyen d'enrichir l'État" },
+                { "id": "c", "text": "Une punition pour les paresseux" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "ec-q3",
+              "prompt": "Quelle objection financière le document 2 soulève-t-il ?",
+              "options": [
+                { "id": "a", "text": "Cela coûterait des sommes colossales" },
+                { "id": "b", "text": "Cela serait trop simple à organiser" },
+                { "id": "c", "text": "Cela rapporterait trop d'argent" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "ec-q4",
+              "prompt": "Quelle crainte est exprimée à propos du travail ?",
+              "options": [
+                { "id": "a", "text": "Que le revenu universel décourage le travail" },
+                { "id": "b", "text": "Qu'il oblige à travailler davantage" },
+                { "id": "c", "text": "Qu'il supprime les congés" }
+              ],
+              "correct": ["a"],
+              "points": 4
+            },
+            {
+              "id": "ec-q5",
+              "prompt": "Quelle question de fond demeure, selon le document 2 ?",
+              "options": [
+                { "id": "a", "text": "Une société peut-elle tenir si revenu et travail sont séparés ?" },
+                { "id": "b", "text": "Qui fabrique la monnaie ?" },
+                { "id": "c", "text": "À quelle date verser cet argent ?" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            }
+          ]
+        }
+      ],
+      "tasks": [
+        {
+          "id": "ec-production",
+          "kind": "writing",
+          "title": "Production écrite — tribune argumentée (≈ 700 mots)",
+          "consigne": "À partir du dossier ci-dessus, vous rédigerez une tribune structurée et argumentée (environ 700 mots) destinée à un journal national, dans laquelle vous prendrez position de façon nuancée sur l'idée d'un revenu universel. Vous donnerez un titre à votre tribune et vous exploiterez les documents sans les recopier.",
+          "minWords": 600,
+          "points": 34,
+          "rubric": [
+            { "id": "ec-consigne", "label": "Respect de la consigne (genre, longueur, titre)", "points": 4 },
+            { "id": "ec-dossier-expl", "label": "Exploitation pertinente du dossier", "points": 6 },
+            { "id": "ec-argum", "label": "Capacité à argumenter et à structurer une pensée complexe", "points": 8 },
+            { "id": "ec-style", "label": "Registre, ton et style adaptés au genre", "points": 5 },
+            { "id": "ec-lex", "label": "Étendue et précision lexicales", "points": 5 },
+            { "id": "ec-gram", "label": "Correction grammaticale et maîtrise de la langue", "points": 6 }
+          ],
+          "modelAnswer": "Points attendus (≈700 mots) : un titre ; une introduction problématisée ; un développement qui exploite et dépasse le dossier (la promesse d'émancipation ; les objections de financement et de désincitation ; le débat de fond sur le lien travail-revenu ; une position personnelle, par exemple en faveur d'expérimentations encadrées) ; exemples variés ; conclusion. Ton de tribune, lexique riche, syntaxe maîtrisée, aucune copie."
+        }
+      ]
+    }
+  ]
+}

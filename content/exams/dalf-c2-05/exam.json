@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 1,
+  "id": "dalf-c2-05",
+  "family": "DALF",
+  "examName": "DALF C2",
+  "levelKey": "c2",
+  "paper": 5,
+  "title": "Sujet blanc nº 5",
+  "description": "Examen blanc au format officiel C2 : deux épreuves notées sur 50, total /100, admis à partir de 50/100. L'épreuve orale combine compréhension et production ; l'épreuve écrite combine compréhension et production.",
+  "passMark": 50,
+  "sections": [
+    {
+      "id": "orale",
+      "skill": "speaking",
+      "title": "Épreuve orale — compréhension et production",
+      "durationMinutes": 30,
+      "prepMinutes": 60,
+      "points": 50,
+      "eliminatoryBelow": 0,
+      "instructions": "Vous écoutez un document, puis, après préparation, vous en faites un compte rendu objectif, vous développez un point de vue argumenté, et vous débattez avec l'examinateur.",
+      "docs": [
+        {
+          "id": "or-doc1",
+          "title": "Document à écouter — « Peut-on encore croire en l'avenir ? »",
+          "audio": "audio/exams/dalf-c2-05/or-doc1.mp3",
+          "voice": "denise",
+          "listens": 2,
+          "transcript": "Notre époque semble avoir perdu la foi en l'avenir. Pendant des siècles, on a cru au progrès : demain serait meilleur qu'aujourd'hui, nos enfants vivraient mieux que nous. Cette promesse, beaucoup ne l'entendent plus. Crise écologique, incertitudes économiques, accélération vertigineuse du monde : l'avenir, pour la première fois depuis longtemps, fait peur plus qu'il ne fait rêver. Faut-il s'y résigner ? Je ne le crois pas, et pour une raison simple : le pessimisme, lui aussi, est une prophétie qui se réalise. Si nous sommes convaincus que rien n'est possible, alors nous ne tenterons rien, et c'est précisément ainsi que le pire arrivera. À l'inverse, ceux qui changent le monde sont toujours ceux qui ont osé l'imaginer autrement. C'est ici que l'utopie retrouve toute son utilité. On la moque souvent : utopique veut dire « irréaliste », « naïf ». C'est une erreur. L'utopie n'est pas un plan que l'on appliquerait tel quel ; c'est une boussole. Elle nous indique une direction, elle nous rappelle l'écart entre le monde que nous avons et celui que nous pourrions construire. Sans elle, il ne reste que la gestion du présent, sans horizon. Espérer n'est donc pas être naïf. C'est, au contraire, la condition de toute action. Car on ne se bat jamais pour un avenir auquel on ne croit pas. Je vous remercie.",
+          "questions": [
+            {
+              "id": "or1-q1",
+              "prompt": "Qu'est-ce que notre époque semble avoir perdu, selon l'orateur ?",
+              "options": [
+                { "id": "a", "text": "La foi en l'avenir" },
+                { "id": "b", "text": "Le goût du passé" },
+                { "id": "c", "text": "La mémoire de l'histoire" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "or1-q2",
+              "prompt": "Quelle promesse beaucoup n'entendent-ils plus ?",
+              "options": [
+                { "id": "a", "text": "Que demain sera meilleur qu'aujourd'hui" },
+                { "id": "b", "text": "Que le travail paie toujours" },
+                { "id": "c", "text": "Que la science a réponse à tout" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "or1-q3",
+              "prompt": "Pourquoi l'orateur refuse-t-il le pessimisme ?",
+              "options": [
+                { "id": "a", "text": "Parce que le pessimisme est une prophétie qui se réalise" },
+                { "id": "b", "text": "Parce qu'il est interdit d'en parler" },
+                { "id": "c", "text": "Parce qu'il est devenu trop rare" }
+              ],
+              "correct": ["a"],
+              "points": 4
+            },
+            {
+              "id": "or1-q4",
+              "prompt": "Quelle est, selon lui, l'utilité de l'utopie ?",
+              "options": [
+                { "id": "a", "text": "Elle est une boussole qui indique une direction" },
+                { "id": "b", "text": "Elle est un plan à appliquer tel quel" },
+                { "id": "c", "text": "Elle est une simple distraction" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "or1-q5",
+              "prompt": "Selon lui, espérer, c'est…",
+              "options": [
+                { "id": "a", "text": "la condition de toute action" },
+                { "id": "b", "text": "une forme de naïveté" },
+                { "id": "c", "text": "une perte de temps" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            }
+          ]
+        }
+      ],
+      "texts": [],
+      "tasks": [
+        {
+          "id": "or-compte-rendu",
+          "kind": "speaking",
+          "title": "Partie 1 — Compte rendu du document",
+          "consigne": "Vous ferez un compte rendu objectif du document que vous venez d'entendre : vous en restituerez fidèlement le propos, la structure et les principales idées, sans le commenter ni donner votre avis. (environ 5 minutes)",
+          "points": 12,
+          "rubric": [
+            { "id": "cr-fidelite", "label": "Fidélité et exhaustivité du compte rendu", "points": 5 },
+            { "id": "cr-structure", "label": "Clarté et structuration de la restitution", "points": 4 },
+            { "id": "cr-langue", "label": "Correction et richesse de la langue (compte rendu)", "points": 3 }
+          ],
+          "modelAnswer": "Points attendus : restituer la thèse (refuser le pessimisme, réhabiliter l'utopie comme boussole, l'espoir comme condition de l'action) ; suivre la progression (le constat de la perte de foi, le piège du pessimisme, le rôle de ceux qui imaginent, la défense de l'utopie, la conclusion sur l'espoir) ; aucune opinion ; reformulation fidèle."
+        },
+        {
+          "id": "or-point-de-vue",
+          "kind": "speaking",
+          "title": "Partie 2 — Point de vue argumenté et débat",
+          "consigne": "Vous développerez ensuite un point de vue personnel, nuancé et argumenté sur la question : « Face aux crises actuelles, l'optimisme est-il encore raisonnable ? » Vous le défendrez dans un débat avec l'examinateur. (environ 15 minutes)",
+          "points": 22,
+          "rubric": [
+            { "id": "pv-developpe", "label": "Point de vue personnel développé et argumenté", "points": 6 },
+            { "id": "pv-defendre", "label": "Capacité à défendre, nuancer et réagir dans le débat", "points": 6 },
+            { "id": "pv-langue", "label": "Richesse et précision de la langue", "points": 6 },
+            { "id": "pv-aisance", "label": "Aisance, fluidité et interaction", "points": 4 }
+          ],
+          "modelAnswer": "Points attendus : position nuancée distinguant optimisme béat et espoir lucide ; exemples historiques et contemporains ; argumentation qui dépasse l'opposition optimisme/pessimisme ; concessions et relances ; lexique abstrait précis, syntaxe complexe, fluidité."
+        }
+      ]
+    },
+    {
+      "id": "ecrite",
+      "skill": "writing",
+      "title": "Épreuve écrite — compréhension et production",
+      "durationMinutes": 210,
+      "points": 50,
+      "eliminatoryBelow": 0,
+      "instructions": "Vous lisez un dossier, vous répondez aux questions de compréhension, puis vous rédigez un texte long, structuré et argumenté à partir du dossier.",
+      "docs": [],
+      "texts": [
+        {
+          "id": "ec-dossier",
+          "title": "Dossier — L'utopie, danger ou nécessité ?",
+          "passageFr": "DOCUMENT 1\nLes utopies ont mauvaise presse. On leur reproche leur naïveté, et l'on rappelle que certaines, en voulant imposer le bonheur, ont accouché de cauchemars. À vouloir dessiner la société parfaite, n'a-t-on pas toujours fini par enfermer les hommes dans un moule, et par éliminer ceux qui n'y entraient pas ?\n\nDOCUMENT 2\nEt pourtant, sans utopie, aucune avancée n'aurait vu le jour. L'abolition de l'esclavage, le droit de vote des femmes, les congés payés : tout cela fut, en son temps, qualifié d'irréaliste, d'utopique. L'utopie n'est dangereuse que lorsqu'elle prétend être un programme définitif ; elle est précieuse lorsqu'elle reste une question ouverte, un aiguillon qui empêche de se résigner à l'injustice.",
+          "questions": [
+            {
+              "id": "ec-q1",
+              "prompt": "Que reproche-t-on aux utopies, selon le document 1 ?",
+              "options": [
+                { "id": "a", "text": "Leur naïveté et les dérives de certaines d'entre elles" },
+                { "id": "b", "text": "Leur coût financier" },
+                { "id": "c", "text": "Leur complexité technique" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "ec-q2",
+              "prompt": "Quel danger des utopies le document 1 souligne-t-il ?",
+              "options": [
+                { "id": "a", "text": "Vouloir imposer le bonheur a parfois produit des cauchemars" },
+                { "id": "b", "text": "Elles coûtent trop cher à l'État" },
+                { "id": "c", "text": "Elles ennuient les citoyens" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "ec-q3",
+              "prompt": "Quel argument inverse le document 2 avance-t-il ?",
+              "options": [
+                { "id": "a", "text": "Sans utopie, aucune avancée n'aurait vu le jour" },
+                { "id": "b", "text": "Les utopies sont une invention récente" },
+                { "id": "c", "text": "Les utopies sont toujours inutiles" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "ec-q4",
+              "prompt": "Quels exemples le document 2 cite-t-il ?",
+              "options": [
+                { "id": "a", "text": "L'abolition de l'esclavage, le vote des femmes, les congés payés" },
+                { "id": "b", "text": "La voiture, l'avion et le train" },
+                { "id": "c", "text": "L'imprimerie et l'électricité" }
+              ],
+              "correct": ["a"],
+              "points": 4
+            },
+            {
+              "id": "ec-q5",
+              "prompt": "Quand l'utopie est-elle précieuse, selon le document 2 ?",
+              "options": [
+                { "id": "a", "text": "Lorsqu'elle reste une question ouverte, un aiguillon" },
+                { "id": "b", "text": "Lorsqu'elle devient un programme définitif" },
+                { "id": "c", "text": "Lorsqu'elle est complètement oubliée" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            }
+          ]
+        }
+      ],
+      "tasks": [
+        {
+          "id": "ec-production",
+          "kind": "writing",
+          "title": "Production écrite — essai d'idées (≈ 700 mots)",
+          "consigne": "À partir du dossier ci-dessus, vous rédigerez un essai structuré et argumenté (environ 700 mots) destiné à une revue d'idées, sur le rôle de l'utopie : faut-il s'en méfier ou la cultiver ? Vous donnerez un titre à votre essai et vous exploiterez les documents sans les recopier.",
+          "minWords": 600,
+          "points": 34,
+          "rubric": [
+            { "id": "ec-consigne", "label": "Respect de la consigne (genre, longueur, titre)", "points": 4 },
+            { "id": "ec-dossier-expl", "label": "Exploitation pertinente du dossier", "points": 6 },
+            { "id": "ec-argum", "label": "Capacité à argumenter et à structurer une pensée complexe", "points": 8 },
+            { "id": "ec-style", "label": "Registre, ton et style adaptés au genre", "points": 5 },
+            { "id": "ec-lex", "label": "Étendue et précision lexicales", "points": 5 },
+            { "id": "ec-gram", "label": "Correction grammaticale et maîtrise de la langue", "points": 6 }
+          ],
+          "modelAnswer": "Points attendus (≈700 mots) : un titre ; une introduction problématisée (l'utopie, rêve dangereux ou moteur nécessaire ?) ; un développement dialectique qui exploite et dépasse le dossier (les dérives historiques des utopies closes ; leur rôle moteur dans les grandes conquêtes ; la distinction entre utopie-programme et utopie-horizon) ; exemples cultivés ; une synthèse personnelle. Style soutenu, lexique riche, syntaxe maîtrisée, aucune copie."
+        }
+      ]
+    }
+  ]
+}

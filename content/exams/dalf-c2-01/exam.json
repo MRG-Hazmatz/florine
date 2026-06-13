@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 1,
+  "id": "dalf-c2-01",
+  "family": "DALF",
+  "examName": "DALF C2",
+  "levelKey": "c2",
+  "paper": 1,
+  "title": "Sujet blanc nº 1",
+  "description": "Examen blanc au format officiel C2 : deux épreuves notées sur 50, total /100, admis à partir de 50/100. L'épreuve orale combine compréhension et production ; l'épreuve écrite combine compréhension et production.",
+  "passMark": 50,
+  "sections": [
+    {
+      "id": "orale",
+      "skill": "speaking",
+      "title": "Épreuve orale — compréhension et production",
+      "durationMinutes": 30,
+      "prepMinutes": 60,
+      "points": 50,
+      "eliminatoryBelow": 0,
+      "instructions": "Vous écoutez un document, puis, après préparation, vous en faites un compte rendu objectif, vous développez un point de vue argumenté, et vous débattez avec l'examinateur.",
+      "docs": [
+        {
+          "id": "or-doc1",
+          "title": "Document à écouter — « Progrès technique et progrès »",
+          "audio": "audio/exams/dalf-c2-01/or-doc1.mp3",
+          "voice": "denise",
+          "listens": 2,
+          "transcript": "Mesdames, messieurs, la question que je voudrais poser ce soir est simple en apparence : le progrès technique est-il toujours un progrès ? Nous avons tendance à confondre les deux mots. Or, qu'une chose soit nouvelle, plus rapide, plus puissante, ne signifie pas qu'elle nous rende plus libres, ni plus heureux. Prenons un exemple. Le téléphone portable nous a donné un pouvoir extraordinaire : être joignable partout, accéder à toute l'information du monde. Mais ce même pouvoir s'est retourné en servitude : nous voilà joignables partout, sommés de répondre, incapables parfois de lever les yeux. L'outil que nous possédions a fini par nous posséder. Faut-il en conclure qu'il faut refuser le progrès technique ? Ce serait absurde, et d'ailleurs impossible. La technique n'est ni bonne ni mauvaise en soi ; elle est ce que nous en faisons. La vraie question n'est donc pas technique, mais philosophique et politique : quelle place voulons-nous lui accorder ? À quoi sommes-nous prêts à renoncer, et au nom de quoi ? Car tout progrès a un coût, souvent invisible au moment où nous l'adoptons, et que nous ne mesurons que plus tard. Le danger n'est pas la machine. Le danger, c'est de cesser de nous interroger ; c'est d'adopter chaque nouveauté par habitude, par confort ou par peur d'être en retard, sans jamais nous demander si elle sert vraiment ce que nous avons de plus précieux : notre liberté, notre attention, notre humanité. Je vous remercie.",
+          "questions": [
+            {
+              "id": "or1-q1",
+              "prompt": "Quelle distinction l'oratrice établit-elle dès le début ?",
+              "options": [
+                { "id": "a", "text": "Entre le progrès technique et le progrès tout court" },
+                { "id": "b", "text": "Entre le passé et le présent" },
+                { "id": "c", "text": "Entre la science et la technique" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "or1-q2",
+              "prompt": "Quel exemple concret utilise-t-elle ?",
+              "options": [
+                { "id": "a", "text": "Le téléphone portable" },
+                { "id": "b", "text": "La voiture électrique" },
+                { "id": "c", "text": "L'imprimerie" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "or1-q3",
+              "prompt": "Selon elle, qu'est-ce qui s'est « retourné en servitude » ?",
+              "options": [
+                { "id": "a", "text": "Le pouvoir d'être joignable partout" },
+                { "id": "b", "text": "Le coût des communications" },
+                { "id": "c", "text": "La taille des écrans" }
+              ],
+              "correct": ["a"],
+              "points": 4
+            },
+            {
+              "id": "or1-q4",
+              "prompt": "Quelle est, selon elle, la vraie question ?",
+              "options": [
+                { "id": "a", "text": "Une question philosophique et politique : quelle place accorder à la technique" },
+                { "id": "b", "text": "Une question purement technique" },
+                { "id": "c", "text": "Une question de prix" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "or1-q5",
+              "prompt": "Quel est, selon elle, le véritable danger ?",
+              "options": [
+                { "id": "a", "text": "Cesser de nous interroger et tout adopter par habitude" },
+                { "id": "b", "text": "Les machines elles-mêmes" },
+                { "id": "c", "text": "Le manque de nouveautés" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            }
+          ]
+        }
+      ],
+      "texts": [],
+      "tasks": [
+        {
+          "id": "or-compte-rendu",
+          "kind": "speaking",
+          "title": "Partie 1 — Compte rendu du document",
+          "consigne": "Vous ferez un compte rendu objectif du document que vous venez d'entendre : vous en restituerez fidèlement le propos, la structure et les principales idées, sans le commenter ni donner votre avis. (environ 5 minutes)",
+          "points": 12,
+          "rubric": [
+            { "id": "cr-fidelite", "label": "Fidélité et exhaustivité du compte rendu", "points": 5 },
+            { "id": "cr-structure", "label": "Clarté et structuration de la restitution", "points": 4 },
+            { "id": "cr-langue", "label": "Correction et richesse de la langue (compte rendu)", "points": 3 }
+          ],
+          "modelAnswer": "Points attendus : restituer la thèse centrale (ne pas confondre progrès technique et progrès) ; suivre la structure (distinction, exemple du téléphone, refus du rejet de la technique, déplacement vers une question philosophique et politique, identification du danger) ; aucune opinion personnelle ; reformulation complète et fidèle, sans copie."
+        },
+        {
+          "id": "or-point-de-vue",
+          "kind": "speaking",
+          "title": "Partie 2 — Point de vue argumenté et débat",
+          "consigne": "Vous développerez ensuite un point de vue personnel, nuancé et argumenté sur la question : « Tout progrès technique est-il un progrès pour l'humanité ? » Vous le défendrez dans un débat avec l'examinateur. (environ 15 minutes)",
+          "points": 22,
+          "rubric": [
+            { "id": "pv-developpe", "label": "Point de vue personnel développé et argumenté", "points": 6 },
+            { "id": "pv-defendre", "label": "Capacité à défendre, nuancer et réagir dans le débat", "points": 6 },
+            { "id": "pv-langue", "label": "Richesse et précision de la langue", "points": 6 },
+            { "id": "pv-aisance", "label": "Aisance, fluidité et interaction", "points": 4 }
+          ],
+          "modelAnswer": "Points attendus : une position personnelle claire et nuancée, illustrée d'exemples variés et pertinents ; une argumentation organisée qui dépasse l'opposition simpliste ; la capacité à concéder, à objecter et à relancer face à l'examinateur ; un lexique abstrait précis, une syntaxe complexe et maîtrisée, un discours fluide proche du locuteur natif cultivé."
+        }
+      ]
+    },
+    {
+      "id": "ecrite",
+      "skill": "writing",
+      "title": "Épreuve écrite — compréhension et production",
+      "durationMinutes": 210,
+      "points": 50,
+      "eliminatoryBelow": 0,
+      "instructions": "Vous lisez un dossier, vous répondez aux questions de compréhension, puis vous rédigez un texte long, structuré et argumenté à partir du dossier.",
+      "docs": [],
+      "texts": [
+        {
+          "id": "ec-dossier",
+          "title": "Dossier — L'éloge de la lenteur",
+          "passageFr": "DOCUMENT 1\nNotre époque vénère la vitesse. Tout doit être immédiat : l'information, la livraison, la réponse à un message. La lenteur, elle, est devenue suspecte, presque une faute. On ne dit plus de quelqu'un qu'il prend son temps : on dit qu'il est « en retard ». Être rapide, c'est être efficace ; être lent, c'est être dépassé.\n\nDOCUMENT 2\nPourtant, un mouvement inverse se dessine. « Slow food », « slow tourisme », « slow life » : un peu partout, des voix s'élèvent pour réhabiliter la lenteur. Non par nostalgie d'un passé idéalisé, mais par lucidité : certaines choses — penser, créer, aimer, comprendre, savourer — ne peuvent tout simplement pas être accélérées sans être abîmées. À vouloir tout faire vite, peut-être perd-on l'essentiel.",
+          "questions": [
+            {
+              "id": "ec-q1",
+              "prompt": "Que vénère notre époque, selon le document 1 ?",
+              "options": [
+                { "id": "a", "text": "La vitesse et l'immédiateté" },
+                { "id": "b", "text": "La lenteur et la patience" },
+                { "id": "c", "text": "Le silence et la solitude" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "ec-q2",
+              "prompt": "Comment la lenteur est-elle désormais perçue, selon le document 1 ?",
+              "options": [
+                { "id": "a", "text": "Comme suspecte, presque une faute" },
+                { "id": "b", "text": "Comme la plus haute des qualités" },
+                { "id": "c", "text": "Comme un luxe réservé aux riches" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "ec-q3",
+              "prompt": "Quel mouvement le document 2 décrit-il ?",
+              "options": [
+                { "id": "a", "text": "La réhabilitation de la lenteur (slow food, slow life…)" },
+                { "id": "b", "text": "Un retour à une vitesse encore plus grande" },
+                { "id": "c", "text": "La disparition du tourisme" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "ec-q4",
+              "prompt": "Au nom de quoi ce mouvement défend-il la lenteur ?",
+              "options": [
+                { "id": "a", "text": "Par lucidité : certaines choses ne s'accélèrent pas sans s'abîmer" },
+                { "id": "b", "text": "Par simple nostalgie du passé" },
+                { "id": "c", "text": "Pour gagner davantage d'argent" }
+              ],
+              "correct": ["a"],
+              "points": 4
+            },
+            {
+              "id": "ec-q5",
+              "prompt": "Quelle tension les deux documents mettent-ils en lumière ?",
+              "options": [
+                { "id": "a", "text": "Entre le culte de la vitesse et la valeur de la lenteur" },
+                { "id": "b", "text": "Entre la ville et la campagne" },
+                { "id": "c", "text": "Entre le travail et les loisirs" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            }
+          ]
+        }
+      ],
+      "tasks": [
+        {
+          "id": "ec-production",
+          "kind": "writing",
+          "title": "Production écrite — article d'idées (≈ 700 mots)",
+          "consigne": "À partir du dossier ci-dessus, vous rédigerez un article structuré et argumenté (environ 700 mots) destiné à un magazine d'idées, dans lequel vous prendrez position de façon nuancée sur la place de la vitesse et de la lenteur dans nos vies. Vous donnerez un titre à votre article et vous exploiterez les documents sans les recopier.",
+          "minWords": 600,
+          "points": 34,
+          "rubric": [
+            { "id": "ec-consigne", "label": "Respect de la consigne (genre, longueur, titre)", "points": 4 },
+            { "id": "ec-dossier-expl", "label": "Exploitation pertinente du dossier", "points": 6 },
+            { "id": "ec-argum", "label": "Capacité à argumenter et à structurer une pensée complexe", "points": 8 },
+            { "id": "ec-style", "label": "Registre, ton et style adaptés au genre", "points": 5 },
+            { "id": "ec-lex", "label": "Étendue et précision lexicales", "points": 5 },
+            { "id": "ec-gram", "label": "Correction grammaticale et maîtrise de la langue", "points": 6 }
+          ],
+          "modelAnswer": "Points attendus (≈700 mots) : un titre évocateur ; une introduction qui problématise (la vitesse est-elle un progrès ou un appauvrissement ?) ; un développement structuré qui exploite et dépasse les deux documents (les bénéfices réels de la rapidité ; ce qu'elle nous fait perdre ; une troisième voie : choisir son rythme selon les activités) ; des exemples variés et cultivés ; une conclusion personnelle qui tranche et ouvre. Registre journalistique soutenu, lexique abstrait riche, syntaxe complexe et maîtrisée. Aucune phrase recopiée du dossier."
+        }
+      ]
+    }
+  ]
+}

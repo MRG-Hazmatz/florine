@@ -255,7 +255,11 @@ function SectionBriefing({
         <span>⏱ {Math.round(section.durationMinutes)} min</span>
         {section.prepMinutes && <span>préparation {Math.round(section.prepMinutes)} min</span>}
         <span>/{section.points} points</span>
-        <span className="text-rouge">éliminatoire &lt; {section.eliminatoryBelow}/{section.points}</span>
+        {section.eliminatoryBelow > 0 && (
+          <span className="text-rouge">
+            éliminatoire &lt; {section.eliminatoryBelow}/{section.points}
+          </span>
+        )}
       </div>
       <button
         type="button"

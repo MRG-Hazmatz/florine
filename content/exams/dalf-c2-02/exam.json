@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 1,
+  "id": "dalf-c2-02",
+  "family": "DALF",
+  "examName": "DALF C2",
+  "levelKey": "c2",
+  "paper": 2,
+  "title": "Sujet blanc nº 2",
+  "description": "Examen blanc au format officiel C2 : deux épreuves notées sur 50, total /100, admis à partir de 50/100. L'épreuve orale combine compréhension et production ; l'épreuve écrite combine compréhension et production.",
+  "passMark": 50,
+  "sections": [
+    {
+      "id": "orale",
+      "skill": "speaking",
+      "title": "Épreuve orale — compréhension et production",
+      "durationMinutes": 30,
+      "prepMinutes": 60,
+      "points": 50,
+      "eliminatoryBelow": 0,
+      "instructions": "Vous écoutez un document, puis, après préparation, vous en faites un compte rendu objectif, vous développez un point de vue argumenté, et vous débattez avec l'examinateur.",
+      "docs": [
+        {
+          "id": "or-doc1",
+          "title": "Document à écouter — « À quoi sert l'art ? »",
+          "audio": "audio/exams/dalf-c2-02/or-doc1.mp3",
+          "voice": "henri",
+          "listens": 2,
+          "transcript": "On entend souvent cette question, posée parfois avec une pointe de mépris : à quoi sert l'art ? Sous-entendu : à rien. Et si c'était précisément là sa grandeur ? Tout, dans nos vies, est sommé d'être utile, rentable, efficace. L'art, lui, échappe à cette loi. Un tableau ne nourrit personne, une symphonie ne guérit aucune maladie, un poème ne construit pas de pont. Et pourtant, aucune civilisation, si pauvre soit-elle, ne s'est jamais passée d'art. Pourquoi ? Parce que l'art répond à un besoin qui n'est pas matériel, mais tout aussi vital : donner du sens. Là où la science explique le monde, l'art nous aide à l'habiter, à le ressentir, à le supporter parfois. Il met des mots, des formes, des sons sur ce que nous éprouvons confusément. Il nous fait sortir de nous-mêmes pour entrer dans la peau d'un autre — et c'est peut-être la plus haute leçon d'humanité qui soit. Mais attention : dire que l'art ne sert à rien d'utile ne signifie pas qu'il soit un luxe réservé à quelques-uns. Au contraire. Priver les gens d'art, sous prétexte qu'il faudrait d'abord régler les questions sérieuses, c'est les priver d'une part de leur humanité. L'accès à la beauté, à la culture, à la création n'est pas un supplément ; c'est un droit. Alors, à quoi sert l'art ? À rien, peut-être, au sens où l'on parle d'utilité. Mais à tout, si l'on accepte que vivre ne se réduit pas à survivre. Je vous remercie.",
+          "questions": [
+            {
+              "id": "or1-q1",
+              "prompt": "Quelle question, parfois méprisante, l'orateur reprend-il ?",
+              "options": [
+                { "id": "a", "text": "À quoi sert l'art ?" },
+                { "id": "b", "text": "Qui a le droit de créer ?" },
+                { "id": "c", "text": "Combien coûte une œuvre d'art ?" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "or1-q2",
+              "prompt": "Quelle idée paradoxale défend-il ?",
+              "options": [
+                { "id": "a", "text": "L'inutilité de l'art fait précisément sa grandeur" },
+                { "id": "b", "text": "L'art doit avant tout être rentable" },
+                { "id": "c", "text": "L'art est aujourd'hui dépassé" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "or1-q3",
+              "prompt": "Quel besoin l'art comble-t-il, selon lui ?",
+              "options": [
+                { "id": "a", "text": "Donner du sens et aider à habiter le monde" },
+                { "id": "b", "text": "Nourrir matériellement les gens" },
+                { "id": "c", "text": "Construire des infrastructures" }
+              ],
+              "correct": ["a"],
+              "points": 4
+            },
+            {
+              "id": "or1-q4",
+              "prompt": "Quelle « haute leçon d'humanité » l'art offre-t-il ?",
+              "options": [
+                { "id": "a", "text": "Entrer dans la peau d'un autre" },
+                { "id": "b", "text": "Gagner beaucoup d'argent" },
+                { "id": "c", "text": "Oublier tous ses problèmes" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "or1-q5",
+              "prompt": "Pourquoi l'art n'est-il pas un luxe, selon lui ?",
+              "options": [
+                { "id": "a", "text": "Parce que l'accès à la culture est un droit, pas un supplément" },
+                { "id": "b", "text": "Parce que l'art est toujours gratuit" },
+                { "id": "c", "text": "Parce que l'art est facile à comprendre" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            }
+          ]
+        }
+      ],
+      "texts": [],
+      "tasks": [
+        {
+          "id": "or-compte-rendu",
+          "kind": "speaking",
+          "title": "Partie 1 — Compte rendu du document",
+          "consigne": "Vous ferez un compte rendu objectif du document que vous venez d'entendre : vous en restituerez fidèlement le propos, la structure et les principales idées, sans le commenter ni donner votre avis. (environ 5 minutes)",
+          "points": 12,
+          "rubric": [
+            { "id": "cr-fidelite", "label": "Fidélité et exhaustivité du compte rendu", "points": 5 },
+            { "id": "cr-structure", "label": "Clarté et structuration de la restitution", "points": 4 },
+            { "id": "cr-langue", "label": "Correction et richesse de la langue (compte rendu)", "points": 3 }
+          ],
+          "modelAnswer": "Points attendus : restituer la thèse (l'art ne sert à rien d'« utile », et c'est là sa valeur ; il donne du sens et est un droit) ; suivre la progression (la question méprisante, le paradoxe de l'inutilité, le besoin de sens, la leçon d'empathie, l'art comme droit) ; aucune opinion personnelle ; reformulation fidèle et complète."
+        },
+        {
+          "id": "or-point-de-vue",
+          "kind": "speaking",
+          "title": "Partie 2 — Point de vue argumenté et débat",
+          "consigne": "Vous développerez ensuite un point de vue personnel, nuancé et argumenté sur la question : « La culture est-elle un droit ou un luxe ? » Vous le défendrez dans un débat avec l'examinateur. (environ 15 minutes)",
+          "points": 22,
+          "rubric": [
+            { "id": "pv-developpe", "label": "Point de vue personnel développé et argumenté", "points": 6 },
+            { "id": "pv-defendre", "label": "Capacité à défendre, nuancer et réagir dans le débat", "points": 6 },
+            { "id": "pv-langue", "label": "Richesse et précision de la langue", "points": 6 },
+            { "id": "pv-aisance", "label": "Aisance, fluidité et interaction", "points": 4 }
+          ],
+          "modelAnswer": "Points attendus : une position personnelle nuancée, illustrée d'exemples cultivés ; une argumentation organisée (la culture comme droit fondamental, les obstacles concrets à son accès, les politiques possibles) ; la capacité à concéder, objecter et relancer ; lexique abstrait précis, syntaxe complexe, discours fluide."
+        }
+      ]
+    },
+    {
+      "id": "ecrite",
+      "skill": "writing",
+      "title": "Épreuve écrite — compréhension et production",
+      "durationMinutes": 210,
+      "points": 50,
+      "eliminatoryBelow": 0,
+      "instructions": "Vous lisez un dossier, vous répondez aux questions de compréhension, puis vous rédigez un texte long, structuré et argumenté à partir du dossier.",
+      "docs": [],
+      "texts": [
+        {
+          "id": "ec-dossier",
+          "title": "Dossier — Lire à l'ère des écrans",
+          "passageFr": "DOCUMENT 1\nOn annonce régulièrement la mort du livre. Pourtant, il résiste. Mieux : à l'ère des écrans, l'objet-livre conserve un prestige intact. Offrir un livre, posséder une bibliothèque, lire un roman du début à la fin : autant de gestes qui semblent, paradoxalement, plus précieux à mesure que tout se numérise.\n\nDOCUMENT 2\nMais lire a changé de nature. Les jeunes générations lisent énormément — des messages, des articles, des sous-titres — mais autrement : par fragments, en sautant d'un texte à l'autre, l'attention sans cesse sollicitée. Or la lecture longue, celle qui exige de rester des heures avec un seul texte, est une compétence rare et fragile, que l'école et la famille doivent plus que jamais protéger.",
+          "questions": [
+            {
+              "id": "ec-q1",
+              "prompt": "Que dit-on régulièrement, selon le document 1 ?",
+              "options": [
+                { "id": "a", "text": "Que le livre va mourir" },
+                { "id": "b", "text": "Que le livre coûte trop cher" },
+                { "id": "c", "text": "Que plus personne n'écrit" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "ec-q2",
+              "prompt": "Quel paradoxe le document 1 souligne-t-il ?",
+              "options": [
+                { "id": "a", "text": "L'objet-livre semble plus précieux à mesure que tout se numérise" },
+                { "id": "b", "text": "Le livre a déjà totalement disparu" },
+                { "id": "c", "text": "Les écrans ont définitivement gagné" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "ec-q3",
+              "prompt": "Comment lisent les jeunes générations, selon le document 2 ?",
+              "options": [
+                { "id": "a", "text": "Énormément, mais par fragments" },
+                { "id": "b", "text": "Très peu, presque jamais" },
+                { "id": "c", "text": "Uniquement de longs romans" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "ec-q4",
+              "prompt": "Quelle compétence est qualifiée de « rare et fragile » ?",
+              "options": [
+                { "id": "a", "text": "La lecture longue, qui exige de rester avec un seul texte" },
+                { "id": "b", "text": "La lecture rapide en diagonale" },
+                { "id": "c", "text": "L'écriture manuscrite" }
+              ],
+              "correct": ["a"],
+              "points": 4
+            },
+            {
+              "id": "ec-q5",
+              "prompt": "Que devraient faire l'école et la famille, selon le document 2 ?",
+              "options": [
+                { "id": "a", "text": "Protéger la lecture longue" },
+                { "id": "b", "text": "Interdire totalement les écrans" },
+                { "id": "c", "text": "Acheter beaucoup plus de livres" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            }
+          ]
+        }
+      ],
+      "tasks": [
+        {
+          "id": "ec-production",
+          "kind": "writing",
+          "title": "Production écrite — article culturel (≈ 700 mots)",
+          "consigne": "À partir du dossier ci-dessus, vous rédigerez un article structuré et argumenté (environ 700 mots) destiné à un magazine culturel, dans lequel vous prendrez position de façon nuancée sur l'avenir de la lecture à l'ère du numérique. Vous donnerez un titre à votre article et vous exploiterez les documents sans les recopier.",
+          "minWords": 600,
+          "points": 34,
+          "rubric": [
+            { "id": "ec-consigne", "label": "Respect de la consigne (genre, longueur, titre)", "points": 4 },
+            { "id": "ec-dossier-expl", "label": "Exploitation pertinente du dossier", "points": 6 },
+            { "id": "ec-argum", "label": "Capacité à argumenter et à structurer une pensée complexe", "points": 8 },
+            { "id": "ec-style", "label": "Registre, ton et style adaptés au genre", "points": 5 },
+            { "id": "ec-lex", "label": "Étendue et précision lexicales", "points": 5 },
+            { "id": "ec-gram", "label": "Correction grammaticale et maîtrise de la langue", "points": 6 }
+          ],
+          "modelAnswer": "Points attendus (≈700 mots) : un titre ; une introduction problématisée (le numérique tue-t-il la lecture, ou la transforme-t-il ?) ; un développement qui exploite et dépasse le dossier (la résilience symbolique du livre ; la mutation de l'attention ; les enjeux pour l'école et la démocratie ; les pistes pour préserver la lecture longue sans diaboliser les écrans) ; exemples variés ; conclusion personnelle. Style soutenu, lexique riche, syntaxe maîtrisée, aucune copie."
+        }
+      ]
+    }
+  ]
+}
