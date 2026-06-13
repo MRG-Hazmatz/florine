@@ -1,30 +1,37 @@
 import { useState } from "react";
 import Frog from "./frog/Frog";
-import { useFrogLore, type FrogId } from "../lib/frogLore";
+import { useFrogLore } from "../lib/frogLore";
 
 /**
- * One of the three hidden frogs. Subtly findable: small and low-contrast, no
- * label, but spottable if you look. Clicking it gives a little "croâ" puff,
- * records the find, and — on the third unique frog — the store opens the comic.
- * Once found, it stays faintly marked so it can't be re-counted.
+ * One candidate hiding place for a frog. It only actually renders if THIS
+ * device's saved pattern chose this slot (so each device hides its 3 frogs in
+ * different places). Subtly findable: small and low-contrast, no label.
+ *
+ * Tapping it kills the frog — eyes turn to X's and a little soul floats out of
+ * the body (grim, on-brand) — and records the find. The third find unlocks and
+ * auto-launches the comic. A dead frog stays faintly slumped and can't be
+ * re-counted.
  */
 export default function FrogSpot({
-  id,
+  slot,
   className = "",
 }: {
-  id: FrogId;
+  slot: string;
   className?: string;
 }) {
-  const found = useFrogLore((s) => s.found.includes(id));
+  const chosen = useFrogLore((s) => s.chosen.includes(slot));
+  const found = useFrogLore((s) => s.found.includes(slot));
   const findFrog = useFrogLore((s) => s.findFrog);
-  const [croak, setCroak] = useState(false);
+  const [dying, setDying] = useState(false);
+
+  if (!chosen) return null;
+
+  const dead = found || dying;
 
   const onClick = () => {
-    if (!found) {
-      setCroak(true);
-      window.setTimeout(() => setCroak(false), 700);
-    }
-    findFrog(id);
+    if (found) return;
+    setDying(true);
+    findFrog(slot);
   };
 
   return (
@@ -32,23 +39,29 @@ export default function FrogSpot({
       <button
         type="button"
         onClick={onClick}
-        aria-label={found ? "A frog (found)" : "A small frog"}
-        title={found ? "Croâ." : undefined}
-        className={`transition-opacity ${croak ? "frog-croak" : ""} ${
-          found
-            ? "cursor-default text-bleu/40 opacity-50"
+        aria-label={dead ? "A frog (found)" : "A small frog"}
+        title={dead ? "…" : undefined}
+        className={`transition-opacity ${dying ? "frog-croak" : ""} ${
+          dead
+            ? "cursor-default text-ink/30 opacity-50"
             : "text-ink/25 opacity-30 hover:opacity-90 hover:text-bleu"
         }`}
       >
-        <Frog className="h-5 w-5" />
+        <Frog className="h-5 w-5" dead={dead} />
       </button>
-      {croak && (
-        <span
-          aria-hidden
-          className="frog-puff pointer-events-none absolute -top-3 left-1/2 -translate-x-1/2 select-none text-xs italic text-bleu"
-        >
-          croâ
-        </span>
+      {dying && (
+        <>
+          {/* the little soul, leaving the body */}
+          <span className="frog-soul pointer-events-none absolute -top-1 left-1/2 text-bleu/60">
+            <Frog className="h-4 w-4" />
+          </span>
+          <span
+            aria-hidden
+            className="frog-puff pointer-events-none absolute -top-4 left-1/2 -translate-x-1/2 select-none text-[10px] italic text-ink/50"
+          >
+            croâ…
+          </span>
+        </>
       )}
     </span>
   );

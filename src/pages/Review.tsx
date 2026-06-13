@@ -5,6 +5,7 @@ import { useProgress, vocabKey } from "../lib/storage/progress";
 import { isDue, type Rating } from "../lib/srs/sm2";
 import { shuffle } from "../lib/util";
 import AudioButton from "../components/AudioButton";
+import FrogSpot from "../components/FrogSpot";
 import type { VocabItem } from "../lib/content/schema";
 
 interface Card {
@@ -115,6 +116,7 @@ export default function Review() {
         <div className="flex items-center gap-3">
           <img src="/icons/review.png" alt="" className="h-14 object-contain mix-blend-multiply" />
           <h1 className="font-display text-2xl font-bold text-ink">Vocabulary review</h1>
+          <FrogSpot slot="review-heading" className="self-start" />
         </div>
         <div className="flex items-center gap-4">
           <Link to="/review/browse" className="text-sm text-marine underline-offset-2 hover:underline">

@@ -11,7 +11,7 @@ export default function LevelSelect() {
       <h1 className="flex items-center gap-3 font-display text-3xl font-bold">
         <img src="/icons/levels.png" alt="" className="h-14 object-contain mix-blend-multiply" />
         Choose your level
-        <FrogSpot id="levels" className="ml-auto self-start" />
+        <FrogSpot slot="levels-heading" className="ml-auto self-start" />
       </h1>
       <ul className="grid gap-3 sm:grid-cols-2">
         {summaries.map((s) => {

@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { getExamGroups } from "../lib/exams/load";
 import { examDurationMinutes, examTotalPoints } from "../lib/exams/schema";
 import { useProgress } from "../lib/storage/progress";
+import FrogSpot from "../components/FrogSpot";
 
 /**
  * Exam hub — lists the mock papers grouped by exam, with best scores, and
@@ -18,6 +19,7 @@ export default function ExamHub() {
         <h1 className="flex items-center gap-3 font-display text-3xl font-bold">
           <img src="/icons/exams.png" alt="" className="h-14 object-contain mix-blend-multiply" />
           Salle d'examen
+          <FrogSpot slot="exams-heading" className="self-start" />
         </h1>
         <p className="text-sm text-ink/60">
           Full mock papers in the authentic DELF/DALF format — fullscreen, timed, invigilated. Sit
@@ -97,6 +99,7 @@ export default function ExamHub() {
           </a>{" "}
           (© Yann Perrot / France Éducation International) — we credit it as our format reference and
           never copy its sujets.
+          <FrogSpot slot="exams-footer" className="ml-1 align-middle" />
         </p>
       </footer>
     </section>

@@ -11,6 +11,7 @@ import { getAllUnits } from "../lib/content/load";
 import { useProgress, vocabKey } from "../lib/storage/progress";
 import { CEFR_LABELS } from "../lib/cefr";
 import AudioButton from "../components/AudioButton";
+import FrogSpot from "../components/FrogSpot";
 
 export default function ReviewBrowse() {
   const vocabState = useProgress((s) => s.vocab);
@@ -33,6 +34,7 @@ export default function ReviewBrowse() {
               already collected
             </p>
           </div>
+          <FrogSpot slot="review-browse" className="self-start" />
         </div>
         <Link to="/review" className="text-sm text-marine underline-offset-2 hover:underline">
           ← Back to review

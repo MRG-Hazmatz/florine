@@ -134,7 +134,34 @@ body::after {
   to { opacity: 0; transform: translate(-50%, -14px) scale(1.1); }
 }
 .frog-puff {
-  animation: frog-puff 0.7s ease-out forwards;
+  animation: frog-puff 1s ease-out forwards;
+}
+
+/* The little soul drifting out of the tapped frog's body. */
+@keyframes frog-soul {
+  0% { opacity: 0; transform: translate(-50%, 2px) scale(0.6) rotate(0deg); }
+  20% { opacity: 0.85; }
+  100% { opacity: 0; transform: translate(-50%, -34px) scale(1) rotate(10deg); }
+}
+.frog-soul {
+  animation: frog-soul 1.1s ease-out forwards;
+}
+
+/* Comic-book SFX splash that fires when the third frog is tapped. */
+@keyframes splash-pop {
+  0% { opacity: 0; transform: scale(0.3) rotate(-8deg); }
+  55% { opacity: 1; transform: scale(1.08) rotate(2deg); }
+  72% { transform: scale(0.96) rotate(-1deg); }
+  100% { opacity: 1; transform: scale(1) rotate(0deg); }
+}
+.splash-pop {
+  animation: splash-pop 0.55s cubic-bezier(0.2, 1.5, 0.3, 1) both;
+}
+@keyframes splash-fade {
+  to { opacity: 0; }
+}
+.splash-fade {
+  animation: splash-fade 0.4s ease-in forwards;
 }
 
 /* Respect reduced-motion: swap the page-turn for a calm cross-fade. */
@@ -146,5 +173,11 @@ body::after {
   }
   .frog-croak {
     animation: none;
+  }
+  .splash-pop {
+    animation: reveal-rise 0.25s ease-out both;
+  }
+  .frog-soul {
+    animation: frog-puff 0.6s ease-out forwards;
   }
 }

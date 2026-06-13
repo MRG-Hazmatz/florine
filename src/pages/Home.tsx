@@ -62,6 +62,7 @@ export default function Home() {
         <h1 className="flex items-center gap-3 font-display text-4xl font-bold text-ink">
           Bonjour
           <img src="/icons/hand.png" alt="" className="h-12 w-auto object-contain" />
+          <FrogSpot slot="home-greeting" className="self-start" />
         </h1>
         <p className="max-w-prose text-lg text-ink/70">
           Glad you're here. Florine is a calmer way to learn French: clear grammar
@@ -131,7 +132,7 @@ export default function Home() {
 
       <p className="flex items-center gap-1 text-sm text-ink/50">
         {totalUnits} unit{totalUnits === 1 ? "" : "s"} of content loaded · Phase 2
-        <FrogSpot id="home" />
+        <FrogSpot slot="home-stats" />
       </p>
     </section>
   );
