@@ -95,22 +95,24 @@ body::after {
 .comic-stage {
   perspective: 1800px;
 }
+/* Western comic reading order (left → right): turning to the NEXT page swings
+   the new leaf in from the RIGHT edge; going back swings it from the LEFT. */
 @keyframes comic-turn-next {
-  from { transform: rotateY(-92deg); opacity: 0.15; }
+  from { transform: rotateY(90deg); opacity: 0.15; }
   60% { opacity: 1; }
   to { transform: rotateY(0deg); opacity: 1; }
 }
 @keyframes comic-turn-prev {
-  from { transform: rotateY(92deg); opacity: 0.15; }
+  from { transform: rotateY(-90deg); opacity: 0.15; }
   60% { opacity: 1; }
   to { transform: rotateY(0deg); opacity: 1; }
 }
 .comic-page-next {
-  transform-origin: left center;
+  transform-origin: right center;
   animation: comic-turn-next 0.7s cubic-bezier(0.2, 0.7, 0.2, 1) both;
 }
 .comic-page-prev {
-  transform-origin: right center;
+  transform-origin: left center;
   animation: comic-turn-prev 0.7s cubic-bezier(0.2, 0.7, 0.2, 1) both;
 }
 /* a soft inner vignette on each scene, for the cinematic plate look */

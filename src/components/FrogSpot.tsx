@@ -3,14 +3,14 @@ import Frog from "./frog/Frog";
 import { useFrogLore } from "../lib/frogLore";
 
 /**
- * One candidate hiding place for a frog. It only actually renders if THIS
- * device's saved pattern chose this slot (so each device hides its 3 frogs in
- * different places). Subtly findable: small and low-contrast, no label.
+ * One candidate hiding place for a frog. It only renders if THIS device's
+ * current pattern includes this slot (so each device hides its frogs in
+ * different places, and they move around as the game is replayed). Subtly
+ * findable: small and low-contrast, no label.
  *
- * Tapping it kills the frog — eyes turn to X's and a little soul floats out of
- * the body (grim, on-brand) — and records the find. The third find unlocks and
- * auto-launches the comic. A dead frog stays faintly slumped and can't be
- * re-counted.
+ * Tapping it kills the frog — eyes turn to X's and a little soul floats out —
+ * and records the pop. The third pop unlocks and auto-launches the comic. A
+ * popped frog stays slumped until it revives (relocated) a while later.
  */
 export default function FrogSpot({
   slot,
@@ -20,18 +20,18 @@ export default function FrogSpot({
   className?: string;
 }) {
   const chosen = useFrogLore((s) => s.chosen.includes(slot));
-  const found = useFrogLore((s) => s.found.includes(slot));
-  const findFrog = useFrogLore((s) => s.findFrog);
+  const popped = useFrogLore((s) => Boolean(s.popped[slot]));
+  const popFrog = useFrogLore((s) => s.popFrog);
   const [dying, setDying] = useState(false);
 
   if (!chosen) return null;
 
-  const dead = found || dying;
+  const dead = popped || dying;
 
   const onClick = () => {
-    if (found) return;
+    if (popped) return;
     setDying(true);
-    findFrog(slot);
+    popFrog(slot);
   };
 
   return (
@@ -39,7 +39,7 @@ export default function FrogSpot({
       <button
         type="button"
         onClick={onClick}
-        aria-label={dead ? "A frog (found)" : "A small frog"}
+        aria-label={dead ? "A frog (popped)" : "A small frog"}
         title={dead ? "…" : undefined}
         className={`transition-opacity ${dying ? "frog-croak" : ""} ${
           dead

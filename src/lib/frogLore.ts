@@ -1,15 +1,17 @@
 /**
  * Frog-lore state — the hidden easter egg "La Complainte de la Grenouille".
  *
- * Three frogs are tucked, low-contrast, into the app. But WHERE they hide is
- * decided once, per device, from a saved random seed: the very first time you
- * open Florine it picks 3 of a pool of candidate slots and remembers them. So
- * every device gets its own stable hiding pattern — you never lose progress
- * mid-hunt, and nobody can post "the frogs are here" online, because yours are
- * somewhere else.
+ * Three frogs hide across the app. WHERE they first hide is decided once, per
+ * device, from a saved random seed (so each device gets its own pattern — you
+ * never lose progress mid-hunt, and nobody can post "the frogs are here").
  *
- * Persisted: seed, chosen slots, found slots, unlocked, seen. Ephemeral (never
- * persisted): `open` (is the comic overlay showing right now).
+ * It's also a little game you can keep playing: a popped frog REVIVES after a
+ * while in a NEW spot. If you pop only one, just that one moves; if you pop all
+ * three, the whole set re-rolls elsewhere. Popping the third also unlocks the
+ * comic forever, so afterwards you can simply scroll to the footer and read it.
+ *
+ * Persisted: seed, chosen slots, popped (slot → time popped), unlocked, seen.
+ * Ephemeral (never persisted): `open` (is the comic overlay showing now).
  */
 import { create } from "zustand";
 import { persist } from "zustand/middleware";
@@ -28,6 +30,8 @@ export const FROG_SLOTS = [
 export type FrogSlot = (typeof FROG_SLOTS)[number];
 
 const CHOSEN_COUNT = 3;
+/** A popped frog comes back (elsewhere) after this long. */
+const REVIVE_MS = 90_000;
 
 function newSeed(): string {
   try {
@@ -62,16 +66,26 @@ function pickChosen(seed: string, n: number): string[] {
   return a.slice(0, n);
 }
 
+/** One random free slot not already occupied by the `avoid` set. */
+function freeSlot(avoid: Set<string>): string | null {
+  const free = FROG_SLOTS.filter((s) => !avoid.has(s));
+  if (free.length === 0) return null;
+  return free[Math.floor(Math.random() * free.length)];
+}
+
 interface FrogLore {
   seed: string;
   chosen: string[];
-  found: string[];
+  popped: Record<string, number>;
   unlocked: boolean;
   seen: boolean;
   open: boolean;
   /** Idempotent: assign this device its frog pattern if it has none yet. */
   ensureChosen: () => void;
-  findFrog: (slot: string) => void;
+  /** Pop (kill) a frog; the 3rd pop unlocks + auto-opens the comic. */
+  popFrog: (slot: string) => void;
+  /** Revive frogs whose time is up — relocate one, or re-roll all. */
+  reviveDue: () => void;
   openComic: () => void;
   closeComic: () => void;
   reset: () => void;
@@ -82,7 +96,7 @@ export const useFrogLore = create<FrogLore>()(
     (set, get) => ({
       seed: "",
       chosen: [],
-      found: [],
+      popped: {},
       unlocked: false,
       seen: false,
       open: false,
@@ -93,35 +107,63 @@ export const useFrogLore = create<FrogLore>()(
         set({ seed, chosen: pickChosen(seed, CHOSEN_COUNT) });
       },
 
-      findFrog: (slot) => {
-        const { chosen, found } = get();
-        if (!chosen.includes(slot) || found.includes(slot)) return;
-        const nextFound = [...found, slot];
-        const unlocked = nextFound.length >= chosen.length;
+      popFrog: (slot) => {
+        const { chosen, popped } = get();
+        if (!chosen.includes(slot) || popped[slot]) return;
+        const nextPopped = { ...popped, [slot]: Date.now() };
+        const allPopped = chosen.every((s) => nextPopped[s]);
         set({
-          found: nextFound,
-          unlocked: unlocked || get().unlocked,
-          open: unlocked ? true : get().open,
+          popped: nextPopped,
+          unlocked: allPopped || get().unlocked,
+          open: allPopped ? true : get().open,
         });
+      },
+
+      reviveDue: () => {
+        const now = Date.now();
+        const { chosen, popped } = get();
+        const poppedSlots = Object.keys(popped);
+        const due = poppedSlots.filter((s) => now - popped[s] > REVIVE_MS);
+        if (due.length === 0) return;
+
+        // Whole set cleared and cooled down → re-roll a fresh trio elsewhere.
+        if (poppedSlots.length >= chosen.length && due.length >= poppedSlots.length) {
+          const seed = newSeed();
+          let fresh = pickChosen(seed, CHOSEN_COUNT);
+          // nudge away from the just-finished set if the re-roll collided
+          if (fresh.every((s) => chosen.includes(s))) fresh = pickChosen(newSeed(), CHOSEN_COUNT);
+          set({ seed, chosen: fresh, popped: {} });
+          return;
+        }
+
+        // Otherwise relocate each cooled-down popped frog to a new free slot.
+        let nextChosen = [...chosen];
+        const nextPopped = { ...popped };
+        for (const slot of due) {
+          const dest = freeSlot(new Set(nextChosen));
+          delete nextPopped[slot];
+          if (dest) nextChosen = nextChosen.map((c) => (c === slot ? dest : c));
+        }
+        set({ chosen: nextChosen, popped: nextPopped });
       },
 
       openComic: () => set({ open: true }),
       closeComic: () => set({ open: false, seen: true }),
       reset: () => {
         const seed = newSeed();
-        set({ seed, chosen: pickChosen(seed, CHOSEN_COUNT), found: [], unlocked: false, seen: false, open: false });
+        set({ seed, chosen: pickChosen(seed, CHOSEN_COUNT), popped: {}, unlocked: false, seen: false, open: false });
       },
     }),
     {
       name: "florine:froglore",
-      version: 2,
-      // v1 used fixed id-based slots (home/almanac/levels) and had no per-device
-      // pattern. Re-roll cleanly into v2; ensureChosen() fills `chosen` after.
-      migrate: () => ({ seed: "", chosen: [], found: [], unlocked: false, seen: false }),
+      version: 3,
+      // Earlier versions used fixed slots / a `found` array. Re-roll cleanly;
+      // ensureChosen() fills `chosen` afterwards.
+      migrate: () => ({ seed: "", chosen: [], popped: {}, unlocked: false, seen: false }),
       partialize: (s) => ({
         seed: s.seed,
         chosen: s.chosen,
-        found: s.found,
+        popped: s.popped,
         unlocked: s.unlocked,
         seen: s.seen,
       }),
@@ -130,5 +172,6 @@ export const useFrogLore = create<FrogLore>()(
 );
 
 // localStorage is synchronous, so by now the store is rehydrated: lock in this
-// device's frog pattern before any component renders a FrogSpot.
+// device's frog pattern, and revive anything whose timer already elapsed.
 useFrogLore.getState().ensureChosen();
+useFrogLore.getState().reviveDue();

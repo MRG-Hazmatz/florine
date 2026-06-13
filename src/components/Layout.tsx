@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { Link, NavLink, Outlet, useLocation, useNavigate } from "react-router-dom";
 import { useExamSession } from "../lib/exams/session";
 import { useFrogLore } from "../lib/frogLore";
@@ -16,6 +17,15 @@ export default function Layout() {
   const examLive = useExamSession((s) => s.live);
   const frogUnlocked = useFrogLore((s) => s.unlocked);
   const openComic = useFrogLore((s) => s.openComic);
+
+  // Keep the frog hunt alive: revive (relocate) popped frogs on a light tick
+  // and whenever the route changes.
+  useEffect(() => {
+    useFrogLore.getState().reviveDue();
+    const id = window.setInterval(() => useFrogLore.getState().reviveDue(), 20_000);
+    return () => window.clearInterval(id);
+  }, [pathname]);
+
   return (
     <div className="min-h-full flex flex-col">
       <header className="sticky top-0 z-50 border-b border-ink/20 bg-parchment/90 backdrop-blur">
