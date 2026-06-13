@@ -1,0 +1,369 @@
+{
+  "schemaVersion": 1,
+  "id": "delf-b2-01",
+  "family": "DELF",
+  "examName": "DELF B2",
+  "levelKey": "b2",
+  "paper": 1,
+  "title": "Sujet blanc nº 1",
+  "description": "Examen blanc complet au format officiel : 4 épreuves, /100, admis à partir de 50/100. Note éliminatoire en dessous de 5/25 par épreuve.",
+  "passMark": 50,
+  "sections": [
+    {
+      "id": "co",
+      "skill": "listening",
+      "title": "Compréhension de l'oral",
+      "durationMinutes": 30,
+      "points": 25,
+      "eliminatoryBelow": 5,
+      "instructions": "Vous allez entendre trois documents. Le premier document est long et n'est diffusé qu'une fois ; les suivants sont plus courts.",
+      "docs": [
+        {
+          "id": "co-doc1",
+          "title": "Document 1 — Interview : le télétravail",
+          "audio": "audio/exams/delf-b2-01/co-doc1.mp3",
+          "voice": "denise",
+          "listens": 1,
+          "transcript": "Bonjour et bienvenue dans notre émission. Aujourd'hui, nous recevons Claire Fontaine, spécialiste du monde du travail, pour parler du télétravail. Claire, le télétravail s'est généralisé ces dernières années. Est-ce une bonne chose ? — C'est une question complexe. D'un côté, le télétravail offre de vrais avantages : on gagne du temps de transport, on a plus de souplesse pour organiser sa journée, et beaucoup de salariés se disent plus concentrés chez eux. — Et de l'autre côté ? — De l'autre côté, il y a des risques. Le premier, c'est l'isolement : à force de travailler seul, on perd le contact avec ses collègues, et cela peut peser sur le moral. Le deuxième risque, c'est que la frontière entre vie professionnelle et vie privée devient floue. Quand le bureau est dans le salon, on a parfois du mal à s'arrêter. — Que conseillez-vous, alors ? — Je conseille un équilibre : deux ou trois jours de télétravail par semaine, et le reste au bureau. C'est ce qu'on appelle le travail hybride, et c'est probablement l'avenir. — Et pour les entreprises ? — Les entreprises y gagnent aussi : des bureaux plus petits, donc moins chers, et des salariés souvent plus motivés. Mais elles doivent apprendre à faire confiance, car on ne peut plus surveiller les gens comme avant. — Merci Claire pour cet éclairage.",
+          "questions": [
+            {
+              "id": "co1-q1",
+              "prompt": "Quel est le sujet de l'émission ?",
+              "options": [
+                { "id": "a", "text": "Le télétravail" },
+                { "id": "b", "text": "Le chômage des jeunes" },
+                { "id": "c", "text": "L'augmentation des salaires" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            },
+            {
+              "id": "co1-q2",
+              "prompt": "Quel avantage du télétravail est cité ?",
+              "options": [
+                { "id": "a", "text": "On gagne du temps de transport" },
+                { "id": "b", "text": "On gagne plus d'argent" },
+                { "id": "c", "text": "On travaille beaucoup moins d'heures" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "co1-q3",
+              "prompt": "Quel est le premier risque mentionné ?",
+              "options": [
+                { "id": "a", "text": "L'isolement" },
+                { "id": "b", "text": "Le bruit" },
+                { "id": "c", "text": "La fatigue physique" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "co1-q4",
+              "prompt": "Pourquoi la frontière vie pro / vie privée devient-elle floue ?",
+              "options": [
+                { "id": "a", "text": "Parce que le bureau est à la maison" },
+                { "id": "b", "text": "Parce qu'on travaille la nuit" },
+                { "id": "c", "text": "Parce qu'on change souvent d'emploi" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            },
+            {
+              "id": "co1-q5",
+              "prompt": "Que conseille la spécialiste ?",
+              "options": [
+                { "id": "a", "text": "Un équilibre : le travail hybride" },
+                { "id": "b", "text": "Le télétravail à temps complet" },
+                { "id": "c", "text": "Le retour total au bureau" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            }
+          ]
+        },
+        {
+          "id": "co-doc2",
+          "title": "Document 2 — Message de la mairie",
+          "audio": "audio/exams/delf-b2-01/co-doc2.mp3",
+          "voice": "henri",
+          "listens": 2,
+          "transcript": "Bonjour à tous, ici la mairie. À partir du mois prochain, la collecte des déchets change. Les poubelles jaunes, destinées au recyclage, seront ramassées le mardi, et non plus le vendredi. Pensez à les sortir la veille au soir. Pour toute question, appelez notre numéro vert gratuit. Merci de votre participation.",
+          "questions": [
+            {
+              "id": "co2-q1",
+              "prompt": "Qu'est-ce qui change le mois prochain ?",
+              "options": [
+                { "id": "a", "text": "Le jour de collecte des poubelles jaunes" },
+                { "id": "b", "text": "Le prix de la collecte" },
+                { "id": "c", "text": "La couleur des poubelles" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "co2-q2",
+              "prompt": "Quel est le nouveau jour de collecte ?",
+              "options": [
+                { "id": "a", "text": "Le mardi" },
+                { "id": "b", "text": "Le vendredi" },
+                { "id": "c", "text": "Le lundi" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            }
+          ]
+        },
+        {
+          "id": "co-doc3",
+          "title": "Document 3 — Papier ou liseuse ?",
+          "audio": "audio/exams/delf-b2-01/co-doc3.mp3",
+          "voice": "henri",
+          "listens": 2,
+          "transcript": "— Tu lis encore des livres papier, toi ? — Oui, et j'assume ! Je sais que la liseuse électronique est pratique, surtout en voyage, mais rien ne remplace le plaisir de tourner les pages. — Moi, c'est l'inverse : avec ma liseuse, j'ai cent livres dans mon sac et ça ne pèse rien. — Chacun ses goûts ! L'important, c'est de lire, non ? — Là-dessus, on est entièrement d'accord.",
+          "questions": [
+            {
+              "id": "co3-q1",
+              "prompt": "Que préfère la première personne ?",
+              "options": [
+                { "id": "a", "text": "Les livres papier" },
+                { "id": "b", "text": "Les liseuses électroniques" },
+                { "id": "c", "text": "Les livres audio" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "co3-q2",
+              "prompt": "Sur quoi les deux personnes sont-elles d'accord ?",
+              "options": [
+                { "id": "a", "text": "L'important, c'est de lire" },
+                { "id": "b", "text": "Le papier est toujours meilleur" },
+                { "id": "c", "text": "La liseuse est inutile" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            }
+          ]
+        }
+      ],
+      "texts": [],
+      "tasks": []
+    },
+    {
+      "id": "ce",
+      "skill": "reading",
+      "title": "Compréhension des écrits",
+      "durationMinutes": 60,
+      "points": 25,
+      "eliminatoryBelow": 5,
+      "instructions": "Vous allez lire deux textes : un texte informatif et un texte argumentatif. Répondez aux questions.",
+      "docs": [],
+      "texts": [
+        {
+          "id": "ce-text1",
+          "title": "Document 1 — Les jardins partagés fleurissent en ville",
+          "passageFr": "LES JARDINS PARTAGÉS FLEURISSENT EN VILLE\n\nDepuis quelques années, les jardins partagés se multiplient dans les villes françaises. Le principe est simple : un terrain, souvent prêté par la mairie, est divisé en petites parcelles que les habitants cultivent ensemble.\n\nCes jardins répondent à plusieurs besoins. D'abord, ils permettent à des citadins, parfois sans balcon, de faire pousser leurs propres légumes. Ensuite, ils créent du lien social : on y rencontre ses voisins, on échange des conseils, des graines, parfois des recettes.\n\nMais leur rôle ne s'arrête pas là. Ces espaces verts rafraîchissent la ville pendant les fortes chaleurs et accueillent une faune variée : abeilles, oiseaux, papillons. Certaines écoles s'en servent même pour enseigner aux enfants d'où viennent les aliments.\n\nLeur seul véritable défaut ? Le manque de place. Dans les grandes villes, la demande est telle qu'il faut souvent attendre des mois, voire des années, pour obtenir une parcelle.",
+          "questions": [
+            {
+              "id": "ce1-q1",
+              "prompt": "Quel est le sujet de l'article ?",
+              "options": [
+                { "id": "a", "text": "Les jardins partagés en ville" },
+                { "id": "b", "text": "Les grandes fermes à la campagne" },
+                { "id": "c", "text": "Les parcs nationaux" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            },
+            {
+              "id": "ce1-q2",
+              "prompt": "Qui prête souvent le terrain ?",
+              "options": [
+                { "id": "a", "text": "La mairie" },
+                { "id": "b", "text": "Les supermarchés" },
+                { "id": "c", "text": "Les agriculteurs" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            },
+            {
+              "id": "ce1-q3",
+              "prompt": "Quel bénéfice social l'article met-il en avant ?",
+              "options": [
+                { "id": "a", "text": "Ils créent du lien entre voisins" },
+                { "id": "b", "text": "Ils rapportent beaucoup d'argent" },
+                { "id": "c", "text": "Ils remplacent les magasins" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "ce1-q4",
+              "prompt": "Quel rôle écologique jouent ces jardins ?",
+              "options": [
+                { "id": "a", "text": "Ils rafraîchissent la ville et accueillent la faune" },
+                { "id": "b", "text": "Ils produisent de l'électricité" },
+                { "id": "c", "text": "Ils nettoient l'eau de la ville" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            },
+            {
+              "id": "ce1-q5",
+              "prompt": "Quel est leur seul véritable défaut ?",
+              "options": [
+                { "id": "a", "text": "Le manque de place" },
+                { "id": "b", "text": "Le coût très élevé" },
+                { "id": "c", "text": "Le manque d'intérêt des habitants" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            }
+          ]
+        },
+        {
+          "id": "ce-text2",
+          "title": "Document 2 — Faut-il se méfier des influenceurs ?",
+          "passageFr": "FAUT-IL SE MÉFIER DES INFLUENCEURS ?\n\nIls sont jeunes, souriants, suivis par des millions d'abonnés : les influenceurs sont devenus incontournables sur les réseaux sociaux. Mode, voyages, cuisine, jeux vidéo : ils donnent leur avis sur tout, et leur public les écoute. Mais cette influence est-elle sans danger ?\n\nLes défenseurs des influenceurs soulignent leur côté positif. Beaucoup partagent des passions sincères, donnent de bons conseils, ou défendent des causes utiles, comme l'écologie ou l'acceptation de soi. Pour certains jeunes, ils sont même des modèles plus accessibles que les célébrités traditionnelles.\n\nCependant, les critiques sont nombreuses. Le principal reproche concerne la publicité cachée : quand un influenceur vante un produit, est-ce un avis sincère ou une simple opération commerciale payée par une marque ? La frontière est souvent floue. De plus, la mise en scène permanente de vies parfaites peut nourrir un sentiment de mal-être chez les plus fragiles.\n\nFinalement, l'influenceur n'est ni un héros ni un escroc. Comme pour toute source d'information, le bon réflexe reste l'esprit critique : se demander qui parle, et pourquoi.",
+          "questions": [
+            {
+              "id": "ce2-q1",
+              "prompt": "Quel est le sujet de l'article ?",
+              "options": [
+                { "id": "a", "text": "L'influence des influenceurs sur les réseaux sociaux" },
+                { "id": "b", "text": "La création d'un réseau social" },
+                { "id": "c", "text": "La publicité à la télévision" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "ce2-q2",
+              "prompt": "Quel aspect positif l'article mentionne-t-il ?",
+              "options": [
+                { "id": "a", "text": "Ils défendent parfois des causes utiles" },
+                { "id": "b", "text": "Ils sont toujours parfaitement sincères" },
+                { "id": "c", "text": "Ils sont tous très riches" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "ce2-q3",
+              "prompt": "Quel est le principal reproche fait aux influenceurs ?",
+              "options": [
+                { "id": "a", "text": "La publicité cachée" },
+                { "id": "b", "text": "Le manque d'abonnés" },
+                { "id": "c", "text": "Les fautes d'orthographe" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "ce2-q4",
+              "prompt": "Quel danger psychologique est cité ?",
+              "options": [
+                { "id": "a", "text": "La mise en scène de vies parfaites peut nourrir un mal-être" },
+                { "id": "b", "text": "La perte de la mémoire" },
+                { "id": "c", "text": "La fatigue des yeux" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            },
+            {
+              "id": "ce2-q5",
+              "prompt": "Quelle conclusion l'auteur propose-t-il ?",
+              "options": [
+                { "id": "a", "text": "Garder son esprit critique" },
+                { "id": "b", "text": "Ne plus suivre personne" },
+                { "id": "c", "text": "Croire tout ce que l'on voit" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            }
+          ]
+        }
+      ],
+      "tasks": []
+    },
+    {
+      "id": "pe",
+      "skill": "writing",
+      "title": "Production écrite",
+      "durationMinutes": 60,
+      "points": 25,
+      "eliminatoryBelow": 5,
+      "instructions": "Vous prenez position de façon argumentée et nuancée sur le sujet proposé.",
+      "docs": [],
+      "texts": [],
+      "tasks": [
+        {
+          "id": "pe-task1",
+          "kind": "writing",
+          "title": "Prise de position argumentée",
+          "consigne": "Le maire de votre ville veut interdire les voitures dans le centre-ville le week-end afin de réduire la pollution et le bruit. Sur le forum du site de la mairie, vous réagissez à ce projet. Vous donnez votre opinion de façon argumentée et nuancée, en tenant compte des différents points de vue (habitants, commerçants, visiteurs). (250 mots minimum)",
+          "minWords": 250,
+          "points": 25,
+          "rubric": [
+            { "id": "r-consigne", "label": "Respect de la consigne", "points": 2 },
+            { "id": "r-sociol", "label": "Correction sociolinguistique (registre)", "points": 2 },
+            { "id": "r-faits", "label": "Capacité à présenter des faits", "points": 3 },
+            { "id": "r-argumenter", "label": "Capacité à argumenter", "points": 4 },
+            { "id": "r-coherence", "label": "Cohérence et cohésion", "points": 3 },
+            { "id": "r-lex-etendue", "label": "Étendue du vocabulaire", "points": 2 },
+            { "id": "r-lex-maitrise", "label": "Maîtrise du vocabulaire", "points": 2 },
+            { "id": "r-ortho", "label": "Maîtrise de l'orthographe lexicale", "points": 1 },
+            { "id": "r-temps", "label": "Choix des temps et des modes", "points": 2 },
+            { "id": "r-morpho", "label": "Morphosyntaxe", "points": 4 }
+          ],
+          "modelAnswer": "Points attendus (≈250-280 mots) : une introduction qui reformule le sujet et annonce la position ; un développement nuancé qui présente plusieurs points de vue (les habitants gagnent en tranquillité et en air pur ; les commerçants craignent de perdre des clients ; les visiteurs s'interrogent sur le stationnement) ; une position personnelle claire mais nuancée (par exemple : favorable au projet, à condition de renforcer les transports en commun et de prévoir des parkings en périphérie) ; une conclusion. Connecteurs argumentatifs riches (certes… mais, d'une part… d'autre part, en effet, toutefois, par conséquent) ; registre adapté à un forum public ; subjonctif et conditionnel maîtrisés."
+        }
+      ]
+    },
+    {
+      "id": "po",
+      "skill": "speaking",
+      "title": "Production orale",
+      "durationMinutes": 20,
+      "prepMinutes": 30,
+      "points": 25,
+      "eliminatoryBelow": 5,
+      "instructions": "À partir d'un court document déclencheur, vous dégagez le problème, vous présentez votre point de vue, puis vous le défendez dans un débat avec l'examinateur.",
+      "docs": [],
+      "texts": [],
+      "tasks": [
+        {
+          "id": "po-task1",
+          "kind": "speaking",
+          "title": "Partie 1 — Monologue suivi (présenter son point de vue)",
+          "consigne": "À partir du document ci-dessous, dégagez le problème soulevé et présentez votre point de vue de façon construite, pendant environ cinq minutes.",
+          "documentFr": "« Les supermarchés jettent chaque année des tonnes de nourriture encore consommable. Certains proposent désormais de vendre les invendus à petit prix via des applications, plutôt que de les détruire. Mais est-ce vraiment la solution au gaspillage alimentaire ? »",
+          "points": 12,
+          "rubric": [
+            { "id": "po1-degager", "label": "Peut dégager le problème posé par le document", "points": 3 },
+            { "id": "po1-pdv", "label": "Peut présenter un point de vue construit et illustré", "points": 4 },
+            { "id": "po-ens-lex", "label": "Étendue et maîtrise du lexique — ensemble de l'épreuve", "points": 3 },
+            { "id": "po-ens-phono", "label": "Maîtrise phonologique — ensemble de l'épreuve", "points": 2 }
+          ],
+          "modelAnswer": "Points attendus : reformuler la problématique (le gaspillage alimentaire et les solutions possibles) ; annoncer un plan ; présenter un point de vue nuancé avec des arguments et des exemples (les applications anti-gaspillage sont utiles mais ne traitent pas la cause ; il faudrait aussi produire moins et mieux répartir) ; conclure. Discours organisé et fluide."
+        },
+        {
+          "id": "po-task2",
+          "kind": "speaking",
+          "title": "Partie 2 — Débat avec l'examinateur",
+          "consigne": "L'examinateur va vous poser des questions et défendre parfois un avis contraire. Défendez votre position, nuancez si nécessaire, et réagissez à ses arguments. (environ 10 minutes)",
+          "points": 13,
+          "rubric": [
+            { "id": "po2-defendre", "label": "Peut défendre et nuancer son point de vue face aux objections", "points": 4 },
+            { "id": "po2-interagir", "label": "Peut interagir, relancer et réagir spontanément", "points": 3 },
+            { "id": "po-ens-morpho", "label": "Morphosyntaxe — ensemble de l'épreuve", "points": 3 },
+            { "id": "po-ens-aisance", "label": "Aisance et fluidité — ensemble de l'épreuve", "points": 3 }
+          ],
+          "modelAnswer": "Points attendus : écouter les objections et y répondre précisément ; concéder ce qui est juste (« vous avez raison sur ce point, cependant… ») ; relancer le débat par des questions ; maintenir une position cohérente tout en restant ouvert. Marqueurs d'interaction et d'argumentation maîtrisés."
+        }
+      ]
+    }
+  ]
+}

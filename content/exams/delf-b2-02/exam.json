@@ -1,0 +1,369 @@
+{
+  "schemaVersion": 1,
+  "id": "delf-b2-02",
+  "family": "DELF",
+  "examName": "DELF B2",
+  "levelKey": "b2",
+  "paper": 2,
+  "title": "Sujet blanc nº 2",
+  "description": "Examen blanc complet au format officiel : 4 épreuves, /100, admis à partir de 50/100. Note éliminatoire en dessous de 5/25 par épreuve.",
+  "passMark": 50,
+  "sections": [
+    {
+      "id": "co",
+      "skill": "listening",
+      "title": "Compréhension de l'oral",
+      "durationMinutes": 30,
+      "points": 25,
+      "eliminatoryBelow": 5,
+      "instructions": "Vous allez entendre trois documents. Le premier est long et diffusé une seule fois ; les suivants sont plus courts.",
+      "docs": [
+        {
+          "id": "co-doc1",
+          "title": "Document 1 — Interview : les fausses informations",
+          "audio": "audio/exams/delf-b2-02/co-doc1.mp3",
+          "voice": "henri",
+          "listens": 1,
+          "transcript": "Bienvenue dans notre émission. Notre invité aujourd'hui est Julien Mercier, journaliste, spécialiste de la vérification des informations. Julien, on parle beaucoup de fausses informations. De quoi s'agit-il exactement ? — Une fausse information, ou infox, c'est une information inventée ou déformée, présentée comme vraie, et qui se diffuse très vite, surtout sur les réseaux sociaux. — Pourquoi se propagent-elles si vite ? — Parce qu'elles jouent sur les émotions. Une nouvelle choquante ou révoltante donne envie de la partager immédiatement, souvent sans la vérifier. C'est très humain. — Et qui les fabrique ? — Cela peut être pour gagner de l'argent, car les clics rapportent de la publicité. Mais parfois, c'est pour influencer l'opinion, par exemple pendant une élection. — Comment se protéger, alors ? — Trois réflexes simples. D'abord, vérifier la source : qui publie cette information ? Ensuite, croiser les sources : est-ce que d'autres médias sérieux en parlent ? Enfin, se méfier de ce qui provoque une émotion trop forte. — Et l'école dans tout ça ? — L'école a un rôle essentiel : apprendre aux jeunes à s'informer, c'est aussi important que de leur apprendre à lire. — Merci Julien pour ces conseils.",
+          "questions": [
+            {
+              "id": "co1-q1",
+              "prompt": "Quel est le métier de l'invité ?",
+              "options": [
+                { "id": "a", "text": "Journaliste" },
+                { "id": "b", "text": "Professeur" },
+                { "id": "c", "text": "Informaticien" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            },
+            {
+              "id": "co1-q2",
+              "prompt": "Qu'est-ce qu'une « infox » ?",
+              "options": [
+                { "id": "a", "text": "Une information inventée présentée comme vraie" },
+                { "id": "b", "text": "Une publicité à la télévision" },
+                { "id": "c", "text": "Un nouveau réseau social" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "co1-q3",
+              "prompt": "Pourquoi les fausses informations se propagent-elles vite ?",
+              "options": [
+                { "id": "a", "text": "Parce qu'elles jouent sur les émotions" },
+                { "id": "b", "text": "Parce qu'elles sont très longues" },
+                { "id": "c", "text": "Parce qu'elles sont payantes" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "co1-q4",
+              "prompt": "Quelle peut être une raison de fabriquer une infox ?",
+              "options": [
+                { "id": "a", "text": "Gagner de l'argent grâce aux clics" },
+                { "id": "b", "text": "Aider les lecteurs" },
+                { "id": "c", "text": "Faire rire les gens" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            },
+            {
+              "id": "co1-q5",
+              "prompt": "Quel premier réflexe le journaliste conseille-t-il ?",
+              "options": [
+                { "id": "a", "text": "Vérifier la source de l'information" },
+                { "id": "b", "text": "Partager le plus vite possible" },
+                { "id": "c", "text": "Supprimer ses comptes" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            }
+          ]
+        },
+        {
+          "id": "co-doc2",
+          "title": "Document 2 — Atelier à la médiathèque",
+          "audio": "audio/exams/delf-b2-02/co-doc2.mp3",
+          "voice": "denise",
+          "listens": 2,
+          "transcript": "Avis aux amateurs de musique : la médiathèque organise samedi prochain un atelier de découverte des instruments. De dix heures à midi, petits et grands pourront essayer la guitare, le piano et la batterie, accompagnés de musiciens professionnels. C'est entièrement gratuit, mais l'inscription est obligatoire à l'accueil. Attention, les places sont limitées !",
+          "questions": [
+            {
+              "id": "co2-q1",
+              "prompt": "Quel atelier la médiathèque organise-t-elle ?",
+              "options": [
+                { "id": "a", "text": "Un atelier de découverte des instruments" },
+                { "id": "b", "text": "Un cours de chant" },
+                { "id": "c", "text": "Un grand concert" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "co2-q2",
+              "prompt": "Que faut-il faire pour participer ?",
+              "options": [
+                { "id": "a", "text": "S'inscrire à l'accueil" },
+                { "id": "b", "text": "Payer dix euros" },
+                { "id": "c", "text": "Apporter son propre instrument" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            }
+          ]
+        },
+        {
+          "id": "co-doc3",
+          "title": "Document 3 — L'uniforme à l'école",
+          "audio": "audio/exams/delf-b2-02/co-doc3.mp3",
+          "voice": "denise",
+          "listens": 2,
+          "transcript": "— Tu es pour l'uniforme à l'école, toi ? — Franchement, oui. Ça éviterait les comparaisons entre les marques de vêtements, et le matin, on perdrait moins de temps à choisir sa tenue. — Moi, je ne suis pas d'accord. Les vêtements, c'est une façon d'exprimer sa personnalité. L'uniforme, c'est triste : tout le monde pareil. — C'est un point de vue. Mais au moins, ce serait plus égalitaire.",
+          "questions": [
+            {
+              "id": "co3-q1",
+              "prompt": "Pourquoi la première personne est-elle pour l'uniforme ?",
+              "options": [
+                { "id": "a", "text": "Cela éviterait les comparaisons de marques" },
+                { "id": "b", "text": "C'est plus joli" },
+                { "id": "c", "text": "C'est moins cher pour l'école" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "co3-q2",
+              "prompt": "Quel argument la deuxième personne donne-t-elle contre l'uniforme ?",
+              "options": [
+                { "id": "a", "text": "Les vêtements expriment la personnalité" },
+                { "id": "b", "text": "L'uniforme coûte trop cher" },
+                { "id": "c", "text": "L'uniforme est inconfortable" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            }
+          ]
+        }
+      ],
+      "texts": [],
+      "tasks": []
+    },
+    {
+      "id": "ce",
+      "skill": "reading",
+      "title": "Compréhension des écrits",
+      "durationMinutes": 60,
+      "points": 25,
+      "eliminatoryBelow": 5,
+      "instructions": "Vous allez lire deux textes : un texte informatif et un texte argumentatif. Répondez aux questions.",
+      "docs": [],
+      "texts": [
+        {
+          "id": "ce-text1",
+          "title": "Document 1 — Le streaming a changé notre écoute de la musique",
+          "passageFr": "COMMENT LE STREAMING A CHANGÉ NOTRE FAÇON D'ÉCOUTER LA MUSIQUE\n\nIl y a vingt ans, écouter de la musique signifiait acheter un disque. Aujourd'hui, grâce aux plateformes de streaming, des millions de chansons sont accessibles instantanément, pour le prix d'un abonnement mensuel.\n\nCette révolution a bouleversé les habitudes. Les auditeurs ne possèdent plus la musique : ils y accèdent. On passe d'une chanson à l'autre en un clic, on crée des listes de lecture pour chaque moment de la journée, et les applications proposent automatiquement des titres selon nos goûts.\n\nPour les artistes, le bilan est plus nuancé. D'un côté, un musicien inconnu peut désormais être écouté dans le monde entier sans maison de disques. De l'autre, les revenus du streaming sont faibles : il faut des millions d'écoutes pour gagner correctement sa vie. Beaucoup d'artistes dépendent donc à nouveau des concerts pour vivre.\n\nUne chose est sûre : jamais la musique n'a été aussi facile d'accès. Reste à savoir si cette abondance nous rend plus curieux… ou simplement plus pressés.",
+          "questions": [
+            {
+              "id": "ce1-q1",
+              "prompt": "Comment écoutait-on la musique il y a vingt ans ?",
+              "options": [
+                { "id": "a", "text": "On achetait des disques" },
+                { "id": "b", "text": "On la téléchargeait gratuitement" },
+                { "id": "c", "text": "On la composait soi-même" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            },
+            {
+              "id": "ce1-q2",
+              "prompt": "Qu'est-ce qui a changé pour les auditeurs ?",
+              "options": [
+                { "id": "a", "text": "Ils accèdent à la musique au lieu de la posséder" },
+                { "id": "b", "text": "Ils paient chaque chanson séparément" },
+                { "id": "c", "text": "Ils écoutent beaucoup moins de musique" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "ce1-q3",
+              "prompt": "Quel avantage le streaming offre-t-il aux artistes inconnus ?",
+              "options": [
+                { "id": "a", "text": "Être écoutés dans le monde entier" },
+                { "id": "b", "text": "Gagner immédiatement beaucoup d'argent" },
+                { "id": "c", "text": "Éviter de donner des concerts" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            },
+            {
+              "id": "ce1-q4",
+              "prompt": "Quel inconvénient pour les artistes est mentionné ?",
+              "options": [
+                { "id": "a", "text": "Les revenus du streaming sont faibles" },
+                { "id": "b", "text": "Les concerts sont interdits" },
+                { "id": "c", "text": "Les disques coûtent trop cher" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "ce1-q5",
+              "prompt": "Pourquoi beaucoup d'artistes dépendent-ils des concerts ?",
+              "options": [
+                { "id": "a", "text": "Pour gagner leur vie" },
+                { "id": "b", "text": "Pour voyager gratuitement" },
+                { "id": "c", "text": "Pour enregistrer leurs disques" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            }
+          ]
+        },
+        {
+          "id": "ce-text2",
+          "title": "Document 2 — Les transports en commun devraient-ils être gratuits ?",
+          "passageFr": "LES TRANSPORTS EN COMMUN DEVRAIENT-ILS ÊTRE GRATUITS ?\n\nPlusieurs villes, en France et ailleurs, ont rendu leurs bus et tramways entièrement gratuits. L'idée séduit de plus en plus : et si on ne payait plus son ticket ?\n\nLes partisans de la gratuité avancent des arguments solides. D'abord, c'est une mesure écologique : si les transports sont gratuits, davantage de gens laisseront leur voiture, ce qui réduit la pollution et les embouteillages. Ensuite, c'est une question de justice sociale : se déplacer est un droit, et la gratuité aide les personnes aux faibles revenus.\n\nMais les opposants soulèvent un problème de taille : qui paie ? Car la gratuité n'existe pas vraiment ; c'est la collectivité, donc les impôts, qui financent. Ils craignent aussi qu'un service gratuit soit moins bien entretenu, ou que les usagers le respectent moins.\n\nEn réalité, tout dépend du contexte. Dans une petite ville, la gratuité peut très bien fonctionner. Dans une grande métropole, où les transports coûtent des milliards, la question est bien plus difficile. La gratuité n'est donc ni une solution miracle, ni une mauvaise idée : c'est un choix de société à débattre sérieusement.",
+          "questions": [
+            {
+              "id": "ce2-q1",
+              "prompt": "Quel est le sujet de l'article ?",
+              "options": [
+                { "id": "a", "text": "La gratuité des transports en commun" },
+                { "id": "b", "text": "La construction de nouvelles routes" },
+                { "id": "c", "text": "Le prix de l'essence" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "ce2-q2",
+              "prompt": "Quel argument écologique est donné ?",
+              "options": [
+                { "id": "a", "text": "Davantage de gens laisseront leur voiture" },
+                { "id": "b", "text": "Les bus pollueront moins par construction" },
+                { "id": "c", "text": "Les villes deviendront plus belles" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "ce2-q3",
+              "prompt": "Quelle question essentielle posent les opposants ?",
+              "options": [
+                { "id": "a", "text": "Qui paie la gratuité ?" },
+                { "id": "b", "text": "Qui conduit les bus ?" },
+                { "id": "c", "text": "Où vont les voyageurs ?" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "ce2-q4",
+              "prompt": "Que craignent aussi les opposants ?",
+              "options": [
+                { "id": "a", "text": "Un service moins bien entretenu" },
+                { "id": "b", "text": "Trop de voyageurs riches" },
+                { "id": "c", "text": "La disparition des voitures" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            },
+            {
+              "id": "ce2-q5",
+              "prompt": "Quelle est la conclusion de l'auteur ?",
+              "options": [
+                { "id": "a", "text": "Tout dépend du contexte" },
+                { "id": "b", "text": "La gratuité est toujours une mauvaise idée" },
+                { "id": "c", "text": "La gratuité est toujours la solution parfaite" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            }
+          ]
+        }
+      ],
+      "tasks": []
+    },
+    {
+      "id": "pe",
+      "skill": "writing",
+      "title": "Production écrite",
+      "durationMinutes": 60,
+      "points": 25,
+      "eliminatoryBelow": 5,
+      "instructions": "Vous prenez position de façon argumentée et nuancée sur le sujet proposé.",
+      "docs": [],
+      "texts": [],
+      "tasks": [
+        {
+          "id": "pe-task1",
+          "kind": "writing",
+          "title": "Prise de position argumentée",
+          "consigne": "Votre établissement envisage de remplacer tous les manuels scolaires en papier par des tablettes numériques. Le journal des élèves vous demande votre avis. Vous écrivez un article argumenté et nuancé sur cette question, en envisageant les avantages et les inconvénients. (250 mots minimum)",
+          "minWords": 250,
+          "points": 25,
+          "rubric": [
+            { "id": "r-consigne", "label": "Respect de la consigne", "points": 2 },
+            { "id": "r-sociol", "label": "Correction sociolinguistique (registre)", "points": 2 },
+            { "id": "r-faits", "label": "Capacité à présenter des faits", "points": 3 },
+            { "id": "r-argumenter", "label": "Capacité à argumenter", "points": 4 },
+            { "id": "r-coherence", "label": "Cohérence et cohésion", "points": 3 },
+            { "id": "r-lex-etendue", "label": "Étendue du vocabulaire", "points": 2 },
+            { "id": "r-lex-maitrise", "label": "Maîtrise du vocabulaire", "points": 2 },
+            { "id": "r-ortho", "label": "Maîtrise de l'orthographe lexicale", "points": 1 },
+            { "id": "r-temps", "label": "Choix des temps et des modes", "points": 2 },
+            { "id": "r-morpho", "label": "Morphosyntaxe", "points": 4 }
+          ],
+          "modelAnswer": "Points attendus (≈250-280 mots) : titre d'article ; introduction qui pose la question ; développement nuancé (avantages : poids du cartable réduit, ressources interactives et à jour, économies de papier ; inconvénients : fatigue des écrans, distractions, pannes et inégalités d'équipement, perte du contact avec le papier) ; position personnelle claire (par exemple : une solution mixte, papier + numérique) ; conclusion. Connecteurs argumentatifs variés ; registre journalistique ; bonne maîtrise des temps et de la morphosyntaxe."
+        }
+      ]
+    },
+    {
+      "id": "po",
+      "skill": "speaking",
+      "title": "Production orale",
+      "durationMinutes": 20,
+      "prepMinutes": 30,
+      "points": 25,
+      "eliminatoryBelow": 5,
+      "instructions": "À partir d'un court document déclencheur, vous dégagez le problème, vous présentez votre point de vue, puis vous le défendez dans un débat avec l'examinateur.",
+      "docs": [],
+      "texts": [],
+      "tasks": [
+        {
+          "id": "po-task1",
+          "kind": "speaking",
+          "title": "Partie 1 — Monologue suivi (présenter son point de vue)",
+          "consigne": "À partir du document ci-dessous, dégagez le problème soulevé et présentez votre point de vue de façon construite, pendant environ cinq minutes.",
+          "documentFr": "« Plusieurs pays envisagent d'interdire la création de comptes sur les réseaux sociaux aux moins de quinze ans, afin de protéger les plus jeunes. Mais une telle interdiction est-elle réaliste et réellement efficace ? »",
+          "points": 12,
+          "rubric": [
+            { "id": "po1-degager", "label": "Peut dégager le problème posé par le document", "points": 3 },
+            { "id": "po1-pdv", "label": "Peut présenter un point de vue construit et illustré", "points": 4 },
+            { "id": "po-ens-lex", "label": "Étendue et maîtrise du lexique — ensemble de l'épreuve", "points": 3 },
+            { "id": "po-ens-phono", "label": "Maîtrise phonologique — ensemble de l'épreuve", "points": 2 }
+          ],
+          "modelAnswer": "Points attendus : reformuler la problématique (protéger les jeunes vs faisabilité de l'interdiction) ; annoncer un plan ; présenter un point de vue nuancé avec arguments et exemples (l'intention est bonne, mais l'âge est facile à contourner ; mieux vaut éduquer et responsabiliser les plateformes) ; conclure."
+        },
+        {
+          "id": "po-task2",
+          "kind": "speaking",
+          "title": "Partie 2 — Débat avec l'examinateur",
+          "consigne": "L'examinateur va vous poser des questions et défendre parfois un avis contraire. Défendez votre position, nuancez si nécessaire, et réagissez à ses arguments. (environ 10 minutes)",
+          "points": 13,
+          "rubric": [
+            { "id": "po2-defendre", "label": "Peut défendre et nuancer son point de vue face aux objections", "points": 4 },
+            { "id": "po2-interagir", "label": "Peut interagir, relancer et réagir spontanément", "points": 3 },
+            { "id": "po-ens-morpho", "label": "Morphosyntaxe — ensemble de l'épreuve", "points": 3 },
+            { "id": "po-ens-aisance", "label": "Aisance et fluidité — ensemble de l'épreuve", "points": 3 }
+          ],
+          "modelAnswer": "Points attendus : répondre précisément aux objections ; concéder ce qui est juste puis rebondir ; relancer par des questions ; rester cohérent tout en nuançant. Marqueurs d'argumentation et d'interaction maîtrisés."
+        }
+      ]
+    }
+  ]
+}

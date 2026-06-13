@@ -1,0 +1,369 @@
+{
+  "schemaVersion": 1,
+  "id": "delf-b2-03",
+  "family": "DELF",
+  "examName": "DELF B2",
+  "levelKey": "b2",
+  "paper": 3,
+  "title": "Sujet blanc nº 3",
+  "description": "Examen blanc complet au format officiel : 4 épreuves, /100, admis à partir de 50/100. Note éliminatoire en dessous de 5/25 par épreuve.",
+  "passMark": 50,
+  "sections": [
+    {
+      "id": "co",
+      "skill": "listening",
+      "title": "Compréhension de l'oral",
+      "durationMinutes": 30,
+      "points": 25,
+      "eliminatoryBelow": 5,
+      "instructions": "Vous allez entendre trois documents. Le premier est long et diffusé une seule fois ; les suivants sont plus courts.",
+      "docs": [
+        {
+          "id": "co-doc1",
+          "title": "Document 1 — Interview : le service civique",
+          "audio": "audio/exams/delf-b2-03/co-doc1.mp3",
+          "voice": "denise",
+          "listens": 1,
+          "transcript": "Bonjour, aujourd'hui nous parlons d'engagement avec Amina Cherif, responsable d'une association qui accueille des jeunes en service civique. Amina, qu'est-ce que le service civique ? — C'est un dispositif qui permet à des jeunes de seize à vingt-cinq ans de s'engager pendant plusieurs mois dans une mission d'intérêt général : aider des personnes âgées, protéger l'environnement, accompagner des enfants… — Et ils sont payés ? — Ils reçoivent une petite indemnité, oui, mais ce n'est pas un emploi : c'est avant tout un engagement citoyen. — Quel est l'intérêt pour ces jeunes ? — Il y en a plusieurs. D'abord, ils se rendent utiles et découvrent la réalité du terrain. Ensuite, ils gagnent en confiance et en expérience, ce qui les aide ensuite à trouver du travail. Beaucoup nous disent que cette mission a changé leur regard sur la société. — Y a-t-il des difficultés ? — Bien sûr. Certains jeunes arrivent sans aucune expérience et il faut les former. Et puis, l'indemnité étant faible, tous ne peuvent pas se le permettre financièrement. — Que faudrait-il améliorer, selon vous ? — Mieux faire connaître le dispositif, car beaucoup de jeunes ignorent encore qu'il existe. — Merci Amina pour votre témoignage.",
+          "questions": [
+            {
+              "id": "co1-q1",
+              "prompt": "Quel est le thème de l'émission ?",
+              "options": [
+                { "id": "a", "text": "Le service civique des jeunes" },
+                { "id": "b", "text": "Le chômage des seniors" },
+                { "id": "c", "text": "Les études à l'étranger" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            },
+            {
+              "id": "co1-q2",
+              "prompt": "À qui s'adresse le service civique ?",
+              "options": [
+                { "id": "a", "text": "Aux jeunes de 16 à 25 ans" },
+                { "id": "b", "text": "Aux enfants de l'école primaire" },
+                { "id": "c", "text": "Aux retraités" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "co1-q3",
+              "prompt": "Quel intérêt pour les jeunes est mentionné ?",
+              "options": [
+                { "id": "a", "text": "Ils gagnent en confiance et en expérience" },
+                { "id": "b", "text": "Ils deviennent rapidement riches" },
+                { "id": "c", "text": "Ils n'ont plus à aller à l'école" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "co1-q4",
+              "prompt": "Quelle difficulté Amina cite-t-elle ?",
+              "options": [
+                { "id": "a", "text": "L'indemnité est faible" },
+                { "id": "b", "text": "Les missions sont trop nombreuses" },
+                { "id": "c", "text": "Les jeunes sont trop âgés" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            },
+            {
+              "id": "co1-q5",
+              "prompt": "Que faudrait-il améliorer, selon elle ?",
+              "options": [
+                { "id": "a", "text": "Mieux faire connaître le dispositif" },
+                { "id": "b", "text": "Augmenter l'âge limite à 40 ans" },
+                { "id": "c", "text": "Supprimer les missions environnementales" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            }
+          ]
+        },
+        {
+          "id": "co-doc2",
+          "title": "Document 2 — La Fête de la Science",
+          "audio": "audio/exams/delf-b2-03/co-doc2.mp3",
+          "voice": "henri",
+          "listens": 2,
+          "transcript": "Chers visiteurs, bienvenue à la Fête de la Science ! Le grand hall vous propose aujourd'hui des dizaines d'expériences à faire vous-même : fabriquer un volcan, observer les étoiles, comprendre l'électricité. Les ateliers pour enfants ont lieu toutes les heures, à partir de quatorze heures. L'entrée est gratuite pour tous. Bonne découverte !",
+          "questions": [
+            {
+              "id": "co2-q1",
+              "prompt": "Quel est cet événement ?",
+              "options": [
+                { "id": "a", "text": "La Fête de la Science" },
+                { "id": "b", "text": "Un concert de musique" },
+                { "id": "c", "text": "Une exposition de peinture" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "co2-q2",
+              "prompt": "Quand ont lieu les ateliers pour enfants ?",
+              "options": [
+                { "id": "a", "text": "Toutes les heures, à partir de 14 h" },
+                { "id": "b", "text": "Le matin uniquement" },
+                { "id": "c", "text": "À midi seulement" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            }
+          ]
+        },
+        {
+          "id": "co-doc3",
+          "title": "Document 3 — Une sortie au zoo",
+          "audio": "audio/exams/delf-b2-03/co-doc3.mp3",
+          "voice": "henri",
+          "listens": 2,
+          "transcript": "— Tu sais qu'on va au zoo dimanche avec la classe ? — Ah, moi, les zoos, ça me met mal à l'aise. Voir des animaux enfermés, ce n'est pas naturel. — Je comprends, mais certains zoos protègent des espèces en danger. Sans eux, des animaux auraient déjà disparu. — C'est vrai, mais alors il faudrait au moins leur donner beaucoup plus d'espace. — Là, je suis entièrement d'accord avec toi.",
+          "questions": [
+            {
+              "id": "co3-q1",
+              "prompt": "Pourquoi la deuxième personne n'aime-t-elle pas les zoos ?",
+              "options": [
+                { "id": "a", "text": "Voir des animaux enfermés la met mal à l'aise" },
+                { "id": "b", "text": "Les billets sont trop chers" },
+                { "id": "c", "text": "C'est trop loin de chez elle" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "co3-q2",
+              "prompt": "Sur quoi les deux personnes finissent-elles par être d'accord ?",
+              "options": [
+                { "id": "a", "text": "Il faudrait donner plus d'espace aux animaux" },
+                { "id": "b", "text": "Il faut fermer tous les zoos demain" },
+                { "id": "c", "text": "Les zoos actuels sont parfaits" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            }
+          ]
+        }
+      ],
+      "texts": [],
+      "tasks": []
+    },
+    {
+      "id": "ce",
+      "skill": "reading",
+      "title": "Compréhension des écrits",
+      "durationMinutes": 60,
+      "points": 25,
+      "eliminatoryBelow": 5,
+      "instructions": "Vous allez lire deux textes : un texte informatif et un texte argumentatif. Répondez aux questions.",
+      "docs": [],
+      "texts": [
+        {
+          "id": "ce-text1",
+          "title": "Document 1 — Le tourisme spatial, rêve ou cauchemar ?",
+          "passageFr": "LE TOURISME SPATIAL, RÊVE OU CAUCHEMAR ?\n\nLongtemps réservé aux astronautes professionnels, l'espace s'ouvre peu à peu aux touristes. Plusieurs entreprises privées proposent désormais des vols qui permettent, le temps de quelques minutes, de voir la Terre depuis l'espace et de flotter en apesanteur.\n\nPour les passionnés, c'est un rêve devenu réalité. Ces voyages financent aussi la recherche et font progresser les technologies spatiales, qui profitent ensuite à tous.\n\nMais ce tourisme suscite de vives critiques. D'abord, son prix : un billet coûte plusieurs centaines de milliers d'euros, ce qui le réserve aux personnes les plus riches. Ensuite, son impact écologique : chaque lancement rejette une grande quantité de gaz dans l'atmosphère. À l'heure où l'on demande à chacun de réduire son empreinte carbone, est-il raisonnable de partir en vacances dans l'espace ?\n\nLe débat ne fait que commencer. Une chose est sûre : ce qui semblait impossible hier est en train de devenir, pour quelques-uns, une réalité.",
+          "questions": [
+            {
+              "id": "ce1-q1",
+              "prompt": "À qui l'espace était-il longtemps réservé ?",
+              "options": [
+                { "id": "a", "text": "Aux astronautes professionnels" },
+                { "id": "b", "text": "Aux touristes fortunés" },
+                { "id": "c", "text": "Aux militaires uniquement" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            },
+            {
+              "id": "ce1-q2",
+              "prompt": "Que permettent ces vols touristiques ?",
+              "options": [
+                { "id": "a", "text": "Voir la Terre depuis l'espace et flotter en apesanteur" },
+                { "id": "b", "text": "Visiter la Lune pendant une semaine" },
+                { "id": "c", "text": "Vivre plusieurs mois sur Mars" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "ce1-q3",
+              "prompt": "Quel bénéfice indirect est mentionné ?",
+              "options": [
+                { "id": "a", "text": "Ils font progresser les technologies spatiales" },
+                { "id": "b", "text": "Ils créent des emplois sur la Lune" },
+                { "id": "c", "text": "Ils réduisent la pollution de la Terre" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            },
+            {
+              "id": "ce1-q4",
+              "prompt": "Quelle critique écologique est faite ?",
+              "options": [
+                { "id": "a", "text": "Chaque lancement rejette beaucoup de gaz dans l'atmosphère" },
+                { "id": "b", "text": "Les fusées font trop de bruit" },
+                { "id": "c", "text": "L'espace devient sale" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "ce1-q5",
+              "prompt": "Combien coûte un billet ?",
+              "options": [
+                { "id": "a", "text": "Plusieurs centaines de milliers d'euros" },
+                { "id": "b", "text": "Quelques centaines d'euros" },
+                { "id": "c", "text": "Il est offert par les États" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            }
+          ]
+        },
+        {
+          "id": "ce-text2",
+          "title": "Document 2 — Faut-il fermer les zoos ?",
+          "passageFr": "FAUT-IL FERMER LES ZOOS ?\n\nChaque année, des millions de visiteurs poussent les portes des zoos pour admirer lions, éléphants et pandas. Pourtant, de plus en plus de voix s'élèvent pour demander leur fermeture. Le débat est loin d'être simple.\n\nLes adversaires des zoos avancent un argument moral : enfermer des animaux sauvages dans des espaces réduits, loin de leur milieu naturel, serait une forme de maltraitance. Selon eux, aucune cage, même grande, ne remplacera jamais la liberté.\n\nLes défenseurs des zoos répondent que les choses ont changé. Les zoos modernes ne sont plus des prisons : ils participent à la protection des espèces menacées, mènent des programmes de reproduction, et permettent au public, notamment aux enfants, de découvrir et de respecter la nature. Sans les zoos, affirment-ils, certaines espèces auraient déjà disparu.\n\nLa vérité se trouve sans doute entre les deux. Tous les zoos ne se valent pas : certains offrent de vastes espaces et un vrai travail scientifique, d'autres ressemblent encore à des prisons. Plutôt que de tout fermer, ne faudrait-il pas exiger partout les mêmes standards élevés ?",
+          "questions": [
+            {
+              "id": "ce2-q1",
+              "prompt": "Quel est le sujet de l'article ?",
+              "options": [
+                { "id": "a", "text": "La fermeture des zoos" },
+                { "id": "b", "text": "La construction de nouveaux parcs d'attractions" },
+                { "id": "c", "text": "Le prix des billets de zoo" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "ce2-q2",
+              "prompt": "Quel argument moral donnent les adversaires des zoos ?",
+              "options": [
+                { "id": "a", "text": "Enfermer des animaux sauvages serait une maltraitance" },
+                { "id": "b", "text": "Les zoos coûtent trop cher à l'État" },
+                { "id": "c", "text": "Les zoos sont ennuyeux pour les enfants" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "ce2-q3",
+              "prompt": "Quel rôle positif les défenseurs mettent-ils en avant ?",
+              "options": [
+                { "id": "a", "text": "La protection des espèces menacées" },
+                { "id": "b", "text": "La vente de souvenirs" },
+                { "id": "c", "text": "L'organisation de concerts" }
+              ],
+              "correct": ["a"],
+              "points": 3
+            },
+            {
+              "id": "ce2-q4",
+              "prompt": "Selon l'auteur, tous les zoos…",
+              "options": [
+                { "id": "a", "text": "ne se valent pas" },
+                { "id": "b", "text": "sont parfaitement identiques" },
+                { "id": "c", "text": "doivent fermer immédiatement" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            },
+            {
+              "id": "ce2-q5",
+              "prompt": "Quelle solution l'auteur suggère-t-il ?",
+              "options": [
+                { "id": "a", "text": "Exiger partout des standards élevés" },
+                { "id": "b", "text": "Fermer tous les zoos dès demain" },
+                { "id": "c", "text": "Ne rien changer du tout" }
+              ],
+              "correct": ["a"],
+              "points": 2
+            }
+          ]
+        }
+      ],
+      "tasks": []
+    },
+    {
+      "id": "pe",
+      "skill": "writing",
+      "title": "Production écrite",
+      "durationMinutes": 60,
+      "points": 25,
+      "eliminatoryBelow": 5,
+      "instructions": "Vous prenez position de façon argumentée et nuancée sur le sujet proposé.",
+      "docs": [],
+      "texts": [],
+      "tasks": [
+        {
+          "id": "pe-task1",
+          "kind": "writing",
+          "title": "Prise de position argumentée",
+          "consigne": "Une grande entreprise propose de financer entièrement la cantine de votre lycée, en échange du droit d'afficher sa publicité dans l'établissement. Le conseil de vie lycéenne vous demande de réagir. Vous écrivez une lettre argumentée et nuancée au proviseur pour exposer votre position. (250 mots minimum)",
+          "minWords": 250,
+          "points": 25,
+          "rubric": [
+            { "id": "r-consigne", "label": "Respect de la consigne", "points": 2 },
+            { "id": "r-sociol", "label": "Correction sociolinguistique (registre formel)", "points": 2 },
+            { "id": "r-faits", "label": "Capacité à présenter des faits", "points": 3 },
+            { "id": "r-argumenter", "label": "Capacité à argumenter", "points": 4 },
+            { "id": "r-coherence", "label": "Cohérence et cohésion", "points": 3 },
+            { "id": "r-lex-etendue", "label": "Étendue du vocabulaire", "points": 2 },
+            { "id": "r-lex-maitrise", "label": "Maîtrise du vocabulaire", "points": 2 },
+            { "id": "r-ortho", "label": "Maîtrise de l'orthographe lexicale", "points": 1 },
+            { "id": "r-temps", "label": "Choix des temps et des modes", "points": 2 },
+            { "id": "r-morpho", "label": "Morphosyntaxe", "points": 4 }
+          ],
+          "modelAnswer": "Points attendus (≈250-280 mots) : formule d'appel formelle (« Monsieur le Proviseur ») ; introduction qui rappelle le projet et annonce la position ; développement nuancé (avantages : une cantine financée, peut-être de meilleurs repas, moins de coûts pour les familles ; inconvénients : la publicité à l'école, l'influence d'une marque sur les jeunes, la perte d'indépendance de l'établissement) ; position personnelle argumentée (par exemple : refus, ou acceptation sous conditions strictes) ; formule de politesse finale. Registre soutenu, connecteurs riches, morphosyntaxe maîtrisée."
+        }
+      ]
+    },
+    {
+      "id": "po",
+      "skill": "speaking",
+      "title": "Production orale",
+      "durationMinutes": 20,
+      "prepMinutes": 30,
+      "points": 25,
+      "eliminatoryBelow": 5,
+      "instructions": "À partir d'un court document déclencheur, vous dégagez le problème, vous présentez votre point de vue, puis vous le défendez dans un débat avec l'examinateur.",
+      "docs": [],
+      "texts": [],
+      "tasks": [
+        {
+          "id": "po-task1",
+          "kind": "speaking",
+          "title": "Partie 1 — Monologue suivi (présenter son point de vue)",
+          "consigne": "À partir du document ci-dessous, dégagez le problème soulevé et présentez votre point de vue de façon construite, pendant environ cinq minutes.",
+          "documentFr": "« De plus en plus d'enfants utilisent des écrans avant l'âge de trois ans. Certains spécialistes réclament une interdiction stricte avant cet âge. Mais faut-il légiférer, ou faire confiance aux familles pour encadrer ces usages ? »",
+          "points": 12,
+          "rubric": [
+            { "id": "po1-degager", "label": "Peut dégager le problème posé par le document", "points": 3 },
+            { "id": "po1-pdv", "label": "Peut présenter un point de vue construit et illustré", "points": 4 },
+            { "id": "po-ens-lex", "label": "Étendue et maîtrise du lexique — ensemble de l'épreuve", "points": 3 },
+            { "id": "po-ens-phono", "label": "Maîtrise phonologique — ensemble de l'épreuve", "points": 2 }
+          ],
+          "modelAnswer": "Points attendus : reformuler la problématique (protéger les jeunes enfants vs liberté des familles) ; annoncer un plan ; présenter un point de vue nuancé avec arguments et exemples (les risques pour le développement sont réels, mais une loi serait difficile à appliquer ; mieux vaut informer et accompagner les parents) ; conclure."
+        },
+        {
+          "id": "po-task2",
+          "kind": "speaking",
+          "title": "Partie 2 — Débat avec l'examinateur",
+          "consigne": "L'examinateur va vous poser des questions et défendre parfois un avis contraire. Défendez votre position, nuancez si nécessaire, et réagissez à ses arguments. (environ 10 minutes)",
+          "points": 13,
+          "rubric": [
+            { "id": "po2-defendre", "label": "Peut défendre et nuancer son point de vue face aux objections", "points": 4 },
+            { "id": "po2-interagir", "label": "Peut interagir, relancer et réagir spontanément", "points": 3 },
+            { "id": "po-ens-morpho", "label": "Morphosyntaxe — ensemble de l'épreuve", "points": 3 },
+            { "id": "po-ens-aisance", "label": "Aisance et fluidité — ensemble de l'épreuve", "points": 3 }
+          ],
+          "modelAnswer": "Points attendus : répondre aux objections avec précision ; concéder puis rebondir ; relancer le débat ; rester cohérent et ouvert. Marqueurs d'argumentation et d'interaction maîtrisés."
+        }
+      ]
+    }
+  ]
+}
