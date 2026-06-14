@@ -148,7 +148,29 @@ export const COMIC_PANELS: ComicPanel[] = [
     title: "Chapitre I — L'Humain",
     art: (
       <Scene>
+        {/* ornate damask wallpaper */}
+        {Array.from({ length: 5 }).map((_, r) =>
+          Array.from({ length: 8 }).map((_, c) => {
+            const x = 26 + c * 52 + (r % 2 ? 26 : 0);
+            const y = 18 + r * 44;
+            return (
+              <path
+                key={`w${r}-${c}`}
+                d={`M${x} ${y - 6}q6 6 0 12q-6-6 0-12M${x - 6} ${y}q6-6 12 0q-6 6-12 0`}
+                strokeOpacity={0.06}
+              />
+            );
+          }),
+        )}
+        {/* dado rail + wainscoting */}
+        <line x1="0" y1="186" x2="400" y2="186" strokeOpacity={0.14} />
+        {[40, 110, 180, 250, 320].map((x) => (
+          <line key={x} x1={x} y1={186} x2={x} y2={232} strokeOpacity={0.08} />
+        ))}
         <line x1="0" y1="232" x2="400" y2="232" strokeOpacity={0.25} />
+        {/* a rug under the man */}
+        <ellipse cx="170" cy="260" rx="96" ry="15" strokeOpacity={0.16} />
+        <ellipse cx="170" cy="260" rx="80" ry="10" strokeOpacity={0.1} />
         <g transform="rotate(-7 70 70)">
           <rect x="44" y="44" width="52" height="42" fill={PAPER} />
           <rect x="44" y="44" width="52" height="42" strokeOpacity={0.55} />
@@ -190,11 +212,15 @@ export const COMIC_PANELS: ComicPanel[] = [
         <path d="M200 16v14M186 30h28M190 30c-2 8-2 12 0 16M210 30c2 8 2 12 0 16M200 30c0 8 0 12 0 18" strokeOpacity={0.3} />
         <line x1="0" y1="60" x2="400" y2="60" strokeOpacity={0.18} />
         <line x1="40" y1="232" x2="360" y2="232" strokeOpacity={0.4} />
-        <path d="M120 232V150c0-8-8-10-8-22v-16h16v16c0 12-8 14-8 22v82z" fill={PAPER} />
-        <path d="M120 232V150c0-8-8-10-8-22v-16h16v16c0 12-8 14-8 22" />
-        <path d="M150 168c0 16 10 22 18 22s18-6 18-22z" fill={PAPER} />
-        <path d="M150 168c0 16 10 22 18 22s18-6 18-22zM168 190v34m-12 8h24" />
-        <path d="M154 168c0 12 6 17 14 17s14-5 14-17z" fill="currentColor" fillOpacity={0.16} stroke="none" />
+        {/* a clean stemmed wine glass with red wine */}
+        <ellipse cx="150" cy="150" rx="26" ry="7" fill={PAPER} />
+        <path d="M124 150c0 22 12 32 26 32s26-10 26-32" fill={PAPER} />
+        <path d="M150 182v40M132 224h36" />
+        <path d="M124 150c0 22 12 32 26 32s26-10 26-32" />
+        <ellipse cx="150" cy="150" rx="26" ry="7" />
+        {/* the wine */}
+        <path d="M130 158c2 14 10 22 20 22s18-8 20-22c-12 4-28 4-40 0z" fill="var(--color-rouge)" fillOpacity={0.32} stroke="none" />
+        <path d="M130 158c12 4 28 4 40 0" stroke="var(--color-rouge)" strokeOpacity={0.5} />
         <ellipse cx="232" cy="226" rx="38" ry="9" fill={PAPER} />
         <ellipse cx="232" cy="226" rx="38" ry="9" />
         <path d="M214 224c4-12 36-12 38 0z" fill="currentColor" fillOpacity={0.12} />
@@ -228,11 +254,12 @@ export const COMIC_PANELS: ComicPanel[] = [
         <rect x="168" y="26" width="64" height="22" rx="3" fill={PAPER} />
         <rect x="168" y="26" width="64" height="22" rx="3" />
         <text x="200" y="42" textAnchor="middle" fontSize="12" fill="currentColor" stroke="none" className="font-display">CAFÉ</text>
-        {/* window with a little street lamp outside */}
+        {/* window: a calm rooftop skyline + moon seen through the glass */}
         <rect x="20" y="56" width="64" height="50" fill={PAPER} />
         <rect x="20" y="56" width="64" height="50" strokeOpacity={0.5} />
+        <circle cx="72" cy="68" r="5" strokeOpacity={0.22} />
+        <path d="M22 100v-9h9v-15h11v15h8v-20h11v20h10v9" strokeOpacity={0.22} />
         <path d="M52 56v50M20 81h64" strokeOpacity={0.3} />
-        <path d="M40 96v-16a6 6 0 0112 0M46 80v-6" strokeOpacity={0.3} />
         {/* floor line */}
         <line x1="0" y1="246" x2="400" y2="246" strokeOpacity={0.35} />
         {/* the creator (left), saying kwa-sont */}
@@ -265,7 +292,6 @@ export const COMIC_PANELS: ComicPanel[] = [
         {/* conical hat above the head */}
         <path d="M262 162 282 112 302 162Z" fill="currentColor" fillOpacity={0.16} />
         <path d="M262 162 282 112 302 162M258 162h48" />
-        <circle cx="288" cy="128" r="2" fill="currentColor" stroke="none" />
         {/* face: raised eyebrow + eyes */}
         <path d="M272 170c2-3 6-3 8-1" />
         <circle cx="276" cy="177" r="1.9" fill="currentColor" stroke="none" />
@@ -299,8 +325,10 @@ export const COMIC_PANELS: ComicPanel[] = [
         <rect x="244" y="36" width="56" height="212" fill={PAPER} />
         <rect x="244" y="36" width="56" height="212" />
         <path d="M244 36h12v-12h10v12h12v-12h10v12h2" />
-        {/* flag */}
-        <path d="M272 24V8l14 5-14 4" strokeOpacity={0.6} />
+        {/* flag, planted on a merlon so the pole meets the tower */}
+        <path d="M261 34V6" strokeOpacity={0.6} />
+        <path d="M261 8l16 6-16 5z" fill="currentColor" fillOpacity={0.18} stroke="none" />
+        <path d="M261 8l16 6-16 5" strokeOpacity={0.6} />
         {/* clock + ivy + courses */}
         <circle cx="272" cy="70" r="11" strokeOpacity={0.5} />
         <path d="M272 70v-6M272 70l5 2" strokeOpacity={0.5} />
@@ -389,8 +417,8 @@ export const COMIC_PANELS: ComicPanel[] = [
         <path d="M251 226q7 5 14 0" />
       </Scene>
     ),
-    fr: "Le contrat tenait en une ligne — mais en tout petit, sous des pages d'avenants : enseigner le français, transmettre la joie de l'être, et alors, peut-être, redevenir humain. Des avocats furent impliqués. Comme toujours. « Peut-être », par ailleurs, est le mot préféré des sorciers.",
-    en: "The contract fit on one line — in very fine print, beneath pages of clauses: teach French, pass on the joy of being French, and then, perhaps, become human again. Lawyers were involved. They usually are. 'Perhaps,' incidentally, is a wizard's favourite word.",
+    fr: "Le contrat tenait en une ligne — mais en tout petit, sous des pages d'avenants : apprendre le français. Puis les manières des Français. Puis la joie d'être français — trois clauses qui, à bien les lire, disent la même chose vague en trois polices différentes. Des avocats furent impliqués. Comme toujours. « Peut-être », par ailleurs, est le mot préféré des sorciers.",
+    en: "The contract fit on one line — in very fine print, beneath pages of clauses: learn French. Then the ways of the French. Then the joy of being French — three clauses that, read closely, are the same vague thing in three different fonts. Lawyers were involved. They usually are. 'Perhaps,' incidentally, is a wizard's favourite word.",
   },
   {
     id: "flaw",
@@ -422,8 +450,8 @@ export const COMIC_PANELS: ComicPanel[] = [
         <path d="M250 232c14-2 26 6 30 18" strokeOpacity={0.4} />
       </Scene>
     ),
-    fr: "« Pour transmettre la joie, se dit-il, je recruterai des professeurs ! » Hélas, ce qu'il « recruta » ressemblait beaucoup, beaucoup plus à des hommes de main. Détail.",
-    en: "'To pass on the joy,' he reasoned, 'I'll recruit some teachers!' Alas, what he 'recruited' looked a great deal more like henchmen. A detail.",
+    fr: "« Pour transmettre la joie, se dit-il, je recruterai des professeurs ! » Hélas, ce qu'il « recruta » ressemblait beaucoup, beaucoup plus à des hommes de main. Sans malice, notez bien — il a simplement des idées peu conventionnelles sur le recrutement, et une notion encore plus floue du consentement. Il est plein de bonnes intentions. Presque toujours.",
+    en: "'To pass on the joy,' he reasoned, 'I'll recruit some teachers!' Alas, what he 'recruited' looked a great deal more like henchmen. Not out of malice, mind you — he simply has unconventional ideas about hiring, and an even looser grasp of consent. He means well. He almost always means well.",
   },
   {
     id: "strangers",
@@ -473,34 +501,74 @@ export const COMIC_PANELS: ComicPanel[] = [
     title: "Chapitre IX — L'Audit",
     art: (
       <>
-        {/* Kim — large on the right, as if holding the board */}
-        <div className="absolute bottom-0 right-0 top-3 flex w-[44%] flex-col items-center justify-end">
-          <div className="h-[80%] w-full overflow-hidden border-2 border-ink bg-parchment shadow-[3px_3px_0_rgba(23,18,12,0.4)]">
-            <img src={strangerUrl(2)} alt="" className="h-full w-full object-cover mix-blend-multiply" />
-          </div>
-          <p className="mt-0.5 text-[9px] uppercase tracking-widest text-ink/60">Kim · l'inspectrice</p>
-        </div>
-        {/* the clipboard she's "holding", tilted toward her */}
-        <svg viewBox="0 0 240 300" className="absolute bottom-2 left-2 h-[88%] text-ink" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
-          <g transform="rotate(-6 120 150)">
-            <rect x="40" y="40" width="150" height="200" rx="6" fill={PAPER} />
-            <rect x="40" y="40" width="150" height="200" rx="6" />
-            <rect x="88" y="30" width="54" height="20" rx="5" fill="currentColor" fillOpacity={0.18} />
-            <text x="115" y="66" textAnchor="middle" fontSize="13" fill="currentColor" stroke="none" className="font-display">AUDIT</text>
-            <line x1="56" y1="74" x2="174" y2="74" strokeOpacity={0.4} />
-            <path d="M58 96l8 8 14-16" strokeWidth={2.5} />
-            <line x1="92" y1="96" x2="176" y2="96" strokeOpacity={0.3} />
-            <path d="M58 130l16 16m0-16-16 16" stroke="var(--color-rouge)" strokeWidth={2.5} strokeOpacity={0.85} />
-            <line x1="92" y1="138" x2="176" y2="138" strokeOpacity={0.3} />
-            <line x1="58" y1="172" x2="176" y2="172" strokeOpacity={0.25} />
-            <line x1="58" y1="188" x2="150" y2="188" strokeOpacity={0.25} />
-            <line x1="58" y1="204" x2="166" y2="204" strokeOpacity={0.25} />
-            <g transform="rotate(-10 118 224)">
-              <rect x="78" y="214" width="84" height="22" rx="3" stroke="var(--color-rouge)" strokeOpacity={0.7} />
-              <text x="120" y="229" textAnchor="middle" fontSize="11" fill="var(--color-rouge)" fillOpacity={0.85} stroke="none" className="font-display">À REVOIR</text>
+        <Scene>
+          {/* the "action shot" behind the file: Kim mid-inspection, clipboard
+              raised — the overused superhuman-dossier b-roll, in woodcut */}
+          <g strokeOpacity={0.1}>
+            <circle cx="322" cy="92" r="24" />
+            <path d="M286 214c0-46 22-62 36-62s36 16 36 62z" />
+            <g transform="rotate(-14 286 176)">
+              <rect x="262" y="150" width="42" height="52" rx="3" />
+              <path d="M270 170l7 7 13-14" />
+              <line x1="270" y1="186" x2="296" y2="186" />
+              <line x1="270" y1="194" x2="296" y2="194" />
             </g>
           </g>
-        </svg>
+          {/* registration ticks framing the file */}
+          <path
+            d="M12 12h18M12 12v18M388 12h-18M388 12v18M12 288h18M12 288v-18M388 288h-18M388 288v-18"
+            strokeOpacity={0.28}
+          />
+        </Scene>
+        {/* the dossier card */}
+        <div className="absolute inset-4 flex items-stretch gap-3">
+          {/* subject ID photo — contained, framed, no clipping */}
+          <div className="relative w-[40%] shrink-0 overflow-hidden border-2 border-ink bg-parchment shadow-[3px_3px_0_rgba(23,18,12,0.4)]">
+            <img
+              src={strangerUrl(2)}
+              alt=""
+              className="h-full w-full object-cover object-top mix-blend-multiply"
+            />
+            <span className="absolute left-0 top-0 bg-ink px-1 py-0.5 text-[8px] font-bold tracking-wider text-parchment">
+              Nº 2
+            </span>
+            <span className="absolute inset-x-0 bottom-0 bg-ink/80 px-1 py-0.5 text-center text-[9px] uppercase tracking-[0.3em] text-parchment">
+              Kim
+            </span>
+          </div>
+          {/* the record */}
+          <div className="flex flex-1 flex-col justify-center text-left">
+            <p className="font-display text-base font-bold leading-none text-rouge">DOSSIER</p>
+            <p className="mb-2 text-[9px] uppercase tracking-[0.25em] text-ink/55">
+              l'inspectrice · classé
+            </p>
+            <dl className="space-y-1 text-[10px] leading-tight text-ink/75">
+              <div className="flex gap-1">
+                <dt className="w-16 shrink-0 text-ink/50">statut</dt>
+                <dd className="font-semibold">volontaire</dd>
+              </div>
+              <div className="flex gap-1">
+                <dt className="w-16 shrink-0 text-ink/50">fonction</dt>
+                <dd>audit &amp; contrôle</dd>
+              </div>
+              <div className="flex gap-1">
+                <dt className="w-16 shrink-0 text-ink/50">rapports</dt>
+                <dd>le jeudi</dd>
+              </div>
+            </dl>
+            <div className="mt-2 space-y-1 text-[10px] text-ink/75">
+              <p className="flex items-center gap-1">
+                <span className="font-bold text-ink">✓</span> qualité de l'enseignement
+              </p>
+              <p className="flex items-center gap-1">
+                <span className="font-bold text-rouge">✗</span> kidnapper des bénévoles
+              </p>
+            </div>
+            <span className="mt-2 -rotate-3 self-start rounded border-2 border-rouge/60 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider text-rouge/80">
+              À revoir
+            </span>
+          </div>
+        </div>
       </>
     ),
     fr: "Kim, seule, s'était portée volontaire — elle préférait inspecter qu'être emprisonnée. Clipboard en main, elle nota que kidnapper des bénévoles est, mathématiquement, un paradoxe. Il promit d'« y revenir ». Il n'y revint jamais.",
@@ -512,21 +580,35 @@ export const COMIC_PANELS: ComicPanel[] = [
     title: "Chapitre X — Les Précédents",
     art: (
       <Scene>
-        {/* --- silly kitchen background --- */}
-        <rect x="20" y="60" width="56" height="42" fill={PAPER} />
-        <rect x="20" y="60" width="56" height="42" strokeOpacity={0.45} />
-        <path d="M48 60v42M20 81h56" strokeOpacity={0.3} />
-        {/* hanging pans on a rail */}
-        <line x1="120" y1="48" x2="280" y2="48" strokeOpacity={0.4} />
-        <path d="M150 48v18a12 8 0 0024 0V48M186 48h22a6 6 0 010 12" strokeOpacity={0.4} />
-        <circle cx="232" cy="62" r="10" strokeOpacity={0.4} />
-        <path d="M242 62h16" strokeOpacity={0.4} />
-        {/* a stove with a pot at the right */}
-        <rect x="300" y="120" width="80" height="60" fill={PAPER} />
-        <rect x="300" y="120" width="80" height="60" strokeOpacity={0.4} />
-        <circle cx="320" cy="135" r="4" strokeOpacity={0.4} />
-        <circle cx="360" cy="135" r="4" strokeOpacity={0.4} />
-        <line x1="20" y1="232" x2="400" y2="232" strokeOpacity={0.3} />
+        {/* --- a proper little kitchen --- */}
+        {/* window onto Paris: rooftops, a far Eiffel + moon through the glass */}
+        <rect x="16" y="50" width="74" height="58" fill={PAPER} />
+        <rect x="16" y="50" width="74" height="58" strokeOpacity={0.45} />
+        <path d="M53 50v58M16 79h74" strokeOpacity={0.3} />
+        <circle cx="78" cy="62" r="4" strokeOpacity={0.22} />
+        <path d="M40 104l6-30 6 30M43 88h6M44 81h4" strokeOpacity={0.26} />
+        <path d="M20 104v-7h7v7M62 104v-11h9v11" strokeOpacity={0.2} />
+        {/* hanging utensil rail: pots, a pan, a ladle */}
+        <line x1="108" y1="44" x2="270" y2="44" strokeOpacity={0.4} />
+        <path d="M124 44v15a11 7 0 0020 0V44" strokeOpacity={0.4} />
+        <path d="M156 44v11a8 6 0 0016 0V44" strokeOpacity={0.4} />
+        <path d="M188 44v6h20a6 6 0 010 12h-3" strokeOpacity={0.4} />
+        <path d="M232 44v18M226 62h12l-2 7h-8z" strokeOpacity={0.4} />
+        {/* a spice shelf, top-right */}
+        <line x1="298" y1="72" x2="388" y2="72" strokeOpacity={0.35} />
+        {[306, 326, 346, 366].map((x) => (
+          <g key={x} strokeOpacity={0.3}>
+            <rect x={x} y="52" width="13" height="20" rx="2" />
+            <rect x={x + 3} y="48" width="7" height="5" />
+          </g>
+        ))}
+        {/* floor + a checkerboard near the bottom */}
+        <line x1="0" y1="232" x2="400" y2="232" strokeOpacity={0.3} />
+        {Array.from({ length: 10 }).map((_, c) =>
+          c % 2 === 0 ? (
+            <rect key={c} x={c * 40} y="232" width="40" height="16" fill="currentColor" fillOpacity={0.05} stroke="none" />
+          ) : null,
+        )}
         {/* --- the rat (Remy), sitting up, facing right --- */}
         {/* haunches */}
         <ellipse cx="150" cy="206" rx="34" ry="22" fill={PAPER} />
@@ -592,8 +674,8 @@ export const COMIC_PANELS: ComicPanel[] = [
         </div>
       </>
     ),
-    fr: "Au bout du chemin, un trésor qu'il ne peut posséder seul : la joie d'être français. Plus on la partage, plus elle grandit. (Agaçant. Mais c'est ainsi.)",
-    en: "At the path's end, a treasure he cannot hoard alone — la joie d'être français. The more it's shared, the more it grows. (Annoying. But there it is.)",
+    fr: "Hélas ! Au bout du chemin repose un trésor que nul ne saisit seul — la joie d'être français. Il ne se rend qu'à plusieurs mains : les amis, la famille, les inconnus, vous. Plus on le partage, plus il grandit. (Théâtral, certes. Et — c'est agaçant — vrai.)",
+    en: "Alas! At the path's end lies a treasure no one can seize alone — la joie d'être français. It yields only to many hands: friends, family, strangers, you. The more it's shared, the more it grows. (Dramatic, yes. Also — annoyingly — true.)",
   },
   {
     id: "closer",
@@ -602,14 +684,15 @@ export const COMIC_PANELS: ComicPanel[] = [
     art: (
       <>
         <Scene>
-          <path
-            d="M348 250c4-18 8-30 12-46m12 46c-4-18-8-30-12-46m0 0c-2-14-2-26 0-40 2 14 2 26 0 40M352 220h16M349 236h22"
-            strokeOpacity={0.22}
-          />
-          <path d="M356 250q4-6 8 0" strokeOpacity={0.22} />
+          {/* a picturesque sunset: sun, rolling hills, a far Eiffel, birds */}
+          <circle cx="300" cy="84" r="22" fill="currentColor" fillOpacity={0.08} />
+          <circle cx="300" cy="84" r="22" strokeOpacity={0.14} />
+          <path d="M0 250c46-34 102-34 150 2M120 250c52-36 116-30 160 6M250 250c44-28 100-28 150 2" strokeOpacity={0.16} />
+          {/* a distant Eiffel Tower */}
+          <path d="M70 250l9-50 9 50M73 228h12M75 214h8" strokeOpacity={0.2} />
+          {/* a couple of birds (and a nod to Piaf, the sparrow) */}
+          <path d="M124 78q7-7 14 0q7-7 14 0M338 64q5-5 10 0q5-5 10 0" strokeOpacity={0.28} />
           <line x1="20" y1="250" x2="380" y2="250" strokeOpacity={0.3} />
-          <path d="M118 132c-10-6-18-4-22 4M262 132c10-6 18-4 22 4" strokeOpacity={0.4} />
-          <path d="M196 96c0-8 12-8 12 0 0 5-6 5-6 10M202 114h.02" strokeOpacity={0.45} />
         </Scene>
         <div className="absolute inset-0 flex items-end justify-center pb-5">
           <Frog solid className="h-32 w-32 text-ink" />

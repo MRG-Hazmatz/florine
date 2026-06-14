@@ -60,6 +60,7 @@ export default function FrogComic() {
   const [dir, setDir] = useState<"next" | "prev">("next");
   const iRef = useRef(0);
   iRef.current = i;
+  const overlayRef = useRef<HTMLDivElement>(null);
 
   const last = COMIC_PANELS.length - 1;
   const panel = COMIC_PANELS[i];
@@ -114,21 +115,41 @@ export default function FrogComic() {
     };
   }, [open, phase, go, closeComic]);
 
+  // Open the comic in real fullscreen for the dramatic effect (and so the
+  // controls never get clipped by the browser chrome). The open paths are
+  // user-gesture driven (tapping the third frog, the footer link), so the
+  // request is allowed; if it's ever blocked (e.g. deep-linked /grenouille) we
+  // just stay windowed — the layout fits either way. Esc/F11 exits fullscreen
+  // without closing the book; closing the book exits fullscreen.
+  useEffect(() => {
+    if (!open) return;
+    const el = overlayRef.current;
+    if (el?.requestFullscreen && !document.fullscreenElement) {
+      el.requestFullscreen().catch(() => {});
+    }
+    return () => {
+      if (document.fullscreenElement) document.exitFullscreen().catch(() => {});
+    };
+  }, [open]);
+
   if (!open) return null;
 
   return (
     <div
-      className="fixed inset-0 z-[9999] flex flex-col items-center justify-center overflow-y-auto bg-ink/85 px-4 py-8 backdrop-blur-sm"
+      ref={overlayRef}
+      className="fixed inset-0 z-[9999] flex flex-col items-center overflow-hidden bg-ink/85 backdrop-blur-sm"
       role="dialog"
       aria-modal="true"
       aria-label="La Complainte de la Grenouille"
     >
       {phase === "splash" ? (
-        <SplashBurst onDone={() => setPhase("reading")} />
+        <div className="flex flex-1 items-center justify-center">
+          <SplashBurst onDone={() => setPhase("reading")} />
+        </div>
       ) : (
         <>
           {/* top bar */}
-          <div className="flex w-full max-w-xl items-center justify-between text-xs text-parchment/70">
+          <div className="flex w-full max-w-xl shrink-0 items-center justify-between px-4 pt-4 text-xs text-parchment/70">
             <span className="uppercase tracking-[0.3em]">La Complainte de la Grenouille</span>
             <button
               type="button"
@@ -139,34 +160,36 @@ export default function FrogComic() {
             </button>
           </div>
 
-          {/* the page */}
-          <div className="comic-stage mt-3 w-full max-w-xl">
-            <article
-              key={panel.id}
-              className={`overflow-hidden rounded-md border-[3px] border-ink bg-card shadow-[6px_8px_0_rgba(0,0,0,0.45)] ${
-                dir === "next" ? "comic-page-next" : "comic-page-prev"
-              }`}
-            >
-              <div className="relative aspect-[4/3] w-full bg-parchment">
-                {panel.art}
-                <span className="comic-vignette pointer-events-none absolute inset-0" />
-              </div>
-              {panel.kind === "story" && (
-                <div className="space-y-2 border-t-2 border-ink/70 px-5 py-4 text-center">
-                  {panel.title && (
-                    <p className="font-display text-lg font-bold tracking-wide text-rouge">
-                      {panel.title}
-                    </p>
-                  )}
-                  <p className="font-display text-base italic leading-snug text-ink">{panel.fr}</p>
-                  <p className="text-sm leading-relaxed text-ink/65">{panel.en}</p>
+          {/* the page — flexes to fill, scrolls only itself if a panel is tall */}
+          <div className="flex w-full max-w-xl min-h-0 flex-1 items-center justify-center overflow-y-auto px-4 py-2">
+            <div className="comic-stage w-full">
+              <article
+                key={panel.id}
+                className={`overflow-hidden rounded-md border-[3px] border-ink bg-card shadow-[6px_8px_0_rgba(0,0,0,0.45)] ${
+                  dir === "next" ? "comic-page-next" : "comic-page-prev"
+                }`}
+              >
+                <div className="relative aspect-[4/3] w-full bg-parchment">
+                  {panel.art}
+                  <span className="comic-vignette pointer-events-none absolute inset-0" />
                 </div>
-              )}
-            </article>
+                {panel.kind === "story" && (
+                  <div className="space-y-2 border-t-2 border-ink/70 px-5 py-4 text-center">
+                    {panel.title && (
+                      <p className="font-display text-lg font-bold tracking-wide text-rouge">
+                        {panel.title}
+                      </p>
+                    )}
+                    <p className="font-display text-base italic leading-snug text-ink">{panel.fr}</p>
+                    <p className="text-sm leading-relaxed text-ink/65">{panel.en}</p>
+                  </div>
+                )}
+              </article>
+            </div>
           </div>
 
           {/* dots */}
-          <div className="mt-4 flex max-w-xl flex-wrap items-center justify-center gap-1.5">
+          <div className="flex w-full max-w-xl shrink-0 flex-wrap items-center justify-center gap-1.5 px-4 pt-2">
             {COMIC_PANELS.map((p, idx) => (
               <button
                 key={p.id}
@@ -184,7 +207,7 @@ export default function FrogComic() {
           </div>
 
           {/* controls */}
-          <div className="mt-4 flex items-center gap-3">
+          <div className="flex shrink-0 items-center gap-3 px-4 pb-5 pt-3">
             <button
               type="button"
               onClick={() => go(-1)}
