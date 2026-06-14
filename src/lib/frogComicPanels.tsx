@@ -148,11 +148,11 @@ export const COMIC_PANELS: ComicPanel[] = [
     title: "Chapitre I — L'Humain",
     art: (
       <Scene>
-        {/* ornate damask wallpaper */}
-        {Array.from({ length: 5 }).map((_, r) =>
+        {/* ornate damask wallpaper — kept on the upper wall, above the dado rail */}
+        {Array.from({ length: 4 }).map((_, r) =>
           Array.from({ length: 8 }).map((_, c) => {
             const x = 26 + c * 52 + (r % 2 ? 26 : 0);
-            const y = 18 + r * 44;
+            const y = 22 + r * 44;
             return (
               <path
                 key={`w${r}-${c}`}
@@ -177,11 +177,11 @@ export const COMIC_PANELS: ComicPanel[] = [
           <path d="M52 74c6-12 12-12 18 0s12 8 18-2" strokeOpacity={0.4} />
         </g>
         <g transform="rotate(5 320 70)">
-          <rect x="280" y="44" width="80" height="50" fill={PAPER} />
-          <rect x="280" y="44" width="80" height="50" strokeOpacity={0.55} />
-          <text x="320" y="62" textAnchor="middle" fontSize="8" fill="currentColor" stroke="none" fillOpacity={0.6} className="font-display">J'AIME LE</text>
-          <path d="M312 74c-4-5-12-1-12 4 0 5 12 11 12 11s12-6 12-11c0-5-8-9-12-4z" strokeOpacity={0.55} />
-          <text x="332" y="86" textAnchor="middle" fontSize="7" fill="currentColor" stroke="none" fillOpacity={0.6} className="font-display">KETCHUP</text>
+          <rect x="280" y="42" width="80" height="54" fill={PAPER} />
+          <rect x="280" y="42" width="80" height="54" strokeOpacity={0.55} />
+          <text x="320" y="58" textAnchor="middle" fontSize="8" fill="currentColor" stroke="none" fillOpacity={0.6} className="font-display">J'AIME LE</text>
+          <path d="M320 78c-3-5-9-5-9 0 0 4 9 9 9 9s9-5 9-9c0-5-6-5-9 0z" strokeOpacity={0.55} />
+          <text x="320" y="93" textAnchor="middle" fontSize="8" fill="currentColor" stroke="none" fillOpacity={0.6} className="font-display">KETCHUP</text>
         </g>
         <g transform="translate(352 170)">
           <path d="M0 60V24a8 8 0 0116 0v36" fill={PAPER} />
@@ -194,14 +194,13 @@ export const COMIC_PANELS: ComicPanel[] = [
         <circle cx="170" cy="150" r="44" fill={PAPER} />
         <circle cx="170" cy="150" r="44" />
         <path d="M126 134c6-16 72-22 88-3 3 4-4 8-12 8H138c-9 0-15-1-12-5z" fill="currentColor" fillOpacity={0.14} />
-        <circle cx="216" cy="128" r="3.5" fill="currentColor" stroke="none" />
         <path d="M150 150c4-3 9-3 12 0M180 150c4-3 9-3 12 0" />
         <path d="M188 160c7 2 10 6 4 10" />
         <path d="M156 176c8 5 18 5 26 0" />
       </Scene>
     ),
     fr: "Il était une fois un humain : arrogant, insupportable et — pire que tout — insuffisamment français. Sa chambre, à elle seule, constituait une preuve.",
-    en: "Once, the frog was a man: arrogant, unbearable, and — worst of all — insufficiently French. His bedroom alone was evidence: a crooked «J'aime le KETCHUP» poster, socks in sandals, and a cactus named Kevin.",
+    en: "Once, the frog was a man: arrogant, unbearable, and — worst of all — insufficiently French. His bedroom alone was evidence: a crooked «J'aime le KETCHUP» poster, socks in crocs, and a cactus named Kevin.",
   },
   {
     id: "crime",
@@ -221,13 +220,26 @@ export const COMIC_PANELS: ComicPanel[] = [
         {/* the wine */}
         <path d="M130 158c2 14 10 22 20 22s18-8 20-22c-12 4-28 4-40 0z" fill="var(--color-rouge)" fillOpacity={0.32} stroke="none" />
         <path d="M130 158c12 4 28 4 40 0" stroke="var(--color-rouge)" strokeOpacity={0.5} />
-        <ellipse cx="232" cy="226" rx="38" ry="9" fill={PAPER} />
-        <ellipse cx="232" cy="226" rx="38" ry="9" />
-        <path d="M214 224c4-12 36-12 38 0z" fill="currentColor" fillOpacity={0.12} />
-        <rect x="246" y="150" width="26" height="46" rx="6" fill={PAPER} />
-        <rect x="246" y="150" width="26" height="46" rx="6" />
-        <rect x="253" y="142" width="12" height="10" rx="2" />
-        <path d="M259 196c-4 8-14 18-22 24" stroke="var(--color-rouge)" strokeOpacity={0.7} />
+        {/* a clean plate with a duck-confit drumstick */}
+        <ellipse cx="228" cy="226" rx="42" ry="8" fill={PAPER} />
+        <ellipse cx="228" cy="226" rx="42" ry="8" />
+        <ellipse cx="228" cy="224" rx="30" ry="5" strokeOpacity={0.3} />
+        <path d="M214 220c-8-3-8-15 2-18 9-3 19 3 19 12 0 5-4 8-9 8z" fill={PAPER} />
+        <path d="M214 220c-8-3-8-15 2-18 9-3 19 3 19 12 0 5-4 8-9 8z" />
+        <path d="M234 214l13-4m-13 8l12 1" strokeOpacity={0.7} />
+        <circle cx="249" cy="208" r="3.5" fill={PAPER} />
+        <circle cx="249" cy="208" r="3.5" />
+        <circle cx="247" cy="215" r="3" fill={PAPER} />
+        <circle cx="247" cy="215" r="3" />
+        {/* a clean ketchup squeeze bottle */}
+        <path d="M250 156c0-6 4-9 12-9s12 3 12 9v28c0 7-5 11-12 11s-12-4-12-11z" fill={PAPER} />
+        <path d="M250 156c0-6 4-9 12-9s12 3 12 9v28c0 7-5 11-12 11s-12-4-12-11z" />
+        <path d="M256 147v-5h12v5" fill={PAPER} />
+        <path d="M256 147v-5h12v5" />
+        <rect x="259" y="135" width="6" height="7" rx="1" />
+        <rect x="255" y="164" width="14" height="16" rx="2" strokeOpacity={0.3} />
+        {/* a little ketchup squiggle on the confit */}
+        <path d="M210 216c4-3 7 1 11-2s7 2 10-1" stroke="var(--color-rouge)" strokeOpacity={0.7} />
         <circle cx="320" cy="150" r="20" fill={PAPER} />
         <circle cx="320" cy="150" r="20" />
         <path d="M306 198c2-22 12-28 14-28s12 6 14 28z" fill={PAPER} />
@@ -239,13 +251,79 @@ export const COMIC_PANELS: ComicPanel[] = [
         <path d="M96 116c0-9 14-9 14 0 0 6-7 6-7 12M103 140h.02" strokeOpacity={0.5} />
       </Scene>
     ),
-    fr: "Au restaurant, il commanda « un vin, n'importe lequel », réclama du ketchup pour le confit de canard, et garda ses chaussettes dans ses sandales. Le sommelier consulte, depuis, un spécialiste.",
-    en: "At dinner he ordered 'a wine — any wine,' demanded ketchup for the duck confit, and kept his socks on in sandals. The sommelier has, since that night, been seeing someone about it.",
+    fr: "Au restaurant, il commanda « un vin, n'importe lequel », réclama du ketchup pour le confit de canard, et garda ses chaussettes dans ses crocs. Le sommelier consulte, depuis, un spécialiste.",
+    en: "At dinner he ordered 'a wine — any wine,' demanded ketchup for the duck confit, and kept his socks on in crocs. The sommelier has, since that night, been seeing someone about it.",
+  },
+  {
+    id: "forest",
+    kind: "story",
+    title: "Chapitre III — La Promenade",
+    art: (
+      <Scene>
+        {/* night sky over the forest: faint hatch, a moon, a few stars */}
+        <rect x="0" y="0" width="400" height="248" fill="currentColor" fillOpacity={0.05} />
+        <circle cx="332" cy="58" r="22" fill="currentColor" fillOpacity={0.1} />
+        <circle cx="324" cy="50" r="4" fill="currentColor" fillOpacity={0.06} stroke="none" />
+        {[
+          [60, 40], [120, 64], [180, 36], [270, 50], [300, 96], [360, 100], [150, 110],
+        ].map(([x, y], i) => (
+          <path key={i} d={`M${x} ${y - 4}l1 3 3 1-3 1-1 3-1-3-3-1 3-1z`} strokeOpacity={0.35} />
+        ))}
+        {/* fir trees (opaque), framing the path */}
+        <rect x="64" y="200" width="8" height="18" fill={PAPER} />
+        <rect x="64" y="200" width="8" height="18" />
+        <path d="M68 120 48 162 58 162 42 202 94 202 78 162 88 162Z" fill={PAPER} />
+        <path d="M68 120 48 162 58 162 42 202 94 202 78 162 88 162Z" />
+        <rect x="334" y="206" width="9" height="20" fill={PAPER} />
+        <rect x="334" y="206" width="9" height="20" />
+        <path d="M338 128 314 176 326 176 306 210 372 210 352 176 364 176Z" fill={PAPER} />
+        <path d="M338 128 314 176 326 176 306 210 372 210 352 176 364 176Z" />
+        {/* a round-canopy tree with a little owl */}
+        <rect x="146" y="176" width="9" height="28" fill={PAPER} />
+        <rect x="146" y="176" width="9" height="28" />
+        <circle cx="150" cy="150" r="30" fill={PAPER} />
+        <circle cx="150" cy="150" r="30" />
+        <path d="M144 150a6 7 0 0112 0 6 7 0 01-12 0z" fill={PAPER} />
+        <path d="M144 150a6 7 0 0112 0 6 7 0 01-12 0M147 148h.01M153 148h.01M150 152l-2 3h4z" strokeOpacity={0.5} />
+        {/* ground + a faint path */}
+        <line x1="0" y1="244" x2="400" y2="244" strokeOpacity={0.3} />
+        <path d="M150 248c34-16 92-16 130-30" strokeOpacity={0.12} />
+        <path d="M188 248c28-12 70-16 96-26" strokeOpacity={0.1} />
+        {/* the wizard, off-duty: flat cap, scarf, coat, beard, a lantern — no pointy hat */}
+        <path d="M204 234l6-44c2-12 22-12 24 0l6 44z" fill={PAPER} />
+        <path d="M204 234l6-44c2-12 22-12 24 0l6 44" />
+        <path d="M214 234l-6 12M228 234l7 11" />
+        <circle cx="222" cy="174" r="15" fill={PAPER} />
+        <circle cx="222" cy="174" r="15" />
+        {/* flat cap */}
+        <path d="M207 170c0-13 30-13 30 0 4 0 5 3 0 4h-30c-4-1-4-4 0-4z" fill="currentColor" fillOpacity={0.15} />
+        <path d="M207 170c0-13 30-13 30 0 4 0 5 3 0 4h-30c-4-1-4-4 0-4z" />
+        <circle cx="217" cy="174" r="1.6" fill="currentColor" stroke="none" />
+        <circle cx="227" cy="174" r="1.6" fill="currentColor" stroke="none" />
+        {/* beard */}
+        <path d="M212 182c0 12 4 18 10 20 6-2 10-8 10-20" fill={PAPER} />
+        <path d="M212 182c0 12 4 18 10 20 6-2 10-8 10-20" strokeOpacity={0.7} />
+        {/* scarf */}
+        <path d="M210 188l3 9M234 188l-3 9" strokeOpacity={0.5} />
+        {/* arm + a swinging lantern */}
+        <path d="M236 200l13 7" strokeOpacity={0.8} />
+        <path d="M249 207l3-7" strokeOpacity={0.6} />
+        <rect x="246" y="208" width="13" height="15" rx="2" fill="currentColor" fillOpacity={0.18} />
+        <rect x="246" y="208" width="13" height="15" rx="2" />
+        <path d="M248 208l4-4 5 4" />
+        {/* fireflies */}
+        <circle cx="276" cy="190" r="2" fill="currentColor" fillOpacity={0.4} stroke="none" />
+        <circle cx="292" cy="206" r="1.6" fill="currentColor" fillOpacity={0.35} stroke="none" />
+        <circle cx="120" cy="200" r="1.6" fill="currentColor" fillOpacity={0.35} stroke="none" />
+      </Scene>
+    ),
+    fr: "Or ce sorcier-là, en dehors du service, menait une vie des plus ordinaires : promenades nocturnes en forêt, gilet confortable, lanterne, aucune cape. Même les sorciers ont droit à leurs vendredis décontractés.",
+    en: "Now this particular wizard, off the clock, led a perfectly ordinary life: night walks in the forest, a comfy cardigan, a lantern, not a cape in sight. Even wizards get casual Fridays.",
   },
   {
     id: "cafe",
     kind: "story",
-    title: "Chapitre III — Le Café",
+    title: "Chapitre IV — Le Café",
     art: (
       <Scene>
         {/* tidy café interior */}
@@ -270,20 +348,25 @@ export const COMIC_PANELS: ComicPanel[] = [
         <circle cx="108" cy="178" r="1.9" fill="currentColor" stroke="none" />
         <circle cx="120" cy="178" r="1.9" fill="currentColor" stroke="none" />
         <path d="M108 186q6 4 12 0" />
-        <path d="M70 138h70v26H104l-9 10v-10H70z" fill={PAPER} />
-        <path d="M70 138h70v26H104l-9 10v-10H70z" />
-        <text x="105" y="155" textAnchor="middle" fontSize="11" fill="currentColor" stroke="none" className="font-display">« kwa-sont ? »</text>
-        {/* the little café table: clean cup + saucer + croissant */}
-        <line x1="186" y1="246" x2="186" y2="214" />
-        <ellipse cx="186" cy="214" rx="30" ry="6" fill={PAPER} />
-        <ellipse cx="186" cy="214" rx="30" ry="6" />
-        {/* cup + saucer */}
-        <ellipse cx="176" cy="208" rx="14" ry="3.5" />
-        <path d="M165 206a11 6 0 0022 0M186 200c6 0 8 8 1 9" fill={PAPER} />
-        <path d="M165 206a11 6 0 0022 0M186 201c6 0 7 7 1 8" />
-        {/* croissant */}
-        <path d="M196 206c-3-5 1-10 7-10 5 0 9 4 9 9 0 4-3 6-6 5 2-4-1-8-5-8s-6 2-5 4z" fill={PAPER} />
-        <path d="M196 206c-3-5 1-10 7-10 5 0 9 4 9 9 0 4-3 6-6 5" />
+        <path d="M58 132h86v28H102l-8 10v-10H58z" fill={PAPER} />
+        <path d="M58 132h86v28H102l-8 10v-10H58z" />
+        <text x="101" y="150" textAnchor="middle" fontSize="10" fill="currentColor" stroke="none" className="font-display">« kwa-sont ? »</text>
+        {/* the little café table: clean coffee cup + saucer, and a croissant */}
+        <line x1="186" y1="246" x2="186" y2="216" />
+        <ellipse cx="186" cy="216" rx="32" ry="6" fill={PAPER} />
+        <ellipse cx="186" cy="216" rx="32" ry="6" />
+        {/* coffee cup + saucer (left of the table) */}
+        <ellipse cx="176" cy="210" rx="15" ry="3.5" fill={PAPER} />
+        <ellipse cx="176" cy="210" rx="15" ry="3.5" />
+        <path d="M167 202h18v3c0 5-4 8-9 8s-9-3-9-8z" fill={PAPER} />
+        <path d="M167 202h18v3c0 5-4 8-9 8s-9-3-9-8z" />
+        <ellipse cx="176" cy="202" rx="9" ry="2.4" />
+        <path d="M185 203c5 0 6 6 1 7" />
+        <path d="M173 198c-2-3 2-5 0-8M179 198c-2-3 2-5 0-8" strokeOpacity={0.3} />
+        {/* croissant (right of the table) */}
+        <path d="M196 212c-2-8 5-13 12-12 5 1 9 5 9 10 0 3-3 5-6 4 2-4-1-8-5-8s-6 3-5 6z" fill={PAPER} />
+        <path d="M196 212c-2-8 5-13 12-12 5 1 9 5 9 10 0 3-3 5-6 4" />
+        <path d="M201 205l2 6M206 203l2 7M211 205l1 5" strokeOpacity={0.35} />
         {/* the wizard (right): hat ON TOP, raised brow, beard, robe */}
         <path d="M256 246c2-30 16-42 26-42s24 12 26 42z" fill={PAPER} />
         <path d="M256 246c2-30 16-42 26-42s24 12 26 42" />
@@ -302,13 +385,13 @@ export const COMIC_PANELS: ComicPanel[] = [
         <path d="M270 188c-2 16-2 34 12 40 14-6 14-24 12-40" strokeOpacity={0.7} />
       </Scene>
     ),
-    fr: "Le lendemain, dans un café qu'un certain sorcier fréquentait, il réclama « un grand café américain » et un « kwa-sont ». Le sorcier leva un sourcil. Puis il vit la tenue : chaussettes, sandales, banane à la ceinture. Ce fut l'erreur de trop.",
-    en: "Next morning, at a café a certain wizard frequented, he ordered 'a big American coffee' and a «kwa-sont». The wizard raised an eyebrow — then took in the outfit: socks, sandals, a bumbag. That was the final straw.",
+    fr: "Le lendemain matin, le même sorcier — de retour en grand attirail — sirotait son café quand l'humain réclama « un grand café américain » et un « kwa-sont ». Il leva un sourcil. Puis il vit la tenue : chaussettes, crocs, banane à la ceinture. Ce fut l'erreur de trop.",
+    en: "The next morning, the same wizard — back in full regalia — was sipping his coffee when the man ordered 'a big American coffee' and a «kwa-sont». He raised an eyebrow — then took in the outfit: socks, crocs, a bumbag. That was the final straw.",
   },
   {
     id: "tower",
     kind: "story",
-    title: "Chapitre IV — La Tour",
+    title: "Chapitre V — La Tour",
     art: (
       <Scene>
         {/* night sky: faint hatch, a big moon, scattered stars */}
@@ -349,7 +432,7 @@ export const COMIC_PANELS: ComicPanel[] = [
   {
     id: "curse",
     kind: "story",
-    title: "Chapitre V — Le Sortilège",
+    title: "Chapitre VI — Le Sortilège",
     art: (
       <>
         <Scene>
@@ -383,7 +466,7 @@ export const COMIC_PANELS: ComicPanel[] = [
   {
     id: "terms",
     kind: "story",
-    title: "Chapitre VI — Les Conditions",
+    title: "Chapitre VII — Les Conditions",
     art: (
       <Scene>
         <path d="M88 56c-16 0-16 20 0 20M312 56c16 0 16 20 0 20" fill={PAPER} />
@@ -423,7 +506,7 @@ export const COMIC_PANELS: ComicPanel[] = [
   {
     id: "flaw",
     kind: "story",
-    title: "Chapitre VII — Le Plan « Génial »",
+    title: "Chapitre VIII — Le Plan « Génial »",
     art: (
       <Scene>
         <circle cx="80" cy="58" r="18" fill="currentColor" fillOpacity={0.12} />
@@ -456,7 +539,7 @@ export const COMIC_PANELS: ComicPanel[] = [
   {
     id: "strangers",
     kind: "story",
-    title: "Chapitre VIII — La Main-d'œuvre",
+    title: "Chapitre IX — La Main-d'œuvre",
     art: (
       <>
         <div className="absolute inset-x-2 top-1 h-[68%] overflow-hidden border-[3px] border-ink bg-ink/80">
@@ -498,7 +581,7 @@ export const COMIC_PANELS: ComicPanel[] = [
   {
     id: "audit",
     kind: "story",
-    title: "Chapitre IX — L'Audit",
+    title: "Chapitre X — L'Audit",
     art: (
       <>
         <Scene>
@@ -506,6 +589,8 @@ export const COMIC_PANELS: ComicPanel[] = [
               raised — the overused superhuman-dossier b-roll, in woodcut */}
           <g strokeOpacity={0.1}>
             <circle cx="322" cy="92" r="24" />
+            {/* a neck, so the head actually connects to the shoulders */}
+            <path d="M314 114c0 12-2 20-6 26M330 114c0 12 2 20 6 26" />
             <path d="M286 214c0-46 22-62 36-62s36 16 36 62z" />
             <g transform="rotate(-14 286 176)">
               <rect x="262" y="150" width="42" height="52" rx="3" />
@@ -577,7 +662,7 @@ export const COMIC_PANELS: ComicPanel[] = [
   {
     id: "precedents",
     kind: "story",
-    title: "Chapitre X — Les Précédents",
+    title: "Chapitre XI — Les Précédents",
     art: (
       <Scene>
         {/* --- a proper little kitchen --- */}
@@ -657,7 +742,7 @@ export const COMIC_PANELS: ComicPanel[] = [
   {
     id: "treasure",
     kind: "story",
-    title: "Chapitre XI — Le Trésor",
+    title: "Chapitre XII — Le Trésor",
     art: (
       <>
         <Scene>
@@ -688,8 +773,17 @@ export const COMIC_PANELS: ComicPanel[] = [
           <circle cx="300" cy="84" r="22" fill="currentColor" fillOpacity={0.08} />
           <circle cx="300" cy="84" r="22" strokeOpacity={0.14} />
           <path d="M0 250c46-34 102-34 150 2M120 250c52-36 116-30 160 6M250 250c44-28 100-28 150 2" strokeOpacity={0.16} />
-          {/* a distant Eiffel Tower */}
-          <path d="M70 250l9-50 9 50M73 228h12M75 214h8" strokeOpacity={0.2} />
+          {/* a distant, more detailed Eiffel Tower */}
+          <g strokeOpacity={0.2}>
+            <path d="M64 250Q73 218 79 190" />
+            <path d="M94 250Q85 218 79 190" />
+            <path d="M79 190v-9" />
+            <path d="M67 240q12-9 24 0" />
+            <line x1="69" y1="232" x2="89" y2="232" />
+            <line x1="73" y1="214" x2="85" y2="214" />
+            <line x1="76" y1="204" x2="82" y2="204" />
+          </g>
+          <path d="M70 248l17-12M88 248l-17-12M73 230l12-10M85 230l-12-10" strokeOpacity={0.09} />
           {/* a couple of birds (and a nod to Piaf, the sparrow) */}
           <path d="M124 78q7-7 14 0q7-7 14 0M338 64q5-5 10 0q5-5 10 0" strokeOpacity={0.28} />
           <line x1="20" y1="250" x2="380" y2="250" strokeOpacity={0.3} />
