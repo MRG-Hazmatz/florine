@@ -180,7 +180,7 @@ export const COMIC_PANELS: ComicPanel[] = [
           <rect x="280" y="42" width="80" height="54" fill={PAPER} />
           <rect x="280" y="42" width="80" height="54" strokeOpacity={0.55} />
           <text x="320" y="58" textAnchor="middle" fontSize="8" fill="currentColor" stroke="none" fillOpacity={0.6} className="font-display">J'AIME LE</text>
-          <path d="M320 78c-3-5-9-5-9 0 0 4 9 9 9 9s9-5 9-9c0-5-6-5-9 0z" strokeOpacity={0.55} />
+          <path d="M320 70c-3-5-9-5-9 0 0 4 9 9 9 9s9-5 9-9c0-5-6-5-9 0z" strokeOpacity={0.55} />
           <text x="320" y="93" textAnchor="middle" fontSize="8" fill="currentColor" stroke="none" fillOpacity={0.6} className="font-display">KETCHUP</text>
         </g>
         <g transform="translate(352 170)">
@@ -208,7 +208,14 @@ export const COMIC_PANELS: ComicPanel[] = [
     title: "Chapitre II — Le Délit",
     art: (
       <Scene>
-        <path d="M200 16v14M186 30h28M190 30c-2 8-2 12 0 16M210 30c2 8 2 12 0 16M200 30c0 8 0 12 0 18" strokeOpacity={0.3} />
+        {/* a proper little chandelier: rod, two curved arms, candles + flames */}
+        <path d="M196 12h8M200 12v20" strokeOpacity={0.3} />
+        <path d="M200 32c-15 2-22 9-22 16M200 32c15 2 22 9 22 16" strokeOpacity={0.3} />
+        <path d="M174 48h8M218 48h8" strokeOpacity={0.3} />
+        <path d="M178 48v-6M222 48v-6" strokeOpacity={0.3} />
+        <path d="M178 35q2.5 3.5 0 7q-2.5-3.5 0-7M222 35q2.5 3.5 0 7q-2.5-3.5 0-7" strokeOpacity={0.3} />
+        <path d="M200 32v8" strokeOpacity={0.3} />
+        <circle cx="200" cy="42" r="2" strokeOpacity={0.3} />
         <line x1="0" y1="60" x2="400" y2="60" strokeOpacity={0.18} />
         <line x1="40" y1="232" x2="360" y2="232" strokeOpacity={0.4} />
         {/* a clean stemmed wine glass with red wine */}
@@ -248,7 +255,6 @@ export const COMIC_PANELS: ComicPanel[] = [
         <circle cx="327" cy="148" r="2.2" fill="currentColor" stroke="none" />
         <path d="M315 160q5 4 10 0" />
         <path d="M340 138c3 4 3 8 0 11" strokeOpacity={0.5} />
-        <path d="M96 116c0-9 14-9 14 0 0 6-7 6-7 12M103 140h.02" strokeOpacity={0.5} />
       </Scene>
     ),
     fr: "Au restaurant, il commanda « un vin, n'importe lequel », réclama du ketchup pour le confit de canard, et garda ses chaussettes dans ses crocs. Le sommelier consulte, depuis, un spécialiste.",
@@ -257,7 +263,7 @@ export const COMIC_PANELS: ComicPanel[] = [
   {
     id: "forest",
     kind: "story",
-    title: "Chapitre III — La Promenade",
+    title: "Chapitre III — Le Sorcier",
     art: (
       <Scene>
         {/* night sky over the forest: faint hatch, a moon, a few stars */}
@@ -317,8 +323,8 @@ export const COMIC_PANELS: ComicPanel[] = [
         <circle cx="120" cy="200" r="1.6" fill="currentColor" fillOpacity={0.35} stroke="none" />
       </Scene>
     ),
-    fr: "Or ce sorcier-là, en dehors du service, menait une vie des plus ordinaires : promenades nocturnes en forêt, gilet confortable, lanterne, aucune cape. Même les sorciers ont droit à leurs vendredis décontractés.",
-    en: "Now this particular wizard, off the clock, led a perfectly ordinary life: night walks in the forest, a comfy cardigan, a lantern, not a cape in sight. Even wizards get casual Fridays.",
+    fr: "Non loin de là vivait un sorcier. Ce soir-là, hors service, il se promenait en forêt : casquette, gilet, lanterne — aucune cape. En civil, un sorcier ressemble à n'importe qui. Retenez ce détail. Il compte pour demain matin.",
+    en: "Not far away lived a wizard. That very evening, off duty, he was strolling the forest: flat cap, cardigan, lantern — not a cape in sight. Out of uniform, a wizard looks like anybody. Keep that detail in mind. It matters tomorrow morning.",
   },
   {
     id: "cafe",
@@ -385,8 +391,8 @@ export const COMIC_PANELS: ComicPanel[] = [
         <path d="M270 188c-2 16-2 34 12 40 14-6 14-24 12-40" strokeOpacity={0.7} />
       </Scene>
     ),
-    fr: "Le lendemain matin, le même sorcier — de retour en grand attirail — sirotait son café quand l'humain réclama « un grand café américain » et un « kwa-sont ». Il leva un sourcil. Puis il vit la tenue : chaussettes, crocs, banane à la ceinture. Ce fut l'erreur de trop.",
-    en: "The next morning, the same wizard — back in full regalia — was sipping his coffee when the man ordered 'a big American coffee' and a «kwa-sont». He raised an eyebrow — then took in the outfit: socks, crocs, a bumbag. That was the final straw.",
+    fr: "Le lendemain matin, au café : l'humain réclama « un grand café américain » et un « kwa-sont ». À la table voisine, le promeneur de la veille — en grand attirail, c'était un jour ouvré — leva un sourcil. Puis il vit la tenue : chaussettes, crocs, banane à la ceinture. L'erreur de trop.",
+    en: "Next morning, at the café: the man ordered 'a big American coffee' and a «kwa-sont». At the next table sat last night's stroller — in full regalia, it being a workday. He raised an eyebrow. Then he took in the outfit: socks, crocs, a bumbag. One error too many.",
   },
   {
     id: "tower",
@@ -522,15 +528,13 @@ export const COMIC_PANELS: ComicPanel[] = [
         <text x="289" y="156" textAnchor="middle" fontSize="9" fill="currentColor" stroke="none" className="font-display">(= DES HOMMES DE MAIN)</text>
         <path d="M222 116l134 58m0-58-134 58" stroke="var(--color-rouge)" strokeWidth={3} strokeOpacity={0.8} />
         <circle cx="289" cy="145" r="84" stroke="var(--color-rouge)" strokeOpacity={0.5} strokeWidth={2} />
-        {/* a net hauling little stick people */}
-        <path d="M150 250c10-14 40-14 50 0" strokeOpacity={0.5} />
+        {/* the little "recruits", lined up — torsos meet the legs */}
         {[120, 175, 230].map((x) => (
           <g key={x} strokeOpacity={0.55}>
             <circle cx={x} cy="236" r="5" />
-            <path d={`M${x} 241v14M${x - 7} 248h14M${x - 5} 268l5-8 5 8`} />
+            <path d={`M${x} 241v19M${x - 7} 249h14M${x - 5} 268l5-8 5 8`} />
           </g>
         ))}
-        <path d="M250 232c14-2 26 6 30 18" strokeOpacity={0.4} />
       </Scene>
     ),
     fr: "« Pour transmettre la joie, se dit-il, je recruterai des professeurs ! » Hélas, ce qu'il « recruta » ressemblait beaucoup, beaucoup plus à des hommes de main. Sans malice, notez bien — il a simplement des idées peu conventionnelles sur le recrutement, et une notion encore plus floue du consentement. Il est plein de bonnes intentions. Presque toujours.",
@@ -588,10 +592,8 @@ export const COMIC_PANELS: ComicPanel[] = [
           {/* the "action shot" behind the file: Kim mid-inspection, clipboard
               raised — the overused superhuman-dossier b-roll, in woodcut */}
           <g strokeOpacity={0.1}>
-            <circle cx="322" cy="92" r="24" />
-            {/* a neck, so the head actually connects to the shoulders */}
-            <path d="M314 114c0 12-2 20-6 26M330 114c0 12 2 20 6 26" />
-            <path d="M286 214c0-46 22-62 36-62s36 16 36 62z" />
+            <circle cx="322" cy="98" r="24" />
+            <path d="M286 214c0-50 20-92 36-92s36 42 36 92z" />
             <g transform="rotate(-14 286 176)">
               <rect x="262" y="150" width="42" height="52" rx="3" />
               <path d="M270 170l7 7 13-14" />
@@ -673,12 +675,26 @@ export const COMIC_PANELS: ComicPanel[] = [
         <circle cx="78" cy="62" r="4" strokeOpacity={0.22} />
         <path d="M40 104l6-30 6 30M43 88h6M44 81h4" strokeOpacity={0.26} />
         <path d="M20 104v-7h7v7M62 104v-11h9v11" strokeOpacity={0.2} />
-        {/* hanging utensil rail: pots, a pan, a ladle */}
+        {/* hanging cookware rail — each item recognizable: pot, pan, ladle, whisk */}
         <line x1="108" y1="44" x2="270" y2="44" strokeOpacity={0.4} />
-        <path d="M124 44v15a11 7 0 0020 0V44" strokeOpacity={0.4} />
-        <path d="M156 44v11a8 6 0 0016 0V44" strokeOpacity={0.4} />
-        <path d="M188 44v6h20a6 6 0 010 12h-3" strokeOpacity={0.4} />
-        <path d="M232 44v18M226 62h12l-2 7h-8z" strokeOpacity={0.4} />
+        {/* pot with a rim */}
+        <path d="M128 44v6" strokeOpacity={0.4} />
+        <path d="M118 50h20v8a10 7 0 01-20 0z" fill={PAPER} />
+        <path d="M118 50h20v8a10 7 0 01-20 0z" strokeOpacity={0.4} />
+        <path d="M118 53h20" strokeOpacity={0.2} />
+        {/* frying pan, hung by its handle */}
+        <path d="M164 44v13" strokeOpacity={0.4} />
+        <circle cx="164" cy="65" r="8" fill={PAPER} />
+        <circle cx="164" cy="65" r="8" strokeOpacity={0.4} />
+        <circle cx="164" cy="65" r="4" strokeOpacity={0.18} />
+        {/* ladle */}
+        <path d="M198 44v13" strokeOpacity={0.4} />
+        <path d="M192 57a6 5 0 0012 0z" fill={PAPER} />
+        <path d="M192 57a6 5 0 0012 0z" strokeOpacity={0.4} />
+        {/* whisk */}
+        <path d="M234 44v7" strokeOpacity={0.4} />
+        <path d="M234 51c-6 4-6 13 0 17 6-4 6-13 0-17z" fill={PAPER} />
+        <path d="M234 51c-6 4-6 13 0 17 6-4 6-13 0-17M234 51v17" strokeOpacity={0.4} />
         {/* a spice shelf, top-right */}
         <line x1="298" y1="72" x2="388" y2="72" strokeOpacity={0.35} />
         {[306, 326, 346, 366].map((x) => (
@@ -747,11 +763,35 @@ export const COMIC_PANELS: ComicPanel[] = [
       <>
         <Scene>
           <Rays cx={200} cy={168} n={16} len={150} opacity={0.12} />
+          {/* ornate chest: banded lid, iron straps + studs, escutcheon lock, spilled coins */}
+          <path d="M150 168c0-26 100-26 100 0z" fill={PAPER} />
+          <path d="M150 168c0-26 100-26 100 0z" fill="currentColor" fillOpacity={0.12} />
+          <path d="M150 168c0-26 100-26 100 0" />
+          <path d="M160 166c4-15 76-15 80 0" strokeOpacity={0.3} />
           <rect x="150" y="168" width="100" height="62" rx="4" fill={PAPER} />
           <rect x="150" y="168" width="100" height="62" rx="4" />
-          <path d="M150 168c0-26 100-26 100 0" fill="currentColor" fillOpacity={0.16} />
-          <line x1="150" y1="194" x2="250" y2="194" />
-          <rect x="192" y="188" width="16" height="16" rx="3" fill="currentColor" fillOpacity={0.2} />
+          <line x1="150" y1="176" x2="250" y2="176" strokeOpacity={0.4} />
+          <path d="M172 155v75M228 155v75" strokeOpacity={0.55} />
+          <circle cx="172" cy="204" r="1.4" fill="currentColor" stroke="none" />
+          <circle cx="172" cy="220" r="1.4" fill="currentColor" stroke="none" />
+          <circle cx="228" cy="204" r="1.4" fill="currentColor" stroke="none" />
+          <circle cx="228" cy="220" r="1.4" fill="currentColor" stroke="none" />
+          {[158, 186, 214, 242].map((x) => (
+            <circle key={x} cx={x} cy={172} r={1.4} fill="currentColor" stroke="none" />
+          ))}
+          <path d="M150 222v-7M150 222h7M250 222v-7M250 222h-7M150 183v7M250 183v7" strokeOpacity={0.5} />
+          <path d="M190 172h20v16c0 7-4 11-10 11s-10-4-10-11z" fill={PAPER} />
+          <path d="M190 172h20v16c0 7-4 11-10 11s-10-4-10-11z" fill="currentColor" fillOpacity={0.14} />
+          <path d="M190 172h20v16c0 7-4 11-10 11s-10-4-10-11z" />
+          <circle cx="200" cy="184" r="3.2" fill={PAPER} />
+          <circle cx="200" cy="184" r="3.2" />
+          <path d="M200 187v6" />
+          <ellipse cx="140" cy="233" rx="6" ry="2.6" fill={PAPER} />
+          <ellipse cx="140" cy="233" rx="6" ry="2.6" />
+          <ellipse cx="259" cy="234" rx="5" ry="2.3" fill={PAPER} />
+          <ellipse cx="259" cy="234" rx="5" ry="2.3" />
+          <ellipse cx="130" cy="237" rx="4.5" ry="2" fill={PAPER} />
+          <ellipse cx="130" cy="237" rx="4.5" ry="2" />
           <path d="M196 150l2 7 7 2-7 2-2 7-2-7-7-2 7-2zM226 158l1 5 5 1-5 1-1 5-1-5-5-1 5-1z" strokeOpacity={0.6} />
         </Scene>
         <div className="absolute bottom-3 left-6">
@@ -773,17 +813,20 @@ export const COMIC_PANELS: ComicPanel[] = [
           <circle cx="300" cy="84" r="22" fill="currentColor" fillOpacity={0.08} />
           <circle cx="300" cy="84" r="22" strokeOpacity={0.14} />
           <path d="M0 250c46-34 102-34 150 2M120 250c52-36 116-30 160 6M250 250c44-28 100-28 150 2" strokeOpacity={0.16} />
-          {/* a distant, more detailed Eiffel Tower */}
+          {/* a distant, ornate Eiffel Tower: curved legs, arch, double decks, lattice, tip */}
           <g strokeOpacity={0.2}>
             <path d="M64 250Q73 218 79 190" />
             <path d="M94 250Q85 218 79 190" />
-            <path d="M79 190v-9" />
+            <path d="M79 190v-10M77 180h4M79 180v-4" />
             <path d="M67 240q12-9 24 0" />
-            <line x1="69" y1="232" x2="89" y2="232" />
-            <line x1="73" y1="214" x2="85" y2="214" />
-            <line x1="76" y1="204" x2="82" y2="204" />
+            <line x1="68" y1="234" x2="90" y2="234" />
+            <line x1="69" y1="230" x2="89" y2="230" />
+            <line x1="73" y1="216" x2="85" y2="216" />
+            <line x1="73.5" y1="212" x2="84.5" y2="212" />
+            <line x1="76" y1="202" x2="82" y2="202" />
           </g>
-          <path d="M70 248l17-12M88 248l-17-12M73 230l12-10M85 230l-12-10" strokeOpacity={0.09} />
+          <circle cx="79" cy="175" r="1" fill="currentColor" fillOpacity={0.25} stroke="none" />
+          <path d="M70 248l17-12M88 248l-17-12M71 228l14-10M87 228l-14-10M75 210l8-7M83 210l-8-7" strokeOpacity={0.09} />
           {/* a couple of birds (and a nod to Piaf, the sparrow) */}
           <path d="M124 78q7-7 14 0q7-7 14 0M338 64q5-5 10 0q5-5 10 0" strokeOpacity={0.28} />
           <line x1="20" y1="250" x2="380" y2="250" strokeOpacity={0.3} />
