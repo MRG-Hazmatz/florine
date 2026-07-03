@@ -67,6 +67,12 @@ export default function Listen({
       {graded && exercise.transcript && (
         <p className="text-sm text-ink/60">
           Transcript: <span className="text-marine">{exercise.transcript}</span>
+          {exercise.transcriptEn && (
+            <>
+              <br />
+              <span className="italic text-ink/50">= {exercise.transcriptEn}</span>
+            </>
+          )}
         </p>
       )}
 

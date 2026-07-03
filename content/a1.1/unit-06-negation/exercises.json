@@ -145,6 +145,7 @@
       "prompt": "Listen, then: what does the speaker like?",
       "audio": "audio/a1.1/unit-06-negation/listen-1.mp3",
       "transcript": "Je n'aime pas le thé, mais j'aime le café.",
+      "transcriptEn": "I don't like tea, but I like coffee.",
       "options": [
         {
           "id": "a",
@@ -246,6 +247,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/a1.1/unit-06-negation/example-ex-1.mp3",
       "transcript": "Je n'aime pas le café.",
+      "transcriptEn": "I don't like coffee.",
       "options": [
         {
           "id": "a",

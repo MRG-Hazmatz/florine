@@ -217,6 +217,7 @@
       "prompt": "Listen to the examiner's warning. What mistake is she describing?",
       "audio": "audio/c1.2/unit-07-editorial/listen-1.mp3",
       "transcript": "Vous avez écrit une excellente synthèse — malheureusement, le sujet demandait un essai : ici, votre opinion était la bienvenue.",
+      "transcriptEn": "You wrote an excellent synthesis — unfortunately, the subject asked for an essay: here, your opinion was welcome.",
       "options": [
         {
           "id": "a",
@@ -319,6 +320,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/c1.2/unit-07-editorial/example-ex-1.mp3",
       "transcript": "Cinquante-six quotidiens, une seule une : l'éditorial de Copenhague.",
+      "transcriptEn": "Fifty-six dailies, a single front page: the Copenhagen editorial.",
       "options": [
         {
           "id": "a",

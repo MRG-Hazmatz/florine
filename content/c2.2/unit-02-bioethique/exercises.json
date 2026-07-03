@@ -221,6 +221,7 @@
       "prompt": "Listen to the debater. Which controversy move is this?",
       "audio": "audio/c2.2/unit-02-bioethique/listen-1.mp3",
       "transcript": "Oui, la technique est sûre — les essais le montrent. Et oui, la question éthique reste entière : ce ne sont pas les mêmes questions.",
+      "transcriptEn": "Yes, the technique is safe — the trials show it. And yes, the ethical question remains wide open: they are not the same questions.",
       "options": [
         {
           "id": "a",
@@ -323,6 +324,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/c2.2/unit-02-bioethique/example-ex-1.mp3",
       "transcript": "Le fait est à la science ; la valeur est à la société.",
+      "transcriptEn": "The fact belongs to science; the value belongs to society.",
       "options": [
         {
           "id": "a",

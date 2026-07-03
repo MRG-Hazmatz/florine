@@ -211,6 +211,7 @@
       "prompt": "Listen to the speech fragment. Which two devices stack?",
       "audio": "audio/c1.2/unit-03-art-oratoire/listen-1.mp3",
       "transcript": "Nous avons attendu, nous avons espéré, nous avons agi.",
+      "transcriptEn": "We waited, we hoped, we acted.",
       "options": [
         {
           "id": "a",
@@ -313,6 +314,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/c1.2/unit-03-art-oratoire/example-ex-1.mp3",
       "transcript": "Moi présidente, je protégerai ; moi présidente, j'écouterai.",
+      "transcriptEn": "As president, I will protect; as president, I will listen.",
       "options": [
         {
           "id": "a",

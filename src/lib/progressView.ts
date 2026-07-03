@@ -26,3 +26,16 @@ export function computeLevelView(
     };
   });
 }
+
+/**
+ * Same unlock rule as the level map, for a single unit — so unit pages and
+ * their prev/next navigation can't be used to walk past a lock.
+ */
+export function isUnitUnlocked(
+  unit: Unit,
+  siblings: Unit[],
+  unitProgress: Record<string, UnitProgress>,
+): boolean {
+  const i = siblings.findIndex((u) => u.id === unit.id);
+  return i <= 0 || unitProgress[siblings[i - 1].id]?.status === "completed";
+}

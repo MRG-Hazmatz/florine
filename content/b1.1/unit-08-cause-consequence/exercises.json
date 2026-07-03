@@ -211,6 +211,7 @@
       "prompt": "Listen to the traffic announcement. Why is the road blocked, and what should you do?",
       "audio": "audio/b1.1/unit-08-cause-consequence/listen-1.mp3",
       "transcript": "La route est bloquée en raison d'un accident ; par conséquent, prenez le métro.",
+      "transcriptEn": "The road is blocked because of an accident; therefore, take the metro.",
       "options": [
         {
           "id": "a",
@@ -313,6 +314,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/b1.1/unit-08-cause-consequence/example-ex-1.mp3",
       "transcript": "Comme il pleuvait, le match a été annulé.",
+      "transcriptEn": "As it was raining, the match was cancelled.",
       "options": [
         {
           "id": "a",

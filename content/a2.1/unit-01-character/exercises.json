@@ -143,6 +143,7 @@
       "prompt": "Listen, then: how is the friend described?",
       "audio": "audio/a2.1/unit-01-character/listen-1.mp3",
       "transcript": "Mon meilleur ami est généreux et très drôle.",
+      "transcriptEn": "My best friend is generous and very funny.",
       "options": [
         {
           "id": "a",
@@ -242,6 +243,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/a2.1/unit-01-character/example-ex-1.mp3",
       "transcript": "C'est une amie qui m'écoute toujours.",
+      "transcriptEn": "She's a friend who always listens to me.",
       "options": [
         {
           "id": "a",

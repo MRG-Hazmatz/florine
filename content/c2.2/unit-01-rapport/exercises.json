@@ -216,6 +216,7 @@
       "prompt": "Listen to the tutor's feedback. What rule was broken?",
       "audio": "audio/c2.2/unit-01-rapport/listen-1.mp3",
       "transcript": "Votre phrase fait soixante-deux mots, contient trois « faire », et j'ignore toujours ce que vous avez accompli.",
+      "transcriptEn": "Your sentence is sixty-two words long, contains three 'faire's, and I still don't know what you accomplished.",
       "options": [
         {
           "id": "a",
@@ -318,6 +319,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/c2.2/unit-01-rapport/example-ex-1.mp3",
       "transcript": "Des phrases courtes : quinze à vingt mots en moyenne.",
+      "transcriptEn": "Short sentences: fifteen to twenty words on average.",
       "options": [
         {
           "id": "a",

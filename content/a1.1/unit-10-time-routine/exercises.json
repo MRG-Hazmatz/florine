@@ -133,6 +133,7 @@
       "prompt": "Listen, then: at what time does the speaker get up?",
       "audio": "audio/a1.1/unit-10-time-routine/listen-1.mp3",
       "transcript": "Je me lève à sept heures et je me couche à dix heures.",
+      "transcriptEn": "I get up at seven and go to bed at ten.",
       "options": [
         {
           "id": "a",
@@ -232,6 +233,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/a1.1/unit-10-time-routine/example-ex-1.mp3",
       "transcript": "Quelle heure est-il ?",
+      "transcriptEn": "What time is it?",
       "options": [
         {
           "id": "a",

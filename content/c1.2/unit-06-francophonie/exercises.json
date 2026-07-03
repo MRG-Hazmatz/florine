@@ -207,6 +207,7 @@
       "prompt": "Listen to this line from an allocution. What is the speaker actually saying?",
       "audio": "audio/c1.2/unit-06-francophonie/listen-1.mp3",
       "transcript": "Nos deux pays ont eu un échange de vues approfondi sur la question, et nous saluons les efforts accomplis.",
+      "transcriptEn": "Our two countries had an in-depth exchange of views on the matter, and we welcome the efforts made.",
       "options": [
         {
           "id": "a",
@@ -309,6 +310,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/c1.2/unit-06-francophonie/example-ex-1.mp3",
       "transcript": "La francophonie est un partenariat avant d'être une nostalgie.",
+      "transcriptEn": "The francophonie is a partnership before it is a nostalgia.",
       "options": [
         {
           "id": "a",

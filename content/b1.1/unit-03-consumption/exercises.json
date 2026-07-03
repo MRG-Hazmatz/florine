@@ -213,6 +213,7 @@
       "prompt": "Listen, then: what's the advantage of buying online here?",
       "audio": "audio/b1.1/unit-03-consumption/listen-1.mp3",
       "transcript": "Sur internet, il y a plus de choix et de meilleurs prix.",
+      "transcriptEn": "On the internet, there's more choice and better prices.",
       "options": [
         {
           "id": "a",
@@ -291,6 +292,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/b1.1/unit-03-consumption/example-ex-1.mp3",
       "transcript": "Ce produit est meilleur que l'autre.",
+      "transcriptEn": "This product is better than the other one.",
       "options": [
         {
           "id": "a",

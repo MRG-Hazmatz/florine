@@ -201,6 +201,7 @@
       "prompt": "Listen to the seminar intervention. What did the survey find?",
       "audio": "audio/c1.1/unit-08-mondialisation/listen-1.mp3",
       "transcript": "Loin d'uniformiser les goûts, la mondialisation a produit un brassage inédit — l'enquête le montre sur deux mille personnes.",
+      "transcriptEn": "Far from homogenising tastes, globalisation has produced an unprecedented blending — the survey of two thousand people shows it.",
       "options": [
         {
           "id": "a",
@@ -303,6 +304,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/c1.1/unit-08-mondialisation/example-ex-1.mp3",
       "transcript": "La mondialisation uniformise-t-elle les cultures, ou les brasse-t-elle ?",
+      "transcriptEn": "Does globalisation homogenise cultures, or blend them?",
       "options": [
         {
           "id": "a",

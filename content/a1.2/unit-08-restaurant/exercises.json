@@ -133,6 +133,7 @@
       "prompt": "Listen, then: what does the customer want to do?",
       "audio": "audio/a1.2/unit-08-restaurant/listen-1.mp3",
       "transcript": "Bonjour, je voudrais commander le plat du jour.",
+      "transcriptEn": "Hello, I'd like to order the dish of the day.",
       "options": [
         {
           "id": "a",
@@ -232,6 +233,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/a1.2/unit-08-restaurant/example-ex-1.mp3",
       "transcript": "Je voudrais réserver une table pour deux.",
+      "transcriptEn": "I'd like to book a table for two.",
       "options": [
         {
           "id": "a",

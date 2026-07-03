@@ -163,6 +163,7 @@ export const listenSchema = z.object({
   type: z.literal("listen"),
   audio: z.string(), // placeholder path in Phase 1
   transcript: z.string().optional(), // revealed after answering
+  transcriptEn: z.string().optional(), // English translation, shown with the transcript
   multiSelect: z.boolean().default(false),
   options: z.array(optionSchema).min(2),
   correct: z.array(z.string()).min(1),

@@ -149,6 +149,7 @@
       "prompt": "Listen, then: which is cheaper?",
       "audio": "audio/a1.2/unit-04-travel-comparisons/listen-1.mp3",
       "transcript": "Le train est moins cher que l'avion.",
+      "transcriptEn": "The train is cheaper than the plane.",
       "options": [
         {
           "id": "a",
@@ -248,6 +249,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/a1.2/unit-04-travel-comparisons/example-ex-1.mp3",
       "transcript": "Paris est plus grand que Lyon.",
+      "transcriptEn": "Paris is bigger than Lyon.",
       "options": [
         {
           "id": "a",

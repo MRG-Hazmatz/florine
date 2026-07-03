@@ -211,6 +211,7 @@
       "prompt": "Listen to this synthèse introduction. What does it announce?",
       "audio": "audio/c1.1/unit-01-synthese/listen-1.mp3",
       "transcript": "Ces deux articles traitent du télétravail ; la problématique commune est la suivante : le travail à distance libère-t-il ou isole-t-il ?",
+      "transcriptEn": "These two articles deal with remote work; the shared question is: does working from a distance free you or isolate you?",
       "options": [
         {
           "id": "a",
@@ -313,6 +314,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/c1.1/unit-01-synthese/example-ex-1.mp3",
       "transcript": "Les deux documents traitent de la révolution numérique.",
+      "transcriptEn": "Both documents deal with the digital revolution.",
       "options": [
         {
           "id": "a",

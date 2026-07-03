@@ -133,6 +133,7 @@
       "prompt": "Listen, then: what did the speaker do yesterday?",
       "audio": "audio/a1.2/unit-02-past/listen-1.mp3",
       "transcript": "Hier, j'ai visité un musée avec un ami.",
+      "transcriptEn": "Yesterday, I visited a museum with a friend.",
       "options": [
         {
           "id": "a",
@@ -232,6 +233,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/a1.2/unit-02-past/example-ex-1.mp3",
       "transcript": "Hier, j'ai mangé au restaurant.",
+      "transcriptEn": "Yesterday, I ate at a restaurant.",
       "options": [
         {
           "id": "a",

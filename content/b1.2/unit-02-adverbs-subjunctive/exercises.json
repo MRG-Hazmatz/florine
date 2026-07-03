@@ -216,6 +216,7 @@
       "prompt": "Listen to the reviewer. What are they saying?",
       "audio": "audio/b1.2/unit-02-adverbs-subjunctive/listen-1.mp3",
       "transcript": "Franchement, c'est l'exposition la plus originale que je connaisse !",
+      "transcriptEn": "Honestly, it's the most original exhibition I know!",
       "options": [
         {
           "id": "a",
@@ -318,6 +319,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/b1.2/unit-02-adverbs-subjunctive/example-ex-1.mp3",
       "transcript": "J'ai énormément aimé le bâtiment.",
+      "transcriptEn": "I liked the building enormously.",
       "options": [
         {
           "id": "a",

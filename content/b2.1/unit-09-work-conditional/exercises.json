@@ -206,6 +206,7 @@
       "prompt": "Listen to the office chat. What's the rumour?",
       "audio": "audio/b2.1/unit-09-work-conditional/listen-1.mp3",
       "transcript": "D'après Sophie, une augmentation serait prévue pour mars — tu aurais dû la demander plus tôt !",
+      "transcriptEn": "According to Sophie, a raise is supposedly planned for March — you should have asked for it sooner!",
       "options": [
         {
           "id": "a",
@@ -308,6 +309,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/b2.1/unit-09-work-conditional/example-ex-1.mp3",
       "transcript": "Vous auriez dû rappeler le client hier.",
+      "transcriptEn": "You should have called the client back yesterday.",
       "options": [
         {
           "id": "a",

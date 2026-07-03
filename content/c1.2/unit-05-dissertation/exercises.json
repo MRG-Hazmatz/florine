@@ -226,6 +226,7 @@
       "prompt": "Listen to this synthèse move. How does it escape the dilemma?",
       "audio": "audio/c1.2/unit-05-dissertation/listen-1.mp3",
       "transcript": "L'alternative est trompeuse : c'est précisément l'échange qui produit la différence.",
+      "transcriptEn": "The either/or is misleading: it is precisely exchange that produces difference.",
       "options": [
         {
           "id": "a",
@@ -328,6 +329,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/c1.2/unit-05-dissertation/example-ex-1.mp3",
       "transcript": "Une bonne problématique admet deux réponses défendables.",
+      "transcriptEn": "A good central question admits two defensible answers.",
       "options": [
         {
           "id": "a",

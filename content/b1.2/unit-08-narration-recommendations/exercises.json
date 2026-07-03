@@ -211,6 +211,7 @@
       "prompt": "Listen to the guide. What's the recommendation, and what's the warning?",
       "audio": "audio/b1.2/unit-08-narration-recommendations/listen-1.mp3",
       "transcript": "Ne manquez pas le marché, mais évitez d'y aller à midi : il y a trop de monde.",
+      "transcriptEn": "Don't miss the market, but avoid going at noon: there are too many people.",
       "options": [
         {
           "id": "a",
@@ -313,6 +314,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/b1.2/unit-08-narration-recommendations/example-ex-1.mp3",
       "transcript": "Ne manquez pas le cœur historique de la ville.",
+      "transcriptEn": "Don't miss the historic heart of the city.",
       "options": [
         {
           "id": "a",

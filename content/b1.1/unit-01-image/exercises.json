@@ -147,6 +147,7 @@
       "prompt": "Listen, then: what does the speaker like about her?",
       "audio": "audio/b1.1/unit-01-image/listen-1.mp3",
       "transcript": "Ce qui me plaît chez elle, c'est sa confiance en elle.",
+      "transcriptEn": "What I like about her is her self-confidence.",
       "options": [
         {
           "id": "a",
@@ -246,6 +247,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/b1.1/unit-01-image/example-ex-1.mp3",
       "transcript": "La première impression, c'est ce qui compte le plus.",
+      "transcriptEn": "The first impression is what counts most.",
       "options": [
         {
           "id": "a",

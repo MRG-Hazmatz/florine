@@ -222,6 +222,7 @@
       "prompt": "Listen to the project defense. Which moves does the speaker chain together?",
       "audio": "audio/c1.2/unit-08-ecologie/listen-1.mp3",
       "transcript": "On me dira que ce quartier sans voitures coûte cher — mais trois degrés de plus coûteront davantage que tous nos programmes de sobriété réunis.",
+      "transcriptEn": "I'll be told this car-free district is expensive — but three more degrees will cost more than all our restraint programmes combined.",
       "options": [
         {
           "id": "a",
@@ -324,6 +325,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/c1.2/unit-08-ecologie/example-ex-1.mp3",
       "transcript": "Le sommet s'est conclu sur des engagements non contraignants.",
+      "transcriptEn": "The summit concluded with non-binding commitments.",
       "options": [
         {
           "id": "a",

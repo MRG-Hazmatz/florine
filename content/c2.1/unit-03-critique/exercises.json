@@ -211,6 +211,7 @@
       "prompt": "Listen to the radio critic. What is her overall verdict?",
       "audio": "audio/c2.1/unit-03-critique/listen-1.mp3",
       "transcript": "Mise en scène inventive, comédiens impeccables — et pourtant un deuxième acte qui s'essouffle. Allez-y pour le premier ; pardonnez le second.",
+      "transcriptEn": "Inventive staging, impeccable actors — and yet a second act that runs out of steam. Go for the first; forgive the second.",
       "options": [
         {
           "id": "a",
@@ -313,6 +314,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/c2.1/unit-03-critique/example-ex-1.mp3",
       "transcript": "Le titre d'une critique est déjà un verdict en miniature.",
+      "transcriptEn": "A review's title is already a verdict in miniature.",
       "options": [
         {
           "id": "a",

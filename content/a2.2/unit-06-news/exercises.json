@@ -187,6 +187,7 @@
       "prompt": "Listen, then: what happened this morning?",
       "audio": "audio/a2.2/unit-06-news/listen-1.mp3",
       "transcript": "Un voleur a été arrêté ce matin.",
+      "transcriptEn": "A thief was arrested this morning.",
       "options": [
         {
           "id": "a",
@@ -265,6 +266,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/a2.2/unit-06-news/example-ex-1.mp3",
       "transcript": "Le voleur a été arrêté par la police.",
+      "transcriptEn": "The thief was arrested by the police.",
       "options": [
         {
           "id": "a",

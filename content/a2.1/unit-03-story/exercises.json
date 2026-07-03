@@ -147,6 +147,7 @@
       "prompt": "Listen, then: when did the speaker meet their best friend?",
       "audio": "audio/a2.1/unit-03-story/listen-1.mp3",
       "transcript": "J'ai rencontré mon meilleur ami il y a cinq ans.",
+      "transcriptEn": "I met my best friend five years ago.",
       "options": [
         {
           "id": "a",
@@ -246,6 +247,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/a2.1/unit-03-story/example-ex-1.mp3",
       "transcript": "J'ai rencontré Léa il y a deux ans.",
+      "transcriptEn": "I met Léa two years ago.",
       "options": [
         {
           "id": "a",

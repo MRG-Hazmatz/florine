@@ -168,6 +168,7 @@
       "prompt": "Listen, then: how does the speaker feel?",
       "audio": "audio/b1.1/unit-02-feelings/listen-1.mp3",
       "transcript": "Je suis vraiment heureux que tu sois venu.",
+      "transcriptEn": "I'm really happy you came.",
       "options": [
         {
           "id": "a",
@@ -246,6 +247,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/b1.1/unit-02-feelings/example-ex-1.mp3",
       "transcript": "Je suis content que tu sois là.",
+      "transcriptEn": "I'm glad you're here.",
       "options": [
         {
           "id": "a",

@@ -211,6 +211,7 @@
       "prompt": "Listen to the radio columnist. What is the measured claim under the heat?",
       "audio": "audio/c1.1/unit-04-generations/listen-1.mp3",
       "transcript": "On accuse les soixante-huitards d'avoir tout légué sauf des repères — derrière la provocation, le vrai constat : les rythmes de vie ont divergé.",
+      "transcriptEn": "The '68 generation stands accused of bequeathing everything except bearings — behind the provocation, the real finding: rhythms of life have diverged.",
       "options": [
         {
           "id": "a",
@@ -313,6 +314,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/c1.1/unit-04-generations/example-ex-1.mp3",
       "transcript": "Le fossé générationnel se creuse moins qu'on ne le croit.",
+      "transcriptEn": "The generation gap is widening less than people believe.",
       "options": [
         {
           "id": "a",

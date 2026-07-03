@@ -216,6 +216,7 @@
       "prompt": "Listen to this conclusion of a réflexion personnelle. Which moves does it chain?",
       "audio": "audio/c2.2/unit-04-utopies/listen-1.mp3",
       "transcript": "Je tranche : la société ne peut pas fournir le bonheur — elle peut seulement cesser de l'empêcher. Reste une question : qui décidera de ce qui l'empêche ?",
+      "transcriptEn": "My verdict: society cannot supply happiness — it can only stop preventing it. One question remains: who will decide what prevents it?",
       "options": [
         {
           "id": "a",
@@ -318,6 +319,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/c2.2/unit-04-utopies/example-ex-1.mp3",
       "transcript": "L'utopie indique l'écart entre la société qu'on a et celle qu'on n'ose pas demander.",
+      "transcriptEn": "Utopia marks the gap between the society we have and the one we dare not ask for.",
       "options": [
         {
           "id": "a",

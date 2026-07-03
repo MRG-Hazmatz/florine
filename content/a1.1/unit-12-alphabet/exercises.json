@@ -140,6 +140,7 @@
       "prompt": "Listen, then: what is the speaker's first name (prénom)?",
       "audio": "audio/a1.1/unit-12-alphabet/listen-1.mp3",
       "transcript": "Bonjour, mon prénom est Léa et mon nom est Martin.",
+      "transcriptEn": "Hello, my first name is Léa and my surname is Martin.",
       "options": [
         {
           "id": "a",
@@ -239,6 +240,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/a1.1/unit-12-alphabet/example-ex-1.mp3",
       "transcript": "Comment ça s'écrit ?",
+      "transcriptEn": "How is that spelled?",
       "options": [
         {
           "id": "a",

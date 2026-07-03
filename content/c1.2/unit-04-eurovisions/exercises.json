@@ -207,6 +207,7 @@
       "prompt": "Listen to the jurist. What distinction does she draw?",
       "audio": "audio/c1.2/unit-04-eurovisions/listen-1.mp3",
       "transcript": "Quand le traité dit « devoir », l'État est lié ; quand il dit « s'efforcer », il est seulement encouragé.",
+      "transcriptEn": "When the treaty says 'must', the state is bound; when it says 'endeavour', it is merely encouraged.",
       "options": [
         {
           "id": "a",
@@ -309,6 +310,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/c1.2/unit-04-eurovisions/example-ex-1.mp3",
       "transcript": "La directive doit être transposée avant deux ans.",
+      "transcriptEn": "The directive must be transposed within two years.",
       "options": [
         {
           "id": "a",

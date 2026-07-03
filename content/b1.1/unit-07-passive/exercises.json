@@ -222,6 +222,7 @@
       "prompt": "Listen to the radio news flash. What happened?",
       "audio": "audio/b1.1/unit-07-passive/listen-1.mp3",
       "transcript": "Deux personnes ont été blessées ce matin dans un accident sur l'autoroute A6.",
+      "transcriptEn": "Two people were injured this morning in an accident on the A6 motorway.",
       "options": [
         {
           "id": "a",
@@ -317,6 +318,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/b1.1/unit-07-passive/example-ex-1.mp3",
       "transcript": "Le voleur a été arrêté par la police.",
+      "transcriptEn": "The thief was arrested by the police.",
       "options": [
         {
           "id": "a",

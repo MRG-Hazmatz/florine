@@ -137,6 +137,7 @@
       "prompt": "Listen, then: what did the speaker do last year?",
       "audio": "audio/a2.1/unit-04-studies/listen-1.mp3",
       "transcript": "L'année dernière, j'ai fait un échange en Espagne.",
+      "transcriptEn": "Last year, I did an exchange in Spain.",
       "options": [
         {
           "id": "a",
@@ -236,6 +237,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/a2.1/unit-04-studies/example-ex-1.mp3",
       "transcript": "J'ai étudié à l'université de Lyon.",
+      "transcriptEn": "I studied at the University of Lyon.",
       "options": [
         {
           "id": "a",

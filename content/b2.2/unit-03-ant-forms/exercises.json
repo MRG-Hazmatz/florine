@@ -222,6 +222,7 @@
       "prompt": "Listen to election-night radio. Why did the candidate win over hesitant voters?",
       "audio": "audio/b2.2/unit-03-ant-forms/listen-1.mp3",
       "transcript": "Ayant longtemps milité dans l'ombre, la candidate a mené une campagne fatigante mais convaincante.",
+      "transcriptEn": "Having long campaigned out of the spotlight, the candidate ran a tiring but convincing campaign.",
       "options": [
         {
           "id": "a",
@@ -324,6 +325,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/b2.2/unit-03-ant-forms/example-ex-1.mp3",
       "transcript": "Ayant beaucoup hésité, il a choisi son candidat au dernier moment.",
+      "transcriptEn": "Having hesitated a lot, he chose his candidate at the last moment.",
       "options": [
         {
           "id": "a",

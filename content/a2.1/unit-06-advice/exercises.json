@@ -137,6 +137,7 @@
       "prompt": "Listen, then: what advice is given?",
       "audio": "audio/a2.1/unit-06-advice/listen-1.mp3",
       "transcript": "Il faut que tu sois à l'heure pour l'entretien.",
+      "transcriptEn": "You need to be on time for the interview.",
       "options": [
         {
           "id": "a",
@@ -236,6 +237,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/a2.1/unit-06-advice/example-ex-1.mp3",
       "transcript": "Il faut que tu sois à l'heure.",
+      "transcriptEn": "You need to be on time.",
       "options": [
         {
           "id": "a",

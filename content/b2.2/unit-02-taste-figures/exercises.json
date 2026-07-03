@@ -211,6 +211,7 @@
       "prompt": "Listen to the food critic. What image does she use?",
       "audio": "audio/b2.2/unit-02-taste-figures/listen-1.mp3",
       "transcript": "La tarte au citron est une merveille : une pâte croustillante, une crème à peine acide — un petit nuage.",
+      "transcriptEn": "The lemon tart is a marvel: crisp pastry, a barely tart cream — a little cloud.",
       "options": [
         {
           "id": "a",
@@ -313,6 +314,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/b2.2/unit-02-taste-figures/example-ex-1.mp3",
       "transcript": "Ce gâteau fond comme la neige au soleil.",
+      "transcriptEn": "This cake melts like snow in the sun.",
       "options": [
         {
           "id": "a",

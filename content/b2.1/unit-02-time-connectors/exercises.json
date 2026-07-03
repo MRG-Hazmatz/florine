@@ -216,6 +216,7 @@
       "prompt": "Listen to the recruiter. When does the job start?",
       "audio": "audio/b2.1/unit-02-time-connectors/listen-1.mp3",
       "transcript": "Vous commencerez dès que le contrat sera signé ; d'ici là, préparez vos documents.",
+      "transcriptEn": "You will start as soon as the contract is signed; until then, prepare your documents.",
       "options": [
         {
           "id": "a",
@@ -318,6 +319,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/b2.1/unit-02-time-connectors/example-ex-1.mp3",
       "transcript": "Avant de postuler, relisez votre CV.",
+      "transcriptEn": "Before applying, reread your CV.",
       "options": [
         {
           "id": "a",

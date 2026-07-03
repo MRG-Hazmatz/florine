@@ -206,6 +206,7 @@
       "prompt": "Listen to the announcement. What will happen, in what order?",
       "audio": "audio/b1.2/unit-03-future/listen-1.mp3",
       "transcript": "Dès que nous aurons installé les panneaux solaires, la maison produira sa propre énergie.",
+      "transcriptEn": "As soon as we've installed the solar panels, the house will produce its own energy.",
       "options": [
         {
           "id": "a",
@@ -308,6 +309,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/b1.2/unit-03-future/example-ex-1.mp3",
       "transcript": "Demain, on triera tous nos déchets.",
+      "transcriptEn": "Tomorrow, we'll sort all our waste.",
       "options": [
         {
           "id": "a",

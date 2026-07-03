@@ -211,6 +211,7 @@
       "prompt": "Listen to the tone. What does the speaker really mean?",
       "audio": "audio/c1.1/unit-06-implicit/listen-1.mp3",
       "transcript": "Il n'est pas sot, votre nouveau collègue — ce n'est pas tous les jours qu'on gravit trois échelons en un an.",
+      "transcriptEn": "He's no fool, your new colleague — it's not every day someone climbs three rungs in a year.",
       "options": [
         {
           "id": "a",
@@ -313,6 +314,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/c1.1/unit-06-implicit/example-ex-1.mp3",
       "transcript": "« Ce n'est pas faux » : comprenez « vous avez raison ».",
+      "transcriptEn": "'That's not wrong' — understand: 'you are right.'",
       "options": [
         {
           "id": "a",

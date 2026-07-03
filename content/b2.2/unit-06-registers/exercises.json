@@ -216,6 +216,7 @@
       "prompt": "Listen. Which register, and how do you know?",
       "audio": "audio/b2.2/unit-06-registers/listen-1.mp3",
       "transcript": "Puis-je vous demander de rectifier ces propos dans votre prochaine édition ?",
+      "transcriptEn": "May I ask you to correct these statements in your next edition?",
       "options": [
         {
           "id": "a",
@@ -318,6 +319,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/b2.2/unit-06-registers/example-ex-1.mp3",
       "transcript": "Ma bagnole est en panne — ma voiture ne démarre plus.",
+      "transcriptEn": "My banger's broken down — my car won't start any more.",
       "options": [
         {
           "id": "a",

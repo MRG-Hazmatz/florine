@@ -143,6 +143,7 @@
       "prompt": "Listen, then: what does the neighbour ask?",
       "audio": "audio/a2.1/unit-02-reported-speech/listen-1.mp3",
       "transcript": "Ma voisine demande si je suis libre ce soir.",
+      "transcriptEn": "My neighbour is asking whether I'm free tonight.",
       "options": [
         {
           "id": "a",
@@ -242,6 +243,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/a2.1/unit-02-reported-speech/example-ex-1.mp3",
       "transcript": "Il dit qu'il est fatigué.",
+      "transcriptEn": "He says he's tired.",
       "options": [
         {
           "id": "a",

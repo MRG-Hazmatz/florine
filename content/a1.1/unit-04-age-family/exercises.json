@@ -138,6 +138,7 @@
       "prompt": "Listen, then: how many brothers does the speaker have?",
       "audio": "audio/a1.1/unit-04-age-family/listen-1.mp3",
       "transcript": "Bonjour ! J'ai dix ans et j'ai un frère.",
+      "transcriptEn": "Hello! I'm ten years old and I have a brother.",
       "options": [
         {
           "id": "a",
@@ -233,6 +234,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/a1.1/unit-04-age-family/example-ex-1.mp3",
       "transcript": "J'ai dix ans.",
+      "transcriptEn": "I'm ten years old.",
       "options": [
         {
           "id": "a",

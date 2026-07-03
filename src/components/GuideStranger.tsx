@@ -39,8 +39,8 @@ export default function GuideStranger({
       <figure className="shrink-0 -rotate-2">
         <Link
           to="/almanac"
-          title={`${who.name} — ${who.title}. Open the almanac.`}
-          aria-label={`${who.name}. Open the strangers' almanac.`}
+          title={`${who.name} — ${who.title}`}
+          aria-label={`${who.name} — ${who.title}`}
           className="block h-20 w-20 overflow-hidden border border-ink/70 bg-parchment shadow-[3px_3px_0_rgba(23,18,12,0.45)]"
         >
           <img src={src} alt="" className="h-full w-full object-contain mix-blend-multiply" />

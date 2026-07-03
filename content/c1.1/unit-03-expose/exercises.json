@@ -211,6 +211,7 @@
       "prompt": "Listen to this exposé opening. Which two elements do you hear?",
       "audio": "audio/c1.1/unit-03-expose/listen-1.mp3",
       "transcript": "Un chiffre d'abord : huit jeunes sur dix vivent encore chez leurs parents à vingt ans. J'aborderai d'abord les causes économiques, avant d'examiner les mutations familiales.",
+      "transcriptEn": "A figure first: eight in ten young people still live with their parents at twenty. I will first address the economic causes, before examining the changes in family life.",
       "options": [
         {
           "id": "a",
@@ -313,6 +314,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/c1.1/unit-03-expose/example-ex-1.mp3",
       "transcript": "J'aborderai d'abord les causes, avant d'examiner les conséquences.",
+      "transcriptEn": "I will first address the causes, before examining the consequences.",
       "options": [
         {
           "id": "a",

@@ -142,6 +142,7 @@
       "prompt": "Listen, then: what is there in the town?",
       "audio": "audio/a1.1/unit-07-city-articles/listen-1.mp3",
       "transcript": "Dans ma ville, il y a un parc et deux cafés.",
+      "transcriptEn": "In my town, there's a park and two cafés.",
       "options": [
         {
           "id": "a",
@@ -241,6 +242,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/a1.1/unit-07-city-articles/example-ex-1.mp3",
       "transcript": "Dans ma ville, il y a un parc.",
+      "transcriptEn": "In my town, there's a park.",
       "options": [
         {
           "id": "a",

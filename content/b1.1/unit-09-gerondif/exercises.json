@@ -206,6 +206,7 @@
       "prompt": "Listen to the radio appeal. What is it asking for?",
       "audio": "audio/b1.1/unit-09-gerondif/listen-1.mp3",
       "transcript": "Devenez bénévole : en donnant deux heures par semaine, vous changez des vies.",
+      "transcriptEn": "Become a volunteer: by giving two hours a week, you change lives.",
       "options": [
         {
           "id": "a",
@@ -308,6 +309,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/b1.1/unit-09-gerondif/example-ex-1.mp3",
       "transcript": "Il travaille en chantant.",
+      "transcriptEn": "He works while singing.",
       "options": [
         {
           "id": "a",

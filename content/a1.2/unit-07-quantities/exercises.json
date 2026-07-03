@@ -133,6 +133,7 @@
       "prompt": "Listen, then: what does the speaker buy?",
       "audio": "audio/a1.2/unit-07-quantities/listen-1.mp3",
       "transcript": "Au marché, j'achète un kilo de pommes.",
+      "transcriptEn": "At the market, I buy a kilo of apples.",
       "options": [
         {
           "id": "a",
@@ -232,6 +233,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/a1.2/unit-07-quantities/example-ex-1.mp3",
       "transcript": "Je voudrais un kilo de pommes.",
+      "transcriptEn": "I'd like a kilo of apples.",
       "options": [
         {
           "id": "a",

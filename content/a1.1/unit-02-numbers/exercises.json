@@ -133,6 +133,7 @@
       "prompt": "Listen, then: how old is the speaker?",
       "audio": "audio/a1.1/unit-02-numbers/listen-1.mp3",
       "transcript": "J'ai soixante-quinze ans.",
+      "transcriptEn": "I'm seventy-five years old.",
       "options": [
         {
           "id": "a",
@@ -232,6 +233,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/a1.1/unit-02-numbers/example-ex-1.mp3",
       "transcript": "Un, deux, trois !",
+      "transcriptEn": "One, two, three!",
       "options": [
         {
           "id": "a",

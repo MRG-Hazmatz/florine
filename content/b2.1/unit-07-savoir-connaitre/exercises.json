@@ -206,6 +206,7 @@
       "prompt": "Listen to the teacher. What does she say about Léa?",
       "audio": "audio/b2.1/unit-07-savoir-connaitre/listen-1.mp3",
       "transcript": "Léa a des facilités en langues et sait déjà lire des partitions — elle a l'oreille musicale.",
+      "transcriptEn": "Léa has a gift for languages and can already read sheet music — she has a musical ear.",
       "options": [
         {
           "id": "a",
@@ -308,6 +309,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/b2.1/unit-07-savoir-connaitre/example-ex-1.mp3",
       "transcript": "Je sais conduire, mais je ne connais pas cette route.",
+      "transcriptEn": "I know how to drive, but I don't know this road.",
       "options": [
         {
           "id": "a",

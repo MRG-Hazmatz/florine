@@ -201,6 +201,7 @@
       "prompt": "Listen to the retrospective. Which three eras does it cross?",
       "audio": "audio/b2.2/unit-07-temps-modes/listen-1.mp3",
       "transcript": "Autrefois, on écrivait des lettres ; de nos jours, on envoie des messages ; à l'avenir, qui sait ce que nous utiliserons ?",
+      "transcriptEn": "In the past, people wrote letters; nowadays, we send messages; in the future, who knows what we'll use?",
       "options": [
         {
           "id": "a",
@@ -303,6 +304,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/b2.2/unit-07-temps-modes/example-ex-1.mp3",
       "transcript": "Autrefois, on écrivait des lettres ; de nos jours, on envoie des messages.",
+      "transcriptEn": "In the past, people wrote letters; nowadays, we send messages.",
       "options": [
         {
           "id": "a",

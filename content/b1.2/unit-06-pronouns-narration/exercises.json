@@ -211,6 +211,7 @@
       "prompt": "Listen to the start of the story. What happened, in what order?",
       "audio": "audio/b1.2/unit-06-pronouns-narration/listen-1.mp3",
       "transcript": "La veille du procès, son avocate lui avait promis la victoire ; le lendemain, ils ont pourtant perdu.",
+      "transcriptEn": "The day before the trial, his lawyer had promised him victory; the next day, they nonetheless lost.",
       "options": [
         {
           "id": "a",
@@ -313,6 +314,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/b1.2/unit-06-pronouns-narration/example-ex-1.mp3",
       "transcript": "Je le lui avais bien dit !",
+      "transcriptEn": "I had told him so!",
       "options": [
         {
           "id": "a",

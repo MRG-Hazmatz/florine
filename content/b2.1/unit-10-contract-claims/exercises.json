@@ -206,6 +206,7 @@
       "prompt": "Listen to the union rep. What are they demanding?",
       "audio": "audio/b2.1/unit-10-contract-claims/listen-1.mp3",
       "transcript": "Nous exigeons que les heures supplémentaires soient payées ; sinon, la grève commencera lundi.",
+      "transcriptEn": "We demand that overtime be paid; otherwise, the strike will begin on Monday.",
       "options": [
         {
           "id": "a",
@@ -308,6 +309,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/b2.1/unit-10-contract-claims/example-ex-1.mp3",
       "transcript": "Le contrat ? On me l'a envoyé hier.",
+      "transcriptEn": "The contract? It was sent to me yesterday.",
       "options": [
         {
           "id": "a",

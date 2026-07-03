@@ -212,6 +212,7 @@
       "prompt": "Listen to the chronique opener. What double movement does it describe?",
       "audio": "audio/c1.1/unit-02-tech-debate/listen-1.mp3",
       "transcript": "Chaque avancée du numérique suscite autant d'enthousiasme que de méfiance.",
+      "transcriptEn": "Every digital advance sparks as much enthusiasm as distrust.",
       "options": [
         {
           "id": "a",
@@ -314,6 +315,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/c1.1/unit-02-tech-debate/example-ex-1.mp3",
       "transcript": "L'essor du numérique a suscité des débats inédits.",
+      "transcriptEn": "The rise of digital technology has sparked unprecedented debates.",
       "options": [
         {
           "id": "a",

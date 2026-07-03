@@ -187,6 +187,9 @@ HANDWRITTEN = KIM + [
     "Remember: Kim reviews these lessons. Write your answers like she's watching. She might be.",
 ]
 
+# A wide pool so no single joke shape gets rinsed and repeated across the
+# corpus — with ~50 vocab templates each shape appears only a few dozen times
+# in 3,333 lines instead of ~170.
 V_TEMPLATES = [
     'Word drop: « {fr} » - {en}. Slip it into a conversation today and walk away like nothing happened.',
     'Free sample from {lvl}: « {fr} » means "{en}". The rest lives in "{title}".',
@@ -195,20 +198,73 @@ V_TEMPLATES = [
     'Somewhere in "{title}", « {fr} » is waiting for you. It means "{en}".',
     '« {fr} » = "{en}". As seen in "{title}". Collect them all.',
     'The frog already knows « {fr} » ({en}). Don\'t let a frog outpace you. Croâ.',
-    'Forgetting « {fr} » ({en}) is step one of remembering it forever. Science says so. So does the hourglass.',
     'One day « {fr} » ({en}) will surface mid-sentence exactly when you need it. Today is the deposit.',
     'Drop « {fr} » ({en}) at dinner and refuse to translate. That\'s not rudeness, that\'s immersion.',
+    '« {fr} » ({en}) has been waiting in "{title}" since you installed the app. It heard that.',
+    'Breaking: local learner meets « {fr} » ({en}) and refuses to forget it. More at eleven.',
+    'Petit cadeau: « {fr} » - {en}. Keep the receipt; you will use it.',
+    'If you only learn one word today, « {fr} » ({en}) volunteers.',
+    'Your {lvl} starter pack includes « {fr} » ({en}). Batteries not included.',
+    '« {fr} » means "{en}". The French have been saying it for centuries without asking anyone.',
+    'File under useful: « {fr} » ({en}). File also under stylish.',
+    'Whisper « {fr} » ({en}) at the fridge. The fridge respects effort.',
+    'Say « {fr} » out loud. There - "{en}" is 30% more yours already.',
+    'A café waiter hears « {fr} » ({en}) and nods slowly. That\'s the dream. Chase it.',
+    'Add « {fr} » ({en}) to cart? It\'s free. It\'s from "{title}". Add it.',
+    'PSA from {lvl}: « {fr} » ({en}) is not as scary as it looks.',
+    'Rumour has it « {fr} » ({en}) shows up on exam day. Rumours are sometimes kind.',
+    'Learn « {fr} » ({en}) now, thank yourself at the DELF later. Time travel, basically.',
+    '« {fr} » - "{en}". That\'s it. That\'s the splash.',
+    'In "{title}" there lives a word: « {fr} » ({en}). It pays rent in usefulness.',
+    'Trade offer: you receive « {fr} » ({en}); the frog receives your undivided attention. Croâ.',
+    'Fun-sized French: « {fr} » ({en}). Fits in any sentence pocket.',
+    'Your future self already uses « {fr} » ({en}) fluently. Catch up with them.',
+    'The word « {fr} » ({en}) called. It wants to be in your active vocabulary.',
+    'Slip « {fr} » ({en}) into your notes app, between the groceries. It lives there now.',
+    'From the "{title}" collection: « {fr} » ({en}). Limited edition, unlimited use.',
+    'Repeat « {fr} » ({en}) three times. Three is the lucky number around here.',
+    'Nobody\'s watching. Practise your best « {fr} » ({en}). The mirror doesn\'t judge.',
+    'Somewhere in France, someone just said « {fr} » ({en}). You could be exchanging glances.',
+    'Every {lvl} legend starts somewhere. Yours starts with « {fr} » ({en}).',
+    'Pocket-sized: « {fr} » ({en}). Deceptively load-bearing.',
+    'Doctor\'s orders: one « {fr} » ({en}) daily, with or without croissant.',
+    'You, at the boulangerie, deploying « {fr} » ({en}) flawlessly. Manifest it.',
+    'The examiner\'s favourite words include « {fr} » ({en}). We have sources.',
+    'Tuck « {fr} » ({en}) behind your ear for later. Metaphorically. Or not.',
+    'Vocabulary roulette landed on « {fr} » ({en}). The house always teaches.',
+    'Today\'s password is « {fr} » ({en}). It unlocks exactly one thing: progress.',
+    '"{title}" would like to remind you that « {fr} » means "{en}". Politely. Twice.',
+    'Even the pigeons of Paris know « {fr} » ({en}). Do not be outdone by pigeons.',
+    'Historians agree: « {fr} » ({en}) has never once apologised for its spelling.',
+    'Adopt « {fr} » ({en}). House-trained, good with other vocabulary.',
+    'Stick « {fr} » ({en}) on a mental post-it. Lose it. Find it again during the exam. Classic.',
+    'A word a day keeps the dictionary away. Today it\'s « {fr} » ({en}).',
+    'Field notes from {lvl}: « {fr} » ({en}) spotted in the wild in "{title}". Approach calmly.',
+    'Between us, « {fr} » ({en}) is the kind of word that impresses at parties. Good parties.',
 ]
 
 E_TEMPLATES = [
     'Repeat after absolutely no one: « {exfr} » - "{exen}"',
     'Overheard in "{title}": « {exfr} » ("{exen}")',
     'Your daily out-of-context French: « {exfr} » - "{exen}". Context sold separately.',
+    'Practise this until it sounds bored: « {exfr} » ("{exen}"). Bored is fluent.',
+    'Line reading, take 33: « {exfr} » - "{exen}". Nailed it.',
+    'Found taped inside "{title}": « {exfr} » ("{exen}")',
+    'Say it with a shrug: « {exfr} » - "{exen}". The shrug is grammatically required.',
+    'Subtitles included today: « {exfr} » - "{exen}". Tomorrow, who knows.',
+    'One sentence closer: « {exfr} » ("{exen}")',
+    'The frog recites « {exfr} » ("{exen}") every morning. Vocal warm-ups matter.',
+    'Whisper-test: « {exfr} » - "{exen}". If the cat looked up, your pronunciation carries.',
+    'From the "{title}" tapes: « {exfr} » ("{exen}")',
 ]
 
 U_TEMPLATES = [
     '"{title}" has {nex} exercises. At least one of them misses you.',
     'Unit report: "{title}" ({lvl}) teaches {nv} words. The frog memorised them in one croak.',
+    'Status update: "{title}" ({lvl}) is {nv} words deep and completely unbothered.',
+    'Inspection note: "{title}" passed with {nex} exercises intact. Kim was thorough.',
+    'Somewhere on the {lvl} shelf, "{title}" is holding {nv} words for you.',
+    'Tonight\'s programme: "{title}" ({lvl}). Runtime: {nex} exercises. No intermission needed.',
 ]
 
 

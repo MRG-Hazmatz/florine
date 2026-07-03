@@ -206,6 +206,7 @@
       "prompt": "Listen to the interview exchange. What is the journalist asking?",
       "audio": "audio/b1.2/unit-01-questions-inversion/listen-1.mp3",
       "transcript": "Depuis quand habitez-vous à Paris ? — J'y habite depuis dix ans.",
+      "transcriptEn": "How long have you lived in Paris? — I've lived there for ten years.",
       "options": [
         {
           "id": "a",
@@ -308,6 +309,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/b1.2/unit-01-questions-inversion/example-ex-1.mp3",
       "transcript": "Est-ce que vous aimez le cinéma ?",
+      "transcriptEn": "Do you like the cinema?",
       "options": [
         {
           "id": "a",

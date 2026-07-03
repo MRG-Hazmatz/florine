@@ -134,6 +134,7 @@
       "prompt": "Listen, then: what is the SECOND instruction?",
       "audio": "audio/a1.1/unit-08-directions/listen-1.mp3",
       "transcript": "Continuez tout droit, puis tournez à droite.",
+      "transcriptEn": "Keep going straight, then turn right.",
       "options": [
         {
           "id": "a",
@@ -233,6 +234,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/a1.1/unit-08-directions/example-ex-1.mp3",
       "transcript": "Pardon, où est la gare ?",
+      "transcriptEn": "Excuse me, where is the station?",
       "options": [
         {
           "id": "a",

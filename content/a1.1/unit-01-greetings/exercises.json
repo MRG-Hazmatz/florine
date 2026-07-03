@@ -163,6 +163,7 @@
       "prompt": "Listen to the greeting. Is it formal or informal?",
       "audio": "audio/a1.1/unit-01-greetings/listen-1.mp3",
       "transcript": "Bonsoir madame, comment allez-vous ?",
+      "transcriptEn": "Good evening, ma'am — how are you?",
       "options": [
         {
           "id": "a",
@@ -237,6 +238,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/a1.1/unit-01-greetings/example-ex-1.mp3",
       "transcript": "Bonjour, je m'appelle Claire.",
+      "transcriptEn": "Hello, my name is Claire.",
       "options": [
         {
           "id": "a",
@@ -290,11 +292,12 @@
         {
           "id": "b1",
           "accept": [
-            "madame"
+            "madame",
+            "monsieur"
           ]
         }
       ],
-      "explanation": "« Bonjour, madame. » — madam / Mrs / Ms."
+      "explanation": "« Bonjour, madame » or « Bonjour, monsieur » — both polite titles from this unit work here (madam / sir)."
     },
     {
       "id": "ex-mp-pool-1",

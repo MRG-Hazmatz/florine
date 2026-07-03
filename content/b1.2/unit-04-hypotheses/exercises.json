@@ -240,6 +240,7 @@
       "prompt": "Listen to the hypothesis. What does it say?",
       "audio": "audio/b1.2/unit-04-hypotheses/listen-1.mp3",
       "transcript": "Si on plantait plus d'arbres, les villes seraient moins chaudes en été.",
+      "transcriptEn": "If we planted more trees, cities would be cooler in summer.",
       "options": [
         {
           "id": "a",
@@ -342,6 +343,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/b1.2/unit-04-hypotheses/example-ex-1.mp3",
       "transcript": "Si nous consommions moins, nous conserverions l'eau.",
+      "transcriptEn": "If we consumed less, we would conserve water.",
       "options": [
         {
           "id": "a",

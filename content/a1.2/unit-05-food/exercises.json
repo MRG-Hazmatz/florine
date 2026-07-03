@@ -137,6 +137,7 @@
       "prompt": "Listen, then: what does the speaker have for breakfast?",
       "audio": "audio/a1.2/unit-05-food/listen-1.mp3",
       "transcript": "Au petit-déjeuner, je bois du café et je mange du pain.",
+      "transcriptEn": "For breakfast, I drink coffee and eat bread.",
       "options": [
         {
           "id": "a",
@@ -236,6 +237,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/a1.2/unit-05-food/example-ex-1.mp3",
       "transcript": "Je mange du pain.",
+      "transcriptEn": "I'm eating bread.",
       "options": [
         {
           "id": "a",

@@ -225,6 +225,7 @@
       "prompt": "Listen to the friend venting. How does she feel?",
       "audio": "audio/b2.1/unit-03-feelings-b2/listen-1.mp3",
       "transcript": "Je suis atterrée qu'il ait oublié notre anniversaire — lui qui raffole des grandes occasions !",
+      "transcriptEn": "I'm appalled that he forgot our anniversary — he who adores big occasions!",
       "options": [
         {
           "id": "a",
@@ -327,6 +328,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/b2.1/unit-03-feelings-b2/example-ex-1.mp3",
       "transcript": "Je raffole de la cuisine de ma grand-mère.",
+      "transcriptEn": "I'm crazy about my grandmother's cooking.",
       "options": [
         {
           "id": "a",

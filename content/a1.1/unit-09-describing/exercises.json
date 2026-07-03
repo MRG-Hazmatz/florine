@@ -139,6 +139,7 @@
       "prompt": "Listen, then: what does the brother look like?",
       "audio": "audio/a1.1/unit-09-describing/listen-1.mp3",
       "transcript": "Mon frère est grand et il a les cheveux bruns.",
+      "transcriptEn": "My brother is tall and has brown hair.",
       "options": [
         {
           "id": "a",
@@ -238,6 +239,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/a1.1/unit-09-describing/example-ex-1.mp3",
       "transcript": "Elle est grande et sympa.",
+      "transcriptEn": "She's tall and nice.",
       "options": [
         {
           "id": "a",

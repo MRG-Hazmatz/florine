@@ -211,6 +211,7 @@
       "prompt": "Listen to the family story. Why did the grandmother choose Lyon?",
       "audio": "audio/b2.1/unit-01-past-tenses/listen-1.mp3",
       "transcript": "Ma grand-mère est née en Italie ; elle s'est installée à Lyon, où elle avait déjà de la famille.",
+      "transcriptEn": "My grandmother was born in Italy; she settled in Lyon, where she already had family.",
       "options": [
         {
           "id": "a",
@@ -313,6 +314,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/b2.1/unit-01-past-tenses/example-ex-1.mp3",
       "transcript": "Mes grands-parents émigrèrent en France en 1950.",
+      "transcriptEn": "My grandparents emigrated to France in 1950.",
       "options": [
         {
           "id": "a",

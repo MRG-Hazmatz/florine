@@ -216,6 +216,7 @@
       "prompt": "Listen to the chef's advice. What should you do, and when?",
       "audio": "audio/b2.2/unit-01-condition/listen-1.mp3",
       "transcript": "Servez le plat bien chaud ; au cas où il serait trop fade, assaisonnez davantage.",
+      "transcriptEn": "Serve the dish piping hot; in case it's too bland, add more seasoning.",
       "options": [
         {
           "id": "a",
@@ -318,6 +319,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/b2.2/unit-01-condition/example-ex-1.mp3",
       "transcript": "Au cas où la sauce serait trop épaisse, ajoutez du lait.",
+      "transcriptEn": "In case the sauce is too thick, add some milk.",
       "options": [
         {
           "id": "a",

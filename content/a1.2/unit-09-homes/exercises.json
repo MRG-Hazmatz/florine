@@ -138,6 +138,7 @@
       "prompt": "Listen, then: where did the speaker used to live?",
       "audio": "audio/a1.2/unit-09-homes/listen-1.mp3",
       "transcript": "Avant, j'habitais dans une petite maison à la campagne.",
+      "transcriptEn": "Before, I lived in a small house in the countryside.",
       "options": [
         {
           "id": "a",
@@ -237,6 +238,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/a1.2/unit-09-homes/example-ex-1.mp3",
       "transcript": "Avant, j'habitais à Paris.",
+      "transcriptEn": "Before, I lived in Paris.",
       "options": [
         {
           "id": "a",

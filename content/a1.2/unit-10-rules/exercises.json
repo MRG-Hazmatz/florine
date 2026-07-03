@@ -138,6 +138,7 @@
       "prompt": "Listen, then: what must you do?",
       "audio": "audio/a1.2/unit-10-rules/listen-1.mp3",
       "transcript": "Dans la colocation, il faut respecter les voisins.",
+      "transcriptEn": "In a flatshare, you have to respect the neighbours.",
       "options": [
         {
           "id": "a",
@@ -237,6 +238,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/a1.2/unit-10-rules/example-ex-1.mp3",
       "transcript": "Il faut payer le loyer.",
+      "transcriptEn": "You have to pay the rent.",
       "options": [
         {
           "id": "a",

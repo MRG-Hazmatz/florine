@@ -198,6 +198,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/b1.1/unit-06-opposition/listen-1.mp3",
       "transcript": "J'ai raté le concours, pourtant j'avais beaucoup travaillé.",
+      "transcriptEn": "I failed the competitive exam, yet I had worked hard.",
       "options": [
         {
           "id": "a",
@@ -293,6 +294,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/b1.1/unit-06-opposition/example-ex-1.mp3",
       "transcript": "La formation est excellente, pourtant elle coûte cher.",
+      "transcriptEn": "The training is excellent, yet it is expensive.",
       "options": [
         {
           "id": "a",

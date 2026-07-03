@@ -221,6 +221,7 @@
       "prompt": "Listen to this revue de presse fragment. What is the journalist doing?",
       "audio": "audio/c2.1/unit-01-revue-de-presse/listen-1.mp3",
       "transcript": "« Un succès diplomatique », écrit le quotidien national ; « douze jours pour rien », ironise son rival — même sommet, deux planètes.",
+      "transcriptEn": "'A diplomatic success,' writes the national daily; 'twelve days for nothing,' quips its rival — same summit, two planets.",
       "options": [
         {
           "id": "a",
@@ -323,6 +324,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/c2.1/unit-01-revue-de-presse/example-ex-1.mp3",
       "transcript": "Même actualité, deux traitements : l'écart est l'information.",
+      "transcriptEn": "Same news, two treatments: the gap is the information.",
       "options": [
         {
           "id": "a",

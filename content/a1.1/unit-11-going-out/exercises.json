@@ -143,6 +143,7 @@
       "prompt": "Listen, then: when is the plan?",
       "audio": "audio/a1.1/unit-11-going-out/listen-1.mp3",
       "transcript": "Demain, je vais aller au restaurant avec un ami.",
+      "transcriptEn": "Tomorrow, I'm going to go to a restaurant with a friend.",
       "options": [
         {
           "id": "a",
@@ -242,6 +243,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/a1.1/unit-11-going-out/example-ex-1.mp3",
       "transcript": "Je vais aller au cinéma.",
+      "transcriptEn": "I'm going to go to the cinema.",
       "options": [
         {
           "id": "a",

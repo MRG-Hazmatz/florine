@@ -170,6 +170,7 @@
       "prompt": "Listen to Karim, then: what is his profession?",
       "audio": "audio/a1.1/unit-03-introductions/listen-1.mp3",
       "transcript": "Bonjour ! Je m'appelle Karim. Je suis français et je suis professeur.",
+      "transcriptEn": "Hello! My name is Karim. I'm French and I'm a teacher.",
       "options": [
         {
           "id": "a",
@@ -248,6 +249,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/a1.1/unit-03-introductions/example-ex-1.mp3",
       "transcript": "Bonjour, je m'appelle Sofia et je suis indienne.",
+      "transcriptEn": "Hello, my name is Sofia and I'm Indian.",
       "options": [
         {
           "id": "a",

@@ -217,6 +217,7 @@
       "prompt": "Listen to the psychologist. Which stage is she describing?",
       "audio": "audio/c2.1/unit-02-mondes-virtuels/listen-1.mp3",
       "transcript": "Quand les amis réels attendent et que la guilde passe d'abord, l'ailleurs a commencé à taxer l'ici.",
+      "transcriptEn": "When real friends are kept waiting and the guild comes first, the elsewhere has started taxing the here.",
       "options": [
         {
           "id": "a",
@@ -319,6 +320,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/c2.1/unit-02-mondes-virtuels/example-ex-1.mp3",
       "transcript": "Emma Bovary scrollait déjà — dans des romans.",
+      "transcriptEn": "Emma Bovary was already scrolling — through novels.",
       "options": [
         {
           "id": "a",

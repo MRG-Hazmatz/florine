@@ -193,6 +193,7 @@
       "prompt": "Listen, then: what happened to him?",
       "audio": "audio/b1.1/unit-05-past-narration/listen-1.mp3",
       "transcript": "J'ai raté mon premier concours, mais je me suis inscrit en fac et j'ai réussi ma licence.",
+      "transcriptEn": "I failed my first competitive exam, but I enrolled at university and passed my bachelor's degree.",
       "options": [
         {
           "id": "a",
@@ -312,6 +313,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/b1.1/unit-05-past-narration/example-ex-1.mp3",
       "transcript": "Quand j'étais enfant, je rêvais de partir à l'étranger.",
+      "transcriptEn": "When I was a child, I dreamed of going abroad.",
       "options": [
         {
           "id": "a",

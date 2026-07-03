@@ -143,6 +143,7 @@
       "prompt": "Listen. What is the person asking?",
       "audio": "audio/a1.2/unit-01-questions/listen-1.mp3",
       "transcript": "Tu vas à la fête ce soir ?",
+      "transcriptEn": "Are you going to the party tonight?",
       "options": [
         {
           "id": "a",
@@ -242,6 +243,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/a1.2/unit-01-questions/example-ex-1.mp3",
       "transcript": "Est-ce que tu vas à la fête ?",
+      "transcriptEn": "Are you going to the party?",
       "options": [
         {
           "id": "a",

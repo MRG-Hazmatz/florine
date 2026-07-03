@@ -207,6 +207,7 @@
       "prompt": "Listen to the council speech. What intensity of disagreement is this?",
       "audio": "audio/b2.2/unit-05-indefinites-prefixes/listen-1.mp3",
       "transcript": "Nous contestons cette décision malhonnête et nous réclamons un nouveau vote.",
+      "transcriptEn": "We contest this dishonest decision and we demand a new vote.",
       "options": [
         {
           "id": "a",
@@ -309,6 +310,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/b2.2/unit-05-indefinites-prefixes/example-ex-1.mp3",
       "transcript": "N'importe qui peut adhérer à l'association.",
+      "transcriptEn": "Anyone can join the association.",
       "options": [
         {
           "id": "a",

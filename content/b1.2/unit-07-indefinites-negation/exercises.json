@@ -206,6 +206,7 @@
       "prompt": "Listen to the traveller's complaint. What went wrong?",
       "audio": "audio/b1.2/unit-07-indefinites-negation/listen-1.mp3",
       "transcript": "On n'a rien visité : il pleuvait partout et personne ne voulait sortir.",
+      "transcriptEn": "We didn't visit anything: it was raining everywhere and nobody wanted to go out.",
       "options": [
         {
           "id": "a",
@@ -308,6 +309,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/b1.2/unit-07-indefinites-negation/example-ex-1.mp3",
       "transcript": "Chacun a sa propre idée du Maroc.",
+      "transcriptEn": "Everyone has their own idea of Morocco.",
       "options": [
         {
           "id": "a",

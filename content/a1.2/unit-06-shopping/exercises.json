@@ -133,6 +133,7 @@
       "prompt": "Listen, then: what does the speaker decide?",
       "audio": "audio/a1.2/unit-06-shopping/listen-1.mp3",
       "transcript": "J'aime cette chemise, je la prends.",
+      "transcriptEn": "I like this shirt — I'll take it.",
       "options": [
         {
           "id": "a",
@@ -232,6 +233,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/a1.2/unit-06-shopping/example-ex-1.mp3",
       "transcript": "J'aime cette robe. Je la prends.",
+      "transcriptEn": "I like this dress. I'll take it.",
       "options": [
         {
           "id": "a",

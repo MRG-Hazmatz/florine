@@ -201,6 +201,7 @@
       "prompt": "Listen to the student. What does she say about her exchange?",
       "audio": "audio/b2.1/unit-08-wishes/listen-1.mp3",
       "transcript": "Mon séjour d'études à Lisbonne a été une expérience enrichissante ; j'espère que mon frère partira aussi.",
+      "transcriptEn": "My study stay in Lisbon was an enriching experience; I hope my brother will go too.",
       "options": [
         {
           "id": "a",
@@ -303,6 +304,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/b2.1/unit-08-wishes/example-ex-1.mp3",
       "transcript": "Je souhaite que chacun trouve sa voie.",
+      "transcriptEn": "I hope everyone finds their own path.",
       "options": [
         {
           "id": "a",

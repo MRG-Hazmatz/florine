@@ -216,6 +216,7 @@
       "prompt": "Listen to the property visit. What is praised?",
       "audio": "audio/b2.1/unit-05-qualification/listen-1.mp3",
       "transcript": "Le salon est très lumineux, et la salle de bains, dont le carrelage est neuf, vient d'être rénovée.",
+      "transcriptEn": "The living room is very bright, and the bathroom, whose tiling is new, has just been renovated.",
       "options": [
         {
           "id": "a",
@@ -318,6 +319,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/b2.1/unit-05-qualification/example-ex-1.mp3",
       "transcript": "Nous avons aménagé une salle de jeux pour les enfants.",
+      "transcriptEn": "We fitted out a playroom for the children.",
       "options": [
         {
           "id": "a",

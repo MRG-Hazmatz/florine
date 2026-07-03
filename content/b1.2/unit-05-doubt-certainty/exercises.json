@@ -233,6 +233,7 @@
       "prompt": "Listen to the forum contributor. What is her position?",
       "audio": "audio/b1.2/unit-05-doubt-certainty/listen-1.mp3",
       "transcript": "Je ne suis pas certaine que ça fasse plaisir à tout le monde.",
+      "transcriptEn": "I'm not certain it will please everyone.",
       "options": [
         {
           "id": "a",
@@ -335,6 +336,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/b1.2/unit-05-doubt-certainty/example-ex-1.mp3",
       "transcript": "Je suis sûr que ça permettra de comprendre.",
+      "transcriptEn": "I'm sure it will help people understand.",
       "options": [
         {
           "id": "a",

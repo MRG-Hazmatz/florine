@@ -182,6 +182,7 @@
       "prompt": "Listen, then: what does the speaker prefer?",
       "audio": "audio/a2.2/unit-02-elsewhere/listen-1.mp3",
       "transcript": "Je préfère la campagne à la ville.",
+      "transcriptEn": "I prefer the countryside to the city.",
       "options": [
         {
           "id": "a",
@@ -260,6 +261,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/a2.2/unit-02-elsewhere/example-ex-1.mp3",
       "transcript": "Je voudrais m'installer à l'étranger.",
+      "transcriptEn": "I'd like to settle abroad.",
       "options": [
         {
           "id": "a",

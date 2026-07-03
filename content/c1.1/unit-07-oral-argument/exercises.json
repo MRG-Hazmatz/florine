@@ -227,6 +227,7 @@
       "prompt": "Listen to the candidate's reply. Which moves do you hear?",
       "audio": "audio/c1.1/unit-07-oral-argument/listen-1.mp3",
       "transcript": "Certes, le projet est ambitieux, j'en conviens ; il n'en reste pas moins que trois villes l'ont déjà mis en œuvre.",
+      "transcriptEn": "Admittedly the project is ambitious, I'll grant that; the fact remains that three cities have already implemented it.",
       "options": [
         {
           "id": "a",
@@ -329,6 +330,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/c1.1/unit-07-oral-argument/example-ex-1.mp3",
       "transcript": "Certes, le coût est élevé, mais l'inaction coûterait davantage.",
+      "transcriptEn": "Admittedly, the cost is high, but inaction would cost more.",
       "options": [
         {
           "id": "a",

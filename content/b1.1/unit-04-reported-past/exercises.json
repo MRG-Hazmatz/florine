@@ -189,6 +189,7 @@
       "prompt": "Listen, then: what did he promise?",
       "audio": "audio/b1.1/unit-04-reported-past/listen-1.mp3",
       "transcript": "Il a promis qu'il rembourserait le client.",
+      "transcriptEn": "He promised he would refund the customer.",
       "options": [
         {
           "id": "a",
@@ -288,6 +289,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/b1.1/unit-04-reported-past/example-ex-1.mp3",
       "transcript": "Il a dit qu'il venait.",
+      "transcriptEn": "He said he was coming.",
       "options": [
         {
           "id": "a",

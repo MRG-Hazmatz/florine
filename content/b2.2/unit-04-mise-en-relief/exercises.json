@@ -210,6 +210,7 @@
       "prompt": "Listen to the speech opener. What does the speaker spotlight?",
       "audio": "audio/b2.2/unit-04-mise-en-relief/listen-1.mp3",
       "transcript": "Ce qui nous rassemble ce soir, c'est une conviction ; ce dont nous avons besoin, c'est de courage.",
+      "transcriptEn": "What brings us together tonight is a conviction; what we need is courage.",
       "options": [
         {
           "id": "a",
@@ -312,6 +313,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/b2.2/unit-04-mise-en-relief/example-ex-1.mp3",
       "transcript": "Ce qui me choque, c'est le silence des médias.",
+      "transcriptEn": "What shocks me is the media's silence.",
       "options": [
         {
           "id": "a",

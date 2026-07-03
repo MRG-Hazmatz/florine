@@ -182,6 +182,7 @@
       "prompt": "Listen, then: what is the person suggesting?",
       "audio": "audio/a2.2/unit-04-media/listen-1.mp3",
       "transcript": "Si on écrivait un article ensemble ?",
+      "transcriptEn": "How about writing an article together?",
       "options": [
         {
           "id": "a",
@@ -260,6 +261,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/a2.2/unit-04-media/example-ex-1.mp3",
       "transcript": "Si on regardait un film ce soir ?",
+      "transcriptEn": "How about watching a film tonight?",
       "options": [
         {
           "id": "a",

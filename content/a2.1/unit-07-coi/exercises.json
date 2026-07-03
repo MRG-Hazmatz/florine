@@ -163,6 +163,7 @@
       "prompt": "Listen, then: who will the speaker contact tonight?",
       "audio": "audio/a2.1/unit-07-coi/listen-1.mp3",
       "transcript": "Je vais leur téléphoner ce soir.",
+      "transcriptEn": "I'm going to phone them tonight.",
       "options": [
         {
           "id": "a",
@@ -241,6 +242,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/a2.1/unit-07-coi/example-ex-1.mp3",
       "transcript": "Je téléphone à Marie. — Je lui téléphone.",
+      "transcriptEn": "I'm phoning Marie. — I'm phoning her.",
       "options": [
         {
           "id": "a",

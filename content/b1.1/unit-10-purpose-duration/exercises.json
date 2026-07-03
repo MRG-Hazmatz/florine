@@ -221,6 +221,7 @@
       "prompt": "Listen to the volunteer. How long has she volunteered, and when does she leave?",
       "audio": "audio/b1.1/unit-10-purpose-duration/listen-1.mp3",
       "transcript": "Je suis bénévole depuis trois ans ; je pars au Sénégal dans deux semaines pour une mission de six mois.",
+      "transcriptEn": "I've been a volunteer for three years; I leave for Senegal in two weeks on a six-month assignment.",
       "options": [
         {
           "id": "a",
@@ -323,6 +324,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/b1.1/unit-10-purpose-duration/example-ex-1.mp3",
       "transcript": "Je pars pour trois mois.",
+      "transcriptEn": "I'm leaving for three months.",
       "options": [
         {
           "id": "a",

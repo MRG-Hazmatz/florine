@@ -137,6 +137,7 @@
       "prompt": "Listen, then: what's the weather like?",
       "audio": "audio/a1.2/unit-03-weather/listen-1.mp3",
       "transcript": "Aujourd'hui, il fait beau et chaud.",
+      "transcriptEn": "Today the weather is nice and warm.",
       "options": [
         {
           "id": "a",
@@ -236,6 +237,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/a1.2/unit-03-weather/example-ex-1.mp3",
       "transcript": "Quel temps fait-il ?",
+      "transcriptEn": "What's the weather like?",
       "options": [
         {
           "id": "a",

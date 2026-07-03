@@ -237,6 +237,7 @@
       "prompt": "Listen to the dictated opening. What is being requested?",
       "audio": "audio/c1.2/unit-01-lettre-administrative/listen-1.mp3",
       "transcript": "Par la présente, j'ai l'honneur de solliciter le réexamen de mon dossier, déposé le trois mai.",
+      "transcriptEn": "I hereby have the honour of requesting the re-examination of my file, submitted on the third of May.",
       "options": [
         {
           "id": "a",
@@ -339,6 +340,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/c1.2/unit-01-lettre-administrative/example-ex-1.mp3",
       "transcript": "Objet : demande de réexamen de dossier.",
+      "transcriptEn": "Subject: request for the re-examination of a file.",
       "options": [
         {
           "id": "a",

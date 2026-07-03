@@ -143,6 +143,7 @@
       "prompt": "Listen, then: what does the speaker like?",
       "audio": "audio/a1.1/unit-05-er-verbs/listen-1.mp3",
       "transcript": "Bonjour ! J'aime la musique et j'aime le sport.",
+      "transcriptEn": "Hello! I like music and I like sport.",
       "options": [
         {
           "id": "a",
@@ -238,6 +239,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/a1.1/unit-05-er-verbs/example-ex-1.mp3",
       "transcript": "J'aime la musique.",
+      "transcriptEn": "I like music.",
       "options": [
         {
           "id": "a",

@@ -216,6 +216,7 @@
       "prompt": "Listen to this incipit. Which technique is doing the work?",
       "audio": "audio/c2.2/unit-03-roman/listen-1.mp3",
       "transcript": "Or Madame Vey ne lavait jamais sa vitrine le mardi.",
+      "transcriptEn": "Now, Madame Vey never washed her shop window on Tuesdays.",
       "options": [
         {
           "id": "a",
@@ -318,6 +319,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/c2.2/unit-03-roman/example-ex-1.mp3",
       "transcript": "Proust ouvre sur un homme qui se couche tôt : sept mots, aucune action, intrigue totale.",
+      "transcriptEn": "Proust opens on a man who goes to bed early: seven words, no action, total intrigue.",
       "options": [
         {
           "id": "a",

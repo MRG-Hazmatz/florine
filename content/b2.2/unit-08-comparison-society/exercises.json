@@ -216,6 +216,7 @@
       "prompt": "Listen to the statistics report. What do the figures say?",
       "audio": "audio/b2.2/unit-08-comparison-society/listen-1.mp3",
       "transcript": "Les ventes de journaux papier ont baissé de trente pour cent, tandis que la lecture en ligne a doublé.",
+      "transcriptEn": "Print newspaper sales have fallen by thirty percent, while online reading has doubled.",
       "options": [
         {
           "id": "a",
@@ -318,6 +319,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/b2.2/unit-08-comparison-society/example-ex-1.mp3",
       "transcript": "On lit de moins en moins de journaux papier.",
+      "transcriptEn": "People read fewer and fewer print newspapers.",
       "options": [
         {
           "id": "a",

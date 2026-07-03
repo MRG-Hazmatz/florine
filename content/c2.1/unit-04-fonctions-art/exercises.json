@@ -232,6 +232,7 @@
       "prompt": "Listen to the curator. Which function is she actually defending?",
       "audio": "audio/c2.1/unit-04-fonctions-art/listen-1.mp3",
       "transcript": "Nous n'exposons pas pour plaire : cette salle dérange, et c'est précisément pour cela qu'elle existe.",
+      "transcriptEn": "We don't exhibit to please: this room disturbs, and that is precisely why it exists.",
       "options": [
         {
           "id": "a",
@@ -334,6 +335,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/c2.1/unit-04-fonctions-art/example-ex-1.mp3",
       "transcript": "Le street art entre au musée : consécration ou domestication ?",
+      "transcriptEn": "Street art enters the museum: consecration or domestication?",
       "options": [
         {
           "id": "a",

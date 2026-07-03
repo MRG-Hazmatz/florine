@@ -202,6 +202,7 @@
       "prompt": "Listen to the teacher's three commandments. Which list is right?",
       "audio": "audio/c1.1/unit-05-resume/listen-1.mp3",
       "transcript": "Trois règles : même voix, même ordre, un quart de la longueur — et comptez vos mots !",
+      "transcriptEn": "Three rules: same voice, same order, a quarter of the length — and count your words!",
       "options": [
         {
           "id": "a",
@@ -304,6 +305,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/c1.1/unit-05-resume/example-ex-1.mp3",
       "transcript": "Le résumé garde la thèse, l'ordre et la voix de l'auteur.",
+      "transcriptEn": "The summary keeps the author's thesis, order, and voice.",
       "options": [
         {
           "id": "a",

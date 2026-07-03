@@ -207,6 +207,7 @@
       "prompt": "Listen to the minister's sentence. Promise or escape hatch?",
       "audio": "audio/c1.2/unit-02-elites/listen-1.mp3",
       "transcript": "Nous nous efforcerons, dans la mesure du possible, d'ouvrir davantage les grandes écoles.",
+      "transcriptEn": "We will endeavour, as far as possible, to open up the grandes écoles further.",
       "options": [
         {
           "id": "a",
@@ -309,6 +310,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/c1.2/unit-02-elites/example-ex-1.mp3",
       "transcript": "La méritocratie promet ; l'entre-soi dément.",
+      "transcriptEn": "Meritocracy promises; the closed circle proves it wrong.",
       "options": [
         {
           "id": "a",

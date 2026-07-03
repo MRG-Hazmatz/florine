@@ -216,6 +216,7 @@
       "prompt": "Listen to the consultation. What does the doctor say?",
       "audio": "audio/b2.1/unit-04-body-opinions/listen-1.mp3",
       "transcript": "Je vous prescris un traitement ; je suis certain que ça vous soulagera, mais c'est hors de question de reprendre le sport avant un mois.",
+      "transcriptEn": "I'm prescribing you a treatment; I'm certain it will bring you relief, but starting sport again within the month is out of the question.",
       "options": [
         {
           "id": "a",
@@ -318,6 +319,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/b2.1/unit-04-body-opinions/example-ex-1.mp3",
       "transcript": "J'ai une douleur aiguë à l'épaule.",
+      "transcriptEn": "I have a sharp pain in my shoulder.",
       "options": [
         {
           "id": "a",

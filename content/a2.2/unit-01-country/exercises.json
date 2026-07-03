@@ -192,6 +192,7 @@
       "prompt": "Listen, then: what is famous about France here?",
       "audio": "audio/a2.2/unit-01-country/listen-1.mp3",
       "transcript": "La France est un pays dont la cuisine est célèbre.",
+      "transcriptEn": "France is a country whose cuisine is famous.",
       "options": [
         {
           "id": "a",
@@ -270,6 +271,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/a2.2/unit-01-country/example-ex-1.mp3",
       "transcript": "C'est le pays où je suis né.",
+      "transcriptEn": "It's the country where I was born.",
       "options": [
         {
           "id": "a",

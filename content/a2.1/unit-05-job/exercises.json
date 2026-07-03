@@ -137,6 +137,7 @@
       "prompt": "Listen, then: what did the speaker do?",
       "audio": "audio/a2.1/unit-05-job/listen-1.mp3",
       "transcript": "J'ai envoyé mon CV pour ce poste.",
+      "transcriptEn": "I sent my CV for this position.",
       "options": [
         {
           "id": "a",
@@ -236,6 +237,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/a2.1/unit-05-job/example-ex-1.mp3",
       "transcript": "Je cherche un emploi.",
+      "transcriptEn": "I'm looking for a job.",
       "options": [
         {
           "id": "a",

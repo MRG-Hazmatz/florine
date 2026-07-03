@@ -216,6 +216,7 @@
       "prompt": "Listen to the news item. What happened to the neighbourhood?",
       "audio": "audio/b2.1/unit-06-city-passive/listen-1.mp3",
       "transcript": "Le quartier s'est vu imposer trois gratte-ciel, mais les habitants se sont fait entendre au conseil municipal.",
+      "transcriptEn": "The neighbourhood had three skyscrapers imposed on it, but the residents made themselves heard at the town council.",
       "options": [
         {
           "id": "a",
@@ -318,6 +319,7 @@
       "prompt": "Listen, then choose what it means.",
       "audio": "audio/b2.1/unit-06-city-passive/example-ex-1.mp3",
       "transcript": "Ces appartements se vendent comme des petits pains.",
+      "transcriptEn": "These flats are selling like hot cakes.",
       "options": [
         {
           "id": "a",
