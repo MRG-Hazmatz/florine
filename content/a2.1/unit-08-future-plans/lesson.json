@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "a2.1/unit-08-future-plans",
+  "level": "a2.1",
+  "unitNumber": 8,
+  "slug": "unit-08-future-plans",
+  "title": "Future Plans: le Futur Simple",
+  "titleFr": "Les projets d'avenir",
+  "cefrDescriptors": [
+    "Can describe plans, hopes and ambitions for the future.",
+    "Can use the futur proche and the futur simple for projects and predictions."
+  ],
+  "skills": ["reading", "listening", "writing", "speaking"],
+  "estimatedMinutes": 50,
+  "concept": "You already know one future from A1: the futur proche — aller + infinitive — for what's about to happen: Je vais chercher un travail. (I'm going to look for a job.) This unit adds the real future tense, the futur simple, which French uses for plans, promises and predictions: Je chercherai un travail. (I will look for a job.)\n\nThe good news: the futur simple is built on the INFINITIVE, and the endings are just avoir in disguise: -ai, -as, -a, -ons, -ez, -ont.\n  parler → je parlerai, tu parleras, il parlera, nous parlerons, vous parlerez, ils parleront\n  finir → je finirai… ; for -re verbs, drop the final e: prendre → je prendrai\n\nA handful of very common verbs swap in an irregular stem — the endings never change:\n  être → ser- (je serai)   avoir → aur- (j'aurai)   aller → ir- (j'irai)\n  faire → fer- (je ferai)   venir → viendr- (je viendrai)   pouvoir → pourr- (je pourrai)\n\nWhich future do you choose? In everyday speech they overlap, but the feel differs:\n  • futur proche = close, concrete, already decided: Ce soir, je vais réviser.\n  • futur simple = plans, promises, predictions, distant horizons: Un jour, j'habiterai à Paris.\n\nOne trap English speakers fall into — after quand (when) talking about the future, French uses the FUTURE on both sides, not the present: Quand j'aurai un travail, je déménagerai. (When I have a job, I'll move.)\n\nAnd the classic plan-maker, si + present → future: Si j'économise, je voyagerai. (If I save, I'll travel.)\n\nThe theme is les projets d'avenir: l'avenir (the future), un projet (a plan), un rêve (a dream), espérer (to hope), devenir (to become), déménager (to move house), économiser (to save money), plus tard (later on), bientôt (soon), dans un an (in a year).\n\nWrite three sentences about your own future: one with je vais + infinitive for this week, one with the futur simple for next year, and one starting with Quand… using two futures.",
+  "vocabulary": [
+    { "id": "avenir", "fr": "l'avenir", "en": "the future", "pos": "noun", "exampleFr": "Je pense à l'avenir.", "exampleEn": "I'm thinking about the future.", "audio": "audio/a2.1/unit-08-future-plans/vocab-avenir.mp3", "voice": "denise" },
+    { "id": "projet", "fr": "un projet", "en": "a plan / project", "pos": "noun", "exampleFr": "J'ai un projet pour cet été.", "exampleEn": "I have a plan for this summer.", "audio": "audio/a2.1/unit-08-future-plans/vocab-projet.mp3", "voice": "henri" },
+    { "id": "reve", "fr": "un rêve", "en": "a dream", "pos": "noun", "exampleFr": "Mon rêve est de vivre à Paris.", "exampleEn": "My dream is to live in Paris.", "audio": "audio/a2.1/unit-08-future-plans/vocab-reve.mp3", "voice": "denise" },
+    { "id": "esperer", "fr": "espérer", "en": "to hope", "pos": "verb", "exampleFr": "J'espère réussir mes examens.", "exampleEn": "I hope to pass my exams.", "audio": "audio/a2.1/unit-08-future-plans/vocab-esperer.mp3", "voice": "henri" },
+    { "id": "devenir", "fr": "devenir", "en": "to become", "pos": "verb", "exampleFr": "Elle veut devenir médecin.", "exampleEn": "She wants to become a doctor.", "audio": "audio/a2.1/unit-08-future-plans/vocab-devenir.mp3", "voice": "denise" },
+    { "id": "demenager", "fr": "déménager", "en": "to move house", "pos": "verb", "exampleFr": "Nous déménagerons en mai.", "exampleEn": "We will move in May.", "audio": "audio/a2.1/unit-08-future-plans/vocab-demenager.mp3", "voice": "henri" },
+    { "id": "economiser", "fr": "économiser", "en": "to save (money)", "pos": "verb", "exampleFr": "J'économise pour voyager.", "exampleEn": "I'm saving up to travel.", "audio": "audio/a2.1/unit-08-future-plans/vocab-economiser.mp3", "voice": "denise" },
+    { "id": "metier", "fr": "un métier", "en": "a trade / profession", "pos": "noun", "exampleFr": "C'est un beau métier.", "exampleEn": "It's a fine profession.", "audio": "audio/a2.1/unit-08-future-plans/vocab-metier.mp3", "voice": "henri" },
+    { "id": "plus-tard", "fr": "plus tard", "en": "later on / in the future", "pos": "phrase", "exampleFr": "Plus tard, je serai professeur.", "exampleEn": "Later on, I'll be a teacher.", "audio": "audio/a2.1/unit-08-future-plans/vocab-plus-tard.mp3", "voice": "denise" },
+    { "id": "bientot", "fr": "bientôt", "en": "soon", "pos": "adverb", "exampleFr": "On se verra bientôt.", "exampleEn": "We'll see each other soon.", "audio": "audio/a2.1/unit-08-future-plans/vocab-bientot.mp3", "voice": "henri" },
+    { "id": "dans-un-an", "fr": "dans un an", "en": "in a year('s time)", "pos": "phrase", "exampleFr": "Dans un an, j'aurai mon diplôme.", "exampleEn": "In a year, I'll have my degree.", "audio": "audio/a2.1/unit-08-future-plans/vocab-dans-un-an.mp3", "voice": "denise" },
+    { "id": "semaine-prochaine", "fr": "la semaine prochaine", "en": "next week", "pos": "phrase", "exampleFr": "Je commence la semaine prochaine.", "exampleEn": "I start next week.", "audio": "audio/a2.1/unit-08-future-plans/vocab-semaine-prochaine.mp3", "voice": "henri" },
+    { "id": "quand", "fr": "quand", "en": "when", "pos": "conjunction", "exampleFr": "Quand j'aurai un travail, je déménagerai.", "exampleEn": "When I have a job, I'll move.", "audio": "audio/a2.1/unit-08-future-plans/vocab-quand.mp3", "voice": "denise" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "Je chercherai un travail après mes études.", "en": "I will look for a job after my studies.", "audio": "audio/a2.1/unit-08-future-plans/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "Ce soir, je vais réviser.", "en": "Tonight, I'm going to revise.", "audio": "audio/a2.1/unit-08-future-plans/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "Un jour, j'habiterai à Paris.", "en": "One day, I will live in Paris.", "audio": "audio/a2.1/unit-08-future-plans/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "Quand j'aurai un travail, je déménagerai.", "en": "When I have a job, I'll move house.", "audio": "audio/a2.1/unit-08-future-plans/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "Si j'économise, je voyagerai cet été.", "en": "If I save up, I'll travel this summer.", "audio": "audio/a2.1/unit-08-future-plans/example-ex-5.mp3", "voice": "denise" }
+  ]
+}

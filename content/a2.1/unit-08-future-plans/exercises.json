@@ -1,0 +1,216 @@
+{
+  "schemaVersion": 1,
+  "unitId": "a2.1/unit-08-future-plans",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "The futur simple endings (-ai, -as, -a, -ons, -ez, -ont) are borrowed from which verb?",
+      "options": [
+        { "id": "a", "text": "avoir" },
+        { "id": "b", "text": "être" },
+        { "id": "c", "text": "aller" }
+      ],
+      "correct": ["a"],
+      "explanation": "The endings are avoir in disguise: j'ai, tu as, il a… → je parlerai, tu parleras, il parlera…"
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Conjugate « être » in the futur simple.",
+      "inputMode": "typed",
+      "template": "Dans un an, je {{b1}} médecin.",
+      "blanks": [
+        { "id": "b1", "accept": ["serai"] }
+      ],
+      "explanation": "être takes the irregular stem ser- : je serai (I will be)."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "« Ce soir, je vais réviser. » Why the futur proche here?",
+      "options": [
+        { "id": "a", "text": "The plan is close and already decided" },
+        { "id": "b", "text": "It's a distant dream" },
+        { "id": "c", "text": "It's a prediction about the weather" }
+      ],
+      "correct": ["a"],
+      "explanation": "aller + infinitive suits close, concrete, decided plans; the futur simple leans toward distant plans and promises."
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "After « quand » about the future, French uses the future on BOTH sides.",
+      "inputMode": "dropdown",
+      "template": "Quand j'{{b1}} un travail, je déménagerai.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": ["aurai"],
+          "options": ["aurai", "ai", "avais"]
+        }
+      ],
+      "explanation": "Quand j'AURAI un travail, je déménagerai — unlike English, which says 'when I HAVE a job'."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each irregular verb to its futur simple stem.",
+      "pairs": [
+        { "id": "p1", "left": "être", "right": "ser-" },
+        { "id": "p2", "left": "avoir", "right": "aur-" },
+        { "id": "p3", "left": "aller", "right": "ir-" },
+        { "id": "p4", "left": "faire", "right": "fer-" }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"If I save up, I will travel.\"",
+      "tokens": [
+        { "id": "t1", "text": "Si" },
+        { "id": "t2", "text": "j'économise," },
+        { "id": "t3", "text": "je" },
+        { "id": "t4", "text": "voyagerai" }
+      ],
+      "correctOrder": ["t1", "t2", "t3", "t4"],
+      "explanation": "The plan-maker pattern: si + present, then the futur simple."
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen. Which future is the speaker using for her career plan?",
+      "audio": "audio/a2.1/unit-08-future-plans/listen-1.mp3",
+      "transcript": "Plus tard, je serai professeur et j'habiterai à Lyon.",
+      "transcriptEn": "Later on, I will be a teacher and I will live in Lyon.",
+      "options": [
+        { "id": "a", "text": "The futur simple — a long-term plan" },
+        { "id": "b", "text": "The futur proche — something about to happen" }
+      ],
+      "correct": ["a"],
+      "explanation": "« je serai », « j'habiterai » — futur simple stems and endings for a distant-horizon plan."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read Sami's message and answer both questions.",
+      "passageFr": "Cette année, je termine mes études. Quand j'aurai mon diplôme, je chercherai un travail dans une grande ville. Si je trouve un bon poste, je déménagerai avec mon frère. Et un jour, nous ouvrirons notre propre restaurant — c'est notre rêve depuis toujours.",
+      "passageEn": "This year, I'm finishing my studies. When I have my degree, I'll look for a job in a big city. If I find a good position, I'll move with my brother. And one day, we'll open our own restaurant — it's been our dream forever.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "What will Sami do once he has his degree?",
+          "options": [
+            { "id": "a", "text": "Look for a job in a big city" },
+            { "id": "b", "text": "Open a restaurant immediately" },
+            { "id": "c", "text": "Travel for a year" }
+          ],
+          "correct": ["a"]
+        },
+        {
+          "id": "q2",
+          "prompt": "« Quand j'aurai mon diplôme » — why is « aurai » in the future?",
+          "options": [
+            { "id": "a", "text": "After quand about the future, French puts both verbs in the future" },
+            { "id": "b", "text": "It's a mistake" },
+            { "id": "c", "text": "Quand always requires the subjunctive" }
+          ],
+          "correct": ["a"]
+        }
+      ]
+    },
+    {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/a2.1/unit-08-future-plans/example-ex-4.mp3",
+      "transcript": "Quand j'aurai un travail, je déménagerai.",
+      "transcriptEn": "When I have a job, I'll move house.",
+      "options": [
+        { "id": "a", "text": "When I have a job, I'll move house." },
+        { "id": "b", "text": "When I had a job, I moved house." },
+        { "id": "c", "text": "If I lose my job, I'll move house." }
+      ],
+      "correct": ["a"]
+    },
+    {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « déménager » mean?",
+      "options": [
+        { "id": "a", "text": "to move house" },
+        { "id": "b", "text": "to save money" },
+        { "id": "c", "text": "to become" }
+      ],
+      "correct": ["a"],
+      "explanation": "déménager = to move house. Nous déménagerons en mai."
+    },
+    {
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "Mon {{b1}} est de vivre à Paris.",
+      "blanks": [
+        { "id": "b1", "accept": ["rêve", "projet"] }
+      ],
+      "explanation": "« Mon rêve est de vivre à Paris » — my dream (un projet, a plan, works too)."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each time marker to its English meaning.",
+      "pairs": [
+        { "id": "p1", "left": "bientôt", "right": "soon" },
+        { "id": "p2", "left": "plus tard", "right": "later on" },
+        { "id": "p3", "left": "dans un an", "right": "in a year" },
+        { "id": "p4", "left": "la semaine prochaine", "right": "next week" }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"One day, I will live in Paris.\"",
+      "tokens": [
+        { "id": "t1", "text": "Un" },
+        { "id": "t2", "text": "jour," },
+        { "id": "t3", "text": "j'habiterai" },
+        { "id": "t4", "text": "à" },
+        { "id": "t5", "text": "Paris" }
+      ],
+      "correctOrder": ["t1", "t2", "t3", "t4", "t5"]
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "Un jour, j'habiterai à Paris.",
+      "targetEn": "One day, I will live in Paris.",
+      "audio": "audio/a2.1/unit-08-future-plans/example-ex-3.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "Si j'économise, je voyagerai cet été.",
+      "targetEn": "If I save up, I'll travel this summer.",
+      "audio": "audio/a2.1/unit-08-future-plans/example-ex-5.mp3"
+    }
+  ]
+}

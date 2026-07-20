@@ -299,28 +299,32 @@ function SectionBody({
   recorded: Record<string, boolean>;
   onRecorded: (id: string, done: boolean) => void;
 }) {
-  // Running question numbers across the whole section.
+  // Running question numbers across the whole section — precomputed up front
+  // so nothing mutates render-scope state from inside the JSX callbacks.
+  const starts: number[] = [];
   let n = 1;
+  for (const block of [...section.docs, ...section.texts]) {
+    starts.push(n);
+    n += block.questions.length;
+  }
+  const docStarts = starts.slice(0, section.docs.length);
+  const textStarts = starts.slice(section.docs.length);
+
   return (
     <div className="space-y-5">
-      {section.docs.map((doc) => {
-        const start = n;
-        n += doc.questions.length;
-        return (
-          <ListeningDocBlock
-            key={doc.id}
-            doc={doc}
-            answers={answers}
-            onAnswer={setAnswer}
-            locked={false}
-            correction={false}
-            startNumber={start}
-          />
-        );
-      })}
-      {section.texts.map((text) => {
-        const start = n;
-        n += text.questions.length;
+      {section.docs.map((doc, di) => (
+        <ListeningDocBlock
+          key={doc.id}
+          doc={doc}
+          answers={answers}
+          onAnswer={setAnswer}
+          locked={false}
+          correction={false}
+          startNumber={docStarts[di]}
+        />
+      ))}
+      {section.texts.map((text, ti) => {
+        const start = textStarts[ti];
         return (
           <section key={text.id} className="space-y-3 rounded-lg border border-ink/15 bg-parchment/60 p-4">
             <h3 className="font-display text-lg font-semibold">{text.title}</h3>

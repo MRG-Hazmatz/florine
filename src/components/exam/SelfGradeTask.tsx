@@ -1,5 +1,5 @@
 import type { OpenTask } from "../../lib/exams/schema";
-import { countWords } from "./OpenTask";
+import { countWords } from "../../lib/exams/words";
 
 export type RubricScores = Record<string, number>; // rubricLineId -> points awarded
 

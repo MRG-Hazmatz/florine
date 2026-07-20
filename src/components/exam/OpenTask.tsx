@@ -1,11 +1,6 @@
 import { useRef, useState } from "react";
 import type { OpenTask } from "../../lib/exams/schema";
-
-/** Count words the way a DELF examiner roughly would (whitespace-separated). */
-export function countWords(text: string): number {
-  const t = text.trim();
-  return t ? t.split(/\s+/).length : 0;
-}
+import { countWords } from "../../lib/exams/words";
 
 /**
  * A production task during the live exam: writing tasks get a textarea with a

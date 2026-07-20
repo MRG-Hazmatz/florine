@@ -49,11 +49,10 @@ function isFullscreen(): boolean {
 export function useExamGuard(active: boolean) {
   const [events, setEvents] = useState<ProctorEvent[]>([]);
   const [fullscreen, setFullscreen] = useState(false);
-  const activeRef = useRef(active);
-  activeRef.current = active;
 
+  // Listeners only exist while active (the effect below re-subscribes on
+  // change), so no active-ref guard is needed here.
   const log = useCallback((kind: ProctorEvent["kind"]) => {
-    if (!activeRef.current) return;
     setEvents((prev) => [...prev, { kind, atISO: new Date().toISOString() }]);
   }, []);
 
@@ -91,9 +90,12 @@ export function useExamGuard(active: boolean) {
     document.addEventListener("paste", onCopy);
     document.addEventListener("contextmenu", onContext);
 
-    setFullscreen(isFullscreen());
+    // Sync the current fullscreen state on activation — scheduled, so the
+    // effect body itself never sets state synchronously.
+    const syncId = window.setTimeout(() => setFullscreen(isFullscreen()), 0);
 
     return () => {
+      window.clearTimeout(syncId);
       document.removeEventListener("visibilitychange", onVisibility);
       window.removeEventListener("beforeunload", onBeforeUnload);
       window.removeEventListener("blur", onBlur);
@@ -118,11 +120,16 @@ export function useCountdown(seconds: number, running: boolean, onExpire: () => 
   const [remaining, setRemaining] = useState(seconds);
   const expiredRef = useRef(false);
   const onExpireRef = useRef(onExpire);
-  onExpireRef.current = onExpire;
 
   useEffect(() => {
-    setRemaining(seconds);
+    onExpireRef.current = onExpire;
+  });
+
+  // Re-arm when a new section starts (scheduled to avoid a sync set-in-effect).
+  useEffect(() => {
     expiredRef.current = false;
+    const id = window.setTimeout(() => setRemaining(seconds), 0);
+    return () => window.clearTimeout(id);
   }, [seconds]);
 
   useEffect(() => {

@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "unitId": "a2.2/unit-07-health",
+  "status": "pending_review",
+  "reviewers": [],
+  "approvedAt": null,
+  "sourceRefs": [
+    "DRAFT — added in the final QA pass to close a CEFR gap: health/the body previously first appeared at B2.1, but chez le médecin (avoir mal à, symptoms, doctor's advice) is a canonical DELF A2 scenario. Awaiting native-speaker review.",
+    "Progression blueprint: Alter Ego+ 2 (Hachette), santé dossier (avoir mal à + body parts; depuis + présent; conseils du médecin; l'ordonnance et la pharmacie). Content is original; the book is used only for scope/sequence, never copied."
+  ]
+}

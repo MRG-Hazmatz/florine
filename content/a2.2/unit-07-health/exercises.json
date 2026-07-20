@@ -1,0 +1,218 @@
+{
+  "schemaVersion": 1,
+  "unitId": "a2.2/unit-07-health",
+  "passThreshold": 0.7,
+  "exercises": [
+    {
+      "id": "ex-mc-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "Your stomach hurts. Which is correct?",
+      "options": [
+        { "id": "a", "text": "J'ai mal au ventre." },
+        { "id": "b", "text": "J'ai mal à le ventre." },
+        { "id": "c", "text": "J'ai mal mon ventre." }
+      ],
+      "correct": ["a"],
+      "explanation": "à + le contracts to au: j'ai mal AU ventre. And French uses the article, never the possessive, for body parts here."
+    },
+    {
+      "id": "ex-fb-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Complete with the right contraction (teeth are plural: les dents).",
+      "inputMode": "dropdown",
+      "template": "Elle a mal {{b1}} dents.",
+      "blanks": [
+        {
+          "id": "b1",
+          "accept": ["aux"],
+          "options": ["aux", "au", "à la"]
+        }
+      ],
+      "explanation": "à + les → aux : elle a mal AUX dents."
+    },
+    {
+      "id": "ex-mc-2",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "« Je tousse depuis lundi. » What does depuis + present express?",
+      "options": [
+        { "id": "a", "text": "Something that started in the past and is still going on" },
+        { "id": "b", "text": "Something finished long ago" },
+        { "id": "c", "text": "A future plan" }
+      ],
+      "correct": ["a"],
+      "explanation": "depuis + PRESENT = English 'have been …-ing': I've been coughing since Monday (and still am)."
+    },
+    {
+      "id": "ex-fb-2",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "The doctor hands you the paper for the pharmacy. It's called…",
+      "inputMode": "typed",
+      "template": "Voici votre {{b1}}, prenez-la à la pharmacie.",
+      "blanks": [
+        { "id": "b1", "accept": ["ordonnance"] }
+      ],
+      "explanation": "Une ordonnance = a prescription. A famous false friend — nothing to do with an 'ordinance'."
+    },
+    {
+      "id": "ex-mp-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each ailment to its English meaning.",
+      "pairs": [
+        { "id": "p1", "left": "un rhume", "right": "a cold" },
+        { "id": "p2", "left": "la grippe", "right": "the flu" },
+        { "id": "p3", "left": "la fièvre", "right": "fever" },
+        { "id": "p4", "left": "tousser", "right": "to cough" }
+      ]
+    },
+    {
+      "id": "ex-ro-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"My throat has hurt for two days.\"",
+      "tokens": [
+        { "id": "t1", "text": "J'ai" },
+        { "id": "t2", "text": "mal" },
+        { "id": "t3", "text": "à la" },
+        { "id": "t4", "text": "gorge" },
+        { "id": "t5", "text": "depuis" },
+        { "id": "t6", "text": "deux jours" }
+      ],
+      "correctOrder": ["t1", "t2", "t3", "t4", "t5", "t6"],
+      "explanation": "avoir mal à + body part, then depuis + duration with the present tense."
+    },
+    {
+      "id": "ex-li-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen to the doctor. What does she tell the patient to do?",
+      "audio": "audio/a2.2/unit-07-health/listen-1.mp3",
+      "transcript": "Vous avez de la fièvre. Il faut vous reposer et boire beaucoup d'eau. Je vous prescris un médicament.",
+      "transcriptEn": "You have a fever. You need to rest and drink lots of water. I'm prescribing you a medicine.",
+      "options": [
+        { "id": "a", "text": "Rest, drink water, and take a prescribed medicine" },
+        { "id": "b", "text": "Go to work and call back tomorrow" },
+        { "id": "c", "text": "Stop taking all medicines" }
+      ],
+      "correct": ["a"],
+      "explanation": "« Il faut vous reposer », « boire beaucoup d'eau », « je vous prescris un médicament » — rest, water, medicine."
+    },
+    {
+      "id": "ex-rd-1",
+      "type": "read",
+      "skill": "reading",
+      "prompt": "Read the exchange at the surgery and answer both questions.",
+      "passageFr": "— Bonjour, docteur. Je ne me sens pas bien : j'ai mal à la tête et je tousse depuis trois jours.\n— Vous avez de la fièvre ?\n— Oui, un peu, depuis hier soir.\n— C'est une petite grippe. Il faut rester à la maison et vous reposer. Je vous prescris un sirop — voici l'ordonnance.\n— Merci, docteur. Je passe à la pharmacie tout de suite.",
+      "passageEn": "— Hello, doctor. I don't feel well: I have a headache and I've been coughing for three days.\n— Do you have a fever?\n— Yes, a little, since last night.\n— It's a mild flu. You need to stay home and rest. I'm prescribing a syrup — here's the prescription.\n— Thank you, doctor. I'll stop by the pharmacy right away.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "How long has the patient been coughing?",
+          "options": [
+            { "id": "a", "text": "Three days" },
+            { "id": "b", "text": "Since this morning" },
+            { "id": "c", "text": "A week" }
+          ],
+          "correct": ["a"]
+        },
+        {
+          "id": "q2",
+          "prompt": "What is the diagnosis and the advice?",
+          "options": [
+            { "id": "a", "text": "A mild flu — stay home and rest" },
+            { "id": "b", "text": "A broken arm — go to hospital" },
+            { "id": "c", "text": "Nothing at all — go back to work" }
+          ],
+          "correct": ["a"]
+        }
+      ]
+    },
+    {
+      "id": "ex-li-pool-1",
+      "type": "listen",
+      "skill": "listening",
+      "prompt": "Listen, then choose what it means.",
+      "audio": "audio/a2.2/unit-07-health/example-ex-2.mp3",
+      "transcript": "Je ne me sens pas bien.",
+      "transcriptEn": "I don't feel well.",
+      "options": [
+        { "id": "a", "text": "I don't feel well." },
+        { "id": "b", "text": "I'm feeling great." },
+        { "id": "c", "text": "I can't smell anything." }
+      ],
+      "correct": ["a"]
+    },
+    {
+      "id": "ex-mc-pool-1",
+      "type": "multiple-choice",
+      "skill": "reading",
+      "prompt": "What does « la gorge » mean?",
+      "options": [
+        { "id": "a", "text": "throat" },
+        { "id": "b", "text": "back" },
+        { "id": "c", "text": "stomach" }
+      ],
+      "correct": ["a"],
+      "explanation": "la gorge = throat. J'ai mal à la gorge."
+    },
+    {
+      "id": "ex-fb-pool-1",
+      "type": "fill-blank",
+      "skill": "writing",
+      "prompt": "Fill in the missing word (from this unit's vocabulary).",
+      "inputMode": "typed",
+      "template": "Je vais chez le {{b1}} parce que je suis malade.",
+      "blanks": [
+        { "id": "b1", "accept": ["médecin", "docteur"] }
+      ],
+      "explanation": "chez le médecin — at/to the doctor's (docteur works in everyday speech too)."
+    },
+    {
+      "id": "ex-mp-pool-1",
+      "type": "match-pairs",
+      "skill": "reading",
+      "prompt": "Match each body part to its English meaning.",
+      "pairs": [
+        { "id": "p1", "left": "la tête", "right": "head" },
+        { "id": "p2", "left": "le ventre", "right": "stomach" },
+        { "id": "p3", "left": "le dos", "right": "back" },
+        { "id": "p4", "left": "la gorge", "right": "throat" }
+      ]
+    },
+    {
+      "id": "ex-ro-pool-1",
+      "type": "reorder",
+      "skill": "writing",
+      "prompt": "Put the words in order: \"Take the prescription to the pharmacy.\"",
+      "tokens": [
+        { "id": "t1", "text": "Prenez" },
+        { "id": "t2", "text": "l'ordonnance" },
+        { "id": "t3", "text": "à la" },
+        { "id": "t4", "text": "pharmacie" }
+      ],
+      "correctOrder": ["t1", "t2", "t3", "t4"]
+    },
+    {
+      "id": "ex-sp-1",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — listen, then say the sentence aloud and record yourself:",
+      "targetFr": "J'ai mal à la gorge depuis deux jours.",
+      "targetEn": "My throat has hurt for two days.",
+      "audio": "audio/a2.2/unit-07-health/example-ex-1.mp3"
+    },
+    {
+      "id": "ex-sp-2",
+      "type": "speak",
+      "skill": "speaking",
+      "prompt": "Speaking practice — say this sentence aloud and record yourself:",
+      "targetFr": "Vous avez de la fièvre, il faut vous reposer.",
+      "targetEn": "You have a fever; you need to rest.",
+      "audio": "audio/a2.2/unit-07-health/example-ex-3.mp3"
+    }
+  ]
+}

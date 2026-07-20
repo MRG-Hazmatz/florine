@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "a2.2/unit-07-health",
+  "level": "a2.2",
+  "unitNumber": 7,
+  "slug": "unit-07-health",
+  "title": "Health & at the Doctor's",
+  "titleFr": "La santé & chez le médecin",
+  "cefrDescriptors": [
+    "Can describe symptoms and say where it hurts (avoir mal à).",
+    "Can understand and follow a doctor's simple advice and instructions."
+  ],
+  "skills": ["reading", "listening", "writing", "speaking"],
+  "estimatedMinutes": 50,
+  "concept": "The doctor's visit is a classic DELF A2 scene, and it runs on one small machine: avoir mal à — literally 'to have pain at'. The à contracts with the article exactly the way you learned in A1:\n  à + le → au : J'ai mal au ventre. (My stomach hurts.)\n  à + la → à la : J'ai mal à la tête. (I have a headache.)\n  à + les → aux : J'ai mal aux dents. (My teeth hurt.)\nSo the pattern is J'ai mal + au/à la/à l'/aux + body part. No possessive — French says 'THE head', not 'my head'.\n\nHow long has it hurt? French uses depuis + the PRESENT tense where English uses 'have been':\n  J'ai mal à la gorge depuis deux jours. (My throat has hurt for two days.)\n  Je tousse depuis lundi. (I've been coughing since Monday.)\n\nHow do you feel overall? The reflexive se sentir: Je me sens fatigué(e). Je ne me sens pas bien.\n\nAt the surgery, the doctor examines you (examiner), takes your temperature — la fièvre is fever — and ends with advice you already know how to build from A2.1:\n  Il faut vous reposer. / Vous devez boire de l'eau.\n  Je vous prescris un médicament. (I'm prescribing you a medicine.)\nThe paper the doctor hands you is une ordonnance (a prescription — a famous false friend: it is NOT an 'ordinance'), and you take it to la pharmacie.\n\nThe cast of the scene: le médecin (doctor), un rendez-vous (appointment), un symptôme, la grippe (flu), un rhume (a cold), tousser (to cough), la gorge (throat), le dos (back), le ventre (stomach), la tête (head).\n\nRole-play both sides out loud: the patient states two symptoms with j'ai mal and depuis; the doctor answers with one il faut and one je vous prescris.",
+  "vocabulary": [
+    { "id": "sante", "fr": "la santé", "en": "health", "pos": "noun", "exampleFr": "La santé, c'est important.", "exampleEn": "Health is important.", "audio": "audio/a2.2/unit-07-health/vocab-sante.mp3", "voice": "denise" },
+    { "id": "medecin", "fr": "le médecin", "en": "doctor", "pos": "noun", "exampleFr": "Je vais chez le médecin.", "exampleEn": "I'm going to the doctor's.", "audio": "audio/a2.2/unit-07-health/vocab-medecin.mp3", "voice": "henri" },
+    { "id": "rendez-vous", "fr": "un rendez-vous", "en": "an appointment", "pos": "noun", "exampleFr": "J'ai rendez-vous à dix heures.", "exampleEn": "I have an appointment at ten.", "audio": "audio/a2.2/unit-07-health/vocab-rendez-vous.mp3", "voice": "denise" },
+    { "id": "avoir-mal-a", "fr": "avoir mal à", "en": "to hurt / have pain in", "pos": "phrase", "exampleFr": "J'ai mal à la tête.", "exampleEn": "I have a headache.", "audio": "audio/a2.2/unit-07-health/vocab-avoir-mal-a.mp3", "voice": "henri" },
+    { "id": "tete", "fr": "la tête", "en": "head", "pos": "noun", "exampleFr": "J'ai mal à la tête depuis ce matin.", "exampleEn": "My head has hurt since this morning.", "audio": "audio/a2.2/unit-07-health/vocab-tete.mp3", "voice": "denise" },
+    { "id": "gorge", "fr": "la gorge", "en": "throat", "pos": "noun", "exampleFr": "J'ai mal à la gorge.", "exampleEn": "I have a sore throat.", "audio": "audio/a2.2/unit-07-health/vocab-gorge.mp3", "voice": "henri" },
+    { "id": "ventre", "fr": "le ventre", "en": "stomach / belly", "pos": "noun", "exampleFr": "Il a mal au ventre.", "exampleEn": "His stomach hurts.", "audio": "audio/a2.2/unit-07-health/vocab-ventre.mp3", "voice": "denise" },
+    { "id": "dos", "fr": "le dos", "en": "back", "pos": "noun", "exampleFr": "Elle a mal au dos.", "exampleEn": "Her back hurts.", "audio": "audio/a2.2/unit-07-health/vocab-dos.mp3", "voice": "henri" },
+    { "id": "fievre", "fr": "la fièvre", "en": "fever", "pos": "noun", "exampleFr": "Tu as de la fièvre ?", "exampleEn": "Do you have a fever?", "audio": "audio/a2.2/unit-07-health/vocab-fievre.mp3", "voice": "denise" },
+    { "id": "rhume", "fr": "un rhume", "en": "a cold", "pos": "noun", "exampleFr": "Ce n'est qu'un rhume.", "exampleEn": "It's only a cold.", "audio": "audio/a2.2/unit-07-health/vocab-rhume.mp3", "voice": "henri" },
+    { "id": "grippe", "fr": "la grippe", "en": "the flu", "pos": "noun", "exampleFr": "Il a la grippe.", "exampleEn": "He has the flu.", "audio": "audio/a2.2/unit-07-health/vocab-grippe.mp3", "voice": "denise" },
+    { "id": "tousser", "fr": "tousser", "en": "to cough", "pos": "verb", "exampleFr": "Je tousse depuis lundi.", "exampleEn": "I've been coughing since Monday.", "audio": "audio/a2.2/unit-07-health/vocab-tousser.mp3", "voice": "henri" },
+    { "id": "se-sentir", "fr": "se sentir", "en": "to feel", "pos": "verb", "exampleFr": "Je ne me sens pas bien.", "exampleEn": "I don't feel well.", "audio": "audio/a2.2/unit-07-health/vocab-se-sentir.mp3", "voice": "denise" },
+    { "id": "medicament", "fr": "un médicament", "en": "a medicine", "pos": "noun", "exampleFr": "Prenez ce médicament.", "exampleEn": "Take this medicine.", "audio": "audio/a2.2/unit-07-health/vocab-medicament.mp3", "voice": "henri" },
+    { "id": "ordonnance", "fr": "une ordonnance", "en": "a prescription", "pos": "noun", "exampleFr": "Voici votre ordonnance.", "exampleEn": "Here is your prescription.", "audio": "audio/a2.2/unit-07-health/vocab-ordonnance.mp3", "voice": "denise" },
+    { "id": "pharmacie", "fr": "la pharmacie", "en": "pharmacy", "pos": "noun", "exampleFr": "La pharmacie est ouverte.", "exampleEn": "The pharmacy is open.", "audio": "audio/a2.2/unit-07-health/vocab-pharmacie.mp3", "voice": "henri" }
+  ],
+  "examples": [
+    { "id": "ex-1", "fr": "J'ai mal à la gorge depuis deux jours.", "en": "My throat has hurt for two days.", "audio": "audio/a2.2/unit-07-health/example-ex-1.mp3", "voice": "denise" },
+    { "id": "ex-2", "fr": "Je ne me sens pas bien.", "en": "I don't feel well.", "audio": "audio/a2.2/unit-07-health/example-ex-2.mp3", "voice": "henri" },
+    { "id": "ex-3", "fr": "Vous avez de la fièvre, il faut vous reposer.", "en": "You have a fever; you need to rest.", "audio": "audio/a2.2/unit-07-health/example-ex-3.mp3", "voice": "denise" },
+    { "id": "ex-4", "fr": "Je vous prescris un médicament contre la toux.", "en": "I'm prescribing you a medicine for the cough.", "audio": "audio/a2.2/unit-07-health/example-ex-4.mp3", "voice": "henri" },
+    { "id": "ex-5", "fr": "Prenez l'ordonnance à la pharmacie.", "en": "Take the prescription to the pharmacy.", "audio": "audio/a2.2/unit-07-health/example-ex-5.mp3", "voice": "denise" }
+  ]
+}

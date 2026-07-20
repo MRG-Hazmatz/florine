@@ -55,60 +55,51 @@ export default function FrogComic() {
   const open = useFrogLore((s) => s.open);
   const closeComic = useFrogLore((s) => s.closeComic);
 
+  // The book mounts fresh each time it opens, so splash/page state never needs
+  // an imperative reset.
+  return open ? <ComicBook onClose={closeComic} /> : null;
+}
+
+function ComicBook({ onClose }: { onClose: () => void }) {
   const [phase, setPhase] = useState<Phase>("splash");
-  const [i, setI] = useState(0);
-  const [dir, setDir] = useState<"next" | "prev">("next");
-  const iRef = useRef(0);
-  iRef.current = i;
+  const [view, setView] = useState<{ i: number; dir: "next" | "prev" }>({ i: 0, dir: "next" });
   const overlayRef = useRef<HTMLDivElement>(null);
 
   const last = COMIC_PAGES.length - 1;
-  const pg = COMIC_PAGES[i];
+  const pg = COMIC_PAGES[view.i];
 
   const go = useCallback(
     (delta: number) => {
-      const n = Math.min(last, Math.max(0, iRef.current + delta));
-      if (n !== iRef.current) {
-        setDir(delta > 0 ? "next" : "prev");
-        setI(n);
-      }
+      setView((v) => {
+        const n = Math.min(last, Math.max(0, v.i + delta));
+        return n === v.i ? v : { i: n, dir: delta > 0 ? "next" : "prev" };
+      });
     },
     [last],
   );
 
-  // Reset to the splash + first page each time it opens.
-  useEffect(() => {
-    if (open) {
-      setPhase("splash");
-      setI(0);
-      setDir("next");
-    }
-  }, [open]);
-
   // Auto-advance the splash into the comic.
   useEffect(() => {
-    if (!open || phase !== "splash") return;
+    if (phase !== "splash") return;
     const t = window.setTimeout(() => setPhase("reading"), 1700);
     return () => window.clearTimeout(t);
-  }, [open, phase]);
+  }, [phase]);
 
   // Warm the next page's image so the page-turn never lands on a blank sheet.
   useEffect(() => {
-    if (!open) return;
-    const next = COMIC_PAGES[i + 1];
+    const next = COMIC_PAGES[view.i + 1];
     if (next) {
       const img = new Image();
       img.src = next.src;
     }
-  }, [open, i]);
+  }, [view.i]);
 
-  // Lock background scroll + wire keyboard while open.
+  // Lock background scroll + wire keyboard while mounted (= while open).
   useEffect(() => {
-    if (!open) return;
     const prevOverflow = document.body.style.overflow;
     document.body.style.overflow = "hidden";
     const onKey = (e: KeyboardEvent) => {
-      if (e.key === "Escape") closeComic();
+      if (e.key === "Escape") onClose();
       else if (phase === "splash") setPhase("reading");
       else if (e.key === "ArrowRight" || e.key === " ") {
         e.preventDefault();
@@ -123,7 +114,7 @@ export default function FrogComic() {
       document.body.style.overflow = prevOverflow;
       window.removeEventListener("keydown", onKey);
     };
-  }, [open, phase, go, closeComic]);
+  }, [phase, go, onClose]);
 
   // Open the comic in real fullscreen for the dramatic effect (and so the
   // controls never get clipped by the browser chrome). The open paths are
@@ -132,7 +123,6 @@ export default function FrogComic() {
   // just stay windowed — the layout fits either way. Esc/F11 exits fullscreen
   // without closing the book; closing the book exits fullscreen.
   useEffect(() => {
-    if (!open) return;
     const el = overlayRef.current;
     if (el?.requestFullscreen && !document.fullscreenElement) {
       el.requestFullscreen().catch(() => {});
@@ -140,9 +130,7 @@ export default function FrogComic() {
     return () => {
       if (document.fullscreenElement) document.exitFullscreen().catch(() => {});
     };
-  }, [open]);
-
-  if (!open) return null;
+  }, []);
 
   return (
     <div
@@ -163,7 +151,7 @@ export default function FrogComic() {
             <span className="uppercase tracking-[0.3em]">La Complainte de la Grenouille</span>
             <button
               type="button"
-              onClick={closeComic}
+              onClick={onClose}
               className="rounded px-2 py-1 text-parchment/70 hover:text-parchment hover:underline"
             >
               Passer ✕
@@ -176,7 +164,7 @@ export default function FrogComic() {
               <article
                 key={pg.id}
                 className={`overflow-hidden rounded-md border-[3px] border-ink bg-card shadow-[6px_8px_0_rgba(0,0,0,0.45)] ${
-                  dir === "next" ? "comic-page-next" : "comic-page-prev"
+                  view.dir === "next" ? "comic-page-next" : "comic-page-prev"
                 }`}
               >
                 <img
@@ -197,12 +185,11 @@ export default function FrogComic() {
                 key={p.id}
                 type="button"
                 aria-label={`Page ${idx + 1}`}
-                onClick={() => {
-                  setDir(idx > i ? "next" : "prev");
-                  setI(idx);
-                }}
+                onClick={() =>
+                  setView((v) => (idx === v.i ? v : { i: idx, dir: idx > v.i ? "next" : "prev" }))
+                }
                 className={`h-2 w-2 rounded-full transition-colors ${
-                  idx === i ? "bg-parchment" : "bg-parchment/35 hover:bg-parchment/60"
+                  idx === view.i ? "bg-parchment" : "bg-parchment/35 hover:bg-parchment/60"
                 }`}
               />
             ))}
@@ -213,23 +200,23 @@ export default function FrogComic() {
             <button
               type="button"
               onClick={() => go(-1)}
-              disabled={i === 0}
+              disabled={view.i === 0}
               className="rounded border border-parchment/30 px-4 py-2 text-sm font-medium text-parchment/80 transition-colors hover:bg-parchment/10 disabled:opacity-30"
             >
               ← Précédent
             </button>
-            {i < last ? (
+            {view.i < last ? (
               <button
                 type="button"
                 onClick={() => go(1)}
                 className="rounded bg-parchment px-5 py-2 text-sm font-semibold text-ink hover:bg-parchment/90"
               >
-                {i === 0 ? "Ouvrir →" : "Suivant →"}
+                {view.i === 0 ? "Ouvrir →" : "Suivant →"}
               </button>
             ) : (
               <button
                 type="button"
-                onClick={closeComic}
+                onClick={onClose}
                 className="rounded bg-rouge px-5 py-2 text-sm font-semibold text-white hover:bg-rouge/90"
               >
                 Fermer le livre (Croâ)
