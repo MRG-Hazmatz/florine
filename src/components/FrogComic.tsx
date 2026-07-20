@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { useFrogLore } from "../lib/frogLore";
-import { COMIC_PANELS } from "../lib/frogComicPanels";
+import { COMIC_PAGES } from "../lib/frogComicPanels";
 
 type Phase = "splash" | "reading";
 
@@ -62,8 +62,8 @@ export default function FrogComic() {
   iRef.current = i;
   const overlayRef = useRef<HTMLDivElement>(null);
 
-  const last = COMIC_PANELS.length - 1;
-  const panel = COMIC_PANELS[i];
+  const last = COMIC_PAGES.length - 1;
+  const pg = COMIC_PAGES[i];
 
   const go = useCallback(
     (delta: number) => {
@@ -91,6 +91,16 @@ export default function FrogComic() {
     const t = window.setTimeout(() => setPhase("reading"), 1700);
     return () => window.clearTimeout(t);
   }, [open, phase]);
+
+  // Warm the next page's image so the page-turn never lands on a blank sheet.
+  useEffect(() => {
+    if (!open) return;
+    const next = COMIC_PAGES[i + 1];
+    if (next) {
+      const img = new Image();
+      img.src = next.src;
+    }
+  }, [open, i]);
 
   // Lock background scroll + wire keyboard while open.
   useEffect(() => {
@@ -149,7 +159,7 @@ export default function FrogComic() {
       ) : (
         <>
           {/* top bar */}
-          <div className="flex w-full max-w-xl shrink-0 items-center justify-between px-4 pt-4 text-xs text-parchment/70">
+          <div className="flex w-full max-w-5xl shrink-0 items-center justify-between px-4 pt-4 text-xs text-parchment/70">
             <span className="uppercase tracking-[0.3em]">La Complainte de la Grenouille</span>
             <button
               type="button"
@@ -160,37 +170,29 @@ export default function FrogComic() {
             </button>
           </div>
 
-          {/* the page — flexes to fill, scrolls only itself if a panel is tall */}
-          <div className="flex w-full max-w-xl min-h-0 flex-1 items-center justify-center overflow-y-auto px-4 py-2">
-            <div className="comic-stage w-full">
+          {/* the page — the printed edition; spreads are landscape, covers portrait */}
+          <div className="flex w-full min-h-0 flex-1 items-center justify-center px-4 py-2">
+            <div className="comic-stage flex max-h-full max-w-5xl items-center justify-center">
               <article
-                key={panel.id}
+                key={pg.id}
                 className={`overflow-hidden rounded-md border-[3px] border-ink bg-card shadow-[6px_8px_0_rgba(0,0,0,0.45)] ${
                   dir === "next" ? "comic-page-next" : "comic-page-prev"
                 }`}
               >
-                <div className="relative aspect-[4/3] w-full bg-parchment">
-                  {panel.art}
-                  <span className="comic-vignette pointer-events-none absolute inset-0" />
-                </div>
-                {panel.kind === "story" && (
-                  <div className="space-y-2 border-t-2 border-ink/70 px-5 py-4 text-center">
-                    {panel.title && (
-                      <p className="font-display text-lg font-bold tracking-wide text-rouge">
-                        {panel.title}
-                      </p>
-                    )}
-                    <p className="font-display text-base italic leading-snug text-ink">{panel.fr}</p>
-                    <p className="text-sm leading-relaxed text-ink/65">{panel.en}</p>
-                  </div>
-                )}
+                <img
+                  src={pg.src}
+                  alt={pg.alt}
+                  className="block h-auto w-auto max-w-full select-none object-contain"
+                  style={{ maxHeight: "calc(100dvh - 200px)" }}
+                  draggable={false}
+                />
               </article>
             </div>
           </div>
 
           {/* dots */}
-          <div className="flex w-full max-w-xl shrink-0 flex-wrap items-center justify-center gap-1.5 px-4 pt-2">
-            {COMIC_PANELS.map((p, idx) => (
+          <div className="flex w-full max-w-5xl shrink-0 flex-wrap items-center justify-center gap-1.5 px-4 pt-2">
+            {COMIC_PAGES.map((p, idx) => (
               <button
                 key={p.id}
                 type="button"
