@@ -58,6 +58,20 @@ try {
   await page.goto(fileUrl, { waitUntil: "networkidle0", timeout: 120_000 });
   await page.evaluate(async () => {
     await document.fonts.ready;
+    // Hide the printed page numbers: in-app the reader's dots show position,
+    // and on several sheets the caption text collides with the number line
+    // (e.g. p10, p32). They're bare-digit divs pinned to the sheet bottom.
+    document.querySelectorAll("div").forEach((d) => {
+      const t = (d.textContent || "").trim();
+      if (
+        /^\d{1,2}$/.test(t) &&
+        d.style.position === "absolute" &&
+        d.style.textAlign === "center" &&
+        parseInt(d.style.bottom || "999", 10) <= 20
+      ) {
+        d.style.display = "none";
+      }
+    });
     await new Promise((r) => setTimeout(r, 1500));
   });
 

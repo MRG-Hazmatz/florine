@@ -158,23 +158,23 @@ function ComicBook({ onClose }: { onClose: () => void }) {
             </button>
           </div>
 
-          {/* the page — the printed edition; spreads are landscape, covers portrait */}
-          <div className="flex w-full min-h-0 flex-1 items-center justify-center px-4 py-2">
-            <div className="comic-stage flex max-h-full max-w-5xl items-center justify-center">
-              <article
+          {/* the page — the printed edition; spreads are landscape, covers portrait.
+              The min-h-0/h-full/max-h-full chain keeps the sheet inside the area
+              between the top bar and the controls at any window size. */}
+          <div className="flex w-full min-h-0 flex-1 items-center justify-center overflow-hidden px-4 py-2">
+            <div className="comic-stage flex h-full w-full max-w-5xl items-center justify-center">
+              {/* The frame + page-turn live on the img itself: with flex-none, its
+                  max-w/max-h constraints resolve against the stage WITH the
+                  intrinsic aspect ratio, so the border always hugs the page. */}
+              <img
                 key={pg.id}
-                className={`overflow-hidden rounded-md border-[3px] border-ink bg-card shadow-[6px_8px_0_rgba(0,0,0,0.45)] ${
+                src={pg.src}
+                alt={pg.alt}
+                className={`max-h-full max-w-full flex-none select-none rounded-md border-[3px] border-ink bg-card object-contain shadow-[6px_8px_0_rgba(0,0,0,0.45)] ${
                   view.dir === "next" ? "comic-page-next" : "comic-page-prev"
                 }`}
-              >
-                <img
-                  src={pg.src}
-                  alt={pg.alt}
-                  className="block h-auto w-auto max-w-full select-none object-contain"
-                  style={{ maxHeight: "calc(100dvh - 200px)" }}
-                  draggable={false}
-                />
-              </article>
+                draggable={false}
+              />
             </div>
           </div>
 
