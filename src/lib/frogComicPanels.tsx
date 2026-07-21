@@ -18,16 +18,23 @@ export interface ComicPage {
   id: string;
   src: string;
   alt: string;
+  /** Intrinsic pixel size of the WebP — the reader computes an exact
+      fit-to-window from these, so a sheet is never clipped or distorted. */
+  w: number;
+  h: number;
 }
 
-const page = (n: number, id: string, alt: string): ComicPage => ({
+const SPREAD = { w: 2048, h: 1408 };
+
+const page = (n: number, id: string, alt: string, dims = SPREAD): ComicPage => ({
   id,
   src: `/comic/page-${String(n).padStart(2, "0")}.webp`,
   alt,
+  ...dims,
 });
 
 export const COMIC_PAGES: ComicPage[] = [
-  page(1, "cover", "Cover — La Complainte de la Grenouille, Florine Comics Nº 1, 3 mouches"),
+  page(1, "cover", "Cover — La Complainte de la Grenouille, Florine Comics Nº 1, 3 mouches", { w: 1304, h: 1582 }),
   page(2, "cast-arrival", "Dramatis personae, and Chapter I — The Arrival: a €34 plane ticket full of bad ideas"),
   page(3, "bise-offences", "The high-five heard around Paris, and Chapter II — The Offences: the outfit"),
   page(4, "boulangerie-diner", "Kwa-sont at the boulangerie; ketchup on the duck confit at dinner"),
@@ -45,5 +52,5 @@ export const COMIC_PAGES: ComicPage[] = [
   page(16, "reportcards-faculty", "The report cards, and Chapter XIII — The Faculty (a hostile takeover)"),
   page(17, "assignments-open", "The teaching assignments — twenty teachers, one per sacred law — and the school opens"),
   page(18, "epilogue", "Epilogue — The Other Side of the Page: the student, at last, is you"),
-  page(19, "backcover", "Back cover — He wanted a holiday. He got a curse. florine.vercel.app"),
+  page(19, "backcover", "Back cover — He wanted a holiday. He got a curse. florine.vercel.app", { w: 1304, h: 1768 }),
 ];

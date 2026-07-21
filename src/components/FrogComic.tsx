@@ -64,10 +64,48 @@ function ComicBook({ onClose }: { onClose: () => void }) {
   const [phase, setPhase] = useState<Phase>("splash");
   const [view, setView] = useState<{ i: number; dir: "next" | "prev" }>({ i: 0, dir: "next" });
   const overlayRef = useRef<HTMLDivElement>(null);
-  const scrollRef = useRef<HTMLDivElement>(null);
+  const stageRef = useRef<HTMLDivElement>(null);
+  // Measured size of the reading area. The sheet is sized in JS from this and
+  // the page's intrinsic dimensions — an exact fit-to-window like the design
+  // viewer: the WHOLE spread is always visible, never clipped, never distorted.
+  const [box, setBox] = useState<{ w: number; h: number }>({ w: 0, h: 0 });
 
   const last = COMIC_PAGES.length - 1;
   const pg = COMIC_PAGES[view.i];
+
+  // Plain measurement (scheduled tick + window resize) rather than
+  // ResizeObserver: RO delivery rides the rendering pipeline, which some
+  // embedded renderers throttle; resize events and timers always fire. The
+  // stage only changes size with the window, so this is complete coverage.
+  useEffect(() => {
+    if (phase !== "reading") return;
+    const measure = () => {
+      const el = stageRef.current;
+      if (el) {
+        setBox((b) =>
+          b.w === el.clientWidth && b.h === el.clientHeight
+            ? b
+            : { w: el.clientWidth, h: el.clientHeight },
+        );
+      }
+    };
+    const t = window.setTimeout(measure, 0);
+    // Change-guarded slow poll as a safety net for environments where the
+    // resize event is unreliable; setBox bails out when nothing changed.
+    const iv = window.setInterval(measure, 1000);
+    window.addEventListener("resize", measure);
+    return () => {
+      window.clearTimeout(t);
+      window.clearInterval(iv);
+      window.removeEventListener("resize", measure);
+    };
+  }, [phase]);
+
+  // Contain-fit inside the stage, minus a little breathing room + the frame.
+  const pad = 12;
+  const scale = Math.min((box.w - pad) / pg.w, (box.h - pad) / pg.h);
+  const fitW = Math.max(1, Math.floor(pg.w * scale));
+  const fitH = Math.max(1, Math.floor(pg.h * scale));
 
   const go = useCallback(
     (delta: number) => {
@@ -86,12 +124,8 @@ function ComicBook({ onClose }: { onClose: () => void }) {
     return () => window.clearTimeout(t);
   }, [phase]);
 
-  // Warm the next page's image so the page-turn never lands on a blank sheet,
-  // and start every fresh page from its top with the pane focused so keyboard
-  // scrolling works immediately.
+  // Warm the next page's image so the page-turn never lands on a blank sheet.
   useEffect(() => {
-    scrollRef.current?.scrollTo({ top: 0 });
-    scrollRef.current?.focus({ preventScroll: true });
     const next = COMIC_PAGES[view.i + 1];
     if (next) {
       const img = new Image();
@@ -112,15 +146,6 @@ function ComicBook({ onClose }: { onClose: () => void }) {
       } else if (e.key === "ArrowLeft") {
         e.preventDefault();
         go(-1);
-      } else if (e.key === "ArrowDown" || e.key === "PageDown") {
-        // The body is scroll-locked, so scroll the reading pane ourselves.
-        // Instant (not smooth): smooth programmatic scrolls are silently
-        // dropped in some embedded renderers.
-        e.preventDefault();
-        scrollRef.current?.scrollBy({ top: e.key === "PageDown" ? 400 : 120 });
-      } else if (e.key === "ArrowUp" || e.key === "PageUp") {
-        e.preventDefault();
-        scrollRef.current?.scrollBy({ top: e.key === "PageUp" ? -400 : -120 });
       }
     };
     window.addEventListener("keydown", onKey);
@@ -172,33 +197,28 @@ function ComicBook({ onClose }: { onClose: () => void }) {
             </button>
           </div>
 
-          {/* the page — rendered LARGE (spreads near full width, capped at the
-              art's native resolution) and SCROLLABLE: whatever doesn't fit the
-              window is reached by scrolling, never lost. The pane is focused so
-              wheel, arrows and PageDown all scroll it; every page-turn resets
-              to the top. Short pages center via the min-h-full flex wrapper. */}
+          {/* the page — an exact fit-to-window, like the design viewer: the
+              sheet's display size is computed from the measured stage and the
+              page's intrinsic dimensions, so the WHOLE spread is always on
+              screen with the controls below it. */}
           <div
-            ref={scrollRef}
-            tabIndex={-1}
-            className="w-full min-h-0 flex-1 overflow-y-auto overscroll-contain px-4 py-2 outline-none"
+            ref={stageRef}
+            className="comic-stage flex w-full min-h-0 flex-1 items-center justify-center overflow-hidden px-4 py-2"
           >
-            <div className="flex min-h-full items-center justify-center">
-              <div
-                className={`comic-stage w-full ${
-                  view.i === 0 || view.i === last ? "max-w-2xl" : "max-w-[1800px]"
+            {box.w > 0 && (
+              <img
+                key={pg.id}
+                src={pg.src}
+                alt={pg.alt}
+                width={fitW}
+                height={fitH}
+                style={{ width: fitW, height: fitH }}
+                className={`flex-none select-none rounded-md border-[3px] border-ink bg-card shadow-[6px_8px_0_rgba(0,0,0,0.45)] ${
+                  view.dir === "next" ? "comic-page-next" : "comic-page-prev"
                 }`}
-              >
-                <img
-                  key={pg.id}
-                  src={pg.src}
-                  alt={pg.alt}
-                  className={`h-auto w-full select-none rounded-md border-[3px] border-ink bg-card shadow-[6px_8px_0_rgba(0,0,0,0.45)] ${
-                    view.dir === "next" ? "comic-page-next" : "comic-page-prev"
-                  }`}
-                  draggable={false}
-                />
-              </div>
-            </div>
+                draggable={false}
+              />
+            )}
           </div>
 
           {/* dots */}
@@ -219,7 +239,7 @@ function ComicBook({ onClose }: { onClose: () => void }) {
           </div>
 
           {/* controls */}
-          <div className="flex shrink-0 items-center gap-3 px-4 pb-5 pt-3">
+          <div className="flex shrink-0 items-center gap-3 px-4 pb-2 pt-3">
             <button
               type="button"
               onClick={() => go(-1)}
@@ -246,6 +266,16 @@ function ComicBook({ onClose }: { onClose: () => void }) {
               </button>
             )}
           </div>
+
+          {/* printed-page caption, like the design viewer */}
+          <p className="shrink-0 pb-3 text-center text-xs italic text-parchment/45">
+            {view.i === 0
+              ? "couverture"
+              : view.i === last
+                ? "quatrième de couverture"
+                : `pages ${2 * view.i}–${2 * view.i + 1}`}
+            {" · La Complainte de la Grenouille · Florine Comics"}
+          </p>
         </>
       )}
     </div>
