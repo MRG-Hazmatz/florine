@@ -64,6 +64,7 @@ function ComicBook({ onClose }: { onClose: () => void }) {
   const [phase, setPhase] = useState<Phase>("splash");
   const [view, setView] = useState<{ i: number; dir: "next" | "prev" }>({ i: 0, dir: "next" });
   const overlayRef = useRef<HTMLDivElement>(null);
+  const scrollRef = useRef<HTMLDivElement>(null);
 
   const last = COMIC_PAGES.length - 1;
   const pg = COMIC_PAGES[view.i];
@@ -85,8 +86,10 @@ function ComicBook({ onClose }: { onClose: () => void }) {
     return () => window.clearTimeout(t);
   }, [phase]);
 
-  // Warm the next page's image so the page-turn never lands on a blank sheet.
+  // Warm the next page's image so the page-turn never lands on a blank sheet,
+  // and start every fresh page from its top.
   useEffect(() => {
+    scrollRef.current?.scrollTo({ top: 0 });
     const next = COMIC_PAGES[view.i + 1];
     if (next) {
       const img = new Image();
@@ -158,19 +161,20 @@ function ComicBook({ onClose }: { onClose: () => void }) {
             </button>
           </div>
 
-          {/* the page — the printed edition; spreads are landscape, covers portrait.
-              The min-h-0/h-full/max-h-full chain keeps the sheet inside the area
-              between the top bar and the controls at any window size. */}
-          <div className="flex w-full min-h-0 flex-1 items-center justify-center overflow-hidden px-4 py-2">
-            <div className="comic-stage flex h-full w-full max-w-5xl items-center justify-center">
-              {/* The frame + page-turn live on the img itself: with flex-none, its
-                  max-w/max-h constraints resolve against the stage WITH the
-                  intrinsic aspect ratio, so the border always hugs the page. */}
+          {/* the page — rendered large and SCROLLABLE: if a sheet is taller than
+              the window, you scroll to read the rest instead of losing it.
+              m-auto centers short pages; every page-turn resets to the top. */}
+          <div ref={scrollRef} className="flex w-full min-h-0 flex-1 overflow-y-auto px-4 py-2">
+            <div
+              className={`comic-stage m-auto w-full ${
+                view.i === 0 || view.i === last ? "max-w-xl" : "max-w-5xl"
+              }`}
+            >
               <img
                 key={pg.id}
                 src={pg.src}
                 alt={pg.alt}
-                className={`max-h-full max-w-full flex-none select-none rounded-md border-[3px] border-ink bg-card object-contain shadow-[6px_8px_0_rgba(0,0,0,0.45)] ${
+                className={`h-auto w-full select-none rounded-md border-[3px] border-ink bg-card shadow-[6px_8px_0_rgba(0,0,0,0.45)] ${
                   view.dir === "next" ? "comic-page-next" : "comic-page-prev"
                 }`}
                 draggable={false}
