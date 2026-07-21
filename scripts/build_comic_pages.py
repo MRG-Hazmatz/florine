@@ -29,7 +29,14 @@ QUALITY = 82
 
 
 def trim_white(im: Image.Image, tol: int = 12, density: float = 0.08) -> Image.Image:
-    """Crop to the artwork: widest dense run of columns, then rows."""
+    """
+    Crop to the artwork by scanning INWARD from each edge, stripping rows and
+    columns whose non-white share is below `density` and stopping at the first
+    dense one. Interior light bands are never touched — an earlier version kept
+    only the largest dense RUN, which silently amputated the bottom of any
+    sheet with a full-width pale gap between its panels and its captions.
+    Sparse specks near the edges (the cover's stray pixels) are still skipped.
+    """
     rgb = im.convert("RGB")
     bg = Image.new("RGB", rgb.size, (255, 255, 255))
     mask = ImageChops.difference(rgb, bg).convert("L").point(lambda p: 255 if p > tol else 0)
@@ -41,23 +48,24 @@ def trim_white(im: Image.Image, tol: int = 12, density: float = 0.08) -> Image.I
     w, h = mask.size
     px = mask.load()
 
-    def dense_run(count: int, other: int, at) -> tuple[int, int]:
-        dense = [sum(1 for j in range(other) if at(i, j)) / other > density for i in range(count)]
-        best = cur_start = -1
-        best_len = cur_len = 0
-        for i, d in enumerate(dense):
-            if d:
-                if cur_len == 0:
-                    cur_start = i
-                cur_len += 1
-                if cur_len > best_len:
-                    best_len, best = cur_len, cur_start
-            else:
-                cur_len = 0
-        return (best, best + best_len) if best_len else (0, count)
+    def row_dense(y: int) -> bool:
+        return sum(1 for x in range(w) if px[x, y]) / w > density
 
-    x0, x1 = dense_run(w, h, lambda x, y: px[x, y])
-    y0, y1 = dense_run(h, w, lambda y, x: px[x, y])
+    def col_dense(x: int) -> bool:
+        return sum(1 for y in range(h) if px[x, y]) / h > density
+
+    y0 = 0
+    while y0 < h - 1 and not row_dense(y0):
+        y0 += 1
+    y1 = h
+    while y1 > y0 + 1 and not row_dense(y1 - 1):
+        y1 -= 1
+    x0 = 0
+    while x0 < w - 1 and not col_dense(x0):
+        x0 += 1
+    x1 = w
+    while x1 > x0 + 1 and not col_dense(x1 - 1):
+        x1 -= 1
     return im.crop((x0, y0, x1, y1))
 
 

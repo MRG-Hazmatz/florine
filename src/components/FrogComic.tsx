@@ -66,9 +66,13 @@ function ComicBook({ onClose }: { onClose: () => void }) {
   const overlayRef = useRef<HTMLDivElement>(null);
   const stageRef = useRef<HTMLDivElement>(null);
   // Measured size of the reading area. The sheet is sized in JS from this and
-  // the page's intrinsic dimensions — an exact fit-to-window like the design
+  // the page's real pixel dimensions — an exact fit-to-window like the design
   // viewer: the WHOLE spread is always visible, never clipped, never distorted.
   const [box, setBox] = useState<{ w: number; h: number }>({ w: 0, h: 0 });
+  // True pixel size of each loaded image, keyed by src. The manifest values are
+  // the pre-load estimate; onLoad overwrites them with the browser's real
+  // measurement, so a stale/wrong manifest dimension can never misfit a page.
+  const [natural, setNatural] = useState<Record<string, { w: number; h: number }>>({});
 
   const last = COMIC_PAGES.length - 1;
   const pg = COMIC_PAGES[view.i];
@@ -102,10 +106,12 @@ function ComicBook({ onClose }: { onClose: () => void }) {
   }, [phase]);
 
   // Contain-fit inside the stage, minus a little breathing room + the frame.
+  // Prefer the browser's measured natural size over the manifest estimate.
+  const dim = natural[pg.src] ?? { w: pg.w, h: pg.h };
   const pad = 12;
-  const scale = Math.min((box.w - pad) / pg.w, (box.h - pad) / pg.h);
-  const fitW = Math.max(1, Math.floor(pg.w * scale));
-  const fitH = Math.max(1, Math.floor(pg.h * scale));
+  const scale = Math.min((box.w - pad) / dim.w, (box.h - pad) / dim.h);
+  const fitW = Math.max(1, Math.floor(dim.w * scale));
+  const fitH = Math.max(1, Math.floor(dim.h * scale));
 
   const go = useCallback(
     (delta: number) => {
@@ -213,6 +219,16 @@ function ComicBook({ onClose }: { onClose: () => void }) {
                 width={fitW}
                 height={fitH}
                 style={{ width: fitW, height: fitH }}
+                onLoad={(e) => {
+                  const el = e.currentTarget;
+                  const cur = natural[pg.src];
+                  if (!cur || cur.w !== el.naturalWidth || cur.h !== el.naturalHeight) {
+                    setNatural((m) => ({
+                      ...m,
+                      [pg.src]: { w: el.naturalWidth, h: el.naturalHeight },
+                    }));
+                  }
+                }}
                 className={`flex-none select-none rounded-md border-[3px] border-ink bg-card shadow-[6px_8px_0_rgba(0,0,0,0.45)] ${
                   view.dir === "next" ? "comic-page-next" : "comic-page-prev"
                 }`}

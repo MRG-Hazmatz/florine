@@ -34,7 +34,7 @@ const page = (n: number, id: string, alt: string, dims = SPREAD): ComicPage => (
 });
 
 export const COMIC_PAGES: ComicPage[] = [
-  page(1, "cover", "Cover — La Complainte de la Grenouille, Florine Comics Nº 1, 3 mouches", { w: 1304, h: 1582 }),
+  page(1, "cover", "Cover — La Complainte de la Grenouille, Florine Comics Nº 1, 3 mouches", { w: 1304, h: 1768 }),
   page(2, "cast-arrival", "Dramatis personae, and Chapter I — The Arrival: a €34 plane ticket full of bad ideas"),
   page(3, "bise-offences", "The high-five heard around Paris, and Chapter II — The Offences: the outfit"),
   page(4, "boulangerie-diner", "Kwa-sont at the boulangerie; ketchup on the duck confit at dinner"),
