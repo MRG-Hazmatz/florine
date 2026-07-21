@@ -25,27 +25,50 @@
           "voice": "henri",
           "listens": 2,
           "transcript": "Chers clients, le magasin fermera ses portes dans quinze minutes, à vingt heures. Les caisses ferment dans dix minutes. Profitez de nos promotions sur les vêtements d'hiver : moins trente pour cent. Merci de votre visite et à bientôt.",
+          "transcriptEn": "Dear customers, the store will close in fifteen minutes, at 8 p.m. The checkouts close in ten minutes. Take advantage of our promotions on winter clothing: thirty percent off. Thank you for your visit and see you soon.",
           "questions": [
             {
               "id": "co1-q1",
               "prompt": "À quelle heure ferme le magasin ?",
               "options": [
-                { "id": "a", "text": "À 20 h" },
-                { "id": "b", "text": "À 15 h" },
-                { "id": "c", "text": "À 19 h" }
+                {
+                  "id": "a",
+                  "text": "À 20 h"
+                },
+                {
+                  "id": "b",
+                  "text": "À 15 h"
+                },
+                {
+                  "id": "c",
+                  "text": "À 19 h"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             },
             {
               "id": "co1-q2",
               "prompt": "Sur quels articles y a-t-il une promotion ?",
               "options": [
-                { "id": "a", "text": "Les vêtements d'hiver" },
-                { "id": "b", "text": "Les chaussures" },
-                { "id": "c", "text": "Les jouets" }
+                {
+                  "id": "a",
+                  "text": "Les vêtements d'hiver"
+                },
+                {
+                  "id": "b",
+                  "text": "Les chaussures"
+                },
+                {
+                  "id": "c",
+                  "text": "Les jouets"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             }
           ]
@@ -57,38 +80,72 @@
           "voice": "denise",
           "listens": 2,
           "transcript": "— Bonjour, j'ai mal à la gorge depuis hier. — Avez-vous de la fièvre ? — Non, juste mal à la gorge. — Je vous conseille ces pastilles. Prenez-en une trois fois par jour, après les repas. Et buvez beaucoup d'eau chaude avec du miel. — D'accord, merci beaucoup.",
+          "transcriptEn": "— Hello, my throat has been sore since yesterday. — Do you have a fever? — No, just a sore throat. — I recommend these lozenges. Take one three times a day, after meals. And drink plenty of hot water with honey. — All right, thank you very much.",
           "questions": [
             {
               "id": "co2-q1",
               "prompt": "Quel est le problème du client ?",
               "options": [
-                { "id": "a", "text": "Il a mal à la gorge" },
-                { "id": "b", "text": "Il a mal à la tête" },
-                { "id": "c", "text": "Il a mal au ventre" }
+                {
+                  "id": "a",
+                  "text": "Il a mal à la gorge"
+                },
+                {
+                  "id": "b",
+                  "text": "Il a mal à la tête"
+                },
+                {
+                  "id": "c",
+                  "text": "Il a mal au ventre"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             },
             {
               "id": "co2-q2",
               "prompt": "Combien de fois par jour prendre les pastilles ?",
               "options": [
-                { "id": "a", "text": "Trois fois" },
-                { "id": "b", "text": "Une fois" },
-                { "id": "c", "text": "Cinq fois" }
+                {
+                  "id": "a",
+                  "text": "Trois fois"
+                },
+                {
+                  "id": "b",
+                  "text": "Une fois"
+                },
+                {
+                  "id": "c",
+                  "text": "Cinq fois"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             },
             {
               "id": "co2-q3",
               "prompt": "Quel autre conseil donne le pharmacien ?",
               "options": [
-                { "id": "a", "text": "Boire de l'eau chaude avec du miel" },
-                { "id": "b", "text": "Faire du sport" },
-                { "id": "c", "text": "Rester au lit une semaine" }
+                {
+                  "id": "a",
+                  "text": "Boire de l'eau chaude avec du miel"
+                },
+                {
+                  "id": "b",
+                  "text": "Faire du sport"
+                },
+                {
+                  "id": "c",
+                  "text": "Rester au lit une semaine"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             }
           ]
@@ -100,38 +157,72 @@
           "voice": "denise",
           "listens": 2,
           "transcript": "— Excusez-moi, je cherche la poste, s'il vous plaît. — La poste ? Continuez tout droit jusqu'au feu, puis tournez à gauche. C'est juste après la pharmacie. — C'est loin ? — Non, à cinq minutes à pied. — Merci beaucoup !",
+          "transcriptEn": "— Excuse me, I'm looking for the post office, please. — The post office? Keep going straight to the traffic light, then turn left. It's just after the pharmacy. — Is it far? — No, five minutes on foot. — Thank you very much!",
           "questions": [
             {
               "id": "co3-q1",
               "prompt": "Que cherche la personne ?",
               "options": [
-                { "id": "a", "text": "La poste" },
-                { "id": "b", "text": "La pharmacie" },
-                { "id": "c", "text": "La gare" }
+                {
+                  "id": "a",
+                  "text": "La poste"
+                },
+                {
+                  "id": "b",
+                  "text": "La pharmacie"
+                },
+                {
+                  "id": "c",
+                  "text": "La gare"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             },
             {
               "id": "co3-q2",
               "prompt": "Où faut-il tourner ?",
               "options": [
-                { "id": "a", "text": "À gauche, après le feu" },
-                { "id": "b", "text": "À droite, au carrefour" },
-                { "id": "c", "text": "Nulle part, c'est tout droit" }
+                {
+                  "id": "a",
+                  "text": "À gauche, après le feu"
+                },
+                {
+                  "id": "b",
+                  "text": "À droite, au carrefour"
+                },
+                {
+                  "id": "c",
+                  "text": "Nulle part, c'est tout droit"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             },
             {
               "id": "co3-q3",
               "prompt": "C'est à combien de temps à pied ?",
               "options": [
-                { "id": "a", "text": "Cinq minutes" },
-                { "id": "b", "text": "Quinze minutes" },
-                { "id": "c", "text": "Une heure" }
+                {
+                  "id": "a",
+                  "text": "Cinq minutes"
+                },
+                {
+                  "id": "b",
+                  "text": "Quinze minutes"
+                },
+                {
+                  "id": "c",
+                  "text": "Une heure"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             }
           ]
@@ -143,38 +234,72 @@
           "voice": "henri",
           "listens": 2,
           "transcript": "— Tu fais de la natation depuis longtemps ? — Oui, depuis l'âge de six ans. Je m'entraîne quatre fois par semaine. — Ce n'est pas trop difficile avec l'école ? — Si, c'est fatigant, mais j'adore ça. Le sport m'aide à être plus organisée. — Et quel est ton objectif ? — Participer aux championnats régionaux l'année prochaine.",
+          "transcriptEn": "— Have you been swimming for a long time? — Yes, since I was six. I train four times a week. — Isn't it too hard with school? — Yes, it's tiring, but I love it. Sport helps me be more organised. — And what's your goal? — To take part in the regional championships next year.",
           "questions": [
             {
               "id": "co4-q1",
               "prompt": "Depuis quand fait-elle de la natation ?",
               "options": [
-                { "id": "a", "text": "Depuis l'âge de six ans" },
-                { "id": "b", "text": "Depuis un an" },
-                { "id": "c", "text": "Depuis le collège" }
+                {
+                  "id": "a",
+                  "text": "Depuis l'âge de six ans"
+                },
+                {
+                  "id": "b",
+                  "text": "Depuis un an"
+                },
+                {
+                  "id": "c",
+                  "text": "Depuis le collège"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             },
             {
               "id": "co4-q2",
               "prompt": "Combien de fois par semaine s'entraîne-t-elle ?",
               "options": [
-                { "id": "a", "text": "Quatre fois" },
-                { "id": "b", "text": "Tous les jours" },
-                { "id": "c", "text": "Deux fois" }
+                {
+                  "id": "a",
+                  "text": "Quatre fois"
+                },
+                {
+                  "id": "b",
+                  "text": "Tous les jours"
+                },
+                {
+                  "id": "c",
+                  "text": "Deux fois"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             },
             {
               "id": "co4-q3",
               "prompt": "Quel est son objectif ?",
               "options": [
-                { "id": "a", "text": "Participer aux championnats régionaux" },
-                { "id": "b", "text": "Devenir professeur de sport" },
-                { "id": "c", "text": "Arrêter la natation" }
+                {
+                  "id": "a",
+                  "text": "Participer aux championnats régionaux"
+                },
+                {
+                  "id": "b",
+                  "text": "Devenir professeur de sport"
+                },
+                {
+                  "id": "c",
+                  "text": "Arrêter la natation"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             }
           ]
@@ -202,33 +327,66 @@
               "id": "ce1-q1",
               "prompt": "Qu'annonce Camille ?",
               "options": [
-                { "id": "a", "text": "Elle a déménagé" },
-                { "id": "b", "text": "Elle part en vacances" },
-                { "id": "c", "text": "Elle change d'école" }
+                {
+                  "id": "a",
+                  "text": "Elle a déménagé"
+                },
+                {
+                  "id": "b",
+                  "text": "Elle part en vacances"
+                },
+                {
+                  "id": "c",
+                  "text": "Elle change d'école"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             },
             {
               "id": "ce1-q2",
               "prompt": "Qu'y a-t-il à côté de l'appartement ?",
               "options": [
-                { "id": "a", "text": "Un parc" },
-                { "id": "b", "text": "Une école" },
-                { "id": "c", "text": "Une piscine" }
+                {
+                  "id": "a",
+                  "text": "Un parc"
+                },
+                {
+                  "id": "b",
+                  "text": "Une école"
+                },
+                {
+                  "id": "c",
+                  "text": "Une piscine"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             },
             {
               "id": "ce1-q3",
               "prompt": "Quel est le seul problème ?",
               "options": [
-                { "id": "a", "text": "Il n'y a pas encore internet" },
-                { "id": "b", "text": "Il n'y a pas de chambre" },
-                { "id": "c", "text": "C'est trop petit" }
+                {
+                  "id": "a",
+                  "text": "Il n'y a pas encore internet"
+                },
+                {
+                  "id": "b",
+                  "text": "Il n'y a pas de chambre"
+                },
+                {
+                  "id": "c",
+                  "text": "C'est trop petit"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             }
           ]
@@ -242,33 +400,66 @@
               "id": "ce2-q1",
               "prompt": "Quel jour a lieu le tournoi ?",
               "options": [
-                { "id": "a", "text": "Samedi 5 avril" },
-                { "id": "b", "text": "Dimanche 5 avril" },
-                { "id": "c", "text": "Vendredi 1er avril" }
+                {
+                  "id": "a",
+                  "text": "Samedi 5 avril"
+                },
+                {
+                  "id": "b",
+                  "text": "Dimanche 5 avril"
+                },
+                {
+                  "id": "c",
+                  "text": "Vendredi 1er avril"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             },
             {
               "id": "ce2-q2",
               "prompt": "Combien de joueurs par équipe ?",
               "options": [
-                { "id": "a", "text": "7 joueurs" },
-                { "id": "b", "text": "11 joueurs" },
-                { "id": "c", "text": "5 joueurs" }
+                {
+                  "id": "a",
+                  "text": "7 joueurs"
+                },
+                {
+                  "id": "b",
+                  "text": "11 joueurs"
+                },
+                {
+                  "id": "c",
+                  "text": "5 joueurs"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             },
             {
               "id": "ce2-q3",
               "prompt": "Avant quelle date faut-il s'inscrire ?",
               "options": [
-                { "id": "a", "text": "Avant le 1er avril" },
-                { "id": "b", "text": "Le 5 avril" },
-                { "id": "c", "text": "Il n'y a pas de date limite" }
+                {
+                  "id": "a",
+                  "text": "Avant le 1er avril"
+                },
+                {
+                  "id": "b",
+                  "text": "Le 5 avril"
+                },
+                {
+                  "id": "c",
+                  "text": "Il n'y a pas de date limite"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             }
           ]
@@ -282,33 +473,66 @@
               "id": "ce3-q1",
               "prompt": "Comment savoir qu'un vélo est disponible ?",
               "options": [
-                { "id": "a", "text": "Le voyant est vert" },
-                { "id": "b", "text": "Le voyant est rouge" },
-                { "id": "c", "text": "Il n'a pas de cadenas" }
+                {
+                  "id": "a",
+                  "text": "Le voyant est vert"
+                },
+                {
+                  "id": "b",
+                  "text": "Le voyant est rouge"
+                },
+                {
+                  "id": "c",
+                  "text": "Il n'a pas de cadenas"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             },
             {
               "id": "ce3-q2",
               "prompt": "Combien coûte la première demi-heure ?",
               "options": [
-                { "id": "a", "text": "Elle est gratuite" },
-                { "id": "b", "text": "1 euro" },
-                { "id": "c", "text": "5 euros" }
+                {
+                  "id": "a",
+                  "text": "Elle est gratuite"
+                },
+                {
+                  "id": "b",
+                  "text": "1 euro"
+                },
+                {
+                  "id": "c",
+                  "text": "5 euros"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             },
             {
               "id": "ce3-q3",
               "prompt": "Que faut-il vérifier avant de partir ?",
               "options": [
-                { "id": "a", "text": "Les freins" },
-                { "id": "b", "text": "Le panier" },
-                { "id": "c", "text": "La sonnette" }
+                {
+                  "id": "a",
+                  "text": "Les freins"
+                },
+                {
+                  "id": "b",
+                  "text": "Le panier"
+                },
+                {
+                  "id": "c",
+                  "text": "La sonnette"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             }
           ]
@@ -322,33 +546,66 @@
               "id": "ce4-q1",
               "prompt": "D'où vient Martin ?",
               "options": [
-                { "id": "a", "text": "De Paris" },
-                { "id": "b", "text": "De la campagne" },
-                { "id": "c", "text": "D'Espagne" }
+                {
+                  "id": "a",
+                  "text": "De Paris"
+                },
+                {
+                  "id": "b",
+                  "text": "De la campagne"
+                },
+                {
+                  "id": "c",
+                  "text": "D'Espagne"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             },
             {
               "id": "ce4-q2",
               "prompt": "Que pensait-il de la campagne au début ?",
               "options": [
-                { "id": "a", "text": "Il la trouvait ennuyeuse" },
-                { "id": "b", "text": "Il l'adorait tout de suite" },
-                { "id": "c", "text": "Il en avait peur" }
+                {
+                  "id": "a",
+                  "text": "Il la trouvait ennuyeuse"
+                },
+                {
+                  "id": "b",
+                  "text": "Il l'adorait tout de suite"
+                },
+                {
+                  "id": "c",
+                  "text": "Il en avait peur"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             },
             {
               "id": "ce4-q3",
               "prompt": "Quel est l'inconvénient pour lui aujourd'hui ?",
               "options": [
-                { "id": "a", "text": "Le trajet en bus d'une heure" },
-                { "id": "b", "text": "Le manque d'amis" },
-                { "id": "c", "text": "Le bruit de la ville" }
+                {
+                  "id": "a",
+                  "text": "Le trajet en bus d'une heure"
+                },
+                {
+                  "id": "b",
+                  "text": "Le manque d'amis"
+                },
+                {
+                  "id": "c",
+                  "text": "Le bruit de la ville"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             }
           ]
@@ -375,10 +632,26 @@
           "minWords": 60,
           "points": 13,
           "rubric": [
-            { "id": "r-consigne", "label": "Respect de la consigne (décrire, raconter, expliquer)", "points": 2 },
-            { "id": "r-decrire", "label": "Peut décrire et raconter de façon simple", "points": 4 },
-            { "id": "r-lex", "label": "Lexique adapté", "points": 3 },
-            { "id": "r-morpho", "label": "Morphosyntaxe (passé composé, accords)", "points": 4 }
+            {
+              "id": "r-consigne",
+              "label": "Respect de la consigne (décrire, raconter, expliquer)",
+              "points": 2
+            },
+            {
+              "id": "r-decrire",
+              "label": "Peut décrire et raconter de façon simple",
+              "points": 4
+            },
+            {
+              "id": "r-lex",
+              "label": "Lexique adapté",
+              "points": 3
+            },
+            {
+              "id": "r-morpho",
+              "label": "Morphosyntaxe (passé composé, accords)",
+              "points": 4
+            }
           ],
           "modelAnswer": "Modèle (≈65 mots) :\n\nSalut Yanis,\n\nLe mois dernier, j'ai visité Annecy, une petite ville au bord d'un lac magnifique. L'eau était très bleue et les montagnes autour étaient superbes. J'ai fait du vélo autour du lac et j'ai mangé une glace au soleil. J'ai adoré parce que c'était calme et très beau. Tu devrais y aller !\n\nÀ bientôt, Noa\n\nPoints attendus : description du lieu ; activités au passé composé ; opinion personnelle."
         },
@@ -390,10 +663,26 @@
           "minWords": 60,
           "points": 12,
           "rubric": [
-            { "id": "r-consigne2", "label": "Respect de la consigne (expliquer le problème, demander)", "points": 2 },
-            { "id": "r-interagir", "label": "Capacité à interagir (registre poli, clarté)", "points": 4 },
-            { "id": "r-lex2", "label": "Lexique adapté", "points": 3 },
-            { "id": "r-morpho2", "label": "Morphosyntaxe", "points": 3 }
+            {
+              "id": "r-consigne2",
+              "label": "Respect de la consigne (expliquer le problème, demander)",
+              "points": 2
+            },
+            {
+              "id": "r-interagir",
+              "label": "Capacité à interagir (registre poli, clarté)",
+              "points": 4
+            },
+            {
+              "id": "r-lex2",
+              "label": "Lexique adapté",
+              "points": 3
+            },
+            {
+              "id": "r-morpho2",
+              "label": "Morphosyntaxe",
+              "points": 3
+            }
           ],
           "modelAnswer": "Modèle (≈65 mots) :\n\nBonjour,\n\nJ'ai commandé une paire de chaussures sur votre site le 3 mars (commande nº 4521). Malheureusement, j'ai reçu la mauvaise taille : j'avais demandé du 39, mais j'ai reçu du 42.\n\nJe souhaiterais échanger ces chaussures contre la bonne taille, ou être remboursé(e). Que dois-je faire pour vous les renvoyer ?\n\nMerci de votre réponse.\nCordialement, C. Bernard\n\nPoints attendus : objet de la réclamation ; problème clair ; demande (échange/remboursement) ; politesse."
         }
@@ -418,9 +707,21 @@
           "consigne": "Présentez-vous et répondez aux questions de l'examinateur : votre journée habituelle, vos repas, vos amis et vos projets pour le week-end. (1 à 2 minutes)",
           "points": 6,
           "rubric": [
-            { "id": "po1-soi", "label": "Peut parler de soi et de son quotidien", "points": 2 },
-            { "id": "po1-reagir", "label": "Peut réagir aux questions", "points": 2 },
-            { "id": "po-ens-lex1", "label": "Lexique — ensemble de l'épreuve", "points": 2 }
+            {
+              "id": "po1-soi",
+              "label": "Peut parler de soi et de son quotidien",
+              "points": 2
+            },
+            {
+              "id": "po1-reagir",
+              "label": "Peut réagir aux questions",
+              "points": 2
+            },
+            {
+              "id": "po-ens-lex1",
+              "label": "Lexique — ensemble de l'épreuve",
+              "points": 2
+            }
           ],
           "modelAnswer": "Points attendus : décrire sa journée habituelle ; parler de ses repas, de ses amis ; annoncer un projet de week-end ; répondre aux relances."
         },
@@ -432,10 +733,26 @@
           "documentFr": "Sujet : Préférez-vous vivre en ville ou à la campagne ?",
           "points": 9,
           "rubric": [
-            { "id": "po2-presenter", "label": "Peut présenter un avis de façon simple et organisée", "points": 3 },
-            { "id": "po2-relier", "label": "Peut relier ses idées (parce que, mais, aussi)", "points": 2 },
-            { "id": "po-ens-morpho2", "label": "Morphosyntaxe — ensemble de l'épreuve", "points": 2 },
-            { "id": "po-ens-phono2", "label": "Phonétique — ensemble de l'épreuve", "points": 2 }
+            {
+              "id": "po2-presenter",
+              "label": "Peut présenter un avis de façon simple et organisée",
+              "points": 3
+            },
+            {
+              "id": "po2-relier",
+              "label": "Peut relier ses idées (parce que, mais, aussi)",
+              "points": 2
+            },
+            {
+              "id": "po-ens-morpho2",
+              "label": "Morphosyntaxe — ensemble de l'épreuve",
+              "points": 2
+            },
+            {
+              "id": "po-ens-phono2",
+              "label": "Phonétique — ensemble de l'épreuve",
+              "points": 2
+            }
           ],
           "modelAnswer": "Points attendus : annoncer sa préférence ; deux ou trois arguments avec « parce que » ; envisager l'autre côté (« mais ») ; conclure. Comparatifs simples (« plus calme », « moins de bruit »)."
         },
@@ -446,9 +763,21 @@
           "consigne": "Sujet : Vous voulez acheter un cadeau dans un magasin de vêtements. Vous demandez conseil, vous demandez la taille, la couleur et le prix, puis vous décidez. L'examinateur joue le vendeur. (3 minutes)",
           "points": 10,
           "rubric": [
-            { "id": "po3-situation", "label": "Peut faire face à la situation (choisir, demander conseil)", "points": 3 },
-            { "id": "po3-negocier", "label": "Peut demander et donner des informations", "points": 3 },
-            { "id": "po-ens-aisance3", "label": "Aisance et fluidité — ensemble de l'épreuve", "points": 4 }
+            {
+              "id": "po3-situation",
+              "label": "Peut faire face à la situation (choisir, demander conseil)",
+              "points": 3
+            },
+            {
+              "id": "po3-negocier",
+              "label": "Peut demander et donner des informations",
+              "points": 3
+            },
+            {
+              "id": "po-ens-aisance3",
+              "label": "Aisance et fluidité — ensemble de l'épreuve",
+              "points": 4
+            }
           ],
           "modelAnswer": "Points attendus : expliquer ce que l'on cherche ; demander la taille, la couleur, le prix ; demander conseil ; décider et remercier. Vocabulaire des vêtements et politesse."
         }

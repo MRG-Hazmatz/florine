@@ -25,60 +25,116 @@
           "voice": "henri",
           "listens": 2,
           "transcript": "Bonsoir à toutes et à tous. Ce soir, je voudrais vous parler d'un sujet qui fait régulièrement débat : la place des mots anglais dans la langue française. Faut-il s'en inquiéter ? Certains s'alarment : selon eux, le français serait envahi par l'anglais, au point de perdre son identité. On entend des week-end, des burn-out, des deadline à chaque phrase. Mais prenons un peu de recul. D'abord, l'emprunt entre les langues est un phénomène ancien et universel. Le français lui-même a emprunté des milliers de mots à l'italien, à l'arabe, à l'allemand. Et l'anglais, à l'inverse, est rempli de mots français, hérités du Moyen Âge. Une langue qui n'emprunte plus, c'est une langue qui ne vit plus. Ensuite, il faut distinguer deux situations. Quand un mot anglais comble un vide, parce qu'il n'existe pas d'équivalent français, l'emprunt est utile. Mais quand on dit un meeting au lieu d'une réunion, là, on peut parler de paresse plutôt que de nécessité. Le vrai danger, ce n'est donc pas l'anglais en soi ; c'est de cesser de créer en français. Car une langue vivante doit inventer ses propres mots pour les réalités nouvelles. Le mot ordinateur, par exemple, est une belle invention française des années cinquante. Alors, plutôt que de faire la chasse aux anglicismes, encourageons la créativité de notre langue. C'est ainsi qu'elle restera vivante. Je vous remercie.",
+          "transcriptEn": "Good evening, everyone. Tonight I'd like to talk about a subject that regularly sparks debate: the place of English words in the French language. Should we be worried? Some are alarmed: according to them, French is being invaded by English, to the point of losing its identity. You hear 'week-end', 'burn-out', 'deadline' in every sentence. But let's step back. First, borrowing between languages is an ancient, universal phenomenon. French itself has borrowed thousands of words from Italian, Arabic, German. And English, conversely, is full of French words inherited from the Middle Ages. A language that no longer borrows is a language that no longer lives. Next, we should distinguish two situations. When an English word fills a gap, because no French equivalent exists, the borrowing is useful. But when we say 'un meeting' instead of 'une réunion', that's laziness rather than necessity. The real danger, then, isn't English itself; it's ceasing to create in French. Because a living language must invent its own words for new realities. The word 'ordinateur', for example, is a fine French invention from the fifties. So rather than hunting down anglicisms, let's encourage our language's creativity. That's how it will stay alive. Thank you.",
           "questions": [
             {
               "id": "co1-q1",
               "prompt": "Quel est le sujet de la conférence ?",
               "options": [
-                { "id": "a", "text": "La place des mots anglais dans la langue française" },
-                { "id": "b", "text": "Les règles de grammaire françaises" },
-                { "id": "c", "text": "Les méthodes pour apprendre l'anglais" }
+                {
+                  "id": "a",
+                  "text": "La place des mots anglais dans la langue française"
+                },
+                {
+                  "id": "b",
+                  "text": "Les règles de grammaire françaises"
+                },
+                {
+                  "id": "c",
+                  "text": "Les méthodes pour apprendre l'anglais"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             },
             {
               "id": "co1-q2",
               "prompt": "Que rappelle l'orateur à propos de l'emprunt entre langues ?",
               "options": [
-                { "id": "a", "text": "C'est un phénomène ancien et universel" },
-                { "id": "b", "text": "C'est une mode très récente" },
-                { "id": "c", "text": "C'est interdit par la loi française" }
+                {
+                  "id": "a",
+                  "text": "C'est un phénomène ancien et universel"
+                },
+                {
+                  "id": "b",
+                  "text": "C'est une mode très récente"
+                },
+                {
+                  "id": "c",
+                  "text": "C'est interdit par la loi française"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             },
             {
               "id": "co1-q3",
               "prompt": "Quelle distinction l'orateur établit-il ?",
               "options": [
-                { "id": "a", "text": "Entre l'emprunt utile et l'emprunt par paresse" },
-                { "id": "b", "text": "Entre la langue écrite et la langue orale" },
-                { "id": "c", "text": "Entre le passé et le présent" }
+                {
+                  "id": "a",
+                  "text": "Entre l'emprunt utile et l'emprunt par paresse"
+                },
+                {
+                  "id": "b",
+                  "text": "Entre la langue écrite et la langue orale"
+                },
+                {
+                  "id": "c",
+                  "text": "Entre le passé et le présent"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             },
             {
               "id": "co1-q4",
               "prompt": "Quel est, selon lui, le véritable danger ?",
               "options": [
-                { "id": "a", "text": "Cesser de créer des mots en français" },
-                { "id": "b", "text": "Parler trop vite" },
-                { "id": "c", "text": "Oublier complètement l'anglais" }
+                {
+                  "id": "a",
+                  "text": "Cesser de créer des mots en français"
+                },
+                {
+                  "id": "b",
+                  "text": "Parler trop vite"
+                },
+                {
+                  "id": "c",
+                  "text": "Oublier complètement l'anglais"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             },
             {
               "id": "co1-q5",
               "prompt": "Quel exemple d'invention française l'orateur cite-t-il ?",
               "options": [
-                { "id": "a", "text": "Le mot « ordinateur »" },
-                { "id": "b", "text": "Le mot « week-end »" },
-                { "id": "c", "text": "Le mot « meeting »" }
+                {
+                  "id": "a",
+                  "text": "Le mot « ordinateur »"
+                },
+                {
+                  "id": "b",
+                  "text": "Le mot « week-end »"
+                },
+                {
+                  "id": "c",
+                  "text": "Le mot « meeting »"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             }
           ]
@@ -90,49 +146,94 @@
           "voice": "denise",
           "listens": 1,
           "transcript": "En bref, une bonne nouvelle pour les amoureux des livres. La ville vient d'installer dix boîtes à livres dans ses parcs et sur ses places. Le principe est simple : chacun peut y déposer un livre dont il ne se sert plus, et en emprunter un autre, gratuitement et sans aucune inscription. En quelques semaines, le succès a dépassé toutes les attentes : les boîtes sont sans cesse renouvelées, et de véritables petites communautés de lecteurs se sont formées autour d'elles. La mairie envisage déjà d'en installer dix de plus l'an prochain.",
+          "transcriptEn": "In brief, good news for book lovers. The city has just installed ten book boxes in its parks and squares. The principle is simple: anyone can drop off a book they no longer need and borrow another, free of charge and without any registration. Within a few weeks, the success exceeded all expectations: the boxes are constantly being restocked, and real little communities of readers have formed around them. The town hall is already planning to install ten more next year.",
           "questions": [
             {
               "id": "co2-q1",
               "prompt": "Qu'a installé la ville ?",
               "options": [
-                { "id": "a", "text": "Des boîtes à livres" },
-                { "id": "b", "text": "De grandes bibliothèques" },
-                { "id": "c", "text": "De nouvelles librairies" }
+                {
+                  "id": "a",
+                  "text": "Des boîtes à livres"
+                },
+                {
+                  "id": "b",
+                  "text": "De grandes bibliothèques"
+                },
+                {
+                  "id": "c",
+                  "text": "De nouvelles librairies"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             },
             {
               "id": "co2-q2",
               "prompt": "Comment fonctionne le principe ?",
               "options": [
-                { "id": "a", "text": "On dépose un livre et on en emprunte un autre, gratuitement" },
-                { "id": "b", "text": "On achète des livres d'occasion à bas prix" },
-                { "id": "c", "text": "On loue des livres à la semaine" }
+                {
+                  "id": "a",
+                  "text": "On dépose un livre et on en emprunte un autre, gratuitement"
+                },
+                {
+                  "id": "b",
+                  "text": "On achète des livres d'occasion à bas prix"
+                },
+                {
+                  "id": "c",
+                  "text": "On loue des livres à la semaine"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             },
             {
               "id": "co2-q3",
               "prompt": "Quel a été le résultat ?",
               "options": [
-                { "id": "a", "text": "Le succès a dépassé toutes les attentes" },
-                { "id": "b", "text": "Un échec complet" },
-                { "id": "c", "text": "Un succès très mitigé" }
+                {
+                  "id": "a",
+                  "text": "Le succès a dépassé toutes les attentes"
+                },
+                {
+                  "id": "b",
+                  "text": "Un échec complet"
+                },
+                {
+                  "id": "c",
+                  "text": "Un succès très mitigé"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             },
             {
               "id": "co2-q4",
               "prompt": "Que prévoit la mairie ?",
               "options": [
-                { "id": "a", "text": "En installer dix de plus l'an prochain" },
-                { "id": "b", "text": "Les supprimer progressivement" },
-                { "id": "c", "text": "Les rendre payantes" }
+                {
+                  "id": "a",
+                  "text": "En installer dix de plus l'an prochain"
+                },
+                {
+                  "id": "b",
+                  "text": "Les supprimer progressivement"
+                },
+                {
+                  "id": "c",
+                  "text": "Les rendre payantes"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             }
           ]
@@ -160,55 +261,110 @@
               "id": "ce1-q1",
               "prompt": "Quel objet connaît un succès inattendu ?",
               "options": [
-                { "id": "a", "text": "Le disque vinyle" },
-                { "id": "b", "text": "Le lecteur CD" },
-                { "id": "c", "text": "La radio à transistors" }
+                {
+                  "id": "a",
+                  "text": "Le disque vinyle"
+                },
+                {
+                  "id": "b",
+                  "text": "Le lecteur CD"
+                },
+                {
+                  "id": "c",
+                  "text": "La radio à transistors"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             },
             {
               "id": "ce1-q2",
               "prompt": "Qui porte surtout ce succès ?",
               "options": [
-                { "id": "a", "text": "Les jeunes générations" },
-                { "id": "b", "text": "Uniquement les personnes âgées" },
-                { "id": "c", "text": "Seulement de riches collectionneurs" }
+                {
+                  "id": "a",
+                  "text": "Les jeunes générations"
+                },
+                {
+                  "id": "b",
+                  "text": "Uniquement les personnes âgées"
+                },
+                {
+                  "id": "c",
+                  "text": "Seulement de riches collectionneurs"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             },
             {
               "id": "ce1-q3",
               "prompt": "Qu'est-ce que les acheteurs recherchent essentiellement ?",
               "options": [
-                { "id": "a", "text": "Un objet que l'on possède réellement" },
-                { "id": "b", "text": "Le prix le plus bas possible" },
-                { "id": "c", "text": "La plus grande quantité de titres" }
+                {
+                  "id": "a",
+                  "text": "Un objet que l'on possède réellement"
+                },
+                {
+                  "id": "b",
+                  "text": "Le prix le plus bas possible"
+                },
+                {
+                  "id": "c",
+                  "text": "La plus grande quantité de titres"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             },
             {
               "id": "ce1-q4",
               "prompt": "En quoi le vinyle impose-t-il une autre écoute ?",
               "options": [
-                { "id": "a", "text": "On écoute un album en entier, dans l'ordre voulu par l'artiste" },
-                { "id": "b", "text": "On écoute beaucoup plus vite" },
-                { "id": "c", "text": "On n'écoute qu'un seul morceau par disque" }
+                {
+                  "id": "a",
+                  "text": "On écoute un album en entier, dans l'ordre voulu par l'artiste"
+                },
+                {
+                  "id": "b",
+                  "text": "On écoute beaucoup plus vite"
+                },
+                {
+                  "id": "c",
+                  "text": "On n'écoute qu'un seul morceau par disque"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             },
             {
               "id": "ce1-q5",
               "prompt": "Quel besoin profond ce retour révèle-t-il ?",
               "options": [
-                { "id": "a", "text": "Ralentir et retrouver un lien concret avec ce que l'on aime" },
-                { "id": "b", "text": "Dépenser toujours plus d'argent" },
-                { "id": "c", "text": "Suivre la dernière mode à tout prix" }
+                {
+                  "id": "a",
+                  "text": "Ralentir et retrouver un lien concret avec ce que l'on aime"
+                },
+                {
+                  "id": "b",
+                  "text": "Dépenser toujours plus d'argent"
+                },
+                {
+                  "id": "c",
+                  "text": "Suivre la dernière mode à tout prix"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             }
           ]
@@ -222,44 +378,88 @@
               "id": "ce2-q1",
               "prompt": "Quel est le sujet de l'article ?",
               "options": [
-                { "id": "a", "text": "La gratuité de l'entrée des musées" },
-                { "id": "b", "text": "La fermeture de plusieurs musées" },
-                { "id": "c", "text": "La construction de nouveaux musées" }
+                {
+                  "id": "a",
+                  "text": "La gratuité de l'entrée des musées"
+                },
+                {
+                  "id": "b",
+                  "text": "La fermeture de plusieurs musées"
+                },
+                {
+                  "id": "c",
+                  "text": "La construction de nouveaux musées"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             },
             {
               "id": "ce2-q2",
               "prompt": "Quel argument donnent les partisans de la gratuité ?",
               "options": [
-                { "id": "a", "text": "La culture est un bien commun" },
-                { "id": "b", "text": "Les musées rapportent beaucoup d'argent" },
-                { "id": "c", "text": "Les billets sont déjà trop bon marché" }
+                {
+                  "id": "a",
+                  "text": "La culture est un bien commun"
+                },
+                {
+                  "id": "b",
+                  "text": "Les musées rapportent beaucoup d'argent"
+                },
+                {
+                  "id": "c",
+                  "text": "Les billets sont déjà trop bon marché"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             },
             {
               "id": "ce2-q3",
               "prompt": "Que rappellent les opposants ?",
               "options": [
-                { "id": "a", "text": "Un musée coûte cher à entretenir" },
-                { "id": "b", "text": "Les musées sont toujours vides" },
-                { "id": "c", "text": "Les œuvres exposées sont fausses" }
+                {
+                  "id": "a",
+                  "text": "Un musée coûte cher à entretenir"
+                },
+                {
+                  "id": "b",
+                  "text": "Les musées sont toujours vides"
+                },
+                {
+                  "id": "c",
+                  "text": "Les œuvres exposées sont fausses"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             },
             {
               "id": "ce2-q4",
               "prompt": "Selon l'auteur, quel est peut-être le vrai enjeu ?",
               "options": [
-                { "id": "a", "text": "L'accueil, pour que chacun se sente légitime" },
-                { "id": "b", "text": "La taille des bâtiments" },
-                { "id": "c", "text": "Le nombre d'œuvres exposées" }
+                {
+                  "id": "a",
+                  "text": "L'accueil, pour que chacun se sente légitime"
+                },
+                {
+                  "id": "b",
+                  "text": "La taille des bâtiments"
+                },
+                {
+                  "id": "c",
+                  "text": "Le nombre d'œuvres exposées"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             }
           ]
@@ -286,11 +486,31 @@
           "documentFr": "DOCUMENT 1\nLe télétravail a séduit des millions de salariés. Fini les trajets quotidiens, les embouteillages et les heures perdues dans les transports : on travaille de chez soi, à son rythme, dans un cadre que l'on choisit. De nombreuses études signalent une hausse de la concentration et une meilleure conciliation entre vie professionnelle et vie familiale.\n\nDOCUMENT 2\nMais le télétravail a aussi son revers. Travailler seul, jour après jour, peut conduire à l'isolement et faire disparaître ces conversations informelles qui font la vie d'une équipe. De plus, quand le bureau s'installe dans le salon, il devient difficile de s'arrêter : beaucoup de télétravailleurs déclarent travailler davantage, et se reposer moins bien.",
           "points": 13,
           "rubric": [
-            { "id": "r-respect", "label": "Respect de la consigne (nature de la synthèse, longueur, titre)", "points": 2 },
-            { "id": "r-degager", "label": "Capacité à dégager et confronter les idées essentielles", "points": 4 },
-            { "id": "r-reformuler", "label": "Capacité à reformuler (pas de copie) et à structurer", "points": 4 },
-            { "id": "r-coherence", "label": "Cohérence et cohésion", "points": 1 },
-            { "id": "r-langue", "label": "Compétence linguistique (lexique, grammaire)", "points": 2 }
+            {
+              "id": "r-respect",
+              "label": "Respect de la consigne (nature de la synthèse, longueur, titre)",
+              "points": 2
+            },
+            {
+              "id": "r-degager",
+              "label": "Capacité à dégager et confronter les idées essentielles",
+              "points": 4
+            },
+            {
+              "id": "r-reformuler",
+              "label": "Capacité à reformuler (pas de copie) et à structurer",
+              "points": 4
+            },
+            {
+              "id": "r-coherence",
+              "label": "Cohérence et cohésion",
+              "points": 1
+            },
+            {
+              "id": "r-langue",
+              "label": "Compétence linguistique (lexique, grammaire)",
+              "points": 2
+            }
           ],
           "modelAnswer": "Points attendus : un titre ; une introduction qui dégage le thème commun (les effets ambivalents du télétravail) et la tension entre les deux documents ; un développement qui CONFRONTE avantages (gain de temps, concentration, équilibre vie pro/perso) et inconvénients (isolement, perte du lien d'équipe, difficulté à s'arrêter) ; aucune opinion personnelle ; aucune copie ; ≈ 220 mots ; connecteurs de confrontation."
         },
@@ -302,11 +522,31 @@
           "minWords": 250,
           "points": 12,
           "rubric": [
-            { "id": "r-consigne2", "label": "Respect de la consigne (essai argumenté, longueur)", "points": 2 },
-            { "id": "r-argumenter", "label": "Capacité à argumenter et à nuancer", "points": 4 },
-            { "id": "r-coherence2", "label": "Cohérence et cohésion (plan, connecteurs)", "points": 2 },
-            { "id": "r-lex", "label": "Compétence lexicale", "points": 2 },
-            { "id": "r-gram", "label": "Compétence grammaticale (morphosyntaxe)", "points": 2 }
+            {
+              "id": "r-consigne2",
+              "label": "Respect de la consigne (essai argumenté, longueur)",
+              "points": 2
+            },
+            {
+              "id": "r-argumenter",
+              "label": "Capacité à argumenter et à nuancer",
+              "points": 4
+            },
+            {
+              "id": "r-coherence2",
+              "label": "Cohérence et cohésion (plan, connecteurs)",
+              "points": 2
+            },
+            {
+              "id": "r-lex",
+              "label": "Compétence lexicale",
+              "points": 2
+            },
+            {
+              "id": "r-gram",
+              "label": "Compétence grammaticale (morphosyntaxe)",
+              "points": 2
+            }
           ],
           "modelAnswer": "Points attendus : introduction qui pose la problématique et annonce le plan ; développement dialectique (progrès : autonomie, équilibre, productivité ; limites : isolement, surtravail, inégalités d'équipement) ; position personnelle qui dépasse l'opposition (par exemple : un progrès à condition d'être encadré et choisi) ; conclusion. Ici, l'opinion personnelle est attendue, contrairement à la synthèse."
         }
@@ -332,10 +572,26 @@
           "documentFr": "DOSSIER — « Faut-il supprimer les notes à l'école ? »\n\nDocument A : Certaines écoles remplacent les notes chiffrées par une évaluation par compétences (« acquis », « en cours d'acquisition »). Objectif : réduire le stress et montrer à l'élève ce qu'il sait faire, plutôt que de le classer par rapport aux autres.\n\nDocument B : Mais beaucoup de parents et d'enseignants restent attachés aux notes : elles sont claires, comparables, et préparent, disent-ils, au monde réel, où l'on est sans cesse évalué. Supprimer les notes, craignent-ils, reviendrait à masquer les difficultés au lieu de les traiter.",
           "points": 13,
           "rubric": [
-            { "id": "po1-problematique", "label": "Peut dégager la problématique du dossier", "points": 3 },
-            { "id": "po1-expose", "label": "Peut présenter un exposé structuré et argumenté", "points": 5 },
-            { "id": "po-ens-lex", "label": "Étendue et maîtrise du lexique — ensemble de l'épreuve", "points": 3 },
-            { "id": "po-ens-phono", "label": "Maîtrise phonologique — ensemble de l'épreuve", "points": 2 }
+            {
+              "id": "po1-problematique",
+              "label": "Peut dégager la problématique du dossier",
+              "points": 3
+            },
+            {
+              "id": "po1-expose",
+              "label": "Peut présenter un exposé structuré et argumenté",
+              "points": 5
+            },
+            {
+              "id": "po-ens-lex",
+              "label": "Étendue et maîtrise du lexique — ensemble de l'épreuve",
+              "points": 3
+            },
+            {
+              "id": "po-ens-phono",
+              "label": "Maîtrise phonologique — ensemble de l'épreuve",
+              "points": 2
+            }
           ],
           "modelAnswer": "Points attendus : reformuler la problématique (réduire le stress et mieux accompagner vs garder un repère clair et comparable) ; annoncer un plan ; exposé organisé qui confronte les deux positions et défend un point de vue nuancé, illustré d'exemples ; transitions soignées ; discours fluide."
         },
@@ -346,10 +602,26 @@
           "consigne": "L'examinateur vous posera des questions, demandera des précisions et défendra parfois un point de vue opposé. Défendez et nuancez votre position. (environ 10 minutes)",
           "points": 12,
           "rubric": [
-            { "id": "po2-defendre", "label": "Peut défendre et nuancer son point de vue face aux objections", "points": 4 },
-            { "id": "po2-interagir", "label": "Peut interagir, relancer et réagir spontanément", "points": 3 },
-            { "id": "po-ens-morpho", "label": "Morphosyntaxe — ensemble de l'épreuve", "points": 3 },
-            { "id": "po-ens-aisance", "label": "Aisance et fluidité — ensemble de l'épreuve", "points": 2 }
+            {
+              "id": "po2-defendre",
+              "label": "Peut défendre et nuancer son point de vue face aux objections",
+              "points": 4
+            },
+            {
+              "id": "po2-interagir",
+              "label": "Peut interagir, relancer et réagir spontanément",
+              "points": 3
+            },
+            {
+              "id": "po-ens-morpho",
+              "label": "Morphosyntaxe — ensemble de l'épreuve",
+              "points": 3
+            },
+            {
+              "id": "po-ens-aisance",
+              "label": "Aisance et fluidité — ensemble de l'épreuve",
+              "points": 2
+            }
           ],
           "modelAnswer": "Points attendus : répondre précisément aux objections ; concéder puis rebondir ; nuancer sans se contredire ; relancer par des questions ; mobiliser un lexique riche et une syntaxe complexe."
         }

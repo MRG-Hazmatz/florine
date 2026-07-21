@@ -60,6 +60,11 @@ export default function ListeningDocBlock({
         <details className="rounded border border-ink/10 bg-card p-2 text-sm">
           <summary className="cursor-pointer text-ink/60">Transcription</summary>
           <p className="mt-2 whitespace-pre-line text-ink/80">{doc.transcript}</p>
+          {doc.transcriptEn && (
+            <p className="mt-2 whitespace-pre-line border-t border-ink/10 pt-2 italic text-ink/55">
+              {doc.transcriptEn}
+            </p>
+          )}
         </details>
       ) : (
         <button

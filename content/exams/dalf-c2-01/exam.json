@@ -26,60 +26,116 @@
           "voice": "denise",
           "listens": 2,
           "transcript": "Mesdames, messieurs, la question que je voudrais poser ce soir est simple en apparence : le progrès technique est-il toujours un progrès ? Nous avons tendance à confondre les deux mots. Or, qu'une chose soit nouvelle, plus rapide, plus puissante, ne signifie pas qu'elle nous rende plus libres, ni plus heureux. Prenons un exemple. Le téléphone portable nous a donné un pouvoir extraordinaire : être joignable partout, accéder à toute l'information du monde. Mais ce même pouvoir s'est retourné en servitude : nous voilà joignables partout, sommés de répondre, incapables parfois de lever les yeux. L'outil que nous possédions a fini par nous posséder. Faut-il en conclure qu'il faut refuser le progrès technique ? Ce serait absurde, et d'ailleurs impossible. La technique n'est ni bonne ni mauvaise en soi ; elle est ce que nous en faisons. La vraie question n'est donc pas technique, mais philosophique et politique : quelle place voulons-nous lui accorder ? À quoi sommes-nous prêts à renoncer, et au nom de quoi ? Car tout progrès a un coût, souvent invisible au moment où nous l'adoptons, et que nous ne mesurons que plus tard. Le danger n'est pas la machine. Le danger, c'est de cesser de nous interroger ; c'est d'adopter chaque nouveauté par habitude, par confort ou par peur d'être en retard, sans jamais nous demander si elle sert vraiment ce que nous avons de plus précieux : notre liberté, notre attention, notre humanité. Je vous remercie.",
+          "transcriptEn": "Ladies and gentlemen, the question I'd like to ask tonight is simple in appearance: is technical progress always progress? We tend to conflate the two words. Yet the fact that something is new, faster, more powerful doesn't mean it makes us freer, or happier. Take an example. The mobile phone gave us an extraordinary power: to be reachable everywhere, to access all the world's information. But that same power turned into servitude: here we are, reachable everywhere, summoned to reply, sometimes incapable of looking up. The tool we owned ended up owning us. Should we conclude that technical progress must be refused? That would be absurd, and in any case impossible. Technology is neither good nor bad in itself; it is what we make of it. So the real question isn't technical but philosophical and political: what place do we want to give it? What are we prepared to give up, and in the name of what? Because all progress has a cost, often invisible at the moment we adopt it, which we only measure later. The danger isn't the machine. The danger is ceasing to question ourselves; it's adopting every novelty out of habit, comfort or fear of being left behind, without ever asking whether it truly serves what we hold most precious: our freedom, our attention, our humanity. Thank you.",
           "questions": [
             {
               "id": "or1-q1",
               "prompt": "Quelle distinction l'oratrice établit-elle dès le début ?",
               "options": [
-                { "id": "a", "text": "Entre le progrès technique et le progrès tout court" },
-                { "id": "b", "text": "Entre le passé et le présent" },
-                { "id": "c", "text": "Entre la science et la technique" }
+                {
+                  "id": "a",
+                  "text": "Entre le progrès technique et le progrès tout court"
+                },
+                {
+                  "id": "b",
+                  "text": "Entre le passé et le présent"
+                },
+                {
+                  "id": "c",
+                  "text": "Entre la science et la technique"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             },
             {
               "id": "or1-q2",
               "prompt": "Quel exemple concret utilise-t-elle ?",
               "options": [
-                { "id": "a", "text": "Le téléphone portable" },
-                { "id": "b", "text": "La voiture électrique" },
-                { "id": "c", "text": "L'imprimerie" }
+                {
+                  "id": "a",
+                  "text": "Le téléphone portable"
+                },
+                {
+                  "id": "b",
+                  "text": "La voiture électrique"
+                },
+                {
+                  "id": "c",
+                  "text": "L'imprimerie"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             },
             {
               "id": "or1-q3",
               "prompt": "Selon elle, qu'est-ce qui s'est « retourné en servitude » ?",
               "options": [
-                { "id": "a", "text": "Le pouvoir d'être joignable partout" },
-                { "id": "b", "text": "Le coût des communications" },
-                { "id": "c", "text": "La taille des écrans" }
+                {
+                  "id": "a",
+                  "text": "Le pouvoir d'être joignable partout"
+                },
+                {
+                  "id": "b",
+                  "text": "Le coût des communications"
+                },
+                {
+                  "id": "c",
+                  "text": "La taille des écrans"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 4
             },
             {
               "id": "or1-q4",
               "prompt": "Quelle est, selon elle, la vraie question ?",
               "options": [
-                { "id": "a", "text": "Une question philosophique et politique : quelle place accorder à la technique" },
-                { "id": "b", "text": "Une question purement technique" },
-                { "id": "c", "text": "Une question de prix" }
+                {
+                  "id": "a",
+                  "text": "Une question philosophique et politique : quelle place accorder à la technique"
+                },
+                {
+                  "id": "b",
+                  "text": "Une question purement technique"
+                },
+                {
+                  "id": "c",
+                  "text": "Une question de prix"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             },
             {
               "id": "or1-q5",
               "prompt": "Quel est, selon elle, le véritable danger ?",
               "options": [
-                { "id": "a", "text": "Cesser de nous interroger et tout adopter par habitude" },
-                { "id": "b", "text": "Les machines elles-mêmes" },
-                { "id": "c", "text": "Le manque de nouveautés" }
+                {
+                  "id": "a",
+                  "text": "Cesser de nous interroger et tout adopter par habitude"
+                },
+                {
+                  "id": "b",
+                  "text": "Les machines elles-mêmes"
+                },
+                {
+                  "id": "c",
+                  "text": "Le manque de nouveautés"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             }
           ]
@@ -94,9 +150,21 @@
           "consigne": "Vous ferez un compte rendu objectif du document que vous venez d'entendre : vous en restituerez fidèlement le propos, la structure et les principales idées, sans le commenter ni donner votre avis. (environ 5 minutes)",
           "points": 12,
           "rubric": [
-            { "id": "cr-fidelite", "label": "Fidélité et exhaustivité du compte rendu", "points": 5 },
-            { "id": "cr-structure", "label": "Clarté et structuration de la restitution", "points": 4 },
-            { "id": "cr-langue", "label": "Correction et richesse de la langue (compte rendu)", "points": 3 }
+            {
+              "id": "cr-fidelite",
+              "label": "Fidélité et exhaustivité du compte rendu",
+              "points": 5
+            },
+            {
+              "id": "cr-structure",
+              "label": "Clarté et structuration de la restitution",
+              "points": 4
+            },
+            {
+              "id": "cr-langue",
+              "label": "Correction et richesse de la langue (compte rendu)",
+              "points": 3
+            }
           ],
           "modelAnswer": "Points attendus : restituer la thèse centrale (ne pas confondre progrès technique et progrès) ; suivre la structure (distinction, exemple du téléphone, refus du rejet de la technique, déplacement vers une question philosophique et politique, identification du danger) ; aucune opinion personnelle ; reformulation complète et fidèle, sans copie."
         },
@@ -107,10 +175,26 @@
           "consigne": "Vous développerez ensuite un point de vue personnel, nuancé et argumenté sur la question : « Tout progrès technique est-il un progrès pour l'humanité ? » Vous le défendrez dans un débat avec l'examinateur. (environ 15 minutes)",
           "points": 22,
           "rubric": [
-            { "id": "pv-developpe", "label": "Point de vue personnel développé et argumenté", "points": 6 },
-            { "id": "pv-defendre", "label": "Capacité à défendre, nuancer et réagir dans le débat", "points": 6 },
-            { "id": "pv-langue", "label": "Richesse et précision de la langue", "points": 6 },
-            { "id": "pv-aisance", "label": "Aisance, fluidité et interaction", "points": 4 }
+            {
+              "id": "pv-developpe",
+              "label": "Point de vue personnel développé et argumenté",
+              "points": 6
+            },
+            {
+              "id": "pv-defendre",
+              "label": "Capacité à défendre, nuancer et réagir dans le débat",
+              "points": 6
+            },
+            {
+              "id": "pv-langue",
+              "label": "Richesse et précision de la langue",
+              "points": 6
+            },
+            {
+              "id": "pv-aisance",
+              "label": "Aisance, fluidité et interaction",
+              "points": 4
+            }
           ],
           "modelAnswer": "Points attendus : une position personnelle claire et nuancée, illustrée d'exemples variés et pertinents ; une argumentation organisée qui dépasse l'opposition simpliste ; la capacité à concéder, à objecter et à relancer face à l'examinateur ; un lexique abstrait précis, une syntaxe complexe et maîtrisée, un discours fluide proche du locuteur natif cultivé."
         }
@@ -135,55 +219,110 @@
               "id": "ec-q1",
               "prompt": "Que vénère notre époque, selon le document 1 ?",
               "options": [
-                { "id": "a", "text": "La vitesse et l'immédiateté" },
-                { "id": "b", "text": "La lenteur et la patience" },
-                { "id": "c", "text": "Le silence et la solitude" }
+                {
+                  "id": "a",
+                  "text": "La vitesse et l'immédiateté"
+                },
+                {
+                  "id": "b",
+                  "text": "La lenteur et la patience"
+                },
+                {
+                  "id": "c",
+                  "text": "Le silence et la solitude"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             },
             {
               "id": "ec-q2",
               "prompt": "Comment la lenteur est-elle désormais perçue, selon le document 1 ?",
               "options": [
-                { "id": "a", "text": "Comme suspecte, presque une faute" },
-                { "id": "b", "text": "Comme la plus haute des qualités" },
-                { "id": "c", "text": "Comme un luxe réservé aux riches" }
+                {
+                  "id": "a",
+                  "text": "Comme suspecte, presque une faute"
+                },
+                {
+                  "id": "b",
+                  "text": "Comme la plus haute des qualités"
+                },
+                {
+                  "id": "c",
+                  "text": "Comme un luxe réservé aux riches"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             },
             {
               "id": "ec-q3",
               "prompt": "Quel mouvement le document 2 décrit-il ?",
               "options": [
-                { "id": "a", "text": "La réhabilitation de la lenteur (slow food, slow life…)" },
-                { "id": "b", "text": "Un retour à une vitesse encore plus grande" },
-                { "id": "c", "text": "La disparition du tourisme" }
+                {
+                  "id": "a",
+                  "text": "La réhabilitation de la lenteur (slow food, slow life…)"
+                },
+                {
+                  "id": "b",
+                  "text": "Un retour à une vitesse encore plus grande"
+                },
+                {
+                  "id": "c",
+                  "text": "La disparition du tourisme"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             },
             {
               "id": "ec-q4",
               "prompt": "Au nom de quoi ce mouvement défend-il la lenteur ?",
               "options": [
-                { "id": "a", "text": "Par lucidité : certaines choses ne s'accélèrent pas sans s'abîmer" },
-                { "id": "b", "text": "Par simple nostalgie du passé" },
-                { "id": "c", "text": "Pour gagner davantage d'argent" }
+                {
+                  "id": "a",
+                  "text": "Par lucidité : certaines choses ne s'accélèrent pas sans s'abîmer"
+                },
+                {
+                  "id": "b",
+                  "text": "Par simple nostalgie du passé"
+                },
+                {
+                  "id": "c",
+                  "text": "Pour gagner davantage d'argent"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 4
             },
             {
               "id": "ec-q5",
               "prompt": "Quelle tension les deux documents mettent-ils en lumière ?",
               "options": [
-                { "id": "a", "text": "Entre le culte de la vitesse et la valeur de la lenteur" },
-                { "id": "b", "text": "Entre la ville et la campagne" },
-                { "id": "c", "text": "Entre le travail et les loisirs" }
+                {
+                  "id": "a",
+                  "text": "Entre le culte de la vitesse et la valeur de la lenteur"
+                },
+                {
+                  "id": "b",
+                  "text": "Entre la ville et la campagne"
+                },
+                {
+                  "id": "c",
+                  "text": "Entre le travail et les loisirs"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             }
           ]
@@ -198,12 +337,36 @@
           "minWords": 600,
           "points": 34,
           "rubric": [
-            { "id": "ec-consigne", "label": "Respect de la consigne (genre, longueur, titre)", "points": 4 },
-            { "id": "ec-dossier-expl", "label": "Exploitation pertinente du dossier", "points": 6 },
-            { "id": "ec-argum", "label": "Capacité à argumenter et à structurer une pensée complexe", "points": 8 },
-            { "id": "ec-style", "label": "Registre, ton et style adaptés au genre", "points": 5 },
-            { "id": "ec-lex", "label": "Étendue et précision lexicales", "points": 5 },
-            { "id": "ec-gram", "label": "Correction grammaticale et maîtrise de la langue", "points": 6 }
+            {
+              "id": "ec-consigne",
+              "label": "Respect de la consigne (genre, longueur, titre)",
+              "points": 4
+            },
+            {
+              "id": "ec-dossier-expl",
+              "label": "Exploitation pertinente du dossier",
+              "points": 6
+            },
+            {
+              "id": "ec-argum",
+              "label": "Capacité à argumenter et à structurer une pensée complexe",
+              "points": 8
+            },
+            {
+              "id": "ec-style",
+              "label": "Registre, ton et style adaptés au genre",
+              "points": 5
+            },
+            {
+              "id": "ec-lex",
+              "label": "Étendue et précision lexicales",
+              "points": 5
+            },
+            {
+              "id": "ec-gram",
+              "label": "Correction grammaticale et maîtrise de la langue",
+              "points": 6
+            }
           ],
           "modelAnswer": "Points attendus (≈700 mots) : un titre évocateur ; une introduction qui problématise (la vitesse est-elle un progrès ou un appauvrissement ?) ; un développement structuré qui exploite et dépasse les deux documents (les bénéfices réels de la rapidité ; ce qu'elle nous fait perdre ; une troisième voie : choisir son rythme selon les activités) ; des exemples variés et cultivés ; une conclusion personnelle qui tranche et ouvre. Registre journalistique soutenu, lexique abstrait riche, syntaxe complexe et maîtrisée. Aucune phrase recopiée du dossier."
         }

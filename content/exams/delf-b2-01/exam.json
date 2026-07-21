@@ -25,60 +25,116 @@
           "voice": "denise",
           "listens": 1,
           "transcript": "Bonjour et bienvenue dans notre émission. Aujourd'hui, nous recevons Claire Fontaine, spécialiste du monde du travail, pour parler du télétravail. Claire, le télétravail s'est généralisé ces dernières années. Est-ce une bonne chose ? — C'est une question complexe. D'un côté, le télétravail offre de vrais avantages : on gagne du temps de transport, on a plus de souplesse pour organiser sa journée, et beaucoup de salariés se disent plus concentrés chez eux. — Et de l'autre côté ? — De l'autre côté, il y a des risques. Le premier, c'est l'isolement : à force de travailler seul, on perd le contact avec ses collègues, et cela peut peser sur le moral. Le deuxième risque, c'est que la frontière entre vie professionnelle et vie privée devient floue. Quand le bureau est dans le salon, on a parfois du mal à s'arrêter. — Que conseillez-vous, alors ? — Je conseille un équilibre : deux ou trois jours de télétravail par semaine, et le reste au bureau. C'est ce qu'on appelle le travail hybride, et c'est probablement l'avenir. — Et pour les entreprises ? — Les entreprises y gagnent aussi : des bureaux plus petits, donc moins chers, et des salariés souvent plus motivés. Mais elles doivent apprendre à faire confiance, car on ne peut plus surveiller les gens comme avant. — Merci Claire pour cet éclairage.",
+          "transcriptEn": "Hello and welcome to our programme. Today we're joined by Claire Fontaine, a specialist in the world of work, to talk about remote work. Claire, remote work has become widespread in recent years. Is that a good thing? — It's a complex question. On one hand, remote work offers real advantages: you save commuting time, you have more flexibility to organise your day, and many employees say they're more focused at home. — And on the other hand? — On the other hand, there are risks. The first is isolation: working alone all the time, you lose contact with your colleagues, and that can weigh on morale. The second risk is that the boundary between work life and private life becomes blurred. When the office is in the living room, it's sometimes hard to stop. — What do you advise, then? — I advise balance: two or three days of remote work per week, and the rest at the office. That's what we call hybrid work, and it's probably the future. — And for companies? — Companies gain too: smaller offices, therefore cheaper, and often more motivated employees. But they have to learn to trust, because you can no longer watch over people the way you used to. — Thank you, Claire, for these insights.",
           "questions": [
             {
               "id": "co1-q1",
               "prompt": "Quel est le sujet de l'émission ?",
               "options": [
-                { "id": "a", "text": "Le télétravail" },
-                { "id": "b", "text": "Le chômage des jeunes" },
-                { "id": "c", "text": "L'augmentation des salaires" }
+                {
+                  "id": "a",
+                  "text": "Le télétravail"
+                },
+                {
+                  "id": "b",
+                  "text": "Le chômage des jeunes"
+                },
+                {
+                  "id": "c",
+                  "text": "L'augmentation des salaires"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             },
             {
               "id": "co1-q2",
               "prompt": "Quel avantage du télétravail est cité ?",
               "options": [
-                { "id": "a", "text": "On gagne du temps de transport" },
-                { "id": "b", "text": "On gagne plus d'argent" },
-                { "id": "c", "text": "On travaille beaucoup moins d'heures" }
+                {
+                  "id": "a",
+                  "text": "On gagne du temps de transport"
+                },
+                {
+                  "id": "b",
+                  "text": "On gagne plus d'argent"
+                },
+                {
+                  "id": "c",
+                  "text": "On travaille beaucoup moins d'heures"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             },
             {
               "id": "co1-q3",
               "prompt": "Quel est le premier risque mentionné ?",
               "options": [
-                { "id": "a", "text": "L'isolement" },
-                { "id": "b", "text": "Le bruit" },
-                { "id": "c", "text": "La fatigue physique" }
+                {
+                  "id": "a",
+                  "text": "L'isolement"
+                },
+                {
+                  "id": "b",
+                  "text": "Le bruit"
+                },
+                {
+                  "id": "c",
+                  "text": "La fatigue physique"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             },
             {
               "id": "co1-q4",
               "prompt": "Pourquoi la frontière vie pro / vie privée devient-elle floue ?",
               "options": [
-                { "id": "a", "text": "Parce que le bureau est à la maison" },
-                { "id": "b", "text": "Parce qu'on travaille la nuit" },
-                { "id": "c", "text": "Parce qu'on change souvent d'emploi" }
+                {
+                  "id": "a",
+                  "text": "Parce que le bureau est à la maison"
+                },
+                {
+                  "id": "b",
+                  "text": "Parce qu'on travaille la nuit"
+                },
+                {
+                  "id": "c",
+                  "text": "Parce qu'on change souvent d'emploi"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             },
             {
               "id": "co1-q5",
               "prompt": "Que conseille la spécialiste ?",
               "options": [
-                { "id": "a", "text": "Un équilibre : le travail hybride" },
-                { "id": "b", "text": "Le télétravail à temps complet" },
-                { "id": "c", "text": "Le retour total au bureau" }
+                {
+                  "id": "a",
+                  "text": "Un équilibre : le travail hybride"
+                },
+                {
+                  "id": "b",
+                  "text": "Le télétravail à temps complet"
+                },
+                {
+                  "id": "c",
+                  "text": "Le retour total au bureau"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             }
           ]
@@ -90,27 +146,50 @@
           "voice": "henri",
           "listens": 2,
           "transcript": "Bonjour à tous, ici la mairie. À partir du mois prochain, la collecte des déchets change. Les poubelles jaunes, destinées au recyclage, seront ramassées le mardi, et non plus le vendredi. Pensez à les sortir la veille au soir. Pour toute question, appelez notre numéro vert gratuit. Merci de votre participation.",
+          "transcriptEn": "Hello everyone, this is the town hall. Starting next month, waste collection is changing. The yellow bins, for recycling, will be collected on Tuesdays, no longer on Fridays. Remember to put them out the night before. For any questions, call our free helpline. Thank you for taking part.",
           "questions": [
             {
               "id": "co2-q1",
               "prompt": "Qu'est-ce qui change le mois prochain ?",
               "options": [
-                { "id": "a", "text": "Le jour de collecte des poubelles jaunes" },
-                { "id": "b", "text": "Le prix de la collecte" },
-                { "id": "c", "text": "La couleur des poubelles" }
+                {
+                  "id": "a",
+                  "text": "Le jour de collecte des poubelles jaunes"
+                },
+                {
+                  "id": "b",
+                  "text": "Le prix de la collecte"
+                },
+                {
+                  "id": "c",
+                  "text": "La couleur des poubelles"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             },
             {
               "id": "co2-q2",
               "prompt": "Quel est le nouveau jour de collecte ?",
               "options": [
-                { "id": "a", "text": "Le mardi" },
-                { "id": "b", "text": "Le vendredi" },
-                { "id": "c", "text": "Le lundi" }
+                {
+                  "id": "a",
+                  "text": "Le mardi"
+                },
+                {
+                  "id": "b",
+                  "text": "Le vendredi"
+                },
+                {
+                  "id": "c",
+                  "text": "Le lundi"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             }
           ]
@@ -122,27 +201,50 @@
           "voice": "henri",
           "listens": 2,
           "transcript": "— Tu lis encore des livres papier, toi ? — Oui, et j'assume ! Je sais que la liseuse électronique est pratique, surtout en voyage, mais rien ne remplace le plaisir de tourner les pages. — Moi, c'est l'inverse : avec ma liseuse, j'ai cent livres dans mon sac et ça ne pèse rien. — Chacun ses goûts ! L'important, c'est de lire, non ? — Là-dessus, on est entièrement d'accord.",
+          "transcriptEn": "— You still read paper books, do you? — Yes, and proudly! I know the e-reader is practical, especially when travelling, but nothing replaces the pleasure of turning pages. — For me it's the opposite: with my e-reader I have a hundred books in my bag and it weighs nothing. — To each their own! The important thing is to read, no? — On that, we completely agree.",
           "questions": [
             {
               "id": "co3-q1",
               "prompt": "Que préfère la première personne ?",
               "options": [
-                { "id": "a", "text": "Les livres papier" },
-                { "id": "b", "text": "Les liseuses électroniques" },
-                { "id": "c", "text": "Les livres audio" }
+                {
+                  "id": "a",
+                  "text": "Les livres papier"
+                },
+                {
+                  "id": "b",
+                  "text": "Les liseuses électroniques"
+                },
+                {
+                  "id": "c",
+                  "text": "Les livres audio"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             },
             {
               "id": "co3-q2",
               "prompt": "Sur quoi les deux personnes sont-elles d'accord ?",
               "options": [
-                { "id": "a", "text": "L'important, c'est de lire" },
-                { "id": "b", "text": "Le papier est toujours meilleur" },
-                { "id": "c", "text": "La liseuse est inutile" }
+                {
+                  "id": "a",
+                  "text": "L'important, c'est de lire"
+                },
+                {
+                  "id": "b",
+                  "text": "Le papier est toujours meilleur"
+                },
+                {
+                  "id": "c",
+                  "text": "La liseuse est inutile"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             }
           ]
@@ -170,55 +272,110 @@
               "id": "ce1-q1",
               "prompt": "Quel est le sujet de l'article ?",
               "options": [
-                { "id": "a", "text": "Les jardins partagés en ville" },
-                { "id": "b", "text": "Les grandes fermes à la campagne" },
-                { "id": "c", "text": "Les parcs nationaux" }
+                {
+                  "id": "a",
+                  "text": "Les jardins partagés en ville"
+                },
+                {
+                  "id": "b",
+                  "text": "Les grandes fermes à la campagne"
+                },
+                {
+                  "id": "c",
+                  "text": "Les parcs nationaux"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             },
             {
               "id": "ce1-q2",
               "prompt": "Qui prête souvent le terrain ?",
               "options": [
-                { "id": "a", "text": "La mairie" },
-                { "id": "b", "text": "Les supermarchés" },
-                { "id": "c", "text": "Les agriculteurs" }
+                {
+                  "id": "a",
+                  "text": "La mairie"
+                },
+                {
+                  "id": "b",
+                  "text": "Les supermarchés"
+                },
+                {
+                  "id": "c",
+                  "text": "Les agriculteurs"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             },
             {
               "id": "ce1-q3",
               "prompt": "Quel bénéfice social l'article met-il en avant ?",
               "options": [
-                { "id": "a", "text": "Ils créent du lien entre voisins" },
-                { "id": "b", "text": "Ils rapportent beaucoup d'argent" },
-                { "id": "c", "text": "Ils remplacent les magasins" }
+                {
+                  "id": "a",
+                  "text": "Ils créent du lien entre voisins"
+                },
+                {
+                  "id": "b",
+                  "text": "Ils rapportent beaucoup d'argent"
+                },
+                {
+                  "id": "c",
+                  "text": "Ils remplacent les magasins"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             },
             {
               "id": "ce1-q4",
               "prompt": "Quel rôle écologique jouent ces jardins ?",
               "options": [
-                { "id": "a", "text": "Ils rafraîchissent la ville et accueillent la faune" },
-                { "id": "b", "text": "Ils produisent de l'électricité" },
-                { "id": "c", "text": "Ils nettoient l'eau de la ville" }
+                {
+                  "id": "a",
+                  "text": "Ils rafraîchissent la ville et accueillent la faune"
+                },
+                {
+                  "id": "b",
+                  "text": "Ils produisent de l'électricité"
+                },
+                {
+                  "id": "c",
+                  "text": "Ils nettoient l'eau de la ville"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             },
             {
               "id": "ce1-q5",
               "prompt": "Quel est leur seul véritable défaut ?",
               "options": [
-                { "id": "a", "text": "Le manque de place" },
-                { "id": "b", "text": "Le coût très élevé" },
-                { "id": "c", "text": "Le manque d'intérêt des habitants" }
+                {
+                  "id": "a",
+                  "text": "Le manque de place"
+                },
+                {
+                  "id": "b",
+                  "text": "Le coût très élevé"
+                },
+                {
+                  "id": "c",
+                  "text": "Le manque d'intérêt des habitants"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             }
           ]
@@ -232,55 +389,110 @@
               "id": "ce2-q1",
               "prompt": "Quel est le sujet de l'article ?",
               "options": [
-                { "id": "a", "text": "L'influence des influenceurs sur les réseaux sociaux" },
-                { "id": "b", "text": "La création d'un réseau social" },
-                { "id": "c", "text": "La publicité à la télévision" }
+                {
+                  "id": "a",
+                  "text": "L'influence des influenceurs sur les réseaux sociaux"
+                },
+                {
+                  "id": "b",
+                  "text": "La création d'un réseau social"
+                },
+                {
+                  "id": "c",
+                  "text": "La publicité à la télévision"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             },
             {
               "id": "ce2-q2",
               "prompt": "Quel aspect positif l'article mentionne-t-il ?",
               "options": [
-                { "id": "a", "text": "Ils défendent parfois des causes utiles" },
-                { "id": "b", "text": "Ils sont toujours parfaitement sincères" },
-                { "id": "c", "text": "Ils sont tous très riches" }
+                {
+                  "id": "a",
+                  "text": "Ils défendent parfois des causes utiles"
+                },
+                {
+                  "id": "b",
+                  "text": "Ils sont toujours parfaitement sincères"
+                },
+                {
+                  "id": "c",
+                  "text": "Ils sont tous très riches"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             },
             {
               "id": "ce2-q3",
               "prompt": "Quel est le principal reproche fait aux influenceurs ?",
               "options": [
-                { "id": "a", "text": "La publicité cachée" },
-                { "id": "b", "text": "Le manque d'abonnés" },
-                { "id": "c", "text": "Les fautes d'orthographe" }
+                {
+                  "id": "a",
+                  "text": "La publicité cachée"
+                },
+                {
+                  "id": "b",
+                  "text": "Le manque d'abonnés"
+                },
+                {
+                  "id": "c",
+                  "text": "Les fautes d'orthographe"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             },
             {
               "id": "ce2-q4",
               "prompt": "Quel danger psychologique est cité ?",
               "options": [
-                { "id": "a", "text": "La mise en scène de vies parfaites peut nourrir un mal-être" },
-                { "id": "b", "text": "La perte de la mémoire" },
-                { "id": "c", "text": "La fatigue des yeux" }
+                {
+                  "id": "a",
+                  "text": "La mise en scène de vies parfaites peut nourrir un mal-être"
+                },
+                {
+                  "id": "b",
+                  "text": "La perte de la mémoire"
+                },
+                {
+                  "id": "c",
+                  "text": "La fatigue des yeux"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             },
             {
               "id": "ce2-q5",
               "prompt": "Quelle conclusion l'auteur propose-t-il ?",
               "options": [
-                { "id": "a", "text": "Garder son esprit critique" },
-                { "id": "b", "text": "Ne plus suivre personne" },
-                { "id": "c", "text": "Croire tout ce que l'on voit" }
+                {
+                  "id": "a",
+                  "text": "Garder son esprit critique"
+                },
+                {
+                  "id": "b",
+                  "text": "Ne plus suivre personne"
+                },
+                {
+                  "id": "c",
+                  "text": "Croire tout ce que l'on voit"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             }
           ]
@@ -307,16 +519,56 @@
           "minWords": 250,
           "points": 25,
           "rubric": [
-            { "id": "r-consigne", "label": "Respect de la consigne", "points": 2 },
-            { "id": "r-sociol", "label": "Correction sociolinguistique (registre)", "points": 2 },
-            { "id": "r-faits", "label": "Capacité à présenter des faits", "points": 3 },
-            { "id": "r-argumenter", "label": "Capacité à argumenter", "points": 4 },
-            { "id": "r-coherence", "label": "Cohérence et cohésion", "points": 3 },
-            { "id": "r-lex-etendue", "label": "Étendue du vocabulaire", "points": 2 },
-            { "id": "r-lex-maitrise", "label": "Maîtrise du vocabulaire", "points": 2 },
-            { "id": "r-ortho", "label": "Maîtrise de l'orthographe lexicale", "points": 1 },
-            { "id": "r-temps", "label": "Choix des temps et des modes", "points": 2 },
-            { "id": "r-morpho", "label": "Morphosyntaxe", "points": 4 }
+            {
+              "id": "r-consigne",
+              "label": "Respect de la consigne",
+              "points": 2
+            },
+            {
+              "id": "r-sociol",
+              "label": "Correction sociolinguistique (registre)",
+              "points": 2
+            },
+            {
+              "id": "r-faits",
+              "label": "Capacité à présenter des faits",
+              "points": 3
+            },
+            {
+              "id": "r-argumenter",
+              "label": "Capacité à argumenter",
+              "points": 4
+            },
+            {
+              "id": "r-coherence",
+              "label": "Cohérence et cohésion",
+              "points": 3
+            },
+            {
+              "id": "r-lex-etendue",
+              "label": "Étendue du vocabulaire",
+              "points": 2
+            },
+            {
+              "id": "r-lex-maitrise",
+              "label": "Maîtrise du vocabulaire",
+              "points": 2
+            },
+            {
+              "id": "r-ortho",
+              "label": "Maîtrise de l'orthographe lexicale",
+              "points": 1
+            },
+            {
+              "id": "r-temps",
+              "label": "Choix des temps et des modes",
+              "points": 2
+            },
+            {
+              "id": "r-morpho",
+              "label": "Morphosyntaxe",
+              "points": 4
+            }
           ],
           "modelAnswer": "Points attendus (≈250-280 mots) : une introduction qui reformule le sujet et annonce la position ; un développement nuancé qui présente plusieurs points de vue (les habitants gagnent en tranquillité et en air pur ; les commerçants craignent de perdre des clients ; les visiteurs s'interrogent sur le stationnement) ; une position personnelle claire mais nuancée (par exemple : favorable au projet, à condition de renforcer les transports en commun et de prévoir des parkings en périphérie) ; une conclusion. Connecteurs argumentatifs riches (certes… mais, d'une part… d'autre part, en effet, toutefois, par conséquent) ; registre adapté à un forum public ; subjonctif et conditionnel maîtrisés."
         }
@@ -342,10 +594,26 @@
           "documentFr": "« Les supermarchés jettent chaque année des tonnes de nourriture encore consommable. Certains proposent désormais de vendre les invendus à petit prix via des applications, plutôt que de les détruire. Mais est-ce vraiment la solution au gaspillage alimentaire ? »",
           "points": 12,
           "rubric": [
-            { "id": "po1-degager", "label": "Peut dégager le problème posé par le document", "points": 3 },
-            { "id": "po1-pdv", "label": "Peut présenter un point de vue construit et illustré", "points": 4 },
-            { "id": "po-ens-lex", "label": "Étendue et maîtrise du lexique — ensemble de l'épreuve", "points": 3 },
-            { "id": "po-ens-phono", "label": "Maîtrise phonologique — ensemble de l'épreuve", "points": 2 }
+            {
+              "id": "po1-degager",
+              "label": "Peut dégager le problème posé par le document",
+              "points": 3
+            },
+            {
+              "id": "po1-pdv",
+              "label": "Peut présenter un point de vue construit et illustré",
+              "points": 4
+            },
+            {
+              "id": "po-ens-lex",
+              "label": "Étendue et maîtrise du lexique — ensemble de l'épreuve",
+              "points": 3
+            },
+            {
+              "id": "po-ens-phono",
+              "label": "Maîtrise phonologique — ensemble de l'épreuve",
+              "points": 2
+            }
           ],
           "modelAnswer": "Points attendus : reformuler la problématique (le gaspillage alimentaire et les solutions possibles) ; annoncer un plan ; présenter un point de vue nuancé avec des arguments et des exemples (les applications anti-gaspillage sont utiles mais ne traitent pas la cause ; il faudrait aussi produire moins et mieux répartir) ; conclure. Discours organisé et fluide."
         },
@@ -356,10 +624,26 @@
           "consigne": "L'examinateur va vous poser des questions et défendre parfois un avis contraire. Défendez votre position, nuancez si nécessaire, et réagissez à ses arguments. (environ 10 minutes)",
           "points": 13,
           "rubric": [
-            { "id": "po2-defendre", "label": "Peut défendre et nuancer son point de vue face aux objections", "points": 4 },
-            { "id": "po2-interagir", "label": "Peut interagir, relancer et réagir spontanément", "points": 3 },
-            { "id": "po-ens-morpho", "label": "Morphosyntaxe — ensemble de l'épreuve", "points": 3 },
-            { "id": "po-ens-aisance", "label": "Aisance et fluidité — ensemble de l'épreuve", "points": 3 }
+            {
+              "id": "po2-defendre",
+              "label": "Peut défendre et nuancer son point de vue face aux objections",
+              "points": 4
+            },
+            {
+              "id": "po2-interagir",
+              "label": "Peut interagir, relancer et réagir spontanément",
+              "points": 3
+            },
+            {
+              "id": "po-ens-morpho",
+              "label": "Morphosyntaxe — ensemble de l'épreuve",
+              "points": 3
+            },
+            {
+              "id": "po-ens-aisance",
+              "label": "Aisance et fluidité — ensemble de l'épreuve",
+              "points": 3
+            }
           ],
           "modelAnswer": "Points attendus : écouter les objections et y répondre précisément ; concéder ce qui est juste (« vous avez raison sur ce point, cependant… ») ; relancer le débat par des questions ; maintenir une position cohérente tout en restant ouvert. Marqueurs d'interaction et d'argumentation maîtrisés."
         }

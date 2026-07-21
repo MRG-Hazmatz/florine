@@ -25,60 +25,116 @@
           "voice": "denise",
           "listens": 1,
           "transcript": "Bonjour, aujourd'hui nous parlons d'engagement avec Amina Cherif, responsable d'une association qui accueille des jeunes en service civique. Amina, qu'est-ce que le service civique ? — C'est un dispositif qui permet à des jeunes de seize à vingt-cinq ans de s'engager pendant plusieurs mois dans une mission d'intérêt général : aider des personnes âgées, protéger l'environnement, accompagner des enfants… — Et ils sont payés ? — Ils reçoivent une petite indemnité, oui, mais ce n'est pas un emploi : c'est avant tout un engagement citoyen. — Quel est l'intérêt pour ces jeunes ? — Il y en a plusieurs. D'abord, ils se rendent utiles et découvrent la réalité du terrain. Ensuite, ils gagnent en confiance et en expérience, ce qui les aide ensuite à trouver du travail. Beaucoup nous disent que cette mission a changé leur regard sur la société. — Y a-t-il des difficultés ? — Bien sûr. Certains jeunes arrivent sans aucune expérience et il faut les former. Et puis, l'indemnité étant faible, tous ne peuvent pas se le permettre financièrement. — Que faudrait-il améliorer, selon vous ? — Mieux faire connaître le dispositif, car beaucoup de jeunes ignorent encore qu'il existe. — Merci Amina pour votre témoignage.",
+          "transcriptEn": "Hello, today we're talking about civic engagement with Amina Cherif, who runs an association that hosts young people doing civic service. Amina, what is civic service? — It's a scheme that lets young people aged sixteen to twenty-five commit for several months to a mission serving the public interest: helping elderly people, protecting the environment, supporting children… — And are they paid? — They receive a small allowance, yes, but it's not a job: it's above all a civic commitment. — What's in it for these young people? — Several things. First, they make themselves useful and discover the reality on the ground. Then, they gain confidence and experience, which later helps them find work. Many tell us this mission changed the way they look at society. — Are there difficulties? — Of course. Some young people arrive with no experience at all and have to be trained. And since the allowance is small, not everyone can afford it financially. — What should be improved, in your view? — Making the scheme better known, because many young people still don't know it exists. — Thank you, Amina, for your testimony.",
           "questions": [
             {
               "id": "co1-q1",
               "prompt": "Quel est le thème de l'émission ?",
               "options": [
-                { "id": "a", "text": "Le service civique des jeunes" },
-                { "id": "b", "text": "Le chômage des seniors" },
-                { "id": "c", "text": "Les études à l'étranger" }
+                {
+                  "id": "a",
+                  "text": "Le service civique des jeunes"
+                },
+                {
+                  "id": "b",
+                  "text": "Le chômage des seniors"
+                },
+                {
+                  "id": "c",
+                  "text": "Les études à l'étranger"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             },
             {
               "id": "co1-q2",
               "prompt": "À qui s'adresse le service civique ?",
               "options": [
-                { "id": "a", "text": "Aux jeunes de 16 à 25 ans" },
-                { "id": "b", "text": "Aux enfants de l'école primaire" },
-                { "id": "c", "text": "Aux retraités" }
+                {
+                  "id": "a",
+                  "text": "Aux jeunes de 16 à 25 ans"
+                },
+                {
+                  "id": "b",
+                  "text": "Aux enfants de l'école primaire"
+                },
+                {
+                  "id": "c",
+                  "text": "Aux retraités"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             },
             {
               "id": "co1-q3",
               "prompt": "Quel intérêt pour les jeunes est mentionné ?",
               "options": [
-                { "id": "a", "text": "Ils gagnent en confiance et en expérience" },
-                { "id": "b", "text": "Ils deviennent rapidement riches" },
-                { "id": "c", "text": "Ils n'ont plus à aller à l'école" }
+                {
+                  "id": "a",
+                  "text": "Ils gagnent en confiance et en expérience"
+                },
+                {
+                  "id": "b",
+                  "text": "Ils deviennent rapidement riches"
+                },
+                {
+                  "id": "c",
+                  "text": "Ils n'ont plus à aller à l'école"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             },
             {
               "id": "co1-q4",
               "prompt": "Quelle difficulté Amina cite-t-elle ?",
               "options": [
-                { "id": "a", "text": "L'indemnité est faible" },
-                { "id": "b", "text": "Les missions sont trop nombreuses" },
-                { "id": "c", "text": "Les jeunes sont trop âgés" }
+                {
+                  "id": "a",
+                  "text": "L'indemnité est faible"
+                },
+                {
+                  "id": "b",
+                  "text": "Les missions sont trop nombreuses"
+                },
+                {
+                  "id": "c",
+                  "text": "Les jeunes sont trop âgés"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             },
             {
               "id": "co1-q5",
               "prompt": "Que faudrait-il améliorer, selon elle ?",
               "options": [
-                { "id": "a", "text": "Mieux faire connaître le dispositif" },
-                { "id": "b", "text": "Augmenter l'âge limite à 40 ans" },
-                { "id": "c", "text": "Supprimer les missions environnementales" }
+                {
+                  "id": "a",
+                  "text": "Mieux faire connaître le dispositif"
+                },
+                {
+                  "id": "b",
+                  "text": "Augmenter l'âge limite à 40 ans"
+                },
+                {
+                  "id": "c",
+                  "text": "Supprimer les missions environnementales"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             }
           ]
@@ -90,27 +146,50 @@
           "voice": "henri",
           "listens": 2,
           "transcript": "Chers visiteurs, bienvenue à la Fête de la Science ! Le grand hall vous propose aujourd'hui des dizaines d'expériences à faire vous-même : fabriquer un volcan, observer les étoiles, comprendre l'électricité. Les ateliers pour enfants ont lieu toutes les heures, à partir de quatorze heures. L'entrée est gratuite pour tous. Bonne découverte !",
+          "transcriptEn": "Dear visitors, welcome to the Science Festival! Today the main hall offers dozens of experiments to try yourself: build a volcano, observe the stars, understand electricity. Children's workshops take place every hour from 2 p.m. Entry is free for everyone. Enjoy your discoveries!",
           "questions": [
             {
               "id": "co2-q1",
               "prompt": "Quel est cet événement ?",
               "options": [
-                { "id": "a", "text": "La Fête de la Science" },
-                { "id": "b", "text": "Un concert de musique" },
-                { "id": "c", "text": "Une exposition de peinture" }
+                {
+                  "id": "a",
+                  "text": "La Fête de la Science"
+                },
+                {
+                  "id": "b",
+                  "text": "Un concert de musique"
+                },
+                {
+                  "id": "c",
+                  "text": "Une exposition de peinture"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             },
             {
               "id": "co2-q2",
               "prompt": "Quand ont lieu les ateliers pour enfants ?",
               "options": [
-                { "id": "a", "text": "Toutes les heures, à partir de 14 h" },
-                { "id": "b", "text": "Le matin uniquement" },
-                { "id": "c", "text": "À midi seulement" }
+                {
+                  "id": "a",
+                  "text": "Toutes les heures, à partir de 14 h"
+                },
+                {
+                  "id": "b",
+                  "text": "Le matin uniquement"
+                },
+                {
+                  "id": "c",
+                  "text": "À midi seulement"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             }
           ]
@@ -122,27 +201,50 @@
           "voice": "henri",
           "listens": 2,
           "transcript": "— Tu sais qu'on va au zoo dimanche avec la classe ? — Ah, moi, les zoos, ça me met mal à l'aise. Voir des animaux enfermés, ce n'est pas naturel. — Je comprends, mais certains zoos protègent des espèces en danger. Sans eux, des animaux auraient déjà disparu. — C'est vrai, mais alors il faudrait au moins leur donner beaucoup plus d'espace. — Là, je suis entièrement d'accord avec toi.",
+          "transcriptEn": "— You know we're going to the zoo on Sunday with the class? — Ah, zoos make me uncomfortable. Seeing animals locked up isn't natural. — I understand, but some zoos protect endangered species. Without them, some animals would already be extinct. — True, but then they should at least be given much more space. — There, I completely agree with you.",
           "questions": [
             {
               "id": "co3-q1",
               "prompt": "Pourquoi la deuxième personne n'aime-t-elle pas les zoos ?",
               "options": [
-                { "id": "a", "text": "Voir des animaux enfermés la met mal à l'aise" },
-                { "id": "b", "text": "Les billets sont trop chers" },
-                { "id": "c", "text": "C'est trop loin de chez elle" }
+                {
+                  "id": "a",
+                  "text": "Voir des animaux enfermés la met mal à l'aise"
+                },
+                {
+                  "id": "b",
+                  "text": "Les billets sont trop chers"
+                },
+                {
+                  "id": "c",
+                  "text": "C'est trop loin de chez elle"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             },
             {
               "id": "co3-q2",
               "prompt": "Sur quoi les deux personnes finissent-elles par être d'accord ?",
               "options": [
-                { "id": "a", "text": "Il faudrait donner plus d'espace aux animaux" },
-                { "id": "b", "text": "Il faut fermer tous les zoos demain" },
-                { "id": "c", "text": "Les zoos actuels sont parfaits" }
+                {
+                  "id": "a",
+                  "text": "Il faudrait donner plus d'espace aux animaux"
+                },
+                {
+                  "id": "b",
+                  "text": "Il faut fermer tous les zoos demain"
+                },
+                {
+                  "id": "c",
+                  "text": "Les zoos actuels sont parfaits"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             }
           ]
@@ -170,55 +272,110 @@
               "id": "ce1-q1",
               "prompt": "À qui l'espace était-il longtemps réservé ?",
               "options": [
-                { "id": "a", "text": "Aux astronautes professionnels" },
-                { "id": "b", "text": "Aux touristes fortunés" },
-                { "id": "c", "text": "Aux militaires uniquement" }
+                {
+                  "id": "a",
+                  "text": "Aux astronautes professionnels"
+                },
+                {
+                  "id": "b",
+                  "text": "Aux touristes fortunés"
+                },
+                {
+                  "id": "c",
+                  "text": "Aux militaires uniquement"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             },
             {
               "id": "ce1-q2",
               "prompt": "Que permettent ces vols touristiques ?",
               "options": [
-                { "id": "a", "text": "Voir la Terre depuis l'espace et flotter en apesanteur" },
-                { "id": "b", "text": "Visiter la Lune pendant une semaine" },
-                { "id": "c", "text": "Vivre plusieurs mois sur Mars" }
+                {
+                  "id": "a",
+                  "text": "Voir la Terre depuis l'espace et flotter en apesanteur"
+                },
+                {
+                  "id": "b",
+                  "text": "Visiter la Lune pendant une semaine"
+                },
+                {
+                  "id": "c",
+                  "text": "Vivre plusieurs mois sur Mars"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             },
             {
               "id": "ce1-q3",
               "prompt": "Quel bénéfice indirect est mentionné ?",
               "options": [
-                { "id": "a", "text": "Ils font progresser les technologies spatiales" },
-                { "id": "b", "text": "Ils créent des emplois sur la Lune" },
-                { "id": "c", "text": "Ils réduisent la pollution de la Terre" }
+                {
+                  "id": "a",
+                  "text": "Ils font progresser les technologies spatiales"
+                },
+                {
+                  "id": "b",
+                  "text": "Ils créent des emplois sur la Lune"
+                },
+                {
+                  "id": "c",
+                  "text": "Ils réduisent la pollution de la Terre"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             },
             {
               "id": "ce1-q4",
               "prompt": "Quelle critique écologique est faite ?",
               "options": [
-                { "id": "a", "text": "Chaque lancement rejette beaucoup de gaz dans l'atmosphère" },
-                { "id": "b", "text": "Les fusées font trop de bruit" },
-                { "id": "c", "text": "L'espace devient sale" }
+                {
+                  "id": "a",
+                  "text": "Chaque lancement rejette beaucoup de gaz dans l'atmosphère"
+                },
+                {
+                  "id": "b",
+                  "text": "Les fusées font trop de bruit"
+                },
+                {
+                  "id": "c",
+                  "text": "L'espace devient sale"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             },
             {
               "id": "ce1-q5",
               "prompt": "Combien coûte un billet ?",
               "options": [
-                { "id": "a", "text": "Plusieurs centaines de milliers d'euros" },
-                { "id": "b", "text": "Quelques centaines d'euros" },
-                { "id": "c", "text": "Il est offert par les États" }
+                {
+                  "id": "a",
+                  "text": "Plusieurs centaines de milliers d'euros"
+                },
+                {
+                  "id": "b",
+                  "text": "Quelques centaines d'euros"
+                },
+                {
+                  "id": "c",
+                  "text": "Il est offert par les États"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             }
           ]
@@ -232,55 +389,110 @@
               "id": "ce2-q1",
               "prompt": "Quel est le sujet de l'article ?",
               "options": [
-                { "id": "a", "text": "La fermeture des zoos" },
-                { "id": "b", "text": "La construction de nouveaux parcs d'attractions" },
-                { "id": "c", "text": "Le prix des billets de zoo" }
+                {
+                  "id": "a",
+                  "text": "La fermeture des zoos"
+                },
+                {
+                  "id": "b",
+                  "text": "La construction de nouveaux parcs d'attractions"
+                },
+                {
+                  "id": "c",
+                  "text": "Le prix des billets de zoo"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             },
             {
               "id": "ce2-q2",
               "prompt": "Quel argument moral donnent les adversaires des zoos ?",
               "options": [
-                { "id": "a", "text": "Enfermer des animaux sauvages serait une maltraitance" },
-                { "id": "b", "text": "Les zoos coûtent trop cher à l'État" },
-                { "id": "c", "text": "Les zoos sont ennuyeux pour les enfants" }
+                {
+                  "id": "a",
+                  "text": "Enfermer des animaux sauvages serait une maltraitance"
+                },
+                {
+                  "id": "b",
+                  "text": "Les zoos coûtent trop cher à l'État"
+                },
+                {
+                  "id": "c",
+                  "text": "Les zoos sont ennuyeux pour les enfants"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             },
             {
               "id": "ce2-q3",
               "prompt": "Quel rôle positif les défenseurs mettent-ils en avant ?",
               "options": [
-                { "id": "a", "text": "La protection des espèces menacées" },
-                { "id": "b", "text": "La vente de souvenirs" },
-                { "id": "c", "text": "L'organisation de concerts" }
+                {
+                  "id": "a",
+                  "text": "La protection des espèces menacées"
+                },
+                {
+                  "id": "b",
+                  "text": "La vente de souvenirs"
+                },
+                {
+                  "id": "c",
+                  "text": "L'organisation de concerts"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             },
             {
               "id": "ce2-q4",
               "prompt": "Selon l'auteur, tous les zoos…",
               "options": [
-                { "id": "a", "text": "ne se valent pas" },
-                { "id": "b", "text": "sont parfaitement identiques" },
-                { "id": "c", "text": "doivent fermer immédiatement" }
+                {
+                  "id": "a",
+                  "text": "ne se valent pas"
+                },
+                {
+                  "id": "b",
+                  "text": "sont parfaitement identiques"
+                },
+                {
+                  "id": "c",
+                  "text": "doivent fermer immédiatement"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             },
             {
               "id": "ce2-q5",
               "prompt": "Quelle solution l'auteur suggère-t-il ?",
               "options": [
-                { "id": "a", "text": "Exiger partout des standards élevés" },
-                { "id": "b", "text": "Fermer tous les zoos dès demain" },
-                { "id": "c", "text": "Ne rien changer du tout" }
+                {
+                  "id": "a",
+                  "text": "Exiger partout des standards élevés"
+                },
+                {
+                  "id": "b",
+                  "text": "Fermer tous les zoos dès demain"
+                },
+                {
+                  "id": "c",
+                  "text": "Ne rien changer du tout"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             }
           ]
@@ -307,16 +519,56 @@
           "minWords": 250,
           "points": 25,
           "rubric": [
-            { "id": "r-consigne", "label": "Respect de la consigne", "points": 2 },
-            { "id": "r-sociol", "label": "Correction sociolinguistique (registre formel)", "points": 2 },
-            { "id": "r-faits", "label": "Capacité à présenter des faits", "points": 3 },
-            { "id": "r-argumenter", "label": "Capacité à argumenter", "points": 4 },
-            { "id": "r-coherence", "label": "Cohérence et cohésion", "points": 3 },
-            { "id": "r-lex-etendue", "label": "Étendue du vocabulaire", "points": 2 },
-            { "id": "r-lex-maitrise", "label": "Maîtrise du vocabulaire", "points": 2 },
-            { "id": "r-ortho", "label": "Maîtrise de l'orthographe lexicale", "points": 1 },
-            { "id": "r-temps", "label": "Choix des temps et des modes", "points": 2 },
-            { "id": "r-morpho", "label": "Morphosyntaxe", "points": 4 }
+            {
+              "id": "r-consigne",
+              "label": "Respect de la consigne",
+              "points": 2
+            },
+            {
+              "id": "r-sociol",
+              "label": "Correction sociolinguistique (registre formel)",
+              "points": 2
+            },
+            {
+              "id": "r-faits",
+              "label": "Capacité à présenter des faits",
+              "points": 3
+            },
+            {
+              "id": "r-argumenter",
+              "label": "Capacité à argumenter",
+              "points": 4
+            },
+            {
+              "id": "r-coherence",
+              "label": "Cohérence et cohésion",
+              "points": 3
+            },
+            {
+              "id": "r-lex-etendue",
+              "label": "Étendue du vocabulaire",
+              "points": 2
+            },
+            {
+              "id": "r-lex-maitrise",
+              "label": "Maîtrise du vocabulaire",
+              "points": 2
+            },
+            {
+              "id": "r-ortho",
+              "label": "Maîtrise de l'orthographe lexicale",
+              "points": 1
+            },
+            {
+              "id": "r-temps",
+              "label": "Choix des temps et des modes",
+              "points": 2
+            },
+            {
+              "id": "r-morpho",
+              "label": "Morphosyntaxe",
+              "points": 4
+            }
           ],
           "modelAnswer": "Points attendus (≈250-280 mots) : formule d'appel formelle (« Monsieur le Proviseur ») ; introduction qui rappelle le projet et annonce la position ; développement nuancé (avantages : une cantine financée, peut-être de meilleurs repas, moins de coûts pour les familles ; inconvénients : la publicité à l'école, l'influence d'une marque sur les jeunes, la perte d'indépendance de l'établissement) ; position personnelle argumentée (par exemple : refus, ou acceptation sous conditions strictes) ; formule de politesse finale. Registre soutenu, connecteurs riches, morphosyntaxe maîtrisée."
         }
@@ -342,10 +594,26 @@
           "documentFr": "« De plus en plus d'enfants utilisent des écrans avant l'âge de trois ans. Certains spécialistes réclament une interdiction stricte avant cet âge. Mais faut-il légiférer, ou faire confiance aux familles pour encadrer ces usages ? »",
           "points": 12,
           "rubric": [
-            { "id": "po1-degager", "label": "Peut dégager le problème posé par le document", "points": 3 },
-            { "id": "po1-pdv", "label": "Peut présenter un point de vue construit et illustré", "points": 4 },
-            { "id": "po-ens-lex", "label": "Étendue et maîtrise du lexique — ensemble de l'épreuve", "points": 3 },
-            { "id": "po-ens-phono", "label": "Maîtrise phonologique — ensemble de l'épreuve", "points": 2 }
+            {
+              "id": "po1-degager",
+              "label": "Peut dégager le problème posé par le document",
+              "points": 3
+            },
+            {
+              "id": "po1-pdv",
+              "label": "Peut présenter un point de vue construit et illustré",
+              "points": 4
+            },
+            {
+              "id": "po-ens-lex",
+              "label": "Étendue et maîtrise du lexique — ensemble de l'épreuve",
+              "points": 3
+            },
+            {
+              "id": "po-ens-phono",
+              "label": "Maîtrise phonologique — ensemble de l'épreuve",
+              "points": 2
+            }
           ],
           "modelAnswer": "Points attendus : reformuler la problématique (protéger les jeunes enfants vs liberté des familles) ; annoncer un plan ; présenter un point de vue nuancé avec arguments et exemples (les risques pour le développement sont réels, mais une loi serait difficile à appliquer ; mieux vaut informer et accompagner les parents) ; conclure."
         },
@@ -356,10 +624,26 @@
           "consigne": "L'examinateur va vous poser des questions et défendre parfois un avis contraire. Défendez votre position, nuancez si nécessaire, et réagissez à ses arguments. (environ 10 minutes)",
           "points": 13,
           "rubric": [
-            { "id": "po2-defendre", "label": "Peut défendre et nuancer son point de vue face aux objections", "points": 4 },
-            { "id": "po2-interagir", "label": "Peut interagir, relancer et réagir spontanément", "points": 3 },
-            { "id": "po-ens-morpho", "label": "Morphosyntaxe — ensemble de l'épreuve", "points": 3 },
-            { "id": "po-ens-aisance", "label": "Aisance et fluidité — ensemble de l'épreuve", "points": 3 }
+            {
+              "id": "po2-defendre",
+              "label": "Peut défendre et nuancer son point de vue face aux objections",
+              "points": 4
+            },
+            {
+              "id": "po2-interagir",
+              "label": "Peut interagir, relancer et réagir spontanément",
+              "points": 3
+            },
+            {
+              "id": "po-ens-morpho",
+              "label": "Morphosyntaxe — ensemble de l'épreuve",
+              "points": 3
+            },
+            {
+              "id": "po-ens-aisance",
+              "label": "Aisance et fluidité — ensemble de l'épreuve",
+              "points": 3
+            }
           ],
           "modelAnswer": "Points attendus : répondre aux objections avec précision ; concéder puis rebondir ; relancer le débat ; rester cohérent et ouvert. Marqueurs d'argumentation et d'interaction maîtrisés."
         }

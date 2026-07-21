@@ -25,38 +25,72 @@
           "voice": "henri",
           "listens": 2,
           "transcript": "Bonjour, c'est Thomas, ton entraîneur de basket. Petit rappel : le match de dimanche commence à dix heures, et non à onze heures comme d'habitude. Rendez-vous au gymnase à neuf heures trente pour l'échauffement. N'oublie pas ton maillot rouge et une bouteille d'eau. Bon match !",
+          "transcriptEn": "Hello, it's Thomas, your basketball coach. Quick reminder: Sunday's match starts at 10 a.m., not 11 as usual. Meet at the gym at 9:30 for the warm-up. Don't forget your red jersey and a bottle of water. Have a good match!",
           "questions": [
             {
               "id": "co1-q1",
               "prompt": "Qui laisse ce message ?",
               "options": [
-                { "id": "a", "text": "L'entraîneur de basket" },
-                { "id": "b", "text": "Un professeur" },
-                { "id": "c", "text": "Un camarade de classe" }
+                {
+                  "id": "a",
+                  "text": "L'entraîneur de basket"
+                },
+                {
+                  "id": "b",
+                  "text": "Un professeur"
+                },
+                {
+                  "id": "c",
+                  "text": "Un camarade de classe"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             },
             {
               "id": "co1-q2",
               "prompt": "À quelle heure commence le match dimanche ?",
               "options": [
-                { "id": "a", "text": "À 10 h" },
-                { "id": "b", "text": "À 11 h" },
-                { "id": "c", "text": "À 9 h 30" }
+                {
+                  "id": "a",
+                  "text": "À 10 h"
+                },
+                {
+                  "id": "b",
+                  "text": "À 11 h"
+                },
+                {
+                  "id": "c",
+                  "text": "À 9 h 30"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             },
             {
               "id": "co1-q3",
               "prompt": "Que faut-il apporter ?",
               "options": [
-                { "id": "a", "text": "Le maillot rouge et une bouteille d'eau" },
-                { "id": "b", "text": "Des chaussures neuves" },
-                { "id": "c", "text": "Un ballon" }
+                {
+                  "id": "a",
+                  "text": "Le maillot rouge et une bouteille d'eau"
+                },
+                {
+                  "id": "b",
+                  "text": "Des chaussures neuves"
+                },
+                {
+                  "id": "c",
+                  "text": "Un ballon"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             }
           ]
@@ -68,38 +102,72 @@
           "voice": "denise",
           "listens": 2,
           "transcript": "— Tu sais déjà ce que tu veux faire après le lycée ? — Pas vraiment. J'hésite entre des études de médecine et des études d'informatique. — Ah, c'est très différent ! — Oui, mais les deux m'intéressent. La médecine, c'est pour aider les gens. L'informatique, c'est parce que j'adore créer des programmes. — Et tes parents, qu'est-ce qu'ils en pensent ? — Ils me disent de choisir ce qui me rend heureuse.",
+          "transcriptEn": "— Do you already know what you want to do after high school? — Not really. I'm torn between studying medicine and studying computer science. — Ah, those are very different! — Yes, but both interest me. Medicine is about helping people. Computer science is because I love creating programs. — And your parents, what do they think? — They tell me to choose whatever makes me happy.",
           "questions": [
             {
               "id": "co2-q1",
               "prompt": "Entre quelles études la personne hésite-t-elle ?",
               "options": [
-                { "id": "a", "text": "Médecine et informatique" },
-                { "id": "b", "text": "Droit et commerce" },
-                { "id": "c", "text": "Art et sport" }
+                {
+                  "id": "a",
+                  "text": "Médecine et informatique"
+                },
+                {
+                  "id": "b",
+                  "text": "Droit et commerce"
+                },
+                {
+                  "id": "c",
+                  "text": "Art et sport"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             },
             {
               "id": "co2-q2",
               "prompt": "Pourquoi l'informatique l'intéresse-t-elle ?",
               "options": [
-                { "id": "a", "text": "Elle adore créer des programmes" },
-                { "id": "b", "text": "C'est très facile" },
-                { "id": "c", "text": "Ses amis en font" }
+                {
+                  "id": "a",
+                  "text": "Elle adore créer des programmes"
+                },
+                {
+                  "id": "b",
+                  "text": "C'est très facile"
+                },
+                {
+                  "id": "c",
+                  "text": "Ses amis en font"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             },
             {
               "id": "co2-q3",
               "prompt": "Que conseillent ses parents ?",
               "options": [
-                { "id": "a", "text": "De choisir ce qui la rend heureuse" },
-                { "id": "b", "text": "De faire absolument médecine" },
-                { "id": "c", "text": "D'arrêter ses études" }
+                {
+                  "id": "a",
+                  "text": "De choisir ce qui la rend heureuse"
+                },
+                {
+                  "id": "b",
+                  "text": "De faire absolument médecine"
+                },
+                {
+                  "id": "c",
+                  "text": "D'arrêter ses études"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             }
           ]
@@ -111,60 +179,116 @@
           "voice": "denise",
           "listens": 1,
           "transcript": "Bonsoir à tous. Ce soir, nous parlons d'un sujet qui concerne tous les adolescents : le sommeil. Selon les médecins, les jeunes de votre âge ont besoin de huit à dix heures de sommeil par nuit. Pourtant, beaucoup dorment bien moins. La cause principale ? Les écrans. Regarder son téléphone tard le soir empêche le cerveau de se préparer au sommeil. Notre spécialiste, le docteur Morel, donne trois conseils simples. Premièrement, arrêtez les écrans au moins une heure avant de dormir. Deuxièmement, couchez-vous à la même heure chaque soir, même le week-end. Et troisièmement, faites du sport dans la journée, mais pas juste avant de dormir. Bien dormir, rappelle le médecin, c'est mieux apprendre, être de bonne humeur et tomber moins souvent malade. Alors ce soir, posez votre téléphone et fermez les yeux !",
+          "transcriptEn": "Good evening everyone. Tonight we're talking about a subject that concerns every teenager: sleep. According to doctors, young people your age need eight to ten hours of sleep a night. Yet many sleep far less. The main cause? Screens. Looking at your phone late at night stops the brain from preparing for sleep. Our specialist, Dr Morel, gives three simple tips. First, stop screens at least an hour before bed. Second, go to bed at the same time every night, even on weekends. And third, do sport during the day, but not right before sleeping. Sleeping well, the doctor reminds us, means learning better, being in a better mood, and getting sick less often. So tonight, put down your phone and close your eyes!",
           "questions": [
             {
               "id": "co3-q1",
               "prompt": "Quel est le sujet de l'émission ?",
               "options": [
-                { "id": "a", "text": "Le sommeil des adolescents" },
-                { "id": "b", "text": "L'alimentation des sportifs" },
-                { "id": "c", "text": "Les jeux vidéo" }
+                {
+                  "id": "a",
+                  "text": "Le sommeil des adolescents"
+                },
+                {
+                  "id": "b",
+                  "text": "L'alimentation des sportifs"
+                },
+                {
+                  "id": "c",
+                  "text": "Les jeux vidéo"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             },
             {
               "id": "co3-q2",
               "prompt": "Quelle est la cause principale du manque de sommeil ?",
               "options": [
-                { "id": "a", "text": "Les écrans" },
-                { "id": "b", "text": "Le sport" },
-                { "id": "c", "text": "Le bruit de la rue" }
+                {
+                  "id": "a",
+                  "text": "Les écrans"
+                },
+                {
+                  "id": "b",
+                  "text": "Le sport"
+                },
+                {
+                  "id": "c",
+                  "text": "Le bruit de la rue"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             },
             {
               "id": "co3-q3",
               "prompt": "Quel est le premier conseil du médecin ?",
               "options": [
-                { "id": "a", "text": "Arrêter les écrans une heure avant de dormir" },
-                { "id": "b", "text": "Faire du sport juste avant de dormir" },
-                { "id": "c", "text": "Boire un café le soir" }
+                {
+                  "id": "a",
+                  "text": "Arrêter les écrans une heure avant de dormir"
+                },
+                {
+                  "id": "b",
+                  "text": "Faire du sport juste avant de dormir"
+                },
+                {
+                  "id": "c",
+                  "text": "Boire un café le soir"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             },
             {
               "id": "co3-q4",
               "prompt": "Que faut-il faire le week-end ?",
               "options": [
-                { "id": "a", "text": "Se coucher à la même heure que les autres jours" },
-                { "id": "b", "text": "Dormir toute la journée" },
-                { "id": "c", "text": "Veiller très tard" }
+                {
+                  "id": "a",
+                  "text": "Se coucher à la même heure que les autres jours"
+                },
+                {
+                  "id": "b",
+                  "text": "Dormir toute la journée"
+                },
+                {
+                  "id": "c",
+                  "text": "Veiller très tard"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             },
             {
               "id": "co3-q5",
               "prompt": "Selon le médecin, bien dormir permet de…",
               "options": [
-                { "id": "a", "text": "mieux apprendre et être en forme" },
-                { "id": "b", "text": "grandir deux fois plus vite" },
-                { "id": "c", "text": "ne plus jamais être malade" }
+                {
+                  "id": "a",
+                  "text": "mieux apprendre et être en forme"
+                },
+                {
+                  "id": "b",
+                  "text": "grandir deux fois plus vite"
+                },
+                {
+                  "id": "c",
+                  "text": "ne plus jamais être malade"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             }
           ]
@@ -192,55 +316,110 @@
               "id": "ce1-q1",
               "prompt": "À qui s'adresse ce stage ?",
               "options": [
-                { "id": "a", "text": "Aux élèves de troisième" },
-                { "id": "b", "text": "Aux étudiants de l'université" },
-                { "id": "c", "text": "Aux adultes en reconversion" }
+                {
+                  "id": "a",
+                  "text": "Aux élèves de troisième"
+                },
+                {
+                  "id": "b",
+                  "text": "Aux étudiants de l'université"
+                },
+                {
+                  "id": "c",
+                  "text": "Aux adultes en reconversion"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             },
             {
               "id": "ce1-q2",
               "prompt": "Quels métiers va-t-on découvrir ?",
               "options": [
-                { "id": "a", "text": "Les métiers de l'environnement" },
-                { "id": "b", "text": "Les métiers de la cuisine" },
-                { "id": "c", "text": "Les métiers du sport" }
+                {
+                  "id": "a",
+                  "text": "Les métiers de l'environnement"
+                },
+                {
+                  "id": "b",
+                  "text": "Les métiers de la cuisine"
+                },
+                {
+                  "id": "c",
+                  "text": "Les métiers du sport"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             },
             {
               "id": "ce1-q3",
               "prompt": "Qu'est-ce qui est offert pendant le stage ?",
               "options": [
-                { "id": "a", "text": "Le déjeuner" },
-                { "id": "b", "text": "Le transport" },
-                { "id": "c", "text": "Un téléphone" }
+                {
+                  "id": "a",
+                  "text": "Le déjeuner"
+                },
+                {
+                  "id": "b",
+                  "text": "Le transport"
+                },
+                {
+                  "id": "c",
+                  "text": "Un téléphone"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             },
             {
               "id": "ce1-q4",
               "prompt": "Combien de places sont disponibles ?",
               "options": [
-                { "id": "a", "text": "Cinq" },
-                { "id": "b", "text": "Vingt" },
-                { "id": "c", "text": "Dix" }
+                {
+                  "id": "a",
+                  "text": "Cinq"
+                },
+                {
+                  "id": "b",
+                  "text": "Vingt"
+                },
+                {
+                  "id": "c",
+                  "text": "Dix"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             },
             {
               "id": "ce1-q5",
               "prompt": "Que faut-il envoyer avant le 1er décembre ?",
               "options": [
-                { "id": "a", "text": "Une lettre de motivation" },
-                { "id": "b", "text": "Un certificat médical" },
-                { "id": "c", "text": "Un chèque" }
+                {
+                  "id": "a",
+                  "text": "Une lettre de motivation"
+                },
+                {
+                  "id": "b",
+                  "text": "Un certificat médical"
+                },
+                {
+                  "id": "c",
+                  "text": "Un chèque"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             }
           ]
@@ -254,55 +433,110 @@
               "id": "ce2-q1",
               "prompt": "Quel est le sujet de l'article ?",
               "options": [
-                { "id": "a", "text": "La suppression des devoirs à la maison" },
-                { "id": "b", "text": "L'achat de cahiers d'exercices" },
-                { "id": "c", "text": "La durée des cours" }
+                {
+                  "id": "a",
+                  "text": "La suppression des devoirs à la maison"
+                },
+                {
+                  "id": "b",
+                  "text": "L'achat de cahiers d'exercices"
+                },
+                {
+                  "id": "c",
+                  "text": "La durée des cours"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             },
             {
               "id": "ce2-q2",
               "prompt": "Quel argument donnent les défenseurs des devoirs ?",
               "options": [
-                { "id": "a", "text": "Ils permettent de revoir la leçon" },
-                { "id": "b", "text": "Ils sont très amusants" },
-                { "id": "c", "text": "Ils sont obligatoires par la loi" }
+                {
+                  "id": "a",
+                  "text": "Ils permettent de revoir la leçon"
+                },
+                {
+                  "id": "b",
+                  "text": "Ils sont très amusants"
+                },
+                {
+                  "id": "c",
+                  "text": "Ils sont obligatoires par la loi"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             },
             {
               "id": "ce2-q3",
               "prompt": "Quel problème soulignent les opposants ?",
               "options": [
-                { "id": "a", "text": "Les devoirs créent des inégalités" },
-                { "id": "b", "text": "Les devoirs coûtent trop cher" },
-                { "id": "c", "text": "Les devoirs sont trop faciles" }
+                {
+                  "id": "a",
+                  "text": "Les devoirs créent des inégalités"
+                },
+                {
+                  "id": "b",
+                  "text": "Les devoirs coûtent trop cher"
+                },
+                {
+                  "id": "c",
+                  "text": "Les devoirs sont trop faciles"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             },
             {
               "id": "ce2-q4",
               "prompt": "Quel pays est donné en exemple ?",
               "options": [
-                { "id": "a", "text": "La Finlande" },
-                { "id": "b", "text": "L'Espagne" },
-                { "id": "c", "text": "Le Japon" }
+                {
+                  "id": "a",
+                  "text": "La Finlande"
+                },
+                {
+                  "id": "b",
+                  "text": "L'Espagne"
+                },
+                {
+                  "id": "c",
+                  "text": "Le Japon"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             },
             {
               "id": "ce2-q5",
               "prompt": "Selon l'auteur, le vrai problème est…",
               "options": [
-                { "id": "a", "text": "la qualité des devoirs, pas la quantité" },
-                { "id": "b", "text": "le nombre d'élèves par classe" },
-                { "id": "c", "text": "la longueur des vacances" }
+                {
+                  "id": "a",
+                  "text": "la qualité des devoirs, pas la quantité"
+                },
+                {
+                  "id": "b",
+                  "text": "le nombre d'élèves par classe"
+                },
+                {
+                  "id": "c",
+                  "text": "la longueur des vacances"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             }
           ]
@@ -329,16 +563,56 @@
           "minWords": 160,
           "points": 25,
           "rubric": [
-            { "id": "r-consigne", "label": "Respect de la consigne", "points": 2 },
-            { "id": "r-faits", "label": "Capacité à présenter des faits", "points": 4 },
-            { "id": "r-pensee", "label": "Capacité à exprimer sa pensée", "points": 4 },
-            { "id": "r-coherence", "label": "Cohérence et cohésion", "points": 3 },
-            { "id": "r-lex-etendue", "label": "Étendue du vocabulaire", "points": 2 },
-            { "id": "r-lex-maitrise", "label": "Maîtrise du vocabulaire", "points": 2 },
-            { "id": "r-ortho", "label": "Maîtrise de l'orthographe lexicale", "points": 2 },
-            { "id": "r-phrases", "label": "Degré d'élaboration des phrases", "points": 2 },
-            { "id": "r-temps", "label": "Choix des temps et des modes", "points": 2 },
-            { "id": "r-morpho", "label": "Morphosyntaxe — orthographe grammaticale", "points": 2 }
+            {
+              "id": "r-consigne",
+              "label": "Respect de la consigne",
+              "points": 2
+            },
+            {
+              "id": "r-faits",
+              "label": "Capacité à présenter des faits",
+              "points": 4
+            },
+            {
+              "id": "r-pensee",
+              "label": "Capacité à exprimer sa pensée",
+              "points": 4
+            },
+            {
+              "id": "r-coherence",
+              "label": "Cohérence et cohésion",
+              "points": 3
+            },
+            {
+              "id": "r-lex-etendue",
+              "label": "Étendue du vocabulaire",
+              "points": 2
+            },
+            {
+              "id": "r-lex-maitrise",
+              "label": "Maîtrise du vocabulaire",
+              "points": 2
+            },
+            {
+              "id": "r-ortho",
+              "label": "Maîtrise de l'orthographe lexicale",
+              "points": 2
+            },
+            {
+              "id": "r-phrases",
+              "label": "Degré d'élaboration des phrases",
+              "points": 2
+            },
+            {
+              "id": "r-temps",
+              "label": "Choix des temps et des modes",
+              "points": 2
+            },
+            {
+              "id": "r-morpho",
+              "label": "Morphosyntaxe — orthographe grammaticale",
+              "points": 2
+            }
           ],
           "modelAnswer": "Modèle (≈170 mots) :\n\nUN LYCÉE PLUS VERT, C'EST POSSIBLE !\n\nNotre lycée pourrait facilement devenir plus écologique, et chacun a un rôle à jouer.\n\nPremièrement, je propose d'installer des poubelles de tri dans chaque salle. Aujourd'hui, tout part à la même poubelle : c'est dommage. Avec le tri, nous pourrions recycler le papier et le plastique.\n\nDeuxièmement, la cantine gaspille beaucoup de nourriture. On pourrait demander aux élèves la veille s'ils mangent à la cantine, pour préparer la bonne quantité.\n\nEnfin, pourquoi ne pas créer un jardin potager ? Les élèves volontaires y cultiveraient des légumes, utilisés ensuite à la cantine. Ce serait à la fois écologique et éducatif.\n\nCes idées sont importantes car elles nous apprennent à respecter la nature dès le lycée. Et de petits gestes, multipliés par mille élèves, font une grande différence.\n\nÀ nous de jouer !\n\nPoints attendus : au moins deux propositions concrètes ; une justification pour chacune ; structure claire (titre, connecteurs) ; ton adapté à un article."
         }
@@ -363,10 +637,26 @@
           "consigne": "Présentez-vous : parlez de votre personnalité, de vos qualités et de vos défauts, de vos matières préférées et de la profession que vous aimeriez exercer plus tard. (2 à 3 minutes)",
           "points": 9,
           "rubric": [
-            { "id": "po1-soi", "label": "Peut parler de soi avec une certaine aisance", "points": 2 },
-            { "id": "po1-reagir", "label": "Peut répondre et réagir aux questions", "points": 2 },
-            { "id": "po-ens-lex", "label": "Lexique (étendue et maîtrise) — ensemble de l'épreuve", "points": 3 },
-            { "id": "po-ens-phono", "label": "Maîtrise du système phonologique — ensemble de l'épreuve", "points": 2 }
+            {
+              "id": "po1-soi",
+              "label": "Peut parler de soi avec une certaine aisance",
+              "points": 2
+            },
+            {
+              "id": "po1-reagir",
+              "label": "Peut répondre et réagir aux questions",
+              "points": 2
+            },
+            {
+              "id": "po-ens-lex",
+              "label": "Lexique (étendue et maîtrise) — ensemble de l'épreuve",
+              "points": 3
+            },
+            {
+              "id": "po-ens-phono",
+              "label": "Maîtrise du système phonologique — ensemble de l'épreuve",
+              "points": 2
+            }
           ],
           "modelAnswer": "Points attendus : décrire sa personnalité (qualités, défauts) ; parler de ses matières préférées ; évoquer un métier souhaité avec une raison ; développer les réponses."
         },
@@ -377,10 +667,26 @@
           "consigne": "Sujet : Avec un(e) camarade (joué(e) par l'examinateur), vous devez organiser la fête de fin d'année de votre classe avec un petit budget. Vous discutez du lieu, de la nourriture et des activités, et vous vous mettez d'accord. (3 à 4 minutes)",
           "points": 8,
           "rubric": [
-            { "id": "po2-situation", "label": "Peut faire face à la situation proposée", "points": 2 },
-            { "id": "po2-negocier", "label": "Peut proposer, discuter et se mettre d'accord", "points": 2 },
-            { "id": "po-ens-morpho", "label": "Morphosyntaxe — ensemble de l'épreuve", "points": 2 },
-            { "id": "po-ens-coh", "label": "Cohérence et fluidité — ensemble de l'épreuve", "points": 2 }
+            {
+              "id": "po2-situation",
+              "label": "Peut faire face à la situation proposée",
+              "points": 2
+            },
+            {
+              "id": "po2-negocier",
+              "label": "Peut proposer, discuter et se mettre d'accord",
+              "points": 2
+            },
+            {
+              "id": "po-ens-morpho",
+              "label": "Morphosyntaxe — ensemble de l'épreuve",
+              "points": 2
+            },
+            {
+              "id": "po-ens-coh",
+              "label": "Cohérence et fluidité — ensemble de l'épreuve",
+              "points": 2
+            }
           ],
           "modelAnswer": "Points attendus : faire des propositions (« on pourrait… », « et si on… ») ; tenir compte du budget ; réagir aux idées de l'autre ; arriver à une décision commune."
         },
@@ -392,9 +698,21 @@
           "documentFr": "« Le sport devrait être obligatoire tous les jours à l'école. »",
           "points": 8,
           "rubric": [
-            { "id": "po3-pdv", "label": "Peut présenter et défendre un point de vue", "points": 3 },
-            { "id": "po3-relier", "label": "Peut relier ses idées de façon cohérente", "points": 2 },
-            { "id": "po-ens-lex2", "label": "Richesse et correction de la langue — ensemble de l'épreuve", "points": 3 }
+            {
+              "id": "po3-pdv",
+              "label": "Peut présenter et défendre un point de vue",
+              "points": 3
+            },
+            {
+              "id": "po3-relier",
+              "label": "Peut relier ses idées de façon cohérente",
+              "points": 2
+            },
+            {
+              "id": "po-ens-lex2",
+              "label": "Richesse et correction de la langue — ensemble de l'épreuve",
+              "points": 3
+            }
           ],
           "modelAnswer": "Points attendus : annoncer sa position ; donner deux ou trois arguments illustrés (santé, concentration, fatigue) ; envisager l'avis contraire ; conclure. Connecteurs logiques variés."
         }

@@ -25,38 +25,72 @@
           "voice": "denise",
           "listens": 2,
           "transcript": "Salut, c'est Léa ! Je t'appelle parce que samedi, on organise une sortie au parc d'attractions avec toute la classe. Rendez-vous à neuf heures devant le collège. N'oublie pas ta casquette, il va faire très chaud. Et surtout, préviens-moi avant vendredi soir si tu viens, parce que je dois réserver les billets à l'avance. Allez, à bientôt, j'espère que tu seras là !",
+          "transcriptEn": "Hi, it's Léa! I'm calling because on Saturday we're organising an outing to the amusement park with the whole class. Meet at 9 a.m. in front of the school. Don't forget your cap, it's going to be very hot. And above all, let me know before Friday evening if you're coming, because I have to book the tickets in advance. See you soon, I hope you'll be there!",
           "questions": [
             {
               "id": "co1-q1",
               "prompt": "Pourquoi Léa téléphone-t-elle ?",
               "options": [
-                { "id": "a", "text": "Pour inviter à une sortie" },
-                { "id": "b", "text": "Pour annuler un rendez-vous" },
-                { "id": "c", "text": "Pour emprunter une casquette" }
+                {
+                  "id": "a",
+                  "text": "Pour inviter à une sortie"
+                },
+                {
+                  "id": "b",
+                  "text": "Pour annuler un rendez-vous"
+                },
+                {
+                  "id": "c",
+                  "text": "Pour emprunter une casquette"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             },
             {
               "id": "co1-q2",
               "prompt": "À quelle heure est le rendez-vous ?",
               "options": [
-                { "id": "a", "text": "À 8 heures" },
-                { "id": "b", "text": "À 9 heures" },
-                { "id": "c", "text": "À 10 heures" }
+                {
+                  "id": "a",
+                  "text": "À 8 heures"
+                },
+                {
+                  "id": "b",
+                  "text": "À 9 heures"
+                },
+                {
+                  "id": "c",
+                  "text": "À 10 heures"
+                }
               ],
-              "correct": ["b"],
+              "correct": [
+                "b"
+              ],
               "points": 2
             },
             {
               "id": "co1-q3",
               "prompt": "Que faut-il faire avant vendredi soir ?",
               "options": [
-                { "id": "a", "text": "Acheter un billet" },
-                { "id": "b", "text": "Apporter une casquette" },
-                { "id": "c", "text": "Confirmer sa présence" }
+                {
+                  "id": "a",
+                  "text": "Acheter un billet"
+                },
+                {
+                  "id": "b",
+                  "text": "Apporter une casquette"
+                },
+                {
+                  "id": "c",
+                  "text": "Confirmer sa présence"
+                }
               ],
-              "correct": ["c"],
+              "correct": [
+                "c"
+              ],
               "points": 2
             }
           ]
@@ -68,38 +102,72 @@
           "voice": "henri",
           "listens": 2,
           "transcript": "— Bonjour, je voudrais m'inscrire à un atelier pour les vacances. — Très bien ! Nous proposons trois ateliers : théâtre, photographie et cuisine. Lequel t'intéresse ? — J'hésite un peu, mais je crois que je préfère la photographie. — Excellent choix. L'atelier a lieu le mardi et le jeudi, de quatorze heures à seize heures. Il coûte vingt euros pour les deux semaines. — Parfait. Est-ce qu'il faut apporter un appareil photo ? — Non, le matériel est fourni. Apporte simplement une clé USB pour enregistrer tes photos.",
+          "transcriptEn": "— Hello, I'd like to sign up for a holiday workshop. — Great! We offer three workshops: theatre, photography and cooking. Which one interests you? — I'm hesitating a bit, but I think I prefer photography. — Excellent choice. The workshop takes place on Tuesdays and Thursdays, from 2 to 4 p.m. It costs twenty euros for the two weeks. — Perfect. Do I need to bring a camera? — No, the equipment is provided. Just bring a USB stick to save your photos.",
           "questions": [
             {
               "id": "co2-q1",
               "prompt": "Quel atelier le jeune choisit-il ?",
               "options": [
-                { "id": "a", "text": "Le théâtre" },
-                { "id": "b", "text": "La photographie" },
-                { "id": "c", "text": "La cuisine" }
+                {
+                  "id": "a",
+                  "text": "Le théâtre"
+                },
+                {
+                  "id": "b",
+                  "text": "La photographie"
+                },
+                {
+                  "id": "c",
+                  "text": "La cuisine"
+                }
               ],
-              "correct": ["b"],
+              "correct": [
+                "b"
+              ],
               "points": 2
             },
             {
               "id": "co2-q2",
               "prompt": "Quand l'atelier a-t-il lieu ?",
               "options": [
-                { "id": "a", "text": "Le lundi et le mercredi" },
-                { "id": "b", "text": "Tous les jours" },
-                { "id": "c", "text": "Le mardi et le jeudi" }
+                {
+                  "id": "a",
+                  "text": "Le lundi et le mercredi"
+                },
+                {
+                  "id": "b",
+                  "text": "Tous les jours"
+                },
+                {
+                  "id": "c",
+                  "text": "Le mardi et le jeudi"
+                }
               ],
-              "correct": ["c"],
+              "correct": [
+                "c"
+              ],
               "points": 2
             },
             {
               "id": "co2-q3",
               "prompt": "Que doit apporter le participant ?",
               "options": [
-                { "id": "a", "text": "Une clé USB" },
-                { "id": "b", "text": "Un appareil photo" },
-                { "id": "c", "text": "De l'argent supplémentaire" }
+                {
+                  "id": "a",
+                  "text": "Une clé USB"
+                },
+                {
+                  "id": "b",
+                  "text": "Un appareil photo"
+                },
+                {
+                  "id": "c",
+                  "text": "De l'argent supplémentaire"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             }
           ]
@@ -111,60 +179,116 @@
           "voice": "denise",
           "listens": 1,
           "transcript": "Aujourd'hui dans notre émission, nous parlons des habitudes de lecture des adolescents. Selon une étude récente, les jeunes lisent moins de livres papier qu'avant, mais ils lisent énormément sur leurs écrans : articles, bandes dessinées numériques, et même des romans sur leur téléphone. La sociologue Camille Renaud explique que ce n'est pas la lecture qui disparaît, mais sa forme qui change. Elle conseille aux parents de ne pas interdire les écrans, mais d'encourager la curiosité. Par exemple, si un adolescent aime une série, on peut lui proposer le livre qui l'a inspirée. Beaucoup de bibliothèques organisent aussi des clubs de lecture où les jeunes échangent leurs coups de cœur. L'important, conclut la spécialiste, c'est de lire avec plaisir, peu importe le support.",
+          "transcriptEn": "Today on our programme, we're talking about teenagers' reading habits. According to a recent study, young people read fewer paper books than before, but they read a huge amount on their screens: articles, digital comics, and even novels on their phones. Sociologist Camille Renaud explains that it isn't reading that's disappearing, but its form that's changing. She advises parents not to ban screens, but to encourage curiosity. For example, if a teenager loves a series, you can suggest the book that inspired it. Many libraries also organise book clubs where young people share their favourites. What matters, the specialist concludes, is reading with pleasure, whatever the format.",
           "questions": [
             {
               "id": "co3-q1",
               "prompt": "D'après l'étude, les adolescents…",
               "options": [
-                { "id": "a", "text": "ne lisent plus du tout" },
-                { "id": "b", "text": "lisent moins sur papier mais beaucoup sur écran" },
-                { "id": "c", "text": "lisent uniquement des livres papier" }
+                {
+                  "id": "a",
+                  "text": "ne lisent plus du tout"
+                },
+                {
+                  "id": "b",
+                  "text": "lisent moins sur papier mais beaucoup sur écran"
+                },
+                {
+                  "id": "c",
+                  "text": "lisent uniquement des livres papier"
+                }
               ],
-              "correct": ["b"],
+              "correct": [
+                "b"
+              ],
               "points": 3
             },
             {
               "id": "co3-q2",
               "prompt": "Selon la sociologue, qu'est-ce qui change ?",
               "options": [
-                { "id": "a", "text": "La forme de la lecture" },
-                { "id": "b", "text": "Le prix des livres" },
-                { "id": "c", "text": "Le nombre de bibliothèques" }
+                {
+                  "id": "a",
+                  "text": "La forme de la lecture"
+                },
+                {
+                  "id": "b",
+                  "text": "Le prix des livres"
+                },
+                {
+                  "id": "c",
+                  "text": "Le nombre de bibliothèques"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             },
             {
               "id": "co3-q3",
               "prompt": "Que conseille-t-elle aux parents ?",
               "options": [
-                { "id": "a", "text": "Interdire les écrans" },
-                { "id": "b", "text": "Encourager la curiosité" },
-                { "id": "c", "text": "Acheter plus de téléphones" }
+                {
+                  "id": "a",
+                  "text": "Interdire les écrans"
+                },
+                {
+                  "id": "b",
+                  "text": "Encourager la curiosité"
+                },
+                {
+                  "id": "c",
+                  "text": "Acheter plus de téléphones"
+                }
               ],
-              "correct": ["b"],
+              "correct": [
+                "b"
+              ],
               "points": 3
             },
             {
               "id": "co3-q4",
               "prompt": "Quel exemple donne-t-elle ?",
               "options": [
-                { "id": "a", "text": "Proposer le livre d'une série que le jeune aime" },
-                { "id": "b", "text": "Supprimer la télévision" },
-                { "id": "c", "text": "Offrir un ordinateur" }
+                {
+                  "id": "a",
+                  "text": "Proposer le livre d'une série que le jeune aime"
+                },
+                {
+                  "id": "b",
+                  "text": "Supprimer la télévision"
+                },
+                {
+                  "id": "c",
+                  "text": "Offrir un ordinateur"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             },
             {
               "id": "co3-q5",
               "prompt": "Quelle est la conclusion de la spécialiste ?",
               "options": [
-                { "id": "a", "text": "Il faut lire seulement des classiques" },
-                { "id": "b", "text": "Il faut arrêter les écrans" },
-                { "id": "c", "text": "L'important est de lire avec plaisir, peu importe le support" }
+                {
+                  "id": "a",
+                  "text": "Il faut lire seulement des classiques"
+                },
+                {
+                  "id": "b",
+                  "text": "Il faut arrêter les écrans"
+                },
+                {
+                  "id": "c",
+                  "text": "L'important est de lire avec plaisir, peu importe le support"
+                }
               ],
-              "correct": ["c"],
+              "correct": [
+                "c"
+              ],
               "points": 2
             }
           ]
@@ -192,55 +316,110 @@
               "id": "ce1-q1",
               "prompt": "À qui s'adresse ce séjour ?",
               "options": [
-                { "id": "a", "text": "Aux jeunes de 13 à 16 ans" },
-                { "id": "b", "text": "Aux enfants de moins de 10 ans" },
-                { "id": "c", "text": "Aux adultes" }
+                {
+                  "id": "a",
+                  "text": "Aux jeunes de 13 à 16 ans"
+                },
+                {
+                  "id": "b",
+                  "text": "Aux enfants de moins de 10 ans"
+                },
+                {
+                  "id": "c",
+                  "text": "Aux adultes"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             },
             {
               "id": "ce1-q2",
               "prompt": "Combien de temps dure le séjour ?",
               "options": [
-                { "id": "a", "text": "Une semaine" },
-                { "id": "b", "text": "Deux semaines" },
-                { "id": "c", "text": "Un mois" }
+                {
+                  "id": "a",
+                  "text": "Une semaine"
+                },
+                {
+                  "id": "b",
+                  "text": "Deux semaines"
+                },
+                {
+                  "id": "c",
+                  "text": "Un mois"
+                }
               ],
-              "correct": ["b"],
+              "correct": [
+                "b"
+              ],
               "points": 2
             },
             {
               "id": "ce1-q3",
               "prompt": "Comment obtenir une réduction de 10 % ?",
               "options": [
-                { "id": "a", "text": "Venir en groupe" },
-                { "id": "b", "text": "Payer en espèces" },
-                { "id": "c", "text": "S'inscrire avant le 1er mai" }
+                {
+                  "id": "a",
+                  "text": "Venir en groupe"
+                },
+                {
+                  "id": "b",
+                  "text": "Payer en espèces"
+                },
+                {
+                  "id": "c",
+                  "text": "S'inscrire avant le 1er mai"
+                }
               ],
-              "correct": ["c"],
+              "correct": [
+                "c"
+              ],
               "points": 3
             },
             {
               "id": "ce1-q4",
               "prompt": "Qu'est-ce qui est compris dans le prix ?",
               "options": [
-                { "id": "a", "text": "Le transport en bus" },
-                { "id": "b", "text": "Le matériel de ski" },
-                { "id": "c", "text": "Les vêtements de montagne" }
+                {
+                  "id": "a",
+                  "text": "Le transport en bus"
+                },
+                {
+                  "id": "b",
+                  "text": "Le matériel de ski"
+                },
+                {
+                  "id": "c",
+                  "text": "Les vêtements de montagne"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             },
             {
               "id": "ce1-q5",
               "prompt": "Que doivent fournir les parents ?",
               "options": [
-                { "id": "a", "text": "Une photo d'identité seulement" },
-                { "id": "b", "text": "Un certificat médical et une autorisation de sortie" },
-                { "id": "c", "text": "Rien de particulier" }
+                {
+                  "id": "a",
+                  "text": "Une photo d'identité seulement"
+                },
+                {
+                  "id": "b",
+                  "text": "Un certificat médical et une autorisation de sortie"
+                },
+                {
+                  "id": "c",
+                  "text": "Rien de particulier"
+                }
               ],
-              "correct": ["b"],
+              "correct": [
+                "b"
+              ],
               "points": 3
             }
           ]
@@ -254,55 +433,110 @@
               "id": "ce2-q1",
               "prompt": "Quel est le sujet de l'article ?",
               "options": [
-                { "id": "a", "text": "Rendre le bénévolat obligatoire au lycée" },
-                { "id": "b", "text": "Supprimer les associations" },
-                { "id": "c", "text": "Augmenter le nombre de devoirs" }
+                {
+                  "id": "a",
+                  "text": "Rendre le bénévolat obligatoire au lycée"
+                },
+                {
+                  "id": "b",
+                  "text": "Supprimer les associations"
+                },
+                {
+                  "id": "c",
+                  "text": "Augmenter le nombre de devoirs"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             },
             {
               "id": "ce2-q2",
               "prompt": "Quel argument donnent les défenseurs du projet ?",
               "options": [
-                { "id": "a", "text": "Le bénévolat rapporte de l'argent" },
-                { "id": "b", "text": "Le bénévolat apprend autant que certains cours" },
-                { "id": "c", "text": "Le bénévolat remplace les vacances" }
+                {
+                  "id": "a",
+                  "text": "Le bénévolat rapporte de l'argent"
+                },
+                {
+                  "id": "b",
+                  "text": "Le bénévolat apprend autant que certains cours"
+                },
+                {
+                  "id": "c",
+                  "text": "Le bénévolat remplace les vacances"
+                }
               ],
-              "correct": ["b"],
+              "correct": [
+                "b"
+              ],
               "points": 3
             },
             {
               "id": "ce2-q3",
               "prompt": "Pourquoi certaines personnes sont-elles contre l'obligation ?",
               "options": [
-                { "id": "a", "text": "Parce que le bénévolat coûte trop cher" },
-                { "id": "b", "text": "Parce que le bénévolat forcé perd une partie de son sens" },
-                { "id": "c", "text": "Parce que le bénévolat est dangereux" }
+                {
+                  "id": "a",
+                  "text": "Parce que le bénévolat coûte trop cher"
+                },
+                {
+                  "id": "b",
+                  "text": "Parce que le bénévolat forcé perd une partie de son sens"
+                },
+                {
+                  "id": "c",
+                  "text": "Parce que le bénévolat est dangereux"
+                }
               ],
-              "correct": ["b"],
+              "correct": [
+                "b"
+              ],
               "points": 3
             },
             {
               "id": "ce2-q4",
               "prompt": "Quelle crainte l'auteur mentionne-t-il ?",
               "options": [
-                { "id": "a", "text": "Que les élèves soient déjà surchargés" },
-                { "id": "b", "text": "Que les associations ferment" },
-                { "id": "c", "text": "Que les professeurs protestent" }
+                {
+                  "id": "a",
+                  "text": "Que les élèves soient déjà surchargés"
+                },
+                {
+                  "id": "b",
+                  "text": "Que les associations ferment"
+                },
+                {
+                  "id": "c",
+                  "text": "Que les professeurs protestent"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             },
             {
               "id": "ce2-q5",
               "prompt": "Quelle est l'opinion personnelle de l'auteur ?",
               "options": [
-                { "id": "a", "text": "Rendre le bénévolat obligatoire immédiatement" },
-                { "id": "b", "text": "Interdire le bénévolat au lycée" },
-                { "id": "c", "text": "Encourager le bénévolat plutôt que l'imposer" }
+                {
+                  "id": "a",
+                  "text": "Rendre le bénévolat obligatoire immédiatement"
+                },
+                {
+                  "id": "b",
+                  "text": "Interdire le bénévolat au lycée"
+                },
+                {
+                  "id": "c",
+                  "text": "Encourager le bénévolat plutôt que l'imposer"
+                }
               ],
-              "correct": ["c"],
+              "correct": [
+                "c"
+              ],
               "points": 2
             }
           ]
@@ -329,16 +563,56 @@
           "minWords": 160,
           "points": 25,
           "rubric": [
-            { "id": "r-consigne", "label": "Respect de la consigne", "points": 2 },
-            { "id": "r-faits", "label": "Capacité à présenter des faits", "points": 4 },
-            { "id": "r-pensee", "label": "Capacité à exprimer sa pensée", "points": 4 },
-            { "id": "r-coherence", "label": "Cohérence et cohésion", "points": 3 },
-            { "id": "r-lex-etendue", "label": "Étendue du vocabulaire", "points": 2 },
-            { "id": "r-lex-maitrise", "label": "Maîtrise du vocabulaire", "points": 2 },
-            { "id": "r-ortho", "label": "Maîtrise de l'orthographe lexicale", "points": 2 },
-            { "id": "r-phrases", "label": "Degré d'élaboration des phrases", "points": 2 },
-            { "id": "r-temps", "label": "Choix des temps et des modes", "points": 2 },
-            { "id": "r-morpho", "label": "Morphosyntaxe — orthographe grammaticale", "points": 2 }
+            {
+              "id": "r-consigne",
+              "label": "Respect de la consigne",
+              "points": 2
+            },
+            {
+              "id": "r-faits",
+              "label": "Capacité à présenter des faits",
+              "points": 4
+            },
+            {
+              "id": "r-pensee",
+              "label": "Capacité à exprimer sa pensée",
+              "points": 4
+            },
+            {
+              "id": "r-coherence",
+              "label": "Cohérence et cohésion",
+              "points": 3
+            },
+            {
+              "id": "r-lex-etendue",
+              "label": "Étendue du vocabulaire",
+              "points": 2
+            },
+            {
+              "id": "r-lex-maitrise",
+              "label": "Maîtrise du vocabulaire",
+              "points": 2
+            },
+            {
+              "id": "r-ortho",
+              "label": "Maîtrise de l'orthographe lexicale",
+              "points": 2
+            },
+            {
+              "id": "r-phrases",
+              "label": "Degré d'élaboration des phrases",
+              "points": 2
+            },
+            {
+              "id": "r-temps",
+              "label": "Choix des temps et des modes",
+              "points": 2
+            },
+            {
+              "id": "r-morpho",
+              "label": "Morphosyntaxe — orthographe grammaticale",
+              "points": 2
+            }
           ],
           "modelAnswer": "Modèle (≈170 mots) :\n\nMonsieur le Directeur,\n\nJe me permets de vous écrire au sujet du club de lecture, que le collège envisage de supprimer. Je comprends que le nombre de participants ait diminué, mais je crois sincèrement que ce club mérite d'être sauvé.\n\nD'abord, le club de lecture n'est pas seulement un lieu où l'on lit : c'est un espace d'échange où des élèves de classes différentes se rencontrent et partagent leurs découvertes. Pour beaucoup, c'est aussi un moment de calme dans une semaine chargée.\n\nSi le club attire peu d'élèves, c'est peut-être parce qu'il est mal connu. Je propose donc d'organiser une « semaine du livre » avec des affiches, d'inviter un auteur local, et de créer un compte sur le réseau du collège pour partager nos coups de cœur. Nous pourrions aussi proposer des bandes dessinées et des mangas, très appréciés des jeunes.\n\nJe suis convaincu qu'avec quelques changements, le club retrouvera vite ses lecteurs.\n\nJe vous remercie de votre attention.\n\nPoints clés attendus : formule d'appel et de politesse correctes ; au moins deux arguments pour défendre le club ; au moins deux propositions concrètes ; connecteurs logiques (d'abord, donc, aussi) ; registre poli (conditionnel, vouvoiement)."
         }
@@ -363,10 +637,26 @@
           "consigne": "Présentez-vous : parlez de vous, de votre famille, de vos études et de vos loisirs. L'examinateur vous posera ensuite quelques questions pour mieux vous connaître. (2 à 3 minutes)",
           "points": 9,
           "rubric": [
-            { "id": "po1-soi", "label": "Peut parler de soi avec une certaine aisance", "points": 2 },
-            { "id": "po1-reagir", "label": "Peut répondre et réagir aux questions", "points": 2 },
-            { "id": "po-ens-lex", "label": "Lexique (étendue et maîtrise) — ensemble de l'épreuve", "points": 3 },
-            { "id": "po-ens-phono", "label": "Maîtrise du système phonologique — ensemble de l'épreuve", "points": 2 }
+            {
+              "id": "po1-soi",
+              "label": "Peut parler de soi avec une certaine aisance",
+              "points": 2
+            },
+            {
+              "id": "po1-reagir",
+              "label": "Peut répondre et réagir aux questions",
+              "points": 2
+            },
+            {
+              "id": "po-ens-lex",
+              "label": "Lexique (étendue et maîtrise) — ensemble de l'épreuve",
+              "points": 3
+            },
+            {
+              "id": "po-ens-phono",
+              "label": "Maîtrise du système phonologique — ensemble de l'épreuve",
+              "points": 2
+            }
           ],
           "modelAnswer": "Points attendus : se présenter (nom, âge, ville, famille) ; parler de ses études (matières préférées, projets) ; décrire ses loisirs ; répondre spontanément aux relances de l'examinateur. Reliez vos idées (« j'aime… parce que… », « plus tard, je voudrais… »). Évitez les réponses d'un seul mot : développez."
         },
@@ -377,10 +667,26 @@
           "consigne": "Sujet : Vous voulez organiser une sortie de classe au musée, mais votre ami(e) préfère aller au cinéma. Vous jouez la scène : vous présentez vos arguments, vous écoutez les siens, et ensemble vous trouvez une solution. (3 à 4 minutes)",
           "points": 8,
           "rubric": [
-            { "id": "po2-situation", "label": "Peut faire face à la situation proposée", "points": 2 },
-            { "id": "po2-negocier", "label": "Peut demander et donner des informations, négocier", "points": 2 },
-            { "id": "po-ens-morpho", "label": "Morphosyntaxe — ensemble de l'épreuve", "points": 2 },
-            { "id": "po-ens-coh", "label": "Cohérence et fluidité — ensemble de l'épreuve", "points": 2 }
+            {
+              "id": "po2-situation",
+              "label": "Peut faire face à la situation proposée",
+              "points": 2
+            },
+            {
+              "id": "po2-negocier",
+              "label": "Peut demander et donner des informations, négocier",
+              "points": 2
+            },
+            {
+              "id": "po-ens-morpho",
+              "label": "Morphosyntaxe — ensemble de l'épreuve",
+              "points": 2
+            },
+            {
+              "id": "po-ens-coh",
+              "label": "Cohérence et fluidité — ensemble de l'épreuve",
+              "points": 2
+            }
           ],
           "modelAnswer": "Points attendus : engager l'échange poliment ; donner au moins deux arguments en faveur du musée ; écouter et reformuler l'avis de l'autre ; proposer un compromis (« et si on allait au musée samedi et au cinéma dimanche ? »). Utilisez les formules d'interaction (« je comprends, mais… », « qu'est-ce que tu en penses ? », « on pourrait… »)."
         },
@@ -392,9 +698,21 @@
           "documentFr": "« Les adolescents passent trop de temps sur leur téléphone. »",
           "points": 8,
           "rubric": [
-            { "id": "po3-pdv", "label": "Peut présenter et défendre un point de vue", "points": 3 },
-            { "id": "po3-relier", "label": "Peut relier ses idées de façon cohérente", "points": 2 },
-            { "id": "po-ens-lex2", "label": "Richesse et correction de la langue — ensemble de l'épreuve", "points": 3 }
+            {
+              "id": "po3-pdv",
+              "label": "Peut présenter et défendre un point de vue",
+              "points": 3
+            },
+            {
+              "id": "po3-relier",
+              "label": "Peut relier ses idées de façon cohérente",
+              "points": 2
+            },
+            {
+              "id": "po-ens-lex2",
+              "label": "Richesse et correction de la langue — ensemble de l'épreuve",
+              "points": 3
+            }
           ],
           "modelAnswer": "Points attendus : annoncer votre position (d'accord / pas d'accord / nuancé) ; donner deux ou trois arguments illustrés d'exemples personnels ; envisager l'avis opposé (« certains diront que… mais ») ; conclure clairement. Soignez les connecteurs (d'une part, d'autre part, en revanche, pour conclure) et variez le vocabulaire."
         }

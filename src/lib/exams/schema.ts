@@ -33,6 +33,7 @@ export const listeningDocSchema = z.object({
   title: z.string(), // e.g. "Document 1 — Annonce"
   audio: z.string(),
   transcript: z.string(), // drives TTS generation; revealed only in correction
+  transcriptEn: z.string().optional(), // English translation, shown with the transcript
   voice: voiceSchema.default("denise"),
   listens: z.number().int().positive().default(2), // authentic play limit
   questions: z.array(examQuestionSchema).min(1),

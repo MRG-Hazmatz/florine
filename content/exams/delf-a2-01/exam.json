@@ -25,27 +25,50 @@
           "voice": "denise",
           "listens": 2,
           "transcript": "Bonjour Madame Lambert, c'est le cabinet du docteur Petit. Je vous appelle car votre rendez-vous de mardi est déplacé à jeudi, à dix heures. Si cela ne vous convient pas, rappelez-nous au plus vite. Bonne journée.",
+          "transcriptEn": "Hello Mrs Lambert, this is Dr Petit's surgery. I'm calling because your Tuesday appointment has been moved to Thursday at 10 a.m. If that doesn't suit you, call us back as soon as possible. Have a good day.",
           "questions": [
             {
               "id": "co1-q1",
               "prompt": "Qui appelle Madame Lambert ?",
               "options": [
-                { "id": "a", "text": "Le cabinet du médecin" },
-                { "id": "b", "text": "Une amie" },
-                { "id": "c", "text": "L'école" }
+                {
+                  "id": "a",
+                  "text": "Le cabinet du médecin"
+                },
+                {
+                  "id": "b",
+                  "text": "Une amie"
+                },
+                {
+                  "id": "c",
+                  "text": "L'école"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             },
             {
               "id": "co1-q2",
               "prompt": "Quel jour est le nouveau rendez-vous ?",
               "options": [
-                { "id": "a", "text": "Jeudi" },
-                { "id": "b", "text": "Mardi" },
-                { "id": "c", "text": "Mercredi" }
+                {
+                  "id": "a",
+                  "text": "Jeudi"
+                },
+                {
+                  "id": "b",
+                  "text": "Mardi"
+                },
+                {
+                  "id": "c",
+                  "text": "Mercredi"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             }
           ]
@@ -57,27 +80,50 @@
           "voice": "henri",
           "listens": 2,
           "transcript": "Cette semaine, à la médiathèque, venez découvrir notre exposition de photographies sur la nature. L'entrée est gratuite. L'exposition est ouverte tous les jours sauf le lundi, de dix heures à dix-neuf heures.",
+          "transcriptEn": "This week at the media library, come and discover our photography exhibition about nature. Entry is free. The exhibition is open every day except Monday, from 10 a.m. to 7 p.m.",
           "questions": [
             {
               "id": "co2-q1",
               "prompt": "Que peut-on découvrir cette semaine ?",
               "options": [
-                { "id": "a", "text": "Une exposition de photos" },
-                { "id": "b", "text": "Un concert" },
-                { "id": "c", "text": "Un film" }
+                {
+                  "id": "a",
+                  "text": "Une exposition de photos"
+                },
+                {
+                  "id": "b",
+                  "text": "Un concert"
+                },
+                {
+                  "id": "c",
+                  "text": "Un film"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             },
             {
               "id": "co2-q2",
               "prompt": "Quel jour l'exposition est-elle fermée ?",
               "options": [
-                { "id": "a", "text": "Le lundi" },
-                { "id": "b", "text": "Le dimanche" },
-                { "id": "c", "text": "Le samedi" }
+                {
+                  "id": "a",
+                  "text": "Le lundi"
+                },
+                {
+                  "id": "b",
+                  "text": "Le dimanche"
+                },
+                {
+                  "id": "c",
+                  "text": "Le samedi"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             }
           ]
@@ -89,38 +135,72 @@
           "voice": "henri",
           "listens": 2,
           "transcript": "— Qu'est-ce que tu fais ce week-end ? — Samedi, je vais à la montagne avec ma famille pour faire de la randonnée. Et toi ? — Moi, je reste en ville. Je dois réviser pour mon examen de maths lundi. — Ah, bon courage alors !",
+          "transcriptEn": "— What are you doing this weekend? — On Saturday I'm going to the mountains with my family to go hiking. And you? — Me, I'm staying in town. I have to revise for my maths exam on Monday. — Ah, good luck then!",
           "questions": [
             {
               "id": "co3-q1",
               "prompt": "Que fait la première personne samedi ?",
               "options": [
-                { "id": "a", "text": "De la randonnée" },
-                { "id": "b", "text": "Du shopping" },
-                { "id": "c", "text": "Du sport en salle" }
+                {
+                  "id": "a",
+                  "text": "De la randonnée"
+                },
+                {
+                  "id": "b",
+                  "text": "Du shopping"
+                },
+                {
+                  "id": "c",
+                  "text": "Du sport en salle"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             },
             {
               "id": "co3-q2",
               "prompt": "Pourquoi la deuxième personne reste-t-elle en ville ?",
               "options": [
-                { "id": "a", "text": "Pour réviser un examen" },
-                { "id": "b", "text": "Pour travailler" },
-                { "id": "c", "text": "Pour voir des amis" }
+                {
+                  "id": "a",
+                  "text": "Pour réviser un examen"
+                },
+                {
+                  "id": "b",
+                  "text": "Pour travailler"
+                },
+                {
+                  "id": "c",
+                  "text": "Pour voir des amis"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             },
             {
               "id": "co3-q3",
               "prompt": "Quand a lieu l'examen ?",
               "options": [
-                { "id": "a", "text": "Lundi" },
-                { "id": "b", "text": "Samedi" },
-                { "id": "c", "text": "Vendredi" }
+                {
+                  "id": "a",
+                  "text": "Lundi"
+                },
+                {
+                  "id": "b",
+                  "text": "Samedi"
+                },
+                {
+                  "id": "c",
+                  "text": "Vendredi"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             }
           ]
@@ -132,38 +212,72 @@
           "voice": "denise",
           "listens": 2,
           "transcript": "— Bonjour Léa, tu fais du bénévolat, c'est ça ? — Oui, deux fois par semaine, j'aide des enfants à faire leurs devoirs dans une association. — Pourquoi as-tu choisi cette activité ? — Parce que j'aime beaucoup expliquer et voir les enfants progresser. C'est très gratifiant. — Et tu trouves le temps ? — Oui, je m'organise : le mercredi et le samedi après-midi.",
+          "transcriptEn": "— Hello Léa, you do volunteer work, right? — Yes, twice a week I help children with their homework at an association. — Why did you choose that activity? — Because I really love explaining things and seeing the children make progress. It's very rewarding. — And you find the time? — Yes, I organise myself: Wednesday and Saturday afternoons.",
           "questions": [
             {
               "id": "co4-q1",
               "prompt": "Quelle activité fait Léa ?",
               "options": [
-                { "id": "a", "text": "Elle aide des enfants à faire leurs devoirs" },
-                { "id": "b", "text": "Elle fait du sport avec des enfants" },
-                { "id": "c", "text": "Elle vend des objets" }
+                {
+                  "id": "a",
+                  "text": "Elle aide des enfants à faire leurs devoirs"
+                },
+                {
+                  "id": "b",
+                  "text": "Elle fait du sport avec des enfants"
+                },
+                {
+                  "id": "c",
+                  "text": "Elle vend des objets"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             },
             {
               "id": "co4-q2",
               "prompt": "Pourquoi aime-t-elle cette activité ?",
               "options": [
-                { "id": "a", "text": "Elle aime expliquer et voir les progrès" },
-                { "id": "b", "text": "Elle gagne de l'argent" },
-                { "id": "c", "text": "Elle veut voyager" }
+                {
+                  "id": "a",
+                  "text": "Elle aime expliquer et voir les progrès"
+                },
+                {
+                  "id": "b",
+                  "text": "Elle gagne de l'argent"
+                },
+                {
+                  "id": "c",
+                  "text": "Elle veut voyager"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             },
             {
               "id": "co4-q3",
               "prompt": "Quand fait-elle du bénévolat ?",
               "options": [
-                { "id": "a", "text": "Le mercredi et le samedi après-midi" },
-                { "id": "b", "text": "Tous les jours" },
-                { "id": "c", "text": "Le dimanche matin" }
+                {
+                  "id": "a",
+                  "text": "Le mercredi et le samedi après-midi"
+                },
+                {
+                  "id": "b",
+                  "text": "Tous les jours"
+                },
+                {
+                  "id": "c",
+                  "text": "Le dimanche matin"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             }
           ]
@@ -191,33 +305,66 @@
               "id": "ce1-q1",
               "prompt": "Où part Léna cet été ?",
               "options": [
-                { "id": "a", "text": "En Espagne" },
-                { "id": "b", "text": "En Italie" },
-                { "id": "c", "text": "En France" }
+                {
+                  "id": "a",
+                  "text": "En Espagne"
+                },
+                {
+                  "id": "b",
+                  "text": "En Italie"
+                },
+                {
+                  "id": "c",
+                  "text": "En France"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             },
             {
               "id": "ce1-q2",
               "prompt": "Que propose-t-elle à Maxime ?",
               "options": [
-                { "id": "a", "text": "De venir la deuxième semaine" },
-                { "id": "b", "text": "De garder sa maison" },
-                { "id": "c", "text": "De lui prêter de l'argent" }
+                {
+                  "id": "a",
+                  "text": "De venir la deuxième semaine"
+                },
+                {
+                  "id": "b",
+                  "text": "De garder sa maison"
+                },
+                {
+                  "id": "c",
+                  "text": "De lui prêter de l'argent"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             },
             {
               "id": "ce1-q3",
               "prompt": "Combien coûte le voyage, environ ?",
               "options": [
-                { "id": "a", "text": "300 euros" },
-                { "id": "b", "text": "30 euros" },
-                { "id": "c", "text": "3 000 euros" }
+                {
+                  "id": "a",
+                  "text": "300 euros"
+                },
+                {
+                  "id": "b",
+                  "text": "30 euros"
+                },
+                {
+                  "id": "c",
+                  "text": "3 000 euros"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             }
           ]
@@ -231,33 +378,66 @@
               "id": "ce2-q1",
               "prompt": "Quel jour a lieu la fête ?",
               "options": [
-                { "id": "a", "text": "Le samedi 21 juin" },
-                { "id": "b", "text": "Le dimanche 21 juin" },
-                { "id": "c", "text": "Le vendredi 20 juin" }
+                {
+                  "id": "a",
+                  "text": "Le samedi 21 juin"
+                },
+                {
+                  "id": "b",
+                  "text": "Le dimanche 21 juin"
+                },
+                {
+                  "id": "c",
+                  "text": "Le vendredi 20 juin"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             },
             {
               "id": "ce2-q2",
               "prompt": "Combien coûtent les concerts ?",
               "options": [
-                { "id": "a", "text": "Ils sont gratuits" },
-                { "id": "b", "text": "10 euros" },
-                { "id": "c", "text": "5 euros" }
+                {
+                  "id": "a",
+                  "text": "Ils sont gratuits"
+                },
+                {
+                  "id": "b",
+                  "text": "10 euros"
+                },
+                {
+                  "id": "c",
+                  "text": "5 euros"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             },
             {
               "id": "ce2-q3",
               "prompt": "Qu'y a-t-il à 20 h ?",
               "options": [
-                { "id": "a", "text": "De la chanson française" },
-                { "id": "b", "text": "Du jazz" },
-                { "id": "c", "text": "De la musique électronique" }
+                {
+                  "id": "a",
+                  "text": "De la chanson française"
+                },
+                {
+                  "id": "b",
+                  "text": "Du jazz"
+                },
+                {
+                  "id": "c",
+                  "text": "De la musique électronique"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             }
           ]
@@ -271,33 +451,66 @@
               "id": "ce3-q1",
               "prompt": "Combien de livres peut-on emprunter ?",
               "options": [
-                { "id": "a", "text": "5 livres" },
-                { "id": "b", "text": "3 livres" },
-                { "id": "c", "text": "10 livres" }
+                {
+                  "id": "a",
+                  "text": "5 livres"
+                },
+                {
+                  "id": "b",
+                  "text": "3 livres"
+                },
+                {
+                  "id": "c",
+                  "text": "10 livres"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             },
             {
               "id": "ce3-q2",
               "prompt": "Que se passe-t-il en cas de retard ?",
               "options": [
-                { "id": "a", "text": "On paie 0,20 euro par jour et par livre" },
-                { "id": "b", "text": "Rien" },
-                { "id": "c", "text": "On ne peut plus emprunter" }
+                {
+                  "id": "a",
+                  "text": "On paie 0,20 euro par jour et par livre"
+                },
+                {
+                  "id": "b",
+                  "text": "Rien"
+                },
+                {
+                  "id": "c",
+                  "text": "On ne peut plus emprunter"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             },
             {
               "id": "ce3-q3",
               "prompt": "Qu'est-ce qui est interdit ?",
               "options": [
-                { "id": "a", "text": "Manger et boire dans les salles" },
-                { "id": "b", "text": "Lire des bandes dessinées" },
-                { "id": "c", "text": "Emprunter des livres" }
+                {
+                  "id": "a",
+                  "text": "Manger et boire dans les salles"
+                },
+                {
+                  "id": "b",
+                  "text": "Lire des bandes dessinées"
+                },
+                {
+                  "id": "c",
+                  "text": "Emprunter des livres"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             }
           ]
@@ -311,33 +524,66 @@
               "id": "ce4-q1",
               "prompt": "Depuis combien de temps l'auteur cuisine-t-il ?",
               "options": [
-                { "id": "a", "text": "Depuis deux ans" },
-                { "id": "b", "text": "Depuis deux mois" },
-                { "id": "c", "text": "Depuis dix ans" }
+                {
+                  "id": "a",
+                  "text": "Depuis deux ans"
+                },
+                {
+                  "id": "b",
+                  "text": "Depuis deux mois"
+                },
+                {
+                  "id": "c",
+                  "text": "Depuis dix ans"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             },
             {
               "id": "ce4-q2",
               "prompt": "Qu'a-t-il fait le mois dernier ?",
               "options": [
-                { "id": "a", "text": "Un repas complet pour sa famille" },
-                { "id": "b", "text": "Un gâteau d'anniversaire" },
-                { "id": "c", "text": "Un concours de cuisine" }
+                {
+                  "id": "a",
+                  "text": "Un repas complet pour sa famille"
+                },
+                {
+                  "id": "b",
+                  "text": "Un gâteau d'anniversaire"
+                },
+                {
+                  "id": "c",
+                  "text": "Un concours de cuisine"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             },
             {
               "id": "ce4-q3",
               "prompt": "Quel est son rêve ?",
               "options": [
-                { "id": "a", "text": "Devenir cuisinier dans un grand restaurant" },
-                { "id": "b", "text": "Ouvrir un blog célèbre" },
-                { "id": "c", "text": "Voyager dans le monde entier" }
+                {
+                  "id": "a",
+                  "text": "Devenir cuisinier dans un grand restaurant"
+                },
+                {
+                  "id": "b",
+                  "text": "Ouvrir un blog célèbre"
+                },
+                {
+                  "id": "c",
+                  "text": "Voyager dans le monde entier"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             }
           ]
@@ -364,10 +610,26 @@
           "minWords": 60,
           "points": 13,
           "rubric": [
-            { "id": "r-consigne", "label": "Respect de la consigne", "points": 2 },
-            { "id": "r-raconter", "label": "Peut raconter des événements au passé", "points": 4 },
-            { "id": "r-lex", "label": "Lexique adapté à la situation", "points": 3 },
-            { "id": "r-morpho", "label": "Morphosyntaxe (passé composé, accords)", "points": 4 }
+            {
+              "id": "r-consigne",
+              "label": "Respect de la consigne",
+              "points": 2
+            },
+            {
+              "id": "r-raconter",
+              "label": "Peut raconter des événements au passé",
+              "points": 4
+            },
+            {
+              "id": "r-lex",
+              "label": "Lexique adapté à la situation",
+              "points": 3
+            },
+            {
+              "id": "r-morpho",
+              "label": "Morphosyntaxe (passé composé, accords)",
+              "points": 4
+            }
           ],
           "modelAnswer": "Modèle (≈65 mots) :\n\nSalut Théo,\n\nCe week-end, je suis allé(e) à la campagne chez mes grands-parents. Samedi, on a fait une grande promenade en forêt et on a pique-niqué près d'un lac. Le soir, mon grand-père a préparé une tarte délicieuse. Dimanche, j'ai joué aux cartes avec mes cousins. C'était un week-end très reposant et j'ai adoré !\n\nÀ bientôt,\nSam\n\nPoints attendus : passé composé ; au moins deux activités ; une opinion (« c'était… », « j'ai adoré »)."
         },
@@ -379,10 +641,26 @@
           "minWords": 60,
           "points": 12,
           "rubric": [
-            { "id": "r-consigne2", "label": "Respect de la consigne (remercier, refuser, expliquer, proposer)", "points": 2 },
-            { "id": "r-interagir", "label": "Capacité à interagir (registre, politesse)", "points": 4 },
-            { "id": "r-lex2", "label": "Lexique adapté à la situation", "points": 3 },
-            { "id": "r-morpho2", "label": "Morphosyntaxe", "points": 3 }
+            {
+              "id": "r-consigne2",
+              "label": "Respect de la consigne (remercier, refuser, expliquer, proposer)",
+              "points": 2
+            },
+            {
+              "id": "r-interagir",
+              "label": "Capacité à interagir (registre, politesse)",
+              "points": 4
+            },
+            {
+              "id": "r-lex2",
+              "label": "Lexique adapté à la situation",
+              "points": 3
+            },
+            {
+              "id": "r-morpho2",
+              "label": "Morphosyntaxe",
+              "points": 3
+            }
           ],
           "modelAnswer": "Modèle (≈65 mots) :\n\nChère Manon,\n\nMerci beaucoup pour ton invitation, c'est très gentil ! Malheureusement, je ne peux pas venir samedi : je pars tout le week-end chez ma tante, à Lyon. Je suis vraiment déçu(e) de manquer ta fête.\n\nEst-ce qu'on pourrait se voir le mercredi suivant pour fêter ça toutes les deux ? Je t'offrirai ton cadeau !\n\nEncore joyeux anniversaire. Bisous, Alex\n\nPoints attendus : remerciement ; refus poli ; explication ; proposition d'une autre date."
         }
@@ -407,9 +685,21 @@
           "consigne": "Présentez-vous et répondez aux questions de l'examinateur : votre famille, votre ville, votre école et vos loisirs. (1 à 2 minutes)",
           "points": 6,
           "rubric": [
-            { "id": "po1-soi", "label": "Peut parler de soi et de son environnement", "points": 2 },
-            { "id": "po1-reagir", "label": "Peut réagir aux questions", "points": 2 },
-            { "id": "po-ens-lex1", "label": "Lexique — ensemble de l'épreuve", "points": 2 }
+            {
+              "id": "po1-soi",
+              "label": "Peut parler de soi et de son environnement",
+              "points": 2
+            },
+            {
+              "id": "po1-reagir",
+              "label": "Peut réagir aux questions",
+              "points": 2
+            },
+            {
+              "id": "po-ens-lex1",
+              "label": "Lexique — ensemble de l'épreuve",
+              "points": 2
+            }
           ],
           "modelAnswer": "Points attendus : se présenter ; parler de sa famille, de sa ville, de son école, de ses loisirs ; répondre aux relances par des phrases développées."
         },
@@ -421,10 +711,26 @@
           "documentFr": "Sujet : Décrivez votre journée idéale.",
           "points": 9,
           "rubric": [
-            { "id": "po2-presenter", "label": "Peut présenter un thème de façon simple et organisée", "points": 3 },
-            { "id": "po2-relier", "label": "Peut relier ses idées (d'abord, ensuite, enfin)", "points": 2 },
-            { "id": "po-ens-morpho2", "label": "Morphosyntaxe — ensemble de l'épreuve", "points": 2 },
-            { "id": "po-ens-phono2", "label": "Phonétique — ensemble de l'épreuve", "points": 2 }
+            {
+              "id": "po2-presenter",
+              "label": "Peut présenter un thème de façon simple et organisée",
+              "points": 3
+            },
+            {
+              "id": "po2-relier",
+              "label": "Peut relier ses idées (d'abord, ensuite, enfin)",
+              "points": 2
+            },
+            {
+              "id": "po-ens-morpho2",
+              "label": "Morphosyntaxe — ensemble de l'épreuve",
+              "points": 2
+            },
+            {
+              "id": "po-ens-phono2",
+              "label": "Phonétique — ensemble de l'épreuve",
+              "points": 2
+            }
           ],
           "modelAnswer": "Points attendus : décrire une journée du matin au soir ; au moins trois moments ; utiliser le conditionnel simple si possible (« je me lèverais tard… ») ou le présent ; connecteurs (d'abord, ensuite, après, enfin)."
         },
@@ -435,9 +741,21 @@
           "consigne": "Sujet : Vous voulez vous inscrire à une activité sportive dans un club. Vous demandez les horaires, le prix et ce qu'il faut apporter. L'examinateur joue l'employé du club. (3 minutes)",
           "points": 10,
           "rubric": [
-            { "id": "po3-situation", "label": "Peut faire face à la situation (s'inscrire, se renseigner)", "points": 3 },
-            { "id": "po3-negocier", "label": "Peut demander et donner des informations", "points": 3 },
-            { "id": "po-ens-aisance3", "label": "Aisance et fluidité — ensemble de l'épreuve", "points": 4 }
+            {
+              "id": "po3-situation",
+              "label": "Peut faire face à la situation (s'inscrire, se renseigner)",
+              "points": 3
+            },
+            {
+              "id": "po3-negocier",
+              "label": "Peut demander et donner des informations",
+              "points": 3
+            },
+            {
+              "id": "po-ens-aisance3",
+              "label": "Aisance et fluidité — ensemble de l'épreuve",
+              "points": 4
+            }
           ],
           "modelAnswer": "Points attendus : saluer ; expliquer ce que l'on veut (« je voudrais m'inscrire à… ») ; poser des questions (horaires, prix, matériel) ; remercier et conclure. Formules de politesse et vouvoiement."
         }

@@ -26,60 +26,116 @@
           "voice": "henri",
           "listens": 2,
           "transcript": "Au nom de la sécurité, on nous demande régulièrement d'accepter de nouvelles restrictions : davantage de caméras dans les rues, davantage de contrôles, davantage de données collectées sur nos déplacements, nos achats, nos conversations. À chaque fois, le même argument : si vous n'avez rien à vous reprocher, vous n'avez rien à craindre. Cet argument est séduisant, et c'est précisément pourquoi il faut s'en méfier. D'abord, parce qu'il renverse la charge de la preuve : ce n'est pas à chacun de prouver son innocence, c'est à l'autorité de justifier sa surveillance. Ensuite, parce que la liberté n'est jamais aussi menacée que lorsqu'on accepte de l'abandonner volontairement, petit bout par petit bout, toujours pour de bonnes raisons. Faut-il pour autant refuser toute mesure de sécurité ? Évidemment non. Une société sans aucune règle ni protection ne serait pas libre : elle serait livrée à la loi du plus fort. La sécurité est une condition de la liberté, et non son ennemie. Le vrai problème n'est donc pas de choisir entre les deux, mais de trouver le juste équilibre, et surtout de garder un contrôle démocratique : qui décide ? Qui surveille les surveillants ? Une caméra, un fichier, une loi de sécurité ne sont pas dangereux en eux-mêmes ; ils le deviennent quand ils échappent à tout contrôle. La question n'est pas « liberté ou sécurité ? », mais « qui garde la main ? » Je vous remercie.",
+          "transcriptEn": "In the name of security, we are regularly asked to accept new restrictions: more cameras in the streets, more checks, more data collected on our movements, our purchases, our conversations. Each time, the same argument: if you have nothing to hide, you have nothing to fear. That argument is seductive, and that is precisely why we should be wary of it. First, because it reverses the burden of proof: it isn't up to each of us to prove our innocence; it's up to the authority to justify its surveillance. Second, because freedom is never more threatened than when we agree to abandon it voluntarily, piece by piece, always for good reasons. Should we therefore refuse all security measures? Obviously not. A society without any rules or protection wouldn't be free: it would be delivered to the law of the strongest. Security is a condition of freedom, not its enemy. So the real problem isn't choosing between the two, but finding the right balance — and above all, keeping democratic control: who decides? Who watches the watchers? A camera, a database, a security law aren't dangerous in themselves; they become so when they escape all oversight. The question isn't 'freedom or security?', but 'who keeps the upper hand?' Thank you.",
           "questions": [
             {
               "id": "or1-q1",
               "prompt": "Quel argument est régulièrement avancé au nom de la sécurité ?",
               "options": [
-                { "id": "a", "text": "« Si vous n'avez rien à vous reprocher, vous n'avez rien à craindre »" },
-                { "id": "b", "text": "« La liberté n'existe pas vraiment »" },
-                { "id": "c", "text": "« La sécurité coûte trop cher »" }
+                {
+                  "id": "a",
+                  "text": "« Si vous n'avez rien à vous reprocher, vous n'avez rien à craindre »"
+                },
+                {
+                  "id": "b",
+                  "text": "« La liberté n'existe pas vraiment »"
+                },
+                {
+                  "id": "c",
+                  "text": "« La sécurité coûte trop cher »"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             },
             {
               "id": "or1-q2",
               "prompt": "Pourquoi faut-il se méfier de cet argument, selon l'orateur ?",
               "options": [
-                { "id": "a", "text": "Parce qu'il renverse la charge de la preuve" },
-                { "id": "b", "text": "Parce qu'il est trop compliqué à comprendre" },
-                { "id": "c", "text": "Parce qu'il est illégal" }
+                {
+                  "id": "a",
+                  "text": "Parce qu'il renverse la charge de la preuve"
+                },
+                {
+                  "id": "b",
+                  "text": "Parce qu'il est trop compliqué à comprendre"
+                },
+                {
+                  "id": "c",
+                  "text": "Parce qu'il est illégal"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             },
             {
               "id": "or1-q3",
               "prompt": "Quand la liberté est-elle la plus menacée, selon lui ?",
               "options": [
-                { "id": "a", "text": "Quand on l'abandonne volontairement, petit à petit" },
-                { "id": "b", "text": "Quand on la défend trop fort" },
-                { "id": "c", "text": "Quand on en parle en public" }
+                {
+                  "id": "a",
+                  "text": "Quand on l'abandonne volontairement, petit à petit"
+                },
+                {
+                  "id": "b",
+                  "text": "Quand on la défend trop fort"
+                },
+                {
+                  "id": "c",
+                  "text": "Quand on en parle en public"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 4
             },
             {
               "id": "or1-q4",
               "prompt": "L'orateur pense-t-il qu'il faut refuser toute mesure de sécurité ?",
               "options": [
-                { "id": "a", "text": "Non : la sécurité est une condition de la liberté" },
-                { "id": "b", "text": "Oui, toujours et partout" },
-                { "id": "c", "text": "Il ne se prononce pas" }
+                {
+                  "id": "a",
+                  "text": "Non : la sécurité est une condition de la liberté"
+                },
+                {
+                  "id": "b",
+                  "text": "Oui, toujours et partout"
+                },
+                {
+                  "id": "c",
+                  "text": "Il ne se prononce pas"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             },
             {
               "id": "or1-q5",
               "prompt": "Quelle est, selon lui, la vraie question ?",
               "options": [
-                { "id": "a", "text": "« Qui garde la main, qui surveille les surveillants ? »" },
-                { "id": "b", "text": "« Combien tout cela coûte-t-il ? »" },
-                { "id": "c", "text": "« Où installer les caméras ? »" }
+                {
+                  "id": "a",
+                  "text": "« Qui garde la main, qui surveille les surveillants ? »"
+                },
+                {
+                  "id": "b",
+                  "text": "« Combien tout cela coûte-t-il ? »"
+                },
+                {
+                  "id": "c",
+                  "text": "« Où installer les caméras ? »"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             }
           ]
@@ -94,9 +150,21 @@
           "consigne": "Vous ferez un compte rendu objectif du document que vous venez d'entendre : vous en restituerez fidèlement le propos, la structure et les principales idées, sans le commenter ni donner votre avis. (environ 5 minutes)",
           "points": 12,
           "rubric": [
-            { "id": "cr-fidelite", "label": "Fidélité et exhaustivité du compte rendu", "points": 5 },
-            { "id": "cr-structure", "label": "Clarté et structuration de la restitution", "points": 4 },
-            { "id": "cr-langue", "label": "Correction et richesse de la langue (compte rendu)", "points": 3 }
+            {
+              "id": "cr-fidelite",
+              "label": "Fidélité et exhaustivité du compte rendu",
+              "points": 5
+            },
+            {
+              "id": "cr-structure",
+              "label": "Clarté et structuration de la restitution",
+              "points": 4
+            },
+            {
+              "id": "cr-langue",
+              "label": "Correction et richesse de la langue (compte rendu)",
+              "points": 3
+            }
           ],
           "modelAnswer": "Points attendus : restituer la thèse (ni opposer ni sacrifier liberté et sécurité, mais garantir le contrôle démocratique) ; suivre la progression (l'argument du « rien à cacher », sa critique, le refus de l'abandon volontaire, la sécurité comme condition de la liberté, le déplacement vers « qui garde la main ? ») ; aucune opinion ; reformulation fidèle."
         },
@@ -107,10 +175,26 @@
           "consigne": "Vous développerez ensuite un point de vue personnel, nuancé et argumenté sur la question : « Jusqu'où peut-on limiter la liberté au nom de la sécurité ? » Vous le défendrez dans un débat avec l'examinateur. (environ 15 minutes)",
           "points": 22,
           "rubric": [
-            { "id": "pv-developpe", "label": "Point de vue personnel développé et argumenté", "points": 6 },
-            { "id": "pv-defendre", "label": "Capacité à défendre, nuancer et réagir dans le débat", "points": 6 },
-            { "id": "pv-langue", "label": "Richesse et précision de la langue", "points": 6 },
-            { "id": "pv-aisance", "label": "Aisance, fluidité et interaction", "points": 4 }
+            {
+              "id": "pv-developpe",
+              "label": "Point de vue personnel développé et argumenté",
+              "points": 6
+            },
+            {
+              "id": "pv-defendre",
+              "label": "Capacité à défendre, nuancer et réagir dans le débat",
+              "points": 6
+            },
+            {
+              "id": "pv-langue",
+              "label": "Richesse et précision de la langue",
+              "points": 6
+            },
+            {
+              "id": "pv-aisance",
+              "label": "Aisance, fluidité et interaction",
+              "points": 4
+            }
           ],
           "modelAnswer": "Points attendus : position nuancée avec exemples (surveillance, données, état d'urgence, contre-pouvoirs) ; argumentation qui dépasse le faux dilemme ; concessions et relances ; lexique abstrait précis, syntaxe complexe, fluidité."
         }
@@ -135,55 +219,110 @@
               "id": "ec-q1",
               "prompt": "Que laisse chacun de nos gestes numériques, selon le document 1 ?",
               "options": [
-                { "id": "a", "text": "Une trace" },
-                { "id": "b", "text": "De l'argent" },
-                { "id": "c", "text": "Rien du tout" }
+                {
+                  "id": "a",
+                  "text": "Une trace"
+                },
+                {
+                  "id": "b",
+                  "text": "De l'argent"
+                },
+                {
+                  "id": "c",
+                  "text": "Rien du tout"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             },
             {
               "id": "ec-q2",
               "prompt": "Pourquoi ces données valent-elles « de l'or » ?",
               "options": [
-                { "id": "a", "text": "Elles permettent des services personnalisés" },
-                { "id": "b", "text": "Elles sont extrêmement rares" },
-                { "id": "c", "text": "Elles sont toujours fausses" }
+                {
+                  "id": "a",
+                  "text": "Elles permettent des services personnalisés"
+                },
+                {
+                  "id": "b",
+                  "text": "Elles sont extrêmement rares"
+                },
+                {
+                  "id": "c",
+                  "text": "Elles sont toujours fausses"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             },
             {
               "id": "ec-q3",
               "prompt": "Quel échange beaucoup jugent-ils acceptable ?",
               "options": [
-                { "id": "a", "text": "Un peu de vie privée contre beaucoup de confort" },
-                { "id": "b", "text": "De l'argent contre du temps libre" },
-                { "id": "c", "text": "Du travail contre des données" }
+                {
+                  "id": "a",
+                  "text": "Un peu de vie privée contre beaucoup de confort"
+                },
+                {
+                  "id": "b",
+                  "text": "De l'argent contre du temps libre"
+                },
+                {
+                  "id": "c",
+                  "text": "Du travail contre des données"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             },
             {
               "id": "ec-q4",
               "prompt": "Que signifie « si le service est gratuit, c'est que le produit, c'est nous » ?",
               "options": [
-                { "id": "a", "text": "Nos données personnelles sont la vraie marchandise" },
-                { "id": "b", "text": "Les services sont en réalité trop chers" },
-                { "id": "c", "text": "Rien n'est jamais gratuit pour l'entreprise" }
+                {
+                  "id": "a",
+                  "text": "Nos données personnelles sont la vraie marchandise"
+                },
+                {
+                  "id": "b",
+                  "text": "Les services sont en réalité trop chers"
+                },
+                {
+                  "id": "c",
+                  "text": "Rien n'est jamais gratuit pour l'entreprise"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 4
             },
             {
               "id": "ec-q5",
               "prompt": "Selon le document 2, à quoi revient renoncer à sa vie privée ?",
               "options": [
-                { "id": "a", "text": "À renoncer à une part de sa liberté" },
-                { "id": "b", "text": "À gagner beaucoup de temps" },
-                { "id": "c", "text": "À devenir plus riche" }
+                {
+                  "id": "a",
+                  "text": "À renoncer à une part de sa liberté"
+                },
+                {
+                  "id": "b",
+                  "text": "À gagner beaucoup de temps"
+                },
+                {
+                  "id": "c",
+                  "text": "À devenir plus riche"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             }
           ]
@@ -198,12 +337,36 @@
           "minWords": 600,
           "points": 34,
           "rubric": [
-            { "id": "ec-consigne", "label": "Respect de la consigne (genre, longueur, titre)", "points": 4 },
-            { "id": "ec-dossier-expl", "label": "Exploitation pertinente du dossier", "points": 6 },
-            { "id": "ec-argum", "label": "Capacité à argumenter et à structurer une pensée complexe", "points": 8 },
-            { "id": "ec-style", "label": "Registre, ton et style adaptés au genre", "points": 5 },
-            { "id": "ec-lex", "label": "Étendue et précision lexicales", "points": 5 },
-            { "id": "ec-gram", "label": "Correction grammaticale et maîtrise de la langue", "points": 6 }
+            {
+              "id": "ec-consigne",
+              "label": "Respect de la consigne (genre, longueur, titre)",
+              "points": 4
+            },
+            {
+              "id": "ec-dossier-expl",
+              "label": "Exploitation pertinente du dossier",
+              "points": 6
+            },
+            {
+              "id": "ec-argum",
+              "label": "Capacité à argumenter et à structurer une pensée complexe",
+              "points": 8
+            },
+            {
+              "id": "ec-style",
+              "label": "Registre, ton et style adaptés au genre",
+              "points": 5
+            },
+            {
+              "id": "ec-lex",
+              "label": "Étendue et précision lexicales",
+              "points": 5
+            },
+            {
+              "id": "ec-gram",
+              "label": "Correction grammaticale et maîtrise de la langue",
+              "points": 6
+            }
           ],
           "modelAnswer": "Points attendus (≈700 mots) : un titre ; une introduction problématisée (le confort vaut-il l'abandon de la vie privée ?) ; un développement qui exploite et dépasse le dossier (l'échange apparent données/services, ses dangers réels, la fiction du consentement libre, les pistes : régulation, sobriété numérique, droits) ; exemples ; conclusion personnelle. Style soutenu, lexique riche, syntaxe maîtrisée, aucune copie."
         }

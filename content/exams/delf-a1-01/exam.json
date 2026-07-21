@@ -25,27 +25,50 @@
           "voice": "henri",
           "listens": 2,
           "transcript": "Mesdames et messieurs, votre attention s'il vous plaît. Le train numéro 8412 à destination de Marseille partira à quatorze heures trente, voie B. Nous vous souhaitons un bon voyage.",
+          "transcriptEn": "Ladies and gentlemen, your attention please. Train number 8412 to Marseille will depart at 2:30 p.m. from platform B. We wish you a pleasant journey.",
           "questions": [
             {
               "id": "co1-q1",
               "prompt": "Quelle est la destination du train ?",
               "options": [
-                { "id": "a", "text": "Marseille" },
-                { "id": "b", "text": "Lyon" },
-                { "id": "c", "text": "Paris" }
+                {
+                  "id": "a",
+                  "text": "Marseille"
+                },
+                {
+                  "id": "b",
+                  "text": "Lyon"
+                },
+                {
+                  "id": "c",
+                  "text": "Paris"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             },
             {
               "id": "co1-q2",
               "prompt": "À quelle heure part le train ?",
               "options": [
-                { "id": "a", "text": "À 4 h 30" },
-                { "id": "b", "text": "À 14 h 30" },
-                { "id": "c", "text": "À 14 h 13" }
+                {
+                  "id": "a",
+                  "text": "À 4 h 30"
+                },
+                {
+                  "id": "b",
+                  "text": "À 14 h 30"
+                },
+                {
+                  "id": "c",
+                  "text": "À 14 h 13"
+                }
               ],
-              "correct": ["b"],
+              "correct": [
+                "b"
+              ],
               "points": 2
             }
           ]
@@ -57,38 +80,72 @@
           "voice": "henri",
           "listens": 2,
           "transcript": "Bonjour, c'est Marc. On se retrouve demain au café de la gare, à midi. Apporte ton livre d'anglais, s'il te plaît. À demain !",
+          "transcriptEn": "Hi, it's Marc. We're meeting tomorrow at the station café, at noon. Bring your English book, please. See you tomorrow!",
           "questions": [
             {
               "id": "co2-q1",
               "prompt": "Qui laisse le message ?",
               "options": [
-                { "id": "a", "text": "Marc" },
-                { "id": "b", "text": "Paul" },
-                { "id": "c", "text": "Léa" }
+                {
+                  "id": "a",
+                  "text": "Marc"
+                },
+                {
+                  "id": "b",
+                  "text": "Paul"
+                },
+                {
+                  "id": "c",
+                  "text": "Léa"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             },
             {
               "id": "co2-q2",
               "prompt": "Où se retrouvent-ils ?",
               "options": [
-                { "id": "a", "text": "À l'école" },
-                { "id": "b", "text": "Au café de la gare" },
-                { "id": "c", "text": "Chez Marc" }
+                {
+                  "id": "a",
+                  "text": "À l'école"
+                },
+                {
+                  "id": "b",
+                  "text": "Au café de la gare"
+                },
+                {
+                  "id": "c",
+                  "text": "Chez Marc"
+                }
               ],
-              "correct": ["b"],
+              "correct": [
+                "b"
+              ],
               "points": 2
             },
             {
               "id": "co2-q3",
               "prompt": "Que doit apporter la personne ?",
               "options": [
-                { "id": "a", "text": "Un livre d'anglais" },
-                { "id": "b", "text": "Un stylo" },
-                { "id": "c", "text": "Un gâteau" }
+                {
+                  "id": "a",
+                  "text": "Un livre d'anglais"
+                },
+                {
+                  "id": "b",
+                  "text": "Un stylo"
+                },
+                {
+                  "id": "c",
+                  "text": "Un gâteau"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             }
           ]
@@ -100,27 +157,50 @@
           "voice": "denise",
           "listens": 2,
           "transcript": "Aujourd'hui, il fait beau sur toute la France. Cet après-midi, le soleil brille et il fait chaud. Mais attention : demain, il va pleuvoir. N'oubliez pas votre parapluie !",
+          "transcriptEn": "Today the weather is fine across the whole of France. This afternoon the sun is shining and it's hot. But watch out: tomorrow it's going to rain. Don't forget your umbrella!",
           "questions": [
             {
               "id": "co3-q1",
               "prompt": "Quel temps fait-il aujourd'hui ?",
               "options": [
-                { "id": "a", "text": "Il fait beau" },
-                { "id": "b", "text": "Il pleut" },
-                { "id": "c", "text": "Il neige" }
+                {
+                  "id": "a",
+                  "text": "Il fait beau"
+                },
+                {
+                  "id": "b",
+                  "text": "Il pleut"
+                },
+                {
+                  "id": "c",
+                  "text": "Il neige"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             },
             {
               "id": "co3-q2",
               "prompt": "Quel temps fera-t-il demain ?",
               "options": [
-                { "id": "a", "text": "Il va neiger" },
-                { "id": "b", "text": "Il va pleuvoir" },
-                { "id": "c", "text": "Il fera très chaud" }
+                {
+                  "id": "a",
+                  "text": "Il va neiger"
+                },
+                {
+                  "id": "b",
+                  "text": "Il va pleuvoir"
+                },
+                {
+                  "id": "c",
+                  "text": "Il fera très chaud"
+                }
               ],
-              "correct": ["b"],
+              "correct": [
+                "b"
+              ],
               "points": 3
             }
           ]
@@ -132,49 +212,94 @@
           "voice": "denise",
           "listens": 2,
           "transcript": "— Bonjour madame, je voudrais une baguette et deux croissants, s'il vous plaît. — Voilà. Ça fait trois euros vingt. — Voici cinq euros. — Merci, et voici votre monnaie. Bonne journée !",
+          "transcriptEn": "— Hello madam, I'd like a baguette and two croissants, please. — Here you are. That's three euros twenty. — Here's five euros. — Thank you, and here's your change. Have a nice day!",
           "questions": [
             {
               "id": "co4-q1",
               "prompt": "Où se passe la scène ?",
               "options": [
-                { "id": "a", "text": "À la boulangerie" },
-                { "id": "b", "text": "À la pharmacie" },
-                { "id": "c", "text": "Au restaurant" }
+                {
+                  "id": "a",
+                  "text": "À la boulangerie"
+                },
+                {
+                  "id": "b",
+                  "text": "À la pharmacie"
+                },
+                {
+                  "id": "c",
+                  "text": "Au restaurant"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             },
             {
               "id": "co4-q2",
               "prompt": "Qu'est-ce que le client achète ?",
               "options": [
-                { "id": "a", "text": "Une baguette et deux croissants" },
-                { "id": "b", "text": "Un gâteau au chocolat" },
-                { "id": "c", "text": "Du pain de mie" }
+                {
+                  "id": "a",
+                  "text": "Une baguette et deux croissants"
+                },
+                {
+                  "id": "b",
+                  "text": "Un gâteau au chocolat"
+                },
+                {
+                  "id": "c",
+                  "text": "Du pain de mie"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             },
             {
               "id": "co4-q3",
               "prompt": "Combien le client paie-t-il ?",
               "options": [
-                { "id": "a", "text": "3,20 €" },
-                { "id": "b", "text": "5,00 €" },
-                { "id": "c", "text": "2,30 €" }
+                {
+                  "id": "a",
+                  "text": "3,20 €"
+                },
+                {
+                  "id": "b",
+                  "text": "5,00 €"
+                },
+                {
+                  "id": "c",
+                  "text": "2,30 €"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             },
             {
               "id": "co4-q4",
               "prompt": "Comment paie-t-il ?",
               "options": [
-                { "id": "a", "text": "Avec un billet de cinq euros" },
-                { "id": "b", "text": "Avec une carte bancaire" },
-                { "id": "c", "text": "Avec de la monnaie" }
+                {
+                  "id": "a",
+                  "text": "Avec un billet de cinq euros"
+                },
+                {
+                  "id": "b",
+                  "text": "Avec une carte bancaire"
+                },
+                {
+                  "id": "c",
+                  "text": "Avec de la monnaie"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             }
           ]
@@ -202,33 +327,66 @@
               "id": "ce1-q1",
               "prompt": "Quels jours la bibliothèque est-elle fermée ?",
               "options": [
-                { "id": "a", "text": "Le dimanche et le lundi" },
-                { "id": "b", "text": "Le samedi" },
-                { "id": "c", "text": "Le mardi" }
+                {
+                  "id": "a",
+                  "text": "Le dimanche et le lundi"
+                },
+                {
+                  "id": "b",
+                  "text": "Le samedi"
+                },
+                {
+                  "id": "c",
+                  "text": "Le mardi"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             },
             {
               "id": "ce1-q2",
               "prompt": "À quelle heure ouvre la bibliothèque ?",
               "options": [
-                { "id": "a", "text": "À 8 h" },
-                { "id": "b", "text": "À 10 h" },
-                { "id": "c", "text": "À 18 h" }
+                {
+                  "id": "a",
+                  "text": "À 8 h"
+                },
+                {
+                  "id": "b",
+                  "text": "À 10 h"
+                },
+                {
+                  "id": "c",
+                  "text": "À 18 h"
+                }
               ],
-              "correct": ["b"],
+              "correct": [
+                "b"
+              ],
               "points": 2
             },
             {
               "id": "ce1-q3",
               "prompt": "Pour qui le prêt est-il gratuit ?",
               "options": [
-                { "id": "a", "text": "Pour les moins de 18 ans" },
-                { "id": "b", "text": "Pour tout le monde" },
-                { "id": "c", "text": "Pour les adultes" }
+                {
+                  "id": "a",
+                  "text": "Pour les moins de 18 ans"
+                },
+                {
+                  "id": "b",
+                  "text": "Pour tout le monde"
+                },
+                {
+                  "id": "c",
+                  "text": "Pour les adultes"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             }
           ]
@@ -242,33 +400,66 @@
               "id": "ce2-q1",
               "prompt": "Qui écrit le message ?",
               "options": [
-                { "id": "a", "text": "Emma" },
-                { "id": "b", "text": "Julie" },
-                { "id": "c", "text": "Marc" }
+                {
+                  "id": "a",
+                  "text": "Emma"
+                },
+                {
+                  "id": "b",
+                  "text": "Julie"
+                },
+                {
+                  "id": "c",
+                  "text": "Marc"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             },
             {
               "id": "ce2-q2",
               "prompt": "Quand est l'anniversaire ?",
               "options": [
-                { "id": "a", "text": "Samedi prochain" },
-                { "id": "b", "text": "Dimanche" },
-                { "id": "c", "text": "Aujourd'hui" }
+                {
+                  "id": "a",
+                  "text": "Samedi prochain"
+                },
+                {
+                  "id": "b",
+                  "text": "Dimanche"
+                },
+                {
+                  "id": "c",
+                  "text": "Aujourd'hui"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             },
             {
               "id": "ce2-q3",
               "prompt": "Que demande Emma à la fin du message ?",
               "options": [
-                { "id": "a", "text": "De répondre vite" },
-                { "id": "b", "text": "D'apporter un gâteau" },
-                { "id": "c", "text": "De venir à 18 h" }
+                {
+                  "id": "a",
+                  "text": "De répondre vite"
+                },
+                {
+                  "id": "b",
+                  "text": "D'apporter un gâteau"
+                },
+                {
+                  "id": "c",
+                  "text": "De venir à 18 h"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             }
           ]
@@ -282,22 +473,44 @@
               "id": "ce3-q1",
               "prompt": "Que demande Léo à sa mère ?",
               "options": [
-                { "id": "a", "text": "D'acheter du lait, du pain et des pommes" },
-                { "id": "b", "text": "De préparer le dîner" },
-                { "id": "c", "text": "De venir le chercher à l'école" }
+                {
+                  "id": "a",
+                  "text": "D'acheter du lait, du pain et des pommes"
+                },
+                {
+                  "id": "b",
+                  "text": "De préparer le dîner"
+                },
+                {
+                  "id": "c",
+                  "text": "De venir le chercher à l'école"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             },
             {
               "id": "ce3-q2",
               "prompt": "Où la mère doit-elle aller ?",
               "options": [
-                { "id": "a", "text": "Au supermarché" },
-                { "id": "b", "text": "À la pharmacie" },
-                { "id": "c", "text": "À l'école" }
+                {
+                  "id": "a",
+                  "text": "Au supermarché"
+                },
+                {
+                  "id": "b",
+                  "text": "À la pharmacie"
+                },
+                {
+                  "id": "c",
+                  "text": "À l'école"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             }
           ]
@@ -311,33 +524,66 @@
               "id": "ce4-q1",
               "prompt": "Qu'est-ce qui est à vendre ?",
               "options": [
-                { "id": "a", "text": "Un vélo" },
-                { "id": "b", "text": "Une voiture" },
-                { "id": "c", "text": "Une moto" }
+                {
+                  "id": "a",
+                  "text": "Un vélo"
+                },
+                {
+                  "id": "b",
+                  "text": "Une voiture"
+                },
+                {
+                  "id": "c",
+                  "text": "Une moto"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             },
             {
               "id": "ce4-q2",
               "prompt": "Combien coûte-t-il ?",
               "options": [
-                { "id": "a", "text": "80 euros" },
-                { "id": "b", "text": "18 euros" },
-                { "id": "c", "text": "800 euros" }
+                {
+                  "id": "a",
+                  "text": "80 euros"
+                },
+                {
+                  "id": "b",
+                  "text": "18 euros"
+                },
+                {
+                  "id": "c",
+                  "text": "800 euros"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             },
             {
               "id": "ce4-q3",
               "prompt": "Quand peut-on contacter Thomas ?",
               "options": [
-                { "id": "a", "text": "Le week-end" },
-                { "id": "b", "text": "Le matin très tôt" },
-                { "id": "c", "text": "La nuit" }
+                {
+                  "id": "a",
+                  "text": "Le week-end"
+                },
+                {
+                  "id": "b",
+                  "text": "Le matin très tôt"
+                },
+                {
+                  "id": "c",
+                  "text": "La nuit"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             }
           ]
@@ -363,8 +609,16 @@
           "consigne": "Vous voulez vous inscrire à la médiathèque de votre ville. Complétez la fiche d'inscription avec VOS informations. Écrivez : Nom, Prénom, Âge, Nationalité, Adresse, Ville, Numéro de téléphone, Adresse e-mail, Activité préférée.",
           "points": 10,
           "rubric": [
-            { "id": "r-complet", "label": "Peut compléter une fiche (toutes les informations demandées)", "points": 6 },
-            { "id": "r-ortho", "label": "Orthographe lexicale", "points": 4 }
+            {
+              "id": "r-complet",
+              "label": "Peut compléter une fiche (toutes les informations demandées)",
+              "points": 6
+            },
+            {
+              "id": "r-ortho",
+              "label": "Orthographe lexicale",
+              "points": 4
+            }
           ],
           "modelAnswer": "Modèle :\nNom : MARTIN\nPrénom : Claire\nÂge : 14 ans\nNationalité : française\nAdresse : 12, rue des Lilas\nVille : Toulouse\nTéléphone : 06 11 22 33 44\nE-mail : claire.martin@email.fr\nActivité préférée : la lecture\n\nPoints attendus : toutes les rubriques complétées avec des informations cohérentes et lisibles."
         },
@@ -376,10 +630,26 @@
           "minWords": 40,
           "points": 15,
           "rubric": [
-            { "id": "r-consigne", "label": "Respect de la consigne (lieu, activités, météo)", "points": 5 },
-            { "id": "r-phrases", "label": "Peut écrire des phrases simples", "points": 4 },
-            { "id": "r-lex", "label": "Lexique de la vie quotidienne", "points": 3 },
-            { "id": "r-morpho", "label": "Morphosyntaxe (articles, accords simples)", "points": 3 }
+            {
+              "id": "r-consigne",
+              "label": "Respect de la consigne (lieu, activités, météo)",
+              "points": 5
+            },
+            {
+              "id": "r-phrases",
+              "label": "Peut écrire des phrases simples",
+              "points": 4
+            },
+            {
+              "id": "r-lex",
+              "label": "Lexique de la vie quotidienne",
+              "points": 3
+            },
+            {
+              "id": "r-morpho",
+              "label": "Morphosyntaxe (articles, accords simples)",
+              "points": 3
+            }
           ],
           "modelAnswer": "Modèle (≈45 mots) :\n\nChère Léa,\n\nJe suis en vacances à Nice, au bord de la mer. C'est magnifique ! Le matin, je nage et l'après-midi, je visite la ville. Il fait très beau et très chaud. Je mange beaucoup de glaces !\n\nÀ bientôt,\nBisous, Sofia\n\nPoints attendus : une formule d'appel et de fin ; le lieu ; deux activités ; la météo ; des phrases simples au présent."
         }
@@ -404,10 +674,26 @@
           "consigne": "Répondez aux questions de l'examinateur : Comment vous appelez-vous ? Quel âge avez-vous ? Où habitez-vous ? Quelles sont vos activités préférées ? (1 à 2 minutes)",
           "points": 8,
           "rubric": [
-            { "id": "po1-presenter", "label": "Peut se présenter et donner des informations sur soi", "points": 3 },
-            { "id": "po1-repondre", "label": "Peut répondre à des questions simples", "points": 2 },
-            { "id": "po-ens-lex1", "label": "Lexique — ensemble de l'épreuve", "points": 2 },
-            { "id": "po-ens-phono1", "label": "Phonétique — ensemble de l'épreuve", "points": 1 }
+            {
+              "id": "po1-presenter",
+              "label": "Peut se présenter et donner des informations sur soi",
+              "points": 3
+            },
+            {
+              "id": "po1-repondre",
+              "label": "Peut répondre à des questions simples",
+              "points": 2
+            },
+            {
+              "id": "po-ens-lex1",
+              "label": "Lexique — ensemble de l'épreuve",
+              "points": 2
+            },
+            {
+              "id": "po-ens-phono1",
+              "label": "Phonétique — ensemble de l'épreuve",
+              "points": 1
+            }
           ],
           "modelAnswer": "Points attendus : dire son nom, son âge, sa ville, ses loisirs ; répondre par des phrases (pas un seul mot) ; utiliser « je m'appelle… », « j'ai … ans », « j'habite à… », « j'aime… »."
         },
@@ -418,9 +704,21 @@
           "consigne": "À partir de mots-clés (Sport ? Famille ? Ville ? Âge ? Animal ?), posez des questions simples à l'examinateur, une question par mot. (2 minutes)",
           "points": 8,
           "rubric": [
-            { "id": "po2-questions", "label": "Peut poser des questions simples à partir de mots", "points": 4 },
-            { "id": "po-ens-morpho2", "label": "Morphosyntaxe (forme des questions) — ensemble", "points": 2 },
-            { "id": "po-ens-lex2", "label": "Lexique — ensemble de l'épreuve", "points": 2 }
+            {
+              "id": "po2-questions",
+              "label": "Peut poser des questions simples à partir de mots",
+              "points": 4
+            },
+            {
+              "id": "po-ens-morpho2",
+              "label": "Morphosyntaxe (forme des questions) — ensemble",
+              "points": 2
+            },
+            {
+              "id": "po-ens-lex2",
+              "label": "Lexique — ensemble de l'épreuve",
+              "points": 2
+            }
           ],
           "modelAnswer": "Points attendus : transformer chaque mot en question correcte — « Est-ce que vous faites du sport ? », « Vous avez des frères et sœurs ? », « Où habitez-vous ? », « Quel âge avez-vous ? », « Avez-vous un animal ? ». Intonation montante des questions."
         },
@@ -431,9 +729,21 @@
           "consigne": "Vous êtes dans un magasin. Vous achetez un cadeau pour un ami : vous demandez le prix, vous choisissez, et vous payez. L'examinateur joue le vendeur. (2 minutes)",
           "points": 9,
           "rubric": [
-            { "id": "po3-situation", "label": "Peut jouer la situation (acheter, choisir)", "points": 3 },
-            { "id": "po3-politesse", "label": "Peut demander le prix et utiliser les formules de politesse", "points": 3 },
-            { "id": "po-ens-aisance3", "label": "Aisance et prononciation — ensemble de l'épreuve", "points": 3 }
+            {
+              "id": "po3-situation",
+              "label": "Peut jouer la situation (acheter, choisir)",
+              "points": 3
+            },
+            {
+              "id": "po3-politesse",
+              "label": "Peut demander le prix et utiliser les formules de politesse",
+              "points": 3
+            },
+            {
+              "id": "po-ens-aisance3",
+              "label": "Aisance et prononciation — ensemble de l'épreuve",
+              "points": 3
+            }
           ],
           "modelAnswer": "Points attendus : saluer ; demander un objet (« Je voudrais… ») ; demander le prix (« Combien ça coûte ? ») ; payer et remercier (« Voici… », « Merci, au revoir »). Utiliser « s'il vous plaît » et le vouvoiement."
         }

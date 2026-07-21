@@ -25,60 +25,116 @@
           "voice": "henri",
           "listens": 1,
           "transcript": "Bienvenue dans notre émission. Notre invité aujourd'hui est Julien Mercier, journaliste, spécialiste de la vérification des informations. Julien, on parle beaucoup de fausses informations. De quoi s'agit-il exactement ? — Une fausse information, ou infox, c'est une information inventée ou déformée, présentée comme vraie, et qui se diffuse très vite, surtout sur les réseaux sociaux. — Pourquoi se propagent-elles si vite ? — Parce qu'elles jouent sur les émotions. Une nouvelle choquante ou révoltante donne envie de la partager immédiatement, souvent sans la vérifier. C'est très humain. — Et qui les fabrique ? — Cela peut être pour gagner de l'argent, car les clics rapportent de la publicité. Mais parfois, c'est pour influencer l'opinion, par exemple pendant une élection. — Comment se protéger, alors ? — Trois réflexes simples. D'abord, vérifier la source : qui publie cette information ? Ensuite, croiser les sources : est-ce que d'autres médias sérieux en parlent ? Enfin, se méfier de ce qui provoque une émotion trop forte. — Et l'école dans tout ça ? — L'école a un rôle essentiel : apprendre aux jeunes à s'informer, c'est aussi important que de leur apprendre à lire. — Merci Julien pour ces conseils.",
+          "transcriptEn": "Welcome to our programme. Our guest today is Julien Mercier, a journalist specialising in fact-checking. Julien, there's a lot of talk about false information. What exactly is it? — A false piece of information, or 'infox', is information that's invented or distorted, presented as true, and that spreads very fast, especially on social media. — Why do they spread so quickly? — Because they play on emotions. A shocking or outrageous piece of news makes you want to share it immediately, often without checking it. It's very human. — And who makes them? — It can be to make money, since clicks bring in advertising. But sometimes it's to influence opinion, for example during an election. — So how do we protect ourselves? — Three simple reflexes. First, check the source: who is publishing this information? Then, cross-check sources: are other serious media covering it? Finally, be wary of anything that provokes too strong an emotion. — And what about school in all this? — School has an essential role: teaching young people how to inform themselves is as important as teaching them to read. — Thank you, Julien, for the advice.",
           "questions": [
             {
               "id": "co1-q1",
               "prompt": "Quel est le métier de l'invité ?",
               "options": [
-                { "id": "a", "text": "Journaliste" },
-                { "id": "b", "text": "Professeur" },
-                { "id": "c", "text": "Informaticien" }
+                {
+                  "id": "a",
+                  "text": "Journaliste"
+                },
+                {
+                  "id": "b",
+                  "text": "Professeur"
+                },
+                {
+                  "id": "c",
+                  "text": "Informaticien"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             },
             {
               "id": "co1-q2",
               "prompt": "Qu'est-ce qu'une « infox » ?",
               "options": [
-                { "id": "a", "text": "Une information inventée présentée comme vraie" },
-                { "id": "b", "text": "Une publicité à la télévision" },
-                { "id": "c", "text": "Un nouveau réseau social" }
+                {
+                  "id": "a",
+                  "text": "Une information inventée présentée comme vraie"
+                },
+                {
+                  "id": "b",
+                  "text": "Une publicité à la télévision"
+                },
+                {
+                  "id": "c",
+                  "text": "Un nouveau réseau social"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             },
             {
               "id": "co1-q3",
               "prompt": "Pourquoi les fausses informations se propagent-elles vite ?",
               "options": [
-                { "id": "a", "text": "Parce qu'elles jouent sur les émotions" },
-                { "id": "b", "text": "Parce qu'elles sont très longues" },
-                { "id": "c", "text": "Parce qu'elles sont payantes" }
+                {
+                  "id": "a",
+                  "text": "Parce qu'elles jouent sur les émotions"
+                },
+                {
+                  "id": "b",
+                  "text": "Parce qu'elles sont très longues"
+                },
+                {
+                  "id": "c",
+                  "text": "Parce qu'elles sont payantes"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             },
             {
               "id": "co1-q4",
               "prompt": "Quelle peut être une raison de fabriquer une infox ?",
               "options": [
-                { "id": "a", "text": "Gagner de l'argent grâce aux clics" },
-                { "id": "b", "text": "Aider les lecteurs" },
-                { "id": "c", "text": "Faire rire les gens" }
+                {
+                  "id": "a",
+                  "text": "Gagner de l'argent grâce aux clics"
+                },
+                {
+                  "id": "b",
+                  "text": "Aider les lecteurs"
+                },
+                {
+                  "id": "c",
+                  "text": "Faire rire les gens"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             },
             {
               "id": "co1-q5",
               "prompt": "Quel premier réflexe le journaliste conseille-t-il ?",
               "options": [
-                { "id": "a", "text": "Vérifier la source de l'information" },
-                { "id": "b", "text": "Partager le plus vite possible" },
-                { "id": "c", "text": "Supprimer ses comptes" }
+                {
+                  "id": "a",
+                  "text": "Vérifier la source de l'information"
+                },
+                {
+                  "id": "b",
+                  "text": "Partager le plus vite possible"
+                },
+                {
+                  "id": "c",
+                  "text": "Supprimer ses comptes"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             }
           ]
@@ -90,27 +146,50 @@
           "voice": "denise",
           "listens": 2,
           "transcript": "Avis aux amateurs de musique : la médiathèque organise samedi prochain un atelier de découverte des instruments. De dix heures à midi, petits et grands pourront essayer la guitare, le piano et la batterie, accompagnés de musiciens professionnels. C'est entièrement gratuit, mais l'inscription est obligatoire à l'accueil. Attention, les places sont limitées !",
+          "transcriptEn": "Attention music lovers: next Saturday the media library is organising a workshop to discover instruments. From 10 a.m. to noon, young and old can try the guitar, the piano and the drums, accompanied by professional musicians. It's entirely free, but registration at the front desk is required. Careful — places are limited!",
           "questions": [
             {
               "id": "co2-q1",
               "prompt": "Quel atelier la médiathèque organise-t-elle ?",
               "options": [
-                { "id": "a", "text": "Un atelier de découverte des instruments" },
-                { "id": "b", "text": "Un cours de chant" },
-                { "id": "c", "text": "Un grand concert" }
+                {
+                  "id": "a",
+                  "text": "Un atelier de découverte des instruments"
+                },
+                {
+                  "id": "b",
+                  "text": "Un cours de chant"
+                },
+                {
+                  "id": "c",
+                  "text": "Un grand concert"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             },
             {
               "id": "co2-q2",
               "prompt": "Que faut-il faire pour participer ?",
               "options": [
-                { "id": "a", "text": "S'inscrire à l'accueil" },
-                { "id": "b", "text": "Payer dix euros" },
-                { "id": "c", "text": "Apporter son propre instrument" }
+                {
+                  "id": "a",
+                  "text": "S'inscrire à l'accueil"
+                },
+                {
+                  "id": "b",
+                  "text": "Payer dix euros"
+                },
+                {
+                  "id": "c",
+                  "text": "Apporter son propre instrument"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             }
           ]
@@ -122,27 +201,50 @@
           "voice": "denise",
           "listens": 2,
           "transcript": "— Tu es pour l'uniforme à l'école, toi ? — Franchement, oui. Ça éviterait les comparaisons entre les marques de vêtements, et le matin, on perdrait moins de temps à choisir sa tenue. — Moi, je ne suis pas d'accord. Les vêtements, c'est une façon d'exprimer sa personnalité. L'uniforme, c'est triste : tout le monde pareil. — C'est un point de vue. Mais au moins, ce serait plus égalitaire.",
+          "transcriptEn": "— Are you for school uniforms? — Honestly, yes. It would avoid comparisons between clothing brands, and in the morning we'd waste less time choosing an outfit. — I disagree. Clothes are a way of expressing your personality. Uniforms are sad: everyone the same. — That's one point of view. But at least it would be more egalitarian.",
           "questions": [
             {
               "id": "co3-q1",
               "prompt": "Pourquoi la première personne est-elle pour l'uniforme ?",
               "options": [
-                { "id": "a", "text": "Cela éviterait les comparaisons de marques" },
-                { "id": "b", "text": "C'est plus joli" },
-                { "id": "c", "text": "C'est moins cher pour l'école" }
+                {
+                  "id": "a",
+                  "text": "Cela éviterait les comparaisons de marques"
+                },
+                {
+                  "id": "b",
+                  "text": "C'est plus joli"
+                },
+                {
+                  "id": "c",
+                  "text": "C'est moins cher pour l'école"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             },
             {
               "id": "co3-q2",
               "prompt": "Quel argument la deuxième personne donne-t-elle contre l'uniforme ?",
               "options": [
-                { "id": "a", "text": "Les vêtements expriment la personnalité" },
-                { "id": "b", "text": "L'uniforme coûte trop cher" },
-                { "id": "c", "text": "L'uniforme est inconfortable" }
+                {
+                  "id": "a",
+                  "text": "Les vêtements expriment la personnalité"
+                },
+                {
+                  "id": "b",
+                  "text": "L'uniforme coûte trop cher"
+                },
+                {
+                  "id": "c",
+                  "text": "L'uniforme est inconfortable"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             }
           ]
@@ -170,55 +272,110 @@
               "id": "ce1-q1",
               "prompt": "Comment écoutait-on la musique il y a vingt ans ?",
               "options": [
-                { "id": "a", "text": "On achetait des disques" },
-                { "id": "b", "text": "On la téléchargeait gratuitement" },
-                { "id": "c", "text": "On la composait soi-même" }
+                {
+                  "id": "a",
+                  "text": "On achetait des disques"
+                },
+                {
+                  "id": "b",
+                  "text": "On la téléchargeait gratuitement"
+                },
+                {
+                  "id": "c",
+                  "text": "On la composait soi-même"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             },
             {
               "id": "ce1-q2",
               "prompt": "Qu'est-ce qui a changé pour les auditeurs ?",
               "options": [
-                { "id": "a", "text": "Ils accèdent à la musique au lieu de la posséder" },
-                { "id": "b", "text": "Ils paient chaque chanson séparément" },
-                { "id": "c", "text": "Ils écoutent beaucoup moins de musique" }
+                {
+                  "id": "a",
+                  "text": "Ils accèdent à la musique au lieu de la posséder"
+                },
+                {
+                  "id": "b",
+                  "text": "Ils paient chaque chanson séparément"
+                },
+                {
+                  "id": "c",
+                  "text": "Ils écoutent beaucoup moins de musique"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             },
             {
               "id": "ce1-q3",
               "prompt": "Quel avantage le streaming offre-t-il aux artistes inconnus ?",
               "options": [
-                { "id": "a", "text": "Être écoutés dans le monde entier" },
-                { "id": "b", "text": "Gagner immédiatement beaucoup d'argent" },
-                { "id": "c", "text": "Éviter de donner des concerts" }
+                {
+                  "id": "a",
+                  "text": "Être écoutés dans le monde entier"
+                },
+                {
+                  "id": "b",
+                  "text": "Gagner immédiatement beaucoup d'argent"
+                },
+                {
+                  "id": "c",
+                  "text": "Éviter de donner des concerts"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             },
             {
               "id": "ce1-q4",
               "prompt": "Quel inconvénient pour les artistes est mentionné ?",
               "options": [
-                { "id": "a", "text": "Les revenus du streaming sont faibles" },
-                { "id": "b", "text": "Les concerts sont interdits" },
-                { "id": "c", "text": "Les disques coûtent trop cher" }
+                {
+                  "id": "a",
+                  "text": "Les revenus du streaming sont faibles"
+                },
+                {
+                  "id": "b",
+                  "text": "Les concerts sont interdits"
+                },
+                {
+                  "id": "c",
+                  "text": "Les disques coûtent trop cher"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             },
             {
               "id": "ce1-q5",
               "prompt": "Pourquoi beaucoup d'artistes dépendent-ils des concerts ?",
               "options": [
-                { "id": "a", "text": "Pour gagner leur vie" },
-                { "id": "b", "text": "Pour voyager gratuitement" },
-                { "id": "c", "text": "Pour enregistrer leurs disques" }
+                {
+                  "id": "a",
+                  "text": "Pour gagner leur vie"
+                },
+                {
+                  "id": "b",
+                  "text": "Pour voyager gratuitement"
+                },
+                {
+                  "id": "c",
+                  "text": "Pour enregistrer leurs disques"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             }
           ]
@@ -232,55 +389,110 @@
               "id": "ce2-q1",
               "prompt": "Quel est le sujet de l'article ?",
               "options": [
-                { "id": "a", "text": "La gratuité des transports en commun" },
-                { "id": "b", "text": "La construction de nouvelles routes" },
-                { "id": "c", "text": "Le prix de l'essence" }
+                {
+                  "id": "a",
+                  "text": "La gratuité des transports en commun"
+                },
+                {
+                  "id": "b",
+                  "text": "La construction de nouvelles routes"
+                },
+                {
+                  "id": "c",
+                  "text": "Le prix de l'essence"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             },
             {
               "id": "ce2-q2",
               "prompt": "Quel argument écologique est donné ?",
               "options": [
-                { "id": "a", "text": "Davantage de gens laisseront leur voiture" },
-                { "id": "b", "text": "Les bus pollueront moins par construction" },
-                { "id": "c", "text": "Les villes deviendront plus belles" }
+                {
+                  "id": "a",
+                  "text": "Davantage de gens laisseront leur voiture"
+                },
+                {
+                  "id": "b",
+                  "text": "Les bus pollueront moins par construction"
+                },
+                {
+                  "id": "c",
+                  "text": "Les villes deviendront plus belles"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             },
             {
               "id": "ce2-q3",
               "prompt": "Quelle question essentielle posent les opposants ?",
               "options": [
-                { "id": "a", "text": "Qui paie la gratuité ?" },
-                { "id": "b", "text": "Qui conduit les bus ?" },
-                { "id": "c", "text": "Où vont les voyageurs ?" }
+                {
+                  "id": "a",
+                  "text": "Qui paie la gratuité ?"
+                },
+                {
+                  "id": "b",
+                  "text": "Qui conduit les bus ?"
+                },
+                {
+                  "id": "c",
+                  "text": "Où vont les voyageurs ?"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 3
             },
             {
               "id": "ce2-q4",
               "prompt": "Que craignent aussi les opposants ?",
               "options": [
-                { "id": "a", "text": "Un service moins bien entretenu" },
-                { "id": "b", "text": "Trop de voyageurs riches" },
-                { "id": "c", "text": "La disparition des voitures" }
+                {
+                  "id": "a",
+                  "text": "Un service moins bien entretenu"
+                },
+                {
+                  "id": "b",
+                  "text": "Trop de voyageurs riches"
+                },
+                {
+                  "id": "c",
+                  "text": "La disparition des voitures"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             },
             {
               "id": "ce2-q5",
               "prompt": "Quelle est la conclusion de l'auteur ?",
               "options": [
-                { "id": "a", "text": "Tout dépend du contexte" },
-                { "id": "b", "text": "La gratuité est toujours une mauvaise idée" },
-                { "id": "c", "text": "La gratuité est toujours la solution parfaite" }
+                {
+                  "id": "a",
+                  "text": "Tout dépend du contexte"
+                },
+                {
+                  "id": "b",
+                  "text": "La gratuité est toujours une mauvaise idée"
+                },
+                {
+                  "id": "c",
+                  "text": "La gratuité est toujours la solution parfaite"
+                }
               ],
-              "correct": ["a"],
+              "correct": [
+                "a"
+              ],
               "points": 2
             }
           ]
@@ -307,16 +519,56 @@
           "minWords": 250,
           "points": 25,
           "rubric": [
-            { "id": "r-consigne", "label": "Respect de la consigne", "points": 2 },
-            { "id": "r-sociol", "label": "Correction sociolinguistique (registre)", "points": 2 },
-            { "id": "r-faits", "label": "Capacité à présenter des faits", "points": 3 },
-            { "id": "r-argumenter", "label": "Capacité à argumenter", "points": 4 },
-            { "id": "r-coherence", "label": "Cohérence et cohésion", "points": 3 },
-            { "id": "r-lex-etendue", "label": "Étendue du vocabulaire", "points": 2 },
-            { "id": "r-lex-maitrise", "label": "Maîtrise du vocabulaire", "points": 2 },
-            { "id": "r-ortho", "label": "Maîtrise de l'orthographe lexicale", "points": 1 },
-            { "id": "r-temps", "label": "Choix des temps et des modes", "points": 2 },
-            { "id": "r-morpho", "label": "Morphosyntaxe", "points": 4 }
+            {
+              "id": "r-consigne",
+              "label": "Respect de la consigne",
+              "points": 2
+            },
+            {
+              "id": "r-sociol",
+              "label": "Correction sociolinguistique (registre)",
+              "points": 2
+            },
+            {
+              "id": "r-faits",
+              "label": "Capacité à présenter des faits",
+              "points": 3
+            },
+            {
+              "id": "r-argumenter",
+              "label": "Capacité à argumenter",
+              "points": 4
+            },
+            {
+              "id": "r-coherence",
+              "label": "Cohérence et cohésion",
+              "points": 3
+            },
+            {
+              "id": "r-lex-etendue",
+              "label": "Étendue du vocabulaire",
+              "points": 2
+            },
+            {
+              "id": "r-lex-maitrise",
+              "label": "Maîtrise du vocabulaire",
+              "points": 2
+            },
+            {
+              "id": "r-ortho",
+              "label": "Maîtrise de l'orthographe lexicale",
+              "points": 1
+            },
+            {
+              "id": "r-temps",
+              "label": "Choix des temps et des modes",
+              "points": 2
+            },
+            {
+              "id": "r-morpho",
+              "label": "Morphosyntaxe",
+              "points": 4
+            }
           ],
           "modelAnswer": "Points attendus (≈250-280 mots) : titre d'article ; introduction qui pose la question ; développement nuancé (avantages : poids du cartable réduit, ressources interactives et à jour, économies de papier ; inconvénients : fatigue des écrans, distractions, pannes et inégalités d'équipement, perte du contact avec le papier) ; position personnelle claire (par exemple : une solution mixte, papier + numérique) ; conclusion. Connecteurs argumentatifs variés ; registre journalistique ; bonne maîtrise des temps et de la morphosyntaxe."
         }
@@ -342,10 +594,26 @@
           "documentFr": "« Plusieurs pays envisagent d'interdire la création de comptes sur les réseaux sociaux aux moins de quinze ans, afin de protéger les plus jeunes. Mais une telle interdiction est-elle réaliste et réellement efficace ? »",
           "points": 12,
           "rubric": [
-            { "id": "po1-degager", "label": "Peut dégager le problème posé par le document", "points": 3 },
-            { "id": "po1-pdv", "label": "Peut présenter un point de vue construit et illustré", "points": 4 },
-            { "id": "po-ens-lex", "label": "Étendue et maîtrise du lexique — ensemble de l'épreuve", "points": 3 },
-            { "id": "po-ens-phono", "label": "Maîtrise phonologique — ensemble de l'épreuve", "points": 2 }
+            {
+              "id": "po1-degager",
+              "label": "Peut dégager le problème posé par le document",
+              "points": 3
+            },
+            {
+              "id": "po1-pdv",
+              "label": "Peut présenter un point de vue construit et illustré",
+              "points": 4
+            },
+            {
+              "id": "po-ens-lex",
+              "label": "Étendue et maîtrise du lexique — ensemble de l'épreuve",
+              "points": 3
+            },
+            {
+              "id": "po-ens-phono",
+              "label": "Maîtrise phonologique — ensemble de l'épreuve",
+              "points": 2
+            }
           ],
           "modelAnswer": "Points attendus : reformuler la problématique (protéger les jeunes vs faisabilité de l'interdiction) ; annoncer un plan ; présenter un point de vue nuancé avec arguments et exemples (l'intention est bonne, mais l'âge est facile à contourner ; mieux vaut éduquer et responsabiliser les plateformes) ; conclure."
         },
@@ -356,10 +624,26 @@
           "consigne": "L'examinateur va vous poser des questions et défendre parfois un avis contraire. Défendez votre position, nuancez si nécessaire, et réagissez à ses arguments. (environ 10 minutes)",
           "points": 13,
           "rubric": [
-            { "id": "po2-defendre", "label": "Peut défendre et nuancer son point de vue face aux objections", "points": 4 },
-            { "id": "po2-interagir", "label": "Peut interagir, relancer et réagir spontanément", "points": 3 },
-            { "id": "po-ens-morpho", "label": "Morphosyntaxe — ensemble de l'épreuve", "points": 3 },
-            { "id": "po-ens-aisance", "label": "Aisance et fluidité — ensemble de l'épreuve", "points": 3 }
+            {
+              "id": "po2-defendre",
+              "label": "Peut défendre et nuancer son point de vue face aux objections",
+              "points": 4
+            },
+            {
+              "id": "po2-interagir",
+              "label": "Peut interagir, relancer et réagir spontanément",
+              "points": 3
+            },
+            {
+              "id": "po-ens-morpho",
+              "label": "Morphosyntaxe — ensemble de l'épreuve",
+              "points": 3
+            },
+            {
+              "id": "po-ens-aisance",
+              "label": "Aisance et fluidité — ensemble de l'épreuve",
+              "points": 3
+            }
           ],
           "modelAnswer": "Points attendus : répondre précisément aux objections ; concéder ce qui est juste puis rebondir ; relancer par des questions ; rester cohérent tout en nuançant. Marqueurs d'argumentation et d'interaction maîtrisés."
         }
