@@ -6,8 +6,10 @@ import FrogSpot from "../components/FrogSpot";
 
 /**
  * Exam hub — lists the mock papers grouped by exam, with best scores, and
- * credits delfdalf.fr as the format reference (where learners can also find the
- * official sample papers).
+ * credits France Éducation International (the body that runs DELF & DALF) as the
+ * format reference, linking their official diploma + sample-subject pages.
+ * (The old delfdalf.fr link was dropped — that whole domain's TLS certificate
+ * is misconfigured, so every page on it fails to load.)
  */
 export default function ExamHub() {
   const groups = getExamGroups();
@@ -87,18 +89,26 @@ export default function ExamHub() {
       <footer className="rounded-lg border border-ink/15 bg-parchment/60 p-4 text-sm text-ink/70">
         <p>
           <span className="font-semibold">Format reference.</span> Florine's papers are original
-          content built to the authentic post-2020 DELF/DALF format. For the official sample papers,
-          see{" "}
+          content built to the authentic post-2020 format. For the official diplomas and sample
+          subjects, see France Éducation International — the body that runs{" "}
           <a
-            href="https://www.delfdalf.fr/delf-sample-papers.html"
+            href="https://www.france-education-international.fr/diplome/delf-tout-public"
             target="_blank"
             rel="noreferrer noopener"
             className="text-marine underline"
           >
-            delfdalf.fr
+            DELF
           </a>{" "}
-          (© Yann Perrot / France Éducation International) — we credit it as our format reference and
-          never copy its sujets.
+          and{" "}
+          <a
+            href="https://www.france-education-international.fr/diplome/dalf"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="text-marine underline"
+          >
+            DALF
+          </a>
+          . We build to their format and never copy their sujets.
           <FrogSpot slot="exams-footer" className="ml-1 align-middle" />
         </p>
       </footer>

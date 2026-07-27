@@ -8,9 +8,11 @@
  * documents; open sections (PE/PO) are tasks graded after the exam against the
  * official grids (simplified) via self-assessment.
  *
- * Format reference: delfdalf.fr (papers there are © Yann PERROT / France
- * Éducation International — Florine papers are ORIGINAL content in the
- * authentic format; we credit the reference, we never copy it).
+ * Format reference: France Éducation International, the body that runs DELF &
+ * DALF and publishes the official sample subjects. Florine papers are ORIGINAL
+ * content in the authentic format; we credit the reference, we never copy it.
+ * (The format was originally studied via delfdalf.fr, © Yann PERROT, but that
+ * whole domain's TLS cert is broken now, so the app links FEI instead.)
  */
 import { z } from "zod";
 import { skillSchema, voiceSchema } from "../content/schema";
